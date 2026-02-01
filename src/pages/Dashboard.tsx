@@ -64,7 +64,7 @@ const Dashboard = () => {
             { label: "Total Questions", value: GATE_DATA.meta.total_questions.toLocaleString(), icon: BookOpen, color: "text-primary", bg: "bg-primary/10", border: "border-t-primary" },
             { label: "Questions Attempted", value: progress.overall.totalAttempted, icon: Trophy, color: "text-secondary", bg: "bg-secondary/10", border: "border-t-secondary" },
             { label: "Accuracy Rate", value: `${progress.overall.accuracy.toFixed(1)}%`, icon: Target, color: "text-emerald-600", bg: "bg-emerald-100", border: "border-t-emerald-600" },
-            { label: "Study Streak", value: "3 Days", icon: Flame, color: "text-orange-500", bg: "bg-orange-100", border: "border-t-orange-500" }
+            { label: "Study Streak", value: `${progress.studyStreak} Day${progress.studyStreak !== 1 ? 's' : ''}`, icon: Flame, color: "text-orange-500", bg: "bg-orange-100", border: "border-t-orange-500" }
         ].map((stat, i) => (
             <Card key={i} className={`rounded-xl border border-border border-t-4 ${stat.border} bg-card shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group`}>
             <CardContent className="pt-6">
