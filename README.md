@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# GATE Flow - 2026 Prediction & Practice
 
-## Project info
+An AI-powered GATE 2026 preparation platform with intelligent question prediction and practice system.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Features
 
-## How can I edit this code?
+- **Smart Predictions**: AI-powered topic prediction based on 15+ years of GATE patterns
+- **Practice Mode**: Cinema-focus interface for distraction-free question solving
+- **Trend Analysis**: Deep dive into topic frequency and weightage over the years
+- **Progress Tracking**: Track your mastery across all subjects
+- **Bookmarks**: Save important questions for revision
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui
+- **Build Tool**: Vite
+- **Routing**: React Router
+- **State**: React Hooks + LocalStorage
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Install dependencies
+npm install
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 📁 Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+focus-flow/
+├── src/
+│   ├── components/     # UI components
+│   ├── pages/          # Route pages
+│   ├── hooks/          # Custom React hooks
+│   ├── data/           # GATE question data
+│   └── lib/            # Utilities
+├── public/             # Static assets
+└── scripts/            # Python data processing scripts
+```
 
-**Use GitHub Codespaces**
+## 🔧 Data Processing Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `gate_prediction_system.py` - Main prediction algorithm
+- `generate_data_js.py` - Converts Q.json to JS format
+- `fix_qjson.py` - JSON data validation and fixes
 
-## What technologies are used for this project?
+## 📊 Data Files
 
-This project is built with:
+- `Q.json` - Master question database (1476 questions)
+- `elite_predictions_2026.json` - AI predictions for GATE 2026
+- `validation_report.json` - Data quality report
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌐 Deployment
 
-## How can I deploy this project?
+Deployed on Vercel
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 👤 Author
 
-## Can I connect a custom domain to my Lovable project?
+Shreyash
 
-Yes, you can!
+## 📝 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT License
