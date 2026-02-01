@@ -74,7 +74,7 @@ export const QuestionPalette = ({
       </div>
 
       {/* Progress bar */}
-      <div className="h-2 bg-muted rounded-full overflow-hidden mb-4">
+      <div className="h-1.5 bg-muted rounded-sm overflow-hidden mb-4 border border-border/50">
         <div 
           className="h-full bg-primary transition-all duration-300"
           style={{ width: `${(stats.answered / stats.total) * 100}%` }}

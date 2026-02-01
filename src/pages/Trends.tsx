@@ -35,9 +35,24 @@ const Trends = () => {
   const subjects = getAllSubjects();
   const subjectStats = getSubjectStats();
 
+  // Transform by_topic array into subject-keyed structure
+  const trendsBySubject = useMemo(() => {
+    const byTopicArray = GATE_DATA.trends?.by_topic || [];
+    const result: { [subject: string]: { [topic: string]: { [year: string]: number } } } = {};
+    
+    byTopicArray.forEach((item: any) => {
+      if (!result[item.subject]) {
+        result[item.subject] = {};
+      }
+      result[item.subject][item.topic] = item.year_counts || {};
+    });
+    
+    return result;
+  }, []);
+
   // Get trends data for selected subject
   const trendData = useMemo(() => {
-    const subjectTrends = GATE_DATA.trends[selectedSubject];
+    const subjectTrends = trendsBySubject[selectedSubject];
     if (!subjectTrends) return [];
 
     const years = GATE_DATA.meta.years_covered;
@@ -58,7 +73,7 @@ const Trends = () => {
       
       return yearData;
     });
-  }, [selectedSubject]);
+  }, [selectedSubject, trendsBySubject]);
 
   // Subject distribution for pie chart
   const subjectDistributionData = useMemo(() => {
@@ -72,7 +87,7 @@ const Trends = () => {
 
   // Top topics for selected subject
   const topTopics = useMemo(() => {
-    const subjectTrends = GATE_DATA.trends[selectedSubject];
+    const subjectTrends = trendsBySubject[selectedSubject];
     if (!subjectTrends) return [];
 
     return Object.entries(subjectTrends)
@@ -83,13 +98,13 @@ const Trends = () => {
       }))
       .sort((a, b) => b.total - a.total)
       .slice(0, 10);
-  }, [selectedSubject]);
+  }, [selectedSubject, trendsBySubject]);
 
   // Custom tooltip
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (active && payload && payload.length) {
       return (
-        <div className="bg-popover border border-border rounded-lg p-3 shadow-lg">
+        <div className="bg-popover border border-border rounded-sm p-3 shadow-sm font-mono text-xs">
           <p className="font-medium mb-1">GATE {label}</p>
           <p className="text-sm text-muted-foreground">
             Total: {payload[0]?.payload.total} questions
@@ -209,7 +224,7 @@ const Trends = () => {
                       if (active && payload && payload.length) {
                         const data = payload[0].payload;
                         return (
-                          <div className="bg-popover border border-border rounded-lg p-3 shadow-lg">
+                          <div className="bg-popover border border-border rounded-sm p-3 shadow-sm font-mono text-xs">
                             <p className="font-medium">{data.topic}</p>
                             <p className="text-sm text-muted-foreground">
                               Total: {data.total} questions
@@ -267,7 +282,7 @@ const Trends = () => {
                       if (active && payload && payload.length) {
                         const data = payload[0].payload;
                         return (
-                          <div className="bg-popover border border-border rounded-lg p-3 shadow-lg">
+                          <div className="bg-popover border border-border rounded-sm p-3 shadow-sm font-mono text-xs">
                             <p className="font-medium">{data.fullName}</p>
                             <p className="text-sm text-muted-foreground">
                               {data.value} questions

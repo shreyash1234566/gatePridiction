@@ -52,6 +52,19 @@ export interface SubjectQuestions {
   [topic: string]: Question[];
 }
 
+export interface TrendTopicData {
+  subject: string;
+  topic: string;
+  total_appearances: number;
+  unique_years: number[];
+  year_counts: { [year: string]: number };
+  first_seen: number;
+  last_seen: number;
+  avg_per_year: number;
+  trend_direction: string;
+  question_ids: number[];
+}
+
 export interface GateData {
   meta: GateDataMeta;
   predictions_2026: {
@@ -72,12 +85,12 @@ export interface GateData {
     predictions: Prediction[];
   };
   trends: {
-    [subject: string]: SubjectTrends;
+    by_topic: TrendTopicData[];
   };
   questions: {
     all: Question[];
     by_subject: {
-      [subject: string]: SubjectQuestions;
+      [subject: string]: Question[] | SubjectQuestions;
     };
   };
 }
@@ -98,9 +111,17 @@ export const getQuestionsBySubject = (subject: string): Question[] => {
   const subjectData = GATE_DATA.questions.by_subject[subject];
   if (!subjectData) return [];
   
+  // by_subject contains flat arrays of questions, not nested by topic
+  if (Array.isArray(subjectData)) {
+    return subjectData as Question[];
+  }
+  
+  // Fallback: if it's nested by topic (legacy format)
   const questions: Question[] = [];
   Object.values(subjectData).forEach((topicQuestions) => {
-    questions.push(...topicQuestions);
+    if (Array.isArray(topicQuestions)) {
+      questions.push(...topicQuestions);
+    }
   });
   
   return questions;
@@ -110,13 +131,28 @@ export const getQuestionsBySubject = (subject: string): Question[] => {
 export const getQuestionsByTopic = (subject: string, topic: string): Question[] => {
   const subjectData = GATE_DATA.questions.by_subject[subject];
   if (!subjectData) return [];
+  
+  // by_subject contains flat arrays - filter by topic
+  if (Array.isArray(subjectData)) {
+    return subjectData.filter(q => q.topic === topic);
+  }
+  
+  // Fallback: nested by topic (legacy format)
   return subjectData[topic] || [];
 };
 
 // Helper to get unique topics for a subject
 export const getTopicsForSubject = (subject: string): string[] => {
   const subjectData = GATE_DATA.questions.by_subject[subject];
-  return subjectData ? Object.keys(subjectData) : [];
+  if (!subjectData) return [];
+  
+  // by_subject contains flat arrays - extract unique topics
+  if (Array.isArray(subjectData)) {
+    return [...new Set(subjectData.map(q => q.topic))];
+  }
+  
+  // Fallback: nested by topic (legacy format)
+  return Object.keys(subjectData);
 };
 
 // Helper to get predictions sorted by confidence
@@ -147,10 +183,17 @@ export const getPredictionsBySubject = (subject: string): Prediction[] => {
 export const getSubjectStats = () => {
   const stats: { [subject: string]: { total: number; topics: number } } = {};
   
-  Object.entries(GATE_DATA.questions.by_subject).forEach(([subject, topics]) => {
-    const topicCount = Object.keys(topics).length;
-    const totalQuestions = Object.values(topics).reduce((sum, questions) => sum + questions.length, 0);
-    stats[subject] = { total: totalQuestions, topics: topicCount };
+  Object.entries(GATE_DATA.questions.by_subject).forEach(([subject, data]) => {
+    // by_subject contains flat arrays of questions
+    if (Array.isArray(data)) {
+      const uniqueTopics = new Set(data.map(q => q.topic));
+      stats[subject] = { total: data.length, topics: uniqueTopics.size };
+    } else {
+      // Fallback: nested by topic (legacy format)
+      const topicCount = Object.keys(data).length;
+      const totalQuestions = Object.values(data).reduce((sum, questions) => sum + questions.length, 0);
+      stats[subject] = { total: totalQuestions, topics: topicCount };
+    }
   });
   
   return stats;

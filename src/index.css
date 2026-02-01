@@ -1,258 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* 
- * GATE 2026 Study Application - Research-Driven Design System
- * 
- * Color Psychology Research Citations:
- * - Mehta & Zhu (2009): Blue hues enhance cognitive task performance
- * - Xia et al. (2016): Low-saturation warm tones reduce visual fatigue
- * - Legge & Bigelow (2011): High contrast ratios (7:1+) optimize reading
- * 
- * Typography Research Citations:
- * - Dyson & Haselgrove (2001): Serif fonts improve reading comprehension
- * - Beymer et al. (2008): 18-22px optimal for sustained reading
- * - Larson & Picard (2005): 1.6-1.8 line-height reduces cognitive load
- */
-
 @layer base {
   :root {
-    /* Primary: Deep Navy - Research: Blue enhances focus (Mehta & Zhu) */
-    --background: 240 20% 8%;
-    --foreground: 40 20% 90%;
-
-    /* Card surfaces with subtle depth */
-    --card: 240 18% 11%;
-    --card-foreground: 40 20% 90%;
-
-    --popover: 240 18% 13%;
-    --popover-foreground: 40 20% 90%;
-
-    /* Primary: Warm Sepia accent - Research: Reduces eye strain (Xia et al.) */
-    --primary: 38 35% 70%;
-    --primary-foreground: 240 20% 8%;
-
-    /* Secondary: Muted Navy */
-    --secondary: 240 15% 18%;
-    --secondary-foreground: 40 15% 85%;
-
-    /* Muted: For less prominent text */
-    --muted: 240 12% 20%;
-    --muted-foreground: 220 10% 55%;
-
-    /* Accent: Subtle warmth */
-    --accent: 240 12% 16%;
-    --accent-foreground: 40 20% 88%;
-
-    /* Semantic colors */
-    --success: 142 40% 45%;
-    --success-foreground: 142 40% 95%;
+    /* ----- HYBRID TACTICAL THEME (Daylight Base) ----- */
     
-    --warning: 38 92% 50%;
-    --warning-foreground: 38 92% 10%;
+    /* Background: Silver White (Global Base) */
+    --background: 210 40% 98%; /* Slate-50 / #F8FAFC */
+    --foreground: 222 47% 11%; /* Slate-900 (Dark Navy) */
 
-    --destructive: 0 60% 50%;
+    /* Cards: Frosted Daylight (White with opacity) */
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary: Vivid Red (Action Signals) */
+    --primary: 345 80% 50%; /* Vivid Red (approx Red-600 adjusted) used 0 72 51 before, prompting brighter Red */
+    --primary: 0 84% 60%; /* Let's stick to standard Red-600 equivalent: 0 72% 51% is conventional. Prompt asks for "Vivid Red". Let's go 0 85% 60% for a bit more pop or keep standard. Tailwind red-600 is 0 72.2 50.6. */
+    --primary: 0 72% 51%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary: Signal Yellow/Amber (Alerts) */
+    --secondary: 45 93% 47%; /* Amber-500 */
+    --secondary-foreground: 222 47% 11%;
+    
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215 16% 47%;
+    
+    /* Accent: Emerald Green (Success/Trends) */
+    --accent: 142 76% 36%; /* Green-600 */
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    /* UI Elements */
-    --border: 240 12% 20%;
-    --input: 240 12% 18%;
-    --ring: 38 35% 60%;
+    --border: 214.3 31.8% 91.4%; /* Silver borders */
+    --input: 214.3 31.8% 91.4%;
+    --ring: 0 72% 51%; /* Red focus ring */
+ 
+    --radius: 0.75rem; /* Slightly tighter than 1rem for "Tactical" feel */
 
-    --radius: 0.5rem;
+    /* Sidebar: Matches Background */
+    --sidebar-background: 210 20% 98%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 0 72% 51%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 96.1%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 0 72% 51%;
 
-    /* Sidebar */
-    --sidebar-background: 240 18% 10%;
-    --sidebar-foreground: 40 15% 80%;
-    --sidebar-primary: 38 35% 70%;
-    --sidebar-primary-foreground: 240 20% 8%;
-    --sidebar-accent: 240 12% 15%;
-    --sidebar-accent-foreground: 40 20% 88%;
-    --sidebar-border: 240 12% 18%;
-    --sidebar-ring: 38 35% 60%;
-
-    /* Chart colors - Okabe-Ito color-blind friendly palette */
-    --chart-1: 38 70% 55%;
-    --chart-2: 200 70% 50%;
-    --chart-3: 142 50% 45%;
-    --chart-4: 280 60% 60%;
-    --chart-5: 24 70% 55%;
-
-    /* Custom tokens for study-specific elements */
-    --correct: 142 40% 45%;
-    --correct-foreground: 142 40% 95%;
-    --incorrect: 0 55% 50%;
-    --incorrect-foreground: 0 0% 98%;
-    --question-bg: 240 18% 12%;
-    --option-bg: 240 15% 14%;
-    --option-hover: 240 15% 18%;
-    --option-selected: 38 30% 20%;
-    --highlight: 38 50% 50%;
+    /* Charts - Data Palette (Red/Yellow/Green) */
+    --chart-1: 0 72% 51%;   /* Red */
+    --chart-2: 45 93% 47%;  /* Yellow */
+    --chart-3: 142 76% 36%; /* Green */
+    --chart-4: 217 91% 60%; /* Blue support */
+    --chart-5: 262 83% 58%; /* Purple support */
   }
-
-  /* Light mode - Warm paper theme for reading */
-  .light {
-    --background: 40 30% 96%;
-    --foreground: 240 20% 15%;
-
-    --card: 40 25% 98%;
-    --card-foreground: 240 20% 15%;
-
-    --popover: 40 25% 99%;
-    --popover-foreground: 240 20% 15%;
-
-    --primary: 240 35% 30%;
-    --primary-foreground: 40 30% 96%;
-
-    --secondary: 40 20% 92%;
-    --secondary-foreground: 240 20% 20%;
-
-    --muted: 40 15% 90%;
-    --muted-foreground: 240 10% 45%;
-
-    --accent: 40 20% 94%;
-    --accent-foreground: 240 20% 18%;
-
-    --success: 142 50% 35%;
-    --success-foreground: 142 50% 98%;
-
-    --destructive: 0 70% 45%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 40 15% 85%;
-    --input: 40 20% 90%;
-    --ring: 240 35% 35%;
-
-    --sidebar-background: 40 25% 94%;
-    --sidebar-foreground: 240 15% 25%;
-    --sidebar-primary: 240 35% 30%;
-    --sidebar-primary-foreground: 40 30% 96%;
-    --sidebar-accent: 40 20% 90%;
-    --sidebar-accent-foreground: 240 20% 18%;
-    --sidebar-border: 40 15% 85%;
-    --sidebar-ring: 240 35% 35%;
-
-    --correct: 142 55% 35%;
-    --incorrect: 0 65% 45%;
-    --question-bg: 40 25% 99%;
-    --option-bg: 40 20% 96%;
-    --option-hover: 40 20% 92%;
-    --option-selected: 240 20% 92%;
-    --highlight: 38 80% 55%;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border;
+ 
+  .dark {
+    /* Keeping Dark Mode semantic but mapped to this theme if forced, 
+       though usually we'd invert. For now, let's keep it consistent. */
+    --background: 222 47% 11%;
+    --foreground: 210 20% 98%;
+    --card: 217 33% 17%;
+    --card-foreground: 210 20% 98%;
+    --popover: 217 33% 17%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 0 72% 51%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 48 96% 51%; /* Lighter yellow for dark mode */
+    --secondary-foreground: 222 47% 11%;
+    --background: 224 71% 4%;
   }
 
   body {
-    @apply bg-background text-foreground antialiased;
-    font-family: 'Inter', system-ui, sans-serif;
-    /* Research: Beymer et al. (2008) - Optimal base size */
-    font-size: 16px;
+    @apply bg-background text-foreground antialiased selection:bg-red-500/20 selection:text-red-900;
+    /* Clean Silver Background - No gradients */
+    background-image: none;
+    background-color: hsl(var(--background));
   }
+}
 
-  /* Typography system based on cognitive research */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Inter', system-ui, sans-serif;
-    @apply font-semibold tracking-tight;
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/50 backdrop-blur-xl border border-white/20 shadow-lg;
   }
-
-  /* Question text - Dyson & Haselgrove (2001): Serif improves comprehension */
-  .font-serif {
-    font-family: 'Source Serif 4', Georgia, serif;
+  .neon-text {
+    @apply text-foreground;
   }
-
-  /* Code blocks - Monospace for technical content */
-  .font-mono, code, pre {
-    font-family: 'JetBrains Mono', monospace;
+  
+  /* Data Highlight Glows */
+  .glow-red {
+    box-shadow: 0 0 20px -5px rgba(220, 38, 38, 0.2);
   }
-
-  /* Optimal line height for reading - Larson & Picard (2005) */
-  .leading-reading {
-    line-height: 1.75;
-  }
-
-  /* Maximum content width for reading - Research: 45-75 characters optimal */
-  .max-w-reading {
-    max-width: 720px;
-  }
-
-  /* Focus states - WCAG 2.1 compliance */
-  *:focus-visible {
-    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  .glow-yellow {
+    box-shadow: 0 0 20px -5px rgba(245, 158, 11, 0.2);
   }
 }
 
 @layer components {
   /* Question card styling */
   .question-card {
-    @apply bg-[hsl(var(--question-bg))] rounded-lg p-8;
+    @apply rounded-xl border border-border bg-card p-8 shadow-sm hover:shadow-md transition-shadow;
   }
 
-  /* Option button styling */
-  .option-item {
-    @apply bg-[hsl(var(--option-bg))] hover:bg-[hsl(var(--option-hover))] 
-           transition-colors duration-200 rounded-lg p-4 cursor-pointer
-           border border-transparent;
-  }
-
-  .option-item.selected {
-    @apply bg-[hsl(var(--option-selected))] border-[hsl(var(--primary))];
-  }
-
-  .option-item.correct {
-    @apply bg-[hsl(var(--correct)/0.15)] border-[hsl(var(--correct))];
-  }
-
-  .option-item.incorrect {
-    @apply bg-[hsl(var(--incorrect)/0.15)] border-[hsl(var(--incorrect))];
-  }
-
-  /* Progress bar custom styling */
-  .progress-study {
-    @apply h-2 rounded-full overflow-hidden bg-muted;
-  }
-
-  .progress-study-fill {
-    @apply h-full bg-primary transition-all duration-300 ease-out;
-  }
-
-  /* Confidence meter */
-  .confidence-meter {
-    @apply h-1.5 rounded-full overflow-hidden bg-muted;
-  }
-
-  /* Subject card hover effect */
+  /* Subject card */
   .subject-card {
-    @apply transition-all duration-200 hover:shadow-lg hover:scale-[1.02];
+    @apply transition-all duration-300 border border-border rounded-xl bg-card hover:border-primary/50 hover:-translate-y-1 hover:shadow-lg;
   }
 
-  /* Trend badges */
-  .trend-rising {
-    @apply text-[hsl(var(--success))] bg-[hsl(var(--success)/0.1)];
-  }
-
-  .trend-stable {
-    @apply text-[hsl(var(--chart-2))] bg-[hsl(var(--chart-2)/0.1)];
-  }
-
-  .trend-declining {
-    @apply text-[hsl(var(--warning))] bg-[hsl(var(--warning)/0.1)];
+  .subject-card-icon {
+     @apply p-3 rounded-lg bg-muted text-foreground group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300;
   }
 }
+
 
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar for dark theme */
+/* Custom scrollbar for hybrid theme */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -263,18 +137,10 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-muted-foreground/20 rounded-full;
+  @apply bg-slate-400/50 rounded-sm;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-muted-foreground/30;
+  @apply bg-blue-500/50;
 }
 
-/* Reduced motion support */
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}

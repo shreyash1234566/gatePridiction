@@ -19,11 +19,20 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        heading: ['"Outfit"', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
         serif: ["Source Serif 4", "Georgia", "serif"],
         mono: ["JetBrains Mono", "monospace"],
       },
+      boxShadow: {
+        'float': '0 20px 40px -10px rgba(0, 0, 0, 0.5)',
+        'glow': '0 0 20px rgba(59, 130, 246, 0.3)',
+      },
       colors: {
+        brand: {
+          bg: "#f8fafc",   // Slate White
+          navy: "#0f172a", // Navy Dark
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

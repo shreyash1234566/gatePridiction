@@ -88,8 +88,8 @@ export const QuestionCard = ({
           onClick={onToggleBookmark}
           aria-label={isBookmarked ? "Remove bookmark" : "Add bookmark"}
           className={cn(
-            "transition-colors",
-            isBookmarked && "text-primary"
+            "transition-colors text-slate-900 hover:bg-emerald-500 hover:text-white",
+            isBookmarked && "text-emerald-600 bg-emerald-100 hover:bg-emerald-600"
           )}
         >
           {isBookmarked ? (
@@ -101,21 +101,23 @@ export const QuestionCard = ({
       </div>
 
       {/* Progress indicator */}
-      <div className="flex items-center gap-3 mb-4 text-sm text-muted-foreground">
-        <span>Question {questionNumber} of {totalQuestions}</span>
-        <div className="flex-1 h-1 bg-muted rounded-full overflow-hidden">
+      <div className="flex items-center gap-3 mb-6 text-sm font-mono text-slate-500">
+        <span className="bg-slate-100 text-slate-600 px-2 py-0.5 rounded text-xs font-bold border border-slate-200">
+          Q{questionNumber}
+        </span>
+        <div className="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
           <div 
-            className="h-full bg-primary transition-all duration-300"
+            className="h-full bg-blue-500 transition-all duration-300"
             style={{ width: `${(questionNumber / totalQuestions) * 100}%` }}
           />
         </div>
-        <span className="font-medium">{question.marks} mark{question.marks > 1 ? 's' : ''}</span>
+        <span className="font-semibold text-slate-400">{totalQuestions - questionNumber} left</span>
       </div>
 
       {/* Question card */}
-      <Card className="question-card mb-6">
+      <Card className="question-card mb-8 border-none shadow-none bg-transparent">
         {/* Question text - Research: Serif font for reading comprehension */}
-        <div className="font-serif text-question leading-reading mb-8">
+        <div className="font-serif text-xl md:text-2xl leading-relaxed text-slate-900 mb-8 font-medium">
           <p className="whitespace-pre-wrap">{question.question_text}</p>
         </div>
 
@@ -132,31 +134,31 @@ export const QuestionCard = ({
 
         {/* NAT Input */}
         {question.question_type === 'NAT' && (
-          <div className="mt-6">
-            <label className="block text-sm text-muted-foreground mb-2">
-              Enter your answer (Numerical Answer Type):
+          <div className="mt-8">
+            <label className="block text-sm font-semibold text-slate-700 mb-3 uppercase tracking-wider">
+              Numerical Answer:
             </label>
             <input
               type="text"
               value={selectedAnswer || ''}
               onChange={(e) => onSelectAnswer(e.target.value)}
               disabled={isAnswered}
-              className="w-full max-w-xs px-4 py-3 rounded-lg bg-input border border-border 
-                         focus:ring-2 focus:ring-ring focus:outline-none
-                         disabled:opacity-60 font-mono text-lg"
-              placeholder="Enter numerical answer..."
+              className="w-full max-w-sm px-4 py-3 rounded-lg bg-white border border-slate-300 
+                         focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none 
+                         disabled:opacity-60 font-mono text-xl text-slate-900 placeholder:text-slate-400 shadow-sm"
+              placeholder="Enter value..."
             />
           </div>
         )}
       </Card>
 
       {/* Action buttons */}
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex items-center justify-between gap-4 pt-4 border-t border-slate-100">
         <Button
-          variant="outline"
+          variant="ghost"
           onClick={handlePrevious}
           disabled={!hasPrevious}
-          className="gap-2"
+          className="gap-2 text-slate-500 hover:text-slate-900 hover:bg-slate-100"
         >
           <ChevronLeft className="h-4 w-4" />
           Previous
@@ -164,7 +166,7 @@ export const QuestionCard = ({
 
         <div className="flex items-center gap-3">
           {!isAnswered && selectedAnswer && (
-            <Button onClick={onCheckAnswer} className="gap-2">
+            <Button onClick={onCheckAnswer} className="gap-2 bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-500/30 transition-all">
               <Check className="h-4 w-4" />
               Check Answer
             </Button>
@@ -174,7 +176,7 @@ export const QuestionCard = ({
             <Button 
               variant="secondary" 
               onClick={() => setShowSolution(true)}
-              className="gap-2"
+              className="gap-2 bg-amber-100 text-amber-900 hover:bg-amber-200 border border-amber-200"
             >
               Show Solution
             </Button>
@@ -184,19 +186,17 @@ export const QuestionCard = ({
             <Button 
               variant="ghost" 
               onClick={() => setShowSolution(false)}
-              className="gap-2"
+              className="gap-2 text-slate-500"
             >
-              <RotateCcw className="h-4 w-4" />
               Hide Solution
             </Button>
           )}
         </div>
 
         <Button
-          variant="outline"
           onClick={handleNext}
           disabled={!hasNext}
-          className="gap-2"
+          className="gap-2 bg-slate-900 hover:bg-slate-800 text-white shadow-md"
         >
           Next
           <ChevronRight className="h-4 w-4" />

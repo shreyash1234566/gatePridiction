@@ -31,7 +31,7 @@ import { subjectIcons, getAllSubjects } from "@/data/gateData";
  * Research: Miller's Law - Chunked into 7±2 navigation items
  */
 export const AppSidebar = () => {
-  const { state } = useSidebar();
+  const { state, toggleSidebar } = useSidebar();
   const collapsed = state === "collapsed";
   const location = useLocation();
   const { progress, getSubjectProgress } = useProgress();
@@ -48,9 +48,13 @@ export const AppSidebar = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <Sidebar collapsible="icon" className="border-r border-sidebar-border">
+    <Sidebar collapsible="offcanvas" className="border-r border-sidebar-border">
       <SidebarHeader className="border-b border-sidebar-border p-4">
-        <div className="flex items-center gap-3">
+        <button 
+          onClick={toggleSidebar}
+          className="flex items-center gap-3 w-full text-left hover:opacity-80 transition-opacity cursor-pointer"
+          title="Click to hide sidebar (Ctrl+B)"
+        >
           <GraduationCap className="h-8 w-8 text-primary shrink-0" />
           {!collapsed && (
             <div className="flex flex-col">
@@ -58,7 +62,7 @@ export const AppSidebar = () => {
               <span className="text-xs text-muted-foreground">Study Platform</span>
             </div>
           )}
-        </div>
+        </button>
       </SidebarHeader>
 
       <SidebarContent className="px-2">
@@ -81,7 +85,7 @@ export const AppSidebar = () => {
                       className="flex items-center gap-3 px-3 py-2 rounded-md transition-colors"
                       activeClassName="bg-sidebar-accent text-sidebar-accent-foreground"
                     >
-                      <item.icon className="h-4 w-4 shrink-0" />
+                      <item.icon className="h-4 w-4 shrink-0 text-sidebar-foreground" />
                       {!collapsed && <span>{item.title}</span>}
                     </NavLink>
                   </SidebarMenuButton>
