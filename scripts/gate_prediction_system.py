@@ -1031,11 +1031,8 @@ def load_and_process_data(file_path="Q.json", verbose=True):
         fname = q.get('file_name', '').upper()
         paper_id = q.get('paper_id', '').upper()
         
-        # Skip Data Science/AI papers (separate exam from 2024)
-        if (year >= 2024) and ('DA' in fname or 'DA' in paper_id or 
-                               'DATA SCIENCE' in fname or 'DATA_SCIENCE' in paper_id):
-            stats['excluded_da'] += 1
-            continue
+        # DA filter removed - now includes all 2024-2025 CSE data
+        # (No DA papers in our dataset)
         
         # Get raw values
         raw_subject = q.get('subject') or q.get('section')
@@ -2322,13 +2319,21 @@ def main():
     predictor = EliteGATEPredictor()
     metrics = predictor.train(processed_data)
     
-    # Validation with calibration
+    # Validation with calibration (uses walk-forward: trains on years < test_year)
     validator = EliteValidator(predictor, processed_data)
     validator.walk_forward_validation([2023, 2022, 2021, 2020])
     validation_report = validator.generate_report()
     
+    # RETRAIN on FULL 2011-2025 data for final 2026 prediction
+    print("\n" + "="*80)
+    print("🔄 RETRAINING on FULL 2011-2025 data for 2026 prediction...")
+    print("="*80)
+    predictor_final = EliteGATEPredictor()
+    metrics_final = predictor_final.train(processed_data)  # Now includes 2024-2025
+    print(f"   ✅ Retrained on {len(processed_data)} questions (2011-2025)")
+    
     # Generate final predictions with calibrated confidence
-    predictions = predictor.predict(2026)
+    predictions = predictor_final.predict(2026)
     
     print("\n" + "="*80)
     print("✅ PREDICTION COMPLETE")
