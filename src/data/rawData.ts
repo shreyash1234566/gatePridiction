@@ -1,13 +1,13 @@
-// GATE 2026 Comprehensive Website Data
+// GATE 2027 Comprehensive Website Data
 // Auto-generated from data.js
 // Contains: PYQs, Predictions, Trends, Statistics, Mock Paper Config
 
 export const GATE_DATA = {
   "meta": {
-    "generated_at": "2026-02-04T10:49:14.168926",
+    "generated_at": "2026-02-28T00:10:43.819104",
     "version": "4.0 - Complete Website Data",
     "description": "Comprehensive GATE CS data for PYQ practice, trend analysis, predictions, and mock tests",
-    "total_questions": 1475,
+    "total_questions": 1605,
     "years_covered": [
       2011,
       2012,
@@ -23,7 +23,8 @@ export const GATE_DATA = {
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "subjects": [
       "Engineering Mathematics",
@@ -39,20 +40,20 @@ export const GATE_DATA = {
       "Computer Networks",
       "General Aptitude"
     ],
-    "target_year": 2026
+    "target_year": 2027
   },
-  "predictions_2026": {
+  "predictions_2027": {
     "meta": {
       "version": "3.2 Elite with Calibration",
-      "generated_at": "2026-02-04T10:47:40.521625",
-      "total_analyzed": 1475,
+      "generated_at": "2026-02-28T00:04:54.393781",
+      "total_analyzed": 1606,
       "features": 55,
       "models": 6,
       "metrics": {
-        "MAE": 0.5031,
-        "RMSE": 0.7695,
-        "R2": 0.7911,
-        "Mean_Prediction": 1.8054
+        "MAE": 0.5619,
+        "RMSE": 0.7776,
+        "R2": 0.7667,
+        "Mean_Prediction": 1.7693
       }
     },
     "subject_distribution": {
@@ -71,82 +72,348 @@ export const GATE_DATA = {
     },
     "predictions": [
       {
+        "subject": "Algorithms",
+        "topic": "Asymptotic Analysis",
+        "predicted_count": 0.4323262848061415,
+        "confidence": 83.8,
+        "raw_confidence": 83.8,
+        "uncertainty": 0.064,
+        "trend": "Stable",
+        "historical_avg": 1.08,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 12,
+        "is_core": "✓"
+      },
+      {
         "subject": "Operating Systems",
         "topic": "CPU Scheduling",
-        "predicted_count": 0.3734371311288175,
-        "confidence": 82.1,
-        "raw_confidence": 82.1,
-        "uncertainty": 0.097,
+        "predicted_count": 0.3511779930901863,
+        "confidence": 82.8,
+        "raw_confidence": 82.8,
+        "uncertainty": 0.058,
         "trend": "Stable",
-        "historical_avg": 1.29,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 14,
+        "historical_avg": 1.33,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 15,
         "is_core": "✓"
       },
       {
         "subject": "Compiler Design",
         "topic": "Parsing",
-        "predicted_count": 0.2910769684873527,
-        "confidence": 82.1,
-        "raw_confidence": 82.1,
-        "uncertainty": 0.073,
+        "predicted_count": 0.35669252877038465,
+        "confidence": 82.2,
+        "raw_confidence": 82.2,
+        "uncertainty": 0.092,
         "trend": "Stable",
-        "historical_avg": 1.92,
+        "historical_avg": 1.93,
         "recent_avg": 2.0,
-        "last_seen": 2025,
-        "appearances": 13,
+        "last_seen": 2026,
+        "appearances": 14,
         "is_core": "✓"
       },
       {
         "subject": "Theory of Computation",
         "topic": "Finite Automata",
-        "predicted_count": 0.5443176447030764,
-        "confidence": 80.9,
-        "raw_confidence": 80.9,
-        "uncertainty": 0.112,
+        "predicted_count": 0.517255654237076,
+        "confidence": 81.8,
+        "raw_confidence": 81.8,
+        "uncertainty": 0.063,
         "trend": "Stable",
-        "historical_avg": 1.57,
+        "historical_avg": 1.6,
         "recent_avg": 1.67,
-        "last_seen": 2025,
-        "appearances": 14,
+        "last_seen": 2026,
+        "appearances": 15,
         "is_core": "✓"
       },
       {
-        "subject": "Computer Organization",
-        "topic": "Cache Memory",
-        "predicted_count": 0.5043049814974357,
-        "confidence": 80.7,
-        "raw_confidence": 80.7,
-        "uncertainty": 0.109,
+        "subject": "Databases",
+        "topic": "Normalization",
+        "predicted_count": 0.38425605454715467,
+        "confidence": 81.7,
+        "raw_confidence": 81.7,
+        "uncertainty": 0.062,
+        "trend": "Rising",
+        "historical_avg": 1.75,
+        "recent_avg": 2.33,
+        "last_seen": 2026,
+        "appearances": 12,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Process Synchronization",
+        "predicted_count": 0.33457981812921433,
+        "confidence": 81.6,
+        "raw_confidence": 81.6,
+        "uncertainty": 0.053,
         "trend": "Stable",
-        "historical_avg": 2.33,
-        "recent_avg": 2.0,
-        "last_seen": 2025,
-        "appearances": 15,
+        "historical_avg": 1.27,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 11,
         "is_core": "✓"
       },
       {
         "subject": "Algorithms",
         "topic": "Minimum Spanning Tree",
-        "predicted_count": 0.5795906976269543,
+        "predicted_count": 0.5996465151350189,
+        "confidence": 81.1,
+        "raw_confidence": 81.1,
+        "uncertainty": 0.072,
+        "trend": "Rising",
+        "historical_avg": 1.77,
+        "recent_avg": 2.33,
+        "last_seen": 2026,
+        "appearances": 13,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Heaps",
+        "predicted_count": 0.8924756489900848,
         "confidence": 80.6,
         "raw_confidence": 80.6,
-        "uncertainty": 0.131,
+        "uncertainty": 0.078,
+        "trend": "Stable",
+        "historical_avg": 1.18,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 11,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "topic": "Graphs",
+        "predicted_count": 0.8226716019303395,
+        "confidence": 80.4,
+        "raw_confidence": 80.4,
+        "uncertainty": 0.072,
+        "trend": "Stable",
+        "historical_avg": 2.2,
+        "recent_avg": 2.0,
+        "last_seen": 2026,
+        "appearances": 15,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "topic": "Linear Algebra",
+        "predicted_count": 1.009309569861625,
+        "confidence": 80.3,
+        "raw_confidence": 80.3,
+        "uncertainty": 0.112,
         "trend": "Rising",
-        "historical_avg": 1.83,
+        "historical_avg": 2.88,
+        "recent_avg": 4.33,
+        "last_seen": 2026,
+        "appearances": 16,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Organization",
+        "topic": "Cache Memory",
+        "predicted_count": 0.6618748761210282,
+        "confidence": 80.2,
+        "raw_confidence": 80.2,
+        "uncertainty": 0.202,
+        "trend": "Stable",
+        "historical_avg": 2.38,
         "recent_avg": 2.67,
-        "last_seen": 2025,
+        "last_seen": 2026,
+        "appearances": 16,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Databases",
+        "topic": "Concurrency Control",
+        "predicted_count": 0.27396150047139917,
+        "confidence": 79.6,
+        "raw_confidence": 79.6,
+        "uncertainty": 0.083,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 5,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Binary Search Trees",
+        "predicted_count": 1.1294940490650063,
+        "confidence": 79.5,
+        "raw_confidence": 79.5,
+        "uncertainty": 0.075,
+        "trend": "Stable",
+        "historical_avg": 1.55,
+        "recent_avg": 1.67,
+        "last_seen": 2026,
+        "appearances": 11,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Organization",
+        "topic": "Pipelining",
+        "predicted_count": 0.5604122365790234,
+        "confidence": 79.5,
+        "raw_confidence": 79.5,
+        "uncertainty": 0.093,
+        "trend": "Stable",
+        "historical_avg": 1.8,
+        "recent_avg": 2.0,
+        "last_seen": 2026,
+        "appearances": 15,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Digital Logic",
+        "topic": "Boolean Algebra",
+        "predicted_count": 0.37990332135805893,
+        "confidence": 79.4,
+        "raw_confidence": 79.4,
+        "uncertainty": 0.094,
+        "trend": "Rising",
+        "historical_avg": 1.92,
+        "recent_avg": 2.33,
+        "last_seen": 2026,
         "appearances": 12,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Deadlock",
+        "predicted_count": 0.35270760307852345,
+        "confidence": 79.4,
+        "raw_confidence": 79.4,
+        "uncertainty": 0.077,
+        "trend": "Stable",
+        "historical_avg": 1.4,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 10,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Theory of Computation",
+        "topic": "Regular Languages",
+        "predicted_count": 0.37206484248233074,
+        "confidence": 79.2,
+        "raw_confidence": 79.2,
+        "uncertainty": 0.129,
+        "trend": "Stable",
+        "historical_avg": 1.5,
+        "recent_avg": 1.67,
+        "last_seen": 2026,
+        "appearances": 10,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Linked Lists",
+        "predicted_count": 0.6499289947589587,
+        "confidence": 78.6,
+        "raw_confidence": 78.6,
+        "uncertainty": 0.04,
+        "trend": "Stable",
+        "historical_avg": 1.12,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 8,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Trees",
+        "predicted_count": 0.980470438700584,
+        "confidence": 78.3,
+        "raw_confidence": 78.3,
+        "uncertainty": 0.066,
+        "trend": "Stable",
+        "historical_avg": 1.75,
+        "recent_avg": 1.67,
+        "last_seen": 2026,
+        "appearances": 12,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Compiler Design",
+        "topic": "Syntax Directed Translation",
+        "predicted_count": 0.20211088381855122,
+        "confidence": 78.1,
+        "raw_confidence": 78.1,
+        "uncertainty": 0.12,
+        "trend": "Rising",
+        "historical_avg": 1.14,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 7,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "topic": "Probability",
+        "predicted_count": 1.3151346366377843,
+        "confidence": 78.0,
+        "raw_confidence": 78.0,
+        "uncertainty": 0.243,
+        "trend": "Rising",
+        "historical_avg": 2.57,
+        "recent_avg": 4.0,
+        "last_seen": 2026,
+        "appearances": 14,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Databases",
+        "topic": "Indexing",
+        "predicted_count": 0.23584845170494453,
+        "confidence": 77.9,
+        "raw_confidence": 77.9,
+        "uncertainty": 0.057,
+        "trend": "Stable",
+        "historical_avg": 1.11,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 9,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Databases",
+        "topic": "Relational Algebra",
+        "predicted_count": 0.26226761034107043,
+        "confidence": 77.1,
+        "raw_confidence": 77.1,
+        "uncertainty": 0.044,
+        "trend": "Stable",
+        "historical_avg": 1.4,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 10,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "topic": "Calculus",
+        "predicted_count": 1.3804162512657925,
+        "confidence": 76.8,
+        "raw_confidence": 76.8,
+        "uncertainty": 0.223,
+        "trend": "Stable",
+        "historical_avg": 2.19,
+        "recent_avg": 2.67,
+        "last_seen": 2026,
+        "appearances": 16,
         "is_core": "✓"
       },
       {
         "subject": "Databases",
         "topic": "SQL",
-        "predicted_count": 0.36299252298292634,
-        "confidence": 80.2,
-        "raw_confidence": 80.2,
-        "uncertainty": 0.137,
+        "predicted_count": 0.333629830837793,
+        "confidence": 76.7,
+        "raw_confidence": 76.7,
+        "uncertainty": 0.043,
         "trend": "Stable",
         "historical_avg": 1.64,
         "recent_avg": 1.33,
@@ -155,152 +422,138 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Databases",
-        "topic": "Normalization",
-        "predicted_count": 0.5037979028935438,
-        "confidence": 79.7,
-        "raw_confidence": 79.7,
-        "uncertainty": 0.102,
-        "trend": "Rising",
-        "historical_avg": 1.73,
-        "recent_avg": 2.33,
-        "last_seen": 2025,
-        "appearances": 11,
-        "is_core": "✓"
-      },
-      {
         "subject": "Data Structures",
-        "topic": "Heaps",
-        "predicted_count": 0.8350815287654518,
-        "confidence": 79.5,
-        "raw_confidence": 79.5,
+        "topic": "Hashing",
+        "predicted_count": 0.6824641313455653,
+        "confidence": 76.4,
+        "raw_confidence": 76.4,
         "uncertainty": 0.043,
         "trend": "Stable",
-        "historical_avg": 1.2,
+        "historical_avg": 1.25,
         "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 10,
+        "last_seen": 2026,
+        "appearances": 8,
         "is_core": "✓"
       },
       {
-        "subject": "Engineering Mathematics",
-        "topic": "Linear Algebra",
-        "predicted_count": 1.2119623452333887,
-        "confidence": 79.3,
-        "raw_confidence": 79.3,
-        "uncertainty": 0.166,
-        "trend": "Stable",
-        "historical_avg": 2.8,
-        "recent_avg": 3.33,
-        "last_seen": 2025,
-        "appearances": 15,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Digital Logic",
-        "topic": "Boolean Algebra",
-        "predicted_count": 0.3297726675760188,
-        "confidence": 79.3,
-        "raw_confidence": 79.3,
-        "uncertainty": 0.077,
-        "trend": "Stable",
-        "historical_avg": 1.73,
-        "recent_avg": 1.67,
-        "last_seen": 2025,
-        "appearances": 11,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Pipelining",
-        "predicted_count": 0.34017000656289137,
-        "confidence": 79.1,
-        "raw_confidence": 79.1,
-        "uncertainty": 0.084,
-        "trend": "Stable",
-        "historical_avg": 1.71,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 14,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Theory of Computation",
-        "topic": "Regular Languages",
-        "predicted_count": 0.4858504724948594,
-        "confidence": 78.5,
-        "raw_confidence": 78.5,
-        "uncertainty": 0.081,
+        "subject": "Programming",
+        "topic": "Recursion",
+        "predicted_count": 0.33966045684234814,
+        "confidence": 76.2,
+        "raw_confidence": 76.2,
+        "uncertainty": 0.164,
         "trend": "Stable",
         "historical_avg": 1.56,
-        "recent_avg": 1.67,
-        "last_seen": 2025,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
         "appearances": 9,
         "is_core": "✓"
       },
       {
         "subject": "Operating Systems",
-        "topic": "Deadlock",
-        "predicted_count": 0.36010538231547834,
-        "confidence": 78.5,
-        "raw_confidence": 78.5,
-        "uncertainty": 0.032,
-        "trend": "Declining",
-        "historical_avg": 1.33,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 9,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Data Structures",
-        "topic": "Binary Search Trees",
-        "predicted_count": 0.9669144269326428,
-        "confidence": 78.3,
-        "raw_confidence": 78.3,
-        "uncertainty": 0.031,
+        "topic": "Memory Management",
+        "predicted_count": 0.5675423188236857,
+        "confidence": 76.1,
+        "raw_confidence": 76.1,
+        "uncertainty": 0.117,
         "trend": "Stable",
-        "historical_avg": 1.5,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 10,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Asymptotic Analysis",
-        "predicted_count": 0.4203210856323145,
-        "confidence": 78.1,
-        "raw_confidence": 78.1,
-        "uncertainty": 0.096,
-        "trend": "Stable",
-        "historical_avg": 1.09,
-        "recent_avg": 1.0,
-        "last_seen": 2024,
+        "historical_avg": 2.27,
+        "recent_avg": 2.0,
+        "last_seen": 2026,
         "appearances": 11,
         "is_core": "✓"
       },
       {
-        "subject": "Engineering Mathematics",
-        "topic": "Calculus",
-        "predicted_count": 0.8591450084663546,
-        "confidence": 78.0,
-        "raw_confidence": 78.0,
-        "uncertainty": 0.045,
-        "trend": "Stable",
-        "historical_avg": 2.07,
-        "recent_avg": 2.0,
-        "last_seen": 2025,
+        "subject": "General Aptitude",
+        "topic": "Verbal Ability",
+        "predicted_count": 1.7911582849677952,
+        "confidence": 75.5,
+        "raw_confidence": 75.5,
+        "uncertainty": 0.281,
+        "trend": "Declining",
+        "historical_avg": 5.15,
+        "recent_avg": 3.0,
+        "last_seen": 2026,
+        "appearances": 13,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Sorting",
+        "predicted_count": 0.3701392147550212,
+        "confidence": 75.3,
+        "raw_confidence": 75.3,
+        "uncertainty": 0.092,
+        "trend": "Declining",
+        "historical_avg": 1.56,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 9,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Programming",
+        "topic": "C Programming",
+        "predicted_count": 1.4530336516154327,
+        "confidence": 74.3,
+        "raw_confidence": 74.3,
+        "uncertainty": 0.97,
+        "trend": "Rising",
+        "historical_avg": 3.6,
+        "recent_avg": 5.33,
+        "last_seen": 2026,
         "appearances": 15,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "File Systems",
+        "predicted_count": 0.2604315597121419,
+        "confidence": 74.3,
+        "raw_confidence": 74.3,
+        "uncertainty": 0.041,
+        "trend": "Stable",
+        "historical_avg": 1.14,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 7,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Theory of Computation",
+        "topic": "Context-Free Languages",
+        "predicted_count": 0.38893849884819276,
+        "confidence": 74.1,
+        "raw_confidence": 74.1,
+        "uncertainty": 0.074,
+        "trend": "Stable",
+        "historical_avg": 1.43,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 7,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Digital Logic",
+        "topic": "Sequential Circuits",
+        "predicted_count": 0.23753778477699022,
+        "confidence": 73.6,
+        "raw_confidence": 73.6,
+        "uncertainty": 0.074,
+        "trend": "Stable",
+        "historical_avg": 1.14,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 7,
         "is_core": "✓"
       },
       {
         "subject": "Digital Logic",
         "topic": "Combinational Circuits",
-        "predicted_count": 0.3149867123860588,
-        "confidence": 77.5,
-        "raw_confidence": 77.5,
-        "uncertainty": 0.082,
+        "predicted_count": 0.3031353288217056,
+        "confidence": 73.5,
+        "raw_confidence": 73.5,
+        "uncertainty": 0.032,
         "trend": "Stable",
         "historical_avg": 1.44,
         "recent_avg": 1.67,
@@ -309,264 +562,138 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Engineering Mathematics",
-        "topic": "Probability",
-        "predicted_count": 1.3032044955090127,
-        "confidence": 77.1,
-        "raw_confidence": 77.1,
-        "uncertainty": 0.291,
-        "trend": "Rising",
-        "historical_avg": 2.46,
-        "recent_avg": 3.0,
-        "last_seen": 2025,
-        "appearances": 13,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Databases",
-        "topic": "Concurrency Control",
-        "predicted_count": 0.31596264986628547,
-        "confidence": 77.0,
-        "raw_confidence": 77.0,
-        "uncertainty": 0.177,
+        "subject": "Digital Logic",
+        "topic": "Multiplexers",
+        "predicted_count": 0.2641202625509898,
+        "confidence": 73.3,
+        "raw_confidence": 73.3,
+        "uncertainty": 0.136,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
-        "last_seen": 2025,
+        "last_seen": 2026,
         "appearances": 4,
         "is_core": "✓"
       },
       {
-        "subject": "Programming",
-        "topic": "C Programming",
-        "predicted_count": 1.351433898122018,
-        "confidence": 76.9,
-        "raw_confidence": 76.9,
-        "uncertainty": 0.415,
-        "trend": "Rising",
-        "historical_avg": 3.71,
-        "recent_avg": 5.0,
-        "last_seen": 2025,
-        "appearances": 14,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Data Structures",
-        "topic": "Trees",
-        "predicted_count": 0.8596096836337206,
-        "confidence": 76.7,
-        "raw_confidence": 76.7,
-        "uncertainty": 0.059,
-        "trend": "Declining",
-        "historical_avg": 1.64,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 11,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Data Structures",
-        "topic": "Linked Lists",
-        "predicted_count": 0.6822017242110852,
-        "confidence": 76.6,
-        "raw_confidence": 76.6,
-        "uncertainty": 0.073,
+        "subject": "Theory of Computation",
+        "topic": "Context-Free Grammars",
+        "predicted_count": 0.3845674634465277,
+        "confidence": 73.1,
+        "raw_confidence": 73.1,
+        "uncertainty": 0.04,
         "trend": "Stable",
-        "historical_avg": 1.14,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 7,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Databases",
-        "topic": "Indexing",
-        "predicted_count": 0.250490589851695,
-        "confidence": 76.2,
-        "raw_confidence": 76.2,
-        "uncertainty": 0.064,
-        "trend": "Stable",
-        "historical_avg": 1.12,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 8,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Compiler Design",
-        "topic": "Syntax Directed Translation",
-        "predicted_count": 0.20015186264074902,
-        "confidence": 75.8,
-        "raw_confidence": 75.8,
-        "uncertainty": 0.197,
-        "trend": "Rising",
-        "historical_avg": 1.17,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
+        "historical_avg": 1.5,
+        "recent_avg": 1.67,
+        "last_seen": 2026,
         "appearances": 6,
         "is_core": "✓"
       },
       {
-        "subject": "Operating Systems",
-        "topic": "Process Synchronization",
-        "predicted_count": 0.3350430085981563,
-        "confidence": 75.7,
-        "raw_confidence": 75.7,
-        "uncertainty": 0.124,
-        "trend": "Stable",
-        "historical_avg": 1.3,
-        "recent_avg": 1.33,
-        "last_seen": 2024,
-        "appearances": 10,
-        "is_core": "✓"
-      },
-      {
         "subject": "General Aptitude",
-        "topic": "Verbal Ability",
-        "predicted_count": 1.716891555646063,
-        "confidence": 75.5,
-        "raw_confidence": 75.5,
-        "uncertainty": 0.278,
-        "trend": "Declining",
-        "historical_avg": 5.33,
-        "recent_avg": 2.67,
-        "last_seen": 2025,
-        "appearances": 12,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Data Structures",
-        "topic": "Hashing",
-        "predicted_count": 0.6642902865622402,
-        "confidence": 75.5,
-        "raw_confidence": 75.5,
-        "uncertainty": 0.052,
+        "topic": "Logical Reasoning",
+        "predicted_count": 0.5158430768688489,
+        "confidence": 72.6,
+        "raw_confidence": 72.6,
+        "uncertainty": 0.241,
         "trend": "Stable",
-        "historical_avg": 1.14,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 7,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Programming",
-        "topic": "Recursion",
-        "predicted_count": 0.35549047844015674,
-        "confidence": 75.5,
-        "raw_confidence": 75.5,
-        "uncertainty": 0.063,
-        "trend": "Stable",
-        "historical_avg": 1.5,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
+        "historical_avg": 1.88,
+        "recent_avg": 2.0,
+        "last_seen": 2026,
         "appearances": 8,
         "is_core": "✓"
       },
       {
-        "subject": "Engineering Mathematics",
-        "topic": "Graphs",
-        "predicted_count": 0.8764868311234798,
-        "confidence": 75.3,
-        "raw_confidence": 75.3,
-        "uncertainty": 0.242,
+        "subject": "General Aptitude",
+        "topic": "Data Interpretation",
+        "predicted_count": 0.41613021413844337,
+        "confidence": 72.6,
+        "raw_confidence": 72.6,
+        "uncertainty": 0.098,
         "trend": "Stable",
-        "historical_avg": 2.29,
-        "recent_avg": 2.0,
-        "last_seen": 2024,
-        "appearances": 14,
+        "historical_avg": 1.29,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 7,
         "is_core": "✓"
-      },
-      {
-        "subject": "Engineering Mathematics",
-        "topic": "Group Theory",
-        "predicted_count": 0.5654785695964958,
-        "confidence": 75.2,
-        "raw_confidence": 75.2,
-        "uncertainty": 0.103,
-        "trend": "Stable",
-        "historical_avg": 1.1,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 10,
-        "is_core": ""
       },
       {
         "subject": "Algorithms",
-        "topic": "Searching",
-        "predicted_count": 0.33671159984593463,
-        "confidence": 75.2,
-        "raw_confidence": 75.2,
-        "uncertainty": 0.193,
+        "topic": "Graphs",
+        "predicted_count": 0.41536433235376624,
+        "confidence": 72.2,
+        "raw_confidence": 72.2,
+        "uncertainty": 0.092,
         "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 5,
+        "historical_avg": 1.88,
+        "recent_avg": 1.67,
+        "last_seen": 2026,
+        "appearances": 8,
         "is_core": "✓"
       },
       {
-        "subject": "Operating Systems",
-        "topic": "Memory Management",
-        "predicted_count": 0.5189783184700987,
-        "confidence": 73.9,
-        "raw_confidence": 73.9,
-        "uncertainty": 0.171,
+        "subject": "Algorithms",
+        "topic": "Recurrence Relations",
+        "predicted_count": 0.4011310031866274,
+        "confidence": 71.9,
+        "raw_confidence": 71.9,
+        "uncertainty": 0.046,
         "trend": "Stable",
-        "historical_avg": 2.3,
-        "recent_avg": 2.33,
-        "last_seen": 2025,
-        "appearances": 10,
+        "historical_avg": 1.5,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 6,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "Network Layer",
+        "predicted_count": 0.3160460989777847,
+        "confidence": 71.7,
+        "raw_confidence": 71.7,
+        "uncertainty": 0.059,
+        "trend": "Declining",
+        "historical_avg": 1.33,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 6,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Dynamic Programming",
+        "predicted_count": 0.31866942607307075,
+        "confidence": 71.1,
+        "raw_confidence": 71.1,
+        "uncertainty": 0.059,
+        "trend": "Declining",
+        "historical_avg": 1.33,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 6,
         "is_core": "✓"
       },
       {
         "subject": "Computer Networks",
         "topic": "Data Link Layer",
-        "predicted_count": 0.2518368901108657,
-        "confidence": 73.0,
-        "raw_confidence": 73.0,
-        "uncertainty": 0.033,
+        "predicted_count": 0.2827725969811288,
+        "confidence": 70.9,
+        "raw_confidence": 70.9,
+        "uncertainty": 0.067,
         "trend": "Rising",
-        "historical_avg": 1.17,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 6,
-        "is_core": "✓"
-      },
-      {
-        "subject": "General Aptitude",
-        "topic": "Geometry",
-        "predicted_count": 0.5119846565815737,
-        "confidence": 72.8,
-        "raw_confidence": 72.8,
-        "uncertainty": 0.117,
-        "trend": "Stable",
-        "historical_avg": 1.5,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 6,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Theory of Computation",
-        "topic": "Context-Free Languages",
-        "predicted_count": 0.30710644163458484,
-        "confidence": 72.2,
-        "raw_confidence": 72.2,
-        "uncertainty": 0.09,
-        "trend": "Declining",
-        "historical_avg": 1.33,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 6,
+        "historical_avg": 1.43,
+        "recent_avg": 1.67,
+        "last_seen": 2026,
+        "appearances": 7,
         "is_core": "✓"
       },
       {
         "subject": "Theory of Computation",
         "topic": "Undecidability",
-        "predicted_count": 0.392541805005064,
-        "confidence": 71.9,
-        "raw_confidence": 71.9,
-        "uncertainty": 0.107,
+        "predicted_count": 0.4004037203390541,
+        "confidence": 70.8,
+        "raw_confidence": 70.8,
+        "uncertainty": 0.082,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -575,194 +702,222 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Digital Logic",
-        "topic": "Number Representation",
-        "predicted_count": 0.24451570112295762,
-        "confidence": 71.7,
-        "raw_confidence": 71.7,
-        "uncertainty": 0.109,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 6,
-        "is_core": ""
-      },
-      {
-        "subject": "Digital Logic",
-        "topic": "Sequential Circuits",
-        "predicted_count": 0.21732792537443205,
-        "confidence": 71.7,
-        "raw_confidence": 71.7,
-        "uncertainty": 0.088,
-        "trend": "Stable",
-        "historical_avg": 1.17,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 6,
-        "is_core": "✓"
-      },
-      {
-        "subject": "General Aptitude",
-        "topic": "Logical Reasoning",
-        "predicted_count": 0.5377861157720032,
-        "confidence": 71.3,
-        "raw_confidence": 71.3,
-        "uncertainty": 0.133,
-        "trend": "Stable",
-        "historical_avg": 1.57,
-        "recent_avg": 1.33,
-        "last_seen": 2024,
-        "appearances": 7,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Databases",
-        "topic": "Relational Algebra",
-        "predicted_count": 0.3655039097788464,
-        "confidence": 71.2,
-        "raw_confidence": 71.2,
-        "uncertainty": 0.096,
-        "trend": "Stable",
-        "historical_avg": 1.44,
-        "recent_avg": 1.67,
-        "last_seen": 2024,
-        "appearances": 9,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Data Structures",
-        "topic": "Stacks",
-        "predicted_count": 0.7512247733464781,
+        "subject": "Algorithms",
+        "topic": "Searching",
+        "predicted_count": 0.30528821352140906,
         "confidence": 70.7,
         "raw_confidence": 70.7,
-        "uncertainty": 0.262,
+        "uncertainty": 0.183,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2025,
-        "appearances": 3,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Sorting",
-        "predicted_count": 0.32643205797147756,
-        "confidence": 70.4,
-        "raw_confidence": 70.4,
-        "uncertainty": 0.056,
-        "trend": "Declining",
-        "historical_avg": 1.62,
-        "recent_avg": 1.0,
-        "last_seen": 2024,
-        "appearances": 8,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "Network Layer",
-        "predicted_count": 0.28335425764076266,
-        "confidence": 70.2,
-        "raw_confidence": 70.2,
-        "uncertainty": 0.06,
-        "trend": "Declining",
-        "historical_avg": 1.4,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
         "appearances": 5,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Databases",
-        "topic": "Transactions",
-        "predicted_count": 0.25463290394691035,
-        "confidence": 70.2,
-        "raw_confidence": 70.2,
-        "uncertainty": 0.091,
-        "trend": "Stable",
-        "historical_avg": 1.4,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 5,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Recurrence Relations",
-        "predicted_count": 0.3335201384890542,
-        "confidence": 70.1,
-        "raw_confidence": 70.1,
-        "uncertainty": 0.036,
-        "trend": "Stable",
-        "historical_avg": 1.4,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 5,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Theory of Computation",
-        "topic": "Context-Free Grammars",
-        "predicted_count": 0.41219585317350854,
-        "confidence": 70.0,
-        "raw_confidence": 70.0,
-        "uncertainty": 0.15,
-        "trend": "Stable",
-        "historical_avg": 1.4,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 5,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Compiler Design",
-        "topic": "Intermediate Code Generation",
-        "predicted_count": 0.4389229096310811,
-        "confidence": 69.9,
-        "raw_confidence": 69.9,
-        "uncertainty": 0.628,
-        "trend": "Stable",
-        "historical_avg": 1.5,
-        "recent_avg": 1.5,
-        "last_seen": 2025,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Performance",
-        "predicted_count": 0.8785211547933726,
-        "confidence": 69.8,
-        "raw_confidence": 69.8,
-        "uncertainty": 0.659,
-        "trend": "Stable",
-        "historical_avg": 1.5,
-        "recent_avg": 1.5,
-        "last_seen": 2025,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Graphs",
-        "predicted_count": 0.36598016728616395,
-        "confidence": 69.8,
-        "raw_confidence": 69.8,
-        "uncertainty": 0.116,
-        "trend": "Declining",
-        "historical_avg": 1.71,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 7,
         "is_core": "✓"
       },
       {
         "subject": "Engineering Mathematics",
-        "topic": "Functions",
-        "predicted_count": 0.5148604133953211,
-        "confidence": 69.6,
-        "raw_confidence": 69.6,
-        "uncertainty": 0.316,
+        "topic": "Group Theory",
+        "predicted_count": 0.36704361124407003,
+        "confidence": 70.6,
+        "raw_confidence": 70.6,
+        "uncertainty": 0.105,
+        "trend": "Stable",
+        "historical_avg": 1.1,
+        "recent_avg": 1.0,
+        "last_seen": 2025,
+        "appearances": 10,
+        "is_core": ""
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "topic": "Relations",
+        "predicted_count": 0.34728552122661954,
+        "confidence": 70.2,
+        "raw_confidence": 70.2,
+        "uncertainty": 0.122,
+        "trend": "Declining",
+        "historical_avg": 1.2,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 5,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Organization",
+        "topic": "Addressing Modes",
+        "predicted_count": 0.28846564787223256,
+        "confidence": 70.1,
+        "raw_confidence": 70.1,
+        "uncertainty": 0.215,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 3,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Disk Scheduling",
+        "predicted_count": 0.2520756080577428,
+        "confidence": 70.1,
+        "raw_confidence": 70.1,
+        "uncertainty": 0.069,
+        "trend": "Stable",
+        "historical_avg": 1.4,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 5,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "topic": "Combinatorics",
+        "predicted_count": 0.39987461421645804,
+        "confidence": 69.7,
+        "raw_confidence": 69.7,
+        "uncertainty": 0.071,
+        "trend": "Declining",
+        "historical_avg": 1.38,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 8,
+        "is_core": "✓"
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Reading Comprehension",
+        "predicted_count": 0.44595372358563495,
+        "confidence": 69.2,
+        "raw_confidence": 69.2,
+        "uncertainty": 0.096,
+        "trend": "Rising",
+        "historical_avg": 1.2,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 5,
+        "is_core": "✓"
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Probability",
+        "predicted_count": 0.5462117247467169,
+        "confidence": 69.1,
+        "raw_confidence": 69.1,
+        "uncertainty": 0.177,
+        "trend": "Stable",
+        "historical_avg": 1.83,
+        "recent_avg": 1.67,
+        "last_seen": 2026,
+        "appearances": 6,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Organization",
+        "topic": "Instruction Set Architecture",
+        "predicted_count": 0.2675308370940777,
+        "confidence": 68.9,
+        "raw_confidence": 68.9,
+        "uncertainty": 0.091,
+        "trend": "Rising",
+        "historical_avg": 1.25,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 4,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Digital Logic",
+        "topic": "Number Representation",
+        "predicted_count": 0.2463119178961092,
+        "confidence": 68.7,
+        "raw_confidence": 68.7,
+        "uncertainty": 0.048,
+        "trend": "Rising",
+        "historical_avg": 1.14,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 7,
+        "is_core": ""
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "TCP/IP",
+        "predicted_count": 0.347615782801503,
+        "confidence": 68.6,
+        "raw_confidence": 68.6,
+        "uncertainty": 0.904,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 2,
+        "is_core": ""
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Geometry",
+        "predicted_count": 0.3834261227244156,
+        "confidence": 68.5,
+        "raw_confidence": 68.5,
+        "uncertainty": 0.093,
+        "trend": "Stable",
+        "historical_avg": 1.5,
+        "recent_avg": 1.33,
+        "last_seen": 2025,
+        "appearances": 6,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Graph Traversal",
+        "predicted_count": 0.30631368442576196,
+        "confidence": 67.7,
+        "raw_confidence": 67.7,
+        "uncertainty": 0.038,
+        "trend": "Declining",
+        "historical_avg": 1.29,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 7,
+        "is_core": ""
+      },
+      {
+        "subject": "Compiler Design",
+        "topic": "Lexical Analysis",
+        "predicted_count": 0.1843136147091178,
+        "confidence": 67.6,
+        "raw_confidence": 67.6,
+        "uncertainty": 0.072,
+        "trend": "Declining",
+        "historical_avg": 1.5,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 4,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "IPv4 Addressing",
+        "predicted_count": 0.2018764219412825,
+        "confidence": 67.0,
+        "raw_confidence": 67.0,
+        "uncertainty": 0.11,
+        "trend": "Stable",
+        "historical_avg": 1.43,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 7,
+        "is_core": ""
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Stacks",
+        "predicted_count": 0.7241905703401008,
+        "confidence": 66.9,
+        "raw_confidence": 66.9,
+        "uncertainty": 0.177,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -771,12 +926,40 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
+        "subject": "Computer Organization",
+        "topic": "Interrupts",
+        "predicted_count": 0.6742209120057485,
+        "confidence": 66.8,
+        "raw_confidence": 66.8,
+        "uncertainty": 0.783,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 3,
+        "is_core": "✓"
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Quantitative Aptitude",
+        "predicted_count": 2.8365740789761493,
+        "confidence": 66.4,
+        "raw_confidence": 66.4,
+        "uncertainty": 0.601,
+        "trend": "Stable",
+        "historical_avg": 4.6,
+        "recent_avg": 4.67,
+        "last_seen": 2026,
+        "appearances": 15,
+        "is_core": ""
+      },
+      {
         "subject": "Computer Networks",
         "topic": "Application Layer",
-        "predicted_count": 0.2580925581649272,
-        "confidence": 69.6,
-        "raw_confidence": 69.6,
-        "uncertainty": 0.026,
+        "predicted_count": 0.27803448498641675,
+        "confidence": 66.4,
+        "raw_confidence": 66.4,
+        "uncertainty": 0.04,
         "trend": "Declining",
         "historical_avg": 1.33,
         "recent_avg": 1.0,
@@ -785,40 +968,26 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Operating Systems",
-        "topic": "Paging",
-        "predicted_count": 0.3677199901915326,
-        "confidence": 69.5,
-        "raw_confidence": 69.5,
-        "uncertainty": 0.141,
-        "trend": "Rising",
-        "historical_avg": 1.8,
-        "recent_avg": 2.0,
-        "last_seen": 2025,
-        "appearances": 5,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Floating Point",
-        "predicted_count": 0.6557147906983092,
-        "confidence": 69.4,
-        "raw_confidence": 69.4,
-        "uncertainty": 0.747,
+        "subject": "Engineering Mathematics",
+        "topic": "Functions",
+        "predicted_count": 0.4386854730354361,
+        "confidence": 66.0,
+        "raw_confidence": 66.0,
+        "uncertainty": 0.198,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2025,
-        "appearances": 2,
+        "appearances": 3,
         "is_core": "✓"
       },
       {
         "subject": "Engineering Mathematics",
         "topic": "Predicate Logic",
-        "predicted_count": 0.4510612040908989,
-        "confidence": 69.3,
-        "raw_confidence": 69.3,
-        "uncertainty": 0.396,
+        "predicted_count": 0.36459896362652594,
+        "confidence": 66.0,
+        "raw_confidence": 66.0,
+        "uncertainty": 0.234,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -828,25 +997,67 @@ export const GATE_DATA = {
       },
       {
         "subject": "Databases",
-        "topic": "Relational Calculus",
-        "predicted_count": 0.2889136680410778,
-        "confidence": 68.8,
-        "raw_confidence": 68.8,
-        "uncertainty": 0.29,
+        "topic": "Transactions",
+        "predicted_count": 0.2694034674436486,
+        "confidence": 65.9,
+        "raw_confidence": 65.9,
+        "uncertainty": 0.069,
         "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
+        "historical_avg": 1.4,
+        "recent_avg": 1.33,
         "last_seen": 2025,
-        "appearances": 2,
+        "appearances": 5,
         "is_core": "✓"
       },
       {
         "subject": "Databases",
         "topic": "ER Model",
-        "predicted_count": 0.3048103211449909,
-        "confidence": 68.6,
-        "raw_confidence": 68.6,
-        "uncertainty": 0.188,
+        "predicted_count": 0.27777776852115504,
+        "confidence": 65.4,
+        "raw_confidence": 65.4,
+        "uncertainty": 0.2,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2024,
+        "appearances": 3,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Databases",
+        "topic": "Relational Calculus",
+        "predicted_count": 0.29174648781045437,
+        "confidence": 65.3,
+        "raw_confidence": 65.3,
+        "uncertainty": 0.165,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2025,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Virtual Memory",
+        "predicted_count": 0.6116979143227077,
+        "confidence": 65.1,
+        "raw_confidence": 65.1,
+        "uncertainty": 0.79,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "IP Fragmentation",
+        "predicted_count": 0.21258807796370066,
+        "confidence": 65.1,
+        "raw_confidence": 65.1,
+        "uncertainty": 0.234,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -857,10 +1068,10 @@ export const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "TCP",
-        "predicted_count": 0.23431770485026385,
-        "confidence": 68.5,
-        "raw_confidence": 68.5,
-        "uncertainty": 0.035,
+        "predicted_count": 0.28101333618351904,
+        "confidence": 65.0,
+        "raw_confidence": 65.0,
+        "uncertainty": 0.075,
         "trend": "Rising",
         "historical_avg": 1.17,
         "recent_avg": 1.33,
@@ -869,40 +1080,82 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Engineering Mathematics",
-        "topic": "Relations",
-        "predicted_count": 0.46544270864510107,
-        "confidence": 68.4,
-        "raw_confidence": 68.4,
-        "uncertainty": 0.097,
-        "trend": "Rising",
-        "historical_avg": 1.25,
-        "recent_avg": 1.33,
+        "subject": "Computer Organization",
+        "topic": "Performance",
+        "predicted_count": 0.9231830297109945,
+        "confidence": 64.9,
+        "raw_confidence": 64.9,
+        "uncertainty": 0.748,
+        "trend": "Stable",
+        "historical_avg": 1.5,
+        "recent_avg": 1.5,
         "last_seen": 2025,
-        "appearances": 4,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Compiler Design",
+        "topic": "Intermediate Code Generation",
+        "predicted_count": 0.4701771041825132,
+        "confidence": 64.7,
+        "raw_confidence": 64.7,
+        "uncertainty": 0.787,
+        "trend": "Stable",
+        "historical_avg": 1.5,
+        "recent_avg": 1.5,
+        "last_seen": 2025,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Paging",
+        "predicted_count": 0.37240731171258595,
+        "confidence": 64.7,
+        "raw_confidence": 64.7,
+        "uncertainty": 0.171,
+        "trend": "Rising",
+        "historical_avg": 1.8,
+        "recent_avg": 2.0,
+        "last_seen": 2025,
+        "appearances": 5,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Organization",
+        "topic": "Floating Point",
+        "predicted_count": 0.5818564639458851,
+        "confidence": 64.5,
+        "raw_confidence": 64.5,
+        "uncertainty": 0.848,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2025,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Theory of Computation",
+        "topic": "Decidability",
+        "predicted_count": 0.5370134396605176,
+        "confidence": 63.9,
+        "raw_confidence": 63.9,
+        "uncertainty": 0.087,
+        "trend": "Rising",
+        "historical_avg": 1.43,
+        "recent_avg": 1.67,
+        "last_seen": 2021,
+        "appearances": 7,
         "is_core": "✓"
       },
       {
         "subject": "Digital Logic",
-        "topic": "Counters",
-        "predicted_count": 0.21558198400480752,
-        "confidence": 68.0,
-        "raw_confidence": 68.0,
-        "uncertainty": 0.037,
-        "trend": "Rising",
-        "historical_avg": 1.25,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 4,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "IP Fragmentation",
-        "predicted_count": 0.2514778074843361,
-        "confidence": 67.8,
-        "raw_confidence": 67.8,
-        "uncertainty": 0.277,
+        "topic": "Minimization",
+        "predicted_count": 0.31716223255375925,
+        "confidence": 63.9,
+        "raw_confidence": 63.9,
+        "uncertainty": 0.17,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -911,82 +1164,12 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Engineering Mathematics",
-        "topic": "Combinatorics",
-        "predicted_count": 0.4761904794195535,
-        "confidence": 67.7,
-        "raw_confidence": 67.7,
-        "uncertainty": 0.097,
-        "trend": "Declining",
-        "historical_avg": 1.43,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 7,
-        "is_core": "✓"
-      },
-      {
-        "subject": "General Aptitude",
-        "topic": "Probability",
-        "predicted_count": 0.4236872962004193,
-        "confidence": 67.4,
-        "raw_confidence": 67.4,
-        "uncertainty": 0.158,
-        "trend": "Stable",
-        "historical_avg": 1.6,
-        "recent_avg": 1.67,
-        "last_seen": 2025,
-        "appearances": 5,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "Routing",
-        "predicted_count": 0.5432140031870935,
-        "confidence": 67.1,
-        "raw_confidence": 67.1,
-        "uncertainty": 0.804,
-        "trend": "Stable",
-        "historical_avg": 1.33,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 3,
-        "is_core": "✓"
-      },
-      {
-        "subject": "General Aptitude",
-        "topic": "Data Interpretation",
-        "predicted_count": 0.4437569758689966,
-        "confidence": 67.0,
-        "raw_confidence": 67.0,
-        "uncertainty": 0.082,
-        "trend": "Stable",
-        "historical_avg": 1.33,
-        "recent_avg": 1.33,
-        "last_seen": 2024,
-        "appearances": 6,
-        "is_core": "✓"
-      },
-      {
-        "subject": "General Aptitude",
-        "topic": "Reading Comprehension",
-        "predicted_count": 0.447639208370495,
-        "confidence": 66.9,
-        "raw_confidence": 66.9,
-        "uncertainty": 0.14,
-        "trend": "Rising",
-        "historical_avg": 1.25,
-        "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 4,
-        "is_core": "✓"
-      },
-      {
         "subject": "Digital Logic",
         "topic": "Number Systems",
-        "predicted_count": 0.2494633844082405,
-        "confidence": 66.9,
-        "raw_confidence": 66.9,
-        "uncertainty": 0.039,
+        "predicted_count": 0.28399381791299977,
+        "confidence": 63.7,
+        "raw_confidence": 63.7,
+        "uncertainty": 0.058,
         "trend": "Declining",
         "historical_avg": 1.2,
         "recent_avg": 1.0,
@@ -995,12 +1178,96 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
+        "subject": "Digital Logic",
+        "topic": "Counters",
+        "predicted_count": 0.2132159925661303,
+        "confidence": 63.7,
+        "raw_confidence": 63.7,
+        "uncertainty": 0.021,
+        "trend": "Rising",
+        "historical_avg": 1.25,
+        "recent_avg": 1.33,
+        "last_seen": 2025,
+        "appearances": 4,
+        "is_core": "✓"
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "English Grammar",
+        "predicted_count": 0.3887015349101605,
+        "confidence": 62.9,
+        "raw_confidence": 62.9,
+        "uncertainty": 0.048,
+        "trend": "Rising",
+        "historical_avg": 1.2,
+        "recent_avg": 1.33,
+        "last_seen": 2023,
+        "appearances": 5,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Theory of Computation",
+        "topic": "Pushdown Automata",
+        "predicted_count": 0.29833107525162705,
+        "confidence": 62.9,
+        "raw_confidence": 62.9,
+        "uncertainty": 0.138,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2023,
+        "appearances": 3,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Process Management",
+        "predicted_count": 0.3079047042965494,
+        "confidence": 62.6,
+        "raw_confidence": 62.6,
+        "uncertainty": 0.067,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2024,
+        "appearances": 5,
+        "is_core": ""
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "Routing",
+        "predicted_count": 0.3056912109216427,
+        "confidence": 62.5,
+        "raw_confidence": 62.5,
+        "uncertainty": 0.824,
+        "trend": "Stable",
+        "historical_avg": 1.33,
+        "recent_avg": 1.33,
+        "last_seen": 2025,
+        "appearances": 3,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Complexity Analysis",
+        "predicted_count": 0.27846625545304504,
+        "confidence": 62.3,
+        "raw_confidence": 62.3,
+        "uncertainty": 0.045,
+        "trend": "Rising",
+        "historical_avg": 1.2,
+        "recent_avg": 1.33,
+        "last_seen": 2023,
+        "appearances": 5,
+        "is_core": "✓"
+      },
+      {
         "subject": "General Aptitude",
         "topic": "Spatial Aptitude",
-        "predicted_count": 1.4627375847616728,
-        "confidence": 66.8,
-        "raw_confidence": 66.8,
-        "uncertainty": 0.79,
+        "predicted_count": 1.2391471860281627,
+        "confidence": 62.2,
+        "raw_confidence": 62.2,
+        "uncertainty": 0.823,
         "trend": "Declining",
         "historical_avg": 1.75,
         "recent_avg": 1.33,
@@ -1011,10 +1278,10 @@ export const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "First and Follow",
-        "predicted_count": 0.3362416777069976,
-        "confidence": 66.8,
-        "raw_confidence": 66.8,
-        "uncertainty": 0.882,
+        "predicted_count": 0.2854067351440979,
+        "confidence": 62.2,
+        "raw_confidence": 62.2,
+        "uncertainty": 0.908,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -1023,152 +1290,82 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Digital Logic",
-        "topic": "Minimization",
-        "predicted_count": 0.25971921992605185,
-        "confidence": 66.5,
-        "raw_confidence": 66.5,
-        "uncertainty": 0.224,
+        "subject": "Databases",
+        "topic": "File Organization",
+        "predicted_count": 0.28959499926186294,
+        "confidence": 62.0,
+        "raw_confidence": 62.0,
+        "uncertainty": 0.164,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2024,
-        "appearances": 3,
+        "appearances": 2,
         "is_core": "✓"
       },
       {
-        "subject": "General Aptitude",
-        "topic": "Quantitative Aptitude",
-        "predicted_count": 2.4099477374213603,
-        "confidence": 66.4,
-        "raw_confidence": 66.4,
-        "uncertainty": 0.604,
-        "trend": "Stable",
-        "historical_avg": 4.71,
-        "recent_avg": 4.33,
-        "last_seen": 2025,
-        "appearances": 14,
+        "subject": "Computer Organization",
+        "topic": "Floating Point Representation",
+        "predicted_count": 0.27361822826851856,
+        "confidence": 61.8,
+        "raw_confidence": 61.8,
+        "uncertainty": 0.064,
+        "trend": "Rising",
+        "historical_avg": 1.25,
+        "recent_avg": 1.33,
+        "last_seen": 2026,
+        "appearances": 4,
         "is_core": ""
       },
       {
-        "subject": "Digital Logic",
-        "topic": "Multiplexers",
-        "predicted_count": 0.23849105056511918,
-        "confidence": 66.4,
-        "raw_confidence": 66.4,
-        "uncertainty": 0.24,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2024,
-        "appearances": 3,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Graph Traversal",
-        "predicted_count": 0.3363915383481093,
-        "confidence": 66.0,
-        "raw_confidence": 66.0,
-        "uncertainty": 0.04,
-        "trend": "Stable",
-        "historical_avg": 1.33,
+        "subject": "Computer Networks",
+        "topic": "Application Layer Protocols",
+        "predicted_count": 0.2594462568378746,
+        "confidence": 61.8,
+        "raw_confidence": 61.8,
+        "uncertainty": 0.045,
+        "trend": "Rising",
+        "historical_avg": 1.25,
         "recent_avg": 1.33,
-        "last_seen": 2025,
-        "appearances": 6,
+        "last_seen": 2026,
+        "appearances": 4,
         "is_core": ""
       },
       {
         "subject": "Compiler Design",
         "topic": "Three-Address Code",
-        "predicted_count": 0.1855230605672702,
-        "confidence": 66.0,
-        "raw_confidence": 66.0,
-        "uncertainty": 0.125,
+        "predicted_count": 0.251249396038181,
+        "confidence": 61.7,
+        "raw_confidence": 61.7,
+        "uncertainty": 0.099,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 3,
         "is_core": ""
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Interrupts",
-        "predicted_count": 0.6515593879451383,
-        "confidence": 65.2,
-        "raw_confidence": 65.2,
-        "uncertainty": 0.743,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "Process Management",
-        "predicted_count": 0.33363983396158636,
-        "confidence": 65.2,
-        "raw_confidence": 65.2,
-        "uncertainty": 0.105,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2024,
-        "appearances": 5,
-        "is_core": ""
-      },
-      {
-        "subject": "Theory of Computation",
-        "topic": "Decidability",
-        "predicted_count": 0.4640085263418235,
-        "confidence": 65.0,
-        "raw_confidence": 65.0,
-        "uncertainty": 0.07,
-        "trend": "Rising",
-        "historical_avg": 1.43,
-        "recent_avg": 1.67,
-        "last_seen": 2021,
-        "appearances": 7,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Instruction Set Architecture",
-        "predicted_count": 0.29333438484629765,
-        "confidence": 65.0,
-        "raw_confidence": 65.0,
-        "uncertainty": 0.257,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2023,
-        "appearances": 3,
-        "is_core": "✓"
       },
       {
         "subject": "Digital Logic",
-        "topic": "Karnaugh Maps",
-        "predicted_count": 0.4610019508891291,
-        "confidence": 64.9,
-        "raw_confidence": 64.9,
-        "uncertainty": 0.858,
+        "topic": "Memory Management",
+        "predicted_count": 0.23664274505155625,
+        "confidence": 61.6,
+        "raw_confidence": 61.6,
+        "uncertainty": 0.213,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
-        "last_seen": 2025,
+        "last_seen": 2022,
         "appearances": 2,
         "is_core": "✓"
       },
       {
         "subject": "Computer Organization",
         "topic": "DMA",
-        "predicted_count": 0.6604939089347925,
-        "confidence": 64.7,
-        "raw_confidence": 64.7,
-        "uncertainty": 0.786,
+        "predicted_count": 0.5575654963461978,
+        "confidence": 61.5,
+        "raw_confidence": 61.5,
+        "uncertainty": 0.838,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -1177,54 +1374,12 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "General Aptitude",
-        "topic": "English Grammar",
-        "predicted_count": 0.4849618483136084,
-        "confidence": 64.6,
-        "raw_confidence": 64.6,
-        "uncertainty": 0.078,
-        "trend": "Rising",
-        "historical_avg": 1.2,
-        "recent_avg": 1.33,
-        "last_seen": 2023,
-        "appearances": 5,
-        "is_core": "✓"
-      },
-      {
-        "subject": "General Aptitude",
-        "topic": "Critical Reasoning",
-        "predicted_count": 0.46817508862793783,
-        "confidence": 64.5,
-        "raw_confidence": 64.5,
-        "uncertainty": 0.142,
-        "trend": "Declining",
-        "historical_avg": 1.2,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 5,
-        "is_core": ""
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Complexity Analysis",
-        "predicted_count": 0.33628654305568634,
-        "confidence": 64.5,
-        "raw_confidence": 64.5,
-        "uncertainty": 0.031,
-        "trend": "Rising",
-        "historical_avg": 1.2,
-        "recent_avg": 1.33,
-        "last_seen": 2023,
-        "appearances": 5,
-        "is_core": "✓"
-      },
-      {
         "subject": "Engineering Mathematics",
         "topic": "Discrete Mathematics",
-        "predicted_count": 0.4430983889601582,
-        "confidence": 64.4,
-        "raw_confidence": 64.4,
-        "uncertainty": 0.089,
+        "predicted_count": 0.34073000534760045,
+        "confidence": 61.4,
+        "raw_confidence": 61.4,
+        "uncertainty": 0.088,
         "trend": "Rising",
         "historical_avg": 1.25,
         "recent_avg": 1.33,
@@ -1235,10 +1390,10 @@ export const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Transport Layer",
-        "predicted_count": 0.3006590255897611,
-        "confidence": 64.4,
-        "raw_confidence": 64.4,
-        "uncertainty": 0.074,
+        "predicted_count": 0.27605329581319094,
+        "confidence": 61.1,
+        "raw_confidence": 61.1,
+        "uncertainty": 0.093,
         "trend": "Declining",
         "historical_avg": 1.33,
         "recent_avg": 1.0,
@@ -1247,26 +1402,68 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Databases",
-        "topic": "File Organization",
-        "predicted_count": 0.288866207474696,
-        "confidence": 64.3,
-        "raw_confidence": 64.3,
-        "uncertainty": 0.252,
+        "subject": "Compiler Design",
+        "topic": "Liveness Analysis",
+        "predicted_count": 0.2450414504048986,
+        "confidence": 61.0,
+        "raw_confidence": 61.0,
+        "uncertainty": 0.942,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2023,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Processes and Threads",
+        "predicted_count": 0.6781824143823425,
+        "confidence": 60.9,
+        "raw_confidence": 60.9,
+        "uncertainty": 0.938,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2024,
+        "appearances": 2,
+        "is_core": ""
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "Network Security",
+        "predicted_count": 0.2778728384026431,
+        "confidence": 60.7,
+        "raw_confidence": 60.7,
+        "uncertainty": 0.06,
+        "trend": "Rising",
+        "historical_avg": 1.5,
+        "recent_avg": 1.67,
+        "last_seen": 2017,
+        "appearances": 4,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "Medium Access Control",
+        "predicted_count": 0.2500638287736061,
+        "confidence": 60.7,
+        "raw_confidence": 60.7,
+        "uncertainty": 0.211,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2021,
         "appearances": 2,
         "is_core": "✓"
       },
       {
         "subject": "Engineering Mathematics",
         "topic": "Mathematical Logic",
-        "predicted_count": 0.5828125105280655,
-        "confidence": 64.2,
-        "raw_confidence": 64.2,
-        "uncertainty": 0.053,
+        "predicted_count": 0.3620197794096211,
+        "confidence": 60.6,
+        "raw_confidence": 60.6,
+        "uncertainty": 0.101,
         "trend": "Declining",
         "historical_avg": 1.9,
         "recent_avg": 1.0,
@@ -1277,10 +1474,10 @@ export const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "B+ Trees",
-        "predicted_count": 0.21820347359518835,
-        "confidence": 64.2,
-        "raw_confidence": 64.2,
-        "uncertainty": 0.126,
+        "predicted_count": 0.20948197817263361,
+        "confidence": 60.6,
+        "raw_confidence": 60.6,
+        "uncertainty": 0.047,
         "trend": "Stable",
         "historical_avg": 1.5,
         "recent_avg": 1.5,
@@ -1290,53 +1487,11 @@ export const GATE_DATA = {
       },
       {
         "subject": "Theory of Computation",
-        "topic": "Pushdown Automata",
-        "predicted_count": 0.34384191211135773,
-        "confidence": 64.1,
-        "raw_confidence": 64.1,
-        "uncertainty": 0.226,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2023,
-        "appearances": 3,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "Processes and Threads",
-        "predicted_count": 0.9672974905211286,
-        "confidence": 63.9,
-        "raw_confidence": 63.9,
-        "uncertainty": 0.951,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2024,
-        "appearances": 2,
-        "is_core": ""
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "File Systems",
-        "predicted_count": 0.2740448407522374,
-        "confidence": 63.7,
-        "raw_confidence": 63.7,
-        "uncertainty": 0.095,
-        "trend": "Stable",
-        "historical_avg": 1.17,
-        "recent_avg": 1.0,
-        "last_seen": 2022,
-        "appearances": 6,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Theory of Computation",
         "topic": "Regular Expressions",
-        "predicted_count": 0.39466187781451034,
-        "confidence": 63.4,
-        "raw_confidence": 63.4,
-        "uncertainty": 0.118,
+        "predicted_count": 0.45295601605249847,
+        "confidence": 60.5,
+        "raw_confidence": 60.5,
+        "uncertainty": 0.097,
         "trend": "Stable",
         "historical_avg": 1.67,
         "recent_avg": 1.67,
@@ -1345,12 +1500,40 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Compiler Design",
-        "topic": "Liveness Analysis",
-        "predicted_count": 0.35710561910680355,
-        "confidence": 63.3,
-        "raw_confidence": 63.3,
-        "uncertainty": 0.853,
+        "subject": "General Aptitude",
+        "topic": "Critical Reasoning",
+        "predicted_count": 0.45841808504934983,
+        "confidence": 60.4,
+        "raw_confidence": 60.4,
+        "uncertainty": 0.097,
+        "trend": "Declining",
+        "historical_avg": 1.2,
+        "recent_avg": 1.0,
+        "last_seen": 2025,
+        "appearances": 5,
+        "is_core": ""
+      },
+      {
+        "subject": "Digital Logic",
+        "topic": "Karnaugh Maps",
+        "predicted_count": 0.3212303195579693,
+        "confidence": 60.1,
+        "raw_confidence": 60.1,
+        "uncertainty": 0.931,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2025,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "Flow Control",
+        "predicted_count": 0.27408563145059966,
+        "confidence": 60.1,
+        "raw_confidence": 60.1,
+        "uncertainty": 0.181,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -1359,54 +1542,82 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
-        "subject": "Computer Networks",
-        "topic": "Routing Protocols",
-        "predicted_count": 0.25075343391717664,
-        "confidence": 62.9,
-        "raw_confidence": 62.9,
-        "uncertainty": 0.035,
-        "trend": "Declining",
-        "historical_avg": 1.25,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 4,
-        "is_core": ""
-      },
-      {
-        "subject": "Digital Logic",
-        "topic": "Memory Management",
-        "predicted_count": 0.23757012543231917,
-        "confidence": 62.5,
-        "raw_confidence": 62.5,
-        "uncertainty": 0.271,
+        "subject": "Operating Systems",
+        "topic": "Threads",
+        "predicted_count": 0.26703128289664574,
+        "confidence": 59.5,
+        "raw_confidence": 59.5,
+        "uncertainty": 0.217,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
-        "last_seen": 2022,
+        "last_seen": 2017,
+        "appearances": 3,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Databases",
+        "topic": "Functional Dependencies",
+        "predicted_count": 0.24036554365924342,
+        "confidence": 59.4,
+        "raw_confidence": 59.4,
+        "uncertainty": 0.225,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2021,
         "appearances": 2,
         "is_core": "✓"
       },
       {
-        "subject": "General Aptitude",
-        "topic": "Analytical Aptitude",
-        "predicted_count": 0.4459539270821916,
-        "confidence": 62.0,
-        "raw_confidence": 62.0,
-        "uncertainty": 0.151,
+        "subject": "Algorithms",
+        "topic": "Greedy Algorithms",
+        "predicted_count": 0.3132891424426668,
+        "confidence": 59.3,
+        "raw_confidence": 59.3,
+        "uncertainty": 0.221,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2018,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "topic": "Propositional & First Order Logic",
+        "predicted_count": 1.0031793735153343,
+        "confidence": 59.1,
+        "raw_confidence": 59.1,
+        "uncertainty": 0.776,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2026,
+        "appearances": 2,
+        "is_core": ""
+      },
+      {
+        "subject": "Databases",
+        "topic": "Relational Model",
+        "predicted_count": 0.22115625606344927,
+        "confidence": 59.1,
+        "raw_confidence": 59.1,
+        "uncertainty": 0.045,
         "trend": "Rising",
         "historical_avg": 1.25,
         "recent_avg": 1.33,
-        "last_seen": 2025,
+        "last_seen": 2023,
         "appearances": 4,
-        "is_core": ""
+        "is_core": "✓"
       },
       {
         "subject": "Computer Networks",
         "topic": "Packet Switching",
-        "predicted_count": 0.28181515699621285,
-        "confidence": 61.6,
-        "raw_confidence": 61.6,
-        "uncertainty": 0.111,
+        "predicted_count": 0.30336425576466375,
+        "confidence": 59.0,
+        "raw_confidence": 59.0,
+        "uncertainty": 0.072,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -1417,10 +1628,10 @@ export const GATE_DATA = {
       {
         "subject": "Programming",
         "topic": "Arrays",
-        "predicted_count": 0.29307562343782545,
-        "confidence": 61.5,
-        "raw_confidence": 61.5,
-        "uncertainty": 0.107,
+        "predicted_count": 0.20730589154221904,
+        "confidence": 59.0,
+        "raw_confidence": 59.0,
+        "uncertainty": 0.06,
         "trend": "Stable",
         "historical_avg": 1.33,
         "recent_avg": 1.33,
@@ -1429,11 +1640,109 @@ export const GATE_DATA = {
         "is_core": "✓"
       },
       {
+        "subject": "Computer Organization",
+        "topic": "Data Representation",
+        "predicted_count": 0.25323134255677326,
+        "confidence": 58.7,
+        "raw_confidence": 58.7,
+        "uncertainty": 0.074,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2023,
+        "appearances": 3,
+        "is_core": ""
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "Routing Protocols",
+        "predicted_count": 0.2530095676883927,
+        "confidence": 58.2,
+        "raw_confidence": 58.2,
+        "uncertainty": 0.044,
+        "trend": "Declining",
+        "historical_avg": 1.25,
+        "recent_avg": 1.0,
+        "last_seen": 2025,
+        "appearances": 4,
+        "is_core": ""
+      },
+      {
+        "subject": "Compiler Design",
+        "topic": "Code Optimization",
+        "predicted_count": 0.2105670143260518,
+        "confidence": 58.1,
+        "raw_confidence": 58.1,
+        "uncertainty": 0.046,
+        "trend": "Rising",
+        "historical_avg": 1.25,
+        "recent_avg": 1.33,
+        "last_seen": 2021,
+        "appearances": 4,
+        "is_core": "✓"
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Analytical Aptitude",
+        "predicted_count": 0.4694281875899972,
+        "confidence": 57.8,
+        "raw_confidence": 57.8,
+        "uncertainty": 0.114,
+        "trend": "Rising",
+        "historical_avg": 1.25,
+        "recent_avg": 1.33,
+        "last_seen": 2025,
+        "appearances": 4,
+        "is_core": ""
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Stacks and Queues",
+        "predicted_count": 0.6708945161932316,
+        "confidence": 57.4,
+        "raw_confidence": 57.4,
+        "uncertainty": 0.062,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2023,
+        "appearances": 3,
+        "is_core": ""
+      },
+      {
+        "subject": "Computer Organization",
+        "topic": "Input/Output",
+        "predicted_count": 0.6251518866355644,
+        "confidence": 57.2,
+        "raw_confidence": 57.2,
+        "uncertainty": 0.917,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2024,
+        "appearances": 2,
+        "is_core": ""
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Heaps",
+        "predicted_count": 0.2593659278474713,
+        "confidence": 57.2,
+        "raw_confidence": 57.2,
+        "uncertainty": 0.076,
+        "trend": "Stable",
+        "historical_avg": 1.5,
+        "recent_avg": 1.5,
+        "last_seen": 2024,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
         "subject": "Computer Networks",
         "topic": "TCP Handshake",
-        "predicted_count": 0.5228915250528805,
-        "confidence": 61.4,
-        "raw_confidence": 61.4,
+        "predicted_count": 0.32715176304001475,
+        "confidence": 56.8,
+        "raw_confidence": 56.8,
         "uncertainty": 1.026,
         "trend": "Stable",
         "historical_avg": 1.0,
@@ -1445,10 +1754,10 @@ export const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Optimization",
-        "predicted_count": 0.34311389394886627,
-        "confidence": 61.3,
-        "raw_confidence": 61.3,
-        "uncertainty": 1.052,
+        "predicted_count": 0.23262648271014277,
+        "confidence": 56.8,
+        "raw_confidence": 56.8,
+        "uncertainty": 1.032,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -1457,278 +1766,26 @@ export const GATE_DATA = {
         "is_core": ""
       },
       {
-        "subject": "Computer Networks",
-        "topic": "Flow Control",
-        "predicted_count": 0.25741206515892956,
-        "confidence": 61.3,
-        "raw_confidence": 61.3,
-        "uncertainty": 0.278,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2023,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Databases",
-        "topic": "Relational Model",
-        "predicted_count": 0.27641265750703986,
-        "confidence": 61.2,
-        "raw_confidence": 61.2,
-        "uncertainty": 0.038,
-        "trend": "Rising",
-        "historical_avg": 1.25,
-        "recent_avg": 1.33,
-        "last_seen": 2023,
-        "appearances": 4,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "Medium Access Control",
-        "predicted_count": 0.25495630786955836,
-        "confidence": 60.9,
-        "raw_confidence": 60.9,
-        "uncertainty": 0.297,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2021,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Data Representation",
-        "predicted_count": 0.30556825942722327,
-        "confidence": 60.6,
-        "raw_confidence": 60.6,
-        "uncertainty": 0.086,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2023,
-        "appearances": 3,
-        "is_core": ""
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "Network Security",
-        "predicted_count": 0.2973467180449244,
-        "confidence": 60.6,
-        "raw_confidence": 60.6,
-        "uncertainty": 0.085,
-        "trend": "Rising",
-        "historical_avg": 1.5,
-        "recent_avg": 1.67,
-        "last_seen": 2017,
-        "appearances": 4,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Heaps",
-        "predicted_count": 0.297129663911162,
-        "confidence": 60.4,
-        "raw_confidence": 60.4,
-        "uncertainty": 0.061,
-        "trend": "Stable",
-        "historical_avg": 1.5,
-        "recent_avg": 1.5,
-        "last_seen": 2024,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Input/Output",
-        "predicted_count": 0.7414790909348972,
-        "confidence": 60.2,
-        "raw_confidence": 60.2,
-        "uncertainty": 0.908,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2024,
-        "appearances": 2,
-        "is_core": ""
-      },
-      {
-        "subject": "Databases",
-        "topic": "Functional Dependencies",
-        "predicted_count": 0.2767129117808472,
-        "confidence": 60.0,
-        "raw_confidence": 60.0,
-        "uncertainty": 0.264,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2021,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Dynamic Programming",
-        "predicted_count": 0.32632568635028386,
-        "confidence": 59.9,
-        "raw_confidence": 59.9,
-        "uncertainty": 0.072,
-        "trend": "Stable",
-        "historical_avg": 1.4,
-        "recent_avg": 1.33,
-        "last_seen": 2021,
-        "appearances": 5,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "Disk Scheduling",
-        "predicted_count": 0.3052869712294508,
-        "confidence": 59.5,
-        "raw_confidence": 59.5,
-        "uncertainty": 0.064,
-        "trend": "Rising",
-        "historical_avg": 1.5,
-        "recent_avg": 1.67,
-        "last_seen": 2020,
-        "appearances": 4,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Data Structures",
-        "topic": "Stacks and Queues",
-        "predicted_count": 0.7084458414509107,
-        "confidence": 58.9,
-        "raw_confidence": 58.9,
-        "uncertainty": 0.111,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2023,
-        "appearances": 3,
-        "is_core": ""
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Greedy Algorithms",
-        "predicted_count": 0.3413108214828592,
-        "confidence": 58.9,
-        "raw_confidence": 58.9,
-        "uncertainty": 0.311,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2018,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "Threads",
-        "predicted_count": 0.3336951146445702,
-        "confidence": 58.9,
-        "raw_confidence": 58.9,
-        "uncertainty": 0.313,
+        "subject": "Compiler Design",
+        "topic": "Code Generation",
+        "predicted_count": 0.20122809441881362,
+        "confidence": 56.8,
+        "raw_confidence": 56.8,
+        "uncertainty": 0.21,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2017,
-        "appearances": 3,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Compiler Design",
-        "topic": "Code Optimization",
-        "predicted_count": 0.17964080055785883,
-        "confidence": 58.8,
-        "raw_confidence": 58.8,
-        "uncertainty": 0.066,
-        "trend": "Rising",
-        "historical_avg": 1.25,
-        "recent_avg": 1.33,
-        "last_seen": 2021,
-        "appearances": 4,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Instruction Formats",
-        "predicted_count": 0.3628088113083094,
-        "confidence": 58.3,
-        "raw_confidence": 58.3,
-        "uncertainty": 0.218,
-        "trend": "Rising",
-        "historical_avg": 2.0,
-        "recent_avg": 2.33,
-        "last_seen": 2024,
-        "appearances": 4,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Compiler Design",
-        "topic": "Lexical Analysis",
-        "predicted_count": 0.16716870720486676,
-        "confidence": 58.2,
-        "raw_confidence": 58.2,
-        "uncertainty": 0.09,
-        "trend": "Stable",
-        "historical_avg": 1.33,
-        "recent_avg": 1.33,
-        "last_seen": 2023,
-        "appearances": 3,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "IPv4 Addressing",
-        "predicted_count": 0.23548840931354575,
-        "confidence": 57.7,
-        "raw_confidence": 57.7,
-        "uncertainty": 0.046,
-        "trend": "Declining",
-        "historical_avg": 1.33,
-        "recent_avg": 1.0,
-        "last_seen": 2022,
-        "appearances": 6,
-        "is_core": ""
-      },
-      {
-        "subject": "Theory of Computation",
-        "topic": "Grammars",
-        "predicted_count": 0.35988626920021033,
-        "confidence": 57.3,
-        "raw_confidence": 57.3,
-        "uncertainty": 0.14,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2023,
         "appearances": 2,
-        "is_core": ""
-      },
-      {
-        "subject": "Compiler Design",
-        "topic": "Compiler Phases",
-        "predicted_count": 0.15490003923651918,
-        "confidence": 56.9,
-        "raw_confidence": 56.9,
-        "uncertainty": 0.051,
-        "trend": "Stable",
-        "historical_avg": 1.33,
-        "recent_avg": 1.33,
-        "last_seen": 2024,
-        "appearances": 3,
-        "is_core": ""
+        "is_core": "✓"
       },
       {
         "subject": "Engineering Mathematics",
         "topic": "Propositional Logic",
-        "predicted_count": 0.41549523092371216,
-        "confidence": 56.7,
-        "raw_confidence": 56.7,
-        "uncertainty": 0.128,
+        "predicted_count": 0.2967976321292002,
+        "confidence": 56.3,
+        "raw_confidence": 56.3,
+        "uncertainty": 0.079,
         "trend": "Stable",
         "historical_avg": 1.33,
         "recent_avg": 1.33,
@@ -1739,10 +1796,10 @@ export const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Phases of Compiler",
-        "predicted_count": 0.1753451107832005,
-        "confidence": 56.6,
-        "raw_confidence": 56.6,
-        "uncertainty": 0.146,
+        "predicted_count": 0.18764549344675538,
+        "confidence": 56.2,
+        "raw_confidence": 56.2,
+        "uncertainty": 0.092,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
@@ -1753,10 +1810,94 @@ export const GATE_DATA = {
       {
         "subject": "General Aptitude",
         "topic": "Arithmetic",
-        "predicted_count": 0.3986650069710666,
-        "confidence": 56.4,
-        "raw_confidence": 56.4,
-        "uncertainty": 0.158,
+        "predicted_count": 0.3343278078883553,
+        "confidence": 55.9,
+        "raw_confidence": 55.9,
+        "uncertainty": 0.117,
+        "trend": "Stable",
+        "historical_avg": 1.5,
+        "recent_avg": 1.5,
+        "last_seen": 2021,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Theory of Computation",
+        "topic": "Grammars",
+        "predicted_count": 0.3925079208330259,
+        "confidence": 55.1,
+        "raw_confidence": 55.1,
+        "uncertainty": 0.161,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2023,
+        "appearances": 2,
+        "is_core": ""
+      },
+      {
+        "subject": "Computer Organization",
+        "topic": "Instruction Formats",
+        "predicted_count": 0.3328890428639562,
+        "confidence": 55.0,
+        "raw_confidence": 55.0,
+        "uncertainty": 0.244,
+        "trend": "Rising",
+        "historical_avg": 2.0,
+        "recent_avg": 2.33,
+        "last_seen": 2024,
+        "appearances": 4,
+        "is_core": "✓"
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Vocabulary",
+        "predicted_count": 0.32950841885818555,
+        "confidence": 54.7,
+        "raw_confidence": 54.7,
+        "uncertainty": 0.109,
+        "trend": "Stable",
+        "historical_avg": 1.5,
+        "recent_avg": 1.5,
+        "last_seen": 2018,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Queues",
+        "predicted_count": 1.2700816506064685,
+        "confidence": 54.6,
+        "raw_confidence": 54.6,
+        "uncertainty": 0.817,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2022,
+        "appearances": 2,
+        "is_core": "✓"
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "English Vocabulary",
+        "predicted_count": 0.47993007172075924,
+        "confidence": 54.4,
+        "raw_confidence": 54.4,
+        "uncertainty": 0.192,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2023,
+        "appearances": 2,
+        "is_core": ""
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Semaphores",
+        "predicted_count": 0.21448778218722175,
+        "confidence": 54.3,
+        "raw_confidence": 54.3,
+        "uncertainty": 0.083,
         "trend": "Stable",
         "historical_avg": 1.5,
         "recent_avg": 1.5,
@@ -1767,10 +1908,10 @@ export const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Set Theory",
-        "predicted_count": 0.43481569545860677,
-        "confidence": 56.3,
-        "raw_confidence": 56.3,
-        "uncertainty": 0.076,
+        "predicted_count": 0.30598438843459536,
+        "confidence": 54.1,
+        "raw_confidence": 54.1,
+        "uncertainty": 0.095,
         "trend": "Declining",
         "historical_avg": 2.0,
         "recent_avg": 1.0,
@@ -1779,68 +1920,54 @@ export const GATE_DATA = {
         "is_core": ""
       },
       {
-        "subject": "General Aptitude",
-        "topic": "English Vocabulary",
-        "predicted_count": 0.47435245776816776,
-        "confidence": 56.2,
-        "raw_confidence": 56.2,
-        "uncertainty": 0.217,
+        "subject": "Compiler Design",
+        "topic": "Compiler Phases",
+        "predicted_count": 0.17294120203049185,
+        "confidence": 54.0,
+        "raw_confidence": 54.0,
+        "uncertainty": 0.044,
         "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2023,
+        "historical_avg": 1.33,
+        "recent_avg": 1.33,
+        "last_seen": 2024,
+        "appearances": 3,
+        "is_core": ""
+      },
+      {
+        "subject": "Databases",
+        "topic": "Keys and Functional Dependencies",
+        "predicted_count": 0.41760993905034943,
+        "confidence": 53.5,
+        "raw_confidence": 53.5,
+        "uncertainty": 0.744,
+        "trend": "Stable",
+        "historical_avg": 1.5,
+        "recent_avg": 1.5,
+        "last_seen": 2026,
         "appearances": 2,
         "is_core": ""
       },
       {
-        "subject": "Compiler Design",
-        "topic": "Code Generation",
-        "predicted_count": 0.17080935012843465,
-        "confidence": 56.2,
-        "raw_confidence": 56.2,
-        "uncertainty": 0.31,
+        "subject": "Operating Systems",
+        "topic": "Disk Management",
+        "predicted_count": 0.7288898293439434,
+        "confidence": 53.2,
+        "raw_confidence": 53.2,
+        "uncertainty": 0.921,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
-        "last_seen": 2017,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Addressing Modes",
-        "predicted_count": 0.2855051010177544,
-        "confidence": 56.1,
-        "raw_confidence": 56.1,
-        "uncertainty": 0.323,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2017,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "Data Structures",
-        "topic": "Queues",
-        "predicted_count": 1.53223173509747,
-        "confidence": 56.0,
-        "raw_confidence": 56.0,
-        "uncertainty": 0.797,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2022,
-        "appearances": 2,
-        "is_core": "✓"
+        "last_seen": 2024,
+        "appearances": 3,
+        "is_core": ""
       },
       {
         "subject": "Computer Networks",
         "topic": "IPv4 Header",
-        "predicted_count": 0.23504298392213113,
-        "confidence": 56.0,
-        "raw_confidence": 56.0,
-        "uncertainty": 0.068,
+        "predicted_count": 0.2929429315873564,
+        "confidence": 53.2,
+        "raw_confidence": 53.2,
+        "uncertainty": 0.047,
         "trend": "Stable",
         "historical_avg": 1.33,
         "recent_avg": 1.33,
@@ -1850,94 +1977,38 @@ export const GATE_DATA = {
       },
       {
         "subject": "Operating Systems",
-        "topic": "Disk Management",
-        "predicted_count": 0.7910686343155207,
-        "confidence": 55.8,
-        "raw_confidence": 55.8,
-        "uncertainty": 1.037,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2024,
-        "appearances": 3,
-        "is_core": ""
-      },
-      {
-        "subject": "Operating Systems",
         "topic": "System Calls",
-        "predicted_count": 0.7869988278367269,
-        "confidence": 55.8,
-        "raw_confidence": 55.8,
-        "uncertainty": 1.047,
+        "predicted_count": 0.7008838599665088,
+        "confidence": 53.1,
+        "raw_confidence": 53.1,
+        "uncertainty": 0.946,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 3,
         "is_core": ""
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Floating Point Representation",
-        "predicted_count": 0.3205401220335791,
-        "confidence": 55.4,
-        "raw_confidence": 55.4,
-        "uncertainty": 0.123,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2021,
-        "appearances": 3,
-        "is_core": ""
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "Semaphores",
-        "predicted_count": 0.25268445603469436,
-        "confidence": 55.1,
-        "raw_confidence": 55.1,
-        "uncertainty": 0.096,
-        "trend": "Stable",
-        "historical_avg": 1.5,
-        "recent_avg": 1.5,
-        "last_seen": 2021,
-        "appearances": 2,
-        "is_core": "✓"
-      },
-      {
-        "subject": "General Aptitude",
-        "topic": "Vocabulary",
-        "predicted_count": 0.4012393767202654,
-        "confidence": 54.4,
-        "raw_confidence": 54.4,
-        "uncertainty": 0.167,
-        "trend": "Stable",
-        "historical_avg": 1.5,
-        "recent_avg": 1.5,
-        "last_seen": 2018,
-        "appearances": 2,
-        "is_core": "✓"
       },
       {
         "subject": "Computer Networks",
-        "topic": "Application Layer Protocols",
-        "predicted_count": 0.29316491080083795,
-        "confidence": 54.4,
-        "raw_confidence": 54.4,
-        "uncertainty": 0.102,
+        "topic": "Sliding Window Protocol",
+        "predicted_count": 0.26037161988467916,
+        "confidence": 52.8,
+        "raw_confidence": 52.8,
+        "uncertainty": 0.115,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
-        "last_seen": 2019,
-        "appearances": 3,
+        "last_seen": 2021,
+        "appearances": 2,
         "is_core": ""
       },
       {
         "subject": "Theory of Computation",
         "topic": "Context Free Languages",
-        "predicted_count": 0.3333005827214496,
-        "confidence": 54.0,
-        "raw_confidence": 54.0,
+        "predicted_count": 0.30136073408121333,
+        "confidence": 52.6,
+        "raw_confidence": 52.6,
         "uncertainty": 0.041,
         "trend": "Rising",
         "historical_avg": 1.25,
@@ -1947,12 +2018,26 @@ export const GATE_DATA = {
         "is_core": ""
       },
       {
+        "subject": "Theory of Computation",
+        "topic": "Formal Languages",
+        "predicted_count": 0.37165088273996855,
+        "confidence": 51.7,
+        "raw_confidence": 51.7,
+        "uncertainty": 0.115,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2020,
+        "appearances": 2,
+        "is_core": ""
+      },
+      {
         "subject": "General Aptitude",
         "topic": "Set Theory",
-        "predicted_count": 0.3722211638941765,
-        "confidence": 53.7,
-        "raw_confidence": 53.7,
-        "uncertainty": 0.169,
+        "predicted_count": 0.36524148194702527,
+        "confidence": 51.4,
+        "raw_confidence": 51.4,
+        "uncertainty": 0.094,
         "trend": "Stable",
         "historical_avg": 1.5,
         "recent_avg": 1.5,
@@ -1961,26 +2046,26 @@ export const GATE_DATA = {
         "is_core": ""
       },
       {
-        "subject": "Computer Networks",
-        "topic": "Sliding Window Protocol",
-        "predicted_count": 0.2481762418957927,
-        "confidence": 53.3,
-        "raw_confidence": 53.3,
-        "uncertainty": 0.162,
+        "subject": "Digital Logic",
+        "topic": "Data Representation",
+        "predicted_count": 0.19674627695373195,
+        "confidence": 51.0,
+        "raw_confidence": 51.0,
+        "uncertainty": 0.049,
         "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2021,
+        "historical_avg": 1.5,
+        "recent_avg": 1.5,
+        "last_seen": 2016,
         "appearances": 2,
         "is_core": ""
       },
       {
         "subject": "Theory of Computation",
         "topic": "Closure Properties",
-        "predicted_count": 0.29625420528262586,
-        "confidence": 52.1,
-        "raw_confidence": 52.1,
-        "uncertainty": 0.108,
+        "predicted_count": 0.28597301191090424,
+        "confidence": 50.6,
+        "raw_confidence": 50.6,
+        "uncertainty": 0.057,
         "trend": "Stable",
         "historical_avg": 1.33,
         "recent_avg": 1.33,
@@ -1990,39 +2075,11 @@ export const GATE_DATA = {
       },
       {
         "subject": "Theory of Computation",
-        "topic": "Formal Languages",
-        "predicted_count": 0.3362734031770989,
-        "confidence": 51.9,
-        "raw_confidence": 51.9,
-        "uncertainty": 0.157,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2020,
-        "appearances": 2,
-        "is_core": ""
-      },
-      {
-        "subject": "Databases",
-        "topic": "Transaction Management",
-        "predicted_count": 0.29270028113595264,
-        "confidence": 51.5,
-        "raw_confidence": 51.5,
-        "uncertainty": 0.207,
-        "trend": "Rising",
-        "historical_avg": 1.6,
-        "recent_avg": 2.0,
-        "last_seen": 2024,
-        "appearances": 5,
-        "is_core": ""
-      },
-      {
-        "subject": "Theory of Computation",
         "topic": "Context-free Languages",
-        "predicted_count": 0.3297610063398298,
-        "confidence": 51.2,
-        "raw_confidence": 51.2,
-        "uncertainty": 0.088,
+        "predicted_count": 0.2969767401170631,
+        "confidence": 50.4,
+        "raw_confidence": 50.4,
+        "uncertainty": 0.076,
         "trend": "Stable",
         "historical_avg": 1.5,
         "recent_avg": 1.5,
@@ -2031,130 +2088,50 @@ export const GATE_DATA = {
         "is_core": ""
       },
       {
-        "subject": "Digital Logic",
-        "topic": "Data Representation",
-        "predicted_count": 0.23156927831486554,
-        "confidence": 51.2,
-        "raw_confidence": 51.2,
-        "uncertainty": 0.041,
-        "trend": "Stable",
-        "historical_avg": 1.5,
-        "recent_avg": 1.5,
-        "last_seen": 2016,
-        "appearances": 2,
-        "is_core": ""
-      },
-      {
         "subject": "Engineering Mathematics",
         "topic": "Number Theory",
-        "predicted_count": 0.3999461186498515,
-        "confidence": 50.3,
-        "raw_confidence": 50.3,
-        "uncertainty": 0.105,
+        "predicted_count": 0.24626857811899905,
+        "confidence": 50.4,
+        "raw_confidence": 50.4,
+        "uncertainty": 0.057,
         "trend": "Stable",
         "historical_avg": 1.33,
         "recent_avg": 1.33,
         "last_seen": 2019,
         "appearances": 3,
         "is_core": ""
+      },
+      {
+        "subject": "Databases",
+        "topic": "Transaction Management",
+        "predicted_count": 0.2929001121148409,
+        "confidence": 47.5,
+        "raw_confidence": 47.5,
+        "uncertainty": 0.329,
+        "trend": "Rising",
+        "historical_avg": 1.6,
+        "recent_avg": 2.0,
+        "last_seen": 2024,
+        "appearances": 5,
+        "is_core": ""
       }
     ],
     "subject_totals": {
-      "Operating Systems": 5.999999999999998,
-      "Compiler Design": 3.0000000000000004,
-      "Theory of Computation": 4.999999999999999,
-      "Computer Organization": 6.000000000000001,
       "Algorithms": 3.9999999999999996,
+      "Operating Systems": 6.0,
+      "Compiler Design": 2.999999999999999,
+      "Theory of Computation": 5.0,
       "Databases": 4.0,
       "Data Structures": 7.0,
       "Engineering Mathematics": 9.000000000000002,
+      "Computer Organization": 6.0,
       "Digital Logic": 3.0000000000000004,
       "Programming": 2.0,
-      "General Aptitude": 10.999999999999998,
-      "Computer Networks": 5.0
+      "General Aptitude": 11.000000000000002,
+      "Computer Networks": 4.999999999999999
     },
     "validation": {
       "walk_forward": [
-        {
-          "year": 2020,
-          "mae": 0.667,
-          "total_pred": 65.0,
-          "total_actual": 65,
-          "errors": [
-            {
-              "subject": "Engineering Mathematics",
-              "predicted": 9.0,
-              "actual": 8,
-              "error": 1.0
-            },
-            {
-              "subject": "Digital Logic",
-              "predicted": 3.0,
-              "actual": 3,
-              "error": 0.0
-            },
-            {
-              "subject": "Computer Organization",
-              "predicted": 6.0,
-              "actual": 7,
-              "error": 1.0
-            },
-            {
-              "subject": "Programming",
-              "predicted": 2.0,
-              "actual": 3,
-              "error": 1.0
-            },
-            {
-              "subject": "Data Structures",
-              "predicted": 7.0,
-              "actual": 6,
-              "error": 0.9999999999999991
-            },
-            {
-              "subject": "Algorithms",
-              "predicted": 4.0,
-              "actual": 4,
-              "error": 4.440892098500626e-16
-            },
-            {
-              "subject": "Theory of Computation",
-              "predicted": 5.0,
-              "actual": 6,
-              "error": 1.0
-            },
-            {
-              "subject": "Compiler Design",
-              "predicted": 3.0,
-              "actual": 3,
-              "error": 0.0
-            },
-            {
-              "subject": "Operating Systems",
-              "predicted": 6.0,
-              "actual": 6,
-              "error": 1.7763568394002505e-15
-            },
-            {
-              "subject": "Databases",
-              "predicted": 4.0,
-              "actual": 5,
-              "error": 0.9999999999999991
-            },
-            {
-              "subject": "Computer Networks",
-              "predicted": 5.0,
-              "actual": 4,
-              "error": 1.0000000000000009
-            },
-            {
-              "subject": "General Aptitude",
-              "predicted": 11.0,
-              "actual": 10,
-              "error": 1.0
-            }
-          ]
-        },
         {
           "year": 2021,
           "mae": 1.417,
@@ -2394,34 +2371,274 @@ export const GATE_DATA = {
               "error": 1.0
             }
           ]
+        },
+        {
+          "year": 2024,
+          "mae": 1.333,
+          "total_pred": 65.0,
+          "total_actual": 65,
+          "errors": [
+            {
+              "subject": "Engineering Mathematics",
+              "predicted": 9.0,
+              "actual": 9,
+              "error": 1.7763568394002505e-15
+            },
+            {
+              "subject": "Digital Logic",
+              "predicted": 3.0,
+              "actual": 4,
+              "error": 1.0
+            },
+            {
+              "subject": "Computer Organization",
+              "predicted": 6.0,
+              "actual": 6,
+              "error": 0.0
+            },
+            {
+              "subject": "Programming",
+              "predicted": 2.0,
+              "actual": 5,
+              "error": 3.0
+            },
+            {
+              "subject": "Data Structures",
+              "predicted": 7.0,
+              "actual": 1,
+              "error": 5.999999999999999
+            },
+            {
+              "subject": "Algorithms",
+              "predicted": 4.0,
+              "actual": 4,
+              "error": 8.881784197001252e-16
+            },
+            {
+              "subject": "Theory of Computation",
+              "predicted": 5.0,
+              "actual": 4,
+              "error": 1.0
+            },
+            {
+              "subject": "Compiler Design",
+              "predicted": 3.0,
+              "actual": 4,
+              "error": 1.0000000000000004
+            },
+            {
+              "subject": "Operating Systems",
+              "predicted": 6.0,
+              "actual": 6,
+              "error": 0.0
+            },
+            {
+              "subject": "Databases",
+              "predicted": 4.0,
+              "actual": 6,
+              "error": 2.0000000000000004
+            },
+            {
+              "subject": "Computer Networks",
+              "predicted": 5.0,
+              "actual": 6,
+              "error": 1.0
+            },
+            {
+              "subject": "General Aptitude",
+              "predicted": 11.0,
+              "actual": 10,
+              "error": 1.0000000000000018
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "mae": 1.083,
+          "total_pred": 65.0,
+          "total_actual": 64,
+          "errors": [
+            {
+              "subject": "Engineering Mathematics",
+              "predicted": 9.0,
+              "actual": 8,
+              "error": 1.0
+            },
+            {
+              "subject": "Digital Logic",
+              "predicted": 3.0,
+              "actual": 4,
+              "error": 1.0
+            },
+            {
+              "subject": "Computer Organization",
+              "predicted": 6.0,
+              "actual": 6,
+              "error": 0.0
+            },
+            {
+              "subject": "Programming",
+              "predicted": 2.0,
+              "actual": 4,
+              "error": 2.0
+            },
+            {
+              "subject": "Data Structures",
+              "predicted": 7.0,
+              "actual": 4,
+              "error": 3.0
+            },
+            {
+              "subject": "Algorithms",
+              "predicted": 4.0,
+              "actual": 4,
+              "error": 8.881784197001252e-16
+            },
+            {
+              "subject": "Theory of Computation",
+              "predicted": 5.0,
+              "actual": 6,
+              "error": 0.9999999999999991
+            },
+            {
+              "subject": "Compiler Design",
+              "predicted": 3.0,
+              "actual": 4,
+              "error": 1.0000000000000009
+            },
+            {
+              "subject": "Operating Systems",
+              "predicted": 6.0,
+              "actual": 4,
+              "error": 2.0
+            },
+            {
+              "subject": "Databases",
+              "predicted": 4.0,
+              "actual": 5,
+              "error": 1.0
+            },
+            {
+              "subject": "Computer Networks",
+              "predicted": 5.0,
+              "actual": 5,
+              "error": 8.881784197001252e-16
+            },
+            {
+              "subject": "General Aptitude",
+              "predicted": 11.0,
+              "actual": 10,
+              "error": 1.0
+            }
+          ]
+        },
+        {
+          "year": 2026,
+          "mae": 0.833,
+          "total_pred": 65.0,
+          "total_actual": 67,
+          "errors": [
+            {
+              "subject": "Engineering Mathematics",
+              "predicted": 9.0,
+              "actual": 8,
+              "error": 0.9999999999999982
+            },
+            {
+              "subject": "Digital Logic",
+              "predicted": 3.0,
+              "actual": 4,
+              "error": 0.9999999999999996
+            },
+            {
+              "subject": "Computer Organization",
+              "predicted": 6.0,
+              "actual": 6,
+              "error": 8.881784197001252e-16
+            },
+            {
+              "subject": "Programming",
+              "predicted": 2.0,
+              "actual": 3,
+              "error": 1.0
+            },
+            {
+              "subject": "Data Structures",
+              "predicted": 7.0,
+              "actual": 6,
+              "error": 0.9999999999999991
+            },
+            {
+              "subject": "Algorithms",
+              "predicted": 4.0,
+              "actual": 6,
+              "error": 2.0
+            },
+            {
+              "subject": "Theory of Computation",
+              "predicted": 5.0,
+              "actual": 4,
+              "error": 1.0000000000000009
+            },
+            {
+              "subject": "Compiler Design",
+              "predicted": 3.0,
+              "actual": 4,
+              "error": 0.9999999999999996
+            },
+            {
+              "subject": "Operating Systems",
+              "predicted": 6.0,
+              "actual": 6,
+              "error": 8.881784197001252e-16
+            },
+            {
+              "subject": "Databases",
+              "predicted": 4.0,
+              "actual": 4,
+              "error": 1.3322676295501878e-15
+            },
+            {
+              "subject": "Computer Networks",
+              "predicted": 5.0,
+              "actual": 6,
+              "error": 1.0
+            },
+            {
+              "subject": "General Aptitude",
+              "predicted": 11.0,
+              "actual": 10,
+              "error": 0.9999999999999964
+            }
+          ]
         }
       ],
       "calibration": {
-        "total_samples": 451,
+        "total_samples": 766,
         "is_calibrated": true,
         "calibration_method": "isotonic",
         "blend_factor": 0.3,
         "bin_counts": {
-          "0.45-0.50": 8,
-          "0.50-0.55": 20,
-          "0.55-0.60": 67,
-          "0.60-0.65": 134,
-          "0.65-0.70": 101,
-          "0.70-0.75": 72,
-          "0.75-0.80": 47,
-          "0.80-0.85": 2
+          "0.45-0.50": 13,
+          "0.50-0.55": 48,
+          "0.55-0.60": 146,
+          "0.60-0.65": 180,
+          "0.65-0.70": 165,
+          "0.70-0.75": 115,
+          "0.75-0.80": 91,
+          "0.80-0.85": 8
         },
         "bin_accuracies": {
-          "0.45-0.50": 0.842,
-          "0.50-0.55": 0.848,
-          "0.55-0.60": 0.866,
-          "0.60-0.65": 0.834,
-          "0.65-0.70": 0.81,
-          "0.70-0.75": 0.797,
-          "0.75-0.80": 0.823,
-          "0.80-0.85": 0.875
+          "0.45-0.50": 0.809,
+          "0.50-0.55": 0.871,
+          "0.55-0.60": 0.851,
+          "0.60-0.65": 0.811,
+          "0.65-0.70": 0.797,
+          "0.70-0.75": 0.77,
+          "0.75-0.80": 0.821,
+          "0.80-0.85": 0.844
         },
-        "calibration_error": 0.1733
+        "calibration_error": 0.1624
       }
     }
   },
@@ -2430,26 +2647,30 @@ export const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Lexical Analysis",
-        "total_appearances": 4,
+        "total_appearances": 6,
         "unique_years": [
           2011,
           2018,
-          2023
+          2023,
+          2026
         ],
         "year_counts": {
           "2011": 2,
           "2018": 1,
-          "2023": 1
+          "2023": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2023,
-        "avg_per_year": 1.33,
-        "trend_direction": "Rising",
+        "last_seen": 2026,
+        "avg_per_year": 1.5,
+        "trend_direction": "Declining",
         "question_ids": [
           1,
           15,
           909,
-          1327
+          1327,
+          1510,
+          1567
         ]
       },
       {
@@ -2473,7 +2694,7 @@ export const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Probability",
-        "total_appearances": 32,
+        "total_appearances": 36,
         "unique_years": [
           2011,
           2012,
@@ -2487,7 +2708,8 @@ export const GATE_DATA = {
           2021,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 4,
@@ -2502,11 +2724,12 @@ export const GATE_DATA = {
           "2021": 4,
           "2023": 1,
           "2024": 5,
-          "2025": 3
+          "2025": 3,
+          "2026": 4
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.46,
+        "last_seen": 2026,
+        "avg_per_year": 2.57,
         "trend_direction": "Rising",
         "question_ids": [
           3,
@@ -2540,31 +2763,39 @@ export const GATE_DATA = {
           1182,
           1230,
           1390,
-          1409
+          1409,
+          1489,
+          1538,
+          1551,
+          1598
         ]
       },
       {
         "subject": "Computer Networks",
         "topic": "Application Layer Protocols",
-        "total_appearances": 3,
+        "total_appearances": 5,
         "unique_years": [
           2011,
           2012,
-          2019
+          2019,
+          2026
         ],
         "year_counts": {
           "2011": 1,
           "2012": 1,
-          "2019": 1
+          "2019": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2019,
-        "avg_per_year": 1.0,
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
         "trend_direction": "Rising",
         "question_ids": [
           4,
           82,
-          721
+          721,
+          1497,
+          1559
         ]
       },
       {
@@ -2612,40 +2843,47 @@ export const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "Interrupts",
-        "total_appearances": 2,
+        "total_appearances": 3,
         "unique_years": [
           2011,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
+        "last_seen": 2026,
         "avg_per_year": 1.0,
-        "trend_direction": "Stable",
+        "trend_direction": "Rising",
         "question_ids": [
           7,
-          1161
+          1161,
+          1493
         ]
       },
       {
         "subject": "Databases",
         "topic": "Keys and Functional Dependencies",
-        "total_appearances": 1,
+        "total_appearances": 3,
         "unique_years": [
-          2011
+          2011,
+          2026
         ],
         "year_counts": {
-          "2011": 1
+          "2011": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2011,
-        "avg_per_year": 1.0,
+        "last_seen": 2026,
+        "avg_per_year": 1.5,
         "trend_direction": "Stable",
         "question_ids": [
-          8
+          8,
+          1570,
+          1605
         ]
       },
       {
@@ -2672,7 +2910,7 @@ export const GATE_DATA = {
       {
         "subject": "Digital Logic",
         "topic": "Boolean Algebra",
-        "total_appearances": 19,
+        "total_appearances": 23,
         "unique_years": [
           2011,
           2012,
@@ -2684,7 +2922,8 @@ export const GATE_DATA = {
           2020,
           2021,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -2697,12 +2936,13 @@ export const GATE_DATA = {
           "2020": 1,
           "2021": 2,
           "2024": 1,
-          "2025": 2
+          "2025": 2,
+          "2026": 4
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.73,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 1.92,
+        "trend_direction": "Rising",
         "question_ids": [
           10,
           66,
@@ -2722,7 +2962,11 @@ export const GATE_DATA = {
           1233,
           1294,
           1339,
-          1397
+          1397,
+          1491,
+          1515,
+          1561,
+          1588
         ]
       },
       {
@@ -2780,7 +3024,7 @@ export const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Graphs",
-        "total_appearances": 32,
+        "total_appearances": 33,
         "unique_years": [
           2011,
           2012,
@@ -2795,7 +3039,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2023,
-          2024
+          2024,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -2811,11 +3056,12 @@ export const GATE_DATA = {
           "2021": 2,
           "2022": 1,
           "2023": 2,
-          "2024": 3
+          "2024": 3,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2024,
-        "avg_per_year": 2.29,
+        "last_seen": 2026,
+        "avg_per_year": 2.2,
         "trend_direction": "Stable",
         "question_ids": [
           13,
@@ -2849,13 +3095,14 @@ export const GATE_DATA = {
           1333,
           1371,
           1391,
-          1462
+          1462,
+          1597
         ]
       },
       {
         "subject": "Operating Systems",
         "topic": "Memory Management",
-        "total_appearances": 23,
+        "total_appearances": 25,
         "unique_years": [
           2011,
           2013,
@@ -2866,7 +3113,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -2878,11 +3126,12 @@ export const GATE_DATA = {
           "2022": 2,
           "2023": 3,
           "2024": 3,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.3,
+        "last_seen": 2026,
+        "avg_per_year": 2.27,
         "trend_direction": "Stable",
         "question_ids": [
           16,
@@ -2907,34 +3156,39 @@ export const GATE_DATA = {
           1082,
           1132,
           1448,
-          1474
+          1474,
+          1530,
+          1594
         ]
       },
       {
         "subject": "Computer Organization",
         "topic": "Addressing Modes",
-        "total_appearances": 2,
+        "total_appearances": 3,
         "unique_years": [
           2011,
-          2017
+          2017,
+          2026
         ],
         "year_counts": {
           "2011": 1,
-          "2017": 1
+          "2017": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2017,
+        "last_seen": 2026,
         "avg_per_year": 1.0,
-        "trend_direction": "Stable",
+        "trend_direction": "Rising",
         "question_ids": [
           17,
-          641
+          641,
+          1554
         ]
       },
       {
         "subject": "Programming",
         "topic": "C Programming",
-        "total_appearances": 52,
+        "total_appearances": 54,
         "unique_years": [
           2011,
           2012,
@@ -2949,7 +3203,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -2965,11 +3220,12 @@ export const GATE_DATA = {
           "2022": 3,
           "2023": 1,
           "2024": 8,
-          "2025": 6
+          "2025": 6,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 3.71,
+        "last_seen": 2026,
+        "avg_per_year": 3.6,
         "trend_direction": "Rising",
         "question_ids": [
           18,
@@ -3023,13 +3279,15 @@ export const GATE_DATA = {
           1335,
           1431,
           1453,
-          1454
+          1454,
+          1494,
+          1574
         ]
       },
       {
         "subject": "Data Structures",
         "topic": "Heaps",
-        "total_appearances": 9,
+        "total_appearances": 10,
         "unique_years": [
           2011,
           2015,
@@ -3038,7 +3296,8 @@ export const GATE_DATA = {
           2020,
           2021,
           2023,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3048,11 +3307,12 @@ export const GATE_DATA = {
           "2020": 1,
           "2021": 1,
           "2023": 2,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.12,
+        "last_seen": 2026,
+        "avg_per_year": 1.11,
         "trend_direction": "Rising",
         "question_ids": [
           19,
@@ -3063,7 +3323,8 @@ export const GATE_DATA = {
           902,
           936,
           1185,
-          1336
+          1336,
+          1563
         ]
       },
       {
@@ -3094,25 +3355,27 @@ export const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Dynamic Programming",
-        "total_appearances": 7,
+        "total_appearances": 8,
         "unique_years": [
           2011,
           2014,
           2016,
           2018,
-          2021
+          2021,
+          2026
         ],
         "year_counts": {
           "2011": 2,
           "2014": 1,
           "2016": 2,
           "2018": 1,
-          "2021": 1
+          "2021": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2021,
-        "avg_per_year": 1.4,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 1.33,
+        "trend_direction": "Declining",
         "question_ids": [
           21,
           34,
@@ -3120,7 +3383,8 @@ export const GATE_DATA = {
           589,
           1239,
           1321,
-          1395
+          1395,
+          1514
         ]
       },
       {
@@ -3147,7 +3411,7 @@ export const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Parsing",
-        "total_appearances": 25,
+        "total_appearances": 27,
         "unique_years": [
           2011,
           2012,
@@ -3161,7 +3425,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3176,11 +3441,12 @@ export const GATE_DATA = {
           "2021": 3,
           "2022": 2,
           "2024": 3,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.92,
+        "last_seen": 2026,
+        "avg_per_year": 1.93,
         "trend_direction": "Stable",
         "question_ids": [
           23,
@@ -3207,7 +3473,9 @@ export const GATE_DATA = {
           1360,
           1386,
           1423,
-          1439
+          1439,
+          1516,
+          1568
         ]
       },
       {
@@ -3231,7 +3499,7 @@ export const GATE_DATA = {
       {
         "subject": "Data Structures",
         "topic": "Trees",
-        "total_appearances": 7,
+        "total_appearances": 10,
         "unique_years": [
           2011,
           2013,
@@ -3239,7 +3507,8 @@ export const GATE_DATA = {
           2018,
           2019,
           2021,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3248,12 +3517,13 @@ export const GATE_DATA = {
           "2018": 1,
           "2019": 1,
           "2021": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.0,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
+        "trend_direction": "Rising",
         "question_ids": [
           25,
           167,
@@ -3261,31 +3531,37 @@ export const GATE_DATA = {
           751,
           851,
           1098,
-          1310
+          1310,
+          1487,
+          1573,
+          1602
         ]
       },
       {
         "subject": "Engineering Mathematics",
         "topic": "Propositional & First Order Logic",
-        "total_appearances": 1,
+        "total_appearances": 2,
         "unique_years": [
-          2011
+          2011,
+          2026
         ],
         "year_counts": {
-          "2011": 1
+          "2011": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2011,
+        "last_seen": 2026,
         "avg_per_year": 1.0,
         "trend_direction": "Stable",
         "question_ids": [
-          26
+          26,
+          1486
         ]
       },
       {
         "subject": "Engineering Mathematics",
         "topic": "Calculus",
-        "total_appearances": 31,
+        "total_appearances": 35,
         "unique_years": [
           2011,
           2012,
@@ -3301,7 +3577,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3318,11 +3595,12 @@ export const GATE_DATA = {
           "2022": 1,
           "2023": 2,
           "2024": 2,
-          "2025": 2
+          "2025": 2,
+          "2026": 4
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.07,
+        "last_seen": 2026,
+        "avg_per_year": 2.19,
         "trend_direction": "Stable",
         "question_ids": [
           27,
@@ -3355,7 +3633,11 @@ export const GATE_DATA = {
           1227,
           1306,
           1375,
-          1444
+          1444,
+          1502,
+          1539,
+          1572,
+          1586
         ]
       },
       {
@@ -3427,7 +3709,7 @@ export const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "CPU Scheduling",
-        "total_appearances": 18,
+        "total_appearances": 20,
         "unique_years": [
           2011,
           2012,
@@ -3442,7 +3724,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3458,11 +3741,12 @@ export const GATE_DATA = {
           "2022": 1,
           "2023": 1,
           "2024": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.29,
+        "last_seen": 2026,
+        "avg_per_year": 1.33,
         "trend_direction": "Stable",
         "question_ids": [
           31,
@@ -3482,7 +3766,9 @@ export const GATE_DATA = {
           1111,
           1272,
           1380,
-          1452
+          1452,
+          1498,
+          1604
         ]
       },
       {
@@ -3509,7 +3795,7 @@ export const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Asymptotic Analysis",
-        "total_appearances": 12,
+        "total_appearances": 13,
         "unique_years": [
           2011,
           2012,
@@ -3521,7 +3807,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2023,
-          2024
+          2024,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3534,11 +3821,12 @@ export const GATE_DATA = {
           "2021": 1,
           "2022": 1,
           "2023": 1,
-          "2024": 1
+          "2024": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2024,
-        "avg_per_year": 1.09,
+        "last_seen": 2026,
+        "avg_per_year": 1.08,
         "trend_direction": "Stable",
         "question_ids": [
           33,
@@ -3552,13 +3840,14 @@ export const GATE_DATA = {
           919,
           1062,
           1358,
-          1421
+          1421,
+          1499
         ]
       },
       {
         "subject": "Databases",
         "topic": "Indexing",
-        "total_appearances": 9,
+        "total_appearances": 10,
         "unique_years": [
           2011,
           2013,
@@ -3567,7 +3856,8 @@ export const GATE_DATA = {
           2020,
           2021,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3577,11 +3867,12 @@ export const GATE_DATA = {
           "2020": 1,
           "2021": 1,
           "2024": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.12,
+        "last_seen": 2026,
+        "avg_per_year": 1.11,
         "trend_direction": "Stable",
         "question_ids": [
           35,
@@ -3592,13 +3883,14 @@ export const GATE_DATA = {
           824,
           856,
           1041,
-          1142
+          1142,
+          1521
         ]
       },
       {
         "subject": "Engineering Mathematics",
         "topic": "Linear Algebra",
-        "total_appearances": 42,
+        "total_appearances": 46,
         "unique_years": [
           2011,
           2012,
@@ -3614,7 +3906,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3631,12 +3924,13 @@ export const GATE_DATA = {
           "2022": 3,
           "2023": 1,
           "2024": 4,
-          "2025": 5
+          "2025": 5,
+          "2026": 4
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.8,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 2.88,
+        "trend_direction": "Rising",
         "question_ids": [
           36,
           71,
@@ -3679,13 +3973,17 @@ export const GATE_DATA = {
           1407,
           1430,
           1455,
-          1463
+          1463,
+          1506,
+          1537,
+          1553,
+          1560
         ]
       },
       {
         "subject": "Computer Organization",
         "topic": "Pipelining",
-        "total_appearances": 24,
+        "total_appearances": 27,
         "unique_years": [
           2011,
           2012,
@@ -3700,7 +3998,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3716,11 +4015,12 @@ export const GATE_DATA = {
           "2022": 1,
           "2023": 1,
           "2024": 2,
-          "2025": 1
+          "2025": 1,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.71,
+        "last_seen": 2026,
+        "avg_per_year": 1.8,
         "trend_direction": "Stable",
         "question_ids": [
           37,
@@ -3746,13 +4046,16 @@ export const GATE_DATA = {
           1258,
           1340,
           1408,
-          1471
+          1471,
+          1532,
+          1556,
+          1600
         ]
       },
       {
         "subject": "Theory of Computation",
         "topic": "Finite Automata",
-        "total_appearances": 22,
+        "total_appearances": 24,
         "unique_years": [
           2011,
           2012,
@@ -3767,7 +4070,8 @@ export const GATE_DATA = {
           2021,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3783,11 +4087,12 @@ export const GATE_DATA = {
           "2021": 2,
           "2023": 2,
           "2024": 1,
-          "2025": 2
+          "2025": 2,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.57,
+        "last_seen": 2026,
+        "avg_per_year": 1.6,
         "trend_direction": "Stable",
         "question_ids": [
           38,
@@ -3811,13 +4116,15 @@ export const GATE_DATA = {
           1241,
           1267,
           1296,
-          1393
+          1393,
+          1522,
+          1566
         ]
       },
       {
         "subject": "Computer Organization",
         "topic": "Cache Memory",
-        "total_appearances": 35,
+        "total_appearances": 38,
         "unique_years": [
           2011,
           2012,
@@ -3833,7 +4140,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -3850,11 +4158,12 @@ export const GATE_DATA = {
           "2022": 3,
           "2023": 1,
           "2024": 1,
-          "2025": 4
+          "2025": 4,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.33,
+        "last_seen": 2026,
+        "avg_per_year": 2.38,
         "trend_direction": "Stable",
         "question_ids": [
           39,
@@ -3891,7 +4200,10 @@ export const GATE_DATA = {
           1377,
           1434,
           1443,
-          1464
+          1464,
+          1527,
+          1531,
+          1578
         ]
       },
       {
@@ -3939,7 +4251,7 @@ export const GATE_DATA = {
       {
         "subject": "Programming",
         "topic": "Recursion",
-        "total_appearances": 12,
+        "total_appearances": 14,
         "unique_years": [
           2011,
           2014,
@@ -3948,7 +4260,8 @@ export const GATE_DATA = {
           2020,
           2021,
           2023,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 2,
@@ -3958,11 +4271,12 @@ export const GATE_DATA = {
           "2020": 1,
           "2021": 2,
           "2023": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.5,
+        "last_seen": 2026,
+        "avg_per_year": 1.56,
         "trend_direction": "Stable",
         "question_ids": [
           43,
@@ -3976,20 +4290,23 @@ export const GATE_DATA = {
           884,
           926,
           1211,
-          1262
+          1262,
+          1536,
+          1601
         ]
       },
       {
         "subject": "Digital Logic",
         "topic": "Sequential Circuits",
-        "total_appearances": 7,
+        "total_appearances": 8,
         "unique_years": [
           2011,
           2014,
           2017,
           2018,
           2023,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 2,
@@ -3997,11 +4314,12 @@ export const GATE_DATA = {
           "2017": 1,
           "2018": 1,
           "2023": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.17,
+        "last_seen": 2026,
+        "avg_per_year": 1.14,
         "trend_direction": "Stable",
         "question_ids": [
           45,
@@ -4010,7 +4328,8 @@ export const GATE_DATA = {
           663,
           933,
           1210,
-          1312
+          1312,
+          1577
         ]
       },
       {
@@ -4035,7 +4354,7 @@ export const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Minimum Spanning Tree",
-        "total_appearances": 22,
+        "total_appearances": 23,
         "unique_years": [
           2011,
           2012,
@@ -4048,7 +4367,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 2,
@@ -4062,11 +4382,12 @@ export const GATE_DATA = {
           "2021": 2,
           "2022": 2,
           "2024": 3,
-          "2025": 3
+          "2025": 3,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.83,
+        "last_seen": 2026,
+        "avg_per_year": 1.77,
         "trend_direction": "Rising",
         "question_ids": [
           49,
@@ -4090,13 +4411,14 @@ export const GATE_DATA = {
           1337,
           1372,
           1459,
-          1468
+          1468,
+          1589
         ]
       },
       {
         "subject": "General Aptitude",
         "topic": "Verbal Ability",
-        "total_appearances": 64,
+        "total_appearances": 67,
         "unique_years": [
           2011,
           2012,
@@ -4109,7 +4431,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 4,
@@ -4123,11 +4446,12 @@ export const GATE_DATA = {
           "2021": 6,
           "2022": 2,
           "2024": 4,
-          "2025": 2
+          "2025": 2,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 5.33,
+        "last_seen": 2026,
+        "avg_per_year": 5.15,
         "trend_direction": "Declining",
         "question_ids": [
           51,
@@ -4193,13 +4517,16 @@ export const GATE_DATA = {
           1350,
           1355,
           1411,
-          1414
+          1414,
+          1476,
+          1481,
+          1541
         ]
       },
       {
         "subject": "General Aptitude",
         "topic": "Quantitative Aptitude",
-        "total_appearances": 66,
+        "total_appearances": 69,
         "unique_years": [
           2011,
           2012,
@@ -4214,7 +4541,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 3,
@@ -4230,11 +4558,12 @@ export const GATE_DATA = {
           "2022": 5,
           "2023": 2,
           "2024": 10,
-          "2025": 1
+          "2025": 1,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 4.71,
+        "last_seen": 2026,
+        "avg_per_year": 4.6,
         "trend_direction": "Stable",
         "question_ids": [
           52,
@@ -4302,48 +4631,55 @@ export const GATE_DATA = {
           1413,
           1415,
           1417,
-          1418
+          1418,
+          1479,
+          1543,
+          1544
         ]
       },
       {
         "subject": "General Aptitude",
         "topic": "Reading Comprehension",
-        "total_appearances": 5,
+        "total_appearances": 6,
         "unique_years": [
           2011,
           2017,
           2020,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
           "2017": 1,
           "2020": 2,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.25,
+        "last_seen": 2026,
+        "avg_per_year": 1.2,
         "trend_direction": "Rising",
         "question_ids": [
           56,
           691,
           764,
           766,
-          1156
+          1156,
+          1546
         ]
       },
       {
         "subject": "General Aptitude",
         "topic": "Data Interpretation",
-        "total_appearances": 8,
+        "total_appearances": 9,
         "unique_years": [
           2011,
           2014,
           2015,
           2017,
           2020,
-          2024
+          2024,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -4351,11 +4687,12 @@ export const GATE_DATA = {
           "2015": 2,
           "2017": 1,
           "2020": 2,
-          "2024": 1
+          "2024": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2024,
-        "avg_per_year": 1.33,
+        "last_seen": 2026,
+        "avg_per_year": 1.29,
         "trend_direction": "Stable",
         "question_ids": [
           57,
@@ -4365,7 +4702,8 @@ export const GATE_DATA = {
           695,
           765,
           770,
-          963
+          963,
+          1548
         ]
       },
       {
@@ -4443,7 +4781,7 @@ export const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "Normalization",
-        "total_appearances": 19,
+        "total_appearances": 21,
         "unique_years": [
           2012,
           2013,
@@ -4455,7 +4793,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2012": 1,
@@ -4468,11 +4807,12 @@ export const GATE_DATA = {
           "2021": 1,
           "2022": 2,
           "2024": 3,
-          "2025": 2
+          "2025": 2,
+          "2026": 2
         },
         "first_seen": 2012,
-        "last_seen": 2025,
-        "avg_per_year": 1.73,
+        "last_seen": 2026,
+        "avg_per_year": 1.75,
         "trend_direction": "Rising",
         "question_ids": [
           62,
@@ -4493,7 +4833,9 @@ export const GATE_DATA = {
           1332,
           1388,
           1424,
-          1441
+          1441,
+          1517,
+          1571
         ]
       },
       {
@@ -4555,25 +4897,29 @@ export const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "Floating Point Representation",
-        "total_appearances": 3,
+        "total_appearances": 5,
         "unique_years": [
           2012,
           2020,
-          2021
+          2021,
+          2026
         ],
         "year_counts": {
           "2012": 1,
           "2020": 1,
-          "2021": 1
+          "2021": 1,
+          "2026": 2
         },
         "first_seen": 2012,
-        "last_seen": 2021,
-        "avg_per_year": 1.0,
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
         "trend_direction": "Rising",
         "question_ids": [
           67,
           799,
-          839
+          839,
+          1509,
+          1576
         ]
       },
       {
@@ -4676,24 +5022,26 @@ export const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Recurrence Relations",
-        "total_appearances": 7,
+        "total_appearances": 9,
         "unique_years": [
           2012,
           2016,
           2021,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2012": 1,
           "2016": 2,
           "2021": 2,
           "2024": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2012,
-        "last_seen": 2025,
-        "avg_per_year": 1.4,
+        "last_seen": 2026,
+        "avg_per_year": 1.5,
         "trend_direction": "Stable",
         "question_ids": [
           76,
@@ -4702,7 +5050,9 @@ export const GATE_DATA = {
           970,
           1170,
           1264,
-          1385
+          1385,
+          1500,
+          1557
         ]
       },
       {
@@ -5028,7 +5378,7 @@ export const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Sorting",
-        "total_appearances": 13,
+        "total_appearances": 14,
         "unique_years": [
           2012,
           2013,
@@ -5037,7 +5387,8 @@ export const GATE_DATA = {
           2016,
           2019,
           2021,
-          2024
+          2024,
+          2026
         ],
         "year_counts": {
           "2012": 1,
@@ -5047,11 +5398,12 @@ export const GATE_DATA = {
           "2016": 2,
           "2019": 1,
           "2021": 1,
-          "2024": 1
+          "2024": 1,
+          "2026": 1
         },
         "first_seen": 2012,
-        "last_seen": 2024,
-        "avg_per_year": 1.62,
+        "last_seen": 2026,
+        "avg_per_year": 1.56,
         "trend_direction": "Declining",
         "question_ids": [
           99,
@@ -5066,20 +5418,22 @@ export const GATE_DATA = {
           725,
           1037,
           1238,
-          1364
+          1364,
+          1507
         ]
       },
       {
         "subject": "Algorithms",
         "topic": "Graph Traversal",
-        "total_appearances": 8,
+        "total_appearances": 9,
         "unique_years": [
           2012,
           2013,
           2014,
           2016,
           2018,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2012": 1,
@@ -5087,12 +5441,13 @@ export const GATE_DATA = {
           "2014": 2,
           "2016": 2,
           "2018": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2012,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 1.29,
+        "trend_direction": "Declining",
         "question_ids": [
           100,
           144,
@@ -5101,20 +5456,22 @@ export const GATE_DATA = {
           586,
           1114,
           1236,
-          1320
+          1320,
+          1590
         ]
       },
       {
         "subject": "Operating Systems",
         "topic": "File Systems",
-        "total_appearances": 7,
+        "total_appearances": 8,
         "unique_years": [
           2012,
           2014,
           2016,
           2019,
           2021,
-          2022
+          2022,
+          2026
         ],
         "year_counts": {
           "2012": 1,
@@ -5122,11 +5479,12 @@ export const GATE_DATA = {
           "2016": 2,
           "2019": 1,
           "2021": 1,
-          "2022": 1
+          "2022": 1,
+          "2026": 1
         },
         "first_seen": 2012,
-        "last_seen": 2022,
-        "avg_per_year": 1.17,
+        "last_seen": 2026,
+        "avg_per_year": 1.14,
         "trend_direction": "Stable",
         "question_ids": [
           101,
@@ -5135,25 +5493,29 @@ export const GATE_DATA = {
           747,
           1275,
           1370,
-          1473
+          1473,
+          1528
         ]
       },
       {
         "subject": "Operating Systems",
         "topic": "Virtual Memory",
-        "total_appearances": 1,
+        "total_appearances": 2,
         "unique_years": [
-          2012
+          2012,
+          2026
         ],
         "year_counts": {
-          "2012": 1
+          "2012": 1,
+          "2026": 1
         },
         "first_seen": 2012,
-        "last_seen": 2012,
+        "last_seen": 2026,
         "avg_per_year": 1.0,
         "trend_direction": "Stable",
         "question_ids": [
-          102
+          102,
+          1529
         ]
       },
       {
@@ -5267,7 +5629,7 @@ export const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "Relational Algebra",
-        "total_appearances": 13,
+        "total_appearances": 14,
         "unique_years": [
           2012,
           2014,
@@ -5277,7 +5639,8 @@ export const GATE_DATA = {
           2019,
           2021,
           2022,
-          2024
+          2024,
+          2026
         ],
         "year_counts": {
           "2012": 1,
@@ -5288,11 +5651,12 @@ export const GATE_DATA = {
           "2019": 1,
           "2021": 2,
           "2022": 1,
-          "2024": 2
+          "2024": 2,
+          "2026": 1
         },
         "first_seen": 2012,
-        "last_seen": 2024,
-        "avg_per_year": 1.44,
+        "last_seen": 2026,
+        "avg_per_year": 1.4,
         "trend_direction": "Stable",
         "question_ids": [
           110,
@@ -5307,7 +5671,8 @@ export const GATE_DATA = {
           1331,
           1378,
           1382,
-          1435
+          1435,
+          1583
         ]
       },
       {
@@ -5383,14 +5748,15 @@ export const GATE_DATA = {
       {
         "subject": "Digital Logic",
         "topic": "Number Representation",
-        "total_appearances": 6,
+        "total_appearances": 8,
         "unique_years": [
           2013,
           2018,
           2019,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2013": 1,
@@ -5398,25 +5764,28 @@ export const GATE_DATA = {
           "2019": 1,
           "2022": 1,
           "2024": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.0,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 1.14,
+        "trend_direction": "Rising",
         "question_ids": [
           129,
           709,
           1033,
           1175,
           1323,
-          1428
+          1428,
+          1503,
+          1562
         ]
       },
       {
         "subject": "Theory of Computation",
         "topic": "Regular Languages",
-        "total_appearances": 14,
+        "total_appearances": 15,
         "unique_years": [
           2013,
           2014,
@@ -5426,7 +5795,8 @@ export const GATE_DATA = {
           2020,
           2021,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2013": 1,
@@ -5437,11 +5807,12 @@ export const GATE_DATA = {
           "2020": 1,
           "2021": 1,
           "2024": 2,
-          "2025": 2
+          "2025": 2,
+          "2026": 1
         },
         "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.56,
+        "last_seen": 2026,
+        "avg_per_year": 1.5,
         "trend_direction": "Stable",
         "question_ids": [
           133,
@@ -5457,7 +5828,8 @@ export const GATE_DATA = {
           1043,
           1137,
           1194,
-          1342
+          1342,
+          1591
         ]
       },
       {
@@ -5545,24 +5917,26 @@ export const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Network Layer",
-        "total_appearances": 7,
+        "total_appearances": 8,
         "unique_years": [
           2013,
           2014,
           2020,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2013": 2,
           "2014": 2,
           "2020": 1,
           "2024": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.4,
+        "last_seen": 2026,
+        "avg_per_year": 1.33,
         "trend_direction": "Declining",
         "question_ids": [
           139,
@@ -5571,13 +5945,14 @@ export const GATE_DATA = {
           224,
           785,
           978,
-          1103
+          1103,
+          1496
         ]
       },
       {
         "subject": "Operating Systems",
         "topic": "Deadlock",
-        "total_appearances": 12,
+        "total_appearances": 14,
         "unique_years": [
           2013,
           2014,
@@ -5587,7 +5962,8 @@ export const GATE_DATA = {
           2019,
           2021,
           2022,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2013": 1,
@@ -5598,12 +5974,13 @@ export const GATE_DATA = {
           "2019": 1,
           "2021": 1,
           "2022": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Declining",
+        "last_seen": 2026,
+        "avg_per_year": 1.4,
+        "trend_direction": "Stable",
         "question_ids": [
           141,
           227,
@@ -5616,7 +5993,9 @@ export const GATE_DATA = {
           1133,
           1314,
           1329,
-          1436
+          1436,
+          1569,
+          1575
         ]
       },
       {
@@ -5686,7 +6065,7 @@ export const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "Process Synchronization",
-        "total_appearances": 13,
+        "total_appearances": 14,
         "unique_years": [
           2013,
           2014,
@@ -5697,7 +6076,8 @@ export const GATE_DATA = {
           2020,
           2022,
           2023,
-          2024
+          2024,
+          2026
         ],
         "year_counts": {
           "2013": 2,
@@ -5709,11 +6089,12 @@ export const GATE_DATA = {
           "2020": 1,
           "2022": 1,
           "2023": 1,
-          "2024": 2
+          "2024": 2,
+          "2026": 1
         },
         "first_seen": 2013,
-        "last_seen": 2024,
-        "avg_per_year": 1.3,
+        "last_seen": 2026,
+        "avg_per_year": 1.27,
         "trend_direction": "Stable",
         "question_ids": [
           159,
@@ -5728,20 +6109,22 @@ export const GATE_DATA = {
           1060,
           1273,
           1330,
-          1429
+          1429,
+          1526
         ]
       },
       {
         "subject": "Computer Networks",
         "topic": "Data Link Layer",
-        "total_appearances": 7,
+        "total_appearances": 10,
         "unique_years": [
           2013,
           2014,
           2015,
           2016,
           2019,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2013": 1,
@@ -5749,11 +6132,12 @@ export const GATE_DATA = {
           "2015": 1,
           "2016": 2,
           "2019": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 3
         },
         "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.17,
+        "last_seen": 2026,
+        "avg_per_year": 1.43,
         "trend_direction": "Rising",
         "question_ids": [
           161,
@@ -5762,7 +6146,10 @@ export const GATE_DATA = {
           630,
           734,
           1121,
-          1280
+          1280,
+          1518,
+          1540,
+          1585
         ]
       },
       {
@@ -6058,14 +6445,15 @@ export const GATE_DATA = {
       {
         "subject": "Theory of Computation",
         "topic": "Context-Free Languages",
-        "total_appearances": 8,
+        "total_appearances": 10,
         "unique_years": [
           2014,
           2016,
           2017,
           2020,
           2021,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2014": 1,
@@ -6073,12 +6461,13 @@ export const GATE_DATA = {
           "2017": 2,
           "2020": 1,
           "2021": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2014,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Declining",
+        "last_seen": 2026,
+        "avg_per_year": 1.43,
+        "trend_direction": "Stable",
         "question_ids": [
           232,
           618,
@@ -6087,7 +6476,9 @@ export const GATE_DATA = {
           780,
           1195,
           1268,
-          1356
+          1356,
+          1523,
+          1592
         ]
       },
       {
@@ -6532,30 +6923,33 @@ export const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "Disk Scheduling",
-        "total_appearances": 6,
+        "total_appearances": 7,
         "unique_years": [
           2014,
           2015,
           2018,
-          2020
+          2020,
+          2026
         ],
         "year_counts": {
           "2014": 1,
           "2015": 2,
           "2018": 1,
-          "2020": 2
+          "2020": 2,
+          "2026": 1
         },
         "first_seen": 2014,
-        "last_seen": 2020,
-        "avg_per_year": 1.5,
-        "trend_direction": "Rising",
+        "last_seen": 2026,
+        "avg_per_year": 1.4,
+        "trend_direction": "Stable",
         "question_ids": [
           343,
           497,
           541,
           805,
           823,
-          1343
+          1343,
+          1599
         ]
       },
       {
@@ -6670,31 +7064,34 @@ export const GATE_DATA = {
       {
         "subject": "Digital Logic",
         "topic": "Multiplexers",
-        "total_appearances": 3,
+        "total_appearances": 4,
         "unique_years": [
           2014,
           2021,
-          2024
+          2024,
+          2026
         ],
         "year_counts": {
           "2014": 1,
           "2021": 1,
-          "2024": 1
+          "2024": 1,
+          "2026": 1
         },
         "first_seen": 2014,
-        "last_seen": 2024,
+        "last_seen": 2026,
         "avg_per_year": 1.0,
-        "trend_direction": "Rising",
+        "trend_direction": "Stable",
         "question_ids": [
           369,
           840,
-          1084
+          1084,
+          1534
         ]
       },
       {
         "subject": "Engineering Mathematics",
         "topic": "Combinatorics",
-        "total_appearances": 10,
+        "total_appearances": 11,
         "unique_years": [
           2014,
           2015,
@@ -6702,7 +7099,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2023,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2014": 1,
@@ -6711,11 +7109,12 @@ export const GATE_DATA = {
           "2021": 1,
           "2022": 1,
           "2023": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2014,
-        "last_seen": 2025,
-        "avg_per_year": 1.43,
+        "last_seen": 2026,
+        "avg_per_year": 1.38,
         "trend_direction": "Declining",
         "question_ids": [
           373,
@@ -6727,7 +7126,8 @@ export const GATE_DATA = {
           938,
           1180,
           1374,
-          1442
+          1442,
+          1552
         ]
       },
       {
@@ -7043,29 +7443,32 @@ export const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Relations",
-        "total_appearances": 5,
+        "total_appearances": 6,
         "unique_years": [
           2015,
           2016,
           2020,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2015": 1,
           "2016": 2,
           "2020": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2015,
-        "last_seen": 2025,
-        "avg_per_year": 1.25,
-        "trend_direction": "Rising",
+        "last_seen": 2026,
+        "avg_per_year": 1.2,
+        "trend_direction": "Declining",
         "question_ids": [
           465,
           601,
           787,
           1127,
-          1251
+          1251,
+          1501
         ]
       },
       {
@@ -7153,24 +7556,26 @@ export const GATE_DATA = {
       {
         "subject": "Theory of Computation",
         "topic": "Context-Free Grammars",
-        "total_appearances": 7,
+        "total_appearances": 9,
         "unique_years": [
           2015,
           2016,
           2017,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2015": 1,
           "2016": 2,
           "2017": 1,
           "2024": 1,
-          "2025": 2
+          "2025": 2,
+          "2026": 2
         },
         "first_seen": 2015,
-        "last_seen": 2025,
-        "avg_per_year": 1.4,
+        "last_seen": 2026,
+        "avg_per_year": 1.5,
         "trend_direction": "Stable",
         "question_ids": [
           484,
@@ -7179,7 +7584,9 @@ export const GATE_DATA = {
           1079,
           1109,
           1110,
-          1242
+          1242,
+          1504,
+          1565
         ]
       },
       {
@@ -7374,24 +7781,26 @@ export const GATE_DATA = {
       {
         "subject": "General Aptitude",
         "topic": "Probability",
-        "total_appearances": 8,
+        "total_appearances": 11,
         "unique_years": [
           2015,
           2017,
           2018,
           2021,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2015": 2,
           "2017": 1,
           "2018": 3,
           "2021": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 3
         },
         "first_seen": 2015,
-        "last_seen": 2025,
-        "avg_per_year": 1.6,
+        "last_seen": 2026,
+        "avg_per_year": 1.83,
         "trend_direction": "Stable",
         "question_ids": [
           506,
@@ -7401,7 +7810,10 @@ export const GATE_DATA = {
           1290,
           1305,
           1334,
-          1353
+          1353,
+          1478,
+          1485,
+          1550
         ]
       },
       {
@@ -7456,7 +7868,7 @@ export const GATE_DATA = {
       {
         "subject": "General Aptitude",
         "topic": "Logical Reasoning",
-        "total_appearances": 11,
+        "total_appearances": 15,
         "unique_years": [
           2015,
           2016,
@@ -7464,7 +7876,8 @@ export const GATE_DATA = {
           2019,
           2021,
           2022,
-          2024
+          2024,
+          2026
         ],
         "year_counts": {
           "2015": 1,
@@ -7473,11 +7886,12 @@ export const GATE_DATA = {
           "2019": 2,
           "2021": 2,
           "2022": 1,
-          "2024": 1
+          "2024": 1,
+          "2026": 4
         },
         "first_seen": 2015,
-        "last_seen": 2024,
-        "avg_per_year": 1.57,
+        "last_seen": 2026,
+        "avg_per_year": 1.88,
         "trend_direction": "Stable",
         "question_ids": [
           511,
@@ -7490,7 +7904,11 @@ export const GATE_DATA = {
           965,
           1223,
           1354,
-          1419
+          1419,
+          1480,
+          1484,
+          1545,
+          1549
         ]
       },
       {
@@ -7550,14 +7968,15 @@ export const GATE_DATA = {
       {
         "subject": "Data Structures",
         "topic": "Binary Search Trees",
-        "total_appearances": 8,
+        "total_appearances": 10,
         "unique_years": [
           2015,
           2017,
           2020,
           2021,
           2022,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2015": 1,
@@ -7565,12 +7984,13 @@ export const GATE_DATA = {
           "2020": 2,
           "2021": 1,
           "2022": 1,
-          "2025": 2
+          "2025": 2,
+          "2026": 2
         },
         "first_seen": 2015,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 1.43,
+        "trend_direction": "Rising",
         "question_ids": [
           534,
           636,
@@ -7579,7 +7999,9 @@ export const GATE_DATA = {
           1120,
           1176,
           1365,
-          1438
+          1438,
+          1524,
+          1580
         ]
       },
       {
@@ -7973,26 +8395,29 @@ export const GATE_DATA = {
       {
         "subject": "Programming",
         "topic": "Linked Lists",
-        "total_appearances": 4,
+        "total_appearances": 5,
         "unique_years": [
           2016,
           2017,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2016": 2,
           "2017": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2016,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Rising",
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
+        "trend_direction": "Declining",
         "question_ids": [
           590,
           638,
           1212,
-          1240
+          1240,
+          1579
         ]
       },
       {
@@ -8482,25 +8907,29 @@ export const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "Instruction Set Architecture",
-        "total_appearances": 3,
+        "total_appearances": 5,
         "unique_years": [
           2017,
           2018,
-          2023
+          2023,
+          2026
         ],
         "year_counts": {
           "2017": 1,
           "2018": 1,
-          "2023": 1
+          "2023": 1,
+          "2026": 2
         },
         "first_seen": 2017,
-        "last_seen": 2023,
-        "avg_per_year": 1.0,
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
         "trend_direction": "Rising",
         "question_ids": [
           679,
           931,
-          1295
+          1295,
+          1519,
+          1555
         ]
       },
       {
@@ -8622,14 +9051,15 @@ export const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Syntax Directed Translation",
-        "total_appearances": 7,
+        "total_appearances": 8,
         "unique_years": [
           2019,
           2021,
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2019": 1,
@@ -8637,11 +9067,12 @@ export const GATE_DATA = {
           "2022": 1,
           "2023": 1,
           "2024": 2,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2019,
-        "last_seen": 2025,
-        "avg_per_year": 1.17,
+        "last_seen": 2026,
+        "avg_per_year": 1.14,
         "trend_direction": "Rising",
         "question_ids": [
           741,
@@ -8650,7 +9081,8 @@ export const GATE_DATA = {
           1057,
           1107,
           1381,
-          1475
+          1475,
+          1593
         ]
       },
       {
@@ -8815,31 +9247,35 @@ export const GATE_DATA = {
       {
         "subject": "Data Structures",
         "topic": "Hashing",
-        "total_appearances": 5,
+        "total_appearances": 7,
         "unique_years": [
           2020,
           2021,
           2022,
           2023,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2020": 1,
           "2021": 1,
           "2022": 1,
           "2023": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2020,
-        "last_seen": 2025,
-        "avg_per_year": 1.0,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 1.17,
+        "trend_direction": "Rising",
         "question_ids": [
           793,
           910,
           1215,
           1402,
-          1426
+          1426,
+          1505,
+          1564
         ]
       },
       {
@@ -8863,28 +9299,31 @@ export const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "Concurrency Control",
-        "total_appearances": 4,
+        "total_appearances": 5,
         "unique_years": [
           2020,
           2021,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2020": 1,
           "2021": 1,
           "2024": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2020,
-        "last_seen": 2025,
+        "last_seen": 2026,
         "avg_per_year": 1.0,
         "trend_direction": "Stable",
         "question_ids": [
           807,
           982,
           1138,
-          1387
+          1387,
+          1495
         ]
       },
       {
@@ -9908,19 +10347,22 @@ export const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "TCP/IP",
-        "total_appearances": 1,
+        "total_appearances": 2,
         "unique_years": [
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2025,
-        "last_seen": 2025,
+        "last_seen": 2026,
         "avg_per_year": 1.0,
         "trend_direction": "Stable",
         "question_ids": [
-          1101
+          1101,
+          1558
         ]
       },
       {
@@ -10902,13 +11344,274 @@ export const GATE_DATA = {
         "question_ids": [
           1469
         ]
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Spatial Reasoning",
+        "total_appearances": 4,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 4
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 4.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1477,
+          1482,
+          1542,
+          1547
+        ]
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Graphs",
+        "total_appearances": 1,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 1
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1483
+        ]
+      },
+      {
+        "subject": "Theory of Computation",
+        "topic": "Turing Machines",
+        "total_appearances": 1,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 1
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1488
+        ]
+      },
+      {
+        "subject": "Databases",
+        "topic": "Database Architecture",
+        "total_appearances": 1,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 1
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1490
+        ]
+      },
+      {
+        "subject": "Programming",
+        "topic": "Memory Management",
+        "total_appearances": 1,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 1
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1492
+        ]
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "IP Addressing",
+        "total_appearances": 2,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 2
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 2.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1508,
+          1596
+        ]
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Graph Algorithms",
+        "total_appearances": 3,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 3
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 3.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1511,
+          1587,
+          1595
+        ]
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Shortest Paths",
+        "total_appearances": 2,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 2
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 2.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1512,
+          1581
+        ]
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Algorithm Analysis",
+        "total_appearances": 1,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 1
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1513
+        ]
+      },
+      {
+        "subject": "Compiler Design",
+        "topic": "Data Flow Analysis",
+        "total_appearances": 2,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 2
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 2.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1520,
+          1582
+        ]
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Stacks & Queues",
+        "total_appearances": 1,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 1
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1525
+        ]
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "TCP Congestion Control",
+        "total_appearances": 2,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 2
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 2.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1533,
+          1584
+        ]
+      },
+      {
+        "subject": "Programming",
+        "topic": "Pointers",
+        "total_appearances": 1,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 1
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1535
+        ]
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Processes",
+        "total_appearances": 1,
+        "unique_years": [
+          2026
+        ],
+        "year_counts": {
+          "2026": 1
+        },
+        "first_seen": 2026,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Stable",
+        "question_ids": [
+          1603
+        ]
       }
     ],
     "hot_topics": [
       {
         "subject": "General Aptitude",
         "topic": "Quantitative Aptitude",
-        "total_appearances": 66,
+        "total_appearances": 69,
         "unique_years": [
           2011,
           2012,
@@ -10923,7 +11626,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 3,
@@ -10939,11 +11643,12 @@ export const GATE_DATA = {
           "2022": 5,
           "2023": 2,
           "2024": 10,
-          "2025": 1
+          "2025": 1,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 4.71,
+        "last_seen": 2026,
+        "avg_per_year": 4.6,
         "trend_direction": "Stable",
         "question_ids": [
           52,
@@ -11011,13 +11716,16 @@ export const GATE_DATA = {
           1413,
           1415,
           1417,
-          1418
+          1418,
+          1479,
+          1543,
+          1544
         ]
       },
       {
         "subject": "General Aptitude",
         "topic": "Verbal Ability",
-        "total_appearances": 64,
+        "total_appearances": 67,
         "unique_years": [
           2011,
           2012,
@@ -11030,7 +11738,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 4,
@@ -11044,11 +11753,12 @@ export const GATE_DATA = {
           "2021": 6,
           "2022": 2,
           "2024": 4,
-          "2025": 2
+          "2025": 2,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 5.33,
+        "last_seen": 2026,
+        "avg_per_year": 5.15,
         "trend_direction": "Declining",
         "question_ids": [
           51,
@@ -11114,13 +11824,16 @@ export const GATE_DATA = {
           1350,
           1355,
           1411,
-          1414
+          1414,
+          1476,
+          1481,
+          1541
         ]
       },
       {
         "subject": "Programming",
         "topic": "C Programming",
-        "total_appearances": 52,
+        "total_appearances": 54,
         "unique_years": [
           2011,
           2012,
@@ -11135,7 +11848,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -11151,11 +11865,12 @@ export const GATE_DATA = {
           "2022": 3,
           "2023": 1,
           "2024": 8,
-          "2025": 6
+          "2025": 6,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 3.71,
+        "last_seen": 2026,
+        "avg_per_year": 3.6,
         "trend_direction": "Rising",
         "question_ids": [
           18,
@@ -11209,13 +11924,15 @@ export const GATE_DATA = {
           1335,
           1431,
           1453,
-          1454
+          1454,
+          1494,
+          1574
         ]
       },
       {
         "subject": "Engineering Mathematics",
         "topic": "Linear Algebra",
-        "total_appearances": 42,
+        "total_appearances": 46,
         "unique_years": [
           2011,
           2012,
@@ -11231,7 +11948,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -11248,12 +11966,13 @@ export const GATE_DATA = {
           "2022": 3,
           "2023": 1,
           "2024": 4,
-          "2025": 5
+          "2025": 5,
+          "2026": 4
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.8,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 2.88,
+        "trend_direction": "Rising",
         "question_ids": [
           36,
           71,
@@ -11296,13 +12015,17 @@ export const GATE_DATA = {
           1407,
           1430,
           1455,
-          1463
+          1463,
+          1506,
+          1537,
+          1553,
+          1560
         ]
       },
       {
         "subject": "Computer Organization",
         "topic": "Cache Memory",
-        "total_appearances": 35,
+        "total_appearances": 38,
         "unique_years": [
           2011,
           2012,
@@ -11318,7 +12041,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -11335,11 +12059,12 @@ export const GATE_DATA = {
           "2022": 3,
           "2023": 1,
           "2024": 1,
-          "2025": 4
+          "2025": 4,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.33,
+        "last_seen": 2026,
+        "avg_per_year": 2.38,
         "trend_direction": "Stable",
         "question_ids": [
           39,
@@ -11376,13 +12101,16 @@ export const GATE_DATA = {
           1377,
           1434,
           1443,
-          1464
+          1464,
+          1527,
+          1531,
+          1578
         ]
       },
       {
         "subject": "Engineering Mathematics",
         "topic": "Probability",
-        "total_appearances": 32,
+        "total_appearances": 36,
         "unique_years": [
           2011,
           2012,
@@ -11396,7 +12124,8 @@ export const GATE_DATA = {
           2021,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 4,
@@ -11411,11 +12140,12 @@ export const GATE_DATA = {
           "2021": 4,
           "2023": 1,
           "2024": 5,
-          "2025": 3
+          "2025": 3,
+          "2026": 4
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.46,
+        "last_seen": 2026,
+        "avg_per_year": 2.57,
         "trend_direction": "Rising",
         "question_ids": [
           3,
@@ -11449,13 +12179,17 @@ export const GATE_DATA = {
           1182,
           1230,
           1390,
-          1409
+          1409,
+          1489,
+          1538,
+          1551,
+          1598
         ]
       },
       {
         "subject": "Engineering Mathematics",
-        "topic": "Graphs",
-        "total_appearances": 32,
+        "topic": "Calculus",
+        "total_appearances": 35,
         "unique_years": [
           2011,
           2012,
@@ -11470,7 +12204,90 @@ export const GATE_DATA = {
           2021,
           2022,
           2023,
-          2024
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2012": 1,
+          "2013": 1,
+          "2014": 6,
+          "2015": 6,
+          "2016": 2,
+          "2017": 1,
+          "2018": 1,
+          "2019": 2,
+          "2020": 1,
+          "2021": 2,
+          "2022": 1,
+          "2023": 2,
+          "2024": 2,
+          "2025": 2,
+          "2026": 4
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 2.19,
+        "trend_direction": "Stable",
+        "question_ids": [
+          27,
+          69,
+          147,
+          203,
+          242,
+          243,
+          331,
+          370,
+          371,
+          398,
+          432,
+          475,
+          516,
+          537,
+          554,
+          577,
+          658,
+          718,
+          752,
+          771,
+          860,
+          918,
+          921,
+          971,
+          1031,
+          1097,
+          1181,
+          1227,
+          1306,
+          1375,
+          1444,
+          1502,
+          1539,
+          1572,
+          1586
+        ]
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "topic": "Graphs",
+        "total_appearances": 33,
+        "unique_years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -11486,11 +12303,12 @@ export const GATE_DATA = {
           "2021": 2,
           "2022": 1,
           "2023": 2,
-          "2024": 3
+          "2024": 3,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2024,
-        "avg_per_year": 2.29,
+        "last_seen": 2026,
+        "avg_per_year": 2.2,
         "trend_direction": "Stable",
         "question_ids": [
           13,
@@ -11524,89 +12342,14 @@ export const GATE_DATA = {
           1333,
           1371,
           1391,
-          1462
-        ]
-      },
-      {
-        "subject": "Engineering Mathematics",
-        "topic": "Calculus",
-        "total_appearances": 31,
-        "unique_years": [
-          2011,
-          2012,
-          2013,
-          2014,
-          2015,
-          2016,
-          2017,
-          2018,
-          2019,
-          2020,
-          2021,
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "year_counts": {
-          "2011": 1,
-          "2012": 1,
-          "2013": 1,
-          "2014": 6,
-          "2015": 6,
-          "2016": 2,
-          "2017": 1,
-          "2018": 1,
-          "2019": 2,
-          "2020": 1,
-          "2021": 2,
-          "2022": 1,
-          "2023": 2,
-          "2024": 2,
-          "2025": 2
-        },
-        "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.07,
-        "trend_direction": "Stable",
-        "question_ids": [
-          27,
-          69,
-          147,
-          203,
-          242,
-          243,
-          331,
-          370,
-          371,
-          398,
-          432,
-          475,
-          516,
-          537,
-          554,
-          577,
-          658,
-          718,
-          752,
-          771,
-          860,
-          918,
-          921,
-          971,
-          1031,
-          1097,
-          1181,
-          1227,
-          1306,
-          1375,
-          1444
+          1462,
+          1597
         ]
       },
       {
         "subject": "Compiler Design",
         "topic": "Parsing",
-        "total_appearances": 25,
+        "total_appearances": 27,
         "unique_years": [
           2011,
           2012,
@@ -11620,7 +12363,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -11635,11 +12379,12 @@ export const GATE_DATA = {
           "2021": 3,
           "2022": 2,
           "2024": 3,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.92,
+        "last_seen": 2026,
+        "avg_per_year": 1.93,
         "trend_direction": "Stable",
         "question_ids": [
           23,
@@ -11666,13 +12411,15 @@ export const GATE_DATA = {
           1360,
           1386,
           1423,
-          1439
+          1439,
+          1516,
+          1568
         ]
       },
       {
         "subject": "Computer Organization",
         "topic": "Pipelining",
-        "total_appearances": 24,
+        "total_appearances": 27,
         "unique_years": [
           2011,
           2012,
@@ -11687,7 +12434,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -11703,11 +12451,12 @@ export const GATE_DATA = {
           "2022": 1,
           "2023": 1,
           "2024": 2,
-          "2025": 1
+          "2025": 1,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.71,
+        "last_seen": 2026,
+        "avg_per_year": 1.8,
         "trend_direction": "Stable",
         "question_ids": [
           37,
@@ -11733,13 +12482,16 @@ export const GATE_DATA = {
           1258,
           1340,
           1408,
-          1471
+          1471,
+          1532,
+          1556,
+          1600
         ]
       },
       {
         "subject": "Operating Systems",
         "topic": "Memory Management",
-        "total_appearances": 23,
+        "total_appearances": 25,
         "unique_years": [
           2011,
           2013,
@@ -11750,7 +12502,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -11762,11 +12515,12 @@ export const GATE_DATA = {
           "2022": 2,
           "2023": 3,
           "2024": 3,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.3,
+        "last_seen": 2026,
+        "avg_per_year": 2.27,
         "trend_direction": "Stable",
         "question_ids": [
           16,
@@ -11791,7 +12545,204 @@ export const GATE_DATA = {
           1082,
           1132,
           1448,
-          1474
+          1474,
+          1530,
+          1594
+        ]
+      },
+      {
+        "subject": "Theory of Computation",
+        "topic": "Finite Automata",
+        "total_appearances": 24,
+        "unique_years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2012": 2,
+          "2013": 1,
+          "2014": 1,
+          "2015": 2,
+          "2016": 4,
+          "2017": 1,
+          "2018": 1,
+          "2019": 1,
+          "2020": 1,
+          "2021": 2,
+          "2023": 2,
+          "2024": 1,
+          "2025": 2,
+          "2026": 2
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.6,
+        "trend_direction": "Stable",
+        "question_ids": [
+          38,
+          72,
+          106,
+          158,
+          341,
+          501,
+          562,
+          591,
+          617,
+          652,
+          753,
+          821,
+          852,
+          904,
+          953,
+          1070,
+          1178,
+          1200,
+          1241,
+          1267,
+          1296,
+          1393,
+          1522,
+          1566
+        ]
+      },
+      {
+        "subject": "Digital Logic",
+        "topic": "Boolean Algebra",
+        "total_appearances": 23,
+        "unique_years": [
+          2011,
+          2012,
+          2014,
+          2015,
+          2016,
+          2018,
+          2019,
+          2020,
+          2021,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2012": 1,
+          "2014": 3,
+          "2015": 3,
+          "2016": 2,
+          "2018": 2,
+          "2019": 1,
+          "2020": 1,
+          "2021": 2,
+          "2024": 1,
+          "2025": 2,
+          "2026": 4
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.92,
+        "trend_direction": "Rising",
+        "question_ids": [
+          10,
+          66,
+          251,
+          267,
+          332,
+          391,
+          431,
+          486,
+          583,
+          711,
+          798,
+          887,
+          985,
+          1135,
+          1192,
+          1233,
+          1294,
+          1339,
+          1397,
+          1491,
+          1515,
+          1561,
+          1588
+        ]
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Minimum Spanning Tree",
+        "total_appearances": 23,
+        "unique_years": [
+          2011,
+          2012,
+          2014,
+          2015,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 2,
+          "2012": 1,
+          "2014": 1,
+          "2015": 3,
+          "2017": 1,
+          "2018": 1,
+          "2019": 1,
+          "2020": 2,
+          "2021": 2,
+          "2022": 2,
+          "2024": 3,
+          "2025": 3,
+          "2026": 1
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.77,
+        "trend_direction": "Rising",
+        "question_ids": [
+          49,
+          50,
+          89,
+          312,
+          427,
+          518,
+          553,
+          635,
+          743,
+          801,
+          819,
+          836,
+          1006,
+          1014,
+          1065,
+          1122,
+          1168,
+          1214,
+          1337,
+          1372,
+          1459,
+          1468,
+          1589
         ]
       },
       {
@@ -11861,191 +12812,9 @@ export const GATE_DATA = {
         ]
       },
       {
-        "subject": "Theory of Computation",
-        "topic": "Finite Automata",
-        "total_appearances": 22,
-        "unique_years": [
-          2011,
-          2012,
-          2013,
-          2014,
-          2015,
-          2016,
-          2017,
-          2018,
-          2019,
-          2020,
-          2021,
-          2023,
-          2024,
-          2025
-        ],
-        "year_counts": {
-          "2011": 1,
-          "2012": 2,
-          "2013": 1,
-          "2014": 1,
-          "2015": 2,
-          "2016": 4,
-          "2017": 1,
-          "2018": 1,
-          "2019": 1,
-          "2020": 1,
-          "2021": 2,
-          "2023": 2,
-          "2024": 1,
-          "2025": 2
-        },
-        "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.57,
-        "trend_direction": "Stable",
-        "question_ids": [
-          38,
-          72,
-          106,
-          158,
-          341,
-          501,
-          562,
-          591,
-          617,
-          652,
-          753,
-          821,
-          852,
-          904,
-          953,
-          1070,
-          1178,
-          1200,
-          1241,
-          1267,
-          1296,
-          1393
-        ]
-      },
-      {
-        "subject": "Algorithms",
-        "topic": "Minimum Spanning Tree",
-        "total_appearances": 22,
-        "unique_years": [
-          2011,
-          2012,
-          2014,
-          2015,
-          2017,
-          2018,
-          2019,
-          2020,
-          2021,
-          2022,
-          2024,
-          2025
-        ],
-        "year_counts": {
-          "2011": 2,
-          "2012": 1,
-          "2014": 1,
-          "2015": 3,
-          "2017": 1,
-          "2018": 1,
-          "2019": 1,
-          "2020": 2,
-          "2021": 2,
-          "2022": 2,
-          "2024": 3,
-          "2025": 3
-        },
-        "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.83,
-        "trend_direction": "Rising",
-        "question_ids": [
-          49,
-          50,
-          89,
-          312,
-          427,
-          518,
-          553,
-          635,
-          743,
-          801,
-          819,
-          836,
-          1006,
-          1014,
-          1065,
-          1122,
-          1168,
-          1214,
-          1337,
-          1372,
-          1459,
-          1468
-        ]
-      },
-      {
-        "subject": "Digital Logic",
-        "topic": "Boolean Algebra",
-        "total_appearances": 19,
-        "unique_years": [
-          2011,
-          2012,
-          2014,
-          2015,
-          2016,
-          2018,
-          2019,
-          2020,
-          2021,
-          2024,
-          2025
-        ],
-        "year_counts": {
-          "2011": 1,
-          "2012": 1,
-          "2014": 3,
-          "2015": 3,
-          "2016": 2,
-          "2018": 2,
-          "2019": 1,
-          "2020": 1,
-          "2021": 2,
-          "2024": 1,
-          "2025": 2
-        },
-        "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.73,
-        "trend_direction": "Stable",
-        "question_ids": [
-          10,
-          66,
-          251,
-          267,
-          332,
-          391,
-          431,
-          486,
-          583,
-          711,
-          798,
-          887,
-          985,
-          1135,
-          1192,
-          1233,
-          1294,
-          1339,
-          1397
-        ]
-      },
-      {
         "subject": "Databases",
         "topic": "Normalization",
-        "total_appearances": 19,
+        "total_appearances": 21,
         "unique_years": [
           2012,
           2013,
@@ -12057,7 +12826,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2012": 1,
@@ -12070,11 +12840,12 @@ export const GATE_DATA = {
           "2021": 1,
           "2022": 2,
           "2024": 3,
-          "2025": 2
+          "2025": 2,
+          "2026": 2
         },
         "first_seen": 2012,
-        "last_seen": 2025,
-        "avg_per_year": 1.73,
+        "last_seen": 2026,
+        "avg_per_year": 1.75,
         "trend_direction": "Rising",
         "question_ids": [
           62,
@@ -12095,7 +12866,74 @@ export const GATE_DATA = {
           1332,
           1388,
           1424,
-          1441
+          1441,
+          1517,
+          1571
+        ]
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "CPU Scheduling",
+        "total_appearances": 20,
+        "unique_years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2012": 1,
+          "2013": 1,
+          "2014": 3,
+          "2015": 1,
+          "2016": 2,
+          "2017": 1,
+          "2019": 1,
+          "2020": 1,
+          "2021": 2,
+          "2022": 1,
+          "2023": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 2
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.33,
+        "trend_direction": "Stable",
+        "question_ids": [
+          31,
+          91,
+          135,
+          228,
+          292,
+          356,
+          421,
+          622,
+          654,
+          746,
+          820,
+          849,
+          917,
+          992,
+          1111,
+          1272,
+          1380,
+          1452,
+          1498,
+          1604
         ]
       },
       {
@@ -12153,70 +12991,9 @@ export const GATE_DATA = {
         ]
       },
       {
-        "subject": "Operating Systems",
-        "topic": "CPU Scheduling",
-        "total_appearances": 18,
-        "unique_years": [
-          2011,
-          2012,
-          2013,
-          2014,
-          2015,
-          2016,
-          2017,
-          2019,
-          2020,
-          2021,
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "year_counts": {
-          "2011": 1,
-          "2012": 1,
-          "2013": 1,
-          "2014": 3,
-          "2015": 1,
-          "2016": 2,
-          "2017": 1,
-          "2019": 1,
-          "2020": 1,
-          "2021": 2,
-          "2022": 1,
-          "2023": 1,
-          "2024": 1,
-          "2025": 1
-        },
-        "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.29,
-        "trend_direction": "Stable",
-        "question_ids": [
-          31,
-          91,
-          135,
-          228,
-          292,
-          356,
-          421,
-          622,
-          654,
-          746,
-          820,
-          849,
-          917,
-          992,
-          1111,
-          1272,
-          1380,
-          1452
-        ]
-      },
-      {
         "subject": "Theory of Computation",
         "topic": "Regular Languages",
-        "total_appearances": 14,
+        "total_appearances": 15,
         "unique_years": [
           2013,
           2014,
@@ -12226,7 +13003,8 @@ export const GATE_DATA = {
           2020,
           2021,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2013": 1,
@@ -12237,11 +13015,12 @@ export const GATE_DATA = {
           "2020": 1,
           "2021": 1,
           "2024": 2,
-          "2025": 2
+          "2025": 2,
+          "2026": 1
         },
         "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.56,
+        "last_seen": 2026,
+        "avg_per_year": 1.5,
         "trend_direction": "Stable",
         "question_ids": [
           133,
@@ -12257,7 +13036,297 @@ export const GATE_DATA = {
           1043,
           1137,
           1194,
-          1342
+          1342,
+          1591
+        ]
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Logical Reasoning",
+        "total_appearances": 15,
+        "unique_years": [
+          2015,
+          2016,
+          2017,
+          2019,
+          2021,
+          2022,
+          2024,
+          2026
+        ],
+        "year_counts": {
+          "2015": 1,
+          "2016": 2,
+          "2017": 2,
+          "2019": 2,
+          "2021": 2,
+          "2022": 1,
+          "2024": 1,
+          "2026": 4
+        },
+        "first_seen": 2015,
+        "last_seen": 2026,
+        "avg_per_year": 1.88,
+        "trend_direction": "Stable",
+        "question_ids": [
+          511,
+          569,
+          688,
+          692,
+          701,
+          705,
+          835,
+          965,
+          1223,
+          1354,
+          1419,
+          1480,
+          1484,
+          1545,
+          1549
+        ]
+      },
+      {
+        "subject": "Programming",
+        "topic": "Recursion",
+        "total_appearances": 14,
+        "unique_years": [
+          2011,
+          2014,
+          2015,
+          2016,
+          2020,
+          2021,
+          2023,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 2,
+          "2014": 1,
+          "2015": 2,
+          "2016": 2,
+          "2020": 1,
+          "2021": 2,
+          "2023": 1,
+          "2025": 1,
+          "2026": 2
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.56,
+        "trend_direction": "Stable",
+        "question_ids": [
+          43,
+          44,
+          215,
+          426,
+          461,
+          612,
+          816,
+          858,
+          884,
+          926,
+          1211,
+          1262,
+          1536,
+          1601
+        ]
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Sorting",
+        "total_appearances": 14,
+        "unique_years": [
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2019,
+          2021,
+          2024,
+          2026
+        ],
+        "year_counts": {
+          "2012": 1,
+          "2013": 2,
+          "2014": 3,
+          "2015": 2,
+          "2016": 2,
+          "2019": 1,
+          "2021": 1,
+          "2024": 1,
+          "2026": 1
+        },
+        "first_seen": 2012,
+        "last_seen": 2026,
+        "avg_per_year": 1.56,
+        "trend_direction": "Declining",
+        "question_ids": [
+          99,
+          131,
+          155,
+          211,
+          298,
+          339,
+          414,
+          514,
+          588,
+          725,
+          1037,
+          1238,
+          1364,
+          1507
+        ]
+      },
+      {
+        "subject": "Databases",
+        "topic": "Relational Algebra",
+        "total_appearances": 14,
+        "unique_years": [
+          2012,
+          2014,
+          2015,
+          2017,
+          2018,
+          2019,
+          2021,
+          2022,
+          2024,
+          2026
+        ],
+        "year_counts": {
+          "2012": 1,
+          "2014": 3,
+          "2015": 1,
+          "2017": 1,
+          "2018": 1,
+          "2019": 1,
+          "2021": 2,
+          "2022": 1,
+          "2024": 2,
+          "2026": 1
+        },
+        "first_seen": 2012,
+        "last_seen": 2026,
+        "avg_per_year": 1.4,
+        "trend_direction": "Stable",
+        "question_ids": [
+          110,
+          217,
+          226,
+          290,
+          481,
+          676,
+          760,
+          1000,
+          1055,
+          1331,
+          1378,
+          1382,
+          1435,
+          1583
+        ]
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Deadlock",
+        "total_appearances": 14,
+        "unique_years": [
+          2013,
+          2014,
+          2015,
+          2017,
+          2018,
+          2019,
+          2021,
+          2022,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2013": 1,
+          "2014": 2,
+          "2015": 2,
+          "2017": 1,
+          "2018": 2,
+          "2019": 1,
+          "2021": 1,
+          "2022": 1,
+          "2025": 1,
+          "2026": 2
+        },
+        "first_seen": 2013,
+        "last_seen": 2026,
+        "avg_per_year": 1.4,
+        "trend_direction": "Stable",
+        "question_ids": [
+          141,
+          227,
+          355,
+          439,
+          472,
+          657,
+          744,
+          878,
+          1133,
+          1314,
+          1329,
+          1436,
+          1569,
+          1575
+        ]
+      },
+      {
+        "subject": "Operating Systems",
+        "topic": "Process Synchronization",
+        "total_appearances": 14,
+        "unique_years": [
+          2013,
+          2014,
+          2015,
+          2016,
+          2018,
+          2019,
+          2020,
+          2022,
+          2023,
+          2024,
+          2026
+        ],
+        "year_counts": {
+          "2013": 2,
+          "2014": 1,
+          "2015": 1,
+          "2016": 2,
+          "2018": 1,
+          "2019": 1,
+          "2020": 1,
+          "2022": 1,
+          "2023": 1,
+          "2024": 2,
+          "2026": 1
+        },
+        "first_seen": 2013,
+        "last_seen": 2026,
+        "avg_per_year": 1.27,
+        "trend_direction": "Stable",
+        "question_ids": [
+          159,
+          163,
+          291,
+          399,
+          623,
+          728,
+          804,
+          928,
+          1001,
+          1060,
+          1273,
+          1330,
+          1429,
+          1526
         ]
       },
       {
@@ -12301,6 +13370,58 @@ export const GATE_DATA = {
           939,
           1253,
           1317
+        ]
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Asymptotic Analysis",
+        "total_appearances": 13,
+        "unique_years": [
+          2011,
+          2012,
+          2014,
+          2015,
+          2017,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2012": 1,
+          "2014": 1,
+          "2015": 2,
+          "2017": 1,
+          "2019": 1,
+          "2020": 1,
+          "2021": 1,
+          "2022": 1,
+          "2023": 1,
+          "2024": 1,
+          "2026": 1
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.08,
+        "trend_direction": "Stable",
+        "question_ids": [
+          33,
+          78,
+          366,
+          393,
+          429,
+          634,
+          742,
+          772,
+          919,
+          1062,
+          1358,
+          1421,
+          1499
         ]
       },
       {
@@ -12351,232 +13472,6 @@ export const GATE_DATA = {
       },
       {
         "subject": "Algorithms",
-        "topic": "Sorting",
-        "total_appearances": 13,
-        "unique_years": [
-          2012,
-          2013,
-          2014,
-          2015,
-          2016,
-          2019,
-          2021,
-          2024
-        ],
-        "year_counts": {
-          "2012": 1,
-          "2013": 2,
-          "2014": 3,
-          "2015": 2,
-          "2016": 2,
-          "2019": 1,
-          "2021": 1,
-          "2024": 1
-        },
-        "first_seen": 2012,
-        "last_seen": 2024,
-        "avg_per_year": 1.62,
-        "trend_direction": "Declining",
-        "question_ids": [
-          99,
-          131,
-          155,
-          211,
-          298,
-          339,
-          414,
-          514,
-          588,
-          725,
-          1037,
-          1238,
-          1364
-        ]
-      },
-      {
-        "subject": "Databases",
-        "topic": "Relational Algebra",
-        "total_appearances": 13,
-        "unique_years": [
-          2012,
-          2014,
-          2015,
-          2017,
-          2018,
-          2019,
-          2021,
-          2022,
-          2024
-        ],
-        "year_counts": {
-          "2012": 1,
-          "2014": 3,
-          "2015": 1,
-          "2017": 1,
-          "2018": 1,
-          "2019": 1,
-          "2021": 2,
-          "2022": 1,
-          "2024": 2
-        },
-        "first_seen": 2012,
-        "last_seen": 2024,
-        "avg_per_year": 1.44,
-        "trend_direction": "Stable",
-        "question_ids": [
-          110,
-          217,
-          226,
-          290,
-          481,
-          676,
-          760,
-          1000,
-          1055,
-          1331,
-          1378,
-          1382,
-          1435
-        ]
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "Process Synchronization",
-        "total_appearances": 13,
-        "unique_years": [
-          2013,
-          2014,
-          2015,
-          2016,
-          2018,
-          2019,
-          2020,
-          2022,
-          2023,
-          2024
-        ],
-        "year_counts": {
-          "2013": 2,
-          "2014": 1,
-          "2015": 1,
-          "2016": 2,
-          "2018": 1,
-          "2019": 1,
-          "2020": 1,
-          "2022": 1,
-          "2023": 1,
-          "2024": 2
-        },
-        "first_seen": 2013,
-        "last_seen": 2024,
-        "avg_per_year": 1.3,
-        "trend_direction": "Stable",
-        "question_ids": [
-          159,
-          163,
-          291,
-          399,
-          623,
-          728,
-          804,
-          928,
-          1001,
-          1060,
-          1273,
-          1330,
-          1429
-        ]
-      },
-      {
-        "subject": "Programming",
-        "topic": "Recursion",
-        "total_appearances": 12,
-        "unique_years": [
-          2011,
-          2014,
-          2015,
-          2016,
-          2020,
-          2021,
-          2023,
-          2025
-        ],
-        "year_counts": {
-          "2011": 2,
-          "2014": 1,
-          "2015": 2,
-          "2016": 2,
-          "2020": 1,
-          "2021": 2,
-          "2023": 1,
-          "2025": 1
-        },
-        "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.5,
-        "trend_direction": "Stable",
-        "question_ids": [
-          43,
-          44,
-          215,
-          426,
-          461,
-          612,
-          816,
-          858,
-          884,
-          926,
-          1211,
-          1262
-        ]
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "Deadlock",
-        "total_appearances": 12,
-        "unique_years": [
-          2013,
-          2014,
-          2015,
-          2017,
-          2018,
-          2019,
-          2021,
-          2022,
-          2025
-        ],
-        "year_counts": {
-          "2013": 1,
-          "2014": 2,
-          "2015": 2,
-          "2017": 1,
-          "2018": 2,
-          "2019": 1,
-          "2021": 1,
-          "2022": 1,
-          "2025": 1
-        },
-        "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Declining",
-        "question_ids": [
-          141,
-          227,
-          355,
-          439,
-          472,
-          657,
-          744,
-          878,
-          1133,
-          1314,
-          1329,
-          1436
-        ]
-      },
-      {
-        "subject": "Algorithms",
         "topic": "Graphs",
         "total_appearances": 12,
         "unique_years": [
@@ -12617,52 +13512,83 @@ export const GATE_DATA = {
         ]
       },
       {
-        "subject": "Algorithms",
-        "topic": "Asymptotic Analysis",
-        "total_appearances": 12,
+        "subject": "Engineering Mathematics",
+        "topic": "Combinatorics",
+        "total_appearances": 11,
         "unique_years": [
-          2011,
-          2012,
           2014,
           2015,
-          2017,
-          2019,
           2020,
           2021,
           2022,
           2023,
-          2024
+          2025,
+          2026
         ],
         "year_counts": {
-          "2011": 1,
-          "2012": 1,
           "2014": 1,
-          "2015": 2,
-          "2017": 1,
-          "2019": 1,
+          "2015": 4,
           "2020": 1,
           "2021": 1,
           "2022": 1,
           "2023": 1,
-          "2024": 1
+          "2025": 1,
+          "2026": 1
         },
-        "first_seen": 2011,
-        "last_seen": 2024,
-        "avg_per_year": 1.09,
+        "first_seen": 2014,
+        "last_seen": 2026,
+        "avg_per_year": 1.38,
+        "trend_direction": "Declining",
+        "question_ids": [
+          373,
+          394,
+          459,
+          489,
+          559,
+          812,
+          938,
+          1180,
+          1374,
+          1442,
+          1552
+        ]
+      },
+      {
+        "subject": "General Aptitude",
+        "topic": "Probability",
+        "total_appearances": 11,
+        "unique_years": [
+          2015,
+          2017,
+          2018,
+          2021,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2015": 2,
+          "2017": 1,
+          "2018": 3,
+          "2021": 1,
+          "2025": 1,
+          "2026": 3
+        },
+        "first_seen": 2015,
+        "last_seen": 2026,
+        "avg_per_year": 1.83,
         "trend_direction": "Stable",
         "question_ids": [
-          33,
-          78,
-          366,
-          393,
-          429,
-          634,
-          742,
-          772,
-          919,
-          1062,
-          1358,
-          1421
+          506,
+          513,
+          690,
+          1158,
+          1290,
+          1305,
+          1334,
+          1353,
+          1478,
+          1485,
+          1550
         ]
       },
       {
@@ -12712,46 +13638,6 @@ export const GATE_DATA = {
         ]
       },
       {
-        "subject": "General Aptitude",
-        "topic": "Logical Reasoning",
-        "total_appearances": 11,
-        "unique_years": [
-          2015,
-          2016,
-          2017,
-          2019,
-          2021,
-          2022,
-          2024
-        ],
-        "year_counts": {
-          "2015": 1,
-          "2016": 2,
-          "2017": 2,
-          "2019": 2,
-          "2021": 2,
-          "2022": 1,
-          "2024": 1
-        },
-        "first_seen": 2015,
-        "last_seen": 2024,
-        "avg_per_year": 1.57,
-        "trend_direction": "Stable",
-        "question_ids": [
-          511,
-          569,
-          688,
-          692,
-          701,
-          705,
-          835,
-          965,
-          1223,
-          1354,
-          1419
-        ]
-      },
-      {
         "subject": "Programming",
         "topic": "Trees",
         "total_appearances": 11,
@@ -12790,42 +13676,247 @@ export const GATE_DATA = {
         ]
       },
       {
-        "subject": "Engineering Mathematics",
-        "topic": "Combinatorics",
+        "subject": "Data Structures",
+        "topic": "Heaps",
+        "total_appearances": 10,
+        "unique_years": [
+          2011,
+          2015,
+          2018,
+          2019,
+          2020,
+          2021,
+          2023,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2015": 1,
+          "2018": 1,
+          "2019": 1,
+          "2020": 1,
+          "2021": 1,
+          "2023": 2,
+          "2025": 1,
+          "2026": 1
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.11,
+        "trend_direction": "Rising",
+        "question_ids": [
+          19,
+          543,
+          745,
+          817,
+          837,
+          902,
+          936,
+          1185,
+          1336,
+          1563
+        ]
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Trees",
+        "total_appearances": 10,
+        "unique_years": [
+          2011,
+          2013,
+          2015,
+          2018,
+          2019,
+          2021,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2013": 1,
+          "2015": 1,
+          "2018": 1,
+          "2019": 1,
+          "2021": 1,
+          "2025": 1,
+          "2026": 3
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
+        "trend_direction": "Rising",
+        "question_ids": [
+          25,
+          167,
+          536,
+          751,
+          851,
+          1098,
+          1310,
+          1487,
+          1573,
+          1602
+        ]
+      },
+      {
+        "subject": "Databases",
+        "topic": "Indexing",
+        "total_appearances": 10,
+        "unique_years": [
+          2011,
+          2013,
+          2015,
+          2019,
+          2020,
+          2021,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2013": 1,
+          "2015": 2,
+          "2019": 1,
+          "2020": 1,
+          "2021": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.11,
+        "trend_direction": "Stable",
+        "question_ids": [
+          35,
+          140,
+          433,
+          456,
+          719,
+          824,
+          856,
+          1041,
+          1142,
+          1521
+        ]
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer",
+        "total_appearances": 10,
+        "unique_years": [
+          2013,
+          2014,
+          2015,
+          2016,
+          2019,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2013": 1,
+          "2014": 1,
+          "2015": 1,
+          "2016": 2,
+          "2019": 1,
+          "2025": 1,
+          "2026": 3
+        },
+        "first_seen": 2013,
+        "last_seen": 2026,
+        "avg_per_year": 1.43,
+        "trend_direction": "Rising",
+        "question_ids": [
+          161,
+          220,
+          458,
+          630,
+          734,
+          1121,
+          1280,
+          1518,
+          1540,
+          1585
+        ]
+      },
+      {
+        "subject": "Theory of Computation",
+        "topic": "Context-Free Languages",
         "total_appearances": 10,
         "unique_years": [
           2014,
-          2015,
+          2016,
+          2017,
           2020,
           2021,
-          2022,
-          2023,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2014": 1,
-          "2015": 4,
+          "2016": 2,
+          "2017": 2,
           "2020": 1,
           "2021": 1,
-          "2022": 1,
-          "2023": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
         "first_seen": 2014,
-        "last_seen": 2025,
+        "last_seen": 2026,
         "avg_per_year": 1.43,
-        "trend_direction": "Declining",
+        "trend_direction": "Stable",
         "question_ids": [
-          373,
-          394,
-          459,
-          489,
-          559,
-          812,
-          938,
-          1180,
-          1374,
-          1442
+          232,
+          618,
+          667,
+          668,
+          780,
+          1195,
+          1268,
+          1356,
+          1523,
+          1592
+        ]
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Binary Search Trees",
+        "total_appearances": 10,
+        "unique_years": [
+          2015,
+          2017,
+          2020,
+          2021,
+          2022,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2015": 1,
+          "2017": 1,
+          "2020": 2,
+          "2021": 1,
+          "2022": 1,
+          "2025": 2,
+          "2026": 2
+        },
+        "first_seen": 2015,
+        "last_seen": 2026,
+        "avg_per_year": 1.43,
+        "trend_direction": "Rising",
+        "question_ids": [
+          534,
+          636,
+          775,
+          811,
+          1120,
+          1176,
+          1365,
+          1438,
+          1524,
+          1580
         ]
       },
       {
@@ -12866,83 +13957,151 @@ export const GATE_DATA = {
         ]
       },
       {
-        "subject": "Data Structures",
-        "topic": "Heaps",
+        "subject": "General Aptitude",
+        "topic": "Data Interpretation",
         "total_appearances": 9,
         "unique_years": [
           2011,
+          2014,
           2015,
-          2018,
-          2019,
+          2017,
           2020,
-          2021,
-          2023,
-          2025
+          2024,
+          2026
         ],
         "year_counts": {
           "2011": 1,
-          "2015": 1,
-          "2018": 1,
-          "2019": 1,
-          "2020": 1,
-          "2021": 1,
-          "2023": 2,
-          "2025": 1
+          "2014": 1,
+          "2015": 2,
+          "2017": 1,
+          "2020": 2,
+          "2024": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.12,
-        "trend_direction": "Rising",
+        "last_seen": 2026,
+        "avg_per_year": 1.29,
+        "trend_direction": "Stable",
         "question_ids": [
-          19,
-          543,
-          745,
-          817,
-          837,
-          902,
-          936,
-          1185,
-          1336
+          57,
+          260,
+          509,
+          512,
+          695,
+          765,
+          770,
+          963,
+          1548
         ]
       },
       {
-        "subject": "Databases",
-        "topic": "Indexing",
+        "subject": "Algorithms",
+        "topic": "Recurrence Relations",
         "total_appearances": 9,
         "unique_years": [
-          2011,
-          2013,
-          2015,
-          2019,
-          2020,
+          2012,
+          2016,
           2021,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
-          "2011": 1,
-          "2013": 1,
-          "2015": 2,
-          "2019": 1,
-          "2020": 1,
-          "2021": 1,
+          "2012": 1,
+          "2016": 2,
+          "2021": 2,
           "2024": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 2
         },
-        "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.12,
+        "first_seen": 2012,
+        "last_seen": 2026,
+        "avg_per_year": 1.5,
         "trend_direction": "Stable",
         "question_ids": [
-          35,
-          140,
-          433,
-          456,
-          719,
-          824,
-          856,
-          1041,
-          1142
+          76,
+          614,
+          874,
+          970,
+          1170,
+          1264,
+          1385,
+          1500,
+          1557
+        ]
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Graph Traversal",
+        "total_appearances": 9,
+        "unique_years": [
+          2012,
+          2013,
+          2014,
+          2016,
+          2018,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2012": 1,
+          "2013": 1,
+          "2014": 2,
+          "2016": 2,
+          "2018": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "first_seen": 2012,
+        "last_seen": 2026,
+        "avg_per_year": 1.29,
+        "trend_direction": "Declining",
+        "question_ids": [
+          100,
+          144,
+          233,
+          336,
+          586,
+          1114,
+          1236,
+          1320,
+          1590
+        ]
+      },
+      {
+        "subject": "Theory of Computation",
+        "topic": "Context-Free Grammars",
+        "total_appearances": 9,
+        "unique_years": [
+          2015,
+          2016,
+          2017,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2015": 1,
+          "2016": 2,
+          "2017": 1,
+          "2024": 1,
+          "2025": 2,
+          "2026": 2
+        },
+        "first_seen": 2015,
+        "last_seen": 2026,
+        "avg_per_year": 1.5,
+        "trend_direction": "Stable",
+        "question_ids": [
+          484,
+          592,
+          640,
+          1079,
+          1109,
+          1110,
+          1242,
+          1504,
+          1565
         ]
       },
       {
@@ -13017,393 +14176,51 @@ export const GATE_DATA = {
       },
       {
         "subject": "Algorithms",
-        "topic": "Graph Traversal",
-        "total_appearances": 8,
-        "unique_years": [
-          2012,
-          2013,
-          2014,
-          2016,
-          2018,
-          2025
-        ],
-        "year_counts": {
-          "2012": 1,
-          "2013": 1,
-          "2014": 2,
-          "2016": 2,
-          "2018": 1,
-          "2025": 1
-        },
-        "first_seen": 2012,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Stable",
-        "question_ids": [
-          100,
-          144,
-          233,
-          336,
-          586,
-          1114,
-          1236,
-          1320
-        ]
-      },
-      {
-        "subject": "Theory of Computation",
-        "topic": "Context-Free Languages",
-        "total_appearances": 8,
-        "unique_years": [
-          2014,
-          2016,
-          2017,
-          2020,
-          2021,
-          2025
-        ],
-        "year_counts": {
-          "2014": 1,
-          "2016": 2,
-          "2017": 2,
-          "2020": 1,
-          "2021": 1,
-          "2025": 1
-        },
-        "first_seen": 2014,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Declining",
-        "question_ids": [
-          232,
-          618,
-          667,
-          668,
-          780,
-          1195,
-          1268,
-          1356
-        ]
-      },
-      {
-        "subject": "General Aptitude",
-        "topic": "Probability",
-        "total_appearances": 8,
-        "unique_years": [
-          2015,
-          2017,
-          2018,
-          2021,
-          2025
-        ],
-        "year_counts": {
-          "2015": 2,
-          "2017": 1,
-          "2018": 3,
-          "2021": 1,
-          "2025": 1
-        },
-        "first_seen": 2015,
-        "last_seen": 2025,
-        "avg_per_year": 1.6,
-        "trend_direction": "Stable",
-        "question_ids": [
-          506,
-          513,
-          690,
-          1158,
-          1290,
-          1305,
-          1334,
-          1353
-        ]
-      },
-      {
-        "subject": "Data Structures",
-        "topic": "Binary Search Trees",
-        "total_appearances": 8,
-        "unique_years": [
-          2015,
-          2017,
-          2020,
-          2021,
-          2022,
-          2025
-        ],
-        "year_counts": {
-          "2015": 1,
-          "2017": 1,
-          "2020": 2,
-          "2021": 1,
-          "2022": 1,
-          "2025": 2
-        },
-        "first_seen": 2015,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Stable",
-        "question_ids": [
-          534,
-          636,
-          775,
-          811,
-          1120,
-          1176,
-          1365,
-          1438
-        ]
-      },
-      {
-        "subject": "General Aptitude",
-        "topic": "Data Interpretation",
+        "topic": "Dynamic Programming",
         "total_appearances": 8,
         "unique_years": [
           2011,
           2014,
-          2015,
-          2017,
-          2020,
-          2024
-        ],
-        "year_counts": {
-          "2011": 1,
-          "2014": 1,
-          "2015": 2,
-          "2017": 1,
-          "2020": 2,
-          "2024": 1
-        },
-        "first_seen": 2011,
-        "last_seen": 2024,
-        "avg_per_year": 1.33,
-        "trend_direction": "Stable",
-        "question_ids": [
-          57,
-          260,
-          509,
-          512,
-          695,
-          765,
-          770,
-          963
-        ]
-      },
-      {
-        "subject": "Databases",
-        "topic": "Transaction Management",
-        "total_appearances": 8,
-        "unique_years": [
-          2012,
-          2014,
-          2015,
           2016,
-          2024
-        ],
-        "year_counts": {
-          "2012": 1,
-          "2014": 1,
-          "2015": 1,
-          "2016": 4,
-          "2024": 1
-        },
-        "first_seen": 2012,
-        "last_seen": 2024,
-        "avg_per_year": 1.6,
-        "trend_direction": "Rising",
-        "question_ids": [
-          87,
-          225,
-          452,
-          597,
-          626,
-          974,
-          1247,
-          1276
-        ]
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "Transport Layer",
-        "total_appearances": 8,
-        "unique_years": [
-          2013,
-          2015,
-          2020,
-          2022,
-          2023,
-          2024
-        ],
-        "year_counts": {
-          "2013": 1,
-          "2015": 3,
-          "2020": 1,
-          "2022": 1,
-          "2023": 1,
-          "2024": 1
-        },
-        "first_seen": 2013,
-        "last_seen": 2024,
-        "avg_per_year": 1.33,
-        "trend_direction": "Declining",
-        "question_ids": [
-          137,
-          409,
-          483,
-          500,
-          825,
-          940,
-          1049,
-          1470
-        ]
-      },
-      {
-        "subject": "Computer Organization",
-        "topic": "Instruction Formats",
-        "total_appearances": 8,
-        "unique_years": [
-          2014,
-          2015,
-          2016,
-          2024
-        ],
-        "year_counts": {
-          "2014": 1,
-          "2015": 1,
-          "2016": 4,
-          "2024": 2
-        },
-        "first_seen": 2014,
-        "last_seen": 2024,
-        "avg_per_year": 2.0,
-        "trend_direction": "Rising",
-        "question_ids": [
-          334,
-          520,
-          585,
-          606,
-          1012,
-          1016,
-          1235,
-          1256
-        ]
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "Application Layer",
-        "total_appearances": 8,
-        "unique_years": [
-          2015,
-          2016,
-          2020,
-          2022,
-          2023,
-          2024
-        ],
-        "year_counts": {
-          "2015": 2,
-          "2016": 2,
-          "2020": 1,
-          "2022": 1,
-          "2023": 1,
-          "2024": 1
-        },
-        "first_seen": 2015,
-        "last_seen": 2024,
-        "avg_per_year": 1.33,
-        "trend_direction": "Declining",
-        "question_ids": [
-          397,
-          462,
-          600,
-          795,
-          942,
-          1036,
-          1250,
-          1445
-        ]
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "IPv4 Addressing",
-        "total_appearances": 8,
-        "unique_years": [
-          2012,
-          2014,
-          2015,
-          2019,
-          2020,
-          2022
-        ],
-        "year_counts": {
-          "2012": 2,
-          "2014": 2,
-          "2015": 1,
-          "2019": 1,
-          "2020": 1,
-          "2022": 1
-        },
-        "first_seen": 2012,
-        "last_seen": 2022,
-        "avg_per_year": 1.33,
-        "trend_direction": "Declining",
-        "question_ids": [
-          83,
-          94,
-          222,
-          223,
-          425,
-          733,
-          808,
-          1432
-        ]
-      },
-      {
-        "subject": "Data Structures",
-        "topic": "Trees",
-        "total_appearances": 7,
-        "unique_years": [
-          2011,
-          2013,
-          2015,
           2018,
-          2019,
           2021,
-          2025
+          2026
         ],
         "year_counts": {
-          "2011": 1,
-          "2013": 1,
-          "2015": 1,
+          "2011": 2,
+          "2014": 1,
+          "2016": 2,
           "2018": 1,
-          "2019": 1,
           "2021": 1,
-          "2025": 1
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.0,
-        "trend_direction": "Stable",
+        "last_seen": 2026,
+        "avg_per_year": 1.33,
+        "trend_direction": "Declining",
         "question_ids": [
-          25,
-          167,
-          536,
-          751,
-          851,
-          1098,
-          1310
+          21,
+          34,
+          297,
+          589,
+          1239,
+          1321,
+          1395,
+          1514
         ]
       },
       {
         "subject": "Digital Logic",
         "topic": "Sequential Circuits",
-        "total_appearances": 7,
+        "total_appearances": 8,
         "unique_years": [
           2011,
           2014,
           2017,
           2018,
           2023,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 2,
@@ -13411,11 +14228,12 @@ export const GATE_DATA = {
           "2017": 1,
           "2018": 1,
           "2023": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.17,
+        "last_seen": 2026,
+        "avg_per_year": 1.14,
         "trend_direction": "Stable",
         "question_ids": [
           45,
@@ -13424,72 +14242,90 @@ export const GATE_DATA = {
           663,
           933,
           1210,
-          1312
+          1312,
+          1577
         ]
       },
       {
-        "subject": "Algorithms",
-        "topic": "Recurrence Relations",
-        "total_appearances": 7,
+        "subject": "Operating Systems",
+        "topic": "File Systems",
+        "total_appearances": 8,
         "unique_years": [
           2012,
+          2014,
           2016,
+          2019,
           2021,
-          2024,
-          2025
+          2022,
+          2026
         ],
         "year_counts": {
           "2012": 1,
+          "2014": 1,
           "2016": 2,
-          "2021": 2,
-          "2024": 1,
-          "2025": 1
+          "2019": 1,
+          "2021": 1,
+          "2022": 1,
+          "2026": 1
         },
         "first_seen": 2012,
-        "last_seen": 2025,
-        "avg_per_year": 1.4,
+        "last_seen": 2026,
+        "avg_per_year": 1.14,
         "trend_direction": "Stable",
         "question_ids": [
-          76,
-          614,
-          874,
-          970,
-          1170,
-          1264,
-          1385
+          101,
+          280,
+          625,
+          747,
+          1275,
+          1370,
+          1473,
+          1528
+        ]
+      },
+      {
+        "subject": "Digital Logic",
+        "topic": "Number Representation",
+        "total_appearances": 8,
+        "unique_years": [
+          2013,
+          2018,
+          2019,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2013": 1,
+          "2018": 1,
+          "2019": 1,
+          "2022": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 2
+        },
+        "first_seen": 2013,
+        "last_seen": 2026,
+        "avg_per_year": 1.14,
+        "trend_direction": "Rising",
+        "question_ids": [
+          129,
+          709,
+          1033,
+          1175,
+          1323,
+          1428,
+          1503,
+          1562
         ]
       }
     ],
     "rising_topics": [
       {
-        "subject": "Compiler Design",
-        "topic": "Lexical Analysis",
-        "total_appearances": 4,
-        "unique_years": [
-          2011,
-          2018,
-          2023
-        ],
-        "year_counts": {
-          "2011": 2,
-          "2018": 1,
-          "2023": 1
-        },
-        "first_seen": 2011,
-        "last_seen": 2023,
-        "avg_per_year": 1.33,
-        "trend_direction": "Rising",
-        "question_ids": [
-          1,
-          15,
-          909,
-          1327
-        ]
-      },
-      {
         "subject": "Engineering Mathematics",
         "topic": "Probability",
-        "total_appearances": 32,
+        "total_appearances": 36,
         "unique_years": [
           2011,
           2012,
@@ -13503,7 +14339,8 @@ export const GATE_DATA = {
           2021,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 4,
@@ -13518,11 +14355,12 @@ export const GATE_DATA = {
           "2021": 4,
           "2023": 1,
           "2024": 5,
-          "2025": 3
+          "2025": 3,
+          "2026": 4
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 2.46,
+        "last_seen": 2026,
+        "avg_per_year": 2.57,
         "trend_direction": "Rising",
         "question_ids": [
           3,
@@ -13556,31 +14394,39 @@ export const GATE_DATA = {
           1182,
           1230,
           1390,
-          1409
+          1409,
+          1489,
+          1538,
+          1551,
+          1598
         ]
       },
       {
         "subject": "Computer Networks",
         "topic": "Application Layer Protocols",
-        "total_appearances": 3,
+        "total_appearances": 5,
         "unique_years": [
           2011,
           2012,
-          2019
+          2019,
+          2026
         ],
         "year_counts": {
           "2011": 1,
           "2012": 1,
-          "2019": 1
+          "2019": 1,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2019,
-        "avg_per_year": 1.0,
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
         "trend_direction": "Rising",
         "question_ids": [
           4,
           82,
-          721
+          721,
+          1497,
+          1559
         ]
       },
       {
@@ -13605,6 +14451,92 @@ export const GATE_DATA = {
           5,
           1077,
           1369
+        ]
+      },
+      {
+        "subject": "Computer Organization",
+        "topic": "Interrupts",
+        "total_appearances": 3,
+        "unique_years": [
+          2011,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Rising",
+        "question_ids": [
+          7,
+          1161,
+          1493
+        ]
+      },
+      {
+        "subject": "Digital Logic",
+        "topic": "Boolean Algebra",
+        "total_appearances": 23,
+        "unique_years": [
+          2011,
+          2012,
+          2014,
+          2015,
+          2016,
+          2018,
+          2019,
+          2020,
+          2021,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2012": 1,
+          "2014": 3,
+          "2015": 3,
+          "2016": 2,
+          "2018": 2,
+          "2019": 1,
+          "2020": 1,
+          "2021": 2,
+          "2024": 1,
+          "2025": 2,
+          "2026": 4
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.92,
+        "trend_direction": "Rising",
+        "question_ids": [
+          10,
+          66,
+          251,
+          267,
+          332,
+          391,
+          431,
+          486,
+          583,
+          711,
+          798,
+          887,
+          985,
+          1135,
+          1192,
+          1233,
+          1294,
+          1339,
+          1397,
+          1491,
+          1515,
+          1561,
+          1588
         ]
       },
       {
@@ -13660,9 +14592,33 @@ export const GATE_DATA = {
         ]
       },
       {
+        "subject": "Computer Organization",
+        "topic": "Addressing Modes",
+        "total_appearances": 3,
+        "unique_years": [
+          2011,
+          2017,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2017": 1,
+          "2026": 1
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.0,
+        "trend_direction": "Rising",
+        "question_ids": [
+          17,
+          641,
+          1554
+        ]
+      },
+      {
         "subject": "Programming",
         "topic": "C Programming",
-        "total_appearances": 52,
+        "total_appearances": 54,
         "unique_years": [
           2011,
           2012,
@@ -13677,7 +14633,8 @@ export const GATE_DATA = {
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -13693,11 +14650,12 @@ export const GATE_DATA = {
           "2022": 3,
           "2023": 1,
           "2024": 8,
-          "2025": 6
+          "2025": 6,
+          "2026": 2
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 3.71,
+        "last_seen": 2026,
+        "avg_per_year": 3.6,
         "trend_direction": "Rising",
         "question_ids": [
           18,
@@ -13751,13 +14709,15 @@ export const GATE_DATA = {
           1335,
           1431,
           1453,
-          1454
+          1454,
+          1494,
+          1574
         ]
       },
       {
         "subject": "Data Structures",
         "topic": "Heaps",
-        "total_appearances": 9,
+        "total_appearances": 10,
         "unique_years": [
           2011,
           2015,
@@ -13766,7 +14726,8 @@ export const GATE_DATA = {
           2020,
           2021,
           2023,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
@@ -13776,11 +14737,12 @@ export const GATE_DATA = {
           "2020": 1,
           "2021": 1,
           "2023": 2,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.12,
+        "last_seen": 2026,
+        "avg_per_year": 1.11,
         "trend_direction": "Rising",
         "question_ids": [
           19,
@@ -13791,7 +14753,8 @@ export const GATE_DATA = {
           902,
           936,
           1185,
-          1336
+          1336,
+          1563
         ]
       },
       {
@@ -13817,6 +14780,140 @@ export const GATE_DATA = {
           593,
           914,
           1243
+        ]
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Trees",
+        "total_appearances": 10,
+        "unique_years": [
+          2011,
+          2013,
+          2015,
+          2018,
+          2019,
+          2021,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2013": 1,
+          "2015": 1,
+          "2018": 1,
+          "2019": 1,
+          "2021": 1,
+          "2025": 1,
+          "2026": 3
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
+        "trend_direction": "Rising",
+        "question_ids": [
+          25,
+          167,
+          536,
+          751,
+          851,
+          1098,
+          1310,
+          1487,
+          1573,
+          1602
+        ]
+      },
+      {
+        "subject": "Engineering Mathematics",
+        "topic": "Linear Algebra",
+        "total_appearances": 46,
+        "unique_years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2011": 1,
+          "2012": 1,
+          "2013": 1,
+          "2014": 6,
+          "2015": 6,
+          "2016": 4,
+          "2017": 3,
+          "2018": 2,
+          "2019": 2,
+          "2020": 1,
+          "2021": 2,
+          "2022": 3,
+          "2023": 1,
+          "2024": 4,
+          "2025": 5,
+          "2026": 4
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 2.88,
+        "trend_direction": "Rising",
+        "question_ids": [
+          36,
+          71,
+          128,
+          201,
+          202,
+          265,
+          307,
+          329,
+          330,
+          403,
+          420,
+          455,
+          476,
+          529,
+          547,
+          579,
+          581,
+          633,
+          660,
+          661,
+          714,
+          749,
+          797,
+          859,
+          908,
+          972,
+          1002,
+          1032,
+          1069,
+          1096,
+          1099,
+          1129,
+          1173,
+          1191,
+          1229,
+          1231,
+          1307,
+          1316,
+          1407,
+          1430,
+          1455,
+          1463,
+          1506,
+          1537,
+          1553,
+          1560
         ]
       },
       {
@@ -13846,7 +14943,7 @@ export const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Minimum Spanning Tree",
-        "total_appearances": 22,
+        "total_appearances": 23,
         "unique_years": [
           2011,
           2012,
@@ -13859,7 +14956,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 2,
@@ -13873,11 +14971,12 @@ export const GATE_DATA = {
           "2021": 2,
           "2022": 2,
           "2024": 3,
-          "2025": 3
+          "2025": 3,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.83,
+        "last_seen": 2026,
+        "avg_per_year": 1.77,
         "trend_direction": "Rising",
         "question_ids": [
           49,
@@ -13901,41 +15000,45 @@ export const GATE_DATA = {
           1337,
           1372,
           1459,
-          1468
+          1468,
+          1589
         ]
       },
       {
         "subject": "General Aptitude",
         "topic": "Reading Comprehension",
-        "total_appearances": 5,
+        "total_appearances": 6,
         "unique_years": [
           2011,
           2017,
           2020,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 1,
           "2017": 1,
           "2020": 2,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 1.25,
+        "last_seen": 2026,
+        "avg_per_year": 1.2,
         "trend_direction": "Rising",
         "question_ids": [
           56,
           691,
           764,
           766,
-          1156
+          1156,
+          1546
         ]
       },
       {
         "subject": "Databases",
         "topic": "Normalization",
-        "total_appearances": 19,
+        "total_appearances": 21,
         "unique_years": [
           2012,
           2013,
@@ -13947,7 +15050,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2012": 1,
@@ -13960,11 +15064,12 @@ export const GATE_DATA = {
           "2021": 1,
           "2022": 2,
           "2024": 3,
-          "2025": 2
+          "2025": 2,
+          "2026": 2
         },
         "first_seen": 2012,
-        "last_seen": 2025,
-        "avg_per_year": 1.73,
+        "last_seen": 2026,
+        "avg_per_year": 1.75,
         "trend_direction": "Rising",
         "question_ids": [
           62,
@@ -13985,7 +15090,9 @@ export const GATE_DATA = {
           1332,
           1388,
           1424,
-          1441
+          1441,
+          1517,
+          1571
         ]
       },
       {
@@ -14047,25 +15154,29 @@ export const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "Floating Point Representation",
-        "total_appearances": 3,
+        "total_appearances": 5,
         "unique_years": [
           2012,
           2020,
-          2021
+          2021,
+          2026
         ],
         "year_counts": {
           "2012": 1,
           "2020": 1,
-          "2021": 1
+          "2021": 1,
+          "2026": 2
         },
         "first_seen": 2012,
-        "last_seen": 2021,
-        "avg_per_year": 1.0,
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
         "trend_direction": "Rising",
         "question_ids": [
           67,
           799,
-          839
+          839,
+          1509,
+          1576
         ]
       },
       {
@@ -14279,6 +15390,43 @@ export const GATE_DATA = {
         ]
       },
       {
+        "subject": "Digital Logic",
+        "topic": "Number Representation",
+        "total_appearances": 8,
+        "unique_years": [
+          2013,
+          2018,
+          2019,
+          2022,
+          2024,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2013": 1,
+          "2018": 1,
+          "2019": 1,
+          "2022": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 2
+        },
+        "first_seen": 2013,
+        "last_seen": 2026,
+        "avg_per_year": 1.14,
+        "trend_direction": "Rising",
+        "question_ids": [
+          129,
+          709,
+          1033,
+          1175,
+          1323,
+          1428,
+          1503,
+          1562
+        ]
+      },
+      {
         "subject": "Computer Networks",
         "topic": "Network Security",
         "total_appearances": 6,
@@ -14338,14 +15486,15 @@ export const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Data Link Layer",
-        "total_appearances": 7,
+        "total_appearances": 10,
         "unique_years": [
           2013,
           2014,
           2015,
           2016,
           2019,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2013": 1,
@@ -14353,11 +15502,12 @@ export const GATE_DATA = {
           "2015": 1,
           "2016": 2,
           "2019": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 3
         },
         "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.17,
+        "last_seen": 2026,
+        "avg_per_year": 1.43,
         "trend_direction": "Rising",
         "question_ids": [
           161,
@@ -14366,7 +15516,10 @@ export const GATE_DATA = {
           630,
           734,
           1121,
-          1280
+          1280,
+          1518,
+          1540,
+          1585
         ]
       },
       {
@@ -14607,59 +15760,6 @@ export const GATE_DATA = {
         ]
       },
       {
-        "subject": "Operating Systems",
-        "topic": "Disk Scheduling",
-        "total_appearances": 6,
-        "unique_years": [
-          2014,
-          2015,
-          2018,
-          2020
-        ],
-        "year_counts": {
-          "2014": 1,
-          "2015": 2,
-          "2018": 1,
-          "2020": 2
-        },
-        "first_seen": 2014,
-        "last_seen": 2020,
-        "avg_per_year": 1.5,
-        "trend_direction": "Rising",
-        "question_ids": [
-          343,
-          497,
-          541,
-          805,
-          823,
-          1343
-        ]
-      },
-      {
-        "subject": "Digital Logic",
-        "topic": "Multiplexers",
-        "total_appearances": 3,
-        "unique_years": [
-          2014,
-          2021,
-          2024
-        ],
-        "year_counts": {
-          "2014": 1,
-          "2021": 1,
-          "2024": 1
-        },
-        "first_seen": 2014,
-        "last_seen": 2024,
-        "avg_per_year": 1.0,
-        "trend_direction": "Rising",
-        "question_ids": [
-          369,
-          840,
-          1084
-        ]
-      },
-      {
         "subject": "Engineering Mathematics",
         "topic": "Discrete Mathematics",
         "total_appearances": 5,
@@ -14713,34 +15813,6 @@ export const GATE_DATA = {
           1092,
           1095,
           1420
-        ]
-      },
-      {
-        "subject": "Engineering Mathematics",
-        "topic": "Relations",
-        "total_appearances": 5,
-        "unique_years": [
-          2015,
-          2016,
-          2020,
-          2025
-        ],
-        "year_counts": {
-          "2015": 1,
-          "2016": 2,
-          "2020": 1,
-          "2025": 1
-        },
-        "first_seen": 2015,
-        "last_seen": 2025,
-        "avg_per_year": 1.25,
-        "trend_direction": "Rising",
-        "question_ids": [
-          465,
-          601,
-          787,
-          1127,
-          1251
         ]
       },
       {
@@ -14824,6 +15896,45 @@ export const GATE_DATA = {
         ]
       },
       {
+        "subject": "Data Structures",
+        "topic": "Binary Search Trees",
+        "total_appearances": 10,
+        "unique_years": [
+          2015,
+          2017,
+          2020,
+          2021,
+          2022,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2015": 1,
+          "2017": 1,
+          "2020": 2,
+          "2021": 1,
+          "2022": 1,
+          "2025": 2,
+          "2026": 2
+        },
+        "first_seen": 2015,
+        "last_seen": 2026,
+        "avg_per_year": 1.43,
+        "trend_direction": "Rising",
+        "question_ids": [
+          534,
+          636,
+          775,
+          811,
+          1120,
+          1176,
+          1365,
+          1438,
+          1524,
+          1580
+        ]
+      },
+      {
         "subject": "Theory of Computation",
         "topic": "Pushdown Automata",
         "total_appearances": 3,
@@ -14869,31 +15980,6 @@ export const GATE_DATA = {
           565,
           642,
           1202
-        ]
-      },
-      {
-        "subject": "Programming",
-        "topic": "Linked Lists",
-        "total_appearances": 4,
-        "unique_years": [
-          2016,
-          2017,
-          2025
-        ],
-        "year_counts": {
-          "2016": 2,
-          "2017": 1,
-          "2025": 1
-        },
-        "first_seen": 2016,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Rising",
-        "question_ids": [
-          590,
-          638,
-          1212,
-          1240
         ]
       },
       {
@@ -14982,38 +16068,43 @@ export const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "Instruction Set Architecture",
-        "total_appearances": 3,
+        "total_appearances": 5,
         "unique_years": [
           2017,
           2018,
-          2023
+          2023,
+          2026
         ],
         "year_counts": {
           "2017": 1,
           "2018": 1,
-          "2023": 1
+          "2023": 1,
+          "2026": 2
         },
         "first_seen": 2017,
-        "last_seen": 2023,
-        "avg_per_year": 1.0,
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
         "trend_direction": "Rising",
         "question_ids": [
           679,
           931,
-          1295
+          1295,
+          1519,
+          1555
         ]
       },
       {
         "subject": "Compiler Design",
         "topic": "Syntax Directed Translation",
-        "total_appearances": 7,
+        "total_appearances": 8,
         "unique_years": [
           2019,
           2021,
           2022,
           2023,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2019": 1,
@@ -15021,11 +16112,12 @@ export const GATE_DATA = {
           "2022": 1,
           "2023": 1,
           "2024": 2,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2019,
-        "last_seen": 2025,
-        "avg_per_year": 1.17,
+        "last_seen": 2026,
+        "avg_per_year": 1.14,
         "trend_direction": "Rising",
         "question_ids": [
           741,
@@ -15034,7 +16126,8 @@ export const GATE_DATA = {
           1057,
           1107,
           1381,
-          1475
+          1475,
+          1593
         ]
       },
       {
@@ -15059,6 +16152,40 @@ export const GATE_DATA = {
           784,
           1040,
           1301
+        ]
+      },
+      {
+        "subject": "Data Structures",
+        "topic": "Hashing",
+        "total_appearances": 7,
+        "unique_years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2020": 1,
+          "2021": 1,
+          "2022": 1,
+          "2023": 1,
+          "2025": 1,
+          "2026": 2
+        },
+        "first_seen": 2020,
+        "last_seen": 2026,
+        "avg_per_year": 1.17,
+        "trend_direction": "Rising",
+        "question_ids": [
+          793,
+          910,
+          1215,
+          1402,
+          1426,
+          1505,
+          1564
         ]
       },
       {
@@ -15113,9 +16240,73 @@ export const GATE_DATA = {
     ],
     "declining_topics": [
       {
+        "subject": "Compiler Design",
+        "topic": "Lexical Analysis",
+        "total_appearances": 6,
+        "unique_years": [
+          2011,
+          2018,
+          2023,
+          2026
+        ],
+        "year_counts": {
+          "2011": 2,
+          "2018": 1,
+          "2023": 1,
+          "2026": 2
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.5,
+        "trend_direction": "Declining",
+        "question_ids": [
+          1,
+          15,
+          909,
+          1327,
+          1510,
+          1567
+        ]
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Dynamic Programming",
+        "total_appearances": 8,
+        "unique_years": [
+          2011,
+          2014,
+          2016,
+          2018,
+          2021,
+          2026
+        ],
+        "year_counts": {
+          "2011": 2,
+          "2014": 1,
+          "2016": 2,
+          "2018": 1,
+          "2021": 1,
+          "2026": 1
+        },
+        "first_seen": 2011,
+        "last_seen": 2026,
+        "avg_per_year": 1.33,
+        "trend_direction": "Declining",
+        "question_ids": [
+          21,
+          34,
+          297,
+          589,
+          1239,
+          1321,
+          1395,
+          1514
+        ]
+      },
+      {
         "subject": "General Aptitude",
         "topic": "Verbal Ability",
-        "total_appearances": 64,
+        "total_appearances": 67,
         "unique_years": [
           2011,
           2012,
@@ -15128,7 +16319,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2011": 4,
@@ -15142,11 +16334,12 @@ export const GATE_DATA = {
           "2021": 6,
           "2022": 2,
           "2024": 4,
-          "2025": 2
+          "2025": 2,
+          "2026": 3
         },
         "first_seen": 2011,
-        "last_seen": 2025,
-        "avg_per_year": 5.33,
+        "last_seen": 2026,
+        "avg_per_year": 5.15,
         "trend_direction": "Declining",
         "question_ids": [
           51,
@@ -15212,7 +16405,10 @@ export const GATE_DATA = {
           1350,
           1355,
           1411,
-          1414
+          1414,
+          1476,
+          1481,
+          1541
         ]
       },
       {
@@ -15307,7 +16503,7 @@ export const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Sorting",
-        "total_appearances": 13,
+        "total_appearances": 14,
         "unique_years": [
           2012,
           2013,
@@ -15316,7 +16512,8 @@ export const GATE_DATA = {
           2016,
           2019,
           2021,
-          2024
+          2024,
+          2026
         ],
         "year_counts": {
           "2012": 1,
@@ -15326,11 +16523,12 @@ export const GATE_DATA = {
           "2016": 2,
           "2019": 1,
           "2021": 1,
-          "2024": 1
+          "2024": 1,
+          "2026": 1
         },
         "first_seen": 2012,
-        "last_seen": 2024,
-        "avg_per_year": 1.62,
+        "last_seen": 2026,
+        "avg_per_year": 1.56,
         "trend_direction": "Declining",
         "question_ids": [
           99,
@@ -15345,7 +16543,46 @@ export const GATE_DATA = {
           725,
           1037,
           1238,
-          1364
+          1364,
+          1507
+        ]
+      },
+      {
+        "subject": "Algorithms",
+        "topic": "Graph Traversal",
+        "total_appearances": 9,
+        "unique_years": [
+          2012,
+          2013,
+          2014,
+          2016,
+          2018,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2012": 1,
+          "2013": 1,
+          "2014": 2,
+          "2016": 2,
+          "2018": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "first_seen": 2012,
+        "last_seen": 2026,
+        "avg_per_year": 1.29,
+        "trend_direction": "Declining",
+        "question_ids": [
+          100,
+          144,
+          233,
+          336,
+          586,
+          1114,
+          1236,
+          1320,
+          1590
         ]
       },
       {
@@ -15386,24 +16623,26 @@ export const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Network Layer",
-        "total_appearances": 7,
+        "total_appearances": 8,
         "unique_years": [
           2013,
           2014,
           2020,
           2024,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2013": 2,
           "2014": 2,
           "2020": 1,
           "2024": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.4,
+        "last_seen": 2026,
+        "avg_per_year": 1.33,
         "trend_direction": "Declining",
         "question_ids": [
           139,
@@ -15412,52 +16651,8 @@ export const GATE_DATA = {
           224,
           785,
           978,
-          1103
-        ]
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "Deadlock",
-        "total_appearances": 12,
-        "unique_years": [
-          2013,
-          2014,
-          2015,
-          2017,
-          2018,
-          2019,
-          2021,
-          2022,
-          2025
-        ],
-        "year_counts": {
-          "2013": 1,
-          "2014": 2,
-          "2015": 2,
-          "2017": 1,
-          "2018": 2,
-          "2019": 1,
-          "2021": 1,
-          "2022": 1,
-          "2025": 1
-        },
-        "first_seen": 2013,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Declining",
-        "question_ids": [
-          141,
-          227,
-          355,
-          439,
-          472,
-          657,
-          744,
-          878,
-          1133,
-          1314,
-          1329,
-          1436
+          1103,
+          1496
         ]
       },
       {
@@ -15545,41 +16740,6 @@ export const GATE_DATA = {
         ]
       },
       {
-        "subject": "Theory of Computation",
-        "topic": "Context-Free Languages",
-        "total_appearances": 8,
-        "unique_years": [
-          2014,
-          2016,
-          2017,
-          2020,
-          2021,
-          2025
-        ],
-        "year_counts": {
-          "2014": 1,
-          "2016": 2,
-          "2017": 2,
-          "2020": 1,
-          "2021": 1,
-          "2025": 1
-        },
-        "first_seen": 2014,
-        "last_seen": 2025,
-        "avg_per_year": 1.33,
-        "trend_direction": "Declining",
-        "question_ids": [
-          232,
-          618,
-          667,
-          668,
-          780,
-          1195,
-          1268,
-          1356
-        ]
-      },
-      {
         "subject": "Digital Logic",
         "topic": "Number Systems",
         "total_appearances": 6,
@@ -15641,7 +16801,7 @@ export const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Combinatorics",
-        "total_appearances": 10,
+        "total_appearances": 11,
         "unique_years": [
           2014,
           2015,
@@ -15649,7 +16809,8 @@ export const GATE_DATA = {
           2021,
           2022,
           2023,
-          2025
+          2025,
+          2026
         ],
         "year_counts": {
           "2014": 1,
@@ -15658,11 +16819,12 @@ export const GATE_DATA = {
           "2021": 1,
           "2022": 1,
           "2023": 1,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
         "first_seen": 2014,
-        "last_seen": 2025,
-        "avg_per_year": 1.43,
+        "last_seen": 2026,
+        "avg_per_year": 1.38,
         "trend_direction": "Declining",
         "question_ids": [
           373,
@@ -15674,7 +16836,8 @@ export const GATE_DATA = {
           938,
           1180,
           1374,
-          1442
+          1442,
+          1552
         ]
       },
       {
@@ -15713,6 +16876,37 @@ export const GATE_DATA = {
         ]
       },
       {
+        "subject": "Engineering Mathematics",
+        "topic": "Relations",
+        "total_appearances": 6,
+        "unique_years": [
+          2015,
+          2016,
+          2020,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2015": 1,
+          "2016": 2,
+          "2020": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "first_seen": 2015,
+        "last_seen": 2026,
+        "avg_per_year": 1.2,
+        "trend_direction": "Declining",
+        "question_ids": [
+          465,
+          601,
+          787,
+          1127,
+          1251,
+          1501
+        ]
+      },
+      {
         "subject": "General Aptitude",
         "topic": "Critical Reasoning",
         "total_appearances": 6,
@@ -15741,6 +16935,34 @@ export const GATE_DATA = {
           1091,
           1222,
           1416
+        ]
+      },
+      {
+        "subject": "Programming",
+        "topic": "Linked Lists",
+        "total_appearances": 5,
+        "unique_years": [
+          2016,
+          2017,
+          2025,
+          2026
+        ],
+        "year_counts": {
+          "2016": 2,
+          "2017": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "first_seen": 2016,
+        "last_seen": 2026,
+        "avg_per_year": 1.25,
+        "trend_direction": "Declining",
+        "question_ids": [
+          590,
+          638,
+          1212,
+          1240,
+          1579
         ]
       },
       {
@@ -15853,8 +17075,8 @@ export const GATE_DATA = {
         "total_questions": 192,
         "num_papers": 3,
         "papers": [
-          "GATE_CS_2014_3",
           "GATE_CS_2014_1",
+          "GATE_CS_2014_3",
           "GATE_CS_2014_2"
         ],
         "subject_distribution": {
@@ -15879,8 +17101,8 @@ export const GATE_DATA = {
         "total_questions": 186,
         "num_papers": 3,
         "papers": [
-          "GATE_CS_2015_3",
           "GATE_CS_2015_2",
+          "GATE_CS_2015_3",
           "GATE_CS_2015_1"
         ],
         "subject_distribution": {
@@ -16030,8 +17252,8 @@ export const GATE_DATA = {
         "total_questions": 130,
         "num_papers": 2,
         "papers": [
-          "GATE_CS_2021_2",
-          "GATE_CS_2021_1"
+          "GATE_CS_2021_1",
+          "GATE_CS_2021_2"
         ],
         "subject_distribution": {
           "General Aptitude": 20,
@@ -16109,8 +17331,8 @@ export const GATE_DATA = {
         "total_questions": 130,
         "num_papers": 2,
         "papers": [
-          "GATE_CS_2024_2",
-          "GATE_CS_2024_1"
+          "GATE_CS_2024_1",
+          "GATE_CS_2024_2"
         ],
         "subject_distribution": {
           "General Aptitude": 20,
@@ -16157,29 +17379,56 @@ export const GATE_DATA = {
           "MSQ": 30,
           "NAT": 37
         }
+      },
+      "2026": {
+        "total_questions": 130,
+        "num_papers": 2,
+        "papers": [
+          "GATE_CS_2026_Afternoon",
+          "GATE_CS_2026_Forenoon"
+        ],
+        "subject_distribution": {
+          "General Aptitude": 20,
+          "Engineering Mathematics": 16,
+          "Data Structures": 9,
+          "Theory of Computation": 8,
+          "Databases": 8,
+          "Digital Logic": 8,
+          "Programming": 7,
+          "Computer Organization": 12,
+          "Computer Networks": 11,
+          "Operating Systems": 11,
+          "Algorithms": 13,
+          "Compiler Design": 7
+        },
+        "question_types": {
+          "MCQ": 64,
+          "MSQ": 34,
+          "NAT": 32
+        }
       }
     },
     "by_subject": {
       "Compiler Design": {
-        "total_questions": 78,
-        "expected_2026": 3,
-        "num_topics": 25,
+        "total_questions": 85,
+        "expected_2027": 3,
+        "num_topics": 26,
         "hot_topics": [
           {
             "topic": "Parsing",
-            "count": 25
+            "count": 27
           },
           {
             "topic": "Syntax Directed Translation",
-            "count": 7
+            "count": 8
+          },
+          {
+            "topic": "Lexical Analysis",
+            "count": 6
           },
           {
             "topic": "Code Optimization",
             "count": 5
-          },
-          {
-            "topic": "Lexical Analysis",
-            "count": 4
           },
           {
             "topic": "Compiler Phases",
@@ -16221,20 +17470,29 @@ export const GATE_DATA = {
           "2022": 3,
           "2023": 4,
           "2024": 9,
-          "2025": 8
+          "2025": 8,
+          "2026": 7
         }
       },
       "Computer Networks": {
-        "total_questions": 125,
-        "expected_2026": 5,
-        "num_topics": 54,
+        "total_questions": 136,
+        "expected_2027": 5,
+        "num_topics": 56,
         "hot_topics": [
+          {
+            "topic": "Data Link Layer",
+            "count": 10
+          },
           {
             "topic": "IPv4 Addressing",
             "count": 8
           },
           {
             "topic": "Transport Layer",
+            "count": 8
+          },
+          {
+            "topic": "Network Layer",
             "count": 8
           },
           {
@@ -16246,16 +17504,12 @@ export const GATE_DATA = {
             "count": 7
           },
           {
-            "topic": "Network Layer",
-            "count": 7
-          },
-          {
-            "topic": "Data Link Layer",
-            "count": 7
-          },
-          {
             "topic": "Network Security",
             "count": 6
+          },
+          {
+            "topic": "Application Layer Protocols",
+            "count": 5
           },
           {
             "topic": "Routing Protocols",
@@ -16263,10 +17517,6 @@ export const GATE_DATA = {
           },
           {
             "topic": "IPv4 Header",
-            "count": 4
-          },
-          {
-            "topic": "Routing",
             "count": 4
           }
         ],
@@ -16285,29 +17535,30 @@ export const GATE_DATA = {
           "2022": 6,
           "2023": 5,
           "2024": 12,
-          "2025": 10
+          "2025": 10,
+          "2026": 11
         }
       },
       "Engineering Mathematics": {
-        "total_questions": 237,
-        "expected_2026": 9,
+        "total_questions": 253,
+        "expected_2027": 9,
         "num_topics": 32,
         "hot_topics": [
           {
             "topic": "Linear Algebra",
-            "count": 42
+            "count": 46
           },
           {
             "topic": "Probability",
-            "count": 32
-          },
-          {
-            "topic": "Graphs",
-            "count": 32
+            "count": 36
           },
           {
             "topic": "Calculus",
-            "count": 31
+            "count": 35
+          },
+          {
+            "topic": "Graphs",
+            "count": 33
           },
           {
             "topic": "Mathematical Logic",
@@ -16323,14 +17574,14 @@ export const GATE_DATA = {
           },
           {
             "topic": "Combinatorics",
-            "count": 10
+            "count": 11
+          },
+          {
+            "topic": "Relations",
+            "count": 6
           },
           {
             "topic": "Numerical Methods",
-            "count": 5
-          },
-          {
-            "topic": "Discrete Mathematics",
             "count": 5
           }
         ],
@@ -16349,29 +17600,30 @@ export const GATE_DATA = {
           "2022": 9,
           "2023": 11,
           "2024": 18,
-          "2025": 17
+          "2025": 17,
+          "2026": 16
         }
       },
       "Operating Systems": {
-        "total_questions": 118,
-        "expected_2026": 6,
-        "num_topics": 24,
+        "total_questions": 129,
+        "expected_2027": 6,
+        "num_topics": 25,
         "hot_topics": [
           {
             "topic": "Memory Management",
-            "count": 23
+            "count": 25
           },
           {
             "topic": "CPU Scheduling",
-            "count": 18
-          },
-          {
-            "topic": "Process Synchronization",
-            "count": 13
+            "count": 20
           },
           {
             "topic": "Deadlock",
-            "count": 12
+            "count": 14
+          },
+          {
+            "topic": "Process Synchronization",
+            "count": 14
           },
           {
             "topic": "Paging",
@@ -16379,11 +17631,11 @@ export const GATE_DATA = {
           },
           {
             "topic": "File Systems",
-            "count": 7
+            "count": 8
           },
           {
             "topic": "Disk Scheduling",
-            "count": 6
+            "count": 7
           },
           {
             "topic": "Process Management",
@@ -16413,21 +17665,22 @@ export const GATE_DATA = {
           "2022": 6,
           "2023": 6,
           "2024": 11,
-          "2025": 9
+          "2025": 9,
+          "2026": 11
         }
       },
       "Theory of Computation": {
-        "total_questions": 110,
-        "expected_2026": 5,
-        "num_topics": 25,
+        "total_questions": 118,
+        "expected_2027": 5,
+        "num_topics": 26,
         "hot_topics": [
           {
             "topic": "Finite Automata",
-            "count": 22
+            "count": 24
           },
           {
             "topic": "Regular Languages",
-            "count": 14
+            "count": 15
           },
           {
             "topic": "Decidability",
@@ -16439,14 +17692,14 @@ export const GATE_DATA = {
           },
           {
             "topic": "Context-Free Languages",
-            "count": 8
-          },
-          {
-            "topic": "Undecidability",
-            "count": 7
+            "count": 10
           },
           {
             "topic": "Context-Free Grammars",
+            "count": 9
+          },
+          {
+            "topic": "Undecidability",
             "count": 7
           },
           {
@@ -16477,21 +17730,22 @@ export const GATE_DATA = {
           "2022": 5,
           "2023": 5,
           "2024": 8,
-          "2025": 11
+          "2025": 11,
+          "2026": 8
         }
       },
       "Computer Organization": {
-        "total_questions": 110,
-        "expected_2026": 6,
+        "total_questions": 122,
+        "expected_2027": 6,
         "num_topics": 33,
         "hot_topics": [
           {
             "topic": "Cache Memory",
-            "count": 35
+            "count": 38
           },
           {
             "topic": "Pipelining",
-            "count": 24
+            "count": 27
           },
           {
             "topic": "Instruction Formats",
@@ -16499,6 +17753,18 @@ export const GATE_DATA = {
           },
           {
             "topic": "Floating Point Representation",
+            "count": 5
+          },
+          {
+            "topic": "Instruction Set Architecture",
+            "count": 5
+          },
+          {
+            "topic": "Interrupts",
+            "count": 3
+          },
+          {
+            "topic": "Addressing Modes",
             "count": 3
           },
           {
@@ -16506,20 +17772,8 @@ export const GATE_DATA = {
             "count": 3
           },
           {
-            "topic": "Instruction Set Architecture",
-            "count": 3
-          },
-          {
             "topic": "Performance",
             "count": 3
-          },
-          {
-            "topic": "Interrupts",
-            "count": 2
-          },
-          {
-            "topic": "Addressing Modes",
-            "count": 2
           },
           {
             "topic": "DMA",
@@ -16541,13 +17795,14 @@ export const GATE_DATA = {
           "2022": 6,
           "2023": 5,
           "2024": 12,
-          "2025": 12
+          "2025": 12,
+          "2026": 12
         }
       },
       "Databases": {
-        "total_questions": 109,
-        "expected_2026": 4,
-        "num_topics": 22,
+        "total_questions": 117,
+        "expected_2027": 4,
+        "num_topics": 23,
         "hot_topics": [
           {
             "topic": "SQL",
@@ -16555,15 +17810,15 @@ export const GATE_DATA = {
           },
           {
             "topic": "Normalization",
-            "count": 19
+            "count": 21
           },
           {
             "topic": "Relational Algebra",
-            "count": 13
+            "count": 14
           },
           {
             "topic": "Indexing",
-            "count": 9
+            "count": 10
           },
           {
             "topic": "Transaction Management",
@@ -16579,14 +17834,14 @@ export const GATE_DATA = {
           },
           {
             "topic": "Concurrency Control",
-            "count": 4
+            "count": 5
           },
           {
-            "topic": "B+ Trees",
+            "topic": "Keys and Functional Dependencies",
             "count": 3
           },
           {
-            "topic": "ER Model",
+            "topic": "B+ Trees",
             "count": 3
           }
         ],
@@ -16605,17 +17860,18 @@ export const GATE_DATA = {
           "2022": 5,
           "2023": 3,
           "2024": 12,
-          "2025": 10
+          "2025": 10,
+          "2026": 8
         }
       },
       "Digital Logic": {
-        "total_questions": 80,
-        "expected_2026": 3,
+        "total_questions": 88,
+        "expected_2027": 3,
         "num_topics": 20,
         "hot_topics": [
           {
             "topic": "Boolean Algebra",
-            "count": 19
+            "count": 23
           },
           {
             "topic": "Combinational Circuits",
@@ -16623,11 +17879,11 @@ export const GATE_DATA = {
           },
           {
             "topic": "Sequential Circuits",
-            "count": 7
+            "count": 8
           },
           {
             "topic": "Number Representation",
-            "count": 6
+            "count": 8
           },
           {
             "topic": "Number Systems",
@@ -16638,15 +17894,15 @@ export const GATE_DATA = {
             "count": 5
           },
           {
+            "topic": "Multiplexers",
+            "count": 4
+          },
+          {
             "topic": "Minimization",
             "count": 3
           },
           {
             "topic": "Data Representation",
-            "count": 3
-          },
-          {
-            "topic": "Multiplexers",
             "count": 3
           },
           {
@@ -16669,21 +17925,22 @@ export const GATE_DATA = {
           "2022": 2,
           "2023": 5,
           "2024": 7,
-          "2025": 8
+          "2025": 8,
+          "2026": 8
         }
       },
       "Programming": {
-        "total_questions": 107,
-        "expected_2026": 2,
-        "num_topics": 17,
+        "total_questions": 114,
+        "expected_2027": 2,
+        "num_topics": 19,
         "hot_topics": [
           {
             "topic": "C Programming",
-            "count": 52
+            "count": 54
           },
           {
             "topic": "Recursion",
-            "count": 12
+            "count": 14
           },
           {
             "topic": "Trees",
@@ -16694,11 +17951,11 @@ export const GATE_DATA = {
             "count": 7
           },
           {
-            "topic": "Arrays",
-            "count": 4
+            "topic": "Linked Lists",
+            "count": 5
           },
           {
-            "topic": "Linked Lists",
+            "topic": "Arrays",
             "count": 4
           },
           {
@@ -16732,33 +17989,34 @@ export const GATE_DATA = {
           "2022": 3,
           "2023": 3,
           "2024": 12,
-          "2025": 8
+          "2025": 8,
+          "2026": 7
         }
       },
       "Data Structures": {
-        "total_questions": 48,
-        "expected_2026": 7,
-        "num_topics": 13,
+        "total_questions": 57,
+        "expected_2027": 7,
+        "num_topics": 14,
         "hot_topics": [
           {
             "topic": "Heaps",
-            "count": 9
-          },
-          {
-            "topic": "Binary Search Trees",
-            "count": 8
+            "count": 10
           },
           {
             "topic": "Trees",
+            "count": 10
+          },
+          {
+            "topic": "Binary Search Trees",
+            "count": 10
+          },
+          {
+            "topic": "Hashing",
             "count": 7
           },
           {
             "topic": "C Programming",
             "count": 6
-          },
-          {
-            "topic": "Hashing",
-            "count": 5
           },
           {
             "topic": "Linked Lists",
@@ -16793,41 +18051,42 @@ export const GATE_DATA = {
           "2021": 5,
           "2022": 4,
           "2023": 5,
-          "2025": 8
+          "2025": 8,
+          "2026": 9
         }
       },
       "Algorithms": {
-        "total_questions": 118,
-        "expected_2026": 4,
-        "num_topics": 30,
+        "total_questions": 131,
+        "expected_2027": 4,
+        "num_topics": 33,
         "hot_topics": [
           {
             "topic": "Minimum Spanning Tree",
-            "count": 22
+            "count": 23
           },
           {
             "topic": "Sorting",
-            "count": 13
+            "count": 14
           },
           {
             "topic": "Asymptotic Analysis",
-            "count": 12
+            "count": 13
           },
           {
             "topic": "Graphs",
             "count": 12
           },
           {
+            "topic": "Recurrence Relations",
+            "count": 9
+          },
+          {
             "topic": "Graph Traversal",
-            "count": 8
+            "count": 9
           },
           {
             "topic": "Dynamic Programming",
-            "count": 7
-          },
-          {
-            "topic": "Recurrence Relations",
-            "count": 7
+            "count": 8
           },
           {
             "topic": "Complexity Analysis",
@@ -16857,41 +18116,46 @@ export const GATE_DATA = {
           "2022": 6,
           "2023": 3,
           "2024": 9,
-          "2025": 9
+          "2025": 9,
+          "2026": 13
         }
       },
       "General Aptitude": {
-        "total_questions": 235,
-        "expected_2026": 11,
-        "num_topics": 42,
+        "total_questions": 255,
+        "expected_2027": 11,
+        "num_topics": 44,
         "hot_topics": [
           {
             "topic": "Quantitative Aptitude",
-            "count": 66
+            "count": 69
           },
           {
             "topic": "Verbal Ability",
-            "count": 64
+            "count": 67
           },
           {
             "topic": "Logical Reasoning",
+            "count": 15
+          },
+          {
+            "topic": "Probability",
             "count": 11
+          },
+          {
+            "topic": "Data Interpretation",
+            "count": 9
           },
           {
             "topic": "Geometry",
             "count": 9
           },
           {
-            "topic": "Data Interpretation",
-            "count": 8
-          },
-          {
-            "topic": "Probability",
-            "count": 8
-          },
-          {
             "topic": "Spatial Aptitude",
             "count": 7
+          },
+          {
+            "topic": "Reading Comprehension",
+            "count": 6
           },
           {
             "topic": "English Grammar",
@@ -16900,10 +18164,6 @@ export const GATE_DATA = {
           {
             "topic": "Critical Reasoning",
             "count": 6
-          },
-          {
-            "topic": "Reading Comprehension",
-            "count": 5
           }
         ],
         "year_distribution": {
@@ -16921,7 +18181,8 @@ export const GATE_DATA = {
           "2022": 10,
           "2023": 10,
           "2024": 20,
-          "2025": 20
+          "2025": 20,
+          "2026": 20
         }
       }
     }
@@ -16945,880 +18206,904 @@ export const GATE_DATA = {
       "General Aptitude": 11
     },
     "topic_weights": {
-      "Operating Systems": [
+      "Algorithms": [
         {
-          "topic": "Processes and Threads",
-          "weight": 0.967,
-          "confidence": 63.9,
+          "topic": "Minimum Spanning Tree",
+          "weight": 0.6,
+          "confidence": 81.1,
+          "available_questions": 23
+        },
+        {
+          "topic": "Asymptotic Analysis",
+          "weight": 0.432,
+          "confidence": 83.8,
+          "available_questions": 13
+        },
+        {
+          "topic": "Graphs",
+          "weight": 0.415,
+          "confidence": 72.2,
+          "available_questions": 12
+        },
+        {
+          "topic": "Recurrence Relations",
+          "weight": 0.401,
+          "confidence": 71.9,
+          "available_questions": 9
+        },
+        {
+          "topic": "Sorting",
+          "weight": 0.37,
+          "confidence": 75.3,
+          "available_questions": 14
+        },
+        {
+          "topic": "Dynamic Programming",
+          "weight": 0.319,
+          "confidence": 71.1,
+          "available_questions": 8
+        },
+        {
+          "topic": "Greedy Algorithms",
+          "weight": 0.313,
+          "confidence": 59.3,
           "available_questions": 2
         },
         {
+          "topic": "Graph Traversal",
+          "weight": 0.306,
+          "confidence": 67.7,
+          "available_questions": 9
+        },
+        {
+          "topic": "Searching",
+          "weight": 0.305,
+          "confidence": 70.7,
+          "available_questions": 5
+        },
+        {
+          "topic": "Complexity Analysis",
+          "weight": 0.278,
+          "confidence": 62.3,
+          "available_questions": 6
+        },
+        {
+          "topic": "Heaps",
+          "weight": 0.259,
+          "confidence": 57.2,
+          "available_questions": 3
+        }
+      ],
+      "Operating Systems": [
+        {
           "topic": "Disk Management",
-          "weight": 0.791,
-          "confidence": 55.8,
+          "weight": 0.729,
+          "confidence": 53.2,
           "available_questions": 3
         },
         {
           "topic": "System Calls",
-          "weight": 0.787,
-          "confidence": 55.8,
+          "weight": 0.701,
+          "confidence": 53.1,
           "available_questions": 3
         },
         {
-          "topic": "Memory Management",
-          "weight": 0.519,
-          "confidence": 73.9,
-          "available_questions": 23
+          "topic": "Processes and Threads",
+          "weight": 0.678,
+          "confidence": 60.9,
+          "available_questions": 2
         },
         {
-          "topic": "CPU Scheduling",
-          "weight": 0.373,
-          "confidence": 82.1,
-          "available_questions": 18
+          "topic": "Virtual Memory",
+          "weight": 0.612,
+          "confidence": 65.1,
+          "available_questions": 2
+        },
+        {
+          "topic": "Memory Management",
+          "weight": 0.568,
+          "confidence": 76.1,
+          "available_questions": 25
         },
         {
           "topic": "Paging",
-          "weight": 0.368,
-          "confidence": 69.5,
+          "weight": 0.372,
+          "confidence": 64.7,
           "available_questions": 9
         },
         {
           "topic": "Deadlock",
-          "weight": 0.36,
-          "confidence": 78.5,
-          "available_questions": 12
+          "weight": 0.353,
+          "confidence": 79.4,
+          "available_questions": 14
+        },
+        {
+          "topic": "CPU Scheduling",
+          "weight": 0.351,
+          "confidence": 82.8,
+          "available_questions": 20
         },
         {
           "topic": "Process Synchronization",
           "weight": 0.335,
-          "confidence": 75.7,
-          "available_questions": 13
-        },
-        {
-          "topic": "Threads",
-          "weight": 0.334,
-          "confidence": 58.9,
-          "available_questions": 3
+          "confidence": 81.6,
+          "available_questions": 14
         },
         {
           "topic": "Process Management",
-          "weight": 0.334,
-          "confidence": 65.2,
+          "weight": 0.308,
+          "confidence": 62.6,
           "available_questions": 5
         },
         {
-          "topic": "Disk Scheduling",
-          "weight": 0.305,
+          "topic": "Threads",
+          "weight": 0.267,
           "confidence": 59.5,
-          "available_questions": 6
+          "available_questions": 3
         },
         {
           "topic": "File Systems",
-          "weight": 0.274,
-          "confidence": 63.7,
+          "weight": 0.26,
+          "confidence": 74.3,
+          "available_questions": 8
+        },
+        {
+          "topic": "Disk Scheduling",
+          "weight": 0.252,
+          "confidence": 70.1,
           "available_questions": 7
         },
         {
           "topic": "Semaphores",
-          "weight": 0.253,
-          "confidence": 55.1,
+          "weight": 0.214,
+          "confidence": 54.3,
           "available_questions": 3
         }
       ],
       "Compiler Design": [
         {
           "topic": "Intermediate Code Generation",
-          "weight": 0.439,
-          "confidence": 69.9,
-          "available_questions": 3
-        },
-        {
-          "topic": "Liveness Analysis",
-          "weight": 0.357,
-          "confidence": 63.3,
-          "available_questions": 2
-        },
-        {
-          "topic": "Optimization",
-          "weight": 0.343,
-          "confidence": 61.3,
-          "available_questions": 2
-        },
-        {
-          "topic": "First and Follow",
-          "weight": 0.336,
-          "confidence": 66.8,
+          "weight": 0.47,
+          "confidence": 64.7,
           "available_questions": 3
         },
         {
           "topic": "Parsing",
-          "weight": 0.291,
-          "confidence": 82.1,
-          "available_questions": 25
+          "weight": 0.357,
+          "confidence": 82.2,
+          "available_questions": 27
         },
         {
-          "topic": "Syntax Directed Translation",
-          "weight": 0.2,
-          "confidence": 75.8,
-          "available_questions": 7
+          "topic": "First and Follow",
+          "weight": 0.285,
+          "confidence": 62.2,
+          "available_questions": 3
         },
         {
           "topic": "Three-Address Code",
-          "weight": 0.186,
-          "confidence": 66.0,
+          "weight": 0.251,
+          "confidence": 61.7,
           "available_questions": 3
         },
         {
-          "topic": "Code Optimization",
-          "weight": 0.18,
-          "confidence": 58.8,
-          "available_questions": 5
-        },
-        {
-          "topic": "Phases of Compiler",
-          "weight": 0.175,
-          "confidence": 56.6,
-          "available_questions": 3
-        },
-        {
-          "topic": "Code Generation",
-          "weight": 0.171,
-          "confidence": 56.2,
+          "topic": "Liveness Analysis",
+          "weight": 0.245,
+          "confidence": 61.0,
           "available_questions": 2
         },
         {
+          "topic": "Optimization",
+          "weight": 0.233,
+          "confidence": 56.8,
+          "available_questions": 2
+        },
+        {
+          "topic": "Code Optimization",
+          "weight": 0.211,
+          "confidence": 58.1,
+          "available_questions": 5
+        },
+        {
+          "topic": "Syntax Directed Translation",
+          "weight": 0.202,
+          "confidence": 78.1,
+          "available_questions": 8
+        },
+        {
+          "topic": "Code Generation",
+          "weight": 0.201,
+          "confidence": 56.8,
+          "available_questions": 2
+        },
+        {
+          "topic": "Phases of Compiler",
+          "weight": 0.188,
+          "confidence": 56.2,
+          "available_questions": 3
+        },
+        {
           "topic": "Lexical Analysis",
-          "weight": 0.167,
-          "confidence": 58.2,
-          "available_questions": 4
+          "weight": 0.184,
+          "confidence": 67.6,
+          "available_questions": 6
         },
         {
           "topic": "Compiler Phases",
-          "weight": 0.155,
-          "confidence": 56.9,
+          "weight": 0.173,
+          "confidence": 54.0,
           "available_questions": 4
         }
       ],
       "Theory of Computation": [
         {
-          "topic": "Finite Automata",
-          "weight": 0.544,
-          "confidence": 80.9,
-          "available_questions": 22
-        },
-        {
-          "topic": "Regular Languages",
-          "weight": 0.486,
-          "confidence": 78.5,
-          "available_questions": 14
-        },
-        {
           "topic": "Decidability",
-          "weight": 0.464,
-          "confidence": 65.0,
+          "weight": 0.537,
+          "confidence": 63.9,
           "available_questions": 10
         },
         {
-          "topic": "Context-Free Grammars",
-          "weight": 0.412,
-          "confidence": 70.0,
-          "available_questions": 7
+          "topic": "Finite Automata",
+          "weight": 0.517,
+          "confidence": 81.8,
+          "available_questions": 24
         },
         {
           "topic": "Regular Expressions",
-          "weight": 0.395,
-          "confidence": 63.4,
+          "weight": 0.453,
+          "confidence": 60.5,
           "available_questions": 10
         },
         {
           "topic": "Undecidability",
-          "weight": 0.393,
-          "confidence": 71.9,
+          "weight": 0.4,
+          "confidence": 70.8,
           "available_questions": 7
         },
         {
           "topic": "Grammars",
-          "weight": 0.36,
-          "confidence": 57.3,
+          "weight": 0.393,
+          "confidence": 55.1,
           "available_questions": 2
         },
         {
-          "topic": "Pushdown Automata",
-          "weight": 0.344,
-          "confidence": 64.1,
-          "available_questions": 3
+          "topic": "Context-Free Languages",
+          "weight": 0.389,
+          "confidence": 74.1,
+          "available_questions": 10
+        },
+        {
+          "topic": "Context-Free Grammars",
+          "weight": 0.385,
+          "confidence": 73.1,
+          "available_questions": 9
+        },
+        {
+          "topic": "Regular Languages",
+          "weight": 0.372,
+          "confidence": 79.2,
+          "available_questions": 15
         },
         {
           "topic": "Formal Languages",
-          "weight": 0.336,
-          "confidence": 51.9,
+          "weight": 0.372,
+          "confidence": 51.7,
           "available_questions": 2
         },
         {
           "topic": "Context Free Languages",
-          "weight": 0.333,
-          "confidence": 54.0,
+          "weight": 0.301,
+          "confidence": 52.6,
           "available_questions": 5
+        },
+        {
+          "topic": "Pushdown Automata",
+          "weight": 0.298,
+          "confidence": 62.9,
+          "available_questions": 3
         },
         {
           "topic": "Context-free Languages",
-          "weight": 0.33,
-          "confidence": 51.2,
+          "weight": 0.297,
+          "confidence": 50.4,
           "available_questions": 3
-        },
-        {
-          "topic": "Context-Free Languages",
-          "weight": 0.307,
-          "confidence": 72.2,
-          "available_questions": 8
         },
         {
           "topic": "Closure Properties",
-          "weight": 0.296,
-          "confidence": 52.1,
-          "available_questions": 4
-        }
-      ],
-      "Computer Organization": [
-        {
-          "topic": "Performance",
-          "weight": 0.879,
-          "confidence": 69.8,
-          "available_questions": 3
-        },
-        {
-          "topic": "Input/Output",
-          "weight": 0.741,
-          "confidence": 60.2,
-          "available_questions": 2
-        },
-        {
-          "topic": "DMA",
-          "weight": 0.66,
-          "confidence": 64.7,
-          "available_questions": 2
-        },
-        {
-          "topic": "Floating Point",
-          "weight": 0.656,
-          "confidence": 69.4,
-          "available_questions": 2
-        },
-        {
-          "topic": "Interrupts",
-          "weight": 0.652,
-          "confidence": 65.2,
-          "available_questions": 2
-        },
-        {
-          "topic": "Cache Memory",
-          "weight": 0.504,
-          "confidence": 80.7,
-          "available_questions": 35
-        },
-        {
-          "topic": "Instruction Formats",
-          "weight": 0.363,
-          "confidence": 58.3,
-          "available_questions": 8
-        },
-        {
-          "topic": "Pipelining",
-          "weight": 0.34,
-          "confidence": 79.1,
-          "available_questions": 24
-        },
-        {
-          "topic": "Floating Point Representation",
-          "weight": 0.321,
-          "confidence": 55.4,
-          "available_questions": 3
-        },
-        {
-          "topic": "Data Representation",
-          "weight": 0.306,
-          "confidence": 60.6,
-          "available_questions": 3
-        },
-        {
-          "topic": "Instruction Set Architecture",
-          "weight": 0.293,
-          "confidence": 65.0,
-          "available_questions": 3
-        },
-        {
-          "topic": "Addressing Modes",
           "weight": 0.286,
-          "confidence": 56.1,
-          "available_questions": 2
-        }
-      ],
-      "Algorithms": [
-        {
-          "topic": "Minimum Spanning Tree",
-          "weight": 0.58,
-          "confidence": 80.6,
-          "available_questions": 22
-        },
-        {
-          "topic": "Asymptotic Analysis",
-          "weight": 0.42,
-          "confidence": 78.1,
-          "available_questions": 12
-        },
-        {
-          "topic": "Graphs",
-          "weight": 0.366,
-          "confidence": 69.8,
-          "available_questions": 12
-        },
-        {
-          "topic": "Greedy Algorithms",
-          "weight": 0.341,
-          "confidence": 58.9,
-          "available_questions": 2
-        },
-        {
-          "topic": "Searching",
-          "weight": 0.337,
-          "confidence": 75.2,
-          "available_questions": 5
-        },
-        {
-          "topic": "Graph Traversal",
-          "weight": 0.336,
-          "confidence": 66.0,
-          "available_questions": 8
-        },
-        {
-          "topic": "Complexity Analysis",
-          "weight": 0.336,
-          "confidence": 64.5,
-          "available_questions": 6
-        },
-        {
-          "topic": "Recurrence Relations",
-          "weight": 0.334,
-          "confidence": 70.1,
-          "available_questions": 7
-        },
-        {
-          "topic": "Sorting",
-          "weight": 0.326,
-          "confidence": 70.4,
-          "available_questions": 13
-        },
-        {
-          "topic": "Dynamic Programming",
-          "weight": 0.326,
-          "confidence": 59.9,
-          "available_questions": 7
-        },
-        {
-          "topic": "Heaps",
-          "weight": 0.297,
-          "confidence": 60.4,
-          "available_questions": 3
+          "confidence": 50.6,
+          "available_questions": 4
         }
       ],
       "Databases": [
         {
-          "topic": "Normalization",
-          "weight": 0.504,
-          "confidence": 79.7,
-          "available_questions": 19
+          "topic": "Keys and Functional Dependencies",
+          "weight": 0.418,
+          "confidence": 53.5,
+          "available_questions": 3
         },
         {
-          "topic": "Relational Algebra",
-          "weight": 0.366,
-          "confidence": 71.2,
-          "available_questions": 13
+          "topic": "Normalization",
+          "weight": 0.384,
+          "confidence": 81.7,
+          "available_questions": 21
         },
         {
           "topic": "SQL",
-          "weight": 0.363,
-          "confidence": 80.2,
+          "weight": 0.334,
+          "confidence": 76.7,
           "available_questions": 23
-        },
-        {
-          "topic": "Concurrency Control",
-          "weight": 0.316,
-          "confidence": 77.0,
-          "available_questions": 4
-        },
-        {
-          "topic": "ER Model",
-          "weight": 0.305,
-          "confidence": 68.6,
-          "available_questions": 3
         },
         {
           "topic": "Transaction Management",
           "weight": 0.293,
-          "confidence": 51.5,
+          "confidence": 47.5,
           "available_questions": 8
         },
         {
           "topic": "Relational Calculus",
-          "weight": 0.289,
-          "confidence": 68.8,
+          "weight": 0.292,
+          "confidence": 65.3,
           "available_questions": 2
         },
         {
           "topic": "File Organization",
-          "weight": 0.289,
-          "confidence": 64.3,
+          "weight": 0.29,
+          "confidence": 62.0,
           "available_questions": 2
         },
         {
-          "topic": "Functional Dependencies",
-          "weight": 0.277,
-          "confidence": 60.0,
-          "available_questions": 2
+          "topic": "ER Model",
+          "weight": 0.278,
+          "confidence": 65.4,
+          "available_questions": 3
         },
         {
-          "topic": "Relational Model",
-          "weight": 0.276,
-          "confidence": 61.2,
+          "topic": "Concurrency Control",
+          "weight": 0.274,
+          "confidence": 79.6,
           "available_questions": 5
         },
         {
           "topic": "Transactions",
-          "weight": 0.255,
-          "confidence": 70.2,
+          "weight": 0.269,
+          "confidence": 65.9,
           "available_questions": 7
         },
         {
+          "topic": "Relational Algebra",
+          "weight": 0.262,
+          "confidence": 77.1,
+          "available_questions": 14
+        },
+        {
+          "topic": "Functional Dependencies",
+          "weight": 0.24,
+          "confidence": 59.4,
+          "available_questions": 2
+        },
+        {
           "topic": "Indexing",
-          "weight": 0.25,
-          "confidence": 76.2,
-          "available_questions": 9
+          "weight": 0.236,
+          "confidence": 77.9,
+          "available_questions": 10
+        },
+        {
+          "topic": "Relational Model",
+          "weight": 0.221,
+          "confidence": 59.1,
+          "available_questions": 5
         },
         {
           "topic": "B+ Trees",
-          "weight": 0.218,
-          "confidence": 64.2,
+          "weight": 0.209,
+          "confidence": 60.6,
           "available_questions": 3
         }
       ],
       "Data Structures": [
         {
           "topic": "Queues",
-          "weight": 1.532,
-          "confidence": 56.0,
+          "weight": 1.27,
+          "confidence": 54.6,
           "available_questions": 2
         },
         {
           "topic": "Binary Search Trees",
-          "weight": 0.967,
-          "confidence": 78.3,
-          "available_questions": 8
+          "weight": 1.129,
+          "confidence": 79.5,
+          "available_questions": 10
         },
         {
           "topic": "Trees",
-          "weight": 0.86,
-          "confidence": 76.7,
-          "available_questions": 7
+          "weight": 0.98,
+          "confidence": 78.3,
+          "available_questions": 10
         },
         {
           "topic": "Heaps",
-          "weight": 0.835,
-          "confidence": 79.5,
-          "available_questions": 9
+          "weight": 0.892,
+          "confidence": 80.6,
+          "available_questions": 10
         },
         {
           "topic": "Stacks",
-          "weight": 0.751,
-          "confidence": 70.7,
+          "weight": 0.724,
+          "confidence": 66.9,
           "available_questions": 1
         },
         {
+          "topic": "Hashing",
+          "weight": 0.682,
+          "confidence": 76.4,
+          "available_questions": 7
+        },
+        {
           "topic": "Stacks and Queues",
-          "weight": 0.708,
-          "confidence": 58.9,
+          "weight": 0.671,
+          "confidence": 57.4,
           "available_questions": 2
         },
         {
           "topic": "Linked Lists",
-          "weight": 0.682,
-          "confidence": 76.6,
+          "weight": 0.65,
+          "confidence": 78.6,
           "available_questions": 4
-        },
-        {
-          "topic": "Hashing",
-          "weight": 0.664,
-          "confidence": 75.5,
-          "available_questions": 5
         }
       ],
       "Engineering Mathematics": [
         {
+          "topic": "Calculus",
+          "weight": 1.38,
+          "confidence": 76.8,
+          "available_questions": 35
+        },
+        {
           "topic": "Probability",
-          "weight": 1.303,
-          "confidence": 77.1,
-          "available_questions": 32
+          "weight": 1.315,
+          "confidence": 78.0,
+          "available_questions": 36
         },
         {
           "topic": "Linear Algebra",
-          "weight": 1.212,
-          "confidence": 79.3,
-          "available_questions": 42
+          "weight": 1.009,
+          "confidence": 80.3,
+          "available_questions": 46
+        },
+        {
+          "topic": "Propositional & First Order Logic",
+          "weight": 1.003,
+          "confidence": 59.1,
+          "available_questions": 2
         },
         {
           "topic": "Graphs",
-          "weight": 0.876,
-          "confidence": 75.3,
-          "available_questions": 32
-        },
-        {
-          "topic": "Calculus",
-          "weight": 0.859,
-          "confidence": 78.0,
-          "available_questions": 31
-        },
-        {
-          "topic": "Mathematical Logic",
-          "weight": 0.583,
-          "confidence": 64.2,
-          "available_questions": 19
-        },
-        {
-          "topic": "Group Theory",
-          "weight": 0.565,
-          "confidence": 75.2,
-          "available_questions": 11
+          "weight": 0.823,
+          "confidence": 80.4,
+          "available_questions": 33
         },
         {
           "topic": "Functions",
-          "weight": 0.515,
-          "confidence": 69.6,
+          "weight": 0.439,
+          "confidence": 66.0,
           "available_questions": 3
         },
         {
           "topic": "Combinatorics",
-          "weight": 0.476,
-          "confidence": 67.7,
-          "available_questions": 10
+          "weight": 0.4,
+          "confidence": 69.7,
+          "available_questions": 11
         },
         {
-          "topic": "Relations",
-          "weight": 0.465,
-          "confidence": 68.4,
-          "available_questions": 5
+          "topic": "Group Theory",
+          "weight": 0.367,
+          "confidence": 70.6,
+          "available_questions": 11
         },
         {
           "topic": "Predicate Logic",
-          "weight": 0.451,
-          "confidence": 69.3,
+          "weight": 0.365,
+          "confidence": 66.0,
           "available_questions": 2
         },
         {
+          "topic": "Mathematical Logic",
+          "weight": 0.362,
+          "confidence": 60.6,
+          "available_questions": 19
+        },
+        {
+          "topic": "Relations",
+          "weight": 0.347,
+          "confidence": 70.2,
+          "available_questions": 6
+        },
+        {
           "topic": "Discrete Mathematics",
-          "weight": 0.443,
-          "confidence": 64.4,
+          "weight": 0.341,
+          "confidence": 61.4,
           "available_questions": 5
         },
         {
           "topic": "Set Theory",
-          "weight": 0.435,
-          "confidence": 56.3,
+          "weight": 0.306,
+          "confidence": 54.1,
           "available_questions": 14
         },
         {
           "topic": "Propositional Logic",
-          "weight": 0.415,
-          "confidence": 56.7,
+          "weight": 0.297,
+          "confidence": 56.3,
           "available_questions": 4
         },
         {
           "topic": "Number Theory",
-          "weight": 0.4,
-          "confidence": 50.3,
+          "weight": 0.246,
+          "confidence": 50.4,
           "available_questions": 4
+        }
+      ],
+      "Computer Organization": [
+        {
+          "topic": "Performance",
+          "weight": 0.923,
+          "confidence": 64.9,
+          "available_questions": 3
+        },
+        {
+          "topic": "Interrupts",
+          "weight": 0.674,
+          "confidence": 66.8,
+          "available_questions": 3
+        },
+        {
+          "topic": "Cache Memory",
+          "weight": 0.662,
+          "confidence": 80.2,
+          "available_questions": 38
+        },
+        {
+          "topic": "Input/Output",
+          "weight": 0.625,
+          "confidence": 57.2,
+          "available_questions": 2
+        },
+        {
+          "topic": "Floating Point",
+          "weight": 0.582,
+          "confidence": 64.5,
+          "available_questions": 2
+        },
+        {
+          "topic": "Pipelining",
+          "weight": 0.56,
+          "confidence": 79.5,
+          "available_questions": 27
+        },
+        {
+          "topic": "DMA",
+          "weight": 0.558,
+          "confidence": 61.5,
+          "available_questions": 2
+        },
+        {
+          "topic": "Instruction Formats",
+          "weight": 0.333,
+          "confidence": 55.0,
+          "available_questions": 8
+        },
+        {
+          "topic": "Addressing Modes",
+          "weight": 0.288,
+          "confidence": 70.1,
+          "available_questions": 3
+        },
+        {
+          "topic": "Floating Point Representation",
+          "weight": 0.274,
+          "confidence": 61.8,
+          "available_questions": 5
+        },
+        {
+          "topic": "Instruction Set Architecture",
+          "weight": 0.268,
+          "confidence": 68.9,
+          "available_questions": 5
+        },
+        {
+          "topic": "Data Representation",
+          "weight": 0.253,
+          "confidence": 58.7,
+          "available_questions": 3
         }
       ],
       "Digital Logic": [
         {
+          "topic": "Boolean Algebra",
+          "weight": 0.38,
+          "confidence": 79.4,
+          "available_questions": 23
+        },
+        {
           "topic": "Karnaugh Maps",
-          "weight": 0.461,
-          "confidence": 64.9,
+          "weight": 0.321,
+          "confidence": 60.1,
           "available_questions": 2
         },
         {
-          "topic": "Boolean Algebra",
-          "weight": 0.33,
-          "confidence": 79.3,
-          "available_questions": 19
-        },
-        {
-          "topic": "Combinational Circuits",
-          "weight": 0.315,
-          "confidence": 77.5,
-          "available_questions": 13
-        },
-        {
           "topic": "Minimization",
-          "weight": 0.26,
-          "confidence": 66.5,
+          "weight": 0.317,
+          "confidence": 63.9,
           "available_questions": 3
         },
         {
-          "topic": "Number Systems",
-          "weight": 0.249,
-          "confidence": 66.9,
-          "available_questions": 6
+          "topic": "Combinational Circuits",
+          "weight": 0.303,
+          "confidence": 73.5,
+          "available_questions": 13
         },
         {
-          "topic": "Number Representation",
-          "weight": 0.245,
-          "confidence": 71.7,
+          "topic": "Number Systems",
+          "weight": 0.284,
+          "confidence": 63.7,
           "available_questions": 6
         },
         {
           "topic": "Multiplexers",
-          "weight": 0.238,
-          "confidence": 66.4,
-          "available_questions": 3
+          "weight": 0.264,
+          "confidence": 73.3,
+          "available_questions": 4
         },
         {
-          "topic": "Memory Management",
-          "weight": 0.238,
-          "confidence": 62.5,
-          "available_questions": 2
-        },
-        {
-          "topic": "Data Representation",
-          "weight": 0.232,
-          "confidence": 51.2,
-          "available_questions": 3
+          "topic": "Number Representation",
+          "weight": 0.246,
+          "confidence": 68.7,
+          "available_questions": 8
         },
         {
           "topic": "Sequential Circuits",
-          "weight": 0.217,
-          "confidence": 71.7,
-          "available_questions": 7
+          "weight": 0.238,
+          "confidence": 73.6,
+          "available_questions": 8
+        },
+        {
+          "topic": "Memory Management",
+          "weight": 0.237,
+          "confidence": 61.6,
+          "available_questions": 2
         },
         {
           "topic": "Counters",
-          "weight": 0.216,
-          "confidence": 68.0,
+          "weight": 0.213,
+          "confidence": 63.7,
           "available_questions": 5
+        },
+        {
+          "topic": "Data Representation",
+          "weight": 0.197,
+          "confidence": 51.0,
+          "available_questions": 3
         }
       ],
       "Programming": [
         {
           "topic": "C Programming",
-          "weight": 1.351,
-          "confidence": 76.9,
-          "available_questions": 52
+          "weight": 1.453,
+          "confidence": 74.3,
+          "available_questions": 54
         },
         {
           "topic": "Recursion",
-          "weight": 0.355,
-          "confidence": 75.5,
-          "available_questions": 12
+          "weight": 0.34,
+          "confidence": 76.2,
+          "available_questions": 14
         },
         {
           "topic": "Arrays",
-          "weight": 0.293,
-          "confidence": 61.5,
+          "weight": 0.207,
+          "confidence": 59.0,
           "available_questions": 4
         }
       ],
       "General Aptitude": [
         {
           "topic": "Quantitative Aptitude",
-          "weight": 2.41,
+          "weight": 2.837,
           "confidence": 66.4,
-          "available_questions": 66
+          "available_questions": 69
         },
         {
           "topic": "Verbal Ability",
-          "weight": 1.717,
+          "weight": 1.791,
           "confidence": 75.5,
-          "available_questions": 64
+          "available_questions": 67
         },
         {
           "topic": "Spatial Aptitude",
-          "weight": 1.463,
-          "confidence": 66.8,
+          "weight": 1.239,
+          "confidence": 62.2,
           "available_questions": 7
         },
         {
-          "topic": "Logical Reasoning",
-          "weight": 0.538,
-          "confidence": 71.3,
+          "topic": "Probability",
+          "weight": 0.546,
+          "confidence": 69.1,
           "available_questions": 11
         },
         {
-          "topic": "Geometry",
-          "weight": 0.512,
-          "confidence": 72.8,
-          "available_questions": 9
-        },
-        {
-          "topic": "English Grammar",
-          "weight": 0.485,
-          "confidence": 64.6,
-          "available_questions": 6
+          "topic": "Logical Reasoning",
+          "weight": 0.516,
+          "confidence": 72.6,
+          "available_questions": 15
         },
         {
           "topic": "English Vocabulary",
-          "weight": 0.474,
-          "confidence": 56.2,
+          "weight": 0.48,
+          "confidence": 54.4,
           "available_questions": 2
         },
         {
+          "topic": "Analytical Aptitude",
+          "weight": 0.469,
+          "confidence": 57.8,
+          "available_questions": 5
+        },
+        {
           "topic": "Critical Reasoning",
-          "weight": 0.468,
-          "confidence": 64.5,
+          "weight": 0.458,
+          "confidence": 60.4,
           "available_questions": 6
         },
         {
           "topic": "Reading Comprehension",
-          "weight": 0.448,
-          "confidence": 66.9,
-          "available_questions": 5
-        },
-        {
-          "topic": "Analytical Aptitude",
           "weight": 0.446,
-          "confidence": 62.0,
-          "available_questions": 5
+          "confidence": 69.2,
+          "available_questions": 6
         },
         {
           "topic": "Data Interpretation",
-          "weight": 0.444,
-          "confidence": 67.0,
-          "available_questions": 8
+          "weight": 0.416,
+          "confidence": 72.6,
+          "available_questions": 9
         },
         {
-          "topic": "Probability",
-          "weight": 0.424,
-          "confidence": 67.4,
-          "available_questions": 8
+          "topic": "English Grammar",
+          "weight": 0.389,
+          "confidence": 62.9,
+          "available_questions": 6
         },
         {
-          "topic": "Vocabulary",
-          "weight": 0.401,
-          "confidence": 54.4,
+          "topic": "Geometry",
+          "weight": 0.383,
+          "confidence": 68.5,
+          "available_questions": 9
+        },
+        {
+          "topic": "Set Theory",
+          "weight": 0.365,
+          "confidence": 51.4,
           "available_questions": 3
         },
         {
           "topic": "Arithmetic",
-          "weight": 0.399,
-          "confidence": 56.4,
+          "weight": 0.334,
+          "confidence": 55.9,
           "available_questions": 3
         },
         {
-          "topic": "Set Theory",
-          "weight": 0.372,
-          "confidence": 53.7,
+          "topic": "Vocabulary",
+          "weight": 0.33,
+          "confidence": 54.7,
           "available_questions": 3
         }
       ],
       "Computer Networks": [
         {
-          "topic": "Routing",
-          "weight": 0.543,
-          "confidence": 67.1,
-          "available_questions": 4
-        },
-        {
-          "topic": "TCP Handshake",
-          "weight": 0.523,
-          "confidence": 61.4,
+          "topic": "TCP/IP",
+          "weight": 0.348,
+          "confidence": 68.6,
           "available_questions": 2
         },
         {
-          "topic": "Transport Layer",
-          "weight": 0.301,
-          "confidence": 64.4,
+          "topic": "TCP Handshake",
+          "weight": 0.327,
+          "confidence": 56.8,
+          "available_questions": 2
+        },
+        {
+          "topic": "Network Layer",
+          "weight": 0.316,
+          "confidence": 71.7,
+          "available_questions": 8
+        },
+        {
+          "topic": "Routing",
+          "weight": 0.306,
+          "confidence": 62.5,
+          "available_questions": 4
+        },
+        {
+          "topic": "Packet Switching",
+          "weight": 0.303,
+          "confidence": 59.0,
+          "available_questions": 3
+        },
+        {
+          "topic": "IPv4 Header",
+          "weight": 0.293,
+          "confidence": 53.2,
+          "available_questions": 4
+        },
+        {
+          "topic": "Data Link Layer",
+          "weight": 0.283,
+          "confidence": 70.9,
+          "available_questions": 10
+        },
+        {
+          "topic": "TCP",
+          "weight": 0.281,
+          "confidence": 65.0,
+          "available_questions": 7
+        },
+        {
+          "topic": "Application Layer",
+          "weight": 0.278,
+          "confidence": 66.4,
           "available_questions": 8
         },
         {
           "topic": "Network Security",
-          "weight": 0.297,
-          "confidence": 60.6,
+          "weight": 0.278,
+          "confidence": 60.7,
           "available_questions": 6
         },
         {
-          "topic": "Application Layer Protocols",
-          "weight": 0.293,
-          "confidence": 54.4,
-          "available_questions": 3
-        },
-        {
-          "topic": "Network Layer",
-          "weight": 0.283,
-          "confidence": 70.2,
-          "available_questions": 7
-        },
-        {
-          "topic": "Packet Switching",
-          "weight": 0.282,
-          "confidence": 61.6,
-          "available_questions": 3
-        },
-        {
-          "topic": "Application Layer",
-          "weight": 0.258,
-          "confidence": 69.6,
+          "topic": "Transport Layer",
+          "weight": 0.276,
+          "confidence": 61.1,
           "available_questions": 8
         },
         {
           "topic": "Flow Control",
-          "weight": 0.257,
-          "confidence": 61.3,
+          "weight": 0.274,
+          "confidence": 60.1,
           "available_questions": 2
-        },
-        {
-          "topic": "Medium Access Control",
-          "weight": 0.255,
-          "confidence": 60.9,
-          "available_questions": 2
-        },
-        {
-          "topic": "Data Link Layer",
-          "weight": 0.252,
-          "confidence": 73.0,
-          "available_questions": 7
-        },
-        {
-          "topic": "IP Fragmentation",
-          "weight": 0.251,
-          "confidence": 67.8,
-          "available_questions": 3
-        },
-        {
-          "topic": "Routing Protocols",
-          "weight": 0.251,
-          "confidence": 62.9,
-          "available_questions": 5
         },
         {
           "topic": "Sliding Window Protocol",
-          "weight": 0.248,
-          "confidence": 53.3,
+          "weight": 0.26,
+          "confidence": 52.8,
           "available_questions": 2
         },
         {
+          "topic": "Application Layer Protocols",
+          "weight": 0.259,
+          "confidence": 61.8,
+          "available_questions": 5
+        },
+        {
+          "topic": "Routing Protocols",
+          "weight": 0.253,
+          "confidence": 58.2,
+          "available_questions": 5
+        },
+        {
+          "topic": "Medium Access Control",
+          "weight": 0.25,
+          "confidence": 60.7,
+          "available_questions": 2
+        },
+        {
+          "topic": "IP Fragmentation",
+          "weight": 0.213,
+          "confidence": 65.1,
+          "available_questions": 3
+        },
+        {
           "topic": "IPv4 Addressing",
-          "weight": 0.235,
-          "confidence": 57.7,
+          "weight": 0.202,
+          "confidence": 67.0,
           "available_questions": 8
-        },
-        {
-          "topic": "IPv4 Header",
-          "weight": 0.235,
-          "confidence": 56.0,
-          "available_questions": 4
-        },
-        {
-          "topic": "TCP",
-          "weight": 0.234,
-          "confidence": 68.5,
-          "available_questions": 7
         }
       ]
     },
@@ -42364,6 +43649,2186 @@ export const GATE_DATA = {
         "answer": "80",
         "marks": 2,
         "negative_marks": 0
+      },
+      {
+        "id": 1476,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Verbal Ability",
+        "question_text": "Expedite, Hasten, Hurry. Fill the blank by choosing a word with a meaning similar to that of the words given above.",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Accelerate",
+          "(b) Retard",
+          "(c) Provide",
+          "(d) Disable"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1477,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Spatial Reasoning",
+        "question_text": "A black square PQRS has been cut into two parts. One part of it is shown in Panel I. Which one of the shapes in Panel II is the other part?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) (i)",
+          "(b) (ii)",
+          "(c) (iii)",
+          "(d) (iv)"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1478,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Probability",
+        "question_text": "A day can only be cloudy or sunny. The probability of a day being cloudy is 0.5, independent of the condition on other days. What is the probability that in any given four days, there will be three cloudy days and one sunny day?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 1/4",
+          "(b) 3/4",
+          "(c) 2/3",
+          "(d) 3/8"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1479,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Quantitative Aptitude",
+        "question_text": "The values of Stock A and Stock B on a particular day are Rs. 50 and Rs. 80, respectively. An investor invests Rs. 100 in Stock A and Rs. 80 in Stock B. He sells all the stocks the next day when the value of Stock A is Rs. 55 and Stock B is Rs. 70. The profit made by the investor is Rs.",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 0",
+          "(b) 5",
+          "(c) 10",
+          "(d) 20"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1480,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Logical Reasoning",
+        "question_text": "'When it is raining, peacocks dance.' Based only on this sentence, which one of the following options is necessarily true?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Peacocks dance only when it is raining.",
+          "(b) When peacocks dance, it is raining.",
+          "(c) When peacocks are not dancing, it is not raining.",
+          "(d) When it is not raining, peacocks do not dance."
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1481,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Verbal Ability",
+        "question_text": "Water : P :: Food : Q. Choose the P and Q combination from the options below to form a meaningful analogy.",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) P = Thirst; Q = Hunger",
+          "(b) P = Drink; Q = Hunger",
+          "(c) P = Thirst; Q = Satiated",
+          "(d) P = Wet; Q = Critic"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1482,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Spatial Reasoning",
+        "question_text": "Two tiles are missing in Panel I. Which one of the options in Panel II is the appropriate choice for the missing tiles?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) (i)",
+          "(b) (ii)",
+          "(c) (iii)",
+          "(d) (iv)"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1483,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Graphs",
+        "question_text": "Figures (i) and (ii) represent intercity highway systems. The black dots represent cities and the line segments between them represent intercity highways. A salesperson needs to make a trip. She needs to start from a city, visit each of the remaining cities exactly once, and finally return to the same city from which she started. Which one of the following options is then true?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Such a trip is possible for (i), but not for (ii).",
+          "(b) Such a trip is possible for (ii), but not for (i).",
+          "(c) Such a trip is possible for both (i) and (ii).",
+          "(d) Such a trip is possible neither for (i) nor for (ii)."
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1484,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Logical Reasoning",
+        "question_text": "The figure in Panel I below is a grid of cells with four rows and four columns. The numbers on the top and on the left represent the number of cells that are to be shaded in that column and row, respectively. Which one of the options shown in Panel II below represents the grid shaded correctly?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) (i)",
+          "(b) (ii)",
+          "(c) (iii)",
+          "(d) (iv)"
+        ],
+        "answer": "(b)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1485,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "General Aptitude",
+        "topic": "Probability",
+        "question_text": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the sum of the two recorded numbers is a prime number is",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 3/36",
+          "(b) 13/36",
+          "(c) 15/36",
+          "(d) 19/36"
+        ],
+        "answer": "(c)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1486,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Propositional & First Order Logic",
+        "question_text": "For two different persons x and y, the predicate M(x,y) denotes that x knows y. Consider the following statement. 'There is a person who does not know anyone else, but that person is known by everyone else.' Which one of the following expressions represents the above statement?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) (∃ y)(∀ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+          "(b) (∀ y)(∃ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+          "(c) (∃ y)(∃ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+          "(d) (∀ y)(∀ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1487,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Data Structures",
+        "topic": "Trees",
+        "question_text": "The set T represents various traversals over binary tree. The set S represents the order of visiting nodes during a traversal. T: I: Inorder, II: Preorder, III: Postorder. S: L: left subtree, node, right subtree; M: node, left subtree, right subtree; N: left subtree, right subtree, node. Which one of the following is the correct match from T to S?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) I - L, II - M, III - N",
+          "(b) I - M, II - L, III - N",
+          "(c) I - N, II - M, III - L",
+          "(d) I - L, II - N, III - M"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1488,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Theory of Computation",
+        "topic": "Turing Machines",
+        "question_text": "Which one of the following statements is equivalent to the following assertion? Turing machine M decides the language L ⊆ {0,1}*.",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Turing machine M halts on all input strings in (0,1)*",
+          "(b) Turing machine M accepts all input strings in L",
+          "(c) Turing machine M rejects all input strings in {0,1}* - L",
+          "(d) Turing machine M accepts all input strings in L and rejects all input strings in {0,1}* - L"
+        ],
+        "answer": "(d)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1489,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Probability",
+        "question_text": "The probability density function f(x) of a random variable X which takes real values is f(x) = (1 / (3 * sqrt(2 * pi))) * exp(-x^2 / 18), x ∈ (-∞, +∞). Which one of the following statements is correct about the random variable X?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) X is an exponential random variable",
+          "(b) X is a normal random variable",
+          "(c) X is a Poisson random variable",
+          "(d) X is a uniform random variable"
+        ],
+        "answer": "(b)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1490,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Databases",
+        "topic": "Database Architecture",
+        "question_text": "In the context of DBMS, consider the two sets T and S given below. T: I: Logical schema, II: Physical schema, III: External schema. S: L: Views, M: File organization and indexes, N: Relations. Which one of the following is the correct match from T to S?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) I - L, II - M, III - N",
+          "(b) I - M, II - L, III - N",
+          "(c) I - N, II - M, III - L",
+          "(d) I - N, II - L, III - M"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1491,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Digital Logic",
+        "topic": "Boolean Algebra",
+        "question_text": "Which one of the following options is not a property of Boolean Algebra? Note: + is OR operation, · is AND operation, and ' is NOT operation",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) a + b = b + a",
+          "(b) a · a' = 1",
+          "(c) a + a' = 1",
+          "(d) a · b = b · a"
+        ],
+        "answer": "(b)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1492,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Programming",
+        "topic": "Memory Management",
+        "question_text": "In C runtime environment, which one of the following is stored in heap?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) A static variable declared inside a function",
+          "(b) An array of integers declared inside a function",
+          "(c) A dynamically allocated array of integers created using malloc() function call",
+          "(d) Return address of a function"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1493,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Organization",
+        "topic": "Interrupts",
+        "question_text": "Consider the following two statements about interrupt handling mechanisms in a CPU. S1: In non-vectored interrupt mechanism, it usually takes more time to start the Interrupt Service Routine (ISR) when compared to that in a vectored interrupt mechanism. S2: In daisy-chain interrupt mechanism, the CPU polls all the input devices individually to determine the source of the interrupt. Which one of the following options is correct with respect to S1 and S2?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Both S1 and S2 are true",
+          "(b) Both S1 and S2 are false",
+          "(c) S1 is true and S2 is false",
+          "(d) S1 is false and S2 is true"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1494,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Programming",
+        "topic": "C Programming",
+        "question_text": "Consider the following three ANSI-C programs, P1, P2 and P3... Which one of the following statements is true?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Only P1 will compile without any error",
+          "(b) Only P2 will compile without any error",
+          "(c) Only P3 will compile without any error",
+          "(d) All three programs P1, P2, and P3 will compile without any error"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1495,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Databases",
+        "topic": "Concurrency Control",
+        "question_text": "Consider concurrent execution of two transactions T1 and T2 in a DBMS, both of which access a data object A. For these two transactions to not conflict on A, which one of the following statements must be true?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Both T1 and T2 only read A",
+          "(b) T1 reads A and T2 writes A",
+          "(c) T1 writes A and T2 reads A",
+          "(d) Both T1 and T2 write A"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1496,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Networks",
+        "topic": "Network Layer",
+        "question_text": "Consider a file of size 4 million bytes being transferred between two hosts connected via a path consisting of three consecutive links of bandwidth 2 Mbps, 500 kbps, and 1 Mbps, respectively. All processing delays and propagation delays are negligible. Assume that there is no other background traffic over the path and no other additional overhead to transfer the file. Which one of the following is the total time (in seconds) to transfer the file?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 73",
+          "(b) 64",
+          "(c) 8",
+          "(d) 16"
+        ],
+        "answer": "(b)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1497,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Networks",
+        "topic": "Application Layer Protocols",
+        "question_text": "Which one of the following protocols may need to broadcast some of its messages?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) SMTP",
+          "(b) FTP",
+          "(c) DHCP",
+          "(d) HTTP"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1498,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Operating Systems",
+        "topic": "CPU Scheduling",
+        "question_text": "Which one of the following CPU scheduling algorithms cannot be preemptive?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Shortest Remaining Time First (SRTF) Scheduling",
+          "(b) First Come First Serve (FCFS) Scheduling",
+          "(c) Round Robin Scheduling",
+          "(d) Priority Scheduling"
+        ],
+        "answer": "(b)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1499,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Algorithms",
+        "topic": "Asymptotic Analysis",
+        "question_text": "Consider the following functions, where n is a positive integer: n^(1/3), log(n), log(n!), 2^(log(n)). Which one of the following options lists the functions in increasing order of asymptotic growth rate? Note: Assume the base of log to be 2.",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) log(n), n^(1/3), 2^(log(n)), log(n!)",
+          "(b) n^(1/3), log(n), log(n!), 2^(log(n))",
+          "(c) log(n), n^(1/3), log(n!), 2^(log(n))",
+          "(d) 2^(log(n)), n^(1/3), log(n), log(n!)"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1500,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Algorithms",
+        "topic": "Recurrence Relations",
+        "question_text": "Which of the following can be recurrence relation(s) corresponding to an algorithm with time complexity Θ(n)?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) T(n) = T(n - 1) + 1, T(1) = 1",
+          "(b) T(n) = 2T(n/2) + 1, T(1) = 1",
+          "(c) T(n) = 2T(n/2) + n, T(1) = 1",
+          "(d) T(n) = T(n - 1) + n, T(1) = 1"
+        ],
+        "answer": "(a, b)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1501,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Relations",
+        "question_text": "Let R be a binary relation on the set {1, 2, ..., 10} where (x, y) ∈ R if the product of x and y is square of an integer. Which of the following properties is/are satisfied by R?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) Reflexive",
+          "(b) Symmetric",
+          "(c) Transitive",
+          "(d) Antisymmetric"
+        ],
+        "answer": "(a, b, c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1502,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Calculus",
+        "question_text": "For a real number a, let I(a) = integral from -1 to 1 of (3x^2 - ax + 1) dx. Which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) The value of I(a) is independent of the value of a",
+          "(b) The value of I(a) can vary with the value of a",
+          "(c) There exists a ∈ (-∞, +∞) such that I(a) is a positive real number",
+          "(d) There exists a ∈ (-∞, +∞) such that I(a) is a negative real number"
+        ],
+        "answer": "(a, c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1503,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Digital Logic",
+        "topic": "Number Representation",
+        "question_text": "In a system, numbers are represented using 4-bit two's complement form. Consider four numbers N1 = 1011, N2 = 1101, N3 = 1010 and N4 = 1001 in the system. Which of the following operations will result in arithmetic overflow?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) N1 + N2",
+          "(b) N2 + N3",
+          "(c) N3 - N4",
+          "(d) N1 + N4"
+        ],
+        "answer": "(b, d)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1504,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Theory of Computation",
+        "topic": "Context-Free Grammars",
+        "question_text": "Which of the following grammars is/are ambiguous?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) S -> aSb | ε",
+          "(b) E -> E+E | E*E | id",
+          "(c) S -> aS | Sa | ε",
+          "(d) S -> aS | ε"
+        ],
+        "answer": "(b, c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1505,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Data Structures",
+        "topic": "Hashing",
+        "question_text": "The keys 5, 28, 19, 15, 26, 33, 12, 17, 10 are inserted into a hash table using the hash function h(k) = k mod 9. The collisions are resolved by chaining. After all the keys are inserted, the length of the longest chain is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "3",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1506,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Linear Algebra",
+        "question_text": "Consider the system of linear equations given below: ax + y = b, 16x + ay = 24. Suppose the values of a and b are chosen such that the system of linear equations produce multiple solutions. Then the product of a and b is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "24",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1507,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Algorithms",
+        "topic": "Sorting",
+        "question_text": "Consider an array A = [10, 7, 8, 19, 41, 35, 25, 31]. Suppose the merge sort algorithm is executed on array A to sort it in increasing order. The merge sort algorithm will carry out a total of 7 merge operations. A merge operation on sorted left array L and sorted right array R is said to be void if the output of the merge operation is the elements of array L followed by the elements of array R. The number of void merge operations among these 7 merge operations is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "3",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1508,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Networks",
+        "topic": "IP Addressing",
+        "question_text": "If an IP network uses a subnet mask of 255.255.240.0, the maximum number of IP addresses that can be assigned to network interfaces is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "4094",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1509,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Organization",
+        "topic": "Floating Point Representation",
+        "question_text": "The 32-bit IEEE 754 single precision representation of a number is 0xC2710000. The number in decimal representation is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "-60.25",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1510,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Compiler Design",
+        "topic": "Lexical Analysis",
+        "question_text": "A lexical analyzer uses token definitions: letter [A-Za-z], digit [0-9], id -> letter(letter|digit)*, number -> digit+, ws -> (blank|tab|newline)+. For the string 'x1 23 mm 78 y 7z zz5 14A 8H AaYcD', the number of tokens (excluding ws) that will be produced by the lexical analyzer is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "13",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1511,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Algorithms",
+        "topic": "Graph Algorithms",
+        "question_text": "Consider a complete graph K_n with n vertices (n > 4). Note that multiple spanning trees can be constructed over K_n. Each of these spanning trees is represented as a set of edges. The Jaccard coefficient between any two sets is defined as the ratio of the size of the intersection of the two sets to the size of the union of the two sets. Which one of the following options gives the lowest possible value for the Jaccard coefficient between any two spanning trees of K_n?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 1/n",
+          "(b) 1/(2n-3)",
+          "(c) 0",
+          "(d) 1/(n-1)"
+        ],
+        "answer": "(c)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1512,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Algorithms",
+        "topic": "Shortest Paths",
+        "question_text": "Let G be a weighted directed acyclic graph with m edges and n vertices. Given G and a source vertex s in G, which one of the following options gives the worst case time complexity of the fastest algorithm to find the lengths of shortest paths from s to all vertices that are reachable from s in G?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Θ(m + n)",
+          "(b) Θ(m + n log n)",
+          "(c) Θ(nm)",
+          "(d) Θ(n^3)"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1513,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Algorithms",
+        "topic": "Algorithm Analysis",
+        "question_text": "Consider an array A of integers of size n. The indices of A run from 1 to n. An algorithm is to be designed to check whether A satisfies the condition: ∀ i,j ∈ {1,...,n-1} such that i > j, (A[i+1] - A[i]) > (A[j+1] - A[j]). Which one of the following gives the worst case time complexity of the fastest algorithm that can be designed for the problem?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Θ(n)",
+          "(b) Θ(log n)",
+          "(c) Θ(n log n)",
+          "(d) Θ(n^2)"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1514,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Algorithms",
+        "topic": "Dynamic Programming",
+        "question_text": "Consider a table T where the elements T[i][j], 0 ≤ i, j ≤ n, represent the cost of the optimal solutions of different subproblems of a problem that is being solved using a dynamic programming algorithm... Which one of the following statements is true?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Both algorithms B1 and B2 are correct",
+          "(b) Algorithm B1 is correct, but algorithm B2 is incorrect",
+          "(c) Algorithm B2 is correct, but algorithm B1 is incorrect",
+          "(d) Both algorithms B1 and B2 are incorrect"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1515,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Digital Logic",
+        "topic": "Boolean Algebra",
+        "question_text": "Consider the following 4-variable Boolean function F(A,B,C,D) = Σ m(0,1,2,3,8,9,10,11). Consider A as MSB, D as LSB. Which one of the following options represents the minimal sum of products form for the above function?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) A' + B' + C' + D'",
+          "(b) B'",
+          "(c) A'B' + AB",
+          "(d) A'"
+        ],
+        "answer": "(b)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1516,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Compiler Design",
+        "topic": "Parsing",
+        "question_text": "Consider the canonical LR(0) parsing of the grammar below using terminals (a, b, c) and non-terminals (A, B, C, S)... Which one of the following options gives the number of shift-reduce conflicts that will occur in the LR(0) ACTION table?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 2",
+          "(b) 3",
+          "(c) 4",
+          "(d) 5"
+        ],
+        "answer": "(d)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1517,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Databases",
+        "topic": "Normalization",
+        "question_text": "In the context of schema normalization in relational DBMS, consider a set F of functional dependencies... Listed below are four combinations of these three rules. Which one of these combinations is both necessary and sufficient for the proof of the Union rule?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Reflexivity, Augmentation, and Transitivity",
+          "(b) Reflexivity and Augmentation",
+          "(c) Transitivity",
+          "(d) Augmentation and Transitivity"
+        ],
+        "answer": "(d)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1518,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer",
+        "question_text": "Consider the transmission of data bits 110001011 over a link that uses Cyclic Redundancy Check (CRC) code for error detection. If the generator bit pattern is given to be 1001, which one of the following options shows the remainder bit pattern appended to the data bits before transmission?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 011",
+          "(b) 101",
+          "(c) 000",
+          "(d) 100"
+        ],
+        "answer": "(d)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1519,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Organization",
+        "topic": "Instruction Set Architecture",
+        "question_text": "Consider a processor that has 16 general purpose registers and it uses 2-byte instruction format for all its instructions. Variable-sized opcodes are permitted... If there are 2 unique M-type opcodes and 7 unique R-type opcodes, which one of the following options gives the maximum number of unique opcodes possible for C-type instructions?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 8",
+          "(b) 4",
+          "(c) 64",
+          "(d) 16"
+        ],
+        "answer": "(b)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1520,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Compiler Design",
+        "topic": "Data Flow Analysis",
+        "question_text": "Consider the control flow graph given below... Which one of the following options is the set of live variables at the exit point of each basic block?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) B1: (a, b, c, e, f), B2: (d, e), B3: (b, c, e, f), B4: φ",
+          "(b) B1: φ, B2: (d, e), B3: (a, c, f), B4: φ",
+          "(c) B1: (a, b, c, e, f), B2: (d, e), B3: (c, e, f), B4: φ",
+          "(d) B1: φ, B2: (d, e, f), B3: (a, b, c, e, f), B4: φ"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1521,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Databases",
+        "topic": "Indexing",
+        "question_text": "An index in a DBMS is said to be dense if an index entry appears for every search-key value in the indexed file... S1: A hash index must be a dense index. S2: A B+ tree index can be a sparse index. Which one of the following options is correct?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Both S1 and S2 are true",
+          "(b) Both S1 and S2 are false",
+          "(c) S1 is true and S2 is false",
+          "(d) S1 is false and S2 is true"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1522,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Theory of Computation",
+        "topic": "Finite Automata",
+        "question_text": "Consider the following two finite automata D1 and D2... Which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) L(D1) = L(D2)",
+          "(b) L(D1) is a proper subset of L(D2)",
+          "(c) L(D1) ∩ L(D2) = {ε}",
+          "(d) (L(D1) ∪ L(D2))* consists of all strings in (0,1)* whose length is divisible by 3"
+        ],
+        "answer": "(c, d)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1523,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Theory of Computation",
+        "topic": "Context-Free Languages",
+        "question_text": "Let Σ = {a,b,c,d} and let L = {a^i b^j c^k d^l | i, j, k, l ≥ 0}. Which of the following constraints ensure(s) that the language L is context-free?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) i + k = j + l",
+          "(b) i = k and j = l",
+          "(c) i = l and j = k",
+          "(d) i + j = k + l"
+        ],
+        "answer": "(a, c, d)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1524,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Data Structures",
+        "topic": "Binary Search Trees",
+        "question_text": "Consider a binary search tree (BST) with n leaf nodes (n > 0)... Let K represent the list of all such new keys to be inserted into the BST. Which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) K cannot have any duplicates",
+          "(b) K will have at least one element",
+          "(c) After inserting all keys from K, the height of the BST can increase at most by one",
+          "(d) Number of nodes in the BST will double after inserting all keys from K"
+        ],
+        "answer": "(a, c)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1525,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Data Structures",
+        "topic": "Stacks & Queues",
+        "question_text": "Consider a stack S and a queue Q. Both of them are initially empty and have the capacity to store ten elements each. The elements 1, 2, 3, 4, and 5 arrive one by one... Which of the following options is/are possible valid assignment(s) of the elements?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) 1S, 2Q, 3S, 4S, 5Q",
+          "(b) 1Q, 2Q, 3S, 4S, 5Q",
+          "(c) 1Q, 2Q, 3Q, 4S, 5S",
+          "(d) 1S, 2S, 3S, 4Q, 5Q"
+        ],
+        "answer": "(a, b)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1526,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Operating Systems",
+        "topic": "Process Synchronization",
+        "question_text": "Consider three processes P1, P2, and P3 running identical code... Which of the following patterns is/are possible to be generated as an outcome of the execution of these three processes?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) **$*###",
+          "(b) **$#*##",
+          "(c) **$*##*#",
+          "(d) ***$###"
+        ],
+        "answer": "(a, b, c)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1527,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Organization",
+        "topic": "Cache Memory",
+        "question_text": "Consider a system with a processor and a 4 KB direct mapped cache with block size of 16 bytes. The system has a 16 MB physical memory... Which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) Every access to P results in a cache miss",
+          "(b) Every access to R results in a cache hit",
+          "(c) Every access to Q results in a cache miss",
+          "(d) Except the first access to S, all subsequent accesses to S result in cache hits"
+        ],
+        "answer": "(a, b)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1528,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Operating Systems",
+        "topic": "File Systems",
+        "question_text": "To keep track of free blocks in a file system, consider that the linked list approach is used... The number of blocks required to hold the free disk block numbers is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "16417",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1529,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Operating Systems",
+        "topic": "Virtual Memory",
+        "question_text": "A system has a Translation Lookaside Buffer (TLB) that has a reach of 1 MB... If each TLB entry stores a 4-bit process id, page number, frame number, and a 2-bit control field, then the size of the TLB (in bytes) is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "1536",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1530,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Operating Systems",
+        "topic": "Memory Management",
+        "question_text": "Consider contiguous allocation of physical memory to processes using variable partitioning scheme... After allocating space to P1 and P2 using best-fit, the number of holes of size less than 8 KB is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "3",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1531,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Organization",
+        "topic": "Cache Memory",
+        "question_text": "Consider a system with 1 MB physical memory and a word length of 1 byte. The system uses a direct mapped cache... The maximum possible size of the cache (in KB) for this configuration is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "128",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1532,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Organization",
+        "topic": "Pipelining",
+        "question_text": "A non-pipelined instruction execution unit that operates at 1.6 GHz clock takes an average of 5 clock cycles... The speed-up obtained by the pipelined design over the non-pipelined one for this program is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "2.34",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1533,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Networks",
+        "topic": "TCP Congestion Control",
+        "question_text": "Consider a new TCP connection between a sender and a receiver. The receiver advertised window is constant at 48 KB, the MSS is 2 KB, and slow start threshold is 16 KB. The number of rounds of transmission required for the congestion control algorithm to reach the congestion avoidance phase is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "4",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1534,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Digital Logic",
+        "topic": "Multiplexers",
+        "question_text": "Consider the digital circuit shown below with two input lines A and B, two select lines S0 and S1, and an output line Y. Out of 16 possible input combinations, the number of combinations that produce Y = 1 is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "6",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1535,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Programming",
+        "topic": "Pointers",
+        "question_text": "Consider the following ANSI-C program... The output of this program is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "9",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1536,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Programming",
+        "topic": "Recursion",
+        "question_text": "Consider the following ANSI-C function... The maximum possible value that can be returned from this function is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "1",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1537,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Linear Algebra",
+        "question_text": "The determinant of a 4x4 matrix A is 3. The value of the determinant of 2A is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "48",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1538,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Probability",
+        "question_text": "Suppose an unbiased coin is tossed 6 times... Let E1 be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let E2 be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails. The conditional probability P(E1|E2) is equal to ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "0.5",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1539,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Calculus",
+        "question_text": "Consider a function f:(0,1)->{0,1} defined as follows. For a real number r in (0,1), f(r)=1 if the second digit after the decimal point in r is one of the four digits 2, 3, 6 and 7. Otherwise, f(r) is equal to 0. The number of points in (0,1) at which f is discontinuous is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "40",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1540,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Afternoon",
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer",
+        "question_text": "It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless link of length 3000 kilometers... Let N be the minimum number of bits needed for the sequence number field in the protocol header. The value of N is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "30",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1541,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Verbal Ability",
+        "question_text": "The antonym of the word protagonist is",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) agnostic",
+          "(b) antagonist",
+          "(c) arsonist",
+          "(d) anarchist"
+        ],
+        "answer": "(b)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1542,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Spatial Reasoning",
+        "question_text": "The figure shows two 4-tile patterns. Either one or both of the patterns can be used any number of times and in any orientation to construct a new pattern. Which one of the options below cannot be constructed by using only these two 4-tile patterns assuming there are no overlaps among them?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a)",
+          "(b)",
+          "(c)",
+          "(d)"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1543,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Quantitative Aptitude",
+        "question_text": "Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each game is eliminated from the tournament. Every player plays until she is defeated or remains the last undefeated player. The last undefeated player is declared the winner of the tournament. If there are 64 players in the beginning of the tournament, how many games should be played in total to declare the winner of the tournament?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 127",
+          "(b) 64",
+          "(c) 63",
+          "(d) 32"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1544,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Quantitative Aptitude",
+        "question_text": "A student needs to enroll for a minimum of 60 credits. A student cannot enroll for more than 70 credits. The credits are divided amongst project and three distinct sets of courses namely, core courses, specialization courses, and elective courses. It is compulsory for a student to enroll for exactly 15 credits of core courses and exactly 20 credits of project. In addition, a student has to enroll for a minimum of 10 credits of specialization courses. The maximum credits of elective courses that a student can enroll for is",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 10",
+          "(b) 15",
+          "(c) 20",
+          "(d) 25"
+        ],
+        "answer": "(d)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1545,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Logical Reasoning",
+        "question_text": "When the teacher is in the room, all students stand silently. If the above statement is true, which one of the following statements is not necessarily true?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) If any student is not standing silently, then the teacher is not in the room.",
+          "(b) When the teacher is in the room, all students are silent.",
+          "(c) If all students are standing, then the teacher is in the room.",
+          "(d) When the teacher is in the room, all students are standing."
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1546,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Reading Comprehension",
+        "question_text": "Combinatorics deals with problems involving counting. For example, 'How many distinct arrangements of N distinct objects in M spaces on a circle are possible?' is a typical problem in combinatorics. This kind of counting is sometimes used in the modeling of several physical phenomena. Often, in such models, the different combinatorial possibilities are assigned probability values. Assigning probabilities enables the computation of the average values of physical quantities. Consider the following statements: P: Combinatorics is always invoked in the modeling of physical phenomena. Q: Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities in order to compute average values of physical quantities. Based on the passage above, what can be inferred about statements P and Q?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) P is False and Q is False",
+          "(b) P is False and Q is True",
+          "(c) P is True and Q is False",
+          "(d) P is True and Q is True"
+        ],
+        "answer": "(b)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1547,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Spatial Reasoning",
+        "question_text": "In Panel I of the figure below, the front view and top view of a structure are shown. Which one of the 3D structures shown in Panel II possesses the views shown in Panel I?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) (i)",
+          "(b) (ii)",
+          "(c) (iii)",
+          "(d) (iv)"
+        ],
+        "answer": "(d)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1548,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Data Interpretation",
+        "question_text": "For positive real numbers S and K, the function H_k(S) is defined as: H_k(S) = max(S - K, 0). The max function is defined as: max(a, b) = a, when a > b and b, when a <= b. The graph below shows the plot of a function N(S) versus S. N(S) can be expressed as",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) H_10(S) - H_20(S)",
+          "(b) H_10(S) - 2H_20(S)",
+          "(c) -H_10(S) + H_20(S)",
+          "(d) H_15(S) - H_20(S)"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1549,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Logical Reasoning",
+        "question_text": "In the 2020 summer Olympics' Javelin throw finals, Neeraj Chopra exhibited a spectacular performance to win the gold medal. The silver medal was won by Jakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were six rounds of throws with each athlete having one throw per round. The best of all the throws of each athlete is considered for the medal. Following were the observations about the throws: (i) The first and second rounds were dominated by Neeraj Chopra with a gold medal performance in his second throw, while the other two athletes did not have any medal winning throws in these rounds. (ii) The throws in the last round by both Jakub Vadlejch and Vitezlav Vesely were fouls and were not considered for scoring. (iii) After four rounds, Vitezlav Vesely was in the second position and could not improve upon his best throw in the succeeding rounds. (iv) In the fourth round, the throw by Jakub Vadlejch was the best in that round. In which round did Vitezlav Vesely have his best throw?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Third",
+          "(b) Fourth",
+          "(c) Fifth",
+          "(d) Sixth"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1550,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "General Aptitude",
+        "topic": "Probability",
+        "question_text": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the number appearing in the second roll is an integer multiple of the number appearing in the first roll is",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 1/6",
+          "(b) 5/18",
+          "(c) 7/18",
+          "(d) 5/18"
+        ],
+        "answer": "(c)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1551,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Probability",
+        "question_text": "An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 1/4",
+          "(b) 1/3",
+          "(c) 1/2",
+          "(d) 2/3"
+        ],
+        "answer": "(b)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1552,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Combinatorics",
+        "question_text": "Consider 4x4 matrices with their elements from {0, 1}. The number of such matrices with even number of 1s in every row and every column is",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 512",
+          "(b) 1025",
+          "(c) 1023",
+          "(d) 255"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1553,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Linear Algebra",
+        "question_text": "For n > 1, the maximum multiplicity of any eigenvalue of an n x n matrix with elements from R is",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) n",
+          "(b) n - 1",
+          "(c) 1",
+          "(d) n + 1"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1554,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Organization",
+        "topic": "Addressing Modes",
+        "question_text": "Match each addressing mode in List I with a data element or an element of a data structure (in a high-level language) in List II: List I: P. Immediate, Q. Indirect, R. Base with index, S. Base with offset/displacement. List II: 1. Element of an array, 2. Pointer, 3. Element of a record, 4. Constant",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) P-4, Q-3, R-1, S-2",
+          "(b) P-4, Q-2, R-1, S-3",
+          "(c) P-1, Q-4, R-3, S-2",
+          "(d) P-2, Q-3, R-1, S-4"
+        ],
+        "answer": "(b)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1555,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Organization",
+        "topic": "Instruction Set Architecture",
+        "question_text": "Consider a processor P whose instruction set architecture is the load-store architecture. The instruction format is such that the first operand of any instruction is the destination operand. Which one of the following sequences of instructions corresponds to the high-level language statement Z = X + Y? Note: X, Y, and Z are memory operands. R0, R1, and R2 are registers.",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) ADD Z, X, Y",
+          "(b) LOAD R0, X; ADD Z, R0, Y",
+          "(c) ADD R0, X, Y; STORE Z, R0",
+          "(d) LOAD R0, X; LOAD R1, Y; ADD R2, R0, R1; STORE Z, R2"
+        ],
+        "answer": "(d)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1556,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Organization",
+        "topic": "Pipelining",
+        "question_text": "Which one of the following dependencies among the register operands of different instructions can cause a data hazard in a pipelined processor?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Read-after-read",
+          "(b) Read-after-write",
+          "(c) Write-after-read",
+          "(d) Write-after-write"
+        ],
+        "answer": "(b)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1557,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Algorithms",
+        "topic": "Recurrence Relations",
+        "question_text": "Consider the following recurrence relations: For all n > 1, T1(n) = 4T1(n/2) + T2(n); T2(n) = 5T2(n/4) + Θ(log_2 n). Assume that for all n <= 1, T1(n) = 1 and T2(n) = 1. Which one of the following options is correct?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) T1(n) = Θ(n^2)",
+          "(b) T1(n) = Θ(n^2 log_2 n)",
+          "(c) T1(n) = Θ(n^{log_4 5})",
+          "(d) T1(n) = Θ(n^{log_4 5} log_2 n)"
+        ],
+        "answer": "(a)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1558,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Networks",
+        "topic": "TCP/IP",
+        "question_text": "With respect to a TCP connection between a client and a server, which one of the following statements is true?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) The client and server use a two-way handshake mechanism before the start of data transmission.",
+          "(b) The server cannot initiate closing of the connection before the client initiates closing of the connection.",
+          "(c) The TCP connection is half-duplex.",
+          "(d) The client and server can initiate closing of the connection at the same time."
+        ],
+        "answer": "(d)",
+        "marks": 1,
+        "negative_marks": 0.33
+      },
+      {
+        "id": 1559,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Networks",
+        "topic": "Application Layer Protocols",
+        "question_text": "Which of the following statements is/are true with respect to the interaction of a web browser with a web server using HTTP 1.1?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, if the objects are stored in the same server.",
+          "(b) HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, even if they are stored in different servers.",
+          "(c) HTTP 1.1 facilitates sending a request for downloading one object without waiting for a previously requested object to be downloaded completely.",
+          "(d) HTTP 1.1 facilitates downloading multiple webpages on the same server to be downloaded over a single TCP connection."
+        ],
+        "answer": "(a, c, d)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1560,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Linear Algebra",
+        "question_text": "Let n > 1. Consider an n x n matrix M with its elements from R. Let the vector (0, 1, 0, 0, ..., 0) in R^n be in the null space of M. Which of the following options is/are always correct?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) Determinant of M is 1",
+          "(b) Determinant of M is 0",
+          "(c) Rank of M is 1",
+          "(d) There are at least two non-zero vectors in the null space of M"
+        ],
+        "answer": "(b, d)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1561,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Digital Logic",
+        "topic": "Boolean Algebra",
+        "question_text": "Consider the following Boolean expression of a function F: F(P,Q) = (P' + Q) ⊕ (P'Q). Which of the following expressions is/are equivalent to F?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) P ⊕ Q",
+          "(b) P ⊙ Q",
+          "(c) (P ⊙ Q)'",
+          "(d) (P ⊕ Q)'"
+        ],
+        "answer": "(a, c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1562,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Digital Logic",
+        "topic": "Number Representation",
+        "question_text": "Consider the 8-bit signed integers X, Y and Z represented using the sign-magnitude form. The binary representations of X and Y are as follows: X: 10110100 Y: 01001100. Which of the following operations to compute Z result(s) in an arithmetic overflow?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) Z = X + Y",
+          "(b) Z = X - Y",
+          "(c) Z = -X + Y",
+          "(d) Z = -X - Y"
+        ],
+        "answer": "(b, c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1563,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Data Structures",
+        "topic": "Heaps",
+        "question_text": "Let n be an odd number greater than 100. Consider a binary minheap with n elements stored in an array P whose index starts from 1. Which of the following indices of P do/does NOT correspond to any leaf node of the minheap?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) (n+1)/2",
+          "(b) (n-1)/2",
+          "(c) (n-3)/2",
+          "(d) n"
+        ],
+        "answer": "(b, c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1564,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Data Structures",
+        "topic": "Hashing",
+        "question_text": "Consider a hash table P[0, 1, ..., 10] that is initially empty. The hash table is maintained using open addressing with linear probing. The hash function used is h(x) = (x + 7) mod 11. Consider the following sequence of insertions performed on P: 1, 13, 22, 15, 11, 24. Which of the following positions in the hash table is/are empty after these insertions are performed?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) 0",
+          "(b) 10",
+          "(c) 2",
+          "(d) 1"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1565,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Theory of Computation",
+        "topic": "Context-Free Grammars",
+        "question_text": "Consider the following grammar where S is the start symbol, and a and b are terminal symbols. S -> aSbS | bS | ε. Which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) The grammar is ambiguous.",
+          "(b) The string abb has two distinct derivations in this grammar.",
+          "(c) The string abab has only one rightmost derivation.",
+          "(d) The language generated by the grammar is undecidable."
+        ],
+        "answer": "(a, b, c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1566,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Theory of Computation",
+        "topic": "Finite Automata",
+        "question_text": "Let M be a non-deterministic finite automaton (NFA) with 6 states over a finite alphabet. Which of the following options CANNOT be the number of states in the minimal deterministic finite automaton (DFA) that is equivalent to M?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) 32",
+          "(b) 65",
+          "(c) 1",
+          "(d) 128"
+        ],
+        "answer": "(b, d)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1567,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Compiler Design",
+        "topic": "Lexical Analysis",
+        "question_text": "Consider the following C statements: char *str1 = \"Hello; /* Statement S1 */ char *str2 = \"Hello;\"; /* Statement S2 */ int *str3 = \"Hello\"; /* Statement S3 */ Which of the following options is/are correct?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) S1 and S2 have syntactic errors",
+          "(b) S2 has a lexical error and S3 has a syntactic error",
+          "(c) S1 has a lexical error and S3 has a semantic error",
+          "(d) S1 has a syntactic error and S3 has a semantic error"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1568,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Compiler Design",
+        "topic": "Parsing",
+        "question_text": "Which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) LL(1) parser uses backtracking",
+          "(b) For a grammar to be LL(1), it must be left-recursive",
+          "(c) For a grammar to be LL(1), it must be left-factored",
+          "(d) The LL(1) parsers are more powerful than the SLR parsers"
+        ],
+        "answer": "(c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1569,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Operating Systems",
+        "topic": "Deadlock",
+        "question_text": "With respect to deadlocks in an operating system, which of the following statements is/are FALSE?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) Banker's algorithm is used to prevent deadlocks",
+          "(b) Deadlock formation can be prevented by ensuring that the hold and wait condition is not allowed",
+          "(c) An assignment edge in a resource allocation graph is marked from a process to a resource",
+          "(d) A safe state guarantees that all processes can finish without formation of a deadlock"
+        ],
+        "answer": "(a, c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1570,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Databases",
+        "topic": "Keys and Functional Dependencies",
+        "question_text": "Let P, Q, R and S be the attributes of a relation in a relational schema. Let X -> Y indicate functional dependency in the context of a relational database, where X, Y ⊆ {P, Q, R, S}. Which of the following options is/are always true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) If ({P, Q} -> {R} and {P} -> {R}) then {Q} -> {R}",
+          "(b) If {P, Q} -> {R} then ({P} -> {R} or {Q} -> {R})",
+          "(c) If ({P} -> {R} and {Q} -> {S}) then {P, Q} -> {R, S}",
+          "(d) If {P} -> {R} then {P, Q} -> {R}"
+        ],
+        "answer": "(c, d)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1571,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Databases",
+        "topic": "Normalization",
+        "question_text": "In the context of relational database normalization, which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) It is always possible to obtain a dependency-preserving 3NF decomposition of a relation",
+          "(b) It is always possible to obtain a dependency-preserving 1NF decomposition of a relation",
+          "(c) It is not always possible to obtain a dependency-preserving BCNF decomposition of a relation",
+          "(d) It is not always possible to obtain a dependency-preserving 2NF decomposition of a relation"
+        ],
+        "answer": "(a, b, c)",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1572,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Calculus",
+        "question_text": "Consider the function f: R -> R defined as follows: f(x) = c_1 e^x - c_2 log_e(1/x) if x > 0, and 3 otherwise. where c_1, c_2 ∈ R. If f is continuous at x = 0, then c_1 + c_2 = ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "3",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1573,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Data Structures",
+        "topic": "Trees",
+        "question_text": "The height of a binary tree is the number of edges in the longest path from the root to a leaf in the tree. The maximum possible height of a full binary tree with 23 nodes is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "11",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1574,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Programming",
+        "topic": "C Programming",
+        "question_text": "Consider the following program in C: void func(int i, int j) { if(i < j) { int i = 0; while (i < 10) { j += 2; i++; } } printf(\"%d\", i); } int main() { int i = 9, j = 10; func(i, j); return 0; } The output of the program is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "9",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1575,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Operating Systems",
+        "topic": "Deadlock",
+        "question_text": "Consider a system consisting of K instances of a resource R, being shared by 5 processes. Assume that each process requires a maximum of two instances of resource R and a process can request or release only one instance at a time. Further, a process can request the second instance of the resource only after acquiring the first instance. The minimum value of K for the system to be deadlock-free is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "6",
+        "marks": 1,
+        "negative_marks": 0
+      },
+      {
+        "id": 1576,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Organization",
+        "topic": "Floating Point Representation",
+        "question_text": "Consider the real valued variables X, Y and Z represented using the IEEE 754 single-precision floating-point format. The binary representations of X and Y in hexadecimal notation are as follows: X: 35000000 Y: 34A00000. Let Z = X + Y. Which one of the following is the binary representation of Z, in hexadecimal notation?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 35C80000",
+          "(b) 35CC0000",
+          "(c) 35E80000",
+          "(d) 35EC0000"
+        ],
+        "answer": "(c)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1577,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Digital Logic",
+        "topic": "Sequential Circuits",
+        "question_text": "Consider a 2-bit saturating up/down counter that performs the saturating up count when the input P is 0, and the saturating down count when P is 1. The counter is built as a synchronous sequential circuit using D flip-flops. Which one of the following options corresponds to the expressions for the inputs of the D flip-flops, D1 and D0?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) D1 = PQ1 + P'Q0 + Q1Q0, D0 = PQ0 + P'Q1 + Q1Q0'",
+          "(b) D1 = P'Q1 + P'Q0 + Q1Q0, D0 = P'Q0' + P'Q1 + Q1Q0'",
+          "(c) D1 = P'Q1' + P'Q0 + Q1Q0, D0 = P'Q0 + P'Q1 + Q1Q0'",
+          "(d) D1 = PQ1' + P'Q0 + Q1Q0, D0 = PQ0' + P'Q1 + Q1Q0'"
+        ],
+        "answer": "(b)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1578,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Organization",
+        "topic": "Cache Memory",
+        "question_text": "The size of the physical address space of a processor is 2^32 bytes. The capacity of a cache memory unit is 2^23 bytes. The cache block size is 128 bytes. The cache memory unit can be built as a direct mapped cache or as a K-way set-associative cache, where K = 2^L and L ∈ {1,2,3}. Let the length of the TAG field be M bits for the direct mapped cache, and N bits for the set-associative cache. Which one of the following options is true?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) N = M + L",
+          "(b) N = M - L",
+          "(c) N = M + K",
+          "(d) N = M - K"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1579,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Programming",
+        "topic": "Linked Lists",
+        "question_text": "Consider the following code snippet in C language that computes the number of nodes in a non-empty singly linked list pointed to by the pointer variable head. int getListSize (struct node *head) { if(E1) return 1; return E2; } Which one of the following options gives the correct replacements for the expressions E1 and E2?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) E1: head == NULL; E2: 1 + getListSize(head)",
+          "(b) E1: head->next == NULL; E2: 1 + getListSize(head->next)",
+          "(c) E1: head == NULL; E2: 1 + getListSize(head->next)",
+          "(d) E1: head->next == NULL; E2: 1 + getListSize(head)"
+        ],
+        "answer": "(b)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1580,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Data Structures",
+        "topic": "Binary Search Trees",
+        "question_text": "Let P be the set of all integers from 1 to 15. Consider any order of insertion of the elements of P into a binary search tree that creates a complete binary tree. Which one of the following elements can NEVER be the third element that is inserted?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 4",
+          "(b) 2",
+          "(c) 10",
+          "(d) 5"
+        ],
+        "answer": "(d)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1581,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Algorithms",
+        "topic": "Shortest Paths",
+        "question_text": "Let G(V,E) be an undirected, edge-weighted graph with integer weights. The weight of a path is the sum of the weights of the edges in that path. The length of a path is the number of edges in that path. Let s in V be a vertex in G. For every u in V and for every k >= 0 let d_k(u) denote the weight of a shortest path (in terms of weight) from s to u of length at most k. If there is no path from s to u of length at most k, then d_k(u) = ∞. Consider the statements: S1: For every k >= 0 and u in V, d_{k+1}(u) <= d_k(u). S2: For every (u,v) in E if (u,v) is part of a shortest path from s to v, then for every k >= 0, d_k(u) <= d_k(v). Which one of the following options is correct?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Only S1 is true",
+          "(b) Only S2 is true",
+          "(c) Both S1 and S2 are true",
+          "(d) Neither S1 nor S2 is true"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1582,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Compiler Design",
+        "topic": "Data Flow Analysis",
+        "question_text": "Consider the control flow graph shown in the figure. Which one of the following options correctly lists the set of redundant expressions (common sub-expressions) in the basic blocks B4 and B5? Note: All the variables are integers.",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) B4: {g*k, b+i}, B5: {c+m}",
+          "(b) B4: {b+i}, B5: {}",
+          "(c) B4: {c+m}, B5: {}",
+          "(d) B4: {g*k}, B5: {}"
+        ],
+        "answer": "(d)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1583,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Databases",
+        "topic": "Relational Algebra",
+        "question_text": "Consider a relational database schema with two relations R(P, Q) and S(X, Y). Let E = {<u> | ∃v ∃w <u,v> ∈ R ∧ <v,w> ∈ S} be a tuple relational calculus expression. Which one of the following relational algebraic expressions is equivalent to E?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) Π_P (R ⋈_{R.P=S.X} S)",
+          "(b) Π_P (S ⋈_{S.X=R.Q} R)",
+          "(c) Π_P (R ⋈_{R.P=S.Y} S)",
+          "(d) Π_P (S ⋈_{S.Y=R.Q} R)"
+        ],
+        "answer": "(b)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1584,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Networks",
+        "topic": "TCP Congestion Control",
+        "question_text": "A TCP sender successfully establishes a connection with a TCP receiver and starts the transmission of segments. The TCP congestion control mechanism's slow-start threshold is set to 10000 segments. Assume that the round-trip time is fixed at 1 millisecond. Assume that the sender always has data to send, the segments are numbered from 1, and no segment is lost. Let t denote the time (in milliseconds) at which the transmission of segment number 2000 starts. Which one of the following options is correct?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 9 <= t < 10",
+          "(b) 10 <= t < 11",
+          "(c) 11 <= t < 12",
+          "(d) 12 <= t < 13"
+        ],
+        "answer": "(b)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1585,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer",
+        "question_text": "Consider the implementation of sliding window protocol over a lossless link, with a window size of W frames, where each frame is of size 1000 bits (including header). The bandwidth of the link is 100 kbps and the one-way propagation delay is 100 milliseconds. Assume that processing times at the sender and receiver are zero and the transmission time of acknowledgements is also zero. Which one of the following options gives the minimum size of W (in number of frames) required to achieve 100% link utilization?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) 10",
+          "(b) 21",
+          "(c) 20",
+          "(d) 11"
+        ],
+        "answer": "(b)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1586,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Calculus",
+        "question_text": "Let f: R -> R be defined as follows: f(x) = (|x|/2 - x)(x - |x|/2). Which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) f has a local maximum",
+          "(b) f has a local minimum",
+          "(c) f is continuous over R",
+          "(d) f is not differentiable over R"
+        ],
+        "answer": "(a, c, d)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1587,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Algorithms",
+        "topic": "Graph Algorithms",
+        "question_text": "Let G(V,E) be a simple, undirected graph. A vertex cover of G is a subset V' ⊆ V such that for every (u,v) ∈ E, u ∈ V' or v ∈ V'. Let the size of the smallest vertex cover in G be k. Let S be any vertex cover of size k. For a vertex v ∈ V, which of the following constraints will always ensure that v ∈ S?",
+        "question_type": "MCQ",
+        "choices": [
+          "(a) The degree of v is at least k + 1",
+          "(b) The vertex v is on a path of length k + 1",
+          "(c) The vertex v is on a cycle of length k + 1",
+          "(d) The vertex v is a part of a clique of size k"
+        ],
+        "answer": "(a)",
+        "marks": 2,
+        "negative_marks": 0.66
+      },
+      {
+        "id": 1588,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Digital Logic",
+        "topic": "Boolean Algebra",
+        "question_text": "Consider a Boolean function F with the following minterm expression: F(P, Q, R, S) = Σ m(1, 2, 3, 4, 5, 7, 10, 12, 13, 14). Which of the following options is/are the minimal sum-of-products expression(s) of F?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) P'S' + QR' + P'Q'R + Q'RS'",
+          "(b) P'S' + QR' + P'Q'R + PRS'",
+          "(c) P'S' + QR' + PQS' + PRS'",
+          "(d) P'S' + QR' + PQS' + Q'RS'"
+        ],
+        "answer": "(b, d)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1589,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Algorithms",
+        "topic": "Minimum Spanning Tree",
+        "question_text": "Let G(V,E) be a simple, undirected, edge-weighted graph with unique edge weights. Which of the following statements about the minimum spanning trees (MST) of G is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) In every cycle C of G, the edge with the largest weight in C is not in any MST",
+          "(b) In every cycle C of G, the edge with the smallest weight in C is in every MST",
+          "(c) For every vertex v ∈ V, the edge with the largest weight incident on v is not in any MST",
+          "(d) For every vertex v ∈ V, the edge with the smallest weight incident on v is in every MST"
+        ],
+        "answer": "(a, d)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1590,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Algorithms",
+        "topic": "Graph Traversal",
+        "question_text": "Consider the pseudocode for depth-first search (DFS) algorithm which takes a directed graph G(V,E) as input, where d[v] and f[v] are the discovery time and finishing time... Suppose that the input directed graph G(V,E) is a directed acyclic graph (DAG). For an edge (u,v) ∈ E which of the following options will NEVER be correct?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) d[u] < d[v] < f[v] < f[u]",
+          "(b) d[v] < d[u] < f[u] < f[v]",
+          "(c) d[v] < f[v] < d[u] < f[u]",
+          "(d) d[u] < d[v] < f[u] < f[v]"
+        ],
+        "answer": "(b, d)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1591,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Theory of Computation",
+        "topic": "Regular Languages",
+        "question_text": "Let L1 and L2 be two languages over a finite alphabet, such that L1 ∩ L2 and L2 are regular languages. Which of the following statements is/are always true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) L1 is regular",
+          "(b) L1 ∪ L2 is regular",
+          "(c) L2' is context free",
+          "(d) L1 is context free"
+        ],
+        "answer": "(c)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1592,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Theory of Computation",
+        "topic": "Context-Free Languages",
+        "question_text": "Consider the following context-free grammar G: S -> abaABAbba; A -> aaBBAb | bBabaa; B -> aBb | ab. Let L(G) be the language generated by the grammar G. For a string s ∈ L(G) let n1(s) be the number of a's in s and n2(s) be the number of b's in s. Which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) There is a string s ∈ L(G) such that n1(s) < n2(s)",
+          "(b) For every string s ∈ L(G) n1(s) >= n2(s)",
+          "(c) There is a string s ∈ L(G) such that n1(s) > 2n2(s)",
+          "(d) For every string s ∈ L(G) n1(s) <= 2n2(s)"
+        ],
+        "answer": "(b, d)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1593,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Compiler Design",
+        "topic": "Syntax Directed Translation",
+        "question_text": "Consider the following two syntax-directed definitions SDD1 and SDD2 for type declarations. Let P and Q be the languages specified by grammars G1 and G2, respectively. Which of the following statements is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) The languages P and Q are the same",
+          "(b) SDD2 is S-attributed and contains only synthesized attributes",
+          "(c) SDD1 is L-attributed and contains only inherited attributes",
+          "(d) The specifications of SDD1 and SDD2 are such that the same entries get added to the symbol table"
+        ],
+        "answer": "(a, b, d)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1594,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Operating Systems",
+        "topic": "Memory Management",
+        "question_text": "Consider a system that has a cache memory unit and a memory management unit (MMU). The address input to the cache memory is a physical address. The MMU has a translation lookaside buffer (TLB). Assume that when a page is evicted from the main memory, the corresponding blocks in the cache are marked as invalid. For a given memory reference, which of the following sequences of events can NEVER happen?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) TLB miss, Page table hit, Cache hit",
+          "(b) TLB hit, Page table miss, Cache hit",
+          "(c) TLB miss, Page table miss, Cache hit",
+          "(d) TLB miss, Page table miss, Cache miss"
+        ],
+        "answer": "(b, c)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1595,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Algorithms",
+        "topic": "Graph Algorithms",
+        "question_text": "An undirected, unweighted, simple graph G(V,E) is said to be 2-colorable if there exists a function c: V -> {0, 1} such that for every (u,v) ∈ E, c(u) != c(v). Which of the following statements about 2-colorable graphs is/are true?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) If G is 2-colorable, then G may contain cycles of odd length",
+          "(b) If G is 2-colorable, then G may contain cycles of even length",
+          "(c) An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|V|+|E|), if G is represented as an adjacency list",
+          "(d) An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|E|log|V|), if G is represented as an adjacency list"
+        ],
+        "answer": "(b, c)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1596,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Networks",
+        "topic": "IP Addressing",
+        "question_text": "An ISP having an address block 202.16.0.0/15 assigns a block of 6000 IP addresses to a client, using the classless internet domain routing (CIDR) super-netting approach. Which of the following address blocks can be assigned by the ISP?",
+        "question_type": "MSQ",
+        "choices": [
+          "(a) 202.16.0.0/19",
+          "(b) 202.17.64.0/19",
+          "(c) 202.16.32.0/19",
+          "(d) 202.17.24.0/19"
+        ],
+        "answer": "(a, b, c)",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1597,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Graphs",
+        "question_text": "Let G be an undirected graph, which is a path on 8 vertices. The number of matchings in G is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "34",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1598,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Engineering Mathematics",
+        "topic": "Probability",
+        "question_text": "Let X be a random variable which takes values in the set {1, 2, 3, 4, 5, 6, 7, 8}. Further, Pr(X=1) = Pr(X=2) = Pr(X=5) = Pr(X=7) = 1/6 and Pr(X=3) = Pr(X=4) = Pr(X=6) = Pr(X=8) = 1/12. The expected value of X, denoted by E[X], is equal to ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "4.25",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1599,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Operating Systems",
+        "topic": "Disk Scheduling",
+        "question_text": "Consider a hard disk with a rotational speed of 15000 rpm. The time to move the read/write head from a track to its adjacent track is 1 millisecond. Initially, the head is on track 0. The number of sectors per track is 400. The sector size is 1024 bytes. It is necessary to transfer data from 10 randomly located sectors in each of the following tracks in the order: 5, 12 and 7. The total time for the data transfer (in milliseconds) from the hard disk is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "77.3",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1600,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Computer Organization",
+        "topic": "Pipelining",
+        "question_text": "The EX stage of a pipelined processor performs the memory read operations for LOAD instructions, and the operations for the arithmetic and logic instructions. Let t_EX denote the time taken by the EX stage to perform the operation for an instruction. For each instruction type, the values of t_EX and M (the number of instructions of that type in a sequence of 100 instructions) are given. The duration of the pipeline clock cycle is 1 nanosecond... When program P is executed, the number of clock cycles for which the pipeline is stalled due to structural hazards in the EX stage is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "95",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1601,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Programming",
+        "topic": "Recursion",
+        "question_text": "Consider the recursive functions represented by the following code segment: int bar(int n) { if (n == 1) return 0; else return 1 + bar(n/2); } int foo(int n) { if (n == 1) return 1; else return 1 + foo(bar(n)); } The smallest positive integer n for which foo(n) returns 5 is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "65536",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1602,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Data Structures",
+        "topic": "Trees",
+        "question_text": "The following sequence corresponds to the preorder traversal of a binary search tree: 50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77. The position of the element 60 in the postorder traversal of T is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "7",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1603,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Operating Systems",
+        "topic": "Processes",
+        "question_text": "Consider the following program snippet. Assume that the program compiles and runs successfully. Further, assume that the fork() system call is always successful in creating a process. int main() { int i; for (i = 0; i < 3; i++) { if (fork() == 0) { continue; } break; } printf(\"Hello!\"); return 0; } The total number of times that the printf statement gets executed is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "4",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1604,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Operating Systems",
+        "topic": "CPU Scheduling",
+        "question_text": "Consider a CPU that has to execute two types of processes. The first type, Actuators (A), requires a CPU burst of 6 seconds. The second type, Controllers (C), requires a CPU burst of 8 seconds. A new process of type A arrives at time t = 10, 20, 30, 40 and 50 (in seconds). Similarly, a new process of type C arrives at time t = 11, 22, 33, 44, and 55 (in seconds). The CPU scheduling policy is First Come First Serve (FCFS). The first process of type A starts running at t = 10 seconds. The average waiting time (in seconds) for the 10 processes is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "9.5",
+        "marks": 2,
+        "negative_marks": 0
+      },
+      {
+        "id": 1605,
+        "year": 2026,
+        "paper_id": "GATE_CS_2026_Forenoon",
+        "subject": "Databases",
+        "topic": "Keys and Functional Dependencies",
+        "question_text": "Consider a relational database schema with a relation R(A, B, C, D). If {A, B} and {A, C} are the only two candidate keys of the relation R, then the number of superkeys of relation R is ___.",
+        "question_type": "NAT",
+        "choices": null,
+        "answer": "6",
+        "marks": 2,
+        "negative_marks": 0
       }
     ],
     "by_subject": {
@@ -43699,6 +47164,127 @@ export const GATE_DATA = {
           "question_type": "NAT",
           "choices": [],
           "answer": "80",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1510,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Compiler Design",
+          "topic": "Lexical Analysis",
+          "question_text": "A lexical analyzer uses token definitions: letter [A-Za-z], digit [0-9], id -> letter(letter|digit)*, number -> digit+, ws -> (blank|tab|newline)+. For the string 'x1 23 mm 78 y 7z zz5 14A 8H AaYcD', the number of tokens (excluding ws) that will be produced by the lexical analyzer is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "13",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1516,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Compiler Design",
+          "topic": "Parsing",
+          "question_text": "Consider the canonical LR(0) parsing of the grammar below using terminals (a, b, c) and non-terminals (A, B, C, S)... Which one of the following options gives the number of shift-reduce conflicts that will occur in the LR(0) ACTION table?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 2",
+            "(b) 3",
+            "(c) 4",
+            "(d) 5"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1520,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Compiler Design",
+          "topic": "Data Flow Analysis",
+          "question_text": "Consider the control flow graph given below... Which one of the following options is the set of live variables at the exit point of each basic block?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) B1: (a, b, c, e, f), B2: (d, e), B3: (b, c, e, f), B4: φ",
+            "(b) B1: φ, B2: (d, e), B3: (a, c, f), B4: φ",
+            "(c) B1: (a, b, c, e, f), B2: (d, e), B3: (c, e, f), B4: φ",
+            "(d) B1: φ, B2: (d, e, f), B3: (a, b, c, e, f), B4: φ"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1567,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Compiler Design",
+          "topic": "Lexical Analysis",
+          "question_text": "Consider the following C statements: char *str1 = \"Hello; /* Statement S1 */ char *str2 = \"Hello;\"; /* Statement S2 */ int *str3 = \"Hello\"; /* Statement S3 */ Which of the following options is/are correct?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) S1 and S2 have syntactic errors",
+            "(b) S2 has a lexical error and S3 has a syntactic error",
+            "(c) S1 has a lexical error and S3 has a semantic error",
+            "(d) S1 has a syntactic error and S3 has a semantic error"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1568,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Compiler Design",
+          "topic": "Parsing",
+          "question_text": "Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) LL(1) parser uses backtracking",
+            "(b) For a grammar to be LL(1), it must be left-recursive",
+            "(c) For a grammar to be LL(1), it must be left-factored",
+            "(d) The LL(1) parsers are more powerful than the SLR parsers"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1582,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Compiler Design",
+          "topic": "Data Flow Analysis",
+          "question_text": "Consider the control flow graph shown in the figure. Which one of the following options correctly lists the set of redundant expressions (common sub-expressions) in the basic blocks B4 and B5? Note: All the variables are integers.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) B4: {g*k, b+i}, B5: {c+m}",
+            "(b) B4: {b+i}, B5: {}",
+            "(c) B4: {c+m}, B5: {}",
+            "(d) B4: {g*k}, B5: {}"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1593,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Compiler Design",
+          "topic": "Syntax Directed Translation",
+          "question_text": "Consider the following two syntax-directed definitions SDD1 and SDD2 for type declarations. Let P and Q be the languages specified by grammars G1 and G2, respectively. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) The languages P and Q are the same",
+            "(b) SDD2 is S-attributed and contains only synthesized attributes",
+            "(c) SDD1 is L-attributed and contains only inherited attributes",
+            "(d) The specifications of SDD1 and SDD2 are such that the same entries get added to the symbol table"
+          ],
+          "answer": "(a, b, d)",
           "marks": 2,
           "negative_marks": 0
         }
@@ -45768,6 +49354,189 @@ export const GATE_DATA = {
           "question_type": "NAT",
           "choices": [],
           "answer": "33",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1496,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "Network Layer",
+          "question_text": "Consider a file of size 4 million bytes being transferred between two hosts connected via a path consisting of three consecutive links of bandwidth 2 Mbps, 500 kbps, and 1 Mbps, respectively. All processing delays and propagation delays are negligible. Assume that there is no other background traffic over the path and no other additional overhead to transfer the file. Which one of the following is the total time (in seconds) to transfer the file?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 73",
+            "(b) 64",
+            "(c) 8",
+            "(d) 16"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1497,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "Application Layer Protocols",
+          "question_text": "Which one of the following protocols may need to broadcast some of its messages?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) SMTP",
+            "(b) FTP",
+            "(c) DHCP",
+            "(d) HTTP"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1508,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "IP Addressing",
+          "question_text": "If an IP network uses a subnet mask of 255.255.240.0, the maximum number of IP addresses that can be assigned to network interfaces is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "4094",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1518,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "Data Link Layer",
+          "question_text": "Consider the transmission of data bits 110001011 over a link that uses Cyclic Redundancy Check (CRC) code for error detection. If the generator bit pattern is given to be 1001, which one of the following options shows the remainder bit pattern appended to the data bits before transmission?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 011",
+            "(b) 101",
+            "(c) 000",
+            "(d) 100"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1533,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "TCP Congestion Control",
+          "question_text": "Consider a new TCP connection between a sender and a receiver. The receiver advertised window is constant at 48 KB, the MSS is 2 KB, and slow start threshold is 16 KB. The number of rounds of transmission required for the congestion control algorithm to reach the congestion avoidance phase is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "4",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1540,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "Data Link Layer",
+          "question_text": "It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless link of length 3000 kilometers... Let N be the minimum number of bits needed for the sequence number field in the protocol header. The value of N is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "30",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1558,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "TCP/IP",
+          "question_text": "With respect to a TCP connection between a client and a server, which one of the following statements is true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) The client and server use a two-way handshake mechanism before the start of data transmission.",
+            "(b) The server cannot initiate closing of the connection before the client initiates closing of the connection.",
+            "(c) The TCP connection is half-duplex.",
+            "(d) The client and server can initiate closing of the connection at the same time."
+          ],
+          "answer": "(d)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1559,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "Application Layer Protocols",
+          "question_text": "Which of the following statements is/are true with respect to the interaction of a web browser with a web server using HTTP 1.1?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, if the objects are stored in the same server.",
+            "(b) HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, even if they are stored in different servers.",
+            "(c) HTTP 1.1 facilitates sending a request for downloading one object without waiting for a previously requested object to be downloaded completely.",
+            "(d) HTTP 1.1 facilitates downloading multiple webpages on the same server to be downloaded over a single TCP connection."
+          ],
+          "answer": "(a, c, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1584,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "TCP Congestion Control",
+          "question_text": "A TCP sender successfully establishes a connection with a TCP receiver and starts the transmission of segments. The TCP congestion control mechanism's slow-start threshold is set to 10000 segments. Assume that the round-trip time is fixed at 1 millisecond. Assume that the sender always has data to send, the segments are numbered from 1, and no segment is lost. Let t denote the time (in milliseconds) at which the transmission of segment number 2000 starts. Which one of the following options is correct?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 9 <= t < 10",
+            "(b) 10 <= t < 11",
+            "(c) 11 <= t < 12",
+            "(d) 12 <= t < 13"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1585,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "Data Link Layer",
+          "question_text": "Consider the implementation of sliding window protocol over a lossless link, with a window size of W frames, where each frame is of size 1000 bits (including header). The bandwidth of the link is 100 kbps and the one-way propagation delay is 100 milliseconds. Assume that processing times at the sender and receiver are zero and the transmission time of acknowledgements is also zero. Which one of the following options gives the minimum size of W (in number of frames) required to achieve 100% link utilization?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 10",
+            "(b) 21",
+            "(c) 20",
+            "(d) 11"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1596,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "IP Addressing",
+          "question_text": "An ISP having an address block 202.16.0.0/15 assigns a block of 6000 IP addresses to a client, using the classless internet domain routing (CIDR) super-netting approach. Which of the following address blocks can be assigned by the ISP?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) 202.16.0.0/19",
+            "(b) 202.17.64.0/19",
+            "(c) 202.16.32.0/19",
+            "(d) 202.17.24.0/19"
+          ],
+          "answer": "(a, b, c)",
           "marks": 2,
           "negative_marks": 0
         }
@@ -49595,6 +53364,259 @@ export const GATE_DATA = {
           "answer": "[-1; 1; 0; 1]; [1; 0; -1; 0]; [-1; 0; 2; 2]",
           "marks": 2,
           "negative_marks": 0
+        },
+        {
+          "id": 1486,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Propositional & First Order Logic",
+          "question_text": "For two different persons x and y, the predicate M(x,y) denotes that x knows y. Consider the following statement. 'There is a person who does not know anyone else, but that person is known by everyone else.' Which one of the following expressions represents the above statement?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (∃ y)(∀ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+            "(b) (∀ y)(∃ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+            "(c) (∃ y)(∃ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+            "(d) (∀ y)(∀ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1489,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Probability",
+          "question_text": "The probability density function f(x) of a random variable X which takes real values is f(x) = (1 / (3 * sqrt(2 * pi))) * exp(-x^2 / 18), x ∈ (-∞, +∞). Which one of the following statements is correct about the random variable X?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) X is an exponential random variable",
+            "(b) X is a normal random variable",
+            "(c) X is a Poisson random variable",
+            "(d) X is a uniform random variable"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1501,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Relations",
+          "question_text": "Let R be a binary relation on the set {1, 2, ..., 10} where (x, y) ∈ R if the product of x and y is square of an integer. Which of the following properties is/are satisfied by R?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Reflexive",
+            "(b) Symmetric",
+            "(c) Transitive",
+            "(d) Antisymmetric"
+          ],
+          "answer": "(a, b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1502,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Calculus",
+          "question_text": "For a real number a, let I(a) = integral from -1 to 1 of (3x^2 - ax + 1) dx. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) The value of I(a) is independent of the value of a",
+            "(b) The value of I(a) can vary with the value of a",
+            "(c) There exists a ∈ (-∞, +∞) such that I(a) is a positive real number",
+            "(d) There exists a ∈ (-∞, +∞) such that I(a) is a negative real number"
+          ],
+          "answer": "(a, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1506,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Linear Algebra",
+          "question_text": "Consider the system of linear equations given below: ax + y = b, 16x + ay = 24. Suppose the values of a and b are chosen such that the system of linear equations produce multiple solutions. Then the product of a and b is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "24",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1537,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Linear Algebra",
+          "question_text": "The determinant of a 4x4 matrix A is 3. The value of the determinant of 2A is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "48",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1538,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Probability",
+          "question_text": "Suppose an unbiased coin is tossed 6 times... Let E1 be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let E2 be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails. The conditional probability P(E1|E2) is equal to ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "0.5",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1539,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Calculus",
+          "question_text": "Consider a function f:(0,1)->{0,1} defined as follows. For a real number r in (0,1), f(r)=1 if the second digit after the decimal point in r is one of the four digits 2, 3, 6 and 7. Otherwise, f(r) is equal to 0. The number of points in (0,1) at which f is discontinuous is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "40",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1551,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Probability",
+          "question_text": "An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 1/4",
+            "(b) 1/3",
+            "(c) 1/2",
+            "(d) 2/3"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1552,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Combinatorics",
+          "question_text": "Consider 4x4 matrices with their elements from {0, 1}. The number of such matrices with even number of 1s in every row and every column is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 512",
+            "(b) 1025",
+            "(c) 1023",
+            "(d) 255"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1553,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Linear Algebra",
+          "question_text": "For n > 1, the maximum multiplicity of any eigenvalue of an n x n matrix with elements from R is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) n",
+            "(b) n - 1",
+            "(c) 1",
+            "(d) n + 1"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1560,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Linear Algebra",
+          "question_text": "Let n > 1. Consider an n x n matrix M with its elements from R. Let the vector (0, 1, 0, 0, ..., 0) in R^n be in the null space of M. Which of the following options is/are always correct?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Determinant of M is 1",
+            "(b) Determinant of M is 0",
+            "(c) Rank of M is 1",
+            "(d) There are at least two non-zero vectors in the null space of M"
+          ],
+          "answer": "(b, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1572,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Calculus",
+          "question_text": "Consider the function f: R -> R defined as follows: f(x) = c_1 e^x - c_2 log_e(1/x) if x > 0, and 3 otherwise. where c_1, c_2 ∈ R. If f is continuous at x = 0, then c_1 + c_2 = ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "3",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1586,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Calculus",
+          "question_text": "Let f: R -> R be defined as follows: f(x) = (|x|/2 - x)(x - |x|/2). Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) f has a local maximum",
+            "(b) f has a local minimum",
+            "(c) f is continuous over R",
+            "(d) f is not differentiable over R"
+          ],
+          "answer": "(a, c, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1597,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Graphs",
+          "question_text": "Let G be an undirected graph, which is a path on 8 vertices. The number of matchings in G is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "34",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1598,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Probability",
+          "question_text": "Let X be a random variable which takes values in the set {1, 2, 3, 4, 5, 6, 7, 8}. Further, Pr(X=1) = Pr(X=2) = Pr(X=5) = Pr(X=7) = 1/6 and Pr(X=3) = Pr(X=4) = Pr(X=6) = Pr(X=8) = 1/12. The expected value of X, denoted by E[X], is equal to ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "4.25",
+          "marks": 2,
+          "negative_marks": 0
         }
       ],
       "Operating Systems": [
@@ -51503,6 +55525,169 @@ export const GATE_DATA = {
           "answer": "0.6",
           "marks": 2,
           "negative_marks": 0
+        },
+        {
+          "id": 1498,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "CPU Scheduling",
+          "question_text": "Which one of the following CPU scheduling algorithms cannot be preemptive?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Shortest Remaining Time First (SRTF) Scheduling",
+            "(b) First Come First Serve (FCFS) Scheduling",
+            "(c) Round Robin Scheduling",
+            "(d) Priority Scheduling"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1526,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "Process Synchronization",
+          "question_text": "Consider three processes P1, P2, and P3 running identical code... Which of the following patterns is/are possible to be generated as an outcome of the execution of these three processes?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) **$*###",
+            "(b) **$#*##",
+            "(c) **$*##*#",
+            "(d) ***$###"
+          ],
+          "answer": "(a, b, c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1528,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "File Systems",
+          "question_text": "To keep track of free blocks in a file system, consider that the linked list approach is used... The number of blocks required to hold the free disk block numbers is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "16417",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1529,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "Virtual Memory",
+          "question_text": "A system has a Translation Lookaside Buffer (TLB) that has a reach of 1 MB... If each TLB entry stores a 4-bit process id, page number, frame number, and a 2-bit control field, then the size of the TLB (in bytes) is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "1536",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1530,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "Memory Management",
+          "question_text": "Consider contiguous allocation of physical memory to processes using variable partitioning scheme... After allocating space to P1 and P2 using best-fit, the number of holes of size less than 8 KB is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "3",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1569,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Deadlock",
+          "question_text": "With respect to deadlocks in an operating system, which of the following statements is/are FALSE?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Banker's algorithm is used to prevent deadlocks",
+            "(b) Deadlock formation can be prevented by ensuring that the hold and wait condition is not allowed",
+            "(c) An assignment edge in a resource allocation graph is marked from a process to a resource",
+            "(d) A safe state guarantees that all processes can finish without formation of a deadlock"
+          ],
+          "answer": "(a, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1575,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Deadlock",
+          "question_text": "Consider a system consisting of K instances of a resource R, being shared by 5 processes. Assume that each process requires a maximum of two instances of resource R and a process can request or release only one instance at a time. Further, a process can request the second instance of the resource only after acquiring the first instance. The minimum value of K for the system to be deadlock-free is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "6",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1594,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Memory Management",
+          "question_text": "Consider a system that has a cache memory unit and a memory management unit (MMU). The address input to the cache memory is a physical address. The MMU has a translation lookaside buffer (TLB). Assume that when a page is evicted from the main memory, the corresponding blocks in the cache are marked as invalid. For a given memory reference, which of the following sequences of events can NEVER happen?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) TLB miss, Page table hit, Cache hit",
+            "(b) TLB hit, Page table miss, Cache hit",
+            "(c) TLB miss, Page table miss, Cache hit",
+            "(d) TLB miss, Page table miss, Cache miss"
+          ],
+          "answer": "(b, c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1599,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Disk Scheduling",
+          "question_text": "Consider a hard disk with a rotational speed of 15000 rpm. The time to move the read/write head from a track to its adjacent track is 1 millisecond. Initially, the head is on track 0. The number of sectors per track is 400. The sector size is 1024 bytes. It is necessary to transfer data from 10 randomly located sectors in each of the following tracks in the order: 5, 12 and 7. The total time for the data transfer (in milliseconds) from the hard disk is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "77.3",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1603,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Processes",
+          "question_text": "Consider the following program snippet. Assume that the program compiles and runs successfully. Further, assume that the fork() system call is always successful in creating a process. int main() { int i; for (i = 0; i < 3; i++) { if (fork() == 0) { continue; } break; } printf(\"Hello!\"); return 0; } The total number of times that the printf statement gets executed is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "4",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1604,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "CPU Scheduling",
+          "question_text": "Consider a CPU that has to execute two types of processes. The first type, Actuators (A), requires a CPU burst of 6 seconds. The second type, Controllers (C), requires a CPU burst of 8 seconds. A new process of type A arrives at time t = 10, 20, 30, 40 and 50 (in seconds). Similarly, a new process of type C arrives at time t = 11, 22, 33, 44, and 55 (in seconds). The CPU scheduling policy is First Come First Serve (FCFS). The first process of type A starts running at t = 10 seconds. The average waiting time (in seconds) for the 10 processes is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "9.5",
+          "marks": 2,
+          "negative_marks": 0
         }
       ],
       "Theory of Computation": [
@@ -53402,6 +57587,150 @@ export const GATE_DATA = {
           "answer": "Neither L1 nor L2 is context-free.; L2, L3 and L2 intersection L3 all are context-free.; Neither L1 nor its complement is context-free.",
           "marks": 2,
           "negative_marks": 0
+        },
+        {
+          "id": 1488,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Theory of Computation",
+          "topic": "Turing Machines",
+          "question_text": "Which one of the following statements is equivalent to the following assertion? Turing machine M decides the language L ⊆ {0,1}*.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Turing machine M halts on all input strings in (0,1)*",
+            "(b) Turing machine M accepts all input strings in L",
+            "(c) Turing machine M rejects all input strings in {0,1}* - L",
+            "(d) Turing machine M accepts all input strings in L and rejects all input strings in {0,1}* - L"
+          ],
+          "answer": "(d)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1504,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Theory of Computation",
+          "topic": "Context-Free Grammars",
+          "question_text": "Which of the following grammars is/are ambiguous?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) S -> aSb | ε",
+            "(b) E -> E+E | E*E | id",
+            "(c) S -> aS | Sa | ε",
+            "(d) S -> aS | ε"
+          ],
+          "answer": "(b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1522,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Theory of Computation",
+          "topic": "Finite Automata",
+          "question_text": "Consider the following two finite automata D1 and D2... Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) L(D1) = L(D2)",
+            "(b) L(D1) is a proper subset of L(D2)",
+            "(c) L(D1) ∩ L(D2) = {ε}",
+            "(d) (L(D1) ∪ L(D2))* consists of all strings in (0,1)* whose length is divisible by 3"
+          ],
+          "answer": "(c, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1523,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Theory of Computation",
+          "topic": "Context-Free Languages",
+          "question_text": "Let Σ = {a,b,c,d} and let L = {a^i b^j c^k d^l | i, j, k, l ≥ 0}. Which of the following constraints ensure(s) that the language L is context-free?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) i + k = j + l",
+            "(b) i = k and j = l",
+            "(c) i = l and j = k",
+            "(d) i + j = k + l"
+          ],
+          "answer": "(a, c, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1565,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Theory of Computation",
+          "topic": "Context-Free Grammars",
+          "question_text": "Consider the following grammar where S is the start symbol, and a and b are terminal symbols. S -> aSbS | bS | ε. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) The grammar is ambiguous.",
+            "(b) The string abb has two distinct derivations in this grammar.",
+            "(c) The string abab has only one rightmost derivation.",
+            "(d) The language generated by the grammar is undecidable."
+          ],
+          "answer": "(a, b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1566,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Theory of Computation",
+          "topic": "Finite Automata",
+          "question_text": "Let M be a non-deterministic finite automaton (NFA) with 6 states over a finite alphabet. Which of the following options CANNOT be the number of states in the minimal deterministic finite automaton (DFA) that is equivalent to M?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) 32",
+            "(b) 65",
+            "(c) 1",
+            "(d) 128"
+          ],
+          "answer": "(b, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1591,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Theory of Computation",
+          "topic": "Regular Languages",
+          "question_text": "Let L1 and L2 be two languages over a finite alphabet, such that L1 ∩ L2 and L2 are regular languages. Which of the following statements is/are always true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) L1 is regular",
+            "(b) L1 ∪ L2 is regular",
+            "(c) L2' is context free",
+            "(d) L1 is context free"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1592,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Theory of Computation",
+          "topic": "Context-Free Languages",
+          "question_text": "Consider the following context-free grammar G: S -> abaABAbba; A -> aaBBAb | bBabaa; B -> aBb | ab. Let L(G) be the language generated by the grammar G. For a string s ∈ L(G) let n1(s) be the number of a's in s and n2(s) be the number of b's in s. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) There is a string s ∈ L(G) such that n1(s) < n2(s)",
+            "(b) For every string s ∈ L(G) n1(s) >= n2(s)",
+            "(c) There is a string s ∈ L(G) such that n1(s) > 2n2(s)",
+            "(d) For every string s ∈ L(G) n1(s) <= 2n2(s)"
+          ],
+          "answer": "(b, d)",
+          "marks": 2,
+          "negative_marks": 0
         }
       ],
       "Computer Organization": [
@@ -55102,6 +59431,202 @@ export const GATE_DATA = {
           "question_type": "NAT",
           "choices": [],
           "answer": "1.43",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1493,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Interrupts",
+          "question_text": "Consider the following two statements about interrupt handling mechanisms in a CPU. S1: In non-vectored interrupt mechanism, it usually takes more time to start the Interrupt Service Routine (ISR) when compared to that in a vectored interrupt mechanism. S2: In daisy-chain interrupt mechanism, the CPU polls all the input devices individually to determine the source of the interrupt. Which one of the following options is correct with respect to S1 and S2?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Both S1 and S2 are true",
+            "(b) Both S1 and S2 are false",
+            "(c) S1 is true and S2 is false",
+            "(d) S1 is false and S2 is true"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1509,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Floating Point Representation",
+          "question_text": "The 32-bit IEEE 754 single precision representation of a number is 0xC2710000. The number in decimal representation is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "-60.25",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1519,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Instruction Set Architecture",
+          "question_text": "Consider a processor that has 16 general purpose registers and it uses 2-byte instruction format for all its instructions. Variable-sized opcodes are permitted... If there are 2 unique M-type opcodes and 7 unique R-type opcodes, which one of the following options gives the maximum number of unique opcodes possible for C-type instructions?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 8",
+            "(b) 4",
+            "(c) 64",
+            "(d) 16"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1527,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Cache Memory",
+          "question_text": "Consider a system with a processor and a 4 KB direct mapped cache with block size of 16 bytes. The system has a 16 MB physical memory... Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Every access to P results in a cache miss",
+            "(b) Every access to R results in a cache hit",
+            "(c) Every access to Q results in a cache miss",
+            "(d) Except the first access to S, all subsequent accesses to S result in cache hits"
+          ],
+          "answer": "(a, b)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1531,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Cache Memory",
+          "question_text": "Consider a system with 1 MB physical memory and a word length of 1 byte. The system uses a direct mapped cache... The maximum possible size of the cache (in KB) for this configuration is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "128",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1532,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Pipelining",
+          "question_text": "A non-pipelined instruction execution unit that operates at 1.6 GHz clock takes an average of 5 clock cycles... The speed-up obtained by the pipelined design over the non-pipelined one for this program is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "2.34",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1554,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Addressing Modes",
+          "question_text": "Match each addressing mode in List I with a data element or an element of a data structure (in a high-level language) in List II: List I: P. Immediate, Q. Indirect, R. Base with index, S. Base with offset/displacement. List II: 1. Element of an array, 2. Pointer, 3. Element of a record, 4. Constant",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) P-4, Q-3, R-1, S-2",
+            "(b) P-4, Q-2, R-1, S-3",
+            "(c) P-1, Q-4, R-3, S-2",
+            "(d) P-2, Q-3, R-1, S-4"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1555,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Instruction Set Architecture",
+          "question_text": "Consider a processor P whose instruction set architecture is the load-store architecture. The instruction format is such that the first operand of any instruction is the destination operand. Which one of the following sequences of instructions corresponds to the high-level language statement Z = X + Y? Note: X, Y, and Z are memory operands. R0, R1, and R2 are registers.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) ADD Z, X, Y",
+            "(b) LOAD R0, X; ADD Z, R0, Y",
+            "(c) ADD R0, X, Y; STORE Z, R0",
+            "(d) LOAD R0, X; LOAD R1, Y; ADD R2, R0, R1; STORE Z, R2"
+          ],
+          "answer": "(d)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1556,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Pipelining",
+          "question_text": "Which one of the following dependencies among the register operands of different instructions can cause a data hazard in a pipelined processor?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Read-after-read",
+            "(b) Read-after-write",
+            "(c) Write-after-read",
+            "(d) Write-after-write"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1576,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Floating Point Representation",
+          "question_text": "Consider the real valued variables X, Y and Z represented using the IEEE 754 single-precision floating-point format. The binary representations of X and Y in hexadecimal notation are as follows: X: 35000000 Y: 34A00000. Let Z = X + Y. Which one of the following is the binary representation of Z, in hexadecimal notation?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 35C80000",
+            "(b) 35CC0000",
+            "(c) 35E80000",
+            "(d) 35EC0000"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1578,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Cache Memory",
+          "question_text": "The size of the physical address space of a processor is 2^32 bytes. The capacity of a cache memory unit is 2^23 bytes. The cache block size is 128 bytes. The cache memory unit can be built as a direct mapped cache or as a K-way set-associative cache, where K = 2^L and L ∈ {1,2,3}. Let the length of the TAG field be M bits for the direct mapped cache, and N bits for the set-associative cache. Which one of the following options is true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) N = M + L",
+            "(b) N = M - L",
+            "(c) N = M + K",
+            "(d) N = M - K"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1600,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Pipelining",
+          "question_text": "The EX stage of a pipelined processor performs the memory read operations for LOAD instructions, and the operations for the arithmetic and logic instructions. Let t_EX denote the time taken by the EX stage to perform the operation for an instruction. For each instruction type, the values of t_EX and M (the number of instructions of that type in a sequence of 100 instructions) are given. The duration of the pipeline clock cycle is 1 nanosecond... When program P is executed, the number of clock cycles for which the pipeline is stalled due to structural hazards in the EX stage is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "95",
           "marks": 2,
           "negative_marks": 0
         }
@@ -56950,6 +61475,145 @@ export const GATE_DATA = {
           "answer": "2",
           "marks": 2,
           "negative_marks": 0
+        },
+        {
+          "id": 1490,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Databases",
+          "topic": "Database Architecture",
+          "question_text": "In the context of DBMS, consider the two sets T and S given below. T: I: Logical schema, II: Physical schema, III: External schema. S: L: Views, M: File organization and indexes, N: Relations. Which one of the following is the correct match from T to S?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) I - L, II - M, III - N",
+            "(b) I - M, II - L, III - N",
+            "(c) I - N, II - M, III - L",
+            "(d) I - N, II - L, III - M"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1495,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Databases",
+          "topic": "Concurrency Control",
+          "question_text": "Consider concurrent execution of two transactions T1 and T2 in a DBMS, both of which access a data object A. For these two transactions to not conflict on A, which one of the following statements must be true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Both T1 and T2 only read A",
+            "(b) T1 reads A and T2 writes A",
+            "(c) T1 writes A and T2 reads A",
+            "(d) Both T1 and T2 write A"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1517,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Databases",
+          "topic": "Normalization",
+          "question_text": "In the context of schema normalization in relational DBMS, consider a set F of functional dependencies... Listed below are four combinations of these three rules. Which one of these combinations is both necessary and sufficient for the proof of the Union rule?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Reflexivity, Augmentation, and Transitivity",
+            "(b) Reflexivity and Augmentation",
+            "(c) Transitivity",
+            "(d) Augmentation and Transitivity"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1521,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Databases",
+          "topic": "Indexing",
+          "question_text": "An index in a DBMS is said to be dense if an index entry appears for every search-key value in the indexed file... S1: A hash index must be a dense index. S2: A B+ tree index can be a sparse index. Which one of the following options is correct?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Both S1 and S2 are true",
+            "(b) Both S1 and S2 are false",
+            "(c) S1 is true and S2 is false",
+            "(d) S1 is false and S2 is true"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1570,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Databases",
+          "topic": "Keys and Functional Dependencies",
+          "question_text": "Let P, Q, R and S be the attributes of a relation in a relational schema. Let X -> Y indicate functional dependency in the context of a relational database, where X, Y ⊆ {P, Q, R, S}. Which of the following options is/are always true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) If ({P, Q} -> {R} and {P} -> {R}) then {Q} -> {R}",
+            "(b) If {P, Q} -> {R} then ({P} -> {R} or {Q} -> {R})",
+            "(c) If ({P} -> {R} and {Q} -> {S}) then {P, Q} -> {R, S}",
+            "(d) If {P} -> {R} then {P, Q} -> {R}"
+          ],
+          "answer": "(c, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1571,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Databases",
+          "topic": "Normalization",
+          "question_text": "In the context of relational database normalization, which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) It is always possible to obtain a dependency-preserving 3NF decomposition of a relation",
+            "(b) It is always possible to obtain a dependency-preserving 1NF decomposition of a relation",
+            "(c) It is not always possible to obtain a dependency-preserving BCNF decomposition of a relation",
+            "(d) It is not always possible to obtain a dependency-preserving 2NF decomposition of a relation"
+          ],
+          "answer": "(a, b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1583,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Databases",
+          "topic": "Relational Algebra",
+          "question_text": "Consider a relational database schema with two relations R(P, Q) and S(X, Y). Let E = {<u> | ∃v ∃w <u,v> ∈ R ∧ <v,w> ∈ S} be a tuple relational calculus expression. Which one of the following relational algebraic expressions is equivalent to E?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Π_P (R ⋈_{R.P=S.X} S)",
+            "(b) Π_P (S ⋈_{S.X=R.Q} R)",
+            "(c) Π_P (R ⋈_{R.P=S.Y} S)",
+            "(d) Π_P (S ⋈_{S.Y=R.Q} R)"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1605,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Databases",
+          "topic": "Keys and Functional Dependencies",
+          "question_text": "Consider a relational database schema with a relation R(A, B, C, D). If {A, B} and {A, C} are the only two candidate keys of the relation R, then the number of superkeys of relation R is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "6",
+          "marks": 2,
+          "negative_marks": 0
         }
       ],
       "Digital Logic": [
@@ -58285,6 +62949,145 @@ export const GATE_DATA = {
           "answer": "P is 10:2^{10} decoder; Q is 5:2^5 decoder; T is 2:1 multiplexer",
           "marks": 2,
           "negative_marks": -0.66
+        },
+        {
+          "id": 1491,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Digital Logic",
+          "topic": "Boolean Algebra",
+          "question_text": "Which one of the following options is not a property of Boolean Algebra? Note: + is OR operation, · is AND operation, and ' is NOT operation",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) a + b = b + a",
+            "(b) a · a' = 1",
+            "(c) a + a' = 1",
+            "(d) a · b = b · a"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1503,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Digital Logic",
+          "topic": "Number Representation",
+          "question_text": "In a system, numbers are represented using 4-bit two's complement form. Consider four numbers N1 = 1011, N2 = 1101, N3 = 1010 and N4 = 1001 in the system. Which of the following operations will result in arithmetic overflow?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) N1 + N2",
+            "(b) N2 + N3",
+            "(c) N3 - N4",
+            "(d) N1 + N4"
+          ],
+          "answer": "(b, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1515,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Digital Logic",
+          "topic": "Boolean Algebra",
+          "question_text": "Consider the following 4-variable Boolean function F(A,B,C,D) = Σ m(0,1,2,3,8,9,10,11). Consider A as MSB, D as LSB. Which one of the following options represents the minimal sum of products form for the above function?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) A' + B' + C' + D'",
+            "(b) B'",
+            "(c) A'B' + AB",
+            "(d) A'"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1534,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Digital Logic",
+          "topic": "Multiplexers",
+          "question_text": "Consider the digital circuit shown below with two input lines A and B, two select lines S0 and S1, and an output line Y. Out of 16 possible input combinations, the number of combinations that produce Y = 1 is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "6",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1561,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Digital Logic",
+          "topic": "Boolean Algebra",
+          "question_text": "Consider the following Boolean expression of a function F: F(P,Q) = (P' + Q) ⊕ (P'Q). Which of the following expressions is/are equivalent to F?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) P ⊕ Q",
+            "(b) P ⊙ Q",
+            "(c) (P ⊙ Q)'",
+            "(d) (P ⊕ Q)'"
+          ],
+          "answer": "(a, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1562,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Digital Logic",
+          "topic": "Number Representation",
+          "question_text": "Consider the 8-bit signed integers X, Y and Z represented using the sign-magnitude form. The binary representations of X and Y are as follows: X: 10110100 Y: 01001100. Which of the following operations to compute Z result(s) in an arithmetic overflow?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Z = X + Y",
+            "(b) Z = X - Y",
+            "(c) Z = -X + Y",
+            "(d) Z = -X - Y"
+          ],
+          "answer": "(b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1577,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Digital Logic",
+          "topic": "Sequential Circuits",
+          "question_text": "Consider a 2-bit saturating up/down counter that performs the saturating up count when the input P is 0, and the saturating down count when P is 1. The counter is built as a synchronous sequential circuit using D flip-flops. Which one of the following options corresponds to the expressions for the inputs of the D flip-flops, D1 and D0?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) D1 = PQ1 + P'Q0 + Q1Q0, D0 = PQ0 + P'Q1 + Q1Q0'",
+            "(b) D1 = P'Q1 + P'Q0 + Q1Q0, D0 = P'Q0' + P'Q1 + Q1Q0'",
+            "(c) D1 = P'Q1' + P'Q0 + Q1Q0, D0 = P'Q0 + P'Q1 + Q1Q0'",
+            "(d) D1 = PQ1' + P'Q0 + Q1Q0, D0 = PQ0' + P'Q1 + Q1Q0'"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1588,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Digital Logic",
+          "topic": "Boolean Algebra",
+          "question_text": "Consider a Boolean function F with the following minterm expression: F(P, Q, R, S) = Σ m(1, 2, 3, 4, 5, 7, 10, 12, 13, 14). Which of the following options is/are the minimal sum-of-products expression(s) of F?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) P'S' + QR' + P'Q'R + Q'RS'",
+            "(b) P'S' + QR' + P'Q'R + PRS'",
+            "(c) P'S' + QR' + PQS' + PRS'",
+            "(d) P'S' + QR' + PQS' + Q'RS'"
+          ],
+          "answer": "(b, d)",
+          "marks": 2,
+          "negative_marks": 0
         }
       ],
       "Programming": [
@@ -60008,6 +64811,112 @@ export const GATE_DATA = {
           "answer": "z K S",
           "marks": 2,
           "negative_marks": -0.66
+        },
+        {
+          "id": 1492,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Programming",
+          "topic": "Memory Management",
+          "question_text": "In C runtime environment, which one of the following is stored in heap?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) A static variable declared inside a function",
+            "(b) An array of integers declared inside a function",
+            "(c) A dynamically allocated array of integers created using malloc() function call",
+            "(d) Return address of a function"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1494,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Programming",
+          "topic": "C Programming",
+          "question_text": "Consider the following three ANSI-C programs, P1, P2 and P3... Which one of the following statements is true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Only P1 will compile without any error",
+            "(b) Only P2 will compile without any error",
+            "(c) Only P3 will compile without any error",
+            "(d) All three programs P1, P2, and P3 will compile without any error"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1535,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Programming",
+          "topic": "Pointers",
+          "question_text": "Consider the following ANSI-C program... The output of this program is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "9",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1536,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Programming",
+          "topic": "Recursion",
+          "question_text": "Consider the following ANSI-C function... The maximum possible value that can be returned from this function is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "1",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1574,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Programming",
+          "topic": "C Programming",
+          "question_text": "Consider the following program in C: void func(int i, int j) { if(i < j) { int i = 0; while (i < 10) { j += 2; i++; } } printf(\"%d\", i); } int main() { int i = 9, j = 10; func(i, j); return 0; } The output of the program is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "9",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1579,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Programming",
+          "topic": "Linked Lists",
+          "question_text": "Consider the following code snippet in C language that computes the number of nodes in a non-empty singly linked list pointed to by the pointer variable head. int getListSize (struct node *head) { if(E1) return 1; return E2; } Which one of the following options gives the correct replacements for the expressions E1 and E2?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) E1: head == NULL; E2: 1 + getListSize(head)",
+            "(b) E1: head->next == NULL; E2: 1 + getListSize(head->next)",
+            "(c) E1: head == NULL; E2: 1 + getListSize(head->next)",
+            "(d) E1: head->next == NULL; E2: 1 + getListSize(head)"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1601,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Programming",
+          "topic": "Recursion",
+          "question_text": "Consider the recursive functions represented by the following code segment: int bar(int n) { if (n == 1) return 0; else return 1 + bar(n/2); } int foo(int n) { if (n == 1) return 1; else return 1 + foo(bar(n)); } The smallest positive integer n for which foo(n) returns 5 is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "65536",
+          "marks": 2,
+          "negative_marks": 0
         }
       ],
       "Data Structures": [
@@ -60785,6 +65694,153 @@ export const GATE_DATA = {
           "question_type": "NAT",
           "choices": [],
           "answer": "10",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1487,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Data Structures",
+          "topic": "Trees",
+          "question_text": "The set T represents various traversals over binary tree. The set S represents the order of visiting nodes during a traversal. T: I: Inorder, II: Preorder, III: Postorder. S: L: left subtree, node, right subtree; M: node, left subtree, right subtree; N: left subtree, right subtree, node. Which one of the following is the correct match from T to S?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) I - L, II - M, III - N",
+            "(b) I - M, II - L, III - N",
+            "(c) I - N, II - M, III - L",
+            "(d) I - L, II - N, III - M"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1505,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Data Structures",
+          "topic": "Hashing",
+          "question_text": "The keys 5, 28, 19, 15, 26, 33, 12, 17, 10 are inserted into a hash table using the hash function h(k) = k mod 9. The collisions are resolved by chaining. After all the keys are inserted, the length of the longest chain is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "3",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1524,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Data Structures",
+          "topic": "Binary Search Trees",
+          "question_text": "Consider a binary search tree (BST) with n leaf nodes (n > 0)... Let K represent the list of all such new keys to be inserted into the BST. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) K cannot have any duplicates",
+            "(b) K will have at least one element",
+            "(c) After inserting all keys from K, the height of the BST can increase at most by one",
+            "(d) Number of nodes in the BST will double after inserting all keys from K"
+          ],
+          "answer": "(a, c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1525,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Data Structures",
+          "topic": "Stacks & Queues",
+          "question_text": "Consider a stack S and a queue Q. Both of them are initially empty and have the capacity to store ten elements each. The elements 1, 2, 3, 4, and 5 arrive one by one... Which of the following options is/are possible valid assignment(s) of the elements?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) 1S, 2Q, 3S, 4S, 5Q",
+            "(b) 1Q, 2Q, 3S, 4S, 5Q",
+            "(c) 1Q, 2Q, 3Q, 4S, 5S",
+            "(d) 1S, 2S, 3S, 4Q, 5Q"
+          ],
+          "answer": "(a, b)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1563,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Heaps",
+          "question_text": "Let n be an odd number greater than 100. Consider a binary minheap with n elements stored in an array P whose index starts from 1. Which of the following indices of P do/does NOT correspond to any leaf node of the minheap?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) (n+1)/2",
+            "(b) (n-1)/2",
+            "(c) (n-3)/2",
+            "(d) n"
+          ],
+          "answer": "(b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1564,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Hashing",
+          "question_text": "Consider a hash table P[0, 1, ..., 10] that is initially empty. The hash table is maintained using open addressing with linear probing. The hash function used is h(x) = (x + 7) mod 11. Consider the following sequence of insertions performed on P: 1, 13, 22, 15, 11, 24. Which of the following positions in the hash table is/are empty after these insertions are performed?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) 0",
+            "(b) 10",
+            "(c) 2",
+            "(d) 1"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1573,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Trees",
+          "question_text": "The height of a binary tree is the number of edges in the longest path from the root to a leaf in the tree. The maximum possible height of a full binary tree with 23 nodes is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "11",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1580,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Binary Search Trees",
+          "question_text": "Let P be the set of all integers from 1 to 15. Consider any order of insertion of the elements of P into a binary search tree that creates a complete binary tree. Which one of the following elements can NEVER be the third element that is inserted?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 4",
+            "(b) 2",
+            "(c) 10",
+            "(d) 5"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1602,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Trees",
+          "question_text": "The following sequence corresponds to the preorder traversal of a binary search tree: 50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77. The position of the element 60 in the postorder traversal of T is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "7",
           "marks": 2,
           "negative_marks": 0
         }
@@ -62746,6 +67802,235 @@ export const GATE_DATA = {
           "question_type": "NAT",
           "choices": [],
           "answer": "24",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1499,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Asymptotic Analysis",
+          "question_text": "Consider the following functions, where n is a positive integer: n^(1/3), log(n), log(n!), 2^(log(n)). Which one of the following options lists the functions in increasing order of asymptotic growth rate? Note: Assume the base of log to be 2.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) log(n), n^(1/3), 2^(log(n)), log(n!)",
+            "(b) n^(1/3), log(n), log(n!), 2^(log(n))",
+            "(c) log(n), n^(1/3), log(n!), 2^(log(n))",
+            "(d) 2^(log(n)), n^(1/3), log(n), log(n!)"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1500,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Recurrence Relations",
+          "question_text": "Which of the following can be recurrence relation(s) corresponding to an algorithm with time complexity Θ(n)?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) T(n) = T(n - 1) + 1, T(1) = 1",
+            "(b) T(n) = 2T(n/2) + 1, T(1) = 1",
+            "(c) T(n) = 2T(n/2) + n, T(1) = 1",
+            "(d) T(n) = T(n - 1) + n, T(1) = 1"
+          ],
+          "answer": "(a, b)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1507,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Sorting",
+          "question_text": "Consider an array A = [10, 7, 8, 19, 41, 35, 25, 31]. Suppose the merge sort algorithm is executed on array A to sort it in increasing order. The merge sort algorithm will carry out a total of 7 merge operations. A merge operation on sorted left array L and sorted right array R is said to be void if the output of the merge operation is the elements of array L followed by the elements of array R. The number of void merge operations among these 7 merge operations is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "3",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1511,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Graph Algorithms",
+          "question_text": "Consider a complete graph K_n with n vertices (n > 4). Note that multiple spanning trees can be constructed over K_n. Each of these spanning trees is represented as a set of edges. The Jaccard coefficient between any two sets is defined as the ratio of the size of the intersection of the two sets to the size of the union of the two sets. Which one of the following options gives the lowest possible value for the Jaccard coefficient between any two spanning trees of K_n?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 1/n",
+            "(b) 1/(2n-3)",
+            "(c) 0",
+            "(d) 1/(n-1)"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1512,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Shortest Paths",
+          "question_text": "Let G be a weighted directed acyclic graph with m edges and n vertices. Given G and a source vertex s in G, which one of the following options gives the worst case time complexity of the fastest algorithm to find the lengths of shortest paths from s to all vertices that are reachable from s in G?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Θ(m + n)",
+            "(b) Θ(m + n log n)",
+            "(c) Θ(nm)",
+            "(d) Θ(n^3)"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1513,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Algorithm Analysis",
+          "question_text": "Consider an array A of integers of size n. The indices of A run from 1 to n. An algorithm is to be designed to check whether A satisfies the condition: ∀ i,j ∈ {1,...,n-1} such that i > j, (A[i+1] - A[i]) > (A[j+1] - A[j]). Which one of the following gives the worst case time complexity of the fastest algorithm that can be designed for the problem?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Θ(n)",
+            "(b) Θ(log n)",
+            "(c) Θ(n log n)",
+            "(d) Θ(n^2)"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1514,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Dynamic Programming",
+          "question_text": "Consider a table T where the elements T[i][j], 0 ≤ i, j ≤ n, represent the cost of the optimal solutions of different subproblems of a problem that is being solved using a dynamic programming algorithm... Which one of the following statements is true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Both algorithms B1 and B2 are correct",
+            "(b) Algorithm B1 is correct, but algorithm B2 is incorrect",
+            "(c) Algorithm B2 is correct, but algorithm B1 is incorrect",
+            "(d) Both algorithms B1 and B2 are incorrect"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1557,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Recurrence Relations",
+          "question_text": "Consider the following recurrence relations: For all n > 1, T1(n) = 4T1(n/2) + T2(n); T2(n) = 5T2(n/4) + Θ(log_2 n). Assume that for all n <= 1, T1(n) = 1 and T2(n) = 1. Which one of the following options is correct?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) T1(n) = Θ(n^2)",
+            "(b) T1(n) = Θ(n^2 log_2 n)",
+            "(c) T1(n) = Θ(n^{log_4 5})",
+            "(d) T1(n) = Θ(n^{log_4 5} log_2 n)"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1581,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Shortest Paths",
+          "question_text": "Let G(V,E) be an undirected, edge-weighted graph with integer weights. The weight of a path is the sum of the weights of the edges in that path. The length of a path is the number of edges in that path. Let s in V be a vertex in G. For every u in V and for every k >= 0 let d_k(u) denote the weight of a shortest path (in terms of weight) from s to u of length at most k. If there is no path from s to u of length at most k, then d_k(u) = ∞. Consider the statements: S1: For every k >= 0 and u in V, d_{k+1}(u) <= d_k(u). S2: For every (u,v) in E if (u,v) is part of a shortest path from s to v, then for every k >= 0, d_k(u) <= d_k(v). Which one of the following options is correct?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Only S1 is true",
+            "(b) Only S2 is true",
+            "(c) Both S1 and S2 are true",
+            "(d) Neither S1 nor S2 is true"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1587,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Graph Algorithms",
+          "question_text": "Let G(V,E) be a simple, undirected graph. A vertex cover of G is a subset V' ⊆ V such that for every (u,v) ∈ E, u ∈ V' or v ∈ V'. Let the size of the smallest vertex cover in G be k. Let S be any vertex cover of size k. For a vertex v ∈ V, which of the following constraints will always ensure that v ∈ S?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) The degree of v is at least k + 1",
+            "(b) The vertex v is on a path of length k + 1",
+            "(c) The vertex v is on a cycle of length k + 1",
+            "(d) The vertex v is a part of a clique of size k"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1589,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Minimum Spanning Tree",
+          "question_text": "Let G(V,E) be a simple, undirected, edge-weighted graph with unique edge weights. Which of the following statements about the minimum spanning trees (MST) of G is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) In every cycle C of G, the edge with the largest weight in C is not in any MST",
+            "(b) In every cycle C of G, the edge with the smallest weight in C is in every MST",
+            "(c) For every vertex v ∈ V, the edge with the largest weight incident on v is not in any MST",
+            "(d) For every vertex v ∈ V, the edge with the smallest weight incident on v is in every MST"
+          ],
+          "answer": "(a, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1590,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Graph Traversal",
+          "question_text": "Consider the pseudocode for depth-first search (DFS) algorithm which takes a directed graph G(V,E) as input, where d[v] and f[v] are the discovery time and finishing time... Suppose that the input directed graph G(V,E) is a directed acyclic graph (DAG). For an edge (u,v) ∈ E which of the following options will NEVER be correct?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) d[u] < d[v] < f[v] < f[u]",
+            "(b) d[v] < d[u] < f[u] < f[v]",
+            "(c) d[v] < f[v] < d[u] < f[u]",
+            "(d) d[u] < d[v] < f[u] < f[v]"
+          ],
+          "answer": "(b, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1595,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Graph Algorithms",
+          "question_text": "An undirected, unweighted, simple graph G(V,E) is said to be 2-colorable if there exists a function c: V -> {0, 1} such that for every (u,v) ∈ E, c(u) != c(v). Which of the following statements about 2-colorable graphs is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) If G is 2-colorable, then G may contain cycles of odd length",
+            "(b) If G is 2-colorable, then G may contain cycles of even length",
+            "(c) An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|V|+|E|), if G is represented as an adjacency list",
+            "(d) An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|E|log|V|), if G is represented as an adjacency list"
+          ],
+          "answer": "(b, c)",
           "marks": 2,
           "negative_marks": 0
         }
@@ -66925,6 +72210,366 @@ export const GATE_DATA = {
           "answer": "3",
           "marks": 2,
           "negative_marks": -0.66
+        },
+        {
+          "id": 1476,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Verbal Ability",
+          "question_text": "Expedite, Hasten, Hurry. Fill the blank by choosing a word with a meaning similar to that of the words given above.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Accelerate",
+            "(b) Retard",
+            "(c) Provide",
+            "(d) Disable"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1477,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Spatial Reasoning",
+          "question_text": "A black square PQRS has been cut into two parts. One part of it is shown in Panel I. Which one of the shapes in Panel II is the other part?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (i)",
+            "(b) (ii)",
+            "(c) (iii)",
+            "(d) (iv)"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1478,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Probability",
+          "question_text": "A day can only be cloudy or sunny. The probability of a day being cloudy is 0.5, independent of the condition on other days. What is the probability that in any given four days, there will be three cloudy days and one sunny day?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 1/4",
+            "(b) 3/4",
+            "(c) 2/3",
+            "(d) 3/8"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1479,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Quantitative Aptitude",
+          "question_text": "The values of Stock A and Stock B on a particular day are Rs. 50 and Rs. 80, respectively. An investor invests Rs. 100 in Stock A and Rs. 80 in Stock B. He sells all the stocks the next day when the value of Stock A is Rs. 55 and Stock B is Rs. 70. The profit made by the investor is Rs.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 0",
+            "(b) 5",
+            "(c) 10",
+            "(d) 20"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1480,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Logical Reasoning",
+          "question_text": "'When it is raining, peacocks dance.' Based only on this sentence, which one of the following options is necessarily true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Peacocks dance only when it is raining.",
+            "(b) When peacocks dance, it is raining.",
+            "(c) When peacocks are not dancing, it is not raining.",
+            "(d) When it is not raining, peacocks do not dance."
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1481,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Verbal Ability",
+          "question_text": "Water : P :: Food : Q. Choose the P and Q combination from the options below to form a meaningful analogy.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) P = Thirst; Q = Hunger",
+            "(b) P = Drink; Q = Hunger",
+            "(c) P = Thirst; Q = Satiated",
+            "(d) P = Wet; Q = Critic"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1482,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Spatial Reasoning",
+          "question_text": "Two tiles are missing in Panel I. Which one of the options in Panel II is the appropriate choice for the missing tiles?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (i)",
+            "(b) (ii)",
+            "(c) (iii)",
+            "(d) (iv)"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1483,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Graphs",
+          "question_text": "Figures (i) and (ii) represent intercity highway systems. The black dots represent cities and the line segments between them represent intercity highways. A salesperson needs to make a trip. She needs to start from a city, visit each of the remaining cities exactly once, and finally return to the same city from which she started. Which one of the following options is then true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Such a trip is possible for (i), but not for (ii).",
+            "(b) Such a trip is possible for (ii), but not for (i).",
+            "(c) Such a trip is possible for both (i) and (ii).",
+            "(d) Such a trip is possible neither for (i) nor for (ii)."
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1484,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Logical Reasoning",
+          "question_text": "The figure in Panel I below is a grid of cells with four rows and four columns. The numbers on the top and on the left represent the number of cells that are to be shaded in that column and row, respectively. Which one of the options shown in Panel II below represents the grid shaded correctly?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (i)",
+            "(b) (ii)",
+            "(c) (iii)",
+            "(d) (iv)"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1485,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Probability",
+          "question_text": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the sum of the two recorded numbers is a prime number is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 3/36",
+            "(b) 13/36",
+            "(c) 15/36",
+            "(d) 19/36"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1541,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Verbal Ability",
+          "question_text": "The antonym of the word protagonist is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) agnostic",
+            "(b) antagonist",
+            "(c) arsonist",
+            "(d) anarchist"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1542,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Spatial Reasoning",
+          "question_text": "The figure shows two 4-tile patterns. Either one or both of the patterns can be used any number of times and in any orientation to construct a new pattern. Which one of the options below cannot be constructed by using only these two 4-tile patterns assuming there are no overlaps among them?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a)",
+            "(b)",
+            "(c)",
+            "(d)"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1543,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Quantitative Aptitude",
+          "question_text": "Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each game is eliminated from the tournament. Every player plays until she is defeated or remains the last undefeated player. The last undefeated player is declared the winner of the tournament. If there are 64 players in the beginning of the tournament, how many games should be played in total to declare the winner of the tournament?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 127",
+            "(b) 64",
+            "(c) 63",
+            "(d) 32"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1544,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Quantitative Aptitude",
+          "question_text": "A student needs to enroll for a minimum of 60 credits. A student cannot enroll for more than 70 credits. The credits are divided amongst project and three distinct sets of courses namely, core courses, specialization courses, and elective courses. It is compulsory for a student to enroll for exactly 15 credits of core courses and exactly 20 credits of project. In addition, a student has to enroll for a minimum of 10 credits of specialization courses. The maximum credits of elective courses that a student can enroll for is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 10",
+            "(b) 15",
+            "(c) 20",
+            "(d) 25"
+          ],
+          "answer": "(d)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1545,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Logical Reasoning",
+          "question_text": "When the teacher is in the room, all students stand silently. If the above statement is true, which one of the following statements is not necessarily true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) If any student is not standing silently, then the teacher is not in the room.",
+            "(b) When the teacher is in the room, all students are silent.",
+            "(c) If all students are standing, then the teacher is in the room.",
+            "(d) When the teacher is in the room, all students are standing."
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1546,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Reading Comprehension",
+          "question_text": "Combinatorics deals with problems involving counting. For example, 'How many distinct arrangements of N distinct objects in M spaces on a circle are possible?' is a typical problem in combinatorics. This kind of counting is sometimes used in the modeling of several physical phenomena. Often, in such models, the different combinatorial possibilities are assigned probability values. Assigning probabilities enables the computation of the average values of physical quantities. Consider the following statements: P: Combinatorics is always invoked in the modeling of physical phenomena. Q: Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities in order to compute average values of physical quantities. Based on the passage above, what can be inferred about statements P and Q?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) P is False and Q is False",
+            "(b) P is False and Q is True",
+            "(c) P is True and Q is False",
+            "(d) P is True and Q is True"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1547,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Spatial Reasoning",
+          "question_text": "In Panel I of the figure below, the front view and top view of a structure are shown. Which one of the 3D structures shown in Panel II possesses the views shown in Panel I?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (i)",
+            "(b) (ii)",
+            "(c) (iii)",
+            "(d) (iv)"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1548,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Data Interpretation",
+          "question_text": "For positive real numbers S and K, the function H_k(S) is defined as: H_k(S) = max(S - K, 0). The max function is defined as: max(a, b) = a, when a > b and b, when a <= b. The graph below shows the plot of a function N(S) versus S. N(S) can be expressed as",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) H_10(S) - H_20(S)",
+            "(b) H_10(S) - 2H_20(S)",
+            "(c) -H_10(S) + H_20(S)",
+            "(d) H_15(S) - H_20(S)"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1549,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Logical Reasoning",
+          "question_text": "In the 2020 summer Olympics' Javelin throw finals, Neeraj Chopra exhibited a spectacular performance to win the gold medal. The silver medal was won by Jakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were six rounds of throws with each athlete having one throw per round. The best of all the throws of each athlete is considered for the medal. Following were the observations about the throws: (i) The first and second rounds were dominated by Neeraj Chopra with a gold medal performance in his second throw, while the other two athletes did not have any medal winning throws in these rounds. (ii) The throws in the last round by both Jakub Vadlejch and Vitezlav Vesely were fouls and were not considered for scoring. (iii) After four rounds, Vitezlav Vesely was in the second position and could not improve upon his best throw in the succeeding rounds. (iv) In the fourth round, the throw by Jakub Vadlejch was the best in that round. In which round did Vitezlav Vesely have his best throw?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Third",
+            "(b) Fourth",
+            "(c) Fifth",
+            "(d) Sixth"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1550,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Probability",
+          "question_text": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the number appearing in the second roll is an integer multiple of the number appearing in the first roll is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 1/6",
+            "(b) 5/18",
+            "(c) 7/18",
+            "(d) 5/18"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0.66
         }
       ]
     },
@@ -91494,6 +97139,2188 @@ export const GATE_DATA = {
           "marks": 2,
           "negative_marks": 0
         }
+      ],
+      "2026": [
+        {
+          "id": 1476,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Verbal Ability",
+          "question_text": "Expedite, Hasten, Hurry. Fill the blank by choosing a word with a meaning similar to that of the words given above.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Accelerate",
+            "(b) Retard",
+            "(c) Provide",
+            "(d) Disable"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1477,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Spatial Reasoning",
+          "question_text": "A black square PQRS has been cut into two parts. One part of it is shown in Panel I. Which one of the shapes in Panel II is the other part?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (i)",
+            "(b) (ii)",
+            "(c) (iii)",
+            "(d) (iv)"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1478,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Probability",
+          "question_text": "A day can only be cloudy or sunny. The probability of a day being cloudy is 0.5, independent of the condition on other days. What is the probability that in any given four days, there will be three cloudy days and one sunny day?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 1/4",
+            "(b) 3/4",
+            "(c) 2/3",
+            "(d) 3/8"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1479,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Quantitative Aptitude",
+          "question_text": "The values of Stock A and Stock B on a particular day are Rs. 50 and Rs. 80, respectively. An investor invests Rs. 100 in Stock A and Rs. 80 in Stock B. He sells all the stocks the next day when the value of Stock A is Rs. 55 and Stock B is Rs. 70. The profit made by the investor is Rs.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 0",
+            "(b) 5",
+            "(c) 10",
+            "(d) 20"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1480,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Logical Reasoning",
+          "question_text": "'When it is raining, peacocks dance.' Based only on this sentence, which one of the following options is necessarily true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Peacocks dance only when it is raining.",
+            "(b) When peacocks dance, it is raining.",
+            "(c) When peacocks are not dancing, it is not raining.",
+            "(d) When it is not raining, peacocks do not dance."
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1481,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Verbal Ability",
+          "question_text": "Water : P :: Food : Q. Choose the P and Q combination from the options below to form a meaningful analogy.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) P = Thirst; Q = Hunger",
+            "(b) P = Drink; Q = Hunger",
+            "(c) P = Thirst; Q = Satiated",
+            "(d) P = Wet; Q = Critic"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1482,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Spatial Reasoning",
+          "question_text": "Two tiles are missing in Panel I. Which one of the options in Panel II is the appropriate choice for the missing tiles?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (i)",
+            "(b) (ii)",
+            "(c) (iii)",
+            "(d) (iv)"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1483,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Graphs",
+          "question_text": "Figures (i) and (ii) represent intercity highway systems. The black dots represent cities and the line segments between them represent intercity highways. A salesperson needs to make a trip. She needs to start from a city, visit each of the remaining cities exactly once, and finally return to the same city from which she started. Which one of the following options is then true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Such a trip is possible for (i), but not for (ii).",
+            "(b) Such a trip is possible for (ii), but not for (i).",
+            "(c) Such a trip is possible for both (i) and (ii).",
+            "(d) Such a trip is possible neither for (i) nor for (ii)."
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1484,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Logical Reasoning",
+          "question_text": "The figure in Panel I below is a grid of cells with four rows and four columns. The numbers on the top and on the left represent the number of cells that are to be shaded in that column and row, respectively. Which one of the options shown in Panel II below represents the grid shaded correctly?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (i)",
+            "(b) (ii)",
+            "(c) (iii)",
+            "(d) (iv)"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1485,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "General Aptitude",
+          "topic": "Probability",
+          "question_text": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the sum of the two recorded numbers is a prime number is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 3/36",
+            "(b) 13/36",
+            "(c) 15/36",
+            "(d) 19/36"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1486,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Propositional & First Order Logic",
+          "question_text": "For two different persons x and y, the predicate M(x,y) denotes that x knows y. Consider the following statement. 'There is a person who does not know anyone else, but that person is known by everyone else.' Which one of the following expressions represents the above statement?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (∃ y)(∀ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+            "(b) (∀ y)(∃ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+            "(c) (∃ y)(∃ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+            "(d) (∀ y)(∀ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1487,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Data Structures",
+          "topic": "Trees",
+          "question_text": "The set T represents various traversals over binary tree. The set S represents the order of visiting nodes during a traversal. T: I: Inorder, II: Preorder, III: Postorder. S: L: left subtree, node, right subtree; M: node, left subtree, right subtree; N: left subtree, right subtree, node. Which one of the following is the correct match from T to S?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) I - L, II - M, III - N",
+            "(b) I - M, II - L, III - N",
+            "(c) I - N, II - M, III - L",
+            "(d) I - L, II - N, III - M"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1488,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Theory of Computation",
+          "topic": "Turing Machines",
+          "question_text": "Which one of the following statements is equivalent to the following assertion? Turing machine M decides the language L ⊆ {0,1}*.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Turing machine M halts on all input strings in (0,1)*",
+            "(b) Turing machine M accepts all input strings in L",
+            "(c) Turing machine M rejects all input strings in {0,1}* - L",
+            "(d) Turing machine M accepts all input strings in L and rejects all input strings in {0,1}* - L"
+          ],
+          "answer": "(d)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1489,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Probability",
+          "question_text": "The probability density function f(x) of a random variable X which takes real values is f(x) = (1 / (3 * sqrt(2 * pi))) * exp(-x^2 / 18), x ∈ (-∞, +∞). Which one of the following statements is correct about the random variable X?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) X is an exponential random variable",
+            "(b) X is a normal random variable",
+            "(c) X is a Poisson random variable",
+            "(d) X is a uniform random variable"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1490,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Databases",
+          "topic": "Database Architecture",
+          "question_text": "In the context of DBMS, consider the two sets T and S given below. T: I: Logical schema, II: Physical schema, III: External schema. S: L: Views, M: File organization and indexes, N: Relations. Which one of the following is the correct match from T to S?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) I - L, II - M, III - N",
+            "(b) I - M, II - L, III - N",
+            "(c) I - N, II - M, III - L",
+            "(d) I - N, II - L, III - M"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1491,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Digital Logic",
+          "topic": "Boolean Algebra",
+          "question_text": "Which one of the following options is not a property of Boolean Algebra? Note: + is OR operation, · is AND operation, and ' is NOT operation",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) a + b = b + a",
+            "(b) a · a' = 1",
+            "(c) a + a' = 1",
+            "(d) a · b = b · a"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1492,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Programming",
+          "topic": "Memory Management",
+          "question_text": "In C runtime environment, which one of the following is stored in heap?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) A static variable declared inside a function",
+            "(b) An array of integers declared inside a function",
+            "(c) A dynamically allocated array of integers created using malloc() function call",
+            "(d) Return address of a function"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1493,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Interrupts",
+          "question_text": "Consider the following two statements about interrupt handling mechanisms in a CPU. S1: In non-vectored interrupt mechanism, it usually takes more time to start the Interrupt Service Routine (ISR) when compared to that in a vectored interrupt mechanism. S2: In daisy-chain interrupt mechanism, the CPU polls all the input devices individually to determine the source of the interrupt. Which one of the following options is correct with respect to S1 and S2?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Both S1 and S2 are true",
+            "(b) Both S1 and S2 are false",
+            "(c) S1 is true and S2 is false",
+            "(d) S1 is false and S2 is true"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1494,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Programming",
+          "topic": "C Programming",
+          "question_text": "Consider the following three ANSI-C programs, P1, P2 and P3... Which one of the following statements is true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Only P1 will compile without any error",
+            "(b) Only P2 will compile without any error",
+            "(c) Only P3 will compile without any error",
+            "(d) All three programs P1, P2, and P3 will compile without any error"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1495,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Databases",
+          "topic": "Concurrency Control",
+          "question_text": "Consider concurrent execution of two transactions T1 and T2 in a DBMS, both of which access a data object A. For these two transactions to not conflict on A, which one of the following statements must be true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Both T1 and T2 only read A",
+            "(b) T1 reads A and T2 writes A",
+            "(c) T1 writes A and T2 reads A",
+            "(d) Both T1 and T2 write A"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1496,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "Network Layer",
+          "question_text": "Consider a file of size 4 million bytes being transferred between two hosts connected via a path consisting of three consecutive links of bandwidth 2 Mbps, 500 kbps, and 1 Mbps, respectively. All processing delays and propagation delays are negligible. Assume that there is no other background traffic over the path and no other additional overhead to transfer the file. Which one of the following is the total time (in seconds) to transfer the file?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 73",
+            "(b) 64",
+            "(c) 8",
+            "(d) 16"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1497,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "Application Layer Protocols",
+          "question_text": "Which one of the following protocols may need to broadcast some of its messages?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) SMTP",
+            "(b) FTP",
+            "(c) DHCP",
+            "(d) HTTP"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1498,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "CPU Scheduling",
+          "question_text": "Which one of the following CPU scheduling algorithms cannot be preemptive?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Shortest Remaining Time First (SRTF) Scheduling",
+            "(b) First Come First Serve (FCFS) Scheduling",
+            "(c) Round Robin Scheduling",
+            "(d) Priority Scheduling"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1499,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Asymptotic Analysis",
+          "question_text": "Consider the following functions, where n is a positive integer: n^(1/3), log(n), log(n!), 2^(log(n)). Which one of the following options lists the functions in increasing order of asymptotic growth rate? Note: Assume the base of log to be 2.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) log(n), n^(1/3), 2^(log(n)), log(n!)",
+            "(b) n^(1/3), log(n), log(n!), 2^(log(n))",
+            "(c) log(n), n^(1/3), log(n!), 2^(log(n))",
+            "(d) 2^(log(n)), n^(1/3), log(n), log(n!)"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1500,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Recurrence Relations",
+          "question_text": "Which of the following can be recurrence relation(s) corresponding to an algorithm with time complexity Θ(n)?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) T(n) = T(n - 1) + 1, T(1) = 1",
+            "(b) T(n) = 2T(n/2) + 1, T(1) = 1",
+            "(c) T(n) = 2T(n/2) + n, T(1) = 1",
+            "(d) T(n) = T(n - 1) + n, T(1) = 1"
+          ],
+          "answer": "(a, b)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1501,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Relations",
+          "question_text": "Let R be a binary relation on the set {1, 2, ..., 10} where (x, y) ∈ R if the product of x and y is square of an integer. Which of the following properties is/are satisfied by R?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Reflexive",
+            "(b) Symmetric",
+            "(c) Transitive",
+            "(d) Antisymmetric"
+          ],
+          "answer": "(a, b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1502,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Calculus",
+          "question_text": "For a real number a, let I(a) = integral from -1 to 1 of (3x^2 - ax + 1) dx. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) The value of I(a) is independent of the value of a",
+            "(b) The value of I(a) can vary with the value of a",
+            "(c) There exists a ∈ (-∞, +∞) such that I(a) is a positive real number",
+            "(d) There exists a ∈ (-∞, +∞) such that I(a) is a negative real number"
+          ],
+          "answer": "(a, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1503,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Digital Logic",
+          "topic": "Number Representation",
+          "question_text": "In a system, numbers are represented using 4-bit two's complement form. Consider four numbers N1 = 1011, N2 = 1101, N3 = 1010 and N4 = 1001 in the system. Which of the following operations will result in arithmetic overflow?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) N1 + N2",
+            "(b) N2 + N3",
+            "(c) N3 - N4",
+            "(d) N1 + N4"
+          ],
+          "answer": "(b, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1504,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Theory of Computation",
+          "topic": "Context-Free Grammars",
+          "question_text": "Which of the following grammars is/are ambiguous?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) S -> aSb | ε",
+            "(b) E -> E+E | E*E | id",
+            "(c) S -> aS | Sa | ε",
+            "(d) S -> aS | ε"
+          ],
+          "answer": "(b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1505,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Data Structures",
+          "topic": "Hashing",
+          "question_text": "The keys 5, 28, 19, 15, 26, 33, 12, 17, 10 are inserted into a hash table using the hash function h(k) = k mod 9. The collisions are resolved by chaining. After all the keys are inserted, the length of the longest chain is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "3",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1506,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Linear Algebra",
+          "question_text": "Consider the system of linear equations given below: ax + y = b, 16x + ay = 24. Suppose the values of a and b are chosen such that the system of linear equations produce multiple solutions. Then the product of a and b is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "24",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1507,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Sorting",
+          "question_text": "Consider an array A = [10, 7, 8, 19, 41, 35, 25, 31]. Suppose the merge sort algorithm is executed on array A to sort it in increasing order. The merge sort algorithm will carry out a total of 7 merge operations. A merge operation on sorted left array L and sorted right array R is said to be void if the output of the merge operation is the elements of array L followed by the elements of array R. The number of void merge operations among these 7 merge operations is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "3",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1508,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "IP Addressing",
+          "question_text": "If an IP network uses a subnet mask of 255.255.240.0, the maximum number of IP addresses that can be assigned to network interfaces is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "4094",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1509,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Floating Point Representation",
+          "question_text": "The 32-bit IEEE 754 single precision representation of a number is 0xC2710000. The number in decimal representation is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "-60.25",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1510,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Compiler Design",
+          "topic": "Lexical Analysis",
+          "question_text": "A lexical analyzer uses token definitions: letter [A-Za-z], digit [0-9], id -> letter(letter|digit)*, number -> digit+, ws -> (blank|tab|newline)+. For the string 'x1 23 mm 78 y 7z zz5 14A 8H AaYcD', the number of tokens (excluding ws) that will be produced by the lexical analyzer is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "13",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1511,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Graph Algorithms",
+          "question_text": "Consider a complete graph K_n with n vertices (n > 4). Note that multiple spanning trees can be constructed over K_n. Each of these spanning trees is represented as a set of edges. The Jaccard coefficient between any two sets is defined as the ratio of the size of the intersection of the two sets to the size of the union of the two sets. Which one of the following options gives the lowest possible value for the Jaccard coefficient between any two spanning trees of K_n?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 1/n",
+            "(b) 1/(2n-3)",
+            "(c) 0",
+            "(d) 1/(n-1)"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1512,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Shortest Paths",
+          "question_text": "Let G be a weighted directed acyclic graph with m edges and n vertices. Given G and a source vertex s in G, which one of the following options gives the worst case time complexity of the fastest algorithm to find the lengths of shortest paths from s to all vertices that are reachable from s in G?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Θ(m + n)",
+            "(b) Θ(m + n log n)",
+            "(c) Θ(nm)",
+            "(d) Θ(n^3)"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1513,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Algorithm Analysis",
+          "question_text": "Consider an array A of integers of size n. The indices of A run from 1 to n. An algorithm is to be designed to check whether A satisfies the condition: ∀ i,j ∈ {1,...,n-1} such that i > j, (A[i+1] - A[i]) > (A[j+1] - A[j]). Which one of the following gives the worst case time complexity of the fastest algorithm that can be designed for the problem?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Θ(n)",
+            "(b) Θ(log n)",
+            "(c) Θ(n log n)",
+            "(d) Θ(n^2)"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1514,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Algorithms",
+          "topic": "Dynamic Programming",
+          "question_text": "Consider a table T where the elements T[i][j], 0 ≤ i, j ≤ n, represent the cost of the optimal solutions of different subproblems of a problem that is being solved using a dynamic programming algorithm... Which one of the following statements is true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Both algorithms B1 and B2 are correct",
+            "(b) Algorithm B1 is correct, but algorithm B2 is incorrect",
+            "(c) Algorithm B2 is correct, but algorithm B1 is incorrect",
+            "(d) Both algorithms B1 and B2 are incorrect"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1515,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Digital Logic",
+          "topic": "Boolean Algebra",
+          "question_text": "Consider the following 4-variable Boolean function F(A,B,C,D) = Σ m(0,1,2,3,8,9,10,11). Consider A as MSB, D as LSB. Which one of the following options represents the minimal sum of products form for the above function?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) A' + B' + C' + D'",
+            "(b) B'",
+            "(c) A'B' + AB",
+            "(d) A'"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1516,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Compiler Design",
+          "topic": "Parsing",
+          "question_text": "Consider the canonical LR(0) parsing of the grammar below using terminals (a, b, c) and non-terminals (A, B, C, S)... Which one of the following options gives the number of shift-reduce conflicts that will occur in the LR(0) ACTION table?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 2",
+            "(b) 3",
+            "(c) 4",
+            "(d) 5"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1517,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Databases",
+          "topic": "Normalization",
+          "question_text": "In the context of schema normalization in relational DBMS, consider a set F of functional dependencies... Listed below are four combinations of these three rules. Which one of these combinations is both necessary and sufficient for the proof of the Union rule?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Reflexivity, Augmentation, and Transitivity",
+            "(b) Reflexivity and Augmentation",
+            "(c) Transitivity",
+            "(d) Augmentation and Transitivity"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1518,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "Data Link Layer",
+          "question_text": "Consider the transmission of data bits 110001011 over a link that uses Cyclic Redundancy Check (CRC) code for error detection. If the generator bit pattern is given to be 1001, which one of the following options shows the remainder bit pattern appended to the data bits before transmission?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 011",
+            "(b) 101",
+            "(c) 000",
+            "(d) 100"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1519,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Instruction Set Architecture",
+          "question_text": "Consider a processor that has 16 general purpose registers and it uses 2-byte instruction format for all its instructions. Variable-sized opcodes are permitted... If there are 2 unique M-type opcodes and 7 unique R-type opcodes, which one of the following options gives the maximum number of unique opcodes possible for C-type instructions?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 8",
+            "(b) 4",
+            "(c) 64",
+            "(d) 16"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1520,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Compiler Design",
+          "topic": "Data Flow Analysis",
+          "question_text": "Consider the control flow graph given below... Which one of the following options is the set of live variables at the exit point of each basic block?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) B1: (a, b, c, e, f), B2: (d, e), B3: (b, c, e, f), B4: φ",
+            "(b) B1: φ, B2: (d, e), B3: (a, c, f), B4: φ",
+            "(c) B1: (a, b, c, e, f), B2: (d, e), B3: (c, e, f), B4: φ",
+            "(d) B1: φ, B2: (d, e, f), B3: (a, b, c, e, f), B4: φ"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1521,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Databases",
+          "topic": "Indexing",
+          "question_text": "An index in a DBMS is said to be dense if an index entry appears for every search-key value in the indexed file... S1: A hash index must be a dense index. S2: A B+ tree index can be a sparse index. Which one of the following options is correct?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Both S1 and S2 are true",
+            "(b) Both S1 and S2 are false",
+            "(c) S1 is true and S2 is false",
+            "(d) S1 is false and S2 is true"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1522,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Theory of Computation",
+          "topic": "Finite Automata",
+          "question_text": "Consider the following two finite automata D1 and D2... Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) L(D1) = L(D2)",
+            "(b) L(D1) is a proper subset of L(D2)",
+            "(c) L(D1) ∩ L(D2) = {ε}",
+            "(d) (L(D1) ∪ L(D2))* consists of all strings in (0,1)* whose length is divisible by 3"
+          ],
+          "answer": "(c, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1523,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Theory of Computation",
+          "topic": "Context-Free Languages",
+          "question_text": "Let Σ = {a,b,c,d} and let L = {a^i b^j c^k d^l | i, j, k, l ≥ 0}. Which of the following constraints ensure(s) that the language L is context-free?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) i + k = j + l",
+            "(b) i = k and j = l",
+            "(c) i = l and j = k",
+            "(d) i + j = k + l"
+          ],
+          "answer": "(a, c, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1524,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Data Structures",
+          "topic": "Binary Search Trees",
+          "question_text": "Consider a binary search tree (BST) with n leaf nodes (n > 0)... Let K represent the list of all such new keys to be inserted into the BST. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) K cannot have any duplicates",
+            "(b) K will have at least one element",
+            "(c) After inserting all keys from K, the height of the BST can increase at most by one",
+            "(d) Number of nodes in the BST will double after inserting all keys from K"
+          ],
+          "answer": "(a, c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1525,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Data Structures",
+          "topic": "Stacks & Queues",
+          "question_text": "Consider a stack S and a queue Q. Both of them are initially empty and have the capacity to store ten elements each. The elements 1, 2, 3, 4, and 5 arrive one by one... Which of the following options is/are possible valid assignment(s) of the elements?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) 1S, 2Q, 3S, 4S, 5Q",
+            "(b) 1Q, 2Q, 3S, 4S, 5Q",
+            "(c) 1Q, 2Q, 3Q, 4S, 5S",
+            "(d) 1S, 2S, 3S, 4Q, 5Q"
+          ],
+          "answer": "(a, b)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1526,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "Process Synchronization",
+          "question_text": "Consider three processes P1, P2, and P3 running identical code... Which of the following patterns is/are possible to be generated as an outcome of the execution of these three processes?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) **$*###",
+            "(b) **$#*##",
+            "(c) **$*##*#",
+            "(d) ***$###"
+          ],
+          "answer": "(a, b, c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1527,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Cache Memory",
+          "question_text": "Consider a system with a processor and a 4 KB direct mapped cache with block size of 16 bytes. The system has a 16 MB physical memory... Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Every access to P results in a cache miss",
+            "(b) Every access to R results in a cache hit",
+            "(c) Every access to Q results in a cache miss",
+            "(d) Except the first access to S, all subsequent accesses to S result in cache hits"
+          ],
+          "answer": "(a, b)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1528,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "File Systems",
+          "question_text": "To keep track of free blocks in a file system, consider that the linked list approach is used... The number of blocks required to hold the free disk block numbers is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "16417",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1529,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "Virtual Memory",
+          "question_text": "A system has a Translation Lookaside Buffer (TLB) that has a reach of 1 MB... If each TLB entry stores a 4-bit process id, page number, frame number, and a 2-bit control field, then the size of the TLB (in bytes) is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "1536",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1530,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Operating Systems",
+          "topic": "Memory Management",
+          "question_text": "Consider contiguous allocation of physical memory to processes using variable partitioning scheme... After allocating space to P1 and P2 using best-fit, the number of holes of size less than 8 KB is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "3",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1531,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Cache Memory",
+          "question_text": "Consider a system with 1 MB physical memory and a word length of 1 byte. The system uses a direct mapped cache... The maximum possible size of the cache (in KB) for this configuration is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "128",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1532,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Organization",
+          "topic": "Pipelining",
+          "question_text": "A non-pipelined instruction execution unit that operates at 1.6 GHz clock takes an average of 5 clock cycles... The speed-up obtained by the pipelined design over the non-pipelined one for this program is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "2.34",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1533,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "TCP Congestion Control",
+          "question_text": "Consider a new TCP connection between a sender and a receiver. The receiver advertised window is constant at 48 KB, the MSS is 2 KB, and slow start threshold is 16 KB. The number of rounds of transmission required for the congestion control algorithm to reach the congestion avoidance phase is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "4",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1534,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Digital Logic",
+          "topic": "Multiplexers",
+          "question_text": "Consider the digital circuit shown below with two input lines A and B, two select lines S0 and S1, and an output line Y. Out of 16 possible input combinations, the number of combinations that produce Y = 1 is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "6",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1535,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Programming",
+          "topic": "Pointers",
+          "question_text": "Consider the following ANSI-C program... The output of this program is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "9",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1536,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Programming",
+          "topic": "Recursion",
+          "question_text": "Consider the following ANSI-C function... The maximum possible value that can be returned from this function is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "1",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1537,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Linear Algebra",
+          "question_text": "The determinant of a 4x4 matrix A is 3. The value of the determinant of 2A is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "48",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1538,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Probability",
+          "question_text": "Suppose an unbiased coin is tossed 6 times... Let E1 be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let E2 be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails. The conditional probability P(E1|E2) is equal to ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "0.5",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1539,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Calculus",
+          "question_text": "Consider a function f:(0,1)->{0,1} defined as follows. For a real number r in (0,1), f(r)=1 if the second digit after the decimal point in r is one of the four digits 2, 3, 6 and 7. Otherwise, f(r) is equal to 0. The number of points in (0,1) at which f is discontinuous is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "40",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1540,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Afternoon",
+          "subject": "Computer Networks",
+          "topic": "Data Link Layer",
+          "question_text": "It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless link of length 3000 kilometers... Let N be the minimum number of bits needed for the sequence number field in the protocol header. The value of N is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "30",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1541,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Verbal Ability",
+          "question_text": "The antonym of the word protagonist is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) agnostic",
+            "(b) antagonist",
+            "(c) arsonist",
+            "(d) anarchist"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1542,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Spatial Reasoning",
+          "question_text": "The figure shows two 4-tile patterns. Either one or both of the patterns can be used any number of times and in any orientation to construct a new pattern. Which one of the options below cannot be constructed by using only these two 4-tile patterns assuming there are no overlaps among them?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a)",
+            "(b)",
+            "(c)",
+            "(d)"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1543,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Quantitative Aptitude",
+          "question_text": "Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each game is eliminated from the tournament. Every player plays until she is defeated or remains the last undefeated player. The last undefeated player is declared the winner of the tournament. If there are 64 players in the beginning of the tournament, how many games should be played in total to declare the winner of the tournament?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 127",
+            "(b) 64",
+            "(c) 63",
+            "(d) 32"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1544,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Quantitative Aptitude",
+          "question_text": "A student needs to enroll for a minimum of 60 credits. A student cannot enroll for more than 70 credits. The credits are divided amongst project and three distinct sets of courses namely, core courses, specialization courses, and elective courses. It is compulsory for a student to enroll for exactly 15 credits of core courses and exactly 20 credits of project. In addition, a student has to enroll for a minimum of 10 credits of specialization courses. The maximum credits of elective courses that a student can enroll for is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 10",
+            "(b) 15",
+            "(c) 20",
+            "(d) 25"
+          ],
+          "answer": "(d)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1545,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Logical Reasoning",
+          "question_text": "When the teacher is in the room, all students stand silently. If the above statement is true, which one of the following statements is not necessarily true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) If any student is not standing silently, then the teacher is not in the room.",
+            "(b) When the teacher is in the room, all students are silent.",
+            "(c) If all students are standing, then the teacher is in the room.",
+            "(d) When the teacher is in the room, all students are standing."
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1546,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Reading Comprehension",
+          "question_text": "Combinatorics deals with problems involving counting. For example, 'How many distinct arrangements of N distinct objects in M spaces on a circle are possible?' is a typical problem in combinatorics. This kind of counting is sometimes used in the modeling of several physical phenomena. Often, in such models, the different combinatorial possibilities are assigned probability values. Assigning probabilities enables the computation of the average values of physical quantities. Consider the following statements: P: Combinatorics is always invoked in the modeling of physical phenomena. Q: Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities in order to compute average values of physical quantities. Based on the passage above, what can be inferred about statements P and Q?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) P is False and Q is False",
+            "(b) P is False and Q is True",
+            "(c) P is True and Q is False",
+            "(d) P is True and Q is True"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1547,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Spatial Reasoning",
+          "question_text": "In Panel I of the figure below, the front view and top view of a structure are shown. Which one of the 3D structures shown in Panel II possesses the views shown in Panel I?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) (i)",
+            "(b) (ii)",
+            "(c) (iii)",
+            "(d) (iv)"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1548,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Data Interpretation",
+          "question_text": "For positive real numbers S and K, the function H_k(S) is defined as: H_k(S) = max(S - K, 0). The max function is defined as: max(a, b) = a, when a > b and b, when a <= b. The graph below shows the plot of a function N(S) versus S. N(S) can be expressed as",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) H_10(S) - H_20(S)",
+            "(b) H_10(S) - 2H_20(S)",
+            "(c) -H_10(S) + H_20(S)",
+            "(d) H_15(S) - H_20(S)"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1549,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Logical Reasoning",
+          "question_text": "In the 2020 summer Olympics' Javelin throw finals, Neeraj Chopra exhibited a spectacular performance to win the gold medal. The silver medal was won by Jakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were six rounds of throws with each athlete having one throw per round. The best of all the throws of each athlete is considered for the medal. Following were the observations about the throws: (i) The first and second rounds were dominated by Neeraj Chopra with a gold medal performance in his second throw, while the other two athletes did not have any medal winning throws in these rounds. (ii) The throws in the last round by both Jakub Vadlejch and Vitezlav Vesely were fouls and were not considered for scoring. (iii) After four rounds, Vitezlav Vesely was in the second position and could not improve upon his best throw in the succeeding rounds. (iv) In the fourth round, the throw by Jakub Vadlejch was the best in that round. In which round did Vitezlav Vesely have his best throw?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Third",
+            "(b) Fourth",
+            "(c) Fifth",
+            "(d) Sixth"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1550,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "General Aptitude",
+          "topic": "Probability",
+          "question_text": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the number appearing in the second roll is an integer multiple of the number appearing in the first roll is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 1/6",
+            "(b) 5/18",
+            "(c) 7/18",
+            "(d) 5/18"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1551,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Probability",
+          "question_text": "An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 1/4",
+            "(b) 1/3",
+            "(c) 1/2",
+            "(d) 2/3"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1552,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Combinatorics",
+          "question_text": "Consider 4x4 matrices with their elements from {0, 1}. The number of such matrices with even number of 1s in every row and every column is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 512",
+            "(b) 1025",
+            "(c) 1023",
+            "(d) 255"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1553,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Linear Algebra",
+          "question_text": "For n > 1, the maximum multiplicity of any eigenvalue of an n x n matrix with elements from R is",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) n",
+            "(b) n - 1",
+            "(c) 1",
+            "(d) n + 1"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1554,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Addressing Modes",
+          "question_text": "Match each addressing mode in List I with a data element or an element of a data structure (in a high-level language) in List II: List I: P. Immediate, Q. Indirect, R. Base with index, S. Base with offset/displacement. List II: 1. Element of an array, 2. Pointer, 3. Element of a record, 4. Constant",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) P-4, Q-3, R-1, S-2",
+            "(b) P-4, Q-2, R-1, S-3",
+            "(c) P-1, Q-4, R-3, S-2",
+            "(d) P-2, Q-3, R-1, S-4"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1555,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Instruction Set Architecture",
+          "question_text": "Consider a processor P whose instruction set architecture is the load-store architecture. The instruction format is such that the first operand of any instruction is the destination operand. Which one of the following sequences of instructions corresponds to the high-level language statement Z = X + Y? Note: X, Y, and Z are memory operands. R0, R1, and R2 are registers.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) ADD Z, X, Y",
+            "(b) LOAD R0, X; ADD Z, R0, Y",
+            "(c) ADD R0, X, Y; STORE Z, R0",
+            "(d) LOAD R0, X; LOAD R1, Y; ADD R2, R0, R1; STORE Z, R2"
+          ],
+          "answer": "(d)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1556,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Pipelining",
+          "question_text": "Which one of the following dependencies among the register operands of different instructions can cause a data hazard in a pipelined processor?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Read-after-read",
+            "(b) Read-after-write",
+            "(c) Write-after-read",
+            "(d) Write-after-write"
+          ],
+          "answer": "(b)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1557,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Recurrence Relations",
+          "question_text": "Consider the following recurrence relations: For all n > 1, T1(n) = 4T1(n/2) + T2(n); T2(n) = 5T2(n/4) + Θ(log_2 n). Assume that for all n <= 1, T1(n) = 1 and T2(n) = 1. Which one of the following options is correct?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) T1(n) = Θ(n^2)",
+            "(b) T1(n) = Θ(n^2 log_2 n)",
+            "(c) T1(n) = Θ(n^{log_4 5})",
+            "(d) T1(n) = Θ(n^{log_4 5} log_2 n)"
+          ],
+          "answer": "(a)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1558,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "TCP/IP",
+          "question_text": "With respect to a TCP connection between a client and a server, which one of the following statements is true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) The client and server use a two-way handshake mechanism before the start of data transmission.",
+            "(b) The server cannot initiate closing of the connection before the client initiates closing of the connection.",
+            "(c) The TCP connection is half-duplex.",
+            "(d) The client and server can initiate closing of the connection at the same time."
+          ],
+          "answer": "(d)",
+          "marks": 1,
+          "negative_marks": 0.33
+        },
+        {
+          "id": 1559,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "Application Layer Protocols",
+          "question_text": "Which of the following statements is/are true with respect to the interaction of a web browser with a web server using HTTP 1.1?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, if the objects are stored in the same server.",
+            "(b) HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, even if they are stored in different servers.",
+            "(c) HTTP 1.1 facilitates sending a request for downloading one object without waiting for a previously requested object to be downloaded completely.",
+            "(d) HTTP 1.1 facilitates downloading multiple webpages on the same server to be downloaded over a single TCP connection."
+          ],
+          "answer": "(a, c, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1560,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Linear Algebra",
+          "question_text": "Let n > 1. Consider an n x n matrix M with its elements from R. Let the vector (0, 1, 0, 0, ..., 0) in R^n be in the null space of M. Which of the following options is/are always correct?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Determinant of M is 1",
+            "(b) Determinant of M is 0",
+            "(c) Rank of M is 1",
+            "(d) There are at least two non-zero vectors in the null space of M"
+          ],
+          "answer": "(b, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1561,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Digital Logic",
+          "topic": "Boolean Algebra",
+          "question_text": "Consider the following Boolean expression of a function F: F(P,Q) = (P' + Q) ⊕ (P'Q). Which of the following expressions is/are equivalent to F?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) P ⊕ Q",
+            "(b) P ⊙ Q",
+            "(c) (P ⊙ Q)'",
+            "(d) (P ⊕ Q)'"
+          ],
+          "answer": "(a, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1562,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Digital Logic",
+          "topic": "Number Representation",
+          "question_text": "Consider the 8-bit signed integers X, Y and Z represented using the sign-magnitude form. The binary representations of X and Y are as follows: X: 10110100 Y: 01001100. Which of the following operations to compute Z result(s) in an arithmetic overflow?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Z = X + Y",
+            "(b) Z = X - Y",
+            "(c) Z = -X + Y",
+            "(d) Z = -X - Y"
+          ],
+          "answer": "(b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1563,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Heaps",
+          "question_text": "Let n be an odd number greater than 100. Consider a binary minheap with n elements stored in an array P whose index starts from 1. Which of the following indices of P do/does NOT correspond to any leaf node of the minheap?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) (n+1)/2",
+            "(b) (n-1)/2",
+            "(c) (n-3)/2",
+            "(d) n"
+          ],
+          "answer": "(b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1564,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Hashing",
+          "question_text": "Consider a hash table P[0, 1, ..., 10] that is initially empty. The hash table is maintained using open addressing with linear probing. The hash function used is h(x) = (x + 7) mod 11. Consider the following sequence of insertions performed on P: 1, 13, 22, 15, 11, 24. Which of the following positions in the hash table is/are empty after these insertions are performed?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) 0",
+            "(b) 10",
+            "(c) 2",
+            "(d) 1"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1565,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Theory of Computation",
+          "topic": "Context-Free Grammars",
+          "question_text": "Consider the following grammar where S is the start symbol, and a and b are terminal symbols. S -> aSbS | bS | ε. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) The grammar is ambiguous.",
+            "(b) The string abb has two distinct derivations in this grammar.",
+            "(c) The string abab has only one rightmost derivation.",
+            "(d) The language generated by the grammar is undecidable."
+          ],
+          "answer": "(a, b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1566,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Theory of Computation",
+          "topic": "Finite Automata",
+          "question_text": "Let M be a non-deterministic finite automaton (NFA) with 6 states over a finite alphabet. Which of the following options CANNOT be the number of states in the minimal deterministic finite automaton (DFA) that is equivalent to M?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) 32",
+            "(b) 65",
+            "(c) 1",
+            "(d) 128"
+          ],
+          "answer": "(b, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1567,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Compiler Design",
+          "topic": "Lexical Analysis",
+          "question_text": "Consider the following C statements: char *str1 = \"Hello; /* Statement S1 */ char *str2 = \"Hello;\"; /* Statement S2 */ int *str3 = \"Hello\"; /* Statement S3 */ Which of the following options is/are correct?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) S1 and S2 have syntactic errors",
+            "(b) S2 has a lexical error and S3 has a syntactic error",
+            "(c) S1 has a lexical error and S3 has a semantic error",
+            "(d) S1 has a syntactic error and S3 has a semantic error"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1568,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Compiler Design",
+          "topic": "Parsing",
+          "question_text": "Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) LL(1) parser uses backtracking",
+            "(b) For a grammar to be LL(1), it must be left-recursive",
+            "(c) For a grammar to be LL(1), it must be left-factored",
+            "(d) The LL(1) parsers are more powerful than the SLR parsers"
+          ],
+          "answer": "(c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1569,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Deadlock",
+          "question_text": "With respect to deadlocks in an operating system, which of the following statements is/are FALSE?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) Banker's algorithm is used to prevent deadlocks",
+            "(b) Deadlock formation can be prevented by ensuring that the hold and wait condition is not allowed",
+            "(c) An assignment edge in a resource allocation graph is marked from a process to a resource",
+            "(d) A safe state guarantees that all processes can finish without formation of a deadlock"
+          ],
+          "answer": "(a, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1570,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Databases",
+          "topic": "Keys and Functional Dependencies",
+          "question_text": "Let P, Q, R and S be the attributes of a relation in a relational schema. Let X -> Y indicate functional dependency in the context of a relational database, where X, Y ⊆ {P, Q, R, S}. Which of the following options is/are always true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) If ({P, Q} -> {R} and {P} -> {R}) then {Q} -> {R}",
+            "(b) If {P, Q} -> {R} then ({P} -> {R} or {Q} -> {R})",
+            "(c) If ({P} -> {R} and {Q} -> {S}) then {P, Q} -> {R, S}",
+            "(d) If {P} -> {R} then {P, Q} -> {R}"
+          ],
+          "answer": "(c, d)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1571,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Databases",
+          "topic": "Normalization",
+          "question_text": "In the context of relational database normalization, which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) It is always possible to obtain a dependency-preserving 3NF decomposition of a relation",
+            "(b) It is always possible to obtain a dependency-preserving 1NF decomposition of a relation",
+            "(c) It is not always possible to obtain a dependency-preserving BCNF decomposition of a relation",
+            "(d) It is not always possible to obtain a dependency-preserving 2NF decomposition of a relation"
+          ],
+          "answer": "(a, b, c)",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1572,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Calculus",
+          "question_text": "Consider the function f: R -> R defined as follows: f(x) = c_1 e^x - c_2 log_e(1/x) if x > 0, and 3 otherwise. where c_1, c_2 ∈ R. If f is continuous at x = 0, then c_1 + c_2 = ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "3",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1573,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Trees",
+          "question_text": "The height of a binary tree is the number of edges in the longest path from the root to a leaf in the tree. The maximum possible height of a full binary tree with 23 nodes is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "11",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1574,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Programming",
+          "topic": "C Programming",
+          "question_text": "Consider the following program in C: void func(int i, int j) { if(i < j) { int i = 0; while (i < 10) { j += 2; i++; } } printf(\"%d\", i); } int main() { int i = 9, j = 10; func(i, j); return 0; } The output of the program is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "9",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1575,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Deadlock",
+          "question_text": "Consider a system consisting of K instances of a resource R, being shared by 5 processes. Assume that each process requires a maximum of two instances of resource R and a process can request or release only one instance at a time. Further, a process can request the second instance of the resource only after acquiring the first instance. The minimum value of K for the system to be deadlock-free is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "6",
+          "marks": 1,
+          "negative_marks": 0
+        },
+        {
+          "id": 1576,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Floating Point Representation",
+          "question_text": "Consider the real valued variables X, Y and Z represented using the IEEE 754 single-precision floating-point format. The binary representations of X and Y in hexadecimal notation are as follows: X: 35000000 Y: 34A00000. Let Z = X + Y. Which one of the following is the binary representation of Z, in hexadecimal notation?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 35C80000",
+            "(b) 35CC0000",
+            "(c) 35E80000",
+            "(d) 35EC0000"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1577,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Digital Logic",
+          "topic": "Sequential Circuits",
+          "question_text": "Consider a 2-bit saturating up/down counter that performs the saturating up count when the input P is 0, and the saturating down count when P is 1. The counter is built as a synchronous sequential circuit using D flip-flops. Which one of the following options corresponds to the expressions for the inputs of the D flip-flops, D1 and D0?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) D1 = PQ1 + P'Q0 + Q1Q0, D0 = PQ0 + P'Q1 + Q1Q0'",
+            "(b) D1 = P'Q1 + P'Q0 + Q1Q0, D0 = P'Q0' + P'Q1 + Q1Q0'",
+            "(c) D1 = P'Q1' + P'Q0 + Q1Q0, D0 = P'Q0 + P'Q1 + Q1Q0'",
+            "(d) D1 = PQ1' + P'Q0 + Q1Q0, D0 = PQ0' + P'Q1 + Q1Q0'"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1578,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Cache Memory",
+          "question_text": "The size of the physical address space of a processor is 2^32 bytes. The capacity of a cache memory unit is 2^23 bytes. The cache block size is 128 bytes. The cache memory unit can be built as a direct mapped cache or as a K-way set-associative cache, where K = 2^L and L ∈ {1,2,3}. Let the length of the TAG field be M bits for the direct mapped cache, and N bits for the set-associative cache. Which one of the following options is true?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) N = M + L",
+            "(b) N = M - L",
+            "(c) N = M + K",
+            "(d) N = M - K"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1579,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Programming",
+          "topic": "Linked Lists",
+          "question_text": "Consider the following code snippet in C language that computes the number of nodes in a non-empty singly linked list pointed to by the pointer variable head. int getListSize (struct node *head) { if(E1) return 1; return E2; } Which one of the following options gives the correct replacements for the expressions E1 and E2?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) E1: head == NULL; E2: 1 + getListSize(head)",
+            "(b) E1: head->next == NULL; E2: 1 + getListSize(head->next)",
+            "(c) E1: head == NULL; E2: 1 + getListSize(head->next)",
+            "(d) E1: head->next == NULL; E2: 1 + getListSize(head)"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1580,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Binary Search Trees",
+          "question_text": "Let P be the set of all integers from 1 to 15. Consider any order of insertion of the elements of P into a binary search tree that creates a complete binary tree. Which one of the following elements can NEVER be the third element that is inserted?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 4",
+            "(b) 2",
+            "(c) 10",
+            "(d) 5"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1581,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Shortest Paths",
+          "question_text": "Let G(V,E) be an undirected, edge-weighted graph with integer weights. The weight of a path is the sum of the weights of the edges in that path. The length of a path is the number of edges in that path. Let s in V be a vertex in G. For every u in V and for every k >= 0 let d_k(u) denote the weight of a shortest path (in terms of weight) from s to u of length at most k. If there is no path from s to u of length at most k, then d_k(u) = ∞. Consider the statements: S1: For every k >= 0 and u in V, d_{k+1}(u) <= d_k(u). S2: For every (u,v) in E if (u,v) is part of a shortest path from s to v, then for every k >= 0, d_k(u) <= d_k(v). Which one of the following options is correct?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Only S1 is true",
+            "(b) Only S2 is true",
+            "(c) Both S1 and S2 are true",
+            "(d) Neither S1 nor S2 is true"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1582,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Compiler Design",
+          "topic": "Data Flow Analysis",
+          "question_text": "Consider the control flow graph shown in the figure. Which one of the following options correctly lists the set of redundant expressions (common sub-expressions) in the basic blocks B4 and B5? Note: All the variables are integers.",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) B4: {g*k, b+i}, B5: {c+m}",
+            "(b) B4: {b+i}, B5: {}",
+            "(c) B4: {c+m}, B5: {}",
+            "(d) B4: {g*k}, B5: {}"
+          ],
+          "answer": "(d)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1583,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Databases",
+          "topic": "Relational Algebra",
+          "question_text": "Consider a relational database schema with two relations R(P, Q) and S(X, Y). Let E = {<u> | ∃v ∃w <u,v> ∈ R ∧ <v,w> ∈ S} be a tuple relational calculus expression. Which one of the following relational algebraic expressions is equivalent to E?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) Π_P (R ⋈_{R.P=S.X} S)",
+            "(b) Π_P (S ⋈_{S.X=R.Q} R)",
+            "(c) Π_P (R ⋈_{R.P=S.Y} S)",
+            "(d) Π_P (S ⋈_{S.Y=R.Q} R)"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1584,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "TCP Congestion Control",
+          "question_text": "A TCP sender successfully establishes a connection with a TCP receiver and starts the transmission of segments. The TCP congestion control mechanism's slow-start threshold is set to 10000 segments. Assume that the round-trip time is fixed at 1 millisecond. Assume that the sender always has data to send, the segments are numbered from 1, and no segment is lost. Let t denote the time (in milliseconds) at which the transmission of segment number 2000 starts. Which one of the following options is correct?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 9 <= t < 10",
+            "(b) 10 <= t < 11",
+            "(c) 11 <= t < 12",
+            "(d) 12 <= t < 13"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1585,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "Data Link Layer",
+          "question_text": "Consider the implementation of sliding window protocol over a lossless link, with a window size of W frames, where each frame is of size 1000 bits (including header). The bandwidth of the link is 100 kbps and the one-way propagation delay is 100 milliseconds. Assume that processing times at the sender and receiver are zero and the transmission time of acknowledgements is also zero. Which one of the following options gives the minimum size of W (in number of frames) required to achieve 100% link utilization?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) 10",
+            "(b) 21",
+            "(c) 20",
+            "(d) 11"
+          ],
+          "answer": "(b)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1586,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Calculus",
+          "question_text": "Let f: R -> R be defined as follows: f(x) = (|x|/2 - x)(x - |x|/2). Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) f has a local maximum",
+            "(b) f has a local minimum",
+            "(c) f is continuous over R",
+            "(d) f is not differentiable over R"
+          ],
+          "answer": "(a, c, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1587,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Graph Algorithms",
+          "question_text": "Let G(V,E) be a simple, undirected graph. A vertex cover of G is a subset V' ⊆ V such that for every (u,v) ∈ E, u ∈ V' or v ∈ V'. Let the size of the smallest vertex cover in G be k. Let S be any vertex cover of size k. For a vertex v ∈ V, which of the following constraints will always ensure that v ∈ S?",
+          "question_type": "MCQ",
+          "choices": [
+            "(a) The degree of v is at least k + 1",
+            "(b) The vertex v is on a path of length k + 1",
+            "(c) The vertex v is on a cycle of length k + 1",
+            "(d) The vertex v is a part of a clique of size k"
+          ],
+          "answer": "(a)",
+          "marks": 2,
+          "negative_marks": 0.66
+        },
+        {
+          "id": 1588,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Digital Logic",
+          "topic": "Boolean Algebra",
+          "question_text": "Consider a Boolean function F with the following minterm expression: F(P, Q, R, S) = Σ m(1, 2, 3, 4, 5, 7, 10, 12, 13, 14). Which of the following options is/are the minimal sum-of-products expression(s) of F?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) P'S' + QR' + P'Q'R + Q'RS'",
+            "(b) P'S' + QR' + P'Q'R + PRS'",
+            "(c) P'S' + QR' + PQS' + PRS'",
+            "(d) P'S' + QR' + PQS' + Q'RS'"
+          ],
+          "answer": "(b, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1589,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Minimum Spanning Tree",
+          "question_text": "Let G(V,E) be a simple, undirected, edge-weighted graph with unique edge weights. Which of the following statements about the minimum spanning trees (MST) of G is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) In every cycle C of G, the edge with the largest weight in C is not in any MST",
+            "(b) In every cycle C of G, the edge with the smallest weight in C is in every MST",
+            "(c) For every vertex v ∈ V, the edge with the largest weight incident on v is not in any MST",
+            "(d) For every vertex v ∈ V, the edge with the smallest weight incident on v is in every MST"
+          ],
+          "answer": "(a, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1590,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Graph Traversal",
+          "question_text": "Consider the pseudocode for depth-first search (DFS) algorithm which takes a directed graph G(V,E) as input, where d[v] and f[v] are the discovery time and finishing time... Suppose that the input directed graph G(V,E) is a directed acyclic graph (DAG). For an edge (u,v) ∈ E which of the following options will NEVER be correct?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) d[u] < d[v] < f[v] < f[u]",
+            "(b) d[v] < d[u] < f[u] < f[v]",
+            "(c) d[v] < f[v] < d[u] < f[u]",
+            "(d) d[u] < d[v] < f[u] < f[v]"
+          ],
+          "answer": "(b, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1591,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Theory of Computation",
+          "topic": "Regular Languages",
+          "question_text": "Let L1 and L2 be two languages over a finite alphabet, such that L1 ∩ L2 and L2 are regular languages. Which of the following statements is/are always true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) L1 is regular",
+            "(b) L1 ∪ L2 is regular",
+            "(c) L2' is context free",
+            "(d) L1 is context free"
+          ],
+          "answer": "(c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1592,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Theory of Computation",
+          "topic": "Context-Free Languages",
+          "question_text": "Consider the following context-free grammar G: S -> abaABAbba; A -> aaBBAb | bBabaa; B -> aBb | ab. Let L(G) be the language generated by the grammar G. For a string s ∈ L(G) let n1(s) be the number of a's in s and n2(s) be the number of b's in s. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) There is a string s ∈ L(G) such that n1(s) < n2(s)",
+            "(b) For every string s ∈ L(G) n1(s) >= n2(s)",
+            "(c) There is a string s ∈ L(G) such that n1(s) > 2n2(s)",
+            "(d) For every string s ∈ L(G) n1(s) <= 2n2(s)"
+          ],
+          "answer": "(b, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1593,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Compiler Design",
+          "topic": "Syntax Directed Translation",
+          "question_text": "Consider the following two syntax-directed definitions SDD1 and SDD2 for type declarations. Let P and Q be the languages specified by grammars G1 and G2, respectively. Which of the following statements is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) The languages P and Q are the same",
+            "(b) SDD2 is S-attributed and contains only synthesized attributes",
+            "(c) SDD1 is L-attributed and contains only inherited attributes",
+            "(d) The specifications of SDD1 and SDD2 are such that the same entries get added to the symbol table"
+          ],
+          "answer": "(a, b, d)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1594,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Memory Management",
+          "question_text": "Consider a system that has a cache memory unit and a memory management unit (MMU). The address input to the cache memory is a physical address. The MMU has a translation lookaside buffer (TLB). Assume that when a page is evicted from the main memory, the corresponding blocks in the cache are marked as invalid. For a given memory reference, which of the following sequences of events can NEVER happen?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) TLB miss, Page table hit, Cache hit",
+            "(b) TLB hit, Page table miss, Cache hit",
+            "(c) TLB miss, Page table miss, Cache hit",
+            "(d) TLB miss, Page table miss, Cache miss"
+          ],
+          "answer": "(b, c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1595,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Algorithms",
+          "topic": "Graph Algorithms",
+          "question_text": "An undirected, unweighted, simple graph G(V,E) is said to be 2-colorable if there exists a function c: V -> {0, 1} such that for every (u,v) ∈ E, c(u) != c(v). Which of the following statements about 2-colorable graphs is/are true?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) If G is 2-colorable, then G may contain cycles of odd length",
+            "(b) If G is 2-colorable, then G may contain cycles of even length",
+            "(c) An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|V|+|E|), if G is represented as an adjacency list",
+            "(d) An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|E|log|V|), if G is represented as an adjacency list"
+          ],
+          "answer": "(b, c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1596,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Networks",
+          "topic": "IP Addressing",
+          "question_text": "An ISP having an address block 202.16.0.0/15 assigns a block of 6000 IP addresses to a client, using the classless internet domain routing (CIDR) super-netting approach. Which of the following address blocks can be assigned by the ISP?",
+          "question_type": "MSQ",
+          "choices": [
+            "(a) 202.16.0.0/19",
+            "(b) 202.17.64.0/19",
+            "(c) 202.16.32.0/19",
+            "(d) 202.17.24.0/19"
+          ],
+          "answer": "(a, b, c)",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1597,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Graphs",
+          "question_text": "Let G be an undirected graph, which is a path on 8 vertices. The number of matchings in G is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "34",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1598,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Engineering Mathematics",
+          "topic": "Probability",
+          "question_text": "Let X be a random variable which takes values in the set {1, 2, 3, 4, 5, 6, 7, 8}. Further, Pr(X=1) = Pr(X=2) = Pr(X=5) = Pr(X=7) = 1/6 and Pr(X=3) = Pr(X=4) = Pr(X=6) = Pr(X=8) = 1/12. The expected value of X, denoted by E[X], is equal to ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "4.25",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1599,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Disk Scheduling",
+          "question_text": "Consider a hard disk with a rotational speed of 15000 rpm. The time to move the read/write head from a track to its adjacent track is 1 millisecond. Initially, the head is on track 0. The number of sectors per track is 400. The sector size is 1024 bytes. It is necessary to transfer data from 10 randomly located sectors in each of the following tracks in the order: 5, 12 and 7. The total time for the data transfer (in milliseconds) from the hard disk is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "77.3",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1600,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Computer Organization",
+          "topic": "Pipelining",
+          "question_text": "The EX stage of a pipelined processor performs the memory read operations for LOAD instructions, and the operations for the arithmetic and logic instructions. Let t_EX denote the time taken by the EX stage to perform the operation for an instruction. For each instruction type, the values of t_EX and M (the number of instructions of that type in a sequence of 100 instructions) are given. The duration of the pipeline clock cycle is 1 nanosecond... When program P is executed, the number of clock cycles for which the pipeline is stalled due to structural hazards in the EX stage is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "95",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1601,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Programming",
+          "topic": "Recursion",
+          "question_text": "Consider the recursive functions represented by the following code segment: int bar(int n) { if (n == 1) return 0; else return 1 + bar(n/2); } int foo(int n) { if (n == 1) return 1; else return 1 + foo(bar(n)); } The smallest positive integer n for which foo(n) returns 5 is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "65536",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1602,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Data Structures",
+          "topic": "Trees",
+          "question_text": "The following sequence corresponds to the preorder traversal of a binary search tree: 50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77. The position of the element 60 in the postorder traversal of T is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "7",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1603,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "Processes",
+          "question_text": "Consider the following program snippet. Assume that the program compiles and runs successfully. Further, assume that the fork() system call is always successful in creating a process. int main() { int i; for (i = 0; i < 3; i++) { if (fork() == 0) { continue; } break; } printf(\"Hello!\"); return 0; } The total number of times that the printf statement gets executed is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "4",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1604,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Operating Systems",
+          "topic": "CPU Scheduling",
+          "question_text": "Consider a CPU that has to execute two types of processes. The first type, Actuators (A), requires a CPU burst of 6 seconds. The second type, Controllers (C), requires a CPU burst of 8 seconds. A new process of type A arrives at time t = 10, 20, 30, 40 and 50 (in seconds). Similarly, a new process of type C arrives at time t = 11, 22, 33, 44, and 55 (in seconds). The CPU scheduling policy is First Come First Serve (FCFS). The first process of type A starts running at t = 10 seconds. The average waiting time (in seconds) for the 10 processes is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "9.5",
+          "marks": 2,
+          "negative_marks": 0
+        },
+        {
+          "id": 1605,
+          "year": 2026,
+          "paper_id": "GATE_CS_2026_Forenoon",
+          "subject": "Databases",
+          "topic": "Keys and Functional Dependencies",
+          "question_text": "Consider a relational database schema with a relation R(A, B, C, D). If {A, B} and {A, C} are the only two candidate keys of the relation R, then the number of superkeys of relation R is ___.",
+          "question_type": "NAT",
+          "choices": null,
+          "answer": "6",
+          "marks": 2,
+          "negative_marks": 0
+        }
       ]
     },
     "by_topic": {
@@ -91570,6 +99397,37 @@ export const GATE_DATA = {
             "answer": "Option C",
             "marks": 2,
             "negative_marks": -0.67
+          },
+          {
+            "id": 1510,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Compiler Design",
+            "topic": "Lexical Analysis",
+            "question_text": "A lexical analyzer uses token definitions: letter [A-Za-z], digit [0-9], id -> letter(letter|digit)*, number -> digit+, ws -> (blank|tab|newline)+. For the string 'x1 23 mm 78 y 7z zz5 14A 8H AaYcD', the number of tokens (excluding ws) that will be produced by the lexical analyzer is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "13",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1567,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Compiler Design",
+            "topic": "Lexical Analysis",
+            "question_text": "Consider the following C statements: char *str1 = \"Hello; /* Statement S1 */ char *str2 = \"Hello;\"; /* Statement S2 */ int *str3 = \"Hello\"; /* Statement S3 */ Which of the following options is/are correct?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) S1 and S2 have syntactic errors",
+              "(b) S2 has a lexical error and S3 has a syntactic error",
+              "(c) S1 has a lexical error and S3 has a semantic error",
+              "(d) S1 has a syntactic error and S3 has a semantic error"
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "Parsing": [
@@ -91990,6 +99848,42 @@ export const GATE_DATA = {
             "question_type": "NAT",
             "choices": [],
             "answer": "5",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1516,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Compiler Design",
+            "topic": "Parsing",
+            "question_text": "Consider the canonical LR(0) parsing of the grammar below using terminals (a, b, c) and non-terminals (A, B, C, S)... Which one of the following options gives the number of shift-reduce conflicts that will occur in the LR(0) ACTION table?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 2",
+              "(b) 3",
+              "(c) 4",
+              "(d) 5"
+            ],
+            "answer": "(d)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1568,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Compiler Design",
+            "topic": "Parsing",
+            "question_text": "Which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) LL(1) parser uses backtracking",
+              "(b) For a grammar to be LL(1), it must be left-recursive",
+              "(c) For a grammar to be LL(1), it must be left-factored",
+              "(d) The LL(1) parsers are more powerful than the SLR parsers"
+            ],
+            "answer": "(c)",
             "marks": 1,
             "negative_marks": 0
           }
@@ -92633,6 +100527,24 @@ export const GATE_DATA = {
             "answer": "80",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1593,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Compiler Design",
+            "topic": "Syntax Directed Translation",
+            "question_text": "Consider the following two syntax-directed definitions SDD1 and SDD2 for type declarations. Let P and Q be the languages specified by grammars G1 and G2, respectively. Which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) The languages P and Q are the same",
+              "(b) SDD2 is S-attributed and contains only synthesized attributes",
+              "(c) SDD1 is L-attributed and contains only inherited attributes",
+              "(d) The specifications of SDD1 and SDD2 are such that the same entries get added to the symbol table"
+            ],
+            "answer": "(a, b, d)",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Attribute Grammars": [
@@ -92881,6 +100793,44 @@ export const GATE_DATA = {
             "marks": 1,
             "negative_marks": -0.33
           }
+        ],
+        "Data Flow Analysis": [
+          {
+            "id": 1520,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Compiler Design",
+            "topic": "Data Flow Analysis",
+            "question_text": "Consider the control flow graph given below... Which one of the following options is the set of live variables at the exit point of each basic block?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) B1: (a, b, c, e, f), B2: (d, e), B3: (b, c, e, f), B4: φ",
+              "(b) B1: φ, B2: (d, e), B3: (a, c, f), B4: φ",
+              "(c) B1: (a, b, c, e, f), B2: (d, e), B3: (c, e, f), B4: φ",
+              "(d) B1: φ, B2: (d, e, f), B3: (a, b, c, e, f), B4: φ"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1582,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Compiler Design",
+            "topic": "Data Flow Analysis",
+            "question_text": "Consider the control flow graph shown in the figure. Which one of the following options correctly lists the set of redundant expressions (common sub-expressions) in the basic blocks B4 and B5? Note: All the variables are integers.",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) B4: {g*k, b+i}, B5: {c+m}",
+              "(b) B4: {b+i}, B5: {}",
+              "(c) B4: {c+m}, B5: {}",
+              "(d) B4: {g*k}, B5: {}"
+            ],
+            "answer": "(d)",
+            "marks": 2,
+            "negative_marks": 0.66
+          }
         ]
       },
       "Computer Networks": {
@@ -92958,6 +100908,42 @@ export const GATE_DATA = {
             "answer": "(B) SMTP, POP3",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1497,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Networks",
+            "topic": "Application Layer Protocols",
+            "question_text": "Which one of the following protocols may need to broadcast some of its messages?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) SMTP",
+              "(b) FTP",
+              "(c) DHCP",
+              "(d) HTTP"
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1559,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Networks",
+            "topic": "Application Layer Protocols",
+            "question_text": "Which of the following statements is/are true with respect to the interaction of a web browser with a web server using HTTP 1.1?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, if the objects are stored in the same server.",
+              "(b) HTTP 1.1 facilitates downloading multiple objects of the same webpage over the same TCP connection, even if they are stored in different servers.",
+              "(c) HTTP 1.1 facilitates sending a request for downloading one object without waiting for a previously requested object to be downloaded completely.",
+              "(d) HTTP 1.1 facilitates downloading multiple webpages on the same server to be downloaded over a single TCP connection."
+            ],
+            "answer": "(a, c, d)",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "Routing Algorithms": [
@@ -93696,6 +101682,24 @@ export const GATE_DATA = {
             "answer": "(D)",
             "marks": 1,
             "negative_marks": 0.33
+          },
+          {
+            "id": 1496,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Networks",
+            "topic": "Network Layer",
+            "question_text": "Consider a file of size 4 million bytes being transferred between two hosts connected via a path consisting of three consecutive links of bandwidth 2 Mbps, 500 kbps, and 1 Mbps, respectively. All processing delays and propagation delays are negligible. Assume that there is no other background traffic over the path and no other additional overhead to transfer the file. Which one of the following is the total time (in seconds) to transfer the file?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 73",
+              "(b) 64",
+              "(c) 8",
+              "(d) 16"
+            ],
+            "answer": "(b)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Data Link Layer": [
@@ -93809,6 +101813,55 @@ export const GATE_DATA = {
             "answer": "4",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1518,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Networks",
+            "topic": "Data Link Layer",
+            "question_text": "Consider the transmission of data bits 110001011 over a link that uses Cyclic Redundancy Check (CRC) code for error detection. If the generator bit pattern is given to be 1001, which one of the following options shows the remainder bit pattern appended to the data bits before transmission?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 011",
+              "(b) 101",
+              "(c) 000",
+              "(d) 100"
+            ],
+            "answer": "(d)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1540,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Networks",
+            "topic": "Data Link Layer",
+            "question_text": "It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless link of length 3000 kilometers... Let N be the minimum number of bits needed for the sequence number field in the protocol header. The value of N is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "30",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1585,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Networks",
+            "topic": "Data Link Layer",
+            "question_text": "Consider the implementation of sliding window protocol over a lossless link, with a window size of W frames, where each frame is of size 1000 bits (including header). The bandwidth of the link is 100 kbps and the one-way propagation delay is 100 milliseconds. Assume that processing times at the sender and receiver are zero and the transmission time of acknowledgements is also zero. Which one of the following options gives the minimum size of W (in number of frames) required to achieve 100% link utilization?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 10",
+              "(b) 21",
+              "(c) 20",
+              "(d) 11"
+            ],
+            "answer": "(b)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Routing Protocols": [
@@ -94914,6 +102967,24 @@ export const GATE_DATA = {
             "answer": "(B)",
             "marks": 1,
             "negative_marks": 0.33
+          },
+          {
+            "id": 1558,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Networks",
+            "topic": "TCP/IP",
+            "question_text": "With respect to a TCP connection between a client and a server, which one of the following statements is true?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) The client and server use a two-way handshake mechanism before the start of data transmission.",
+              "(b) The server cannot initiate closing of the connection before the client initiates closing of the connection.",
+              "(c) The TCP connection is half-duplex.",
+              "(d) The client and server can initiate closing of the connection at the same time."
+            ],
+            "answer": "(d)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Fragmentation": [
@@ -95057,6 +103128,72 @@ export const GATE_DATA = {
             "answer": "7.08",
             "marks": 2,
             "negative_marks": 0
+          }
+        ],
+        "IP Addressing": [
+          {
+            "id": 1508,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Networks",
+            "topic": "IP Addressing",
+            "question_text": "If an IP network uses a subnet mask of 255.255.240.0, the maximum number of IP addresses that can be assigned to network interfaces is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "4094",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1596,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Networks",
+            "topic": "IP Addressing",
+            "question_text": "An ISP having an address block 202.16.0.0/15 assigns a block of 6000 IP addresses to a client, using the classless internet domain routing (CIDR) super-netting approach. Which of the following address blocks can be assigned by the ISP?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) 202.16.0.0/19",
+              "(b) 202.17.64.0/19",
+              "(c) 202.16.32.0/19",
+              "(d) 202.17.24.0/19"
+            ],
+            "answer": "(a, b, c)",
+            "marks": 2,
+            "negative_marks": 0
+          }
+        ],
+        "TCP Congestion Control": [
+          {
+            "id": 1533,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Networks",
+            "topic": "TCP Congestion Control",
+            "question_text": "Consider a new TCP connection between a sender and a receiver. The receiver advertised window is constant at 48 KB, the MSS is 2 KB, and slow start threshold is 16 KB. The number of rounds of transmission required for the congestion control algorithm to reach the congestion avoidance phase is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "4",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1584,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Networks",
+            "topic": "TCP Congestion Control",
+            "question_text": "A TCP sender successfully establishes a connection with a TCP receiver and starts the transmission of segments. The TCP congestion control mechanism's slow-start threshold is set to 10000 segments. Assume that the round-trip time is fixed at 1 millisecond. Assume that the sender always has data to send, the segments are numbered from 1, and no segment is lost. Let t denote the time (in milliseconds) at which the transmission of segment number 2000 starts. Which one of the following options is correct?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 9 <= t < 10",
+              "(b) 10 <= t < 11",
+              "(c) 11 <= t < 12",
+              "(d) 12 <= t < 13"
+            ],
+            "answer": "(b)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ]
       },
@@ -95550,6 +103687,68 @@ export const GATE_DATA = {
             "question_type": "NAT",
             "choices": [],
             "answer": "0.43",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1489,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Probability",
+            "question_text": "The probability density function f(x) of a random variable X which takes real values is f(x) = (1 / (3 * sqrt(2 * pi))) * exp(-x^2 / 18), x ∈ (-∞, +∞). Which one of the following statements is correct about the random variable X?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) X is an exponential random variable",
+              "(b) X is a normal random variable",
+              "(c) X is a Poisson random variable",
+              "(d) X is a uniform random variable"
+            ],
+            "answer": "(b)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1538,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Probability",
+            "question_text": "Suppose an unbiased coin is tossed 6 times... Let E1 be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let E2 be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails. The conditional probability P(E1|E2) is equal to ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "0.5",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1551,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Probability",
+            "question_text": "An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 1/4",
+              "(b) 1/3",
+              "(c) 1/2",
+              "(d) 2/3"
+            ],
+            "answer": "(b)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1598,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Probability",
+            "question_text": "Let X be a random variable which takes values in the set {1, 2, 3, 4, 5, 6, 7, 8}. Further, Pr(X=1) = Pr(X=2) = Pr(X=5) = Pr(X=7) = 1/6 and Pr(X=3) = Pr(X=4) = Pr(X=6) = Pr(X=8) = 1/12. The expected value of X, denoted by E[X], is equal to ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "4.25",
             "marks": 2,
             "negative_marks": 0
           }
@@ -96060,6 +104259,19 @@ export const GATE_DATA = {
             "answer": "The diagonal entries of A^2 are the degrees of the vertices of the graph.; If the graph is connected, then none of the entries of A^{n-1} + I_n can be zero.",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1597,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Graphs",
+            "question_text": "Let G be an undirected graph, which is a path on 8 vertices. The number of matchings in G is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "34",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Propositional & First Order Logic": [
@@ -96080,6 +104292,24 @@ export const GATE_DATA = {
             "answer": "(A)",
             "marks": 2,
             "negative_marks": 0.66
+          },
+          {
+            "id": 1486,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Propositional & First Order Logic",
+            "question_text": "For two different persons x and y, the predicate M(x,y) denotes that x knows y. Consider the following statement. 'There is a person who does not know anyone else, but that person is known by everyone else.' Which one of the following expressions represents the above statement?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) (∃ y)(∀ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+              "(b) (∀ y)(∃ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+              "(c) (∃ y)(∃ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))",
+              "(d) (∀ y)(∀ x)((x ≠ y) → (M(x,y) ∧ ¬M(y,x)))"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Calculus": [
@@ -96574,6 +104804,68 @@ export const GATE_DATA = {
             "choices": [],
             "answer": "-0.5",
             "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1502,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Calculus",
+            "question_text": "For a real number a, let I(a) = integral from -1 to 1 of (3x^2 - ax + 1) dx. Which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) The value of I(a) is independent of the value of a",
+              "(b) The value of I(a) can vary with the value of a",
+              "(c) There exists a ∈ (-∞, +∞) such that I(a) is a positive real number",
+              "(d) There exists a ∈ (-∞, +∞) such that I(a) is a negative real number"
+            ],
+            "answer": "(a, c)",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1539,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Calculus",
+            "question_text": "Consider a function f:(0,1)->{0,1} defined as follows. For a real number r in (0,1), f(r)=1 if the second digit after the decimal point in r is one of the four digits 2, 3, 6 and 7. Otherwise, f(r) is equal to 0. The number of points in (0,1) at which f is discontinuous is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "40",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1572,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Calculus",
+            "question_text": "Consider the function f: R -> R defined as follows: f(x) = c_1 e^x - c_2 log_e(1/x) if x > 0, and 3 otherwise. where c_1, c_2 ∈ R. If f is continuous at x = 0, then c_1 + c_2 = ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "3",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1586,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Calculus",
+            "question_text": "Let f: R -> R be defined as follows: f(x) = (|x|/2 - x)(x - |x|/2). Which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) f has a local maximum",
+              "(b) f has a local minimum",
+              "(c) f is continuous over R",
+              "(d) f is not differentiable over R"
+            ],
+            "answer": "(a, c, d)",
+            "marks": 2,
             "negative_marks": 0
           }
         ],
@@ -97262,6 +105554,68 @@ export const GATE_DATA = {
             ],
             "answer": "[-1; 1; 0; 1]; [1; 0; -1; 0]; [-1; 0; 2; 2]",
             "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1506,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Linear Algebra",
+            "question_text": "Consider the system of linear equations given below: ax + y = b, 16x + ay = 24. Suppose the values of a and b are chosen such that the system of linear equations produce multiple solutions. Then the product of a and b is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "24",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1537,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Linear Algebra",
+            "question_text": "The determinant of a 4x4 matrix A is 3. The value of the determinant of 2A is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "48",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1553,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Linear Algebra",
+            "question_text": "For n > 1, the maximum multiplicity of any eigenvalue of an n x n matrix with elements from R is",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) n",
+              "(b) n - 1",
+              "(c) 1",
+              "(d) n + 1"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1560,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Linear Algebra",
+            "question_text": "Let n > 1. Consider an n x n matrix M with its elements from R. Let the vector (0, 1, 0, 0, ..., 0) in R^n be in the null space of M. Which of the following options is/are always correct?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) Determinant of M is 1",
+              "(b) Determinant of M is 0",
+              "(c) Rank of M is 1",
+              "(d) There are at least two non-zero vectors in the null space of M"
+            ],
+            "answer": "(b, d)",
+            "marks": 1,
             "negative_marks": 0
           }
         ],
@@ -98400,6 +106754,24 @@ export const GATE_DATA = {
             "answer": "7",
             "marks": 1,
             "negative_marks": 0
+          },
+          {
+            "id": 1552,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Combinatorics",
+            "question_text": "Consider 4x4 matrices with their elements from {0, 1}. The number of such matrices with even number of 1s in every row and every column is",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 512",
+              "(b) 1025",
+              "(c) 1023",
+              "(d) 255"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Discrete Mathematics": [
@@ -98569,6 +106941,24 @@ export const GATE_DATA = {
             "answer": "(B)",
             "marks": 2,
             "negative_marks": 0.66
+          },
+          {
+            "id": 1501,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Engineering Mathematics",
+            "topic": "Relations",
+            "question_text": "Let R be a binary relation on the set {1, 2, ..., 10} where (x, y) ∈ R if the product of x and y is square of an integer. Which of the following properties is/are satisfied by R?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) Reflexive",
+              "(b) Symmetric",
+              "(c) Transitive",
+              "(d) Antisymmetric"
+            ],
+            "answer": "(a, b, c)",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "Propositional Logic": [
@@ -99419,6 +107809,37 @@ export const GATE_DATA = {
             "answer": "0.6",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1530,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Operating Systems",
+            "topic": "Memory Management",
+            "question_text": "Consider contiguous allocation of physical memory to processes using variable partitioning scheme... After allocating space to P1 and P2 using best-fit, the number of holes of size less than 8 KB is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "3",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1594,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Operating Systems",
+            "topic": "Memory Management",
+            "question_text": "Consider a system that has a cache memory unit and a memory management unit (MMU). The address input to the cache memory is a physical address. The MMU has a translation lookaside buffer (TLB). Assume that when a page is evicted from the main memory, the corresponding blocks in the cache are marked as invalid. For a given memory reference, which of the following sequences of events can NEVER happen?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) TLB miss, Page table hit, Cache hit",
+              "(b) TLB hit, Page table miss, Cache hit",
+              "(c) TLB miss, Page table miss, Cache hit",
+              "(d) TLB miss, Page table miss, Cache miss"
+            ],
+            "answer": "(b, c)",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "CPU Scheduling": [
@@ -99700,6 +108121,37 @@ export const GATE_DATA = {
             "answer": "P = 4, Q = 10, R = 6, S = 2",
             "marks": 2,
             "negative_marks": -0.66
+          },
+          {
+            "id": 1498,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Operating Systems",
+            "topic": "CPU Scheduling",
+            "question_text": "Which one of the following CPU scheduling algorithms cannot be preemptive?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Shortest Remaining Time First (SRTF) Scheduling",
+              "(b) First Come First Serve (FCFS) Scheduling",
+              "(c) Round Robin Scheduling",
+              "(d) Priority Scheduling"
+            ],
+            "answer": "(b)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1604,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Operating Systems",
+            "topic": "CPU Scheduling",
+            "question_text": "Consider a CPU that has to execute two types of processes. The first type, Actuators (A), requires a CPU burst of 6 seconds. The second type, Controllers (C), requires a CPU burst of 8 seconds. A new process of type A arrives at time t = 10, 20, 30, 40 and 50 (in seconds). Similarly, a new process of type C arrives at time t = 11, 22, 33, 44, and 55 (in seconds). The CPU scheduling policy is First Come First Serve (FCFS). The first process of type A starts running at t = 10 seconds. The average waiting time (in seconds) for the 10 processes is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "9.5",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Disk Management": [
@@ -99964,6 +108416,19 @@ export const GATE_DATA = {
             "answer": "153",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1528,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Operating Systems",
+            "topic": "File Systems",
+            "question_text": "To keep track of free blocks in a file system, consider that the linked list approach is used... The number of blocks required to hold the free disk block numbers is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "16417",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Virtual Memory": [
@@ -99984,6 +108449,19 @@ export const GATE_DATA = {
             "answer": "OPTIMAL < FIFO < LRU",
             "marks": 2,
             "negative_marks": -0.67
+          },
+          {
+            "id": 1529,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Operating Systems",
+            "topic": "Virtual Memory",
+            "question_text": "A system has a Translation Lookaside Buffer (TLB) that has a reach of 1 MB... If each TLB entry stores a 4-bit process id, page number, frame number, and a 2-bit control field, then the size of the TLB (in bytes) is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "1536",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Deadlock": [
@@ -100190,6 +108668,37 @@ export const GATE_DATA = {
               "In the resource-allocation graph of a system, if every edge is an assignment edge, then the system is not in deadlock state."
             ],
             "answer": "Circular wait is a necessary condition for the formation of deadlock.; In the resource-allocation graph of a system, if every edge is an assignment edge, then the system is not in deadlock state.",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1569,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Operating Systems",
+            "topic": "Deadlock",
+            "question_text": "With respect to deadlocks in an operating system, which of the following statements is/are FALSE?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) Banker's algorithm is used to prevent deadlocks",
+              "(b) Deadlock formation can be prevented by ensuring that the hold and wait condition is not allowed",
+              "(c) An assignment edge in a resource allocation graph is marked from a process to a resource",
+              "(d) A safe state guarantees that all processes can finish without formation of a deadlock"
+            ],
+            "answer": "(a, c)",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1575,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Operating Systems",
+            "topic": "Deadlock",
+            "question_text": "Consider a system consisting of K instances of a resource R, being shared by 5 processes. Assume that each process requires a maximum of two instances of resource R and a process can request or release only one instance at a time. Further, a process can request the second instance of the resource only after acquiring the first instance. The minimum value of K for the system to be deadlock-free is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "6",
             "marks": 1,
             "negative_marks": 0
           }
@@ -100423,6 +108932,24 @@ export const GATE_DATA = {
             "answer": "S1 = 1; S2 = 0; S3 = 0",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1526,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Operating Systems",
+            "topic": "Process Synchronization",
+            "question_text": "Consider three processes P1, P2, and P3 running identical code... Which of the following patterns is/are possible to be generated as an outcome of the execution of these three processes?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) **$*###",
+              "(b) **$#*##",
+              "(c) **$*##*#",
+              "(d) ***$###"
+            ],
+            "answer": "(a, b, c)",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Disk Scheduling": [
@@ -100506,6 +109033,19 @@ export const GATE_DATA = {
             "question_type": "NAT",
             "choices": [],
             "answer": "31",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1599,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Operating Systems",
+            "topic": "Disk Scheduling",
+            "question_text": "Consider a hard disk with a rotational speed of 15000 rpm. The time to move the read/write head from a track to its adjacent track is 1 millisecond. Initially, the head is on track 0. The number of sectors per track is 400. The sector size is 1024 bytes. It is necessary to transfer data from 10 randomly located sectors in each of the following tracks in the order: 5, 12 and 7. The total time for the data transfer (in milliseconds) from the hard disk is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "77.3",
             "marks": 2,
             "negative_marks": 0
           }
@@ -100902,6 +109442,21 @@ export const GATE_DATA = {
             "answer": "Option A",
             "marks": 1,
             "negative_marks": -0.33
+          }
+        ],
+        "Processes": [
+          {
+            "id": 1603,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Operating Systems",
+            "topic": "Processes",
+            "question_text": "Consider the following program snippet. Assume that the program compiles and runs successfully. Further, assume that the fork() system call is always successful in creating a process. int main() { int i; for (i = 0; i < 3; i++) { if (fork() == 0) { continue; } break; } printf(\"Hello!\"); return 0; } The total number of times that the printf statement gets executed is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "4",
+            "marks": 2,
+            "negative_marks": 0
           }
         ]
       },
@@ -101389,6 +109944,42 @@ export const GATE_DATA = {
             "answer": "Option A",
             "marks": 2,
             "negative_marks": -0.67
+          },
+          {
+            "id": 1522,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Theory of Computation",
+            "topic": "Finite Automata",
+            "question_text": "Consider the following two finite automata D1 and D2... Which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) L(D1) = L(D2)",
+              "(b) L(D1) is a proper subset of L(D2)",
+              "(c) L(D1) ∩ L(D2) = {ε}",
+              "(d) (L(D1) ∪ L(D2))* consists of all strings in (0,1)* whose length is divisible by 3"
+            ],
+            "answer": "(c, d)",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1566,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Theory of Computation",
+            "topic": "Finite Automata",
+            "question_text": "Let M be a non-deterministic finite automaton (NFA) with 6 states over a finite alphabet. Which of the following options CANNOT be the number of states in the minimal deterministic finite automaton (DFA) that is equivalent to M?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) 32",
+              "(b) 65",
+              "(c) 1",
+              "(d) 128"
+            ],
+            "answer": "(b, d)",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "DFA Minimization": [
@@ -102009,6 +110600,24 @@ export const GATE_DATA = {
             "answer": "2",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1591,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Theory of Computation",
+            "topic": "Regular Languages",
+            "question_text": "Let L1 and L2 be two languages over a finite alphabet, such that L1 ∩ L2 and L2 are regular languages. Which of the following statements is/are always true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) L1 is regular",
+              "(b) L1 ∪ L2 is regular",
+              "(c) L2' is context free",
+              "(d) L1 is context free"
+            ],
+            "answer": "(c)",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Context Free Languages": [
@@ -102375,6 +110984,42 @@ export const GATE_DATA = {
             "answer": "L1 - L2",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1523,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Theory of Computation",
+            "topic": "Context-Free Languages",
+            "question_text": "Let Σ = {a,b,c,d} and let L = {a^i b^j c^k d^l | i, j, k, l ≥ 0}. Which of the following constraints ensure(s) that the language L is context-free?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) i + k = j + l",
+              "(b) i = k and j = l",
+              "(c) i = l and j = k",
+              "(d) i + j = k + l"
+            ],
+            "answer": "(a, c, d)",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1592,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Theory of Computation",
+            "topic": "Context-Free Languages",
+            "question_text": "Consider the following context-free grammar G: S -> abaABAbba; A -> aaBBAb | bBabaa; B -> aBb | ab. Let L(G) be the language generated by the grammar G. For a string s ∈ L(G) let n1(s) be the number of a's in s and n2(s) be the number of b's in s. Which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) There is a string s ∈ L(G) such that n1(s) < n2(s)",
+              "(b) For every string s ∈ L(G) n1(s) >= n2(s)",
+              "(c) There is a string s ∈ L(G) such that n1(s) > 2n2(s)",
+              "(d) For every string s ∈ L(G) n1(s) <= 2n2(s)"
+            ],
+            "answer": "(b, d)",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Computability": [
@@ -102556,6 +111201,42 @@ export const GATE_DATA = {
             "answer": "(C)",
             "marks": 1,
             "negative_marks": 0.33
+          },
+          {
+            "id": 1504,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Theory of Computation",
+            "topic": "Context-Free Grammars",
+            "question_text": "Which of the following grammars is/are ambiguous?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) S -> aSb | ε",
+              "(b) E -> E+E | E*E | id",
+              "(c) S -> aS | Sa | ε",
+              "(d) S -> aS | ε"
+            ],
+            "answer": "(b, c)",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1565,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Theory of Computation",
+            "topic": "Context-Free Grammars",
+            "question_text": "Consider the following grammar where S is the start symbol, and a and b are terminal symbols. S -> aSbS | bS | ε. Which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) The grammar is ambiguous.",
+              "(b) The string abb has two distinct derivations in this grammar.",
+              "(c) The string abab has only one rightmost derivation.",
+              "(d) The language generated by the grammar is undecidable."
+            ],
+            "answer": "(a, b, c)",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "Pushdown Automata": [
@@ -102852,6 +111533,26 @@ export const GATE_DATA = {
             "marks": 1,
             "negative_marks": 0
           }
+        ],
+        "Turing Machines": [
+          {
+            "id": 1488,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Theory of Computation",
+            "topic": "Turing Machines",
+            "question_text": "Which one of the following statements is equivalent to the following assertion? Turing machine M decides the language L ⊆ {0,1}*.",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Turing machine M halts on all input strings in (0,1)*",
+              "(b) Turing machine M accepts all input strings in L",
+              "(c) Turing machine M rejects all input strings in {0,1}* - L",
+              "(d) Turing machine M accepts all input strings in L and rejects all input strings in {0,1}* - L"
+            ],
+            "answer": "(d)",
+            "marks": 1,
+            "negative_marks": 0.33
+          }
         ]
       },
       "Computer Organization": {
@@ -102891,6 +111592,24 @@ export const GATE_DATA = {
             "answer": "(iii), (i), (ii)",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1493,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Organization",
+            "topic": "Interrupts",
+            "question_text": "Consider the following two statements about interrupt handling mechanisms in a CPU. S1: In non-vectored interrupt mechanism, it usually takes more time to start the Interrupt Service Routine (ISR) when compared to that in a vectored interrupt mechanism. S2: In daisy-chain interrupt mechanism, the CPU polls all the input devices individually to determine the source of the interrupt. Which one of the following options is correct with respect to S1 and S2?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Both S1 and S2 are true",
+              "(b) Both S1 and S2 are false",
+              "(c) S1 is true and S2 is false",
+              "(d) S1 is false and S2 is true"
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Addressing Modes": [
@@ -102929,6 +111648,24 @@ export const GATE_DATA = {
             "answer": "(D) Index addressing mode, X(R1), where X is an offset represented in 2’s complement 16-bit representation.",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1554,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Organization",
+            "topic": "Addressing Modes",
+            "question_text": "Match each addressing mode in List I with a data element or an element of a data structure (in a high-level language) in List II: List I: P. Immediate, Q. Indirect, R. Base with index, S. Base with offset/displacement. List II: 1. Element of an array, 2. Pointer, 3. Element of a record, 4. Constant",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) P-4, Q-3, R-1, S-2",
+              "(b) P-4, Q-2, R-1, S-3",
+              "(c) P-1, Q-4, R-3, S-2",
+              "(d) P-2, Q-3, R-1, S-4"
+            ],
+            "answer": "(b)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "I/O Interface": [
@@ -103291,6 +112028,50 @@ export const GATE_DATA = {
             "question_type": "NAT",
             "choices": [],
             "answer": "1.43",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1532,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Organization",
+            "topic": "Pipelining",
+            "question_text": "A non-pipelined instruction execution unit that operates at 1.6 GHz clock takes an average of 5 clock cycles... The speed-up obtained by the pipelined design over the non-pipelined one for this program is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "2.34",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1556,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Organization",
+            "topic": "Pipelining",
+            "question_text": "Which one of the following dependencies among the register operands of different instructions can cause a data hazard in a pipelined processor?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Read-after-read",
+              "(b) Read-after-write",
+              "(c) Write-after-read",
+              "(d) Write-after-write"
+            ],
+            "answer": "(b)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1600,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Organization",
+            "topic": "Pipelining",
+            "question_text": "The EX stage of a pipelined processor performs the memory read operations for LOAD instructions, and the operations for the arithmetic and logic instructions. Let t_EX denote the time taken by the EX stage to perform the operation for an instruction. For each instruction type, the values of t_EX and M (the number of instructions of that type in a sequence of 100 instructions) are given. The duration of the pipeline clock cycle is 1 nanosecond... When program P is executed, the number of clock cycles for which the pipeline is stalled due to structural hazards in the EX stage is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "95",
             "marks": 2,
             "negative_marks": 0
           }
@@ -103840,6 +112621,55 @@ export const GATE_DATA = {
             "answer": "At the end of the execution only R and S reside in the cache.; Every access to R evicts Q from the cache.",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1527,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Organization",
+            "topic": "Cache Memory",
+            "question_text": "Consider a system with a processor and a 4 KB direct mapped cache with block size of 16 bytes. The system has a 16 MB physical memory... Which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) Every access to P results in a cache miss",
+              "(b) Every access to R results in a cache hit",
+              "(c) Every access to Q results in a cache miss",
+              "(d) Except the first access to S, all subsequent accesses to S result in cache hits"
+            ],
+            "answer": "(a, b)",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1531,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Organization",
+            "topic": "Cache Memory",
+            "question_text": "Consider a system with 1 MB physical memory and a word length of 1 byte. The system uses a direct mapped cache... The maximum possible size of the cache (in KB) for this configuration is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "128",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1578,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Organization",
+            "topic": "Cache Memory",
+            "question_text": "The size of the physical address space of a processor is 2^32 bytes. The capacity of a cache memory unit is 2^23 bytes. The cache block size is 128 bytes. The cache memory unit can be built as a direct mapped cache or as a K-way set-associative cache, where K = 2^L and L ∈ {1,2,3}. Let the length of the TAG field be M bits for the direct mapped cache, and N bits for the set-associative cache. Which one of the following options is true?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) N = M + L",
+              "(b) N = M - L",
+              "(c) N = M + K",
+              "(d) N = M - K"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Floating Point Representation": [
@@ -103896,6 +112726,37 @@ export const GATE_DATA = {
             "answer": "exponent = 00000001 and mantissa = 00000000000000000000000",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1509,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Organization",
+            "topic": "Floating Point Representation",
+            "question_text": "The 32-bit IEEE 754 single precision representation of a number is 0xC2710000. The number in decimal representation is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "-60.25",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1576,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Organization",
+            "topic": "Floating Point Representation",
+            "question_text": "Consider the real valued variables X, Y and Z represented using the IEEE 754 single-precision floating-point format. The binary representations of X and Y in hexadecimal notation are as follows: X: 35000000 Y: 34A00000. Let Z = X + Y. Which one of the following is the binary representation of Z, in hexadecimal notation?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 35C80000",
+              "(b) 35CC0000",
+              "(c) 35E80000",
+              "(d) 35EC0000"
+            ],
+            "answer": "(c)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "CPU": [
@@ -104184,6 +113045,42 @@ export const GATE_DATA = {
             "answer": "Option D",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1519,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Computer Organization",
+            "topic": "Instruction Set Architecture",
+            "question_text": "Consider a processor that has 16 general purpose registers and it uses 2-byte instruction format for all its instructions. Variable-sized opcodes are permitted... If there are 2 unique M-type opcodes and 7 unique R-type opcodes, which one of the following options gives the maximum number of unique opcodes possible for C-type instructions?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 8",
+              "(b) 4",
+              "(c) 64",
+              "(d) 16"
+            ],
+            "answer": "(b)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1555,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Computer Organization",
+            "topic": "Instruction Set Architecture",
+            "question_text": "Consider a processor P whose instruction set architecture is the load-store architecture. The instruction format is such that the first operand of any instruction is the destination operand. Which one of the following sequences of instructions corresponds to the high-level language statement Z = X + Y? Note: X, Y, and Z are memory operands. R0, R1, and R2 are registers.",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) ADD Z, X, Y",
+              "(b) LOAD R0, X; ADD Z, R0, Y",
+              "(c) ADD R0, X, Y; STORE Z, R0",
+              "(d) LOAD R0, X; LOAD R1, Y; ADD R2, R0, R1; STORE Z, R2"
+            ],
+            "answer": "(d)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Number Representation": [
@@ -104641,6 +113538,37 @@ export const GATE_DATA = {
             "answer": "(A)",
             "marks": 1,
             "negative_marks": 0.33
+          },
+          {
+            "id": 1570,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Databases",
+            "topic": "Keys and Functional Dependencies",
+            "question_text": "Let P, Q, R and S be the attributes of a relation in a relational schema. Let X -> Y indicate functional dependency in the context of a relational database, where X, Y ⊆ {P, Q, R, S}. Which of the following options is/are always true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) If ({P, Q} -> {R} and {P} -> {R}) then {Q} -> {R}",
+              "(b) If {P, Q} -> {R} then ({P} -> {R} or {Q} -> {R})",
+              "(c) If ({P} -> {R} and {Q} -> {S}) then {P, Q} -> {R, S}",
+              "(d) If {P} -> {R} then {P, Q} -> {R}"
+            ],
+            "answer": "(c, d)",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1605,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Databases",
+            "topic": "Keys and Functional Dependencies",
+            "question_text": "Consider a relational database schema with a relation R(A, B, C, D). If {A, B} and {A, C} are the only two candidate keys of the relation R, then the number of superkeys of relation R is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "6",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "SQL": [
@@ -105156,6 +114084,24 @@ export const GATE_DATA = {
             "answer": "25",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1521,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Databases",
+            "topic": "Indexing",
+            "question_text": "An index in a DBMS is said to be dense if an index entry appears for every search-key value in the indexed file... S1: A hash index must be a dense index. S2: A B+ tree index can be a sparse index. Which one of the following options is correct?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Both S1 and S2 are true",
+              "(b) Both S1 and S2 are false",
+              "(c) S1 is true and S2 is false",
+              "(d) S1 is false and S2 is true"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Normalization": [
@@ -105478,6 +114424,42 @@ export const GATE_DATA = {
             "question_type": "NAT",
             "choices": [],
             "answer": "4",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1517,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Databases",
+            "topic": "Normalization",
+            "question_text": "In the context of schema normalization in relational DBMS, consider a set F of functional dependencies... Listed below are four combinations of these three rules. Which one of these combinations is both necessary and sufficient for the proof of the Union rule?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Reflexivity, Augmentation, and Transitivity",
+              "(b) Reflexivity and Augmentation",
+              "(c) Transitivity",
+              "(d) Augmentation and Transitivity"
+            ],
+            "answer": "(d)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1571,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Databases",
+            "topic": "Normalization",
+            "question_text": "In the context of relational database normalization, which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) It is always possible to obtain a dependency-preserving 3NF decomposition of a relation",
+              "(b) It is always possible to obtain a dependency-preserving 1NF decomposition of a relation",
+              "(c) It is not always possible to obtain a dependency-preserving BCNF decomposition of a relation",
+              "(d) It is not always possible to obtain a dependency-preserving 2NF decomposition of a relation"
+            ],
+            "answer": "(a, b, c)",
             "marks": 1,
             "negative_marks": 0
           }
@@ -105944,6 +114926,24 @@ export const GATE_DATA = {
             "answer": "π_{eId}(π_{eId, bId}(Own) / π_{bId}(Brand)); π_{eId}(Own) - π_{eId}((π_{eId}(Own) × π_{bId}(Brand)) - Own)",
             "marks": 1,
             "negative_marks": 0
+          },
+          {
+            "id": 1583,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Databases",
+            "topic": "Relational Algebra",
+            "question_text": "Consider a relational database schema with two relations R(P, Q) and S(X, Y). Let E = {<u> | ∃v ∃w <u,v> ∈ R ∧ <v,w> ∈ S} be a tuple relational calculus expression. Which one of the following relational algebraic expressions is equivalent to E?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Π_P (R ⋈_{R.P=S.X} S)",
+              "(b) Π_P (S ⋈_{S.X=R.Q} R)",
+              "(c) Π_P (R ⋈_{R.P=S.Y} S)",
+              "(d) Π_P (S ⋈_{S.Y=R.Q} R)"
+            ],
+            "answer": "(b)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Transactions": [
@@ -106432,6 +115432,24 @@ export const GATE_DATA = {
             "answer": "S1 is conflict serializable, and S2 is not conflict serializable.",
             "marks": 2,
             "negative_marks": -0.67
+          },
+          {
+            "id": 1495,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Databases",
+            "topic": "Concurrency Control",
+            "question_text": "Consider concurrent execution of two transactions T1 and T2 in a DBMS, both of which access a data object A. For these two transactions to not conflict on A, which one of the following statements must be true?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Both T1 and T2 only read A",
+              "(b) T1 reads A and T2 writes A",
+              "(c) T1 writes A and T2 reads A",
+              "(d) Both T1 and T2 write A"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Transactions & Concurrency": [
@@ -106509,6 +115527,26 @@ export const GATE_DATA = {
             ],
             "marks": 1,
             "negative_marks": 0
+          }
+        ],
+        "Database Architecture": [
+          {
+            "id": 1490,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Databases",
+            "topic": "Database Architecture",
+            "question_text": "In the context of DBMS, consider the two sets T and S given below. T: I: Logical schema, II: Physical schema, III: External schema. S: L: Views, M: File organization and indexes, N: Relations. Which one of the following is the correct match from T to S?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) I - L, II - M, III - N",
+              "(b) I - M, II - L, III - N",
+              "(c) I - N, II - M, III - L",
+              "(d) I - N, II - L, III - M"
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ]
       },
@@ -106881,6 +115919,78 @@ export const GATE_DATA = {
             ],
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1491,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Digital Logic",
+            "topic": "Boolean Algebra",
+            "question_text": "Which one of the following options is not a property of Boolean Algebra? Note: + is OR operation, · is AND operation, and ' is NOT operation",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) a + b = b + a",
+              "(b) a · a' = 1",
+              "(c) a + a' = 1",
+              "(d) a · b = b · a"
+            ],
+            "answer": "(b)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1515,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Digital Logic",
+            "topic": "Boolean Algebra",
+            "question_text": "Consider the following 4-variable Boolean function F(A,B,C,D) = Σ m(0,1,2,3,8,9,10,11). Consider A as MSB, D as LSB. Which one of the following options represents the minimal sum of products form for the above function?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) A' + B' + C' + D'",
+              "(b) B'",
+              "(c) A'B' + AB",
+              "(d) A'"
+            ],
+            "answer": "(b)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1561,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Digital Logic",
+            "topic": "Boolean Algebra",
+            "question_text": "Consider the following Boolean expression of a function F: F(P,Q) = (P' + Q) ⊕ (P'Q). Which of the following expressions is/are equivalent to F?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) P ⊕ Q",
+              "(b) P ⊙ Q",
+              "(c) (P ⊙ Q)'",
+              "(d) (P ⊕ Q)'"
+            ],
+            "answer": "(a, c)",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1588,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Digital Logic",
+            "topic": "Boolean Algebra",
+            "question_text": "Consider a Boolean function F with the following minterm expression: F(P, Q, R, S) = Σ m(1, 2, 3, 4, 5, 7, 10, 12, 13, 14). Which of the following options is/are the minimal sum-of-products expression(s) of F?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) P'S' + QR' + P'Q'R + Q'RS'",
+              "(b) P'S' + QR' + P'Q'R + PRS'",
+              "(c) P'S' + QR' + PQS' + PRS'",
+              "(d) P'S' + QR' + PQS' + Q'RS'"
+            ],
+            "answer": "(b, d)",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Counters": [
@@ -107081,6 +116191,24 @@ export const GATE_DATA = {
             "answer": "3",
             "marks": 1,
             "negative_marks": 0
+          },
+          {
+            "id": 1577,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Digital Logic",
+            "topic": "Sequential Circuits",
+            "question_text": "Consider a 2-bit saturating up/down counter that performs the saturating up count when the input P is 0, and the saturating down count when P is 1. The counter is built as a synchronous sequential circuit using D flip-flops. Which one of the following options corresponds to the expressions for the inputs of the D flip-flops, D1 and D0?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) D1 = PQ1 + P'Q0 + Q1Q0, D0 = PQ0 + P'Q1 + Q1Q0'",
+              "(b) D1 = P'Q1 + P'Q0 + Q1Q0, D0 = P'Q0' + P'Q1 + Q1Q0'",
+              "(c) D1 = P'Q1' + P'Q0 + Q1Q0, D0 = P'Q0 + P'Q1 + Q1Q0'",
+              "(d) D1 = PQ1' + P'Q0 + Q1Q0, D0 = PQ0' + P'Q1 + Q1Q0'"
+            ],
+            "answer": "(b)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Combinational Circuits": [
@@ -107450,6 +116578,42 @@ export const GATE_DATA = {
             "answer": "R1 = 0011 and R2 = 0100",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1503,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Digital Logic",
+            "topic": "Number Representation",
+            "question_text": "In a system, numbers are represented using 4-bit two's complement form. Consider four numbers N1 = 1011, N2 = 1101, N3 = 1010 and N4 = 1001 in the system. Which of the following operations will result in arithmetic overflow?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) N1 + N2",
+              "(b) N2 + N3",
+              "(c) N3 - N4",
+              "(d) N1 + N4"
+            ],
+            "answer": "(b, d)",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1562,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Digital Logic",
+            "topic": "Number Representation",
+            "question_text": "Consider the 8-bit signed integers X, Y and Z represented using the sign-magnitude form. The binary representations of X and Y are as follows: X: 10110100 Y: 01001100. Which of the following operations to compute Z result(s) in an arithmetic overflow?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) Z = X + Y",
+              "(b) Z = X - Y",
+              "(c) Z = -X + Y",
+              "(d) Z = -X - Y"
+            ],
+            "answer": "(b, c)",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "Minimization": [
@@ -107686,6 +116850,19 @@ export const GATE_DATA = {
             "question_type": "NAT",
             "choices": [],
             "answer": "4",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1534,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Digital Logic",
+            "topic": "Multiplexers",
+            "question_text": "Consider the digital circuit shown below with two input lines A and B, two select lines S0 and S1, and an output line Y. Out of 16 possible input combinations, the number of combinations that produce Y = 1 is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "6",
             "marks": 2,
             "negative_marks": 0
           }
@@ -108724,6 +117901,37 @@ export const GATE_DATA = {
             "answer": "z K S",
             "marks": 2,
             "negative_marks": -0.66
+          },
+          {
+            "id": 1494,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Programming",
+            "topic": "C Programming",
+            "question_text": "Consider the following three ANSI-C programs, P1, P2 and P3... Which one of the following statements is true?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Only P1 will compile without any error",
+              "(b) Only P2 will compile without any error",
+              "(c) Only P3 will compile without any error",
+              "(d) All three programs P1, P2, and P3 will compile without any error"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1574,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Programming",
+            "topic": "C Programming",
+            "question_text": "Consider the following program in C: void func(int i, int j) { if(i < j) { int i = 0; while (i < 10) { j += 2; i++; } } printf(\"%d\", i); } int main() { int i = 9, j = 10; func(i, j); return 0; } The output of the program is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "9",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "Recursion": [
@@ -108905,6 +118113,32 @@ export const GATE_DATA = {
             "question_type": "NAT",
             "choices": [],
             "answer": "3",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1536,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Programming",
+            "topic": "Recursion",
+            "question_text": "Consider the following ANSI-C function... The maximum possible value that can be returned from this function is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "1",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1601,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Programming",
+            "topic": "Recursion",
+            "question_text": "Consider the recursive functions represented by the following code segment: int bar(int n) { if (n == 1) return 0; else return 1 + bar(n/2); } int foo(int n) { if (n == 1) return 1; else return 1 + foo(bar(n)); } The smallest positive integer n for which foo(n) returns 5 is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "65536",
             "marks": 2,
             "negative_marks": 0
           }
@@ -109528,6 +118762,24 @@ export const GATE_DATA = {
             "answer": "(C)",
             "marks": 1,
             "negative_marks": 0.33
+          },
+          {
+            "id": 1579,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Programming",
+            "topic": "Linked Lists",
+            "question_text": "Consider the following code snippet in C language that computes the number of nodes in a non-empty singly linked list pointed to by the pointer variable head. int getListSize (struct node *head) { if(E1) return 1; return E2; } Which one of the following options gives the correct replacements for the expressions E1 and E2?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) E1: head == NULL; E2: 1 + getListSize(head)",
+              "(b) E1: head->next == NULL; E2: 1 + getListSize(head->next)",
+              "(c) E1: head == NULL; E2: 1 + getListSize(head->next)",
+              "(d) E1: head->next == NULL; E2: 1 + getListSize(head)"
+            ],
+            "answer": "(b)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Graphs": [
@@ -109639,6 +118891,41 @@ export const GATE_DATA = {
             "question_type": "NAT",
             "choices": [],
             "answer": "1023",
+            "marks": 2,
+            "negative_marks": 0
+          }
+        ],
+        "Memory Management": [
+          {
+            "id": 1492,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Programming",
+            "topic": "Memory Management",
+            "question_text": "In C runtime environment, which one of the following is stored in heap?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) A static variable declared inside a function",
+              "(b) An array of integers declared inside a function",
+              "(c) A dynamically allocated array of integers created using malloc() function call",
+              "(d) Return address of a function"
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0.33
+          }
+        ],
+        "Pointers": [
+          {
+            "id": 1535,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Programming",
+            "topic": "Pointers",
+            "question_text": "Consider the following ANSI-C program... The output of this program is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "9",
             "marks": 2,
             "negative_marks": 0
           }
@@ -109792,6 +119079,24 @@ export const GATE_DATA = {
             "answer": "80",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1563,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Data Structures",
+            "topic": "Heaps",
+            "question_text": "Let n be an odd number greater than 100. Consider a binary minheap with n elements stored in an array P whose index starts from 1. Which of the following indices of P do/does NOT correspond to any leaf node of the minheap?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) (n+1)/2",
+              "(b) (n-1)/2",
+              "(c) (n-3)/2",
+              "(d) n"
+            ],
+            "answer": "(b, c)",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "Trees": [
@@ -109904,6 +119209,50 @@ export const GATE_DATA = {
             "choices": [],
             "answer": "4",
             "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1487,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Data Structures",
+            "topic": "Trees",
+            "question_text": "The set T represents various traversals over binary tree. The set S represents the order of visiting nodes during a traversal. T: I: Inorder, II: Preorder, III: Postorder. S: L: left subtree, node, right subtree; M: node, left subtree, right subtree; N: left subtree, right subtree, node. Which one of the following is the correct match from T to S?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) I - L, II - M, III - N",
+              "(b) I - M, II - L, III - N",
+              "(c) I - N, II - M, III - L",
+              "(d) I - L, II - N, III - M"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1573,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Data Structures",
+            "topic": "Trees",
+            "question_text": "The height of a binary tree is the number of edges in the longest path from the root to a leaf in the tree. The maximum possible height of a full binary tree with 23 nodes is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "11",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1602,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Data Structures",
+            "topic": "Trees",
+            "question_text": "The following sequence corresponds to the preorder traversal of a binary search tree: 50, 25, 13, 40, 30, 47, 75, 60, 70, 80, 77. The position of the element 60 in the postorder traversal of T is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "7",
+            "marks": 2,
             "negative_marks": 0
           }
         ],
@@ -110074,6 +119423,42 @@ export const GATE_DATA = {
             "answer": "997",
             "marks": 1,
             "negative_marks": 0
+          },
+          {
+            "id": 1524,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Data Structures",
+            "topic": "Binary Search Trees",
+            "question_text": "Consider a binary search tree (BST) with n leaf nodes (n > 0)... Let K represent the list of all such new keys to be inserted into the BST. Which of the following statements is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) K cannot have any duplicates",
+              "(b) K will have at least one element",
+              "(c) After inserting all keys from K, the height of the BST can increase at most by one",
+              "(d) Number of nodes in the BST will double after inserting all keys from K"
+            ],
+            "answer": "(a, c)",
+            "marks": 2,
+            "negative_marks": 0
+          },
+          {
+            "id": 1580,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Data Structures",
+            "topic": "Binary Search Trees",
+            "question_text": "Let P be the set of all integers from 1 to 15. Consider any order of insertion of the elements of P into a binary search tree that creates a complete binary tree. Which one of the following elements can NEVER be the third element that is inserted?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 4",
+              "(b) 2",
+              "(c) 10",
+              "(d) 5"
+            ],
+            "answer": "(d)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Complexity Analysis": [
@@ -110363,6 +119748,37 @@ export const GATE_DATA = {
             "answer": "n/m",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1505,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Data Structures",
+            "topic": "Hashing",
+            "question_text": "The keys 5, 28, 19, 15, 26, 33, 12, 17, 10 are inserted into a hash table using the hash function h(k) = k mod 9. The collisions are resolved by chaining. After all the keys are inserted, the length of the longest chain is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "3",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1564,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Data Structures",
+            "topic": "Hashing",
+            "question_text": "Consider a hash table P[0, 1, ..., 10] that is initially empty. The hash table is maintained using open addressing with linear probing. The hash function used is h(x) = (x + 7) mod 11. Consider the following sequence of insertions performed on P: 1, 13, 22, 15, 11, 24. Which of the following positions in the hash table is/are empty after these insertions are performed?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) 0",
+              "(b) 10",
+              "(c) 2",
+              "(d) 1"
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "Stacks and Queues": [
@@ -110445,6 +119861,26 @@ export const GATE_DATA = {
             "choices": [],
             "answer": "435",
             "marks": 1,
+            "negative_marks": 0
+          }
+        ],
+        "Stacks & Queues": [
+          {
+            "id": 1525,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Data Structures",
+            "topic": "Stacks & Queues",
+            "question_text": "Consider a stack S and a queue Q. Both of them are initially empty and have the capacity to store ten elements each. The elements 1, 2, 3, 4, and 5 arrive one by one... Which of the following options is/are possible valid assignment(s) of the elements?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) 1S, 2Q, 3S, 4S, 5Q",
+              "(b) 1Q, 2Q, 3S, 4S, 5Q",
+              "(c) 1Q, 2Q, 3Q, 4S, 5S",
+              "(d) 1S, 2S, 3S, 4Q, 5Q"
+            ],
+            "answer": "(a, b)",
+            "marks": 2,
             "negative_marks": 0
           }
         ]
@@ -110574,6 +120010,24 @@ export const GATE_DATA = {
             ],
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1514,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Algorithms",
+            "topic": "Dynamic Programming",
+            "question_text": "Consider a table T where the elements T[i][j], 0 ≤ i, j ≤ n, represent the cost of the optimal solutions of different subproblems of a problem that is being solved using a dynamic programming algorithm... Which one of the following statements is true?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Both algorithms B1 and B2 are correct",
+              "(b) Algorithm B1 is correct, but algorithm B2 is incorrect",
+              "(c) Algorithm B2 is correct, but algorithm B1 is incorrect",
+              "(d) Both algorithms B1 and B2 are incorrect"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Asymptotic Analysis": [
@@ -110792,6 +120246,24 @@ export const GATE_DATA = {
             "answer": "f(n^2) = θ(f(n)^2), when f(n) is a polynomial",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1499,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Algorithms",
+            "topic": "Asymptotic Analysis",
+            "question_text": "Consider the following functions, where n is a positive integer: n^(1/3), log(n), log(n!), 2^(log(n)). Which one of the following options lists the functions in increasing order of asymptotic growth rate? Note: Assume the base of log to be 2.",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) log(n), n^(1/3), 2^(log(n)), log(n!)",
+              "(b) n^(1/3), log(n), log(n!), 2^(log(n))",
+              "(c) log(n), n^(1/3), log(n!), 2^(log(n))",
+              "(d) 2^(log(n)), n^(1/3), log(n), log(n!)"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Minimum Spanning Tree": [
@@ -111145,6 +120617,24 @@ export const GATE_DATA = {
             "answer": "24",
             "marks": 2,
             "negative_marks": 0
+          },
+          {
+            "id": 1589,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Algorithms",
+            "topic": "Minimum Spanning Tree",
+            "question_text": "Let G(V,E) be a simple, undirected, edge-weighted graph with unique edge weights. Which of the following statements about the minimum spanning trees (MST) of G is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) In every cycle C of G, the edge with the largest weight in C is not in any MST",
+              "(b) In every cycle C of G, the edge with the smallest weight in C is in every MST",
+              "(c) For every vertex v ∈ V, the edge with the largest weight incident on v is not in any MST",
+              "(d) For every vertex v ∈ V, the edge with the smallest weight incident on v is in every MST"
+            ],
+            "answer": "(a, d)",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Complexity Theory": [
@@ -111319,6 +120809,42 @@ export const GATE_DATA = {
             "answer": "T(n) = Θ(n)",
             "marks": 2,
             "negative_marks": -0.67
+          },
+          {
+            "id": 1500,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Algorithms",
+            "topic": "Recurrence Relations",
+            "question_text": "Which of the following can be recurrence relation(s) corresponding to an algorithm with time complexity Θ(n)?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) T(n) = T(n - 1) + 1, T(1) = 1",
+              "(b) T(n) = 2T(n/2) + 1, T(1) = 1",
+              "(c) T(n) = 2T(n/2) + n, T(1) = 1",
+              "(d) T(n) = T(n - 1) + n, T(1) = 1"
+            ],
+            "answer": "(a, b)",
+            "marks": 1,
+            "negative_marks": 0
+          },
+          {
+            "id": 1557,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Algorithms",
+            "topic": "Recurrence Relations",
+            "question_text": "Consider the following recurrence relations: For all n > 1, T1(n) = 4T1(n/2) + T2(n); T2(n) = 5T2(n/4) + Θ(log_2 n). Assume that for all n <= 1, T1(n) = 1 and T2(n) = 1. Which one of the following options is correct?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) T1(n) = Θ(n^2)",
+              "(b) T1(n) = Θ(n^2 log_2 n)",
+              "(c) T1(n) = Θ(n^{log_4 5})",
+              "(d) T1(n) = Θ(n^{log_4 5} log_2 n)"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Sorting": [
@@ -111545,6 +121071,19 @@ export const GATE_DATA = {
             "answer": "Insertion sort",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1507,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Algorithms",
+            "topic": "Sorting",
+            "question_text": "Consider an array A = [10, 7, 8, 19, 41, 35, 25, 31]. Suppose the merge sort algorithm is executed on array A to sort it in increasing order. The merge sort algorithm will carry out a total of 7 merge operations. A merge operation on sorted left array L and sorted right array R is said to be void if the output of the merge operation is the elements of array L followed by the elements of array R. The number of void merge operations among these 7 merge operations is ___.",
+            "question_type": "NAT",
+            "choices": null,
+            "answer": "3",
+            "marks": 1,
+            "negative_marks": 0
           }
         ],
         "Graph Traversal": [
@@ -111676,6 +121215,24 @@ export const GATE_DATA = {
             "answer": "Option A",
             "marks": 2,
             "negative_marks": -0.67
+          },
+          {
+            "id": 1590,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Algorithms",
+            "topic": "Graph Traversal",
+            "question_text": "Consider the pseudocode for depth-first search (DFS) algorithm which takes a directed graph G(V,E) as input, where d[v] and f[v] are the discovery time and finishing time... Suppose that the input directed graph G(V,E) is a directed acyclic graph (DAG). For an edge (u,v) ∈ E which of the following options will NEVER be correct?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) d[u] < d[v] < f[v] < f[u]",
+              "(b) d[v] < d[u] < f[u] < f[v]",
+              "(c) d[v] < f[v] < d[u] < f[u]",
+              "(d) d[u] < d[v] < f[u] < f[v]"
+            ],
+            "answer": "(b, d)",
+            "marks": 2,
+            "negative_marks": 0
           }
         ],
         "Analysis of Algorithms": [
@@ -112467,6 +122024,120 @@ export const GATE_DATA = {
             "answer": "f(2^n - 1) = 2^n - 1; f(2^n) = 1; f(5 * 2^n) = 2^{n+1} + 1",
             "marks": 2,
             "negative_marks": 0
+          }
+        ],
+        "Graph Algorithms": [
+          {
+            "id": 1511,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Algorithms",
+            "topic": "Graph Algorithms",
+            "question_text": "Consider a complete graph K_n with n vertices (n > 4). Note that multiple spanning trees can be constructed over K_n. Each of these spanning trees is represented as a set of edges. The Jaccard coefficient between any two sets is defined as the ratio of the size of the intersection of the two sets to the size of the union of the two sets. Which one of the following options gives the lowest possible value for the Jaccard coefficient between any two spanning trees of K_n?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 1/n",
+              "(b) 1/(2n-3)",
+              "(c) 0",
+              "(d) 1/(n-1)"
+            ],
+            "answer": "(c)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1587,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Algorithms",
+            "topic": "Graph Algorithms",
+            "question_text": "Let G(V,E) be a simple, undirected graph. A vertex cover of G is a subset V' ⊆ V such that for every (u,v) ∈ E, u ∈ V' or v ∈ V'. Let the size of the smallest vertex cover in G be k. Let S be any vertex cover of size k. For a vertex v ∈ V, which of the following constraints will always ensure that v ∈ S?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) The degree of v is at least k + 1",
+              "(b) The vertex v is on a path of length k + 1",
+              "(c) The vertex v is on a cycle of length k + 1",
+              "(d) The vertex v is a part of a clique of size k"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1595,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Algorithms",
+            "topic": "Graph Algorithms",
+            "question_text": "An undirected, unweighted, simple graph G(V,E) is said to be 2-colorable if there exists a function c: V -> {0, 1} such that for every (u,v) ∈ E, c(u) != c(v). Which of the following statements about 2-colorable graphs is/are true?",
+            "question_type": "MSQ",
+            "choices": [
+              "(a) If G is 2-colorable, then G may contain cycles of odd length",
+              "(b) If G is 2-colorable, then G may contain cycles of even length",
+              "(c) An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|V|+|E|), if G is represented as an adjacency list",
+              "(d) An optimal algorithm for testing whether G is 2-colorable runs in time Θ(|E|log|V|), if G is represented as an adjacency list"
+            ],
+            "answer": "(b, c)",
+            "marks": 2,
+            "negative_marks": 0
+          }
+        ],
+        "Shortest Paths": [
+          {
+            "id": 1512,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Algorithms",
+            "topic": "Shortest Paths",
+            "question_text": "Let G be a weighted directed acyclic graph with m edges and n vertices. Given G and a source vertex s in G, which one of the following options gives the worst case time complexity of the fastest algorithm to find the lengths of shortest paths from s to all vertices that are reachable from s in G?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Θ(m + n)",
+              "(b) Θ(m + n log n)",
+              "(c) Θ(nm)",
+              "(d) Θ(n^3)"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1581,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "Algorithms",
+            "topic": "Shortest Paths",
+            "question_text": "Let G(V,E) be an undirected, edge-weighted graph with integer weights. The weight of a path is the sum of the weights of the edges in that path. The length of a path is the number of edges in that path. Let s in V be a vertex in G. For every u in V and for every k >= 0 let d_k(u) denote the weight of a shortest path (in terms of weight) from s to u of length at most k. If there is no path from s to u of length at most k, then d_k(u) = ∞. Consider the statements: S1: For every k >= 0 and u in V, d_{k+1}(u) <= d_k(u). S2: For every (u,v) in E if (u,v) is part of a shortest path from s to v, then for every k >= 0, d_k(u) <= d_k(v). Which one of the following options is correct?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Only S1 is true",
+              "(b) Only S2 is true",
+              "(c) Both S1 and S2 are true",
+              "(d) Neither S1 nor S2 is true"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
+          }
+        ],
+        "Algorithm Analysis": [
+          {
+            "id": 1513,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "Algorithms",
+            "topic": "Algorithm Analysis",
+            "question_text": "Consider an array A of integers of size n. The indices of A run from 1 to n. An algorithm is to be designed to check whether A satisfies the condition: ∀ i,j ∈ {1,...,n-1} such that i > j, (A[i+1] - A[i]) > (A[j+1] - A[j]). Which one of the following gives the worst case time complexity of the fastest algorithm that can be designed for the problem?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Θ(n)",
+              "(b) Θ(log n)",
+              "(c) Θ(n log n)",
+              "(d) Θ(n^2)"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ]
       },
@@ -113618,6 +123289,60 @@ export const GATE_DATA = {
             "answer": "Statement 1 and Statement 3",
             "marks": 1,
             "negative_marks": -0.33
+          },
+          {
+            "id": 1476,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Verbal Ability",
+            "question_text": "Expedite, Hasten, Hurry. Fill the blank by choosing a word with a meaning similar to that of the words given above.",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Accelerate",
+              "(b) Retard",
+              "(c) Provide",
+              "(d) Disable"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1481,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Verbal Ability",
+            "question_text": "Water : P :: Food : Q. Choose the P and Q combination from the options below to form a meaningful analogy.",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) P = Thirst; Q = Hunger",
+              "(b) P = Drink; Q = Hunger",
+              "(c) P = Thirst; Q = Satiated",
+              "(d) P = Wet; Q = Critic"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1541,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Verbal Ability",
+            "question_text": "The antonym of the word protagonist is",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) agnostic",
+              "(b) antagonist",
+              "(c) arsonist",
+              "(d) anarchist"
+            ],
+            "answer": "(b)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Quantitative Aptitude": [
@@ -114778,6 +124503,60 @@ export const GATE_DATA = {
             "answer": "23/50",
             "marks": 2,
             "negative_marks": -0.66
+          },
+          {
+            "id": 1479,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Quantitative Aptitude",
+            "question_text": "The values of Stock A and Stock B on a particular day are Rs. 50 and Rs. 80, respectively. An investor invests Rs. 100 in Stock A and Rs. 80 in Stock B. He sells all the stocks the next day when the value of Stock A is Rs. 55 and Stock B is Rs. 70. The profit made by the investor is Rs.",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 0",
+              "(b) 5",
+              "(c) 10",
+              "(d) 20"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1543,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Quantitative Aptitude",
+            "question_text": "Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each game is eliminated from the tournament. Every player plays until she is defeated or remains the last undefeated player. The last undefeated player is declared the winner of the tournament. If there are 64 players in the beginning of the tournament, how many games should be played in total to declare the winner of the tournament?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 127",
+              "(b) 64",
+              "(c) 63",
+              "(d) 32"
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1544,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Quantitative Aptitude",
+            "question_text": "A student needs to enroll for a minimum of 60 credits. A student cannot enroll for more than 70 credits. The credits are divided amongst project and three distinct sets of courses namely, core courses, specialization courses, and elective courses. It is compulsory for a student to enroll for exactly 15 credits of core courses and exactly 20 credits of project. In addition, a student has to enroll for a minimum of 10 credits of specialization courses. The maximum credits of elective courses that a student can enroll for is",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 10",
+              "(b) 15",
+              "(c) 20",
+              "(d) 25"
+            ],
+            "answer": "(d)",
+            "marks": 1,
+            "negative_marks": 0.33
           }
         ],
         "Reading Comprehension": [
@@ -114870,6 +124649,24 @@ export const GATE_DATA = {
             "answer": "The pocket-knife is described as the infant of the sword.",
             "marks": 2,
             "negative_marks": -0.67
+          },
+          {
+            "id": 1546,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Reading Comprehension",
+            "question_text": "Combinatorics deals with problems involving counting. For example, 'How many distinct arrangements of N distinct objects in M spaces on a circle are possible?' is a typical problem in combinatorics. This kind of counting is sometimes used in the modeling of several physical phenomena. Often, in such models, the different combinatorial possibilities are assigned probability values. Assigning probabilities enables the computation of the average values of physical quantities. Consider the following statements: P: Combinatorics is always invoked in the modeling of physical phenomena. Q: Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities in order to compute average values of physical quantities. Based on the passage above, what can be inferred about statements P and Q?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) P is False and Q is False",
+              "(b) P is False and Q is True",
+              "(c) P is True and Q is False",
+              "(d) P is True and Q is True"
+            ],
+            "answer": "(b)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Data Interpretation": [
@@ -115006,6 +124803,24 @@ export const GATE_DATA = {
             "answer": "62.5%",
             "marks": 2,
             "negative_marks": -0.66
+          },
+          {
+            "id": 1548,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Data Interpretation",
+            "question_text": "For positive real numbers S and K, the function H_k(S) is defined as: H_k(S) = max(S - K, 0). The max function is defined as: max(a, b) = a, when a > b and b, when a <= b. The graph below shows the plot of a function N(S) versus S. N(S) can be expressed as",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) H_10(S) - H_20(S)",
+              "(b) H_10(S) - 2H_20(S)",
+              "(c) -H_10(S) + H_20(S)",
+              "(d) H_15(S) - H_20(S)"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Optimization": [
@@ -115644,6 +125459,60 @@ export const GATE_DATA = {
             "answer": "0.6976",
             "marks": 2,
             "negative_marks": -0.67
+          },
+          {
+            "id": 1478,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Probability",
+            "question_text": "A day can only be cloudy or sunny. The probability of a day being cloudy is 0.5, independent of the condition on other days. What is the probability that in any given four days, there will be three cloudy days and one sunny day?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 1/4",
+              "(b) 3/4",
+              "(c) 2/3",
+              "(d) 3/8"
+            ],
+            "answer": "(a)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1485,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Probability",
+            "question_text": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the sum of the two recorded numbers is a prime number is",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 3/36",
+              "(b) 13/36",
+              "(c) 15/36",
+              "(d) 19/36"
+            ],
+            "answer": "(c)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1550,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Probability",
+            "question_text": "An unbiased six-faced dice whose faces are marked with numbers 1, 2, 3, 4, 5, and 6 is rolled twice in succession and the number on the top face is recorded each time. The probability that the number appearing in the second roll is an integer multiple of the number appearing in the first roll is",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) 1/6",
+              "(b) 5/18",
+              "(c) 7/18",
+              "(d) 5/18"
+            ],
+            "answer": "(c)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "Critical Reasoning": [
@@ -115974,6 +125843,78 @@ export const GATE_DATA = {
             "answer": "S cannot be placed at a corner",
             "marks": 2,
             "negative_marks": -0.66
+          },
+          {
+            "id": 1480,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Logical Reasoning",
+            "question_text": "'When it is raining, peacocks dance.' Based only on this sentence, which one of the following options is necessarily true?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Peacocks dance only when it is raining.",
+              "(b) When peacocks dance, it is raining.",
+              "(c) When peacocks are not dancing, it is not raining.",
+              "(d) When it is not raining, peacocks do not dance."
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1484,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Logical Reasoning",
+            "question_text": "The figure in Panel I below is a grid of cells with four rows and four columns. The numbers on the top and on the left represent the number of cells that are to be shaded in that column and row, respectively. Which one of the options shown in Panel II below represents the grid shaded correctly?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) (i)",
+              "(b) (ii)",
+              "(c) (iii)",
+              "(d) (iv)"
+            ],
+            "answer": "(b)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1545,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Logical Reasoning",
+            "question_text": "When the teacher is in the room, all students stand silently. If the above statement is true, which one of the following statements is not necessarily true?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) If any student is not standing silently, then the teacher is not in the room.",
+              "(b) When the teacher is in the room, all students are silent.",
+              "(c) If all students are standing, then the teacher is in the room.",
+              "(d) When the teacher is in the room, all students are standing."
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1549,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Logical Reasoning",
+            "question_text": "In the 2020 summer Olympics' Javelin throw finals, Neeraj Chopra exhibited a spectacular performance to win the gold medal. The silver medal was won by Jakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were six rounds of throws with each athlete having one throw per round. The best of all the throws of each athlete is considered for the medal. Following were the observations about the throws: (i) The first and second rounds were dominated by Neeraj Chopra with a gold medal performance in his second throw, while the other two athletes did not have any medal winning throws in these rounds. (ii) The throws in the last round by both Jakub Vadlejch and Vitezlav Vesely were fouls and were not considered for scoring. (iii) After four rounds, Vitezlav Vesely was in the second position and could not improve upon his best throw in the succeeding rounds. (iv) In the fourth round, the throw by Jakub Vadlejch was the best in that round. In which round did Vitezlav Vesely have his best throw?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Third",
+              "(b) Fourth",
+              "(c) Fifth",
+              "(d) Sixth"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
           }
         ],
         "English Vocabulary": [
@@ -116729,6 +126670,100 @@ export const GATE_DATA = {
             "marks": 2,
             "negative_marks": -0.67
           }
+        ],
+        "Spatial Reasoning": [
+          {
+            "id": 1477,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Spatial Reasoning",
+            "question_text": "A black square PQRS has been cut into two parts. One part of it is shown in Panel I. Which one of the shapes in Panel II is the other part?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) (i)",
+              "(b) (ii)",
+              "(c) (iii)",
+              "(d) (iv)"
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1482,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Spatial Reasoning",
+            "question_text": "Two tiles are missing in Panel I. Which one of the options in Panel II is the appropriate choice for the missing tiles?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) (i)",
+              "(b) (ii)",
+              "(c) (iii)",
+              "(d) (iv)"
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
+          },
+          {
+            "id": 1542,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Spatial Reasoning",
+            "question_text": "The figure shows two 4-tile patterns. Either one or both of the patterns can be used any number of times and in any orientation to construct a new pattern. Which one of the options below cannot be constructed by using only these two 4-tile patterns assuming there are no overlaps among them?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a)",
+              "(b)",
+              "(c)",
+              "(d)"
+            ],
+            "answer": "(c)",
+            "marks": 1,
+            "negative_marks": 0.33
+          },
+          {
+            "id": 1547,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Forenoon",
+            "subject": "General Aptitude",
+            "topic": "Spatial Reasoning",
+            "question_text": "In Panel I of the figure below, the front view and top view of a structure are shown. Which one of the 3D structures shown in Panel II possesses the views shown in Panel I?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) (i)",
+              "(b) (ii)",
+              "(c) (iii)",
+              "(d) (iv)"
+            ],
+            "answer": "(d)",
+            "marks": 2,
+            "negative_marks": 0.66
+          }
+        ],
+        "Graphs": [
+          {
+            "id": 1483,
+            "year": 2026,
+            "paper_id": "GATE_CS_2026_Afternoon",
+            "subject": "General Aptitude",
+            "topic": "Graphs",
+            "question_text": "Figures (i) and (ii) represent intercity highway systems. The black dots represent cities and the line segments between them represent intercity highways. A salesperson needs to make a trip. She needs to start from a city, visit each of the remaining cities exactly once, and finally return to the same city from which she started. Which one of the following options is then true?",
+            "question_type": "MCQ",
+            "choices": [
+              "(a) Such a trip is possible for (i), but not for (ii).",
+              "(b) Such a trip is possible for (ii), but not for (i).",
+              "(c) Such a trip is possible for both (i) and (ii).",
+              "(d) Such a trip is possible neither for (i) nor for (ii)."
+            ],
+            "answer": "(a)",
+            "marks": 2,
+            "negative_marks": 0.66
+          }
         ]
       }
     }
@@ -116736,7 +126771,7 @@ export const GATE_DATA = {
 };
 
 // Quick access exports
-const predictions2026 = GATE_DATA.predictions_2026;
+const predictions2027 = GATE_DATA.predictions_2027;
 const allQuestions = GATE_DATA.questions.all;
 const questionsBySubject = GATE_DATA.questions.by_subject;
 const questionsByYear = GATE_DATA.questions.by_year;
@@ -116747,5 +126782,5 @@ const mockPaperConfig = GATE_DATA.mock_paper;
 
 // Export for Node.js/ES modules
 if (typeof module !== "undefined" && module.exports) {
-  module.exports = { GATE_DATA, predictions2026, allQuestions, questionsBySubject, questionsByYear, questionsByTopic, trends, statistics, mockPaperConfig };
+  module.exports = { GATE_DATA, predictions2027, allQuestions, questionsBySubject, questionsByYear, questionsByTopic, trends, statistics, mockPaperConfig };
 };

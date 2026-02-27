@@ -58,7 +58,7 @@ export const AppSidebar = () => {
           <GraduationCap className="h-8 w-8 text-primary shrink-0" />
           {!collapsed && (
             <div className="flex flex-col">
-              <span className="font-semibold text-sidebar-foreground">GATE 2026</span>
+              <span className="font-semibold text-sidebar-foreground">GATE 2027</span>
               <span className="text-xs text-muted-foreground">Study Platform</span>
             </div>
           )}

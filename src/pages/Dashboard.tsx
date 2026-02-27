@@ -111,7 +111,7 @@ const Dashboard = () => {
                  <div className="p-2.5 rounded-lg bg-secondary/10 text-secondary-foreground group-hover:bg-secondary group-hover:text-white transition-colors duration-300">
                     <Target className="h-5 w-5" />
                  </div>
-                2026 Predictions
+                2027 Predictions
               </CardTitle>
             </CardHeader>
             <CardContent>

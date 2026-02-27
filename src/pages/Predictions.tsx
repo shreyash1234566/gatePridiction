@@ -95,7 +95,7 @@ const Predictions = () => {
       <div>
         <h1 className="text-2xl font-bold flex items-center gap-2">
           <Target className="h-6 w-6 text-primary" />
-          GATE 2026 Predictions
+          GATE 2027 Predictions
         </h1>
         <p className="text-muted-foreground text-sm mt-1">
           AI-powered topic predictions based on 15 years of GATE analysis

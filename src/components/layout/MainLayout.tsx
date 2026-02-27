@@ -49,7 +49,7 @@ export const MainLayout = ({ children }: MainLayoutProps) => {
             <SidebarTrigger>
               <Menu className="h-5 w-5" />
             </SidebarTrigger>
-            <span className="font-semibold">GATE 2026 Prep</span>
+            <span className="font-semibold">GATE 2027 Prep</span>
           </header>
           
           {/* Main content area */}

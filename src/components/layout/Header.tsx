@@ -28,7 +28,7 @@ export const Header = ({ toggleTheme, isDarkMode = true }: HeaderProps) => {
         <div className="flex items-center gap-2">
           <BookOpen className="h-6 w-6 text-primary" />
           <div className="flex flex-col">
-            <span className="font-semibold text-sm leading-none">GATE 2026</span>
+            <span className="font-semibold text-sm leading-none">GATE 2027</span>
             <span className="text-xs text-muted-foreground">CS Prep</span>
           </div>
         </div>

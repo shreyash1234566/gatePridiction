@@ -14,7 +14,7 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 /**
- * GATE 2026 Study Application
+ * GATE 2027 Study Application
  * Research-driven design for optimal learning efficiency
  * 
  * Research Citations:

@@ -1,6 +1,6 @@
-# GATE Flow - 2026 Prediction & Practice
+# GATE Flow - 2027 Prediction & Practice
 
-An AI-powered GATE 2026 preparation platform with intelligent question prediction and practice system.
+An AI-powered GATE 2027 preparation platform with intelligent question prediction and practice system.
 
 ## 🚀 Features
 
@@ -53,8 +53,8 @@ focus-flow/
 
 ## 📊 Data Files
 
-- `Q.json` - Master question database (1476 questions)
-- `elite_predictions_2026.json` - AI predictions for GATE 2026
+- `Q.json` - Master question database (1625 questions)
+- `elite_predictions_2027.json` - AI predictions for GATE 2027
 - `validation_report.json` - Data quality report
 
 ## 🌐 Deployment

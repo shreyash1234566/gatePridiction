@@ -1,4 +1,4 @@
-// GATE 2026 Comprehensive Website Data
+// GATE 2027 Comprehensive Website Data
 // Type definitions and exports for TypeScript
 
 export interface Question {
@@ -67,7 +67,7 @@ export interface TrendTopicData {
 
 export interface GateData {
   meta: GateDataMeta;
-  predictions_2026: {
+  predictions_2027: {
     meta: {
       version: string;
       generated_at: string;
@@ -157,7 +157,7 @@ export const getTopicsForSubject = (subject: string): string[] => {
 
 // Helper to get predictions sorted by confidence
 export const getSortedPredictions = (sortBy: 'confidence' | 'trend' = 'confidence'): Prediction[] => {
-  const predictions = [...GATE_DATA.predictions_2026.predictions];
+  const predictions = [...GATE_DATA.predictions_2027.predictions];
   
   if (sortBy === 'confidence') {
     return predictions.sort((a, b) => b.confidence - a.confidence);
@@ -171,12 +171,12 @@ export const getSortedPredictions = (sortBy: 'confidence' | 'trend' = 'confidenc
 
 // Get core topics (marked as essential)
 export const getCorePredictions = (): Prediction[] => {
-  return GATE_DATA.predictions_2026.predictions.filter(p => p.is_core === "✓");
+  return GATE_DATA.predictions_2027.predictions.filter(p => p.is_core === "✓");
 };
 
 // Get predictions by subject
 export const getPredictionsBySubject = (subject: string): Prediction[] => {
-  return GATE_DATA.predictions_2026.predictions.filter(p => p.subject === subject);
+  return GATE_DATA.predictions_2027.predictions.filter(p => p.subject === subject);
 };
 
 // Get subject statistics

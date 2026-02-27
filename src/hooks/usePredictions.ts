@@ -30,7 +30,7 @@ interface UsePredictionsReturn {
 }
 
 /**
- * Hook for accessing and filtering 2026 predictions
+ * Hook for accessing and filtering 2027 predictions
  * Provides trend analysis and confidence-based recommendations
  */
 export const usePredictions = (options: UsePredictionsOptions = {}): UsePredictionsReturn => {
@@ -77,11 +77,11 @@ export const usePredictions = (options: UsePredictionsOptions = {}): UsePredicti
   }, []);
 
   const subjectDistribution = useMemo(() => {
-    return GATE_DATA.predictions_2026.subject_distribution;
+    return GATE_DATA.predictions_2027.subject_distribution;
   }, []);
 
   const modelMetrics = useMemo(() => {
-    return GATE_DATA.predictions_2026.meta.metrics;
+    return GATE_DATA.predictions_2027.meta.metrics;
   }, []);
 
   return {
