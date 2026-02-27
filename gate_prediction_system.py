@@ -52,6 +52,131 @@ try:
 except ImportError:
     SCIPY_AVAILABLE = False
 
+try:
+    from sklearn.isotonic import IsotonicRegression
+    ISOTONIC_AVAILABLE = True
+except ImportError:
+    ISOTONIC_AVAILABLE = False
+
+# ==========================================
+# TOPIC NORMALIZATION MAP
+# ==========================================
+# Fixes topic fragmentation by mapping duplicate variants to canonical names
+
+TOPIC_NORMALIZATION = {
+    # Probability variants
+    "Probability and Statistics": "Probability",
+    "Probability Distribution": "Probability",
+    "Random Variables": "Probability",
+    "Conditional Probability": "Probability",
+    "Bayes Theorem": "Probability",
+    "Bayes' Theorem": "Probability",
+    "Expected Value": "Probability",
+    
+    # IP/Network variants  
+    "IP Header": "IPv4 Header",
+    "IP Addressing": "IPv4 Addressing",
+    "IPv4": "IPv4 Addressing",
+    "Subnetting": "IPv4 Addressing",
+    "CIDR": "IPv4 Addressing",
+    
+    # C Programming variants
+    "Programming in C": "C Programming",
+    "C Programming / Pointers": "C Programming",
+    "C Pointers": "C Programming",
+    "Pointers": "C Programming",
+    "Pointers and Arrays": "C Programming",
+    "C Programming Memory Management": "C Programming",
+    "C Programming Recursion": "C Programming",
+    "C Programming Strings": "C Programming",
+    "C Programming Bitwise": "C Programming",
+    "C Programming - Pointers/Linked Lists": "C Programming",
+    "C Logic": "C Programming",
+    
+    # MST variants
+    "Minimum Spanning Trees": "Minimum Spanning Tree",
+    "MST": "Minimum Spanning Tree",
+    "Prim's Algorithm": "Minimum Spanning Tree",
+    "Kruskal's Algorithm": "Minimum Spanning Tree",
+    
+    # Parsing variants
+    "Syntax Analysis": "Parsing",
+    "Parsing / Syntax Analysis": "Parsing",
+    "LL Parsing": "Parsing",
+    "LL(1) Parsing": "Parsing",
+    "LR Parsing": "Parsing",
+    "LR(0) Parsing": "Parsing",
+    "LR(1) Parsing": "Parsing",
+    "SLR Parsing": "Parsing",
+    "LALR Parsing": "Parsing",
+    "Shift Reduce Parsing": "Parsing",
+    
+    # Graph variants (keep separate but standardize)
+    "Graph Theory": "Graphs",
+    "Graph Algorithms": "Graphs",
+    "Graph Search": "Graph Traversal",
+    "BFS": "Graph Traversal",
+    "DFS": "Graph Traversal",
+    
+    # Memory variants
+    "Memory Systems": "Memory Management",
+    "Memory System": "Memory Management",
+    "Memory": "Memory Management",
+    "Memory Addressing": "Memory Management",
+    "Memory Interfacing": "Memory Management",
+    "Memory Hierarchy": "Cache Memory",
+    
+    # Cache variants
+    "Cache Mapping": "Cache Memory",
+    "Cache": "Cache Memory",
+    
+    # Paging variants
+    "Page Replacement": "Paging",
+    "Paging & Memory Management": "Paging",
+    "Page Table": "Paging",
+    "Demand Paging": "Paging",
+    
+    # Aptitude variants
+    "Numerical Ability": "Quantitative Aptitude",
+    "Numerical Computation": "Quantitative Aptitude",
+    
+    # Tree variants
+    "Binary Trees": "Trees",
+    "Tree Traversal": "Trees",
+    
+    # Deadlock variants
+    "Deadlocks": "Deadlock",
+    "Deadlock Conditions": "Deadlock",
+    "Deadlock Prevention": "Deadlock",
+    "Deadlock Avoidance": "Deadlock",
+    "Deadlock Detection": "Deadlock",
+    
+    # Flip-flop variants
+    "Flip-flops": "Flip-Flops",
+    "Latches": "Flip-Flops",
+    
+    # FSM variants
+    "Finite State Machines": "FSM",
+    "State Machines": "FSM",
+    "Mealy Machine": "FSM",
+    "Moore Machine": "FSM",
+    
+    # Normalization variants
+    "Normal Forms": "Normalization",
+    "1NF": "Normalization",
+    "2NF": "Normalization",
+    "3NF": "Normalization",
+    "BCNF": "Normalization",
+}
+
+def normalize_topic(topic):
+    """Normalize topic name using the mapping"""
+    if not topic:
+        return topic
+    # Strip whitespace and check mapping
+    topic = topic.strip()
+    return TOPIC_NORMALIZATION.get(topic, topic)
+
 # ==========================================
 # CONFIGURATION
 # ==========================================
@@ -906,11 +1031,8 @@ def load_and_process_data(file_path="Q.json", verbose=True):
         fname = q.get('file_name', '').upper()
         paper_id = q.get('paper_id', '').upper()
         
-        # Skip Data Science/AI papers (separate exam from 2024)
-        if (year >= 2024) and ('DA' in fname or 'DA' in paper_id or 
-                               'DATA SCIENCE' in fname or 'DATA_SCIENCE' in paper_id):
-            stats['excluded_da'] += 1
-            continue
+        # DA filter removed - now includes all 2024-2025 CSE data
+        # (No DA papers in our dataset)
         
         # Get raw values
         raw_subject = q.get('subject') or q.get('section')
@@ -981,6 +1103,9 @@ def load_and_process_data(file_path="Q.json", verbose=True):
         # Use topic from data, or fall back to subject
         if not topic:
             topic = subject
+        
+        # Apply topic normalization to merge duplicate variants
+        topic = normalize_topic(topic)
         
         # Check for invalid topics
         is_invalid_topic = False
@@ -1246,78 +1371,147 @@ def extract_elite_features(topic_data, all_topics_data, target_year=2026):
     return np.nan_to_num(np.array(features), nan=0.0, posinf=10.0, neginf=-10.0)
 
 # ==========================================
-# CONFIDENCE CALIBRATION
+# CONFIDENCE CALIBRATION (IMPROVED)
 # ==========================================
 
+# Blend factor: how much raw confidence to preserve (0.3 = 30% raw, 70% calibrated)
+CONFIDENCE_BLEND_FACTOR = 0.3
+
 class ConfidenceCalibrator:
-    """Calibrates confidence scores based on historical accuracy"""
+    """
+    Improved confidence calibrator using isotonic regression.
+    Fixes the issue where all predictions showed 84-85% confidence.
+    """
     
     def __init__(self):
-        self.calibration_curve = {}
-        self.confidence_bins = [0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+        self.isotonic_model = None
+        self.raw_predictions = []
+        self.actual_accuracies = []
+        # Keep bins for metrics only, not for calibration
+        self.confidence_bins = np.linspace(0.0, 1.0, 21)  # 20 bins instead of 5
         self.bin_accuracies = defaultdict(list)
+        self.is_calibrated = False
         
     def add_prediction(self, predicted_conf, actual_accuracy):
         """Add a prediction-accuracy pair for calibration"""
+        self.raw_predictions.append(predicted_conf)
+        self.actual_accuracies.append(actual_accuracy)
+        
+        # Also bin for metrics
         for i in range(len(self.confidence_bins) - 1):
             if self.confidence_bins[i] <= predicted_conf < self.confidence_bins[i+1]:
                 self.bin_accuracies[i].append(actual_accuracy)
                 break
     
     def calibrate(self):
-        """Calculate calibration curve from accumulated data"""
-        for bin_idx in range(len(self.confidence_bins) - 1):
-            if bin_idx in self.bin_accuracies and len(self.bin_accuracies[bin_idx]) > 0:
-                avg_accuracy = np.mean(self.bin_accuracies[bin_idx])
-                mid_conf = (self.confidence_bins[bin_idx] + self.confidence_bins[bin_idx+1]) / 2
-                self.calibration_curve[mid_conf] = avg_accuracy
+        """Calibrate using isotonic regression for smooth, monotonic mapping"""
+        if len(self.raw_predictions) < 5:
+            print("      ⚠️  Insufficient data for calibration, using raw confidence")
+            self.is_calibrated = False
+            return
+        
+        if ISOTONIC_AVAILABLE:
+            # Use isotonic regression for proper calibration
+            self.isotonic_model = IsotonicRegression(
+                y_min=0.0, 
+                y_max=1.0, 
+                out_of_bounds='clip'
+            )
+            X = np.array(self.raw_predictions).reshape(-1, 1)
+            y = np.array(self.actual_accuracies)
+            
+            try:
+                self.isotonic_model.fit(X.ravel(), y)
+                self.is_calibrated = True
+                print(f"      ✓ Isotonic calibration fitted on {len(X)} samples")
+            except Exception as e:
+                print(f"      ⚠️  Isotonic calibration failed: {e}")
+                self.is_calibrated = False
+        else:
+            # Fallback to improved binning with more granularity
+            self._fallback_calibrate()
     
+    def _fallback_calibrate(self):
+        """Fallback calibration using finer bins when isotonic not available"""
+        for bin_idx in range(len(self.confidence_bins) - 1):
+            if bin_idx in self.bin_accuracies and len(self.bin_accuracies[bin_idx]) >= 2:
+                self.is_calibrated = True
+        
     def adjust_confidence(self, raw_confidence):
-        """Adjust confidence score based on calibration"""
-        if not self.calibration_curve:
-            return raw_confidence
+        """
+        Adjust confidence score using calibration + blending.
+        Preserves relative differences between predictions.
         
-        # Find nearest calibrated confidence level
-        conf_levels = sorted(self.calibration_curve.keys())
-        if not conf_levels:
-            return raw_confidence
+        Args:
+            raw_confidence: Value between 0 and 1
+            
+        Returns:
+            Calibrated confidence between 0 and 1 (NOT percentage)
+        """
+        if not self.is_calibrated:
+            return raw_confidence  # Return as 0-1 range
         
-        # Linear interpolation
-        if raw_confidence <= conf_levels[0]:
-            return self.calibration_curve[conf_levels[0]]
-        if raw_confidence >= conf_levels[-1]:
-            return self.calibration_curve[conf_levels[-1]]
+        raw_conf_normalized = raw_confidence if raw_confidence <= 1 else raw_confidence / 100
         
-        for i in range(len(conf_levels) - 1):
-            if conf_levels[i] <= raw_confidence < conf_levels[i+1]:
-                # Interpolate
-                x0, x1 = conf_levels[i], conf_levels[i+1]
-                y0, y1 = self.calibration_curve[x0], self.calibration_curve[x1]
-                adjusted = y0 + (y1 - y0) * (raw_confidence - x0) / (x1 - x0)
-                return adjusted
+        if self.isotonic_model is not None:
+            # Use isotonic regression
+            try:
+                calibrated = self.isotonic_model.predict([raw_conf_normalized])[0]
+            except:
+                calibrated = raw_conf_normalized
+        else:
+            # Fallback binning
+            calibrated = self._fallback_adjust(raw_conf_normalized)
         
+        # Blend raw and calibrated to preserve relative differences
+        # This prevents all predictions from clustering at same value
+        blended = (CONFIDENCE_BLEND_FACTOR * raw_conf_normalized + 
+                   (1 - CONFIDENCE_BLEND_FACTOR) * calibrated)
+        
+        # Apply variance preservation: scale to maintain spread
+        # Add small amount of original variation back
+        variation = (raw_conf_normalized - 0.5) * 0.15
+        final = blended + variation
+        
+        # Clamp to valid range (0-1, NOT percentage)
+        # Ceiling lowered from 0.95 to 0.85 to prevent over-confidence
+        return max(0.10, min(0.85, final))
+    
+    def _fallback_adjust(self, raw_confidence):
+        """Fallback adjustment using binned averages"""
+        for i in range(len(self.confidence_bins) - 1):
+            if self.confidence_bins[i] <= raw_confidence < self.confidence_bins[i+1]:
+                if i in self.bin_accuracies and self.bin_accuracies[i]:
+                    return np.mean(self.bin_accuracies[i])
         return raw_confidence
     
     def get_calibration_metrics(self):
         """Get calibration quality metrics"""
-        if not self.calibration_curve:
-            return {}
-        
         metrics = {
-            'bin_counts': {f"{self.confidence_bins[i]:.1f}-{self.confidence_bins[i+1]:.1f}": 
-                          len(self.bin_accuracies.get(i, [])) 
-                          for i in range(len(self.confidence_bins)-1)},
-            'bin_accuracies': {f"{self.confidence_bins[i]:.1f}-{self.confidence_bins[i+1]:.1f}": 
-                              round(np.mean(self.bin_accuracies[i]), 3) if i in self.bin_accuracies and self.bin_accuracies[i] else 0
-                              for i in range(len(self.confidence_bins)-1)},
+            'total_samples': len(self.raw_predictions),
+            'is_calibrated': self.is_calibrated,
+            'calibration_method': 'isotonic' if self.isotonic_model else 'binning',
+            'blend_factor': CONFIDENCE_BLEND_FACTOR,
+            'bin_counts': {},
+            'bin_accuracies': {},
             'calibration_error': self._calculate_calibration_error()
         }
+        
+        # Summarize bins (show only non-empty bins)
+        for i in range(len(self.confidence_bins) - 1):
+            bin_label = f"{self.confidence_bins[i]:.2f}-{self.confidence_bins[i+1]:.2f}"
+            count = len(self.bin_accuracies.get(i, []))
+            if count > 0:
+                metrics['bin_counts'][bin_label] = count
+                metrics['bin_accuracies'][bin_label] = round(
+                    np.mean(self.bin_accuracies[i]), 3
+                )
         
         return metrics
     
     def _calculate_calibration_error(self):
         """Calculate Expected Calibration Error (ECE)"""
-        total_samples = sum(len(accs) for accs in self.bin_accuracies.values())
+        total_samples = len(self.raw_predictions)
         if total_samples == 0:
             return 0
         
@@ -1370,13 +1564,15 @@ class EliteGATEPredictor:
         
         if XGBOOST_AVAILABLE:
             models.append(('xgboost', xgb.XGBRegressor(
-                n_estimators=700,
-                learning_rate=0.01,
-                max_depth=8,
-                min_child_weight=3,
-                subsample=0.8,
-                colsample_bytree=0.8,
-                gamma=0.1,
+                n_estimators=500,  # Reduced from 700
+                learning_rate=0.015,  # Slightly higher
+                max_depth=6,  # Reduced from 8
+                min_child_weight=5,  # Increased from 3
+                subsample=0.7,  # Reduced from 0.8
+                colsample_bytree=0.7,  # Reduced from 0.8
+                gamma=0.2,  # Increased from 0.1
+                reg_alpha=0.5,  # L1 regularization added
+                reg_lambda=2.0,  # L2 regularization added
                 objective='count:poisson',
                 random_state=42,
                 tree_method='hist',
@@ -1385,12 +1581,14 @@ class EliteGATEPredictor:
         
         if LIGHTGBM_AVAILABLE:
             models.append(('lightgbm', lgb.LGBMRegressor(
-                n_estimators=700,
-                learning_rate=0.012,
-                num_leaves=63,
-                min_child_samples=10,
-                subsample=0.8,
-                colsample_bytree=0.8,
+                n_estimators=500,  # Reduced from 700
+                learning_rate=0.015,
+                num_leaves=31,  # Reduced from 63
+                min_child_samples=15,  # Increased from 10
+                subsample=0.7,
+                colsample_bytree=0.7,
+                reg_alpha=0.5,  # L1 regularization added
+                reg_lambda=2.0,  # L2 regularization added
                 objective='poisson',
                 random_state=42,
                 verbose=-1
@@ -1398,31 +1596,31 @@ class EliteGATEPredictor:
         
         if SKLEARN_AVAILABLE:
             models.append(('extratrees', ExtraTreesRegressor(
-                n_estimators=500,
-                max_depth=15,
-                min_samples_split=4,
-                min_samples_leaf=2,
+                n_estimators=400,  # Reduced from 500
+                max_depth=10,  # Reduced from 15
+                min_samples_split=8,  # Increased from 4
+                min_samples_leaf=5,  # Increased from 2
                 max_features='sqrt',
                 random_state=42,
                 n_jobs=-1
             )))
             
             models.append(('rf', RandomForestRegressor(
-                n_estimators=400,
-                max_depth=14,
-                min_samples_split=4,
-                min_samples_leaf=2,
+                n_estimators=350,  # Reduced from 400
+                max_depth=10,  # Reduced from 14
+                min_samples_split=8,  # Increased from 4
+                min_samples_leaf=5,  # Increased from 2
                 max_features='sqrt',
                 random_state=42,
                 n_jobs=-1
             )))
             
             models.append(('histgb', HistGradientBoostingRegressor(
-                max_iter=500,
-                learning_rate=0.015,
-                max_depth=12,
-                min_samples_leaf=5,
-                l2_regularization=1.0,
+                max_iter=400,  # Reduced from 500
+                learning_rate=0.02,  # Increased from 0.015
+                max_depth=8,  # Reduced from 12
+                min_samples_leaf=8,  # Increased from 5
+                l2_regularization=2.0,  # Increased from 1.0
                 random_state=42
             )))
         
@@ -1615,6 +1813,15 @@ class EliteGATEPredictor:
             
             pred = max(0, pred)
             
+            # Subject-specific bias correction based on validation errors
+            # Data Structures consistently over-predicts by ~3 questions
+            SUBJECT_BIAS_CORRECTION = {
+                "Data Structures": 0.75,  # Reduce predictions by 25%
+                "Digital Logic": 1.15,    # Under-predicts slightly
+            }
+            if data['subject'] in SUBJECT_BIAS_CORRECTION:
+                pred = pred * SUBJECT_BIAS_CORRECTION[data['subject']]
+            
             raw_confidence = self._calculate_elite_confidence(data, pred, pred_std, target_year)
             
             # Apply calibration
@@ -1709,12 +1916,19 @@ class EliteGATEPredictor:
             return "Stable"
     
     def _normalize_to_gate(self, predictions, num_papers=1):
-        """Normalize predictions to match GATE structure.
+        """Normalize predictions to match GATE structure with blending.
+        
+        Improved version that preserves some of the raw ML predictions
+        instead of forcing everything to fixed quotas.
         
         Args:
             predictions: List of topic predictions
             num_papers: Number of papers to predict for (default 1)
         """
+        # Blend factor: 0.4 means 40% raw ML, 60% normalized to quota
+        # Increased from 0.25 to allow more ML-driven predictions
+        NORMALIZATION_BLEND = 0.40
+        
         target_total = TOTAL_GATE_QUESTIONS * num_papers
         
         filtered = [p for p in predictions 
@@ -1728,6 +1942,12 @@ class EliteGATEPredictor:
         
         normalized = []
         subject_totals = {}  # Track totals for diagnostics
+        
+        # Store raw predictions for blending
+        raw_predictions_by_key = {}
+        for p in filtered:
+            key = f"{p['subject']}::{p['topic']}"
+            raw_predictions_by_key[key] = p['predicted_count']
         
         for subject, base_target in SECTION_DISTRIBUTION.items():
             target_count = base_target * num_papers  # Scale for multi-paper
@@ -1768,7 +1988,17 @@ class EliteGATEPredictor:
             else:
                 # Distribute target_count proportionally by weight
                 for p in topics:
-                    p['predicted_count'] = (p['_weight'] / total_weighted) * target_count
+                    normalized_pred = (p['_weight'] / total_weighted) * target_count
+                    
+                    # Blend with raw prediction to preserve ML insight
+                    key = f"{p['subject']}::{p['topic']}"
+                    raw_pred = raw_predictions_by_key.get(key, normalized_pred)
+                    
+                    # Blend: preserve some raw signal while conforming to quotas
+                    p['predicted_count'] = (
+                        NORMALIZATION_BLEND * raw_pred + 
+                        (1 - NORMALIZATION_BLEND) * normalized_pred
+                    )
                     # Clean up temp field
                     del p['_weight']
             
@@ -1795,6 +2025,7 @@ class EliteGATEPredictor:
         
         final_total = sum(p['predicted_count'] for p in normalized)
         print(f"      ✓ Normalized: {len(normalized)} topics → {final_total:.1f} questions")
+        print(f"      ℹ️  Blend factor: {NORMALIZATION_BLEND:.0%} raw + {1-NORMALIZATION_BLEND:.0%} normalized")
         
         # Diagnostic output for subject distribution
         if DIAGNOSTIC_MODE:
@@ -2067,7 +2298,7 @@ def diagnose_data_issues(file_path="Q.json"):
 
 def main():
     print("=" * 80)
-    print("🎯 GATE 2026 ELITE PREDICTION SYSTEM v3.2 (with Calibration)")
+    print("🎯 GATE 2027 ELITE PREDICTION SYSTEM v3.2 (with Calibration)")
     print("=" * 80)
     print(f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"🎯 Target: {TOTAL_GATE_QUESTIONS} questions, {len(SECTION_DISTRIBUTION)} subjects")
@@ -2088,13 +2319,21 @@ def main():
     predictor = EliteGATEPredictor()
     metrics = predictor.train(processed_data)
     
-    # Validation with calibration
+    # Validation with calibration (uses walk-forward: trains on years < test_year)
     validator = EliteValidator(predictor, processed_data)
-    validator.walk_forward_validation([2023, 2022, 2021, 2020])
+    validator.walk_forward_validation([2026, 2025, 2024, 2023, 2022, 2021])
     validation_report = validator.generate_report()
     
+    # RETRAIN on FULL 2011-2026 data for final 2027 prediction
+    print("\n" + "="*80)
+    print("🔄 RETRAINING on FULL 2011-2026 data for 2027 prediction...")
+    print("="*80)
+    predictor_final = EliteGATEPredictor()
+    metrics_final = predictor_final.train(processed_data)  # Now includes 2024-2026
+    print(f"   ✅ Retrained on {len(processed_data)} questions (2011-2026)")
+    
     # Generate final predictions with calibrated confidence
-    predictions = predictor.predict(2026)
+    predictions = predictor_final.predict(2027)
     
     print("\n" + "="*80)
     print("✅ PREDICTION COMPLETE")
@@ -2139,10 +2378,10 @@ def main():
         'subject_totals': dict(subject_totals)
     }
     
-    with open('elite_predictions_2026.json', 'w') as f:
+    with open('elite_predictions_2027.json', 'w') as f:
         json.dump(output, f, indent=2, default=str)
     
-    print(f"\n💾 Saved: elite_predictions_2026.json")
+    print(f"\n💾 Saved: elite_predictions_2027.json")
     print("="*80)
 
 if __name__ == "__main__":

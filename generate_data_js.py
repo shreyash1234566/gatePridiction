@@ -1,9 +1,9 @@
 """
-Generate comprehensive data.js for GATE 2026 Website
+Generate comprehensive data.js for GATE 2027 Website
 =====================================================
 Combines:
 1. All PYQs from Q.json (topic-wise, year-wise)
-2. Predictions from elite_predictions_2026.json
+2. Predictions from elite_predictions_2027.json
 3. Trend analysis per topic
 4. Subject distribution
 5. Mock paper generation data
@@ -139,8 +139,8 @@ def load_questions(file_path="Q.json"):
     
     return processed
 
-def load_predictions(file_path="elite_predictions_2026.json"):
-    """Load predictions from elite_predictions_2026.json."""
+def load_predictions(file_path="elite_predictions_2027.json"):
+    """Load predictions from elite_predictions_2027.json."""
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
@@ -266,7 +266,7 @@ def generate_subject_stats(questions):
         hot_topics = sorted(data['topics'].items(), key=lambda x: -x[1])[:10]
         stats[subj] = {
             'total_questions': data['total'],
-            'expected_2026': SECTION_DISTRIBUTION.get(subj, 0),
+            'expected_2027': SECTION_DISTRIBUTION.get(subj, 0),
             'num_topics': len(data['topics']),
             'hot_topics': [{'topic': t, 'count': c} for t, c in hot_topics],
             'year_distribution': {str(y): c for y, c in sorted(data['years'].items())}
@@ -320,7 +320,7 @@ def generate_mock_paper_config(predictions_data, questions):
     return mock_config
 
 def main():
-    print("📊 Generating comprehensive data.js for GATE 2026 Website...")
+    print("📊 Generating comprehensive data.js for GATE 2027 Website...")
     
     # Load data
     print("   Loading Q.json...")
@@ -328,7 +328,7 @@ def main():
     print(f"   ✓ Loaded {len(questions)} valid questions")
     
     print("   Loading predictions...")
-    predictions_data = load_predictions("elite_predictions_2026.json")
+    predictions_data = load_predictions("elite_predictions_2027.json")
     print(f"   ✓ Loaded {len(predictions_data.get('predictions', []))} predictions")
     
     # Calculate trends
@@ -360,10 +360,10 @@ def main():
             'total_questions': len(questions),
             'years_covered': list(sorted(set(q['year'] for q in questions))),
             'subjects': list(SECTION_DISTRIBUTION.keys()),
-            'target_year': 2026
+            'target_year': 2027
         },
         
-        'predictions_2026': {
+        'predictions_2027': {
             'meta': predictions_data.get('meta', {}),
             'subject_distribution': SECTION_DISTRIBUTION,
             'predictions': predictions_data.get('predictions', []),
@@ -374,7 +374,7 @@ def main():
         'trends': {
             'by_topic': list(trends.values()),
             'hot_topics': sorted(
-                [t for t in trends.values() if t['last_seen'] >= 2022],
+                [t for t in trends.values() if t['last_seen'] >= 2023],
                 key=lambda x: (-x['total_appearances'], -x['last_seen'])
             )[:50],
             'rising_topics': [t for t in trends.values() if t['trend_direction'] == 'Rising'],
@@ -399,7 +399,7 @@ def main():
     # Write to data.js
     print("   Writing data.js...")
     with open('data.js', 'w', encoding='utf-8') as f:
-        f.write('// GATE 2026 Comprehensive Website Data\n')
+        f.write('// GATE 2027 Comprehensive Website Data\n')
         f.write('// Auto-generated on ' + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\n')
         f.write('// Contains: PYQs, Predictions, Trends, Statistics, Mock Paper Config\n\n')
         
@@ -409,7 +409,7 @@ def main():
         
         # Add helper exports for different use cases
         f.write('// Quick access exports\n')
-        f.write('const predictions2026 = GATE_DATA.predictions_2026;\n')
+        f.write('const predictions2027 = GATE_DATA.predictions_2027;\n')
         f.write('const allQuestions = GATE_DATA.questions.all;\n')
         f.write('const questionsBySubject = GATE_DATA.questions.by_subject;\n')
         f.write('const questionsByYear = GATE_DATA.questions.by_year;\n')
@@ -420,13 +420,13 @@ def main():
         
         f.write('// Export for Node.js/ES modules\n')
         f.write('if (typeof module !== "undefined" && module.exports) {\n')
-        f.write('  module.exports = { GATE_DATA, predictions2026, allQuestions, questionsBySubject, questionsByYear, questionsByTopic, trends, statistics, mockPaperConfig };\n')
+        f.write('  module.exports = { GATE_DATA, predictions2027, allQuestions, questionsBySubject, questionsByYear, questionsByTopic, trends, statistics, mockPaperConfig };\n')
         f.write('}\n')
     
     print(f"\n✅ Successfully generated data.js")
     print(f"   📊 Total Questions: {len(questions)}")
     print(f"   📈 Topic Trends: {len(trends)}")
-    print(f"   🎯 2026 Predictions: {len(predictions_data.get('predictions', []))}")
+    print(f"   🎯 2027 Predictions: {len(predictions_data.get('predictions', []))}")
     print(f"   📝 Subjects: {len(SECTION_DISTRIBUTION)}")
     print(f"   📅 Years: {min(q['year'] for q in questions)} - {max(q['year'] for q in questions)}")
 
