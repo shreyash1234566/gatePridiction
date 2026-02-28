@@ -6,7 +6,8 @@ import {
   BarChart3, 
   Bookmark,
   Home,
-  GraduationCap
+  GraduationCap,
+  Map
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import {
@@ -40,6 +41,7 @@ export const AppSidebar = () => {
   const mainNavItems = [
     { title: "Dashboard", url: "/", icon: Home },
     { title: "Practice", url: "/practice", icon: BookOpen },
+    { title: "Roadmap", url: "/roadmap", icon: Map },
     { title: "Predictions", url: "/predictions", icon: Target },
     { title: "Trends", url: "/trends", icon: TrendingUp },
     { title: "Bookmarks", url: "/bookmarks", icon: Bookmark },

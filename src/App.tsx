@@ -9,6 +9,7 @@ import Practice from "./pages/Practice";
 import Predictions from "./pages/Predictions";
 import Trends from "./pages/Trends";
 import Bookmarks from "./pages/Bookmarks";
+import Roadmap from "./pages/Roadmap";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
             <Route path="/predictions" element={<Predictions />} />
             <Route path="/trends" element={<Trends />} />
             <Route path="/bookmarks" element={<Bookmarks />} />
+            <Route path="/roadmap" element={<Roadmap />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
