@@ -117,15 +117,21 @@ export default function Roadmap() {
   const [pyqMins, setPyqMins] = useState(20);
   const [ttPhase, setTtPhase] = useState("1");
   const [checkedMilestones, setCheckedMilestones] = useState<Record<string, Record<number, boolean>>>({});
+  const [dailyProgress, setDailyProgress] = useState<Record<string, Record<number, boolean>>>({});
   
   const totalMins = warmupMins + deepworkMins + gaMins + pyqMins;
   const dailyHours = totalMins / 60;
 
+  const todayDateStr = new Date().getFullYear() + '-' + String(new Date().getMonth() + 1).padStart(2, '0') + '-' + String(new Date().getDate()).padStart(2, '0');
+  const todayDayIndex = (new Date().getDay() + 6) % 7; // Map so Monday=0, Sunday=6
+  const todaysDayName = days[todayDayIndex];
+
   useEffect(() => {
-    const saved = localStorage.getItem('gate2027_milestones');
-    if (saved) {
-      setCheckedMilestones(JSON.parse(saved));
-    }
+    const savedM = localStorage.getItem('gate2027_milestones');
+    if (savedM) setCheckedMilestones(JSON.parse(savedM));
+
+    const savedD = localStorage.getItem('gate2027_daily');
+    if (savedD) setDailyProgress(JSON.parse(savedD));
   }, []);
 
   const toggleCheck = (mId: string, iIndex: number) => {
@@ -134,6 +140,14 @@ export default function Roadmap() {
     newChecked[mId][iIndex] = !newChecked[mId][iIndex];
     setCheckedMilestones(newChecked);
     localStorage.setItem('gate2027_milestones', JSON.stringify(newChecked));
+  };
+
+  const toggleDailyTask = (dateStr: string, taskIdx: number) => {
+    const newDp = { ...dailyProgress };
+    if (!newDp[dateStr]) newDp[dateStr] = {};
+    newDp[dateStr][taskIdx] = !newDp[dateStr][taskIdx];
+    setDailyProgress(newDp);
+    localStorage.setItem('gate2027_daily', JSON.stringify(newDp));
   };
 
   const currentTabStyles = "data-[state=active]:bg-sidebar data-[state=active]:border-border border-transparent";
@@ -451,37 +465,47 @@ export default function Roadmap() {
             <div className="space-y-4">
               <Card className="bg-card">
                 <CardHeader className="py-4">
-                  <CardTitle className="text-sm font-mono text-muted-foreground uppercase tracking-widest">Standard Study Day</CardTitle>
+                  <CardTitle className="text-sm font-mono text-muted-foreground uppercase tracking-widest flex items-center justify-between">
+                    <span>Today's Checklist</span>
+                    <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">{todaysDayName}</Badge>
+                  </CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-3">
-                  <div className="flex items-center gap-4 py-2 border-b border-border/50">
-                    <div className="w-1.5 h-8 rounded-full bg-emerald-500"></div>
-                    <div className="flex-1">
-                      <div className="text-sm font-bold text-emerald-500">Warm-Up ({warmupMins}m)</div>
-                      <div className="text-xs text-muted-foreground mt-1">Revise yesterday's notes. 2–3 key concepts. Don't open new material.</div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4 py-2 border-b border-border/50">
-                    <div className="w-1.5 h-8 rounded-full bg-blue-500"></div>
-                    <div className="flex-1">
-                      <div className="text-sm font-bold text-blue-500">Deep Work Block ({deepworkMins}m)</div>
-                      <div className="text-xs text-muted-foreground mt-1">New concept or problem-set for today's topic. No distractions.</div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4 py-2 border-b border-border/50">
-                    <div className="w-1.5 h-8 rounded-full bg-amber-500"></div>
-                    <div className="flex-1">
-                      <div className="text-sm font-bold text-amber-500">GA Practice ({gaMins}m)</div>
-                      <div className="text-xs text-muted-foreground mt-1">Daily GA regardless of phase. Verbal + quantitative problems.</div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4 py-2">
-                    <div className="w-1.5 h-8 rounded-full bg-rose-500"></div>
-                    <div className="flex-1">
-                      <div className="text-sm font-bold text-rose-500">PYQ Sprint ({pyqMins}m)</div>
-                      <div className="text-xs text-muted-foreground mt-1">Solve previous year questions on today's topic. Mark doubts.</div>
-                    </div>
-                  </div>
+                <CardContent className="space-y-1">
+                  {[
+                    { id: 0, title: 'Warm-Up', mins: warmupMins, tColor: 'text-emerald-500', bColor: 'border-emerald-500', cbClass: 'data-[state=checked]:bg-emerald-500 data-[state=checked]:border-emerald-500', tt: ttData[ttPhase][0][todayDayIndex], desc: "Revise yesterday's notes. 2–3 key concepts. Don't open new material." },
+                    { id: 1, title: 'Deep Work Block', mins: deepworkMins, tColor: 'text-blue-500', bColor: 'border-blue-500', cbClass: 'data-[state=checked]:bg-blue-500 data-[state=checked]:border-blue-500', tt: ttData[ttPhase][1][todayDayIndex], desc: "New concept or problem-set for today's topic. No distractions." },
+                    { id: 2, title: 'GA Practice', mins: gaMins, tColor: 'text-amber-500', bColor: 'border-amber-500', cbClass: 'data-[state=checked]:bg-amber-500 data-[state=checked]:border-amber-500', tt: ttData[ttPhase][2][todayDayIndex], desc: "Daily GA regardless of phase. Verbal + quantitative problems." },
+                    { id: 3, title: 'PYQ Sprint', mins: pyqMins, tColor: 'text-rose-500', bColor: 'border-rose-500', cbClass: 'data-[state=checked]:bg-rose-500 data-[state=checked]:border-rose-500', tt: ttData[ttPhase][3][todayDayIndex], desc: "Solve previous year questions on today's topic. Mark doubts." },
+                  ].map((task) => {
+                    const isChecked = !!dailyProgress[todayDateStr]?.[task.id];
+                    return (
+                      <div key={task.id} className={`flex items-start gap-3 py-3 ${task.id !== 3 ? 'border-b border-border/50' : ''}`}>
+                        <div className="mt-0.5">
+                          <Checkbox 
+                            id={`daily-${task.id}`}
+                            checked={isChecked}
+                            onCheckedChange={() => toggleDailyTask(todayDateStr, task.id)}
+                            className={task.cbClass}
+                          />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <label 
+                            htmlFor={`daily-${task.id}`}
+                            className={`cursor-pointer text-sm font-bold select-none ${task.tColor} ${isChecked ? 'line-through opacity-50' : 'hover:opacity-80 transition-opacity'}`}
+                          >
+                            <span>{task.title} ({task.mins}m)</span>
+                          </label>
+                          <div className={`mt-1.5 bg-background border border-border p-2 rounded-md text-xs border-l-2 ${task.bColor} transition-opacity ${isChecked ? 'opacity-50' : ''}`}>
+                            <span className="font-semibold text-foreground block md:inline">{task.tt[0]}</span>
+                            <span className="text-muted-foreground md:ml-1 block md:inline">{task.tt[1]}</span>
+                          </div>
+                          <div className={`text-[10px] text-muted-foreground mt-1.5 leading-tight transition-opacity ${isChecked ? 'opacity-40' : ''}`}>
+                            {task.desc}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </CardContent>
               </Card>
 
