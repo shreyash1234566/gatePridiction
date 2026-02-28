@@ -83,6 +83,8 @@ const ttData: Record<string, string[][][]> = {
     [['Linear Algebra ↑(80.3%)','Eigenvalues, rank, matrix ops','c-green','mins-green'],['Probability ↑(78.0%)','Conditional, Bayes, distributions','c-green','mins-green'],['Calculus (76.8%)','Limits, derivatives, integration','c-blue','mins-blue'],['Graphs (80.4%)','Coloring, Euler, representations','c-blue','mins-blue'],['PYQ Solve','Engg Math 10yr past papers','c-red','mins-gray'],['Section Mock','Engg Math timed; target 9+/15','c-purple','mins-gray'],['DS: Trees (78.3%)','Binary trees, traversals, BST intro','c-blue','mins-blue']],
     [['GA: Verbal (75.5%)','Reading comprehension, vocab','c-amber','mins-amber'],['GA: Quantitative','Arithmetic, algebra, geometry','c-amber','mins-amber'],['GA: Verbal + Quant','Mixed practice set','c-amber','mins-amber'],['GA: Logical','Arrangements, puzzles','c-amber','mins-amber'],['GA: Quantitative','Data interpretation, series','c-amber','mins-amber'],['GA: Full Set','Full 15-mark timed practice','c-amber','mins-amber'],['GA: Timed Test','Exam-condition 15min GA','c-amber','mins-amber']],
     [['PYQ: Linear Algebra','Eigenvalue & rank problems','c-red','mins-gray'],['PYQ: Probability','Bayes & distribution Qs','c-red','mins-gray'],['PYQ: Calculus','Integration & limits Qs','c-red','mins-gray'],['PYQ: Graphs','Graph theory Qs','c-red','mins-gray'],['Error Review','Fix week\'s PYQ mistakes','c-gray','mins-gray'],['Mock Analysis','Log errors by topic','c-gray','mins-gray'],['Plan Next Week','Linked Lists (78.6%) prep','c-gray','mins-gray']],
+    // Row 5: TOPIC BLOCK — Dedicated slots for missing Section 6 topics + advanced drills on Phase 1 topics
+    [['Linked Lists (78.6%)','Singly/doubly/circular, reversal, cycle','c-blue','mins-blue'],['Verbal Ability (75.5%↓)','Grammar, vocabulary, RC deep practice','c-amber','mins-amber'],['LA Advanced (80.3%↑)','Cayley-Hamilton, vector spaces, rank apps','c-green','mins-green'],['Probability Adv (78%↑)','Random variables, distributions, Bayes apps','c-green','mins-green'],['Calculus Adv (76.8%)','Differential equations, series convergence','c-blue','mins-blue'],['Graphs Adv (80.4%)','Planar, chromatic, isomorphism, min-cut','c-blue','mins-blue'],['Trees Adv (78.3%)','Balanced trees, B-trees, tree properties','c-blue','mins-blue']],
   ],
   // ═══════════════════════════════════════════════════════════════════════════════
   // PHASE 2: ALGORITHMS & ADV DS (Jun–Jul) — Tier 1+2: Algo (4Qs, ~7m) + DS Advanced + Programming
@@ -95,6 +97,8 @@ const ttData: Record<string, string[][][]> = {
     [['Asymptotic (83.8% #1)','Big-O, Θ, Master Thm, recurrences','c-blue','mins-blue'],['MST (Rising ↑ 81.1%)','Kruskal, Prim, cut property','c-green','mins-green'],['BSTs (79.5%)','Insert, delete, AVL balancing','c-blue','mins-blue'],['Heaps (80.6%)','Heapify, priority queue, heap sort','c-blue','mins-blue'],['Sorting (75.3% ↓)','Quick, merge, radix + Recursion (76.2%)','c-blue','mins-blue'],['Algo+DS Mock','Timed section; target 12–14 marks','c-purple','mins-gray'],['Hashing (76.4%)','Hash fn, collision, open addressing','c-blue','mins-blue']],
     [['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA: Full Set','Full 15-mark timed','c-amber','mins-amber'],['GA: Timed Test','Exam-condition GA','c-amber','mins-amber']],
     [['PYQ: Asymptotic','Recurrence & Big-O Qs','c-red','mins-gray'],['PYQ: MST','Kruskal/Prim 2-mark Qs','c-red','mins-gray'],['PYQ: BST','Tree operation Qs','c-red','mins-gray'],['PYQ: Heaps','Heap build & sort Qs','c-red','mins-gray'],['PYQ: Sorting','Comparison sort Qs','c-red','mins-gray'],['Error Analysis','Log weak algo topics','c-gray','mins-gray'],['Plan Next Week','Track DS completion','c-gray','mins-gray']],
+    // Row 5: TOPIC BLOCK — Recursion standalone + Graph Algos + DP + D&C + Greedy (full Algo coverage)
+    [['Recursion (76.2%)','Tail recursion, tree recursion, stack frames','c-blue','mins-blue'],['Graph Algorithms','BFS, DFS, Dijkstra, Bellman-Ford, topo sort','c-blue','mins-blue'],['Dynamic Programming','LCS, knapsack, matrix chain, optimal BST','c-blue','mins-blue'],['Divide & Conquer','Merge sort analysis, Akra-Bazzi, Strassen','c-blue','mins-blue'],['Greedy Algorithms','Activity selection, Huffman, job scheduling','c-blue','mins-blue'],['BST+Heap Integration','AVL rotations, heap apps, priority queue ops','c-purple','mins-gray'],['Programming NAT Drill','Output prediction, pointer tracing, NAT only','c-red','mins-gray']],
   ],
   // ═══════════════════════════════════════════════════════════════════════════════
   // PHASE 3: SYSTEMS (Aug–Sep) — Tier 2: OS (6Qs, ~12m) + CO (6Qs, ~12m)
@@ -107,6 +111,8 @@ const ttData: Record<string, string[][][]> = {
     [['CPU Scheduling (82.8%)','FCFS, SJF, RR, Priority, MLFQ','c-blue','mins-blue'],['Process Sync (81.6%)','Semaphores, monitors, crit section','c-blue','mins-blue'],['Cache Memory (80.2%)','Direct/assoc/set-assoc, LRU, FIFO','c-blue','mins-blue'],['Pipelining (79.5%)','Data/ctrl hazards, forwarding, stall','c-blue','mins-blue'],['Deadlock (79.4%)','Detection, avoidance, Banker\'s algo','c-blue','mins-blue'],['OS+CO Mock','Timed section; target 17+/22','c-purple','mins-gray'],['Memory Mgmt (76.1%)','Paging, segmentation, TLB, virtual','c-blue','mins-blue']],
     [['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA: Full Set','Full 15-mark timed','c-amber','mins-amber'],['GA: Timed Test','Exam-condition GA','c-amber','mins-amber']],
     [['PYQ: Scheduling','FCFS/SJF/RR 2-mark Qs','c-red','mins-gray'],['PYQ: Sync','Semaphore & monitor Qs','c-red','mins-gray'],['PYQ: Cache','Hit rate & mapping Qs','c-red','mins-gray'],['PYQ: Pipelining','Hazard & CPI Qs','c-red','mins-gray'],['PYQ: Deadlock','Banker\'s & RAG Qs','c-red','mins-gray'],['Error Analysis','OS vs CO accuracy split','c-gray','mins-gray'],['Plan Next Week','Memory topics prep','c-gray','mins-gray']],
+    // Row 5: TOPIC BLOCK — Advanced drills for all 6 OS/CO topics + I/O & Number Representation
+    [['CPU Sched Adv (82.8%)','MLFQ, real-time sched, Gantt chart drills','c-blue','mins-blue'],['Sync Advanced (81.6%)','Dining philosophers, readers-writers, Peterson','c-blue','mins-blue'],['Cache Calc (80.2%)','AMAT, multi-level cache, write policies','c-blue','mins-blue'],['Pipeline Adv (79.5%)','Superscalar, branch prediction, data hazards','c-blue','mins-blue'],['Deadlock Drill (79.4%)','Safe state problems, RAG analysis, Banker drills','c-blue','mins-blue'],['Mem Mgmt Adv (76.1%)','Page replacement algos, thrashing, working set','c-blue','mins-blue'],['I/O + Number Rep','DMA, interrupts, IEEE 754, fixed/floating pt','c-blue','mins-blue']],
   ],
   // ═══════════════════════════════════════════════════════════════════════════════
   // PHASE 4: BREADTH (Oct–Nov) — Tier 3+4: ToC(5), DB(4), CD(3), DL(3), CN(5)
@@ -119,6 +125,8 @@ const ttData: Record<string, string[][][]> = {
     [['Finite Automata (81.8%)','DFA, NFA, minimization, conversion','c-blue','mins-blue'],['Normalization ↑(81.7%)','FDs, 1NF–BCNF, lossless join','c-green','mins-green'],['Parsing (82.2%)','LL(1), LR(0), SLR, LALR, first/follow','c-blue','mins-blue'],['Boolean Algebra ↑(79.4%)','K-maps, SOP/POS, comb. circuits','c-green','mins-green'],['CN Selective (62.3%)','TCP/IP, subnetting, routing (NAT only)','c-amber','mins-amber'],['Breadth Mock','All P4 subjects; target 48–52 total','c-purple','mins-gray'],['Reg Lang (79.2%) + SQL','Pumping lemma + SQL joins + SDT ↑(78.1%)','c-blue','mins-blue']],
     [['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA: Full Set','Full 15-mark timed','c-amber','mins-amber'],['GA: Timed Test','Target 12+/15 by now','c-amber','mins-amber']],
     [['PYQ: ToC','Automata & regex Qs','c-red','mins-gray'],['PYQ: DB','Normalization + RA (77.1%) Qs','c-red','mins-gray'],['PYQ: CD','Parsing + SDT Qs','c-red','mins-gray'],['PYQ: DL','Boolean + K-map Qs','c-red','mins-gray'],['PYQ: CN','NAT Qs only (+EV, 0 neg)','c-red','mins-gray'],['Concurrency (79.6%)','+ Indexing (77.9%) review','c-blue','mins-blue'],['Plan Next Week','Track P4 completion %','c-gray','mins-gray']],
+    // Row 5: TOPIC BLOCK — 5 standalone topics that were combined/missing + DL deep + RegLang advanced
+    [['Concurrency (79.6%)','2PL, timestamp ordering, serializability','c-blue','mins-blue'],['Indexing (77.9%)','B+ trees, hash indexes, dense vs sparse','c-blue','mins-blue'],['Relational Algebra (77.1%)','Selection, projection, join, division, ÷','c-blue','mins-blue'],['SQL Advanced (76.7%)','Nested queries, GROUP BY, HAVING, views','c-blue','mins-blue'],['SDT (78.1%↑)','S-attributed, L-attributed, annotated trees','c-green','mins-green'],['Reg Lang Adv (79.2%)','Myhill-Nerode, closure props, pumping lemma','c-blue','mins-blue'],['K-maps + DL Deep','SOP minimization, MUX, decoders, adders','c-blue','mins-blue']],
   ],
   // ═══════════════════════════════════════════════════════════════════════════════
   // PHASE 5: REVISION + MOCKS (Dec–Jan) — Full syllabus, 3 mocks/week
@@ -131,6 +139,8 @@ const ttData: Record<string, string[][][]> = {
     [['Tier 1 Revision','Engg Math + DS PYQ solve','c-blue','mins-blue'],['Full Mock (65Q)','Timed 3hr, exam conditions','c-purple','mins-gray'],['Tier 2 Revision','OS + CO + Algo all topics','c-blue','mins-blue'],['Weak Topic Sprint','3 lowest-scoring subjects','c-red','mins-gray'],['Tier 3+4 Revision','ToC + DB + CD + DL selective','c-blue','mins-blue'],['Full Mock (65Q)','Strict 3hr time limit','c-purple','mins-gray'],['Rising Topics Polish','LA↑, MST↑, Norm↑, Bool↑, Prob↑, SDT↑','c-green','mins-green']],
     [['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['Mock 1 Analysis','Error log by subject + type','c-gray','mins-gray'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['GA Practice','Daily verbal + quant','c-amber','mins-amber'],['Mock 2 Analysis','Error log: 1-mark vs 2-mark','c-gray','mins-gray'],['GA Master','Timed 15-mark; target 13+/15','c-amber','mins-amber']],
     [['Rising PYQ Blitz','LA + MST + Norm 2-mark Qs','c-green','mins-green'],['Error Patterns','Categorise: concept vs calc vs silly','c-gray','mins-gray'],['NAT Practice','All subjects NAT Qs (+EV drill)','c-blue','mins-blue'],['PYQ Blitz','10 random mixed past Qs','c-red','mins-gray'],['Subject Balance','Shore up 3 weakest subjects','c-red','mins-gray'],['Score Tracker','Log: target 52→56→58→60+','c-gray','mins-gray'],['Plan Next Week','Spaced rep schedule check','c-gray','mins-gray']],
+    // Row 5: TOPIC BLOCK — All 30 topics rapid revision cycle (grouped by confidence rank)
+    [['Top 10 Conf Drill','Asymptotic•CPU•Parsing•FA•Norm•Sync•MST•Heaps•Graphs•LA','c-blue','mins-blue'],['Rising ↑ Topics','LA↑,Prob↑,MST↑,Norm↑,Bool↑,SDT↑ 2-mark drill','c-green','mins-green'],['Top 11-20 Drill','Cache•Conc•Pipeline•BST•Bool•Deadlock•RegLang•LL•Trees•SDT','c-blue','mins-blue'],['Top 21-30 Drill','Prob•Index•RA•Calc•SQL•Hash•Recursion•MemMgmt•VA•Sort','c-blue','mins-blue'],['Verbal Ability Mastery','GA comprehensive: target 13+/15 every time','c-amber','mins-amber'],['30-Topic Speed Drill','1 problem per topic, timed 60min total','c-purple','mins-gray'],['All 30 Error Review','Fix mistakes across entire topic set','c-gray','mins-gray']],
   ],
   // ═══════════════════════════════════════════════════════════════════════════════
   // PHASE 6: FINAL SPRINT (Feb ~3 weeks) — NO new topics. Light revision only.
@@ -142,6 +152,8 @@ const ttData: Record<string, string[][][]> = {
     [['Light: Rising Topics','LA↑, Prob↑, MST↑, Norm↑, Bool↑','c-green','mins-green'],['Light: Tier 1','Engg Math + DS key concepts','c-blue','mins-blue'],['Light: Tier 2','OS scheduling + CO cache only','c-blue','mins-blue'],['Light: Tier 3','ToC automata + DB norm only','c-blue','mins-blue'],['Final Mock (LAST)','Partial section test only','c-purple','mins-gray'],['Complete Rest','Walk, eat, sleep 9h. No study','c-gray','mins-gray'],['🎯 GATE EXAM','GA→NAT→2mk MCQ→1mk MCQ','c-green','mins-green']],
     [['GA Practice','15min easy confidence set','c-amber','mins-amber'],['GA Practice','10min light set','c-amber','mins-amber'],['GA Practice','10min light set','c-amber','mins-amber'],['GA Practice','10min light set','c-amber','mins-amber'],['Mock Analysis','Final error review','c-gray','mins-gray'],['Nothing','Completely off. Rest.','c-gray','mins-gray'],['Exam Strategy','GA 1st, NATs 2nd, 2mk 3rd','c-green','mins-green']],
     [['Positive Recall','Review things you know well','c-green','mins-green'],['Mental Prep','Visualise exam: 65Q, 3hrs','c-gray','mins-gray'],['NAT Strategy','Which subjects → NAT Qs (+EV)','c-blue','mins-blue'],['Rest + Sleep','8–9 hours sleep tonight','c-gray','mins-gray'],['Light Reading','Formula sheet only, 20min max','c-gray','mins-gray'],['Sleep 9+ hours','Tomorrow: GATE CSE 2027','c-gray','mins-gray'],['🏆 Perform!','Trust your 339 days of prep','c-green','mins-green']],
+    // Row 5: TOPIC BLOCK — Light 30-topic formula review + final confidence check
+    [['Rising Quick Review','LA↑,MST↑,Norm↑,Bool↑,SDT↑,Prob↑ formulas','c-green','mins-green'],['T1 Key Formulas','Math+DS: 13 topics quick recall','c-blue','mins-blue'],['T2 Key Formulas','OS+CO+Algo: 10 key topic formulas','c-blue','mins-blue'],['T3+4 Key Formulas','ToC+DB+CD+DL: 7 topics recall','c-blue','mins-blue'],['30-Topic Final Check','1 formula + 1 concept per topic','c-purple','mins-gray'],['Nothing — Full Rest','Complete rest before exam day','c-gray','mins-gray'],['🎯 All 30 Mastered','Execute: GA→NAT→2mk MCQ→1mk MCQ','c-green','mins-green']],
   ],
 };
 
@@ -150,11 +162,12 @@ export default function Roadmap() {
   const [deepworkMins, setDeepworkMins] = useState(45);
   const [gaMins, setGaMins] = useState(15);
   const [pyqMins, setPyqMins] = useState(20);
+  const [topicMins, setTopicMins] = useState(30);
   const [ttPhase, setTtPhase] = useState("1");
   const [checkedMilestones, setCheckedMilestones] = useState<Record<string, Record<number, boolean>>>({});
   const [dailyProgress, setDailyProgress] = useState<Record<string, Record<number, boolean>>>({});
   
-  const totalMins = warmupMins + deepworkMins + gaMins + pyqMins;
+  const totalMins = warmupMins + deepworkMins + gaMins + pyqMins + topicMins;
   const dailyHours = totalMins / 60;
 
   const todayDateStr = new Date().getFullYear() + '-' + String(new Date().getMonth() + 1).padStart(2, '0') + '-' + String(new Date().getDate()).padStart(2, '0');
@@ -394,9 +407,9 @@ export default function Roadmap() {
                 <div key={d} className="p-3 border-r border-b border-border bg-sidebar font-mono text-[11px] text-foreground text-center font-bold">{d}</div>
               ))}
               
-              {['WARM-UP', 'DEEP WORK', 'GA PRACTICE', 'PYQ SPRINT'].map((slotName, rowIdx) => {
+              {['WARM-UP', 'DEEP WORK', 'GA PRACTICE', 'PYQ SPRINT', 'TOPIC BLOCK'].map((slotName, rowIdx) => {
                 const rowData = ttData[ttPhase][rowIdx];
-                const customMins = [warmupMins, deepworkMins, gaMins, pyqMins][rowIdx];
+                const customMins = [warmupMins, deepworkMins, gaMins, pyqMins, topicMins][rowIdx];
                 
                 return (
                   <React.Fragment key={slotName}>
@@ -485,6 +498,13 @@ export default function Roadmap() {
                   </div>
                   <Slider value={[pyqMins]} onValueChange={v => setPyqMins(v[0])} max={90} step={10} className="[&_[role=slider]]:border-rose-500" />
                 </div>
+                <div className="space-y-3">
+                  <div className="flex justify-between text-sm">
+                    <span className="text-purple-500 font-medium">Topic Deep Dive</span>
+                    <span className="font-mono text-muted-foreground">{topicMins} min</span>
+                  </div>
+                  <Slider value={[topicMins]} onValueChange={v => setTopicMins(v[0])} max={90} step={10} className="[&_[role=slider]]:border-purple-500" />
+                </div>
 
                 <div className="pt-6 border-t border-border">
                   <div className="flex w-full h-8 rounded-md overflow-hidden bg-sidebar-border border border-border">
@@ -492,6 +512,7 @@ export default function Roadmap() {
                     <div style={{ width: `${(deepworkMins/totalMins)*100}%` }} className="bg-blue-500/80 flex items-center justify-center font-mono text-[10px] text-zinc-900 font-bold overflow-hidden transition-all">{deepworkMins}m</div>
                     <div style={{ width: `${(gaMins/totalMins)*100}%` }} className="bg-amber-500/80 flex items-center justify-center font-mono text-[10px] text-zinc-900 font-bold overflow-hidden transition-all">{gaMins}m</div>
                     <div style={{ width: `${(pyqMins/totalMins)*100}%` }} className="bg-rose-500/80 flex items-center justify-center font-mono text-[10px] text-zinc-900 font-bold overflow-hidden transition-all">{pyqMins}m</div>
+                    <div style={{ width: `${(topicMins/totalMins)*100}%` }} className="bg-purple-500/80 flex items-center justify-center font-mono text-[10px] text-zinc-900 font-bold overflow-hidden transition-all">{topicMins}m</div>
                   </div>
                 </div>
               </CardContent>
@@ -511,10 +532,11 @@ export default function Roadmap() {
                     { id: 1, title: 'Deep Work Block', mins: deepworkMins, tColor: 'text-blue-500', bColor: 'border-blue-500', cbClass: 'data-[state=checked]:bg-blue-500 data-[state=checked]:border-blue-500', tt: ttData[ttPhase][1][todayDayIndex], desc: "New concept or problem-set for today's topic. No distractions." },
                     { id: 2, title: 'GA Practice', mins: gaMins, tColor: 'text-amber-500', bColor: 'border-amber-500', cbClass: 'data-[state=checked]:bg-amber-500 data-[state=checked]:border-amber-500', tt: ttData[ttPhase][2][todayDayIndex], desc: "Daily GA regardless of phase. Verbal + quantitative problems." },
                     { id: 3, title: 'PYQ Sprint', mins: pyqMins, tColor: 'text-rose-500', bColor: 'border-rose-500', cbClass: 'data-[state=checked]:bg-rose-500 data-[state=checked]:border-rose-500', tt: ttData[ttPhase][3][todayDayIndex], desc: "Solve previous year questions on today's topic. Mark doubts." },
+                    { id: 4, title: 'Topic Deep Dive', mins: topicMins, tColor: 'text-purple-500', bColor: 'border-purple-500', cbClass: 'data-[state=checked]:bg-purple-500 data-[state=checked]:border-purple-500', tt: ttData[ttPhase][4][todayDayIndex], desc: "Dedicated deep dive into a specific high-confidence topic (Section 6). All 30 topics get individual slots." },
                   ].map((task) => {
                     const isChecked = !!dailyProgress[todayDateStr]?.[task.id];
                     return (
-                      <div key={task.id} className={`flex items-start gap-3 py-3 ${task.id !== 3 ? 'border-b border-border/50' : ''}`}>
+                      <div key={task.id} className={`flex items-start gap-3 py-3 ${task.id !== 4 ? 'border-b border-border/50' : ''}`}>
                         <div className="mt-0.5">
                           <Checkbox 
                             id={`daily-${task.id}`}
