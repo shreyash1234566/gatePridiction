@@ -129,6 +129,7 @@ def load_questions(file_path="Q.json"):
             'paper_id': q.get('paper_id', ''),
             'subject': subject,
             'topic': q.get('topic') or q.get('topic_name') or subject,
+            'micro_topic': q.get('micro_topic') or q.get('topic') or q.get('topic_name') or subject,
             'question_text': q.get('question_text') or q.get('question') or q.get('text') or '',
             'question_type': q.get('question_type', 'MCQ'),
             'choices': q.get('choices', []),
@@ -185,6 +186,61 @@ def calculate_trends(questions):
         trends[key] = {
             'subject': subject,
             'topic': topic,
+            'total_appearances': len(data['years']),
+            'unique_years': unique_years,
+            'year_counts': year_counts,
+            'first_seen': min(unique_years),
+            'last_seen': max(unique_years),
+            'avg_per_year': round(len(data['years']) / len(unique_years), 2),
+            'trend_direction': trend_direction,
+            'question_ids': data['questions']
+        }
+    
+    return trends
+
+def calculate_micro_topic_trends(questions):
+    """Calculate trend data for each micro_topic."""
+    micro_data = defaultdict(lambda: {
+        'years': [],
+        'counts': defaultdict(int),
+        'questions': []
+    })
+    
+    for q in questions:
+        key = f"{q['subject']}|{q['topic']}|{q['micro_topic']}"
+        micro_data[key]['years'].append(q['year'])
+        micro_data[key]['counts'][q['year']] += 1
+        micro_data[key]['questions'].append(q['id'])
+    
+    trends = {}
+    for key, data in micro_data.items():
+        parts = key.split('|', 2)
+        if len(parts) < 3:
+            continue
+        subject, topic, micro_topic = parts
+        unique_years = sorted(set(data['years']))
+        
+        if len(unique_years) == 0:
+            continue
+        
+        year_counts = {y: data['counts'][y] for y in unique_years}
+        
+        if len(unique_years) >= 3:
+            recent = sum(data['counts'][y] for y in unique_years[-3:]) / 3
+            older = sum(data['counts'][y] for y in unique_years[:-3]) / max(1, len(unique_years) - 3)
+            if recent > older * 1.3:
+                trend_direction = "Rising"
+            elif recent < older * 0.7:
+                trend_direction = "Declining"
+            else:
+                trend_direction = "Stable"
+        else:
+            trend_direction = "Stable"
+        
+        trends[key] = {
+            'subject': subject,
+            'topic': topic,
+            'micro_topic': micro_topic,
             'total_appearances': len(data['years']),
             'unique_years': unique_years,
             'year_counts': year_counts,
@@ -336,6 +392,11 @@ def main():
     trends = calculate_trends(questions)
     print(f"   ✓ Analyzed {len(trends)} topic trends")
     
+    # Calculate micro_topic trends
+    print("   Calculating micro-topic trends...")
+    micro_trends = calculate_micro_topic_trends(questions)
+    print(f"   ✓ Analyzed {len(micro_trends)} micro-topic trends")
+    
     # Generate statistics
     print("   Generating statistics...")
     year_stats = generate_year_stats(questions)
@@ -355,8 +416,8 @@ def main():
     data = {
         'meta': {
             'generated_at': datetime.now().isoformat(),
-            'version': '4.0 - Complete Website Data',
-            'description': 'Comprehensive GATE CS data for PYQ practice, trend analysis, predictions, and mock tests',
+            'version': '5.0 - Complete Website Data with Micro-Topics',
+            'description': 'Comprehensive GATE CS data for PYQ practice, trend analysis, predictions (topic + micro-topic), and mock tests',
             'total_questions': len(questions),
             'years_covered': list(sorted(set(q['year'] for q in questions))),
             'subjects': list(SECTION_DISTRIBUTION.keys()),
@@ -367,12 +428,14 @@ def main():
             'meta': predictions_data.get('meta', {}),
             'subject_distribution': SECTION_DISTRIBUTION,
             'predictions': predictions_data.get('predictions', []),
+            'micro_topic_predictions': predictions_data.get('micro_topic_predictions', []),
             'subject_totals': predictions_data.get('subject_totals', {}),
             'validation': predictions_data.get('validation', {})
         },
         
         'trends': {
             'by_topic': list(trends.values()),
+            'by_micro_topic': list(micro_trends.values()),
             'hot_topics': sorted(
                 [t for t in trends.values() if t['last_seen'] >= 2023],
                 key=lambda x: (-x['total_appearances'], -x['last_seen'])
@@ -401,7 +464,7 @@ def main():
     with open('data.js', 'w', encoding='utf-8') as f:
         f.write('// GATE 2027 Comprehensive Website Data\n')
         f.write('// Auto-generated on ' + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\n')
-        f.write('// Contains: PYQs, Predictions, Trends, Statistics, Mock Paper Config\n\n')
+        f.write('// Contains: PYQs, Predictions (Topic + Micro-Topic), Trends, Statistics, Mock Paper Config\n\n')
         
         f.write('const GATE_DATA = ')
         json.dump(data, f, indent=2, ensure_ascii=False)
@@ -410,17 +473,19 @@ def main():
         # Add helper exports for different use cases
         f.write('// Quick access exports\n')
         f.write('const predictions2027 = GATE_DATA.predictions_2027;\n')
+        f.write('const microTopicPredictions = GATE_DATA.predictions_2027.micro_topic_predictions;\n')
         f.write('const allQuestions = GATE_DATA.questions.all;\n')
         f.write('const questionsBySubject = GATE_DATA.questions.by_subject;\n')
         f.write('const questionsByYear = GATE_DATA.questions.by_year;\n')
         f.write('const questionsByTopic = GATE_DATA.questions.by_topic;\n')
         f.write('const trends = GATE_DATA.trends;\n')
+        f.write('const microTopicTrends = GATE_DATA.trends.by_micro_topic;\n')
         f.write('const statistics = GATE_DATA.statistics;\n')
         f.write('const mockPaperConfig = GATE_DATA.mock_paper;\n\n')
         
         f.write('// Export for Node.js/ES modules\n')
         f.write('if (typeof module !== "undefined" && module.exports) {\n')
-        f.write('  module.exports = { GATE_DATA, predictions2027, allQuestions, questionsBySubject, questionsByYear, questionsByTopic, trends, statistics, mockPaperConfig };\n')
+        f.write('  module.exports = { GATE_DATA, predictions2027, microTopicPredictions, allQuestions, questionsBySubject, questionsByYear, questionsByTopic, trends, microTopicTrends, statistics, mockPaperConfig };\n')
         f.write('}\n')
     
     print(f"\n✅ Successfully generated data.js")

@@ -1037,6 +1037,7 @@ def load_and_process_data(file_path="Q.json", verbose=True):
         # Get raw values
         raw_subject = q.get('subject') or q.get('section')
         topic = q.get('topic') or q.get('topic_name') or ""
+        micro_topic_raw = q.get('micro_topic', '') or topic  # fallback to topic
         q_text = q.get('question_text') or q.get('question') or q.get('text') or ""
         
         # IMPORTANT: Check for combined subjects FIRST (before normalize_subject)
@@ -1062,6 +1063,7 @@ def load_and_process_data(file_path="Q.json", verbose=True):
                                 'year': year,
                                 'subject': split_subj,
                                 'topic': split_topic or split_subj,
+                                'micro_topic': normalize_topic(micro_topic_raw) if micro_topic_raw else (split_topic or split_subj),
                                 'question_text': q_text,
                                 'question_type': q.get('question_type', 'MCQ'),
                                 'choices': q.get('choices') or [],
@@ -1132,10 +1134,14 @@ def load_and_process_data(file_path="Q.json", verbose=True):
         syllabus_penalty = get_syllabus_penalty(topic, year)
         combined_weight = era_weight * syllabus_penalty
         
+        # Normalize micro_topic
+        micro_topic = normalize_topic(micro_topic_raw) if micro_topic_raw else topic
+        
         processed.append({
             'year': year,
             'subject': subject,
             'topic': topic,
+            'micro_topic': micro_topic,
             'question_text': q_text,
             'question_type': q_type,
             'choices': q.get('choices') or [],
@@ -1541,6 +1547,7 @@ class EliteGATEPredictor:
         self.base_models = {}
         self.stacking_model = None
         self.all_topics_data = {}
+        self.all_micro_topics_data = {}
         self.metrics = {}
         self.feature_importance = None
         self.calibrator = ConfidenceCalibrator()
@@ -1632,6 +1639,7 @@ class EliteGATEPredictor:
         print("\n🔧 Training Elite Ensemble...")
         
         topic_data = {}
+        micro_topic_data = {}
         
         for q in processed_data:
             key = f"{q['subject']}::{q['topic']}"
@@ -1656,13 +1664,39 @@ class EliteGATEPredictor:
             topic_data[key]['year_counts'][year_key] = topic_data[key]['year_counts'].get(year_key, 0) + 1
             topic_data[key]['subject'] = q['subject']
             topic_data[key]['topic'] = q['topic']
+            
+            # Build micro_topic data alongside topic data
+            micro_topic = q.get('micro_topic', q['topic'])
+            micro_key = f"{q['subject']}::{q['topic']}::{micro_topic}"
+            if micro_key not in micro_topic_data:
+                micro_topic_data[micro_key] = {
+                    'years': [],
+                    'counts': [],
+                    'year_counts': {},
+                    'subject': '',
+                    'topic': '',
+                    'micro_topic': ''
+                }
+            micro_topic_data[micro_key]['years'].append(q['year'])
+            micro_topic_data[micro_key]['year_counts'][year_key] = micro_topic_data[micro_key]['year_counts'].get(year_key, 0) + 1
+            micro_topic_data[micro_key]['subject'] = q['subject']
+            micro_topic_data[micro_key]['topic'] = q['topic']
+            micro_topic_data[micro_key]['micro_topic'] = micro_topic
         
         for key in topic_data:
             years = sorted(set(topic_data[key]['years']))
             topic_data[key]['years'] = years
             topic_data[key]['counts'] = [topic_data[key]['year_counts'][y] for y in years]
         
+        # Finalize micro_topic_data
+        for key in micro_topic_data:
+            years = sorted(set(micro_topic_data[key]['years']))
+            micro_topic_data[key]['years'] = years
+            micro_topic_data[key]['counts'] = [micro_topic_data[key]['year_counts'][y] for y in years]
+        
         self.all_topics_data = topic_data
+        self.all_micro_topics_data = micro_topic_data
+        print(f"   ✓ Built {len(topic_data)} topic groups + {len(micro_topic_data)} micro-topic groups")
         
         X_list, y_list = [], []
         
@@ -1851,6 +1885,111 @@ class EliteGATEPredictor:
         normalized = self._normalize_to_gate(predictions)
         
         return normalized
+    
+    def predict_micro_topics(self, topic_predictions, target_year=2026):
+        """Generate micro_topic-level predictions within each topic's allocation."""
+        print(f"\n🔬 Generating micro-topic predictions for {target_year}...")
+        
+        if not hasattr(self, 'all_micro_topics_data') or not self.all_micro_topics_data:
+            print("   ⚠️  No micro-topic data available")
+            return []
+        
+        # Build lookup: subject::topic -> predicted_count from topic predictions
+        topic_pred_lookup = {}
+        for p in topic_predictions:
+            key = f"{p['subject']}::{p['topic']}"
+            topic_pred_lookup[key] = p['predicted_count']
+        
+        # Group micro_topics by parent topic
+        micro_by_parent = defaultdict(list)
+        
+        for key, data in self.all_micro_topics_data.items():
+            # Relaxed filter: micro_topics can have fewer appearances
+            if len(data['years']) < 2:
+                continue
+            
+            last_seen = max(data['years'])
+            if last_seen < 2016:
+                continue
+            
+            parent_key = f"{data['subject']}::{data['topic']}"
+            
+            features = extract_elite_features(data, self.all_topics_data, target_year)
+            
+            if self.scaler:
+                features_scaled = self.scaler.transform(features.reshape(1, -1))
+            else:
+                features_scaled = features.reshape(1, -1)
+            
+            if self.stacking_model:
+                pred = self.stacking_model.predict(features_scaled)[0]
+                individual_preds = []
+                for name, model in self.base_models.items():
+                    try:
+                        individual_preds.append(model.predict(features_scaled)[0])
+                    except:
+                        continue
+                pred_std = np.std(individual_preds) if len(individual_preds) > 1 else 0
+            elif self.base_models:
+                preds = []
+                for model in self.base_models.values():
+                    try:
+                        preds.append(model.predict(features_scaled)[0])
+                    except:
+                        continue
+                pred = np.mean(preds) if preds else np.mean(data['counts'])
+                pred_std = np.std(preds) if len(preds) > 1 else 0
+            else:
+                pred = self._fallback_predict_single(data)
+                pred_std = 0
+            
+            pred = max(0, pred)
+            
+            raw_confidence = self._calculate_elite_confidence(data, pred, pred_std, target_year)
+            calibrated_confidence = self.calibrator.adjust_confidence(raw_confidence)
+            trend = self._detect_trend(data)
+            
+            micro_by_parent[parent_key].append({
+                "subject": data['subject'],
+                "topic": data['topic'],
+                "micro_topic": data['micro_topic'],
+                "raw_predicted": pred,
+                "confidence": round(calibrated_confidence * 100, 1),
+                "raw_confidence": round(raw_confidence * 100, 1),
+                "uncertainty": round(pred_std, 3),
+                "trend": trend,
+                "historical_avg": round(np.mean(data['counts']), 2),
+                "recent_avg": round(np.mean(data['counts'][-3:]), 2) if len(data['counts']) >= 3 else round(np.mean(data['counts']), 2),
+                "last_seen": last_seen,
+                "appearances": len(data['years'])
+            })
+        
+        # Normalize micro_topics within each parent topic's allocation
+        micro_predictions = []
+        
+        for parent_key, micros in micro_by_parent.items():
+            parent_pred = topic_pred_lookup.get(parent_key, 0)
+            
+            # Calculate raw total for normalization
+            raw_total = sum(m['raw_predicted'] for m in micros)
+            
+            for m in micros:
+                if raw_total > 0 and parent_pred > 0:
+                    # Distribute parent topic's prediction proportionally
+                    m['predicted_count'] = round((m['raw_predicted'] / raw_total) * parent_pred, 3)
+                else:
+                    m['predicted_count'] = round(m['raw_predicted'], 3)
+                
+                # Remove raw_predicted from output
+                del m['raw_predicted']
+                micro_predictions.append(m)
+        
+        # Sort by confidence
+        micro_predictions.sort(key=lambda x: (x['confidence'], x['predicted_count']), reverse=True)
+        
+        print(f"   ✓ Generated {len(micro_predictions)} micro-topic predictions across {len(micro_by_parent)} parent topics")
+        
+        return micro_predictions
     
     def _calculate_elite_confidence(self, data, prediction, uncertainty, target_year):
         factors = []
@@ -2335,6 +2474,9 @@ def main():
     # Generate final predictions with calibrated confidence
     predictions = predictor_final.predict(2027)
     
+    # Generate micro-topic predictions
+    micro_predictions = predictor_final.predict_micro_topics(predictions, 2027)
+    
     print("\n" + "="*80)
     print("✅ PREDICTION COMPLETE")
     print("="*80)
@@ -2364,9 +2506,16 @@ def main():
         cal_indicator = f"[Cal: {p.get('raw_confidence', p['confidence']):.0f}→{p['confidence']:.0f}]" if 'raw_confidence' in p else ""
         print(f"   {i:2}. {p['subject'][:20]:20s} | {p['topic'][:26]:26s} → {p['predicted_count']:5.2f}q | {conf_bar} {p['confidence']:5.1f}% {cal_indicator}")
     
+    # Print top micro-topic predictions
+    if micro_predictions:
+        print(f"\n🔬 Top 15 Micro-Topic Predictions:")
+        for i, m in enumerate(micro_predictions[:15], 1):
+            conf_bar = "█" * int(m['confidence'] / 10) + "░" * (10 - int(m['confidence'] / 10))
+            print(f"   {i:2}. {m['topic'][:18]:18s} → {m['micro_topic'][:28]:28s} {m['predicted_count']:5.3f}q | {conf_bar} {m['confidence']:5.1f}%")
+    
     output = {
         'meta': {
-            'version': '3.2 Elite with Calibration',
+            'version': '3.3 Elite with Calibration + Micro-Topics',
             'generated_at': datetime.now().isoformat(),
             'total_analyzed': len(processed_data),
             'features': 55,
@@ -2374,6 +2523,7 @@ def main():
             'metrics': metrics
         },
         'predictions': predictions,
+        'micro_topic_predictions': micro_predictions,
         'validation': validation_report,
         'subject_totals': dict(subject_totals)
     }
@@ -2382,6 +2532,7 @@ def main():
         json.dump(output, f, indent=2, default=str)
     
     print(f"\n💾 Saved: elite_predictions_2027.json")
+    print(f"   📊 {len(predictions)} topic predictions + {len(micro_predictions)} micro-topic predictions")
     print("="*80)
 
 if __name__ == "__main__":
