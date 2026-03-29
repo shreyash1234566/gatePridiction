@@ -7,6 +7,7 @@ export interface Question {
   paper_id: string;
   subject: string;
   topic: string;
+  micro_topic: string;
   question_text: string;
   question_type: "MCQ" | "NAT" | "MSQ";
   choices?: string[];
@@ -28,6 +29,21 @@ export interface Prediction {
   last_seen: number;
   appearances: number;
   is_core: string;
+}
+
+export interface MicroTopicPrediction {
+  subject: string;
+  topic: string;
+  micro_topic: string;
+  predicted_count: number;
+  confidence: number;
+  raw_confidence: number;
+  uncertainty: number;
+  trend: "Rising" | "Stable" | "Declining";
+  historical_avg: number;
+  recent_avg: number;
+  last_seen: number;
+  appearances: number;
 }
 
 export interface TrendData {
@@ -65,6 +81,10 @@ export interface TrendTopicData {
   question_ids: number[];
 }
 
+export interface MicroTopicTrendData extends TrendTopicData {
+  micro_topic: string;
+}
+
 export interface GateData {
   meta: GateDataMeta;
   predictions_2027: {
@@ -83,9 +103,11 @@ export interface GateData {
     };
     subject_distribution: { [subject: string]: number };
     predictions: Prediction[];
+    micro_topic_predictions: MicroTopicPrediction[];
   };
   trends: {
     by_topic: TrendTopicData[];
+    by_micro_topic: MicroTopicTrendData[];
   };
   questions: {
     all: Question[];
@@ -239,4 +261,30 @@ export const getYearsCovered = (): number[] => {
 // Get all subjects
 export const getAllSubjects = (): string[] => {
   return GATE_DATA.meta.subjects;
+};
+
+// Get micro-topic predictions for a specific topic
+export const getMicroTopicPredictions = (subject: string, topic: string): MicroTopicPrediction[] => {
+  const micros = GATE_DATA.predictions_2027.micro_topic_predictions || [];
+  return micros.filter(m => m.subject === subject && m.topic === topic)
+    .sort((a, b) => b.predicted_count - a.predicted_count);
+};
+
+// Get all micro-topic predictions sorted by confidence
+export const getAllMicroTopicPredictions = (): MicroTopicPrediction[] => {
+  return [...(GATE_DATA.predictions_2027.micro_topic_predictions || [])]
+    .sort((a, b) => b.confidence - a.confidence);
+};
+
+// Get questions by micro-topic
+export const getQuestionsByMicroTopic = (subject: string, topic: string, microTopic: string): Question[] => {
+  return getAllQuestions().filter(q => 
+    q.subject === subject && q.topic === topic && q.micro_topic === microTopic
+  );
+};
+
+// Get unique micro-topics for a given subject and topic
+export const getMicroTopicsForTopic = (subject: string, topic: string): string[] => {
+  const questions = getQuestionsByTopic(subject, topic);
+  return [...new Set(questions.map(q => q.micro_topic))];
 };

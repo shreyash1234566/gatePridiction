@@ -19,7 +19,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { usePredictions } from "@/hooks/usePredictions";
-import { subjectIcons, getAllSubjects, Prediction } from "@/data/gateData";
+import { subjectIcons, getAllSubjects, Prediction, getMicroTopicPredictions } from "@/data/gateData";
 import { 
   Target, 
   TrendingUp, 
@@ -28,7 +28,9 @@ import {
   Star,
   Filter,
   ArrowUpDown,
-  Info
+  Info,
+  ChevronDown,
+  ChevronRight
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
@@ -42,6 +44,19 @@ const Predictions = () => {
   const [selectedTrend, setSelectedTrend] = useState<"Rising" | "Stable" | "Declining" | undefined>();
   const [showCoreOnly, setShowCoreOnly] = useState(false);
   const [sortBy, setSortBy] = useState<"confidence" | "topic">("confidence");
+  const [expandedTopics, setExpandedTopics] = useState<Set<string>>(new Set());
+
+  const toggleExpand = (key: string) => {
+    setExpandedTopics(prev => {
+      const next = new Set(prev);
+      if (next.has(key)) {
+        next.delete(key);
+      } else {
+        next.add(key);
+      }
+      return next;
+    });
+  };
 
   const subjects = getAllSubjects();
 
@@ -269,60 +284,130 @@ const Predictions = () => {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {sortedPredictions.map((prediction, index) => (
-                  <TableRow key={`${prediction.subject}-${prediction.topic}-${index}`}>
-                    <TableCell className="font-medium">
-                      <div className="flex items-center gap-2">
-                        {prediction.is_core === "✓" && (
-                          <Star className="h-4 w-4 text-primary flex-shrink-0" />
-                        )}
-                        <span className="truncate max-w-[180px]">
-                          {prediction.topic}
-                        </span>
-                      </div>
-                    </TableCell>
-                    <TableCell>
-                      <Badge variant="outline" className="text-xs whitespace-nowrap">
-                        {subjectIcons[prediction.subject]} {prediction.subject.replace("Engineering ", "").replace("Computer ", "")}
-                      </Badge>
-                    </TableCell>
-                    <TableCell>
-                      <div className="flex items-center gap-2">
-                        <Progress 
-                          value={prediction.confidence} 
-                          className="h-2 w-16"
-                        />
-                        <span className="text-xs font-medium w-10">
-                          {prediction.confidence.toFixed(1)}%
-                        </span>
-                      </div>
-                    </TableCell>
-                    <TableCell className="text-center">
-                      <Badge 
-                        variant="outline" 
-                        className={cn("gap-1", getTrendBadgeClass(prediction.trend))}
+                {sortedPredictions.map((prediction, index) => {
+                  const expandKey = `${prediction.subject}::${prediction.topic}`;
+                  const isExpanded = expandedTopics.has(expandKey);
+                  const microPreds = isExpanded ? getMicroTopicPredictions(prediction.subject, prediction.topic) : [];
+                  
+                  return (
+                    <>
+                      <TableRow 
+                        key={`${prediction.subject}-${prediction.topic}-${index}`}
+                        className="cursor-pointer hover:bg-muted/50"
+                        onClick={() => toggleExpand(expandKey)}
                       >
-                        {getTrendIcon(prediction.trend)}
-                        {prediction.trend}
-                      </Badge>
-                    </TableCell>
-                    <TableCell className="text-center text-sm">
-                      {prediction.last_seen}
-                    </TableCell>
-                    <TableCell className="text-center text-sm">
-                      {prediction.appearances}x
-                    </TableCell>
-                    <TableCell className="text-right">
-                      <Link
-                        to={`/practice?subject=${encodeURIComponent(prediction.subject)}`}
-                      >
-                        <Button variant="ghost" size="sm">
-                          Practice
-                        </Button>
-                      </Link>
-                    </TableCell>
-                  </TableRow>
-                ))}
+                        <TableCell className="font-medium">
+                          <div className="flex items-center gap-2">
+                            {microPreds.length > 0 || !isExpanded ? (
+                              isExpanded ? 
+                                <ChevronDown className="h-4 w-4 text-muted-foreground flex-shrink-0" /> : 
+                                <ChevronRight className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                            ) : (
+                              <ChevronRight className="h-4 w-4 text-muted-foreground flex-shrink-0 opacity-30" />
+                            )}
+                            {prediction.is_core === "✓" && (
+                              <Star className="h-4 w-4 text-primary flex-shrink-0" />
+                            )}
+                            <span className="truncate max-w-[180px]">
+                              {prediction.topic}
+                            </span>
+                          </div>
+                        </TableCell>
+                        <TableCell>
+                          <Badge variant="outline" className="text-xs whitespace-nowrap">
+                            {subjectIcons[prediction.subject]} {prediction.subject.replace("Engineering ", "").replace("Computer ", "")}
+                          </Badge>
+                        </TableCell>
+                        <TableCell>
+                          <div className="flex items-center gap-2">
+                            <Progress 
+                              value={prediction.confidence} 
+                              className="h-2 w-16"
+                            />
+                            <span className="text-xs font-medium w-10">
+                              {prediction.confidence.toFixed(1)}%
+                            </span>
+                          </div>
+                        </TableCell>
+                        <TableCell className="text-center">
+                          <Badge 
+                            variant="outline" 
+                            className={cn("gap-1", getTrendBadgeClass(prediction.trend))}
+                          >
+                            {getTrendIcon(prediction.trend)}
+                            {prediction.trend}
+                          </Badge>
+                        </TableCell>
+                        <TableCell className="text-center text-sm">
+                          {prediction.last_seen}
+                        </TableCell>
+                        <TableCell className="text-center text-sm">
+                          {prediction.appearances}x
+                        </TableCell>
+                        <TableCell className="text-right">
+                          <Link
+                            to={`/practice?subject=${encodeURIComponent(prediction.subject)}`}
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            <Button variant="ghost" size="sm">
+                              Practice
+                            </Button>
+                          </Link>
+                        </TableCell>
+                      </TableRow>
+                      
+                      {/* Micro-topic sub-rows */}
+                      {isExpanded && microPreds.map((micro, mIdx) => (
+                        <TableRow 
+                          key={`micro-${prediction.subject}-${prediction.topic}-${micro.micro_topic}-${mIdx}`}
+                          className="bg-muted/30 border-l-2 border-l-primary/20"
+                        >
+                          <TableCell className="pl-12 text-sm text-muted-foreground">
+                            <span className="truncate max-w-[160px] inline-block">
+                              🔬 {micro.micro_topic}
+                            </span>
+                          </TableCell>
+                          <TableCell>
+                            <span className="text-xs text-muted-foreground">
+                              {micro.predicted_count.toFixed(2)}q
+                            </span>
+                          </TableCell>
+                          <TableCell>
+                            <div className="flex items-center gap-2">
+                              <Progress 
+                                value={micro.confidence} 
+                                className="h-1.5 w-12"
+                              />
+                              <span className="text-xs text-muted-foreground w-10">
+                                {micro.confidence.toFixed(0)}%
+                              </span>
+                            </div>
+                          </TableCell>
+                          <TableCell className="text-center">
+                            <span className="text-xs">
+                              {getTrendIcon(micro.trend)}
+                            </span>
+                          </TableCell>
+                          <TableCell className="text-center text-xs text-muted-foreground">
+                            {micro.last_seen}
+                          </TableCell>
+                          <TableCell className="text-center text-xs text-muted-foreground">
+                            {micro.appearances}x
+                          </TableCell>
+                          <TableCell />
+                        </TableRow>
+                      ))}
+                      
+                      {isExpanded && microPreds.length === 0 && (
+                        <TableRow className="bg-muted/20">
+                          <TableCell colSpan={7} className="pl-12 text-xs text-muted-foreground italic">
+                            No micro-topic predictions available for this topic
+                          </TableCell>
+                        </TableRow>
+                      )}
+                    </>
+                  );
+                })}
               </TableBody>
             </Table>
           </div>
