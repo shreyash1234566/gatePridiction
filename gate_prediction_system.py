@@ -1774,7 +1774,6 @@ class EliteGATEPredictor:
             self.stacking_model = StackingRegressor(
                 estimators=estimators,
                 final_estimator=BayesianRidge(
-                    max_iter=500,
                     alpha_1=1e-6,
                     alpha_2=1e-6,
                     lambda_1=1e-6,
