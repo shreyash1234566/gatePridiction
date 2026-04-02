@@ -37,9 +37,7 @@ export interface MicroTopicPrediction {
   micro_topic: string;
   predicted_count: number;
   confidence: number;
-  raw_confidence: number;
-  uncertainty: number;
-  trend: "Rising" | "Stable" | "Declining";
+  trend: "Rising" | "Stable" | "Declining" | "Emerging";
   historical_avg: number;
   recent_avg: number;
   last_seen: number;
@@ -163,6 +161,12 @@ export const getQuestionsByTopic = (subject: string, topic: string): Question[] 
   return subjectData[topic] || [];
 };
 
+// Helper to get questions by micro-topic
+export const getQuestionsByMicroTopic = (subject: string, topic: string, microTopic: string): Question[] => {
+  const questions = getQuestionsByTopic(subject, topic);
+  return questions.filter(q => q.micro_topic === microTopic);
+};
+
 // Helper to get unique topics for a subject
 export const getTopicsForSubject = (subject: string): string[] => {
   const subjectData = GATE_DATA.questions.by_subject[subject];
@@ -176,6 +180,13 @@ export const getTopicsForSubject = (subject: string): string[] => {
   // Fallback: nested by topic (legacy format)
   return Object.keys(subjectData);
 };
+
+// Helper to get unique micro-topics for a topic
+export const getMicroTopicsForTopic = (subject: string, topic: string): string[] => {
+  const questions = getQuestionsByTopic(subject, topic);
+  return [...new Set(questions.map(q => q.micro_topic))].filter(Boolean);
+};
+
 
 // Helper to get predictions sorted by confidence
 export const getSortedPredictions = (sortBy: 'confidence' | 'trend' = 'confidence'): Prediction[] => {

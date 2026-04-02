@@ -7,7 +7,8 @@ import {
   Bookmark,
   Home,
   GraduationCap,
-  Map
+  Map,
+  Microscope
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import {
@@ -43,6 +44,7 @@ export const AppSidebar = () => {
     { title: "Practice", url: "/practice", icon: BookOpen },
     { title: "Roadmap", url: "/roadmap", icon: Map },
     { title: "Predictions", url: "/predictions", icon: Target },
+    { title: "Micro-Topics", url: "/micro-topics", icon: Microscope },
     { title: "Trends", url: "/trends", icon: TrendingUp },
     { title: "Bookmarks", url: "/bookmarks", icon: Bookmark },
   ];

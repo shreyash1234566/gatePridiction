@@ -28,6 +28,7 @@ const Practice = () => {
   
   const [selectedSubject, setSelectedSubject] = useState<string | undefined>(initialSubject);
   const [selectedTopic, setSelectedTopic] = useState<string | undefined>();
+  const [selectedMicroTopic, setSelectedMicroTopic] = useState<string | undefined>();
   const [selectedYear, setSelectedYear] = useState<number | undefined>();
   
   const subjects = getAllSubjects();
@@ -36,6 +37,7 @@ const Practice = () => {
   const session = useQuestionSession({
     subject: selectedSubject,
     topic: selectedTopic,
+    microTopic: selectedMicroTopic,
     year: selectedYear,
   });
   
@@ -46,6 +48,7 @@ const Practice = () => {
     const newSubject = value === "all" ? undefined : value;
     setSelectedSubject(newSubject);
     setSelectedTopic(undefined);
+    setSelectedMicroTopic(undefined);
     if (newSubject) {
       setSearchParams({ subject: newSubject });
     } else {
@@ -55,6 +58,11 @@ const Practice = () => {
 
   const handleTopicChange = (value: string) => {
     setSelectedTopic(value === "all" ? undefined : value);
+    setSelectedMicroTopic(undefined);
+  };
+
+  const handleMicroTopicChange = (value: string) => {
+    setSelectedMicroTopic(value === "all" ? undefined : value);
   };
 
   const handleYearChange = (value: string) => {
@@ -107,7 +115,7 @@ const Practice = () => {
         {/* Hidden/Collapsed by default or Subtle styling so it doesn't distract */}
         <Card className="bg-slate-900/50 border border-white/5 shadow-none backdrop-blur-sm">
            <CardContent className="px-6 py-4">
-            <div className="grid sm:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {/* Subject filter */}
               <div className="relative group">
                 <label className="text-xs text-slate-500 mb-1.5 block font-semibold uppercase tracking-wider group-hover:text-blue-400 transition-colors">
@@ -151,6 +159,30 @@ const Practice = () => {
                     {session.topics.map((topic) => (
                       <SelectItem key={topic} value={topic} className="focus:bg-slate-800 focus:text-white">
                         {topic}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {/* Micro-topic filter */}
+              <div className="relative group">
+                <label className="text-xs text-slate-500 mb-1.5 block font-semibold uppercase tracking-wider group-hover:text-blue-400 transition-colors">
+                  Micro Topic
+                </label>
+                <Select
+                  value={selectedMicroTopic || "all"}
+                  onValueChange={handleMicroTopicChange}
+                  disabled={!selectedTopic}
+                >
+                  <SelectTrigger className="bg-slate-900 border-slate-800 text-slate-300 focus:ring-blue-500/50 focus:border-blue-500/50">
+                    <SelectValue placeholder="All Micro Topics" />
+                  </SelectTrigger>
+                  <SelectContent className="bg-slate-900 border-slate-800 text-slate-300">
+                    <SelectItem value="all" className="focus:bg-slate-800 focus:text-white">All Micro Topics</SelectItem>
+                    {session.microTopics.map((mTopic) => (
+                      <SelectItem key={mTopic} value={mTopic} className="focus:bg-slate-800 focus:text-white">
+                        {mTopic}
                       </SelectItem>
                     ))}
                   </SelectContent>

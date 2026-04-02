@@ -4,7 +4,9 @@ import {
   getAllQuestions, 
   getQuestionsBySubject, 
   getQuestionsByTopic,
+  getQuestionsByMicroTopic,
   getTopicsForSubject,
+  getMicroTopicsForTopic,
   getAllSubjects,
   getYearsCovered
 } from '@/data/gateData';
@@ -12,6 +14,7 @@ import {
 interface UseQuestionsOptions {
   subject?: string;
   topic?: string;
+  microTopic?: string;
   year?: number;
   questionType?: 'MCQ' | 'NAT' | 'MSQ';
   shuffle?: boolean;
@@ -29,15 +32,16 @@ interface UseQuestionsReturn {
   resetQuestions: () => void;
   subjects: string[];
   topics: string[];
+  microTopics: string[];
   years: number[];
 }
 
 /**
  * Hook for managing question data and navigation
- * Provides filtered questions based on subject, topic, year, and type
+ * Provides filtered questions based on subject, topic, micro-topic, year, and type
  */
 export const useQuestions = (options: UseQuestionsOptions = {}): UseQuestionsReturn => {
-  const { subject, topic, year, questionType, shuffle = false } = options;
+  const { subject, topic, microTopic, year, questionType, shuffle = false } = options;
   
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
@@ -52,14 +56,22 @@ export const useQuestions = (options: UseQuestionsOptions = {}): UseQuestionsRet
     return getTopicsForSubject(subject);
   }, [subject]);
 
+  // Get micro topics for selected topic
+  const microTopics = useMemo(() => {
+    if (!subject || !topic) return [];
+    return getMicroTopicsForTopic(subject, topic);
+  }, [subject, topic]);
+
   // Filter questions based on options
   const questions = useMemo(() => {
     setIsLoading(true);
     
     let filteredQuestions: Question[];
     
-    // Start with subject/topic filtering
-    if (subject && topic) {
+    // Start with subject/topic/micro filtering
+    if (subject && topic && microTopic) {
+      filteredQuestions = getQuestionsByMicroTopic(subject, topic, microTopic);
+    } else if (subject && topic) {
       filteredQuestions = getQuestionsByTopic(subject, topic);
     } else if (subject) {
       filteredQuestions = getQuestionsBySubject(subject);
@@ -84,7 +96,7 @@ export const useQuestions = (options: UseQuestionsOptions = {}): UseQuestionsRet
     
     setIsLoading(false);
     return filteredQuestions;
-  }, [subject, topic, year, questionType, shuffle]);
+  }, [subject, topic, microTopic, year, questionType, shuffle]);
 
   // Current question
   const currentQuestion = useMemo(() => {
@@ -94,7 +106,7 @@ export const useQuestions = (options: UseQuestionsOptions = {}): UseQuestionsRet
   // Reset index when questions change
   useEffect(() => {
     setCurrentIndex(0);
-  }, [subject, topic, year, questionType]);
+  }, [subject, topic, microTopic, year, questionType]);
 
   // Navigation functions
   const goToNext = useCallback(() => {
@@ -127,6 +139,7 @@ export const useQuestions = (options: UseQuestionsOptions = {}): UseQuestionsRet
     resetQuestions,
     subjects,
     topics,
+    microTopics,
     years,
   };
 };
