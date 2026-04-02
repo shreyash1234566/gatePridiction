@@ -8,59 +8,59 @@
   :root {
     /* ----- HYBRID TACTICAL THEME (Daylight Base) ----- */
     
-    /* Background: Silver White (Global Base) */
-    --background: 210 40% 98%; /* Slate-50 / #F8FAFC */
-    --foreground: 222 47% 11%; /* Slate-900 (Dark Navy) */
-
-    /* Cards: Frosted Daylight (White with opacity) */
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    /* Background: #F7F9FA (Soft Cool White) */
+    --background: 200 15% 97%;
     
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    /* Text: #2D3748 (Slate Gray) */
+    --foreground: 218 23% 23%;
 
-    /* Primary: Vivid Red (Action Signals) */
-    --primary: 345 80% 50%; /* Vivid Red (approx Red-600 adjusted) used 0 72 51 before, prompting brighter Red */
-    --primary: 0 84% 60%; /* Let's stick to standard Red-600 equivalent: 0 72% 51% is conventional. Prompt asks for "Vivid Red". Let's go 0 85% 60% for a bit more pop or keep standard. Tailwind red-600 is 0 72.2 50.6. */
-    --primary: 0 72% 51%;
+    /* Cards: #EDF2F7 (Light Gray-Blue) */
+    --card: 210 24% 95%;
+    --card-foreground: 218 23% 23%;
+    
+    --popover: 210 24% 95%;
+    --popover-foreground: 218 23% 23%;
+
+    /* Primary: #3182CE (Calm Blue Accent) */
+    --primary: 209 62% 50%;
     --primary-foreground: 0 0% 100%;
     
-    /* Secondary: Signal Yellow/Amber (Alerts) */
-    --secondary: 45 93% 47%; /* Amber-500 */
-    --secondary-foreground: 222 47% 11%;
+    /* Secondary: Muted blue / gray */
+    --secondary: 214 20% 90%;
+    --secondary-foreground: 218 23% 23%;
     
-    --muted: 210 40% 96.1%;
+    --muted: 210 24% 95%;
     --muted-foreground: 215 16% 47%;
     
-    /* Accent: Emerald Green (Success/Trends) */
-    --accent: 142 76% 36%; /* Green-600 */
+    /* Accent: #38A169 (Success Green) */
+    --accent: 148 48% 43%;
     --accent-foreground: 0 0% 100%;
     
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%; /* Silver borders */
+    --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 0 72% 51%; /* Red focus ring */
+    --ring: 209 62% 50%;
  
-    --radius: 0.75rem; /* Slightly tighter than 1rem for "Tactical" feel */
+    --radius: 0.75rem;
 
-    /* Sidebar: Matches Background */
-    --sidebar-background: 210 20% 98%;
-    --sidebar-foreground: 222 47% 11%;
-    --sidebar-primary: 0 72% 51%;
+    /* Sidebar */
+    --sidebar-background: 200 15% 97%;
+    --sidebar-foreground: 218 23% 23%;
+    --sidebar-primary: 209 62% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 40% 96.1%;
-    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-accent: 210 24% 95%;
+    --sidebar-accent-foreground: 218 23% 23%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 0 72% 51%;
+    --sidebar-ring: 209 62% 50%;
 
-    /* Charts - Data Palette (Red/Yellow/Green) */
-    --chart-1: 0 72% 51%;   /* Red */
-    --chart-2: 45 93% 47%;  /* Yellow */
-    --chart-3: 142 76% 36%; /* Green */
-    --chart-4: 217 91% 60%; /* Blue support */
-    --chart-5: 262 83% 58%; /* Purple support */
+    /* Charts */
+    --chart-1: 209 62% 50%;  /* Blue */
+    --chart-2: 148 48% 43%;  /* Green */
+    --chart-3: 45 93% 47%;   /* Yellow */
+    --chart-4: 217 91% 60%;
+    --chart-5: 262 83% 58%;
   }
  
   .dark {

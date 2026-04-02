@@ -31,19 +31,19 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
-        <MainLayout>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/practice" element={<Practice />} />
-            <Route path="/predictions" element={<Predictions />} />
-            <Route path="/trends" element={<Trends />} />
-            <Route path="/bookmarks" element={<Bookmarks />} />
-            <Route path="/roadmap" element={<Roadmap />} />
-            <Route path="/micro-topics" element={<MicroTopics />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </MainLayout>
+          <MainLayout>
+            <Routes>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/practice" element={<Practice />} />
+              <Route path="/predictions" element={<Predictions />} />
+              <Route path="/trends" element={<Trends />} />
+              <Route path="/bookmarks" element={<Bookmarks />} />
+              <Route path="/roadmap" element={<Roadmap />} />
+              <Route path="/micro-topics" element={<MicroTopics />} />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </MainLayout>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
