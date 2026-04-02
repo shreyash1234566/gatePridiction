@@ -1,10 +1,10 @@
 // GATE 2027 Comprehensive Website Data
-// Auto-generated on 2026-04-02 21:00:31
+// Auto-generated on 2026-04-02 21:54:36
 // Contains: PYQs, Predictions (Topic + Micro-Topic), Trends, Statistics, Mock Paper Config
 
 const GATE_DATA = {
   "meta": {
-    "generated_at": "2026-04-02T21:00:31.653529",
+    "generated_at": "2026-04-02T21:54:36.209261",
     "version": "5.0 - Complete Website Data with Micro-Topics",
     "description": "Comprehensive GATE CS data for PYQ practice, trend analysis, predictions (topic + micro-topic), and mock tests",
     "total_questions": 1621,
@@ -45,15 +45,15 @@ const GATE_DATA = {
   "predictions_2027": {
     "meta": {
       "version": "3.4 Elite with Weighted Recency Micro-Topics",
-      "generated_at": "2026-04-02T20:59:22.141461",
+      "generated_at": "2026-04-02T21:44:43.145784",
       "total_analyzed": 1634,
       "features": 55,
       "models": 6,
       "metrics": {
-        "MAE": 0.4661,
-        "RMSE": 0.6766,
-        "R2": 0.8901,
-        "Mean_Prediction": 2.6771
+        "MAE": 1.0657,
+        "RMSE": 1.5437,
+        "R2": 0.4277,
+        "Mean_Prediction": 2.5868
       }
     },
     "subject_distribution": {
@@ -74,7 +74,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "Cache Memory",
-        "predicted_count": 2.333427654336199,
+        "predicted_count": 2.2845740026994608,
         "confidence": 83.4,
         "raw_confidence": 83.4,
         "uncertainty": 0.1,
@@ -88,7 +88,7 @@ const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Graphs",
-        "predicted_count": 1.2226568228994055,
+        "predicted_count": 1.1932791230039856,
         "confidence": 81.7,
         "raw_confidence": 81.7,
         "uncertainty": 0.178,
@@ -102,7 +102,7 @@ const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "Deadlock",
-        "predicted_count": 0.6544087421364431,
+        "predicted_count": 0.6377688516205244,
         "confidence": 81.0,
         "raw_confidence": 81.0,
         "uncertainty": 0.122,
@@ -116,7 +116,7 @@ const GATE_DATA = {
       {
         "subject": "Digital Logic",
         "topic": "Minimization",
-        "predicted_count": 0.35546431929558747,
+        "predicted_count": 0.3506148999744804,
         "confidence": 80.9,
         "raw_confidence": 80.9,
         "uncertainty": 0.086,
@@ -130,7 +130,7 @@ const GATE_DATA = {
       {
         "subject": "Theory of Computation",
         "topic": "Context-Free Languages",
-        "predicted_count": 1.2505104906324014,
+        "predicted_count": 1.219266039126272,
         "confidence": 80.7,
         "raw_confidence": 80.7,
         "uncertainty": 0.141,
@@ -144,7 +144,7 @@ const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "Memory Management",
-        "predicted_count": 1.4171173068996266,
+        "predicted_count": 1.3890571579600688,
         "confidence": 79.2,
         "raw_confidence": 79.2,
         "uncertainty": 0.288,
@@ -158,7 +158,7 @@ const GATE_DATA = {
       {
         "subject": "Digital Logic",
         "topic": "Boolean Algebra",
-        "predicted_count": 0.6484679885321945,
+        "predicted_count": 0.6427793616579622,
         "confidence": 78.8,
         "raw_confidence": 78.8,
         "uncertainty": 0.092,
@@ -172,7 +172,7 @@ const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Graphs",
-        "predicted_count": 1.4873617866286755,
+        "predicted_count": 1.468870315935679,
         "confidence": 78.7,
         "raw_confidence": 78.7,
         "uncertainty": 0.159,
@@ -186,7 +186,7 @@ const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Combinatorics",
-        "predicted_count": 1.1349241563208976,
+        "predicted_count": 1.1208143298052182,
         "confidence": 78.7,
         "raw_confidence": 78.7,
         "uncertainty": 0.154,
@@ -200,7 +200,7 @@ const GATE_DATA = {
       {
         "subject": "Programming",
         "topic": "Programming in C",
-        "predicted_count": 1.365503508036191,
+        "predicted_count": 1.3545662360738475,
         "confidence": 78.6,
         "raw_confidence": 78.6,
         "uncertainty": 0.31,
@@ -214,7 +214,7 @@ const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Asymptotic Analysis",
-        "predicted_count": 0.8427996352670354,
+        "predicted_count": 0.8316547817561556,
         "confidence": 78.1,
         "raw_confidence": 78.1,
         "uncertainty": 0.136,
@@ -228,7 +228,7 @@ const GATE_DATA = {
       {
         "subject": "Data Structures",
         "topic": "Trees",
-        "predicted_count": 3.136949319899458,
+        "predicted_count": 3.094641137170798,
         "confidence": 77.6,
         "raw_confidence": 77.6,
         "uncertainty": 0.434,
@@ -242,7 +242,7 @@ const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Linear Algebra",
-        "predicted_count": 1.2309114419740037,
+        "predicted_count": 1.2204995187181014,
         "confidence": 77.4,
         "raw_confidence": 77.4,
         "uncertainty": 0.329,
@@ -256,7 +256,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "I/O Interface",
-        "predicted_count": 0.6549389132450346,
+        "predicted_count": 0.6553526258312975,
         "confidence": 77.0,
         "raw_confidence": 77.0,
         "uncertainty": 0.051,
@@ -270,7 +270,7 @@ const GATE_DATA = {
       {
         "subject": "Digital Logic",
         "topic": "Combinational Circuits",
-        "predicted_count": 0.41552330725655806,
+        "predicted_count": 0.4136403851674477,
         "confidence": 77.0,
         "raw_confidence": 77.0,
         "uncertainty": 0.053,
@@ -284,7 +284,7 @@ const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Calculus",
-        "predicted_count": 1.3597833392388103,
+        "predicted_count": 1.3512202635771202,
         "confidence": 76.7,
         "raw_confidence": 76.7,
         "uncertainty": 0.108,
@@ -298,7 +298,7 @@ const GATE_DATA = {
       {
         "subject": "Programming",
         "topic": "Recursion",
-        "predicted_count": 0.3366413372385269,
+        "predicted_count": 0.33545009868637815,
         "confidence": 76.7,
         "raw_confidence": 76.7,
         "uncertainty": 0.08,
@@ -312,7 +312,7 @@ const GATE_DATA = {
       {
         "subject": "General Aptitude",
         "topic": "Verbal Ability",
-        "predicted_count": 3.5941175740933513,
+        "predicted_count": 3.5264936556070214,
         "confidence": 76.6,
         "raw_confidence": 76.6,
         "uncertainty": 0.506,
@@ -326,7 +326,7 @@ const GATE_DATA = {
       {
         "subject": "Data Structures",
         "topic": "Arrays, Stacks, Queues, Linked Lists",
-        "predicted_count": 1.4641067697821009,
+        "predicted_count": 1.4517291655302333,
         "confidence": 76.4,
         "raw_confidence": 76.4,
         "uncertainty": 0.115,
@@ -340,7 +340,7 @@ const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "CPU Scheduling",
-        "predicted_count": 0.75199885089542,
+        "predicted_count": 0.7438497470593641,
         "confidence": 76.4,
         "raw_confidence": 76.4,
         "uncertainty": 0.169,
@@ -354,7 +354,7 @@ const GATE_DATA = {
       {
         "subject": "Digital Logic",
         "topic": "Number Systems and Computer Arithmetic",
-        "predicted_count": 0.7969937143255679,
+        "predicted_count": 0.7956634917312473,
         "confidence": 75.8,
         "raw_confidence": 75.8,
         "uncertainty": 0.212,
@@ -368,7 +368,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "ALU, Data-Path and Control Unit",
-        "predicted_count": 0.7386246898346085,
+        "predicted_count": 0.7424665419967046,
         "confidence": 75.7,
         "raw_confidence": 75.7,
         "uncertainty": 0.069,
@@ -382,7 +382,7 @@ const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "Functional Dependencies and Normalization",
-        "predicted_count": 0.9169551680235093,
+        "predicted_count": 0.9041292812152638,
         "confidence": 75.6,
         "raw_confidence": 75.6,
         "uncertainty": 0.081,
@@ -396,7 +396,7 @@ const GATE_DATA = {
       {
         "subject": "Theory of Computation",
         "topic": "Turing Machines and Decidability",
-        "predicted_count": 1.2737883107834642,
+        "predicted_count": 1.2632425807189318,
         "confidence": 75.4,
         "raw_confidence": 75.4,
         "uncertainty": 0.164,
@@ -410,7 +410,7 @@ const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Syntax Analysis (Parsing)",
-        "predicted_count": 0.854187161145986,
+        "predicted_count": 0.8491440396405624,
         "confidence": 75.3,
         "raw_confidence": 75.3,
         "uncertainty": 0.137,
@@ -424,7 +424,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Data Link Layer",
-        "predicted_count": 0.8367182195408158,
+        "predicted_count": 0.8243350149469753,
         "confidence": 75.3,
         "raw_confidence": 75.3,
         "uncertainty": 0.121,
@@ -438,7 +438,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Transport Layer",
-        "predicted_count": 0.6782245089299285,
+        "predicted_count": 0.6686105736394258,
         "confidence": 75.1,
         "raw_confidence": 75.1,
         "uncertainty": 0.17,
@@ -452,7 +452,7 @@ const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Probability",
-        "predicted_count": 1.575255588583234,
+        "predicted_count": 1.5742025839681253,
         "confidence": 74.9,
         "raw_confidence": 74.9,
         "uncertainty": 0.455,
@@ -466,7 +466,7 @@ const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "SQL",
-        "predicted_count": 0.6369746019269881,
+        "predicted_count": 0.6312205294168478,
         "confidence": 74.0,
         "raw_confidence": 74.0,
         "uncertainty": 0.258,
@@ -480,7 +480,7 @@ const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Lexical Analysis",
-        "predicted_count": 0.3651527876329534,
+        "predicted_count": 0.36422005670105734,
         "confidence": 73.8,
         "raw_confidence": 73.8,
         "uncertainty": 0.129,
@@ -494,7 +494,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Application Layer Protocols",
-        "predicted_count": 0.6556646938832081,
+        "predicted_count": 0.6496774090071209,
         "confidence": 73.5,
         "raw_confidence": 73.5,
         "uncertainty": 0.039,
@@ -508,7 +508,7 @@ const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "Inter-Process Communication and Synchronization",
-        "predicted_count": 0.7668867305631906,
+        "predicted_count": 0.7677210350982384,
         "confidence": 72.8,
         "raw_confidence": 72.8,
         "uncertainty": 0.163,
@@ -522,7 +522,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "Instruction Pipelining",
-        "predicted_count": 1.1012992122000655,
+        "predicted_count": 1.1193317497749682,
         "confidence": 72.6,
         "raw_confidence": 72.6,
         "uncertainty": 0.197,
@@ -536,7 +536,7 @@ const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "Transactions and Concurrency Control",
-        "predicted_count": 0.7366572503685407,
+        "predicted_count": 0.7332456221392313,
         "confidence": 72.6,
         "raw_confidence": 72.6,
         "uncertainty": 0.176,
@@ -550,7 +550,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Network Layer and IP Addressing",
-        "predicted_count": 1.4827529617569966,
+        "predicted_count": 1.4768175900380334,
         "confidence": 71.9,
         "raw_confidence": 71.9,
         "uncertainty": 0.259,
@@ -564,7 +564,7 @@ const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Code Optimization",
-        "predicted_count": 1.0358023106985363,
+        "predicted_count": 1.0380845803101384,
         "confidence": 71.7,
         "raw_confidence": 71.7,
         "uncertainty": 0.347,
@@ -578,7 +578,7 @@ const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Semantic Analysis and Intermediate Code",
-        "predicted_count": 0.3739630592334967,
+        "predicted_count": 0.37495807778025986,
         "confidence": 71.5,
         "raw_confidence": 71.5,
         "uncertainty": 0.153,
@@ -592,7 +592,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Organization",
         "topic": "Machine Instructions and Addressing Modes",
-        "predicted_count": 1.1717095303840919,
+        "predicted_count": 1.1982750796975692,
         "confidence": 70.9,
         "raw_confidence": 70.9,
         "uncertainty": 0.176,
@@ -606,7 +606,7 @@ const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "Relational Model and Relational Algebra",
-        "predicted_count": 0.7168178911496154,
+        "predicted_count": 0.7173923878931127,
         "confidence": 70.9,
         "raw_confidence": 70.9,
         "uncertainty": 0.279,
@@ -620,7 +620,7 @@ const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "File Organization and Indexing",
-        "predicted_count": 0.6255696317828476,
+        "predicted_count": 0.6266770776003466,
         "confidence": 70.6,
         "raw_confidence": 70.6,
         "uncertainty": 0.055,
@@ -634,7 +634,7 @@ const GATE_DATA = {
       {
         "subject": "Data Structures",
         "topic": "Programming in C",
-        "predicted_count": 0.6494154167850484,
+        "predicted_count": 0.6608017950245577,
         "confidence": 70.5,
         "raw_confidence": 70.5,
         "uncertainty": 0.148,
@@ -648,7 +648,7 @@ const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "File Systems",
-        "predicted_count": 0.4798671189950967,
+        "predicted_count": 0.48483061778822206,
         "confidence": 70.1,
         "raw_confidence": 70.1,
         "uncertainty": 0.11,
@@ -662,7 +662,7 @@ const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Searching and Sorting",
-        "predicted_count": 1.1052420968582632,
+        "predicted_count": 1.119517965448876,
         "confidence": 69.9,
         "raw_confidence": 69.9,
         "uncertainty": 0.135,
@@ -676,7 +676,7 @@ const GATE_DATA = {
       {
         "subject": "Data Structures",
         "topic": "Hashing",
-        "predicted_count": 0.5601554374233334,
+        "predicted_count": 0.5715258851531956,
         "confidence": 69.9,
         "raw_confidence": 69.9,
         "uncertainty": 0.08,
@@ -690,7 +690,7 @@ const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Propositional and First-Order Logic",
-        "predicted_count": 1.0960187601157256,
+        "predicted_count": 1.1141368734645358,
         "confidence": 69.6,
         "raw_confidence": 69.6,
         "uncertainty": 0.151,
@@ -704,7 +704,7 @@ const GATE_DATA = {
       {
         "subject": "Compiler Design",
         "topic": "Runtime Environments",
-        "predicted_count": 0.3708946812890273,
+        "predicted_count": 0.3735932455679821,
         "confidence": 69.5,
         "raw_confidence": 69.5,
         "uncertainty": 0.316,
@@ -718,7 +718,7 @@ const GATE_DATA = {
       {
         "subject": "Digital Logic",
         "topic": "Logic Gates",
-        "predicted_count": 0.29312836795524033,
+        "predicted_count": 0.29733462352015266,
         "confidence": 69.3,
         "raw_confidence": 69.3,
         "uncertainty": 0.091,
@@ -732,7 +732,7 @@ const GATE_DATA = {
       {
         "subject": "General Aptitude",
         "topic": "Logical and Analytical Reasoning",
-        "predicted_count": 1.9010837280056394,
+        "predicted_count": 1.9167913097107268,
         "confidence": 69.2,
         "raw_confidence": 69.2,
         "uncertainty": 0.477,
@@ -746,7 +746,7 @@ const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Algebraic Structures",
-        "predicted_count": 0.4265799794364213,
+        "predicted_count": 0.4342023785776123,
         "confidence": 69.2,
         "raw_confidence": 69.2,
         "uncertainty": 0.098,
@@ -760,7 +760,7 @@ const GATE_DATA = {
       {
         "subject": "General Aptitude",
         "topic": "Quantitative Aptitude",
-        "predicted_count": 4.542896863768049,
+        "predicted_count": 4.5839096020371395,
         "confidence": 69.0,
         "raw_confidence": 69.0,
         "uncertainty": 1.106,
@@ -774,7 +774,7 @@ const GATE_DATA = {
       {
         "subject": "Theory of Computation",
         "topic": "Regular Languages and Finite Automata",
-        "predicted_count": 1.9940690653865805,
+        "predicted_count": 2.020368221164753,
         "confidence": 69.0,
         "raw_confidence": 69.0,
         "uncertainty": 0.407,
@@ -788,7 +788,7 @@ const GATE_DATA = {
       {
         "subject": "Data Structures",
         "topic": "Graphs (Data Structure Representation)",
-        "predicted_count": 1.1893730561100597,
+        "predicted_count": 1.2213020171212154,
         "confidence": 68.5,
         "raw_confidence": 68.5,
         "uncertainty": 0.141,
@@ -802,7 +802,7 @@ const GATE_DATA = {
       {
         "subject": "General Aptitude",
         "topic": "Spatial Aptitude",
-        "predicted_count": 0.9619018341329622,
+        "predicted_count": 0.9728054326451134,
         "confidence": 68.4,
         "raw_confidence": 68.4,
         "uncertainty": 0.889,
@@ -816,7 +816,7 @@ const GATE_DATA = {
       {
         "subject": "Digital Logic",
         "topic": "Sequential Circuits",
-        "predicted_count": 0.4904223026348516,
+        "predicted_count": 0.49996723794870956,
         "confidence": 67.3,
         "raw_confidence": 67.3,
         "uncertainty": 0.193,
@@ -830,7 +830,7 @@ const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "Virtual Memory",
-        "predicted_count": 0.700563756890292,
+        "predicted_count": 0.7165130107500904,
         "confidence": 66.6,
         "raw_confidence": 66.6,
         "uncertainty": 0.459,
@@ -844,7 +844,7 @@ const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "Process Management",
-        "predicted_count": 0.6188562255389581,
+        "predicted_count": 0.6331695067475782,
         "confidence": 66.5,
         "raw_confidence": 66.5,
         "uncertainty": 0.159,
@@ -858,7 +858,7 @@ const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Algorithm Design: Dynamic Programming",
-        "predicted_count": 0.4608117635391532,
+        "predicted_count": 0.4727125461825442,
         "confidence": 66.1,
         "raw_confidence": 66.1,
         "uncertainty": 0.091,
@@ -872,7 +872,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Network Architecture and Layering",
-        "predicted_count": 0.4571653847017907,
+        "predicted_count": 0.46465369748851687,
         "confidence": 65.8,
         "raw_confidence": 65.8,
         "uncertainty": 0.038,
@@ -886,7 +886,7 @@ const GATE_DATA = {
       {
         "subject": "Operating Systems",
         "topic": "I/O and Disk Scheduling",
-        "predicted_count": 0.6103012680809734,
+        "predicted_count": 0.6270900729759131,
         "confidence": 65.3,
         "raw_confidence": 65.3,
         "uncertainty": 0.121,
@@ -900,7 +900,7 @@ const GATE_DATA = {
       {
         "subject": "Theory of Computation",
         "topic": "Closure and Decision Properties",
-        "predicted_count": 0.4816321331975538,
+        "predicted_count": 0.4971231589900433,
         "confidence": 63.7,
         "raw_confidence": 63.7,
         "uncertainty": 0.066,
@@ -914,7 +914,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Network Security",
-        "predicted_count": 0.4555985576517481,
+        "predicted_count": 0.4670522590349247,
         "confidence": 63.3,
         "raw_confidence": 63.3,
         "uncertainty": 0.089,
@@ -928,7 +928,7 @@ const GATE_DATA = {
       {
         "subject": "Engineering Mathematics",
         "topic": "Sets, Relations, Functions",
-        "predicted_count": 0.689164947702231,
+        "predicted_count": 0.7160537359536062,
         "confidence": 63.1,
         "raw_confidence": 63.1,
         "uncertainty": 0.133,
@@ -942,7 +942,7 @@ const GATE_DATA = {
       {
         "subject": "Algorithms",
         "topic": "Algorithm Design: Greedy",
-        "predicted_count": 0.36848968143614236,
+        "predicted_count": 0.3828355836084385,
         "confidence": 62.4,
         "raw_confidence": 62.4,
         "uncertainty": 0.073,
@@ -956,7 +956,7 @@ const GATE_DATA = {
       {
         "subject": "Computer Networks",
         "topic": "Routing Protocols",
-        "predicted_count": 0.43387567353551215,
+        "predicted_count": 0.4488534558450028,
         "confidence": 60.7,
         "raw_confidence": 60.7,
         "uncertainty": 0.119,
@@ -970,7 +970,7 @@ const GATE_DATA = {
       {
         "subject": "Programming",
         "topic": "Graphs (Data Structure Representation)",
-        "predicted_count": 0.2978551547252818,
+        "predicted_count": 0.3099836652397741,
         "confidence": 59.4,
         "raw_confidence": 59.4,
         "uncertainty": 0.134,
@@ -984,7 +984,7 @@ const GATE_DATA = {
       {
         "subject": "Databases",
         "topic": "Entity-Relationship Model",
-        "predicted_count": 0.367025456748499,
+        "predicted_count": 0.38733510173519786,
         "confidence": 55.4,
         "raw_confidence": 55.4,
         "uncertainty": 0.102,
@@ -1007,7 +1007,7 @@ const GATE_DATA = {
         "recent_avg": 2.33,
         "last_seen": 2026,
         "appearances": 16,
-        "predicted_count": 2.4
+        "predicted_count": 2.421
       },
       {
         "subject": "General Aptitude",
@@ -1019,7 +1019,7 @@ const GATE_DATA = {
         "recent_avg": 2.33,
         "last_seen": 2026,
         "appearances": 10,
-        "predicted_count": 1.487
+        "predicted_count": 1.5
       },
       {
         "subject": "Algorithms",
@@ -1031,7 +1031,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 12,
-        "predicted_count": 1.116
+        "predicted_count": 1.089
       },
       {
         "subject": "Algorithms",
@@ -1043,7 +1043,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2026,
         "appearances": 12,
-        "predicted_count": 0.834
+        "predicted_count": 0.823
       },
       {
         "subject": "Engineering Mathematics",
@@ -1055,7 +1055,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 12,
-        "predicted_count": 0.612
+        "predicted_count": 0.607
       },
       {
         "subject": "Theory of Computation",
@@ -1067,7 +1067,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 13,
-        "predicted_count": 1.045
+        "predicted_count": 1.018
       },
       {
         "subject": "General Aptitude",
@@ -1079,7 +1079,7 @@ const GATE_DATA = {
         "recent_avg": 2.67,
         "last_seen": 2026,
         "appearances": 11,
-        "predicted_count": 1.178
+        "predicted_count": 1.156
       },
       {
         "subject": "Engineering Mathematics",
@@ -1103,7 +1103,7 @@ const GATE_DATA = {
         "recent_avg": 2.33,
         "last_seen": 2025,
         "appearances": 14,
-        "predicted_count": 1.084
+        "predicted_count": 1.098
       },
       {
         "subject": "Programming",
@@ -1115,7 +1115,7 @@ const GATE_DATA = {
         "recent_avg": 3.0,
         "last_seen": 2025,
         "appearances": 13,
-        "predicted_count": 0.796
+        "predicted_count": 0.789
       },
       {
         "subject": "Data Structures",
@@ -1127,7 +1127,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 9,
-        "predicted_count": 0.807
+        "predicted_count": 0.796
       },
       {
         "subject": "Engineering Mathematics",
@@ -1139,7 +1139,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 12,
-        "predicted_count": 0.747
+        "predicted_count": 0.759
       },
       {
         "subject": "Data Structures",
@@ -1151,7 +1151,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 11,
-        "predicted_count": 0.752
+        "predicted_count": 0.742
       },
       {
         "subject": "Computer Organization",
@@ -1163,7 +1163,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 10,
-        "predicted_count": 0.735
+        "predicted_count": 0.72
       },
       {
         "subject": "Engineering Mathematics",
@@ -1175,7 +1175,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 10,
-        "predicted_count": 0.578
+        "predicted_count": 0.574
       },
       {
         "subject": "Databases",
@@ -1187,7 +1187,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2025,
         "appearances": 10,
-        "predicted_count": 0.574
+        "predicted_count": 0.566
       },
       {
         "subject": "Data Structures",
@@ -1199,7 +1199,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2025,
         "appearances": 8,
-        "predicted_count": 0.91
+        "predicted_count": 0.935
       },
       {
         "subject": "Digital Logic",
@@ -1223,7 +1223,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2026,
         "appearances": 7,
-        "predicted_count": 0.81
+        "predicted_count": 0.828
       },
       {
         "subject": "Operating Systems",
@@ -1235,7 +1235,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2026,
         "appearances": 7,
-        "predicted_count": 0.51
+        "predicted_count": 0.511
       },
       {
         "subject": "General Aptitude",
@@ -1247,7 +1247,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 9,
-        "predicted_count": 0.507
+        "predicted_count": 0.497
       },
       {
         "subject": "General Aptitude",
@@ -1259,7 +1259,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 9,
-        "predicted_count": 0.549
+        "predicted_count": 0.539
       },
       {
         "subject": "General Aptitude",
@@ -1271,7 +1271,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2024,
         "appearances": 10,
-        "predicted_count": 0.726
+        "predicted_count": 0.712
       },
       {
         "subject": "Digital Logic",
@@ -1283,7 +1283,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 7,
-        "predicted_count": 0.355
+        "predicted_count": 0.351
       },
       {
         "subject": "Engineering Mathematics",
@@ -1295,7 +1295,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 8,
-        "predicted_count": 0.528
+        "predicted_count": 0.522
       },
       {
         "subject": "General Aptitude",
@@ -1307,7 +1307,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 8,
-        "predicted_count": 0.411
+        "predicted_count": 0.415
       },
       {
         "subject": "Programming",
@@ -1319,7 +1319,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 8,
-        "predicted_count": 0.294
+        "predicted_count": 0.292
       },
       {
         "subject": "Engineering Mathematics",
@@ -1331,7 +1331,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.142
+        "predicted_count": 0.141
       },
       {
         "subject": "Operating Systems",
@@ -1343,7 +1343,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2024,
         "appearances": 8,
-        "predicted_count": 0.411
+        "predicted_count": 0.4
       },
       {
         "subject": "Computer Organization",
@@ -1355,7 +1355,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 6,
-        "predicted_count": 0.474
+        "predicted_count": 0.464
       },
       {
         "subject": "Digital Logic",
@@ -1367,7 +1367,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 7,
-        "predicted_count": 0.347
+        "predicted_count": 0.344
       },
       {
         "subject": "General Aptitude",
@@ -1379,7 +1379,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 7,
-        "predicted_count": 0.299
+        "predicted_count": 0.302
       },
       {
         "subject": "Engineering Mathematics",
@@ -1391,7 +1391,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 7,
-        "predicted_count": 0.171
+        "predicted_count": 0.169
       },
       {
         "subject": "Engineering Mathematics",
@@ -1403,7 +1403,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 6,
-        "predicted_count": 0.285
+        "predicted_count": 0.283
       },
       {
         "subject": "Computer Networks",
@@ -1415,7 +1415,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2025,
         "appearances": 7,
-        "predicted_count": 0.456
+        "predicted_count": 0.455
       },
       {
         "subject": "Digital Logic",
@@ -1427,7 +1427,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 7,
-        "predicted_count": 0.302
+        "predicted_count": 0.301
       },
       {
         "subject": "Computer Networks",
@@ -1439,7 +1439,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.126
+        "predicted_count": 0.124
       },
       {
         "subject": "Computer Organization",
@@ -1451,7 +1451,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2023,
         "appearances": 8,
-        "predicted_count": 0.261
+        "predicted_count": 0.256
       },
       {
         "subject": "Algorithms",
@@ -1463,7 +1463,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 6,
-        "predicted_count": 0.533
+        "predicted_count": 0.54
       },
       {
         "subject": "Engineering Mathematics",
@@ -1475,7 +1475,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2021,
         "appearances": 8,
-        "predicted_count": 0.125
+        "predicted_count": 0.123
       },
       {
         "subject": "Computer Networks",
@@ -1487,7 +1487,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 5,
-        "predicted_count": 0.53
+        "predicted_count": 0.525
       },
       {
         "subject": "Compiler Design",
@@ -1499,7 +1499,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.312
+        "predicted_count": 0.314
       },
       {
         "subject": "Programming",
@@ -1511,7 +1511,7 @@ const GATE_DATA = {
         "recent_avg": 3.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.248
+        "predicted_count": 0.258
       },
       {
         "subject": "Data Structures",
@@ -1523,7 +1523,7 @@ const GATE_DATA = {
         "recent_avg": 3.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.242
+        "predicted_count": 0.239
       },
       {
         "subject": "Theory of Computation",
@@ -1535,7 +1535,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.239
+        "predicted_count": 0.237
       },
       {
         "subject": "Data Structures",
@@ -1547,7 +1547,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.212
+        "predicted_count": 0.217
       },
       {
         "subject": "Computer Networks",
@@ -1559,7 +1559,7 @@ const GATE_DATA = {
         "recent_avg": 3.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.191
+        "predicted_count": 0.19
       },
       {
         "subject": "Theory of Computation",
@@ -1571,7 +1571,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.176
+        "predicted_count": 0.182
       },
       {
         "subject": "Operating Systems",
@@ -1583,7 +1583,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.17
+        "predicted_count": 0.174
       },
       {
         "subject": "Operating Systems",
@@ -1595,7 +1595,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.16
+        "predicted_count": 0.156
       },
       {
         "subject": "Data Structures",
@@ -1607,7 +1607,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.151
+        "predicted_count": 0.154
       },
       {
         "subject": "Data Structures",
@@ -1619,7 +1619,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.151
+        "predicted_count": 0.154
       },
       {
         "subject": "Computer Organization",
@@ -1631,7 +1631,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.147
+        "predicted_count": 0.151
       },
       {
         "subject": "Operating Systems",
@@ -1643,7 +1643,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.137
+        "predicted_count": 0.134
       },
       {
         "subject": "General Aptitude",
@@ -1655,7 +1655,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.124
+        "predicted_count": 0.126
       },
       {
         "subject": "General Aptitude",
@@ -1667,7 +1667,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.124
+        "predicted_count": 0.126
       },
       {
         "subject": "Theory of Computation",
@@ -1679,7 +1679,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.12
+        "predicted_count": 0.119
       },
       {
         "subject": "General Aptitude",
@@ -1691,7 +1691,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.118
+        "predicted_count": 0.116
       },
       {
         "subject": "General Aptitude",
@@ -1703,7 +1703,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.114
+        "predicted_count": 0.115
       },
       {
         "subject": "Data Structures",
@@ -1715,7 +1715,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.11
+        "predicted_count": 0.109
       },
       {
         "subject": "Data Structures",
@@ -1727,7 +1727,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.11
+        "predicted_count": 0.109
       },
       {
         "subject": "Operating Systems",
@@ -1739,7 +1739,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.104
+        "predicted_count": 0.105
       },
       {
         "subject": "Operating Systems",
@@ -1751,7 +1751,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.104
+        "predicted_count": 0.105
       },
       {
         "subject": "Operating Systems",
@@ -1763,7 +1763,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.098
+        "predicted_count": 0.1
       },
       {
         "subject": "Digital Logic",
@@ -1799,7 +1799,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.088
+        "predicted_count": 0.087
       },
       {
         "subject": "Computer Organization",
@@ -1811,7 +1811,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.079
+        "predicted_count": 0.077
       },
       {
         "subject": "Databases",
@@ -1826,21 +1826,21 @@ const GATE_DATA = {
         "predicted_count": 0.071
       },
       {
-        "subject": "Operating Systems",
-        "topic": "Memory Management",
-        "micro_topic": "Fixed Partitioning and Variable Partitioning",
+        "subject": "Algorithms",
+        "topic": "Searching and Sorting",
+        "micro_topic": "Stable Sorting Algorithms",
         "confidence": 57.8,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.068
+        "predicted_count": 0.067
       },
       {
-        "subject": "Algorithms",
-        "topic": "Searching and Sorting",
-        "micro_topic": "Stable Sorting Algorithms",
+        "subject": "Operating Systems",
+        "topic": "Memory Management",
+        "micro_topic": "Fixed Partitioning and Variable Partitioning",
         "confidence": 57.8,
         "trend": "Stable",
         "historical_avg": 1.0,
@@ -1859,7 +1859,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.063
+        "predicted_count": 0.062
       },
       {
         "subject": "Theory of Computation",
@@ -1871,7 +1871,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.063
+        "predicted_count": 0.062
       },
       {
         "subject": "Computer Networks",
@@ -1883,7 +1883,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.063
+        "predicted_count": 0.062
       },
       {
         "subject": "Engineering Mathematics",
@@ -1907,7 +1907,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.057
+        "predicted_count": 0.058
       },
       {
         "subject": "General Aptitude",
@@ -1919,7 +1919,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.057
+        "predicted_count": 0.058
       },
       {
         "subject": "Algorithms",
@@ -1931,7 +1931,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.056
+        "predicted_count": 0.054
       },
       {
         "subject": "General Aptitude",
@@ -1943,7 +1943,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.052
+        "predicted_count": 0.053
       },
       {
         "subject": "Databases",
@@ -1967,7 +1967,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.048
+        "predicted_count": 0.047
       },
       {
         "subject": "Engineering Mathematics",
@@ -1991,7 +1991,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.035
+        "predicted_count": 0.034
       },
       {
         "subject": "Programming",
@@ -2003,7 +2003,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 1,
-        "predicted_count": 0.032
+        "predicted_count": 0.031
       },
       {
         "subject": "Theory of Computation",
@@ -2015,7 +2015,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2024,
         "appearances": 7,
-        "predicted_count": 0.28
+        "predicted_count": 0.283
       },
       {
         "subject": "General Aptitude",
@@ -2027,7 +2027,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 4,
-        "predicted_count": 0.357
+        "predicted_count": 0.361
       },
       {
         "subject": "General Aptitude",
@@ -2039,7 +2039,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 4,
-        "predicted_count": 0.187
+        "predicted_count": 0.189
       },
       {
         "subject": "Engineering Mathematics",
@@ -2051,7 +2051,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 6,
-        "predicted_count": 0.171
+        "predicted_count": 0.169
       },
       {
         "subject": "General Aptitude",
@@ -2063,7 +2063,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2024,
         "appearances": 7,
-        "predicted_count": 0.424
+        "predicted_count": 0.416
       },
       {
         "subject": "Computer Organization",
@@ -2075,7 +2075,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2025,
         "appearances": 6,
-        "predicted_count": 0.506
+        "predicted_count": 0.514
       },
       {
         "subject": "Engineering Mathematics",
@@ -2087,7 +2087,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2025,
         "appearances": 6,
-        "predicted_count": 0.195
+        "predicted_count": 0.193
       },
       {
         "subject": "Computer Networks",
@@ -2099,7 +2099,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 5,
-        "predicted_count": 0.33
+        "predicted_count": 0.326
       },
       {
         "subject": "Databases",
@@ -2111,7 +2111,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 6,
-        "predicted_count": 0.387
+        "predicted_count": 0.385
       },
       {
         "subject": "Engineering Mathematics",
@@ -2123,7 +2123,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 6,
-        "predicted_count": 0.352
+        "predicted_count": 0.348
       },
       {
         "subject": "Computer Networks",
@@ -2135,7 +2135,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 6,
-        "predicted_count": 0.311
+        "predicted_count": 0.316
       },
       {
         "subject": "Computer Networks",
@@ -2147,7 +2147,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 6,
-        "predicted_count": 0.237
+        "predicted_count": 0.234
       },
       {
         "subject": "Compiler Design",
@@ -2159,7 +2159,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2021,
         "appearances": 7,
-        "predicted_count": 0.053
+        "predicted_count": 0.052
       },
       {
         "subject": "Data Structures",
@@ -2171,7 +2171,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.158
+        "predicted_count": 0.157
       },
       {
         "subject": "Computer Networks",
@@ -2207,7 +2207,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.049
+        "predicted_count": 0.048
       },
       {
         "subject": "Computer Networks",
@@ -2219,7 +2219,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 6,
-        "predicted_count": 0.434
+        "predicted_count": 0.449
       },
       {
         "subject": "Compiler Design",
@@ -2231,7 +2231,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.087
+        "predicted_count": 0.088
       },
       {
         "subject": "Compiler Design",
@@ -2243,7 +2243,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.08
+        "predicted_count": 0.079
       },
       {
         "subject": "Computer Networks",
@@ -2255,7 +2255,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 6,
-        "predicted_count": 0.323
+        "predicted_count": 0.318
       },
       {
         "subject": "Engineering Mathematics",
@@ -2267,7 +2267,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 6,
-        "predicted_count": 0.264
+        "predicted_count": 0.261
       },
       {
         "subject": "Compiler Design",
@@ -2291,7 +2291,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.12
+        "predicted_count": 0.119
       },
       {
         "subject": "Engineering Mathematics",
@@ -2303,7 +2303,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2023,
         "appearances": 6,
-        "predicted_count": 0.289
+        "predicted_count": 0.3
       },
       {
         "subject": "Databases",
@@ -2315,7 +2315,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 5,
-        "predicted_count": 0.304
+        "predicted_count": 0.305
       },
       {
         "subject": "Algorithms",
@@ -2327,7 +2327,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 4,
-        "predicted_count": 0.368
+        "predicted_count": 0.383
       },
       {
         "subject": "Computer Organization",
@@ -2339,7 +2339,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 6,
-        "predicted_count": 0.218
+        "predicted_count": 0.221
       },
       {
         "subject": "Data Structures",
@@ -2351,7 +2351,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 4,
-        "predicted_count": 0.551
+        "predicted_count": 0.546
       },
       {
         "subject": "Data Structures",
@@ -2363,7 +2363,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2026,
         "appearances": 4,
-        "predicted_count": 0.404
+        "predicted_count": 0.398
       },
       {
         "subject": "Operating Systems",
@@ -2375,7 +2375,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 5,
-        "predicted_count": 0.334
+        "predicted_count": 0.33
       },
       {
         "subject": "Theory of Computation",
@@ -2387,7 +2387,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 5,
-        "predicted_count": 0.26
+        "predicted_count": 0.264
       },
       {
         "subject": "General Aptitude",
@@ -2399,7 +2399,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.089
+        "predicted_count": 0.09
       },
       {
         "subject": "Engineering Mathematics",
@@ -2411,7 +2411,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.08
+        "predicted_count": 0.084
       },
       {
         "subject": "Engineering Mathematics",
@@ -2423,24 +2423,24 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.08
+        "predicted_count": 0.084
       },
       {
-        "subject": "Computer Organization",
-        "topic": "I/O Interface",
-        "micro_topic": "Interrupt Service Routine (ISR)",
+        "subject": "Engineering Mathematics",
+        "topic": "Algebraic Structures",
+        "micro_topic": "Abelian Groups",
         "confidence": 50.1,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.075
+        "predicted_count": 0.076
       },
       {
-        "subject": "Engineering Mathematics",
-        "topic": "Algebraic Structures",
-        "micro_topic": "Abelian Groups",
+        "subject": "Computer Organization",
+        "topic": "I/O Interface",
+        "micro_topic": "Interrupt Service Routine (ISR)",
         "confidence": 50.1,
         "trend": "Stable",
         "historical_avg": 1.0,
@@ -2459,7 +2459,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.071
+        "predicted_count": 0.073
       },
       {
         "subject": "Compiler Design",
@@ -2483,7 +2483,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.058
+        "predicted_count": 0.057
       },
       {
         "subject": "Operating Systems",
@@ -2495,19 +2495,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.057
-      },
-      {
-        "subject": "Operating Systems",
-        "topic": "Memory Management",
-        "micro_topic": "Internal Fragmentation",
-        "confidence": 50.1,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2025,
-        "appearances": 1,
-        "predicted_count": 0.049
+        "predicted_count": 0.056
       },
       {
         "subject": "Algorithms",
@@ -2522,16 +2510,16 @@ const GATE_DATA = {
         "predicted_count": 0.048
       },
       {
-        "subject": "Computer Networks",
-        "topic": "Network Layer and IP Addressing",
-        "micro_topic": "ICMP Protocol and Ping",
+        "subject": "Operating Systems",
+        "topic": "Memory Management",
+        "micro_topic": "Internal Fragmentation",
         "confidence": 50.1,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.046
+        "predicted_count": 0.048
       },
       {
         "subject": "Computer Networks",
@@ -2543,7 +2531,19 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.044
+        "predicted_count": 0.045
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "Network Layer and IP Addressing",
+        "micro_topic": "ICMP Protocol and Ping",
+        "confidence": 50.1,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2025,
+        "appearances": 1,
+        "predicted_count": 0.045
       },
       {
         "subject": "General Aptitude",
@@ -2603,7 +2603,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 1,
-        "predicted_count": 0.029
+        "predicted_count": 0.028
       },
       {
         "subject": "Engineering Mathematics",
@@ -2615,7 +2615,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2024,
         "appearances": 2,
-        "predicted_count": 0.113
+        "predicted_count": 0.112
       },
       {
         "subject": "Operating Systems",
@@ -2627,7 +2627,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 5,
-        "predicted_count": 0.294
+        "predicted_count": 0.288
       },
       {
         "subject": "Programming",
@@ -2639,7 +2639,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 5,
-        "predicted_count": 0.149
+        "predicted_count": 0.148
       },
       {
         "subject": "Engineering Mathematics",
@@ -2651,7 +2651,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 4,
-        "predicted_count": 0.294
+        "predicted_count": 0.29
       },
       {
         "subject": "General Aptitude",
@@ -2663,7 +2663,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 4,
-        "predicted_count": 0.209
+        "predicted_count": 0.211
       },
       {
         "subject": "Digital Logic",
@@ -2675,7 +2675,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2026,
         "appearances": 4,
-        "predicted_count": 0.202
+        "predicted_count": 0.2
       },
       {
         "subject": "Compiler Design",
@@ -2687,7 +2687,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 4,
-        "predicted_count": 0.16
+        "predicted_count": 0.159
       },
       {
         "subject": "Digital Logic",
@@ -2699,7 +2699,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 5,
-        "predicted_count": 0.293
+        "predicted_count": 0.297
       },
       {
         "subject": "General Aptitude",
@@ -2711,7 +2711,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2023,
         "appearances": 6,
-        "predicted_count": 0.134
+        "predicted_count": 0.136
       },
       {
         "subject": "Computer Organization",
@@ -2723,7 +2723,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 4,
-        "predicted_count": 0.211
+        "predicted_count": 0.216
       },
       {
         "subject": "Theory of Computation",
@@ -2735,7 +2735,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 5,
-        "predicted_count": 0.26
+        "predicted_count": 0.264
       },
       {
         "subject": "General Aptitude",
@@ -2747,7 +2747,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2024,
         "appearances": 5,
-        "predicted_count": 0.161
+        "predicted_count": 0.162
       },
       {
         "subject": "Databases",
@@ -2759,7 +2759,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2021,
         "appearances": 6,
-        "predicted_count": 0.158
+        "predicted_count": 0.157
       },
       {
         "subject": "Databases",
@@ -2783,7 +2783,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.147
+        "predicted_count": 0.144
       },
       {
         "subject": "Databases",
@@ -2795,7 +2795,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.267
+        "predicted_count": 0.263
       },
       {
         "subject": "Engineering Mathematics",
@@ -2807,7 +2807,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.22
+        "predicted_count": 0.218
       },
       {
         "subject": "Operating Systems",
@@ -2819,7 +2819,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 4,
-        "predicted_count": 0.245
+        "predicted_count": 0.24
       },
       {
         "subject": "General Aptitude",
@@ -2831,7 +2831,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 4,
-        "predicted_count": 0.187
+        "predicted_count": 0.189
       },
       {
         "subject": "Digital Logic",
@@ -2843,7 +2843,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2024,
         "appearances": 5,
-        "predicted_count": 0.299
+        "predicted_count": 0.298
       },
       {
         "subject": "Engineering Mathematics",
@@ -2855,7 +2855,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 5,
-        "predicted_count": 0.153
+        "predicted_count": 0.155
       },
       {
         "subject": "Databases",
@@ -2867,7 +2867,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.117
+        "predicted_count": 0.124
       },
       {
         "subject": "Operating Systems",
@@ -2879,7 +2879,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.05
+        "predicted_count": 0.051
       },
       {
         "subject": "Engineering Mathematics",
@@ -2903,7 +2903,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.041
+        "predicted_count": 0.04
       },
       {
         "subject": "Computer Organization",
@@ -2915,7 +2915,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.041
+        "predicted_count": 0.04
       },
       {
         "subject": "Programming",
@@ -2927,7 +2927,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.036
+        "predicted_count": 0.035
       },
       {
         "subject": "Operating Systems",
@@ -2939,7 +2939,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.035
+        "predicted_count": 0.034
       },
       {
         "subject": "Theory of Computation",
@@ -2951,7 +2951,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.033
+        "predicted_count": 0.032
       },
       {
         "subject": "General Aptitude",
@@ -2963,7 +2963,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.029
+        "predicted_count": 0.03
       },
       {
         "subject": "Databases",
@@ -2999,7 +2999,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.022
+        "predicted_count": 0.023
       },
       {
         "subject": "Compiler Design",
@@ -3011,7 +3011,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 1,
-        "predicted_count": 0.022
+        "predicted_count": 0.023
       },
       {
         "subject": "Programming",
@@ -3035,7 +3035,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.238
+        "predicted_count": 0.237
       },
       {
         "subject": "Data Structures",
@@ -3047,7 +3047,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 4,
-        "predicted_count": 0.347
+        "predicted_count": 0.342
       },
       {
         "subject": "Computer Networks",
@@ -3059,19 +3059,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.191
-      },
-      {
-        "subject": "Computer Networks",
-        "topic": "Network Layer and IP Addressing",
-        "micro_topic": "CIDR (Classless Inter-Domain Routing) and Route Aggregation",
-        "confidence": 44.0,
-        "trend": "Rising",
-        "historical_avg": 1.2,
-        "recent_avg": 1.33,
-        "last_seen": 2024,
-        "appearances": 5,
-        "predicted_count": 0.196
+        "predicted_count": 0.19
       },
       {
         "subject": "Operating Systems",
@@ -3083,7 +3071,19 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2024,
         "appearances": 5,
-        "predicted_count": 0.196
+        "predicted_count": 0.197
+      },
+      {
+        "subject": "Computer Networks",
+        "topic": "Network Layer and IP Addressing",
+        "micro_topic": "CIDR (Classless Inter-Domain Routing) and Route Aggregation",
+        "confidence": 44.0,
+        "trend": "Rising",
+        "historical_avg": 1.2,
+        "recent_avg": 1.33,
+        "last_seen": 2024,
+        "appearances": 5,
+        "predicted_count": 0.195
       },
       {
         "subject": "Computer Networks",
@@ -3095,7 +3095,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2023,
         "appearances": 5,
-        "predicted_count": 0.139
+        "predicted_count": 0.137
       },
       {
         "subject": "Digital Logic",
@@ -3131,7 +3131,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.267
+        "predicted_count": 0.268
       },
       {
         "subject": "Databases",
@@ -3155,7 +3155,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.2
+        "predicted_count": 0.202
       },
       {
         "subject": "Data Structures",
@@ -3179,7 +3179,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 5,
-        "predicted_count": 0.158
+        "predicted_count": 0.156
       },
       {
         "subject": "Engineering Mathematics",
@@ -3191,7 +3191,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 5,
-        "predicted_count": 0.138
+        "predicted_count": 0.14
       },
       {
         "subject": "Data Structures",
@@ -3203,7 +3203,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2025,
         "appearances": 4,
-        "predicted_count": 0.405
+        "predicted_count": 0.399
       },
       {
         "subject": "Algorithms",
@@ -3215,7 +3215,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 4,
-        "predicted_count": 0.191
+        "predicted_count": 0.193
       },
       {
         "subject": "Computer Organization",
@@ -3239,7 +3239,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.395
+        "predicted_count": 0.386
       },
       {
         "subject": "Engineering Mathematics",
@@ -3251,7 +3251,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.142
+        "predicted_count": 0.141
       },
       {
         "subject": "Compiler Design",
@@ -3275,7 +3275,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.178
+        "predicted_count": 0.179
       },
       {
         "subject": "Engineering Mathematics",
@@ -3287,7 +3287,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 3,
-        "predicted_count": 0.143
+        "predicted_count": 0.142
       },
       {
         "subject": "Databases",
@@ -3311,7 +3311,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2021,
         "appearances": 2,
-        "predicted_count": 0.019
+        "predicted_count": 0.018
       },
       {
         "subject": "Compiler Design",
@@ -3323,7 +3323,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 3,
-        "predicted_count": 0.067
+        "predicted_count": 0.068
       },
       {
         "subject": "Engineering Mathematics",
@@ -3335,7 +3335,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 5,
-        "predicted_count": 0.097
+        "predicted_count": 0.096
       },
       {
         "subject": "Computer Organization",
@@ -3371,7 +3371,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 4,
-        "predicted_count": 0.356
+        "predicted_count": 0.363
       },
       {
         "subject": "Compiler Design",
@@ -3395,7 +3395,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.15
+        "predicted_count": 0.151
       },
       {
         "subject": "Databases",
@@ -3419,7 +3419,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.081
+        "predicted_count": 0.08
       },
       {
         "subject": "Computer Organization",
@@ -3467,7 +3467,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 1,
-        "predicted_count": 0.046
+        "predicted_count": 0.048
       },
       {
         "subject": "Databases",
@@ -3479,7 +3479,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 1,
-        "predicted_count": 0.032
+        "predicted_count": 0.031
       },
       {
         "subject": "Data Structures",
@@ -3503,7 +3503,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 1,
-        "predicted_count": 0.027
+        "predicted_count": 0.028
       },
       {
         "subject": "Operating Systems",
@@ -3527,7 +3527,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 1,
-        "predicted_count": 0.018
+        "predicted_count": 0.017
       },
       {
         "subject": "Algorithms",
@@ -3539,7 +3539,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 1,
-        "predicted_count": 0.015
+        "predicted_count": 0.014
       },
       {
         "subject": "Compiler Design",
@@ -3563,7 +3563,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 1,
-        "predicted_count": 0.011
+        "predicted_count": 0.01
       },
       {
         "subject": "Engineering Mathematics",
@@ -3587,7 +3587,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 4,
-        "predicted_count": 0.214
+        "predicted_count": 0.218
       },
       {
         "subject": "Computer Networks",
@@ -3599,7 +3599,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2024,
         "appearances": 4,
-        "predicted_count": 0.164
+        "predicted_count": 0.163
       },
       {
         "subject": "Databases",
@@ -3623,7 +3623,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.237
+        "predicted_count": 0.235
       },
       {
         "subject": "Computer Organization",
@@ -3635,7 +3635,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.226
+        "predicted_count": 0.222
       },
       {
         "subject": "Engineering Mathematics",
@@ -3647,7 +3647,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.184
+        "predicted_count": 0.182
       },
       {
         "subject": "Programming",
@@ -3659,7 +3659,7 @@ const GATE_DATA = {
         "recent_avg": 2.5,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.173
+        "predicted_count": 0.172
       },
       {
         "subject": "Data Structures",
@@ -3671,7 +3671,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2023,
         "appearances": 4,
-        "predicted_count": 0.284
+        "predicted_count": 0.29
       },
       {
         "subject": "Algorithms",
@@ -3683,7 +3683,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.373
+        "predicted_count": 0.382
       },
       {
         "subject": "Compiler Design",
@@ -3695,7 +3695,7 @@ const GATE_DATA = {
         "recent_avg": 2.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.16
+        "predicted_count": 0.159
       },
       {
         "subject": "General Aptitude",
@@ -3707,7 +3707,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.114
+        "predicted_count": 0.115
       },
       {
         "subject": "Compiler Design",
@@ -3782,6 +3782,18 @@ const GATE_DATA = {
         "predicted_count": 0.015
       },
       {
+        "subject": "Theory of Computation",
+        "topic": "Regular Languages and Finite Automata",
+        "micro_topic": "DFA Minimization",
+        "confidence": 37.6,
+        "trend": "Stable",
+        "historical_avg": 1.0,
+        "recent_avg": 1.0,
+        "last_seen": 2021,
+        "appearances": 1,
+        "predicted_count": 0.012
+      },
+      {
         "subject": "Computer Networks",
         "topic": "Network Layer and IP Addressing",
         "micro_topic": "ARP Protocol",
@@ -3828,18 +3840,6 @@ const GATE_DATA = {
         "last_seen": 2021,
         "appearances": 1,
         "predicted_count": 0.012
-      },
-      {
-        "subject": "Theory of Computation",
-        "topic": "Regular Languages and Finite Automata",
-        "micro_topic": "DFA Minimization",
-        "confidence": 37.6,
-        "trend": "Stable",
-        "historical_avg": 1.0,
-        "recent_avg": 1.0,
-        "last_seen": 2021,
-        "appearances": 1,
-        "predicted_count": 0.011
       },
       {
         "subject": "Databases",
@@ -3959,7 +3959,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 4,
-        "predicted_count": 0.131
+        "predicted_count": 0.13
       },
       {
         "subject": "Engineering Mathematics",
@@ -3971,7 +3971,7 @@ const GATE_DATA = {
         "recent_avg": 2.5,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.367
+        "predicted_count": 0.363
       },
       {
         "subject": "Operating Systems",
@@ -3983,7 +3983,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 4,
-        "predicted_count": 0.072
+        "predicted_count": 0.071
       },
       {
         "subject": "Databases",
@@ -3995,7 +3995,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.141
+        "predicted_count": 0.14
       },
       {
         "subject": "Computer Networks",
@@ -4007,7 +4007,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.135
+        "predicted_count": 0.133
       },
       {
         "subject": "Operating Systems",
@@ -4019,7 +4019,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.208
+        "predicted_count": 0.21
       },
       {
         "subject": "Operating Systems",
@@ -4031,7 +4031,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2020,
         "appearances": 4,
-        "predicted_count": 0.092
+        "predicted_count": 0.094
       },
       {
         "subject": "Operating Systems",
@@ -4043,7 +4043,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 4,
-        "predicted_count": 0.201
+        "predicted_count": 0.205
       },
       {
         "subject": "Operating Systems",
@@ -4055,7 +4055,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 4,
-        "predicted_count": 0.137
+        "predicted_count": 0.135
       },
       {
         "subject": "Compiler Design",
@@ -4067,7 +4067,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 4,
-        "predicted_count": 0.123
+        "predicted_count": 0.122
       },
       {
         "subject": "Operating Systems",
@@ -4079,7 +4079,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2023,
         "appearances": 4,
-        "predicted_count": 0.101
+        "predicted_count": 0.099
       },
       {
         "subject": "Computer Organization",
@@ -4091,7 +4091,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.374
+        "predicted_count": 0.376
       },
       {
         "subject": "General Aptitude",
@@ -4103,7 +4103,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.267
+        "predicted_count": 0.27
       },
       {
         "subject": "Computer Networks",
@@ -4115,7 +4115,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.095
+        "predicted_count": 0.093
       },
       {
         "subject": "Databases",
@@ -4199,7 +4199,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.202
+        "predicted_count": 0.206
       },
       {
         "subject": "Compiler Design",
@@ -4235,7 +4235,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2026,
         "appearances": 2,
-        "predicted_count": 0.701
+        "predicted_count": 0.717
       },
       {
         "subject": "Computer Organization",
@@ -4259,7 +4259,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.143
+        "predicted_count": 0.142
       },
       {
         "subject": "Theory of Computation",
@@ -4271,7 +4271,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2023,
         "appearances": 2,
-        "predicted_count": 0.047
+        "predicted_count": 0.045
       },
       {
         "subject": "Operating Systems",
@@ -4286,21 +4286,21 @@ const GATE_DATA = {
         "predicted_count": 0.01
       },
       {
-        "subject": "Computer Organization",
-        "topic": "Cache Memory",
-        "micro_topic": "Fully Associative Cache",
+        "subject": "Engineering Mathematics",
+        "topic": "Graphs",
+        "micro_topic": "Hamiltonian Paths and Circuits",
         "confidence": 35.8,
         "trend": "Stable",
         "historical_avg": 1.0,
         "recent_avg": 1.0,
         "last_seen": 2019,
         "appearances": 1,
-        "predicted_count": 0.008
+        "predicted_count": 0.007
       },
       {
-        "subject": "Engineering Mathematics",
-        "topic": "Graphs",
-        "micro_topic": "Hamiltonian Paths and Circuits",
+        "subject": "Computer Organization",
+        "topic": "Cache Memory",
+        "micro_topic": "Fully Associative Cache",
         "confidence": 35.8,
         "trend": "Stable",
         "historical_avg": 1.0,
@@ -4367,7 +4367,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2021,
         "appearances": 4,
-        "predicted_count": 0.067
+        "predicted_count": 0.068
       },
       {
         "subject": "Algorithms",
@@ -4379,7 +4379,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2021,
         "appearances": 4,
-        "predicted_count": 0.063
+        "predicted_count": 0.064
       },
       {
         "subject": "Engineering Mathematics",
@@ -4391,7 +4391,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2021,
         "appearances": 4,
-        "predicted_count": 0.047
+        "predicted_count": 0.048
       },
       {
         "subject": "Theory of Computation",
@@ -4403,7 +4403,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 4,
-        "predicted_count": 0.126
+        "predicted_count": 0.125
       },
       {
         "subject": "General Aptitude",
@@ -4415,7 +4415,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.15
+        "predicted_count": 0.151
       },
       {
         "subject": "Engineering Mathematics",
@@ -4427,7 +4427,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.142
+        "predicted_count": 0.145
       },
       {
         "subject": "Databases",
@@ -4439,7 +4439,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2018,
         "appearances": 1,
-        "predicted_count": 0.016
+        "predicted_count": 0.017
       },
       {
         "subject": "Data Structures",
@@ -4511,7 +4511,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2018,
         "appearances": 1,
-        "predicted_count": 0.006
+        "predicted_count": 0.005
       },
       {
         "subject": "Digital Logic",
@@ -4619,7 +4619,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 3,
-        "predicted_count": 0.257
+        "predicted_count": 0.255
       },
       {
         "subject": "Data Structures",
@@ -4727,7 +4727,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.326
+        "predicted_count": 0.331
       },
       {
         "subject": "Data Structures",
@@ -4739,7 +4739,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.276
+        "predicted_count": 0.282
       },
       {
         "subject": "Computer Organization",
@@ -4751,7 +4751,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.268
+        "predicted_count": 0.269
       },
       {
         "subject": "General Aptitude",
@@ -4763,7 +4763,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.084
+        "predicted_count": 0.083
       },
       {
         "subject": "Operating Systems",
@@ -4775,7 +4775,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 2,
-        "predicted_count": 0.1
+        "predicted_count": 0.103
       },
       {
         "subject": "Theory of Computation",
@@ -4787,7 +4787,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2021,
         "appearances": 4,
-        "predicted_count": 0.135
+        "predicted_count": 0.134
       },
       {
         "subject": "Compiler Design",
@@ -4811,7 +4811,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2023,
         "appearances": 4,
-        "predicted_count": 0.105
+        "predicted_count": 0.104
       },
       {
         "subject": "Digital Logic",
@@ -4823,7 +4823,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 4,
-        "predicted_count": 0.056
+        "predicted_count": 0.055
       },
       {
         "subject": "Operating Systems",
@@ -4835,7 +4835,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 3,
-        "predicted_count": 0.151
+        "predicted_count": 0.154
       },
       {
         "subject": "Computer Organization",
@@ -4847,7 +4847,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 3,
-        "predicted_count": 0.109
+        "predicted_count": 0.111
       },
       {
         "subject": "Databases",
@@ -4871,7 +4871,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2018,
         "appearances": 3,
-        "predicted_count": 0.039
+        "predicted_count": 0.041
       },
       {
         "subject": "Data Structures",
@@ -4895,7 +4895,7 @@ const GATE_DATA = {
         "recent_avg": 2.67,
         "last_seen": 2024,
         "appearances": 3,
-        "predicted_count": 0.143
+        "predicted_count": 0.141
       },
       {
         "subject": "Computer Networks",
@@ -4907,7 +4907,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 3,
-        "predicted_count": 0.096
+        "predicted_count": 0.097
       },
       {
         "subject": "Databases",
@@ -4931,7 +4931,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 2,
-        "predicted_count": 0.234
+        "predicted_count": 0.247
       },
       {
         "subject": "Engineering Mathematics",
@@ -4943,7 +4943,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2021,
         "appearances": 3,
-        "predicted_count": 0.085
+        "predicted_count": 0.088
       },
       {
         "subject": "Operating Systems",
@@ -4955,7 +4955,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 3,
-        "predicted_count": 0.105
+        "predicted_count": 0.103
       },
       {
         "subject": "Databases",
@@ -4967,7 +4967,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.084
+        "predicted_count": 0.085
       },
       {
         "subject": "General Aptitude",
@@ -5003,7 +5003,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2023,
         "appearances": 2,
-        "predicted_count": 0.088
+        "predicted_count": 0.087
       },
       {
         "subject": "Compiler Design",
@@ -5039,7 +5039,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2024,
         "appearances": 3,
-        "predicted_count": 0.349
+        "predicted_count": 0.358
       },
       {
         "subject": "Databases",
@@ -5051,7 +5051,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.171
+        "predicted_count": 0.17
       },
       {
         "subject": "Operating Systems",
@@ -5063,7 +5063,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.147
+        "predicted_count": 0.144
       },
       {
         "subject": "Operating Systems",
@@ -5075,7 +5075,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.095
+        "predicted_count": 0.094
       },
       {
         "subject": "Databases",
@@ -5111,7 +5111,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.171
+        "predicted_count": 0.17
       },
       {
         "subject": "Databases",
@@ -5123,7 +5123,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2025,
         "appearances": 2,
-        "predicted_count": 0.171
+        "predicted_count": 0.17
       },
       {
         "subject": "Engineering Mathematics",
@@ -5147,7 +5147,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2021,
         "appearances": 3,
-        "predicted_count": 0.06
+        "predicted_count": 0.058
       },
       {
         "subject": "Theory of Computation",
@@ -5159,7 +5159,7 @@ const GATE_DATA = {
         "recent_avg": 1.33,
         "last_seen": 2023,
         "appearances": 3,
-        "predicted_count": 0.259
+        "predicted_count": 0.267
       },
       {
         "subject": "Compiler Design",
@@ -5183,7 +5183,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2021,
         "appearances": 3,
-        "predicted_count": 0.068
+        "predicted_count": 0.067
       },
       {
         "subject": "Operating Systems",
@@ -5207,7 +5207,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2024,
         "appearances": 2,
-        "predicted_count": 0.08
+        "predicted_count": 0.081
       },
       {
         "subject": "Engineering Mathematics",
@@ -5219,7 +5219,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2024,
         "appearances": 2,
-        "predicted_count": 0.115
+        "predicted_count": 0.12
       },
       {
         "subject": "General Aptitude",
@@ -5255,7 +5255,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2024,
         "appearances": 2,
-        "predicted_count": 0.093
+        "predicted_count": 0.094
       },
       {
         "subject": "Computer Networks",
@@ -5267,7 +5267,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2019,
         "appearances": 3,
-        "predicted_count": 0.026
+        "predicted_count": 0.025
       },
       {
         "subject": "Algorithms",
@@ -5279,7 +5279,7 @@ const GATE_DATA = {
         "recent_avg": 1.67,
         "last_seen": 2021,
         "appearances": 3,
-        "predicted_count": 0.088
+        "predicted_count": 0.09
       },
       {
         "subject": "Computer Networks",
@@ -5291,7 +5291,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2017,
         "appearances": 2,
-        "predicted_count": 0.148
+        "predicted_count": 0.152
       },
       {
         "subject": "General Aptitude",
@@ -5327,7 +5327,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2016,
         "appearances": 2,
-        "predicted_count": 0.159
+        "predicted_count": 0.163
       },
       {
         "subject": "Computer Networks",
@@ -5351,7 +5351,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2021,
         "appearances": 2,
-        "predicted_count": 0.024
+        "predicted_count": 0.023
       },
       {
         "subject": "Data Structures",
@@ -5363,7 +5363,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2023,
         "appearances": 2,
-        "predicted_count": 0.122
+        "predicted_count": 0.121
       },
       {
         "subject": "Data Structures",
@@ -5387,7 +5387,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2023,
         "appearances": 2,
-        "predicted_count": 0.081
+        "predicted_count": 0.08
       },
       {
         "subject": "Databases",
@@ -5399,7 +5399,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2018,
         "appearances": 2,
-        "predicted_count": 0.017
+        "predicted_count": 0.016
       },
       {
         "subject": "Engineering Mathematics",
@@ -5483,7 +5483,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2021,
         "appearances": 2,
-        "predicted_count": 0.019
+        "predicted_count": 0.018
       },
       {
         "subject": "Programming",
@@ -5495,7 +5495,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2022,
         "appearances": 2,
-        "predicted_count": 0.044
+        "predicted_count": 0.045
       },
       {
         "subject": "Data Structures",
@@ -5507,7 +5507,7 @@ const GATE_DATA = {
         "recent_avg": 1.5,
         "last_seen": 2021,
         "appearances": 2,
-        "predicted_count": 0.06
+        "predicted_count": 0.062
       },
       {
         "subject": "Algorithms",
@@ -5543,7 +5543,7 @@ const GATE_DATA = {
         "recent_avg": 1.0,
         "last_seen": 2017,
         "appearances": 2,
-        "predicted_count": 0.148
+        "predicted_count": 0.152
       },
       {
         "subject": "Operating Systems",
@@ -5583,18 +5583,18 @@ const GATE_DATA = {
       }
     ],
     "subject_totals": {
-      "Computer Organization": 6.0,
+      "Computer Organization": 6.000000000000001,
       "Algorithms": 4.0,
-      "Operating Systems": 6.0,
-      "Digital Logic": 3.0,
-      "Theory of Computation": 5.0,
-      "Engineering Mathematics": 9.0,
-      "Programming": 1.9999999999999996,
+      "Operating Systems": 5.999999999999999,
+      "Digital Logic": 2.9999999999999996,
+      "Theory of Computation": 5.000000000000001,
+      "Engineering Mathematics": 8.999999999999998,
+      "Programming": 1.9999999999999998,
       "Data Structures": 7.0,
-      "General Aptitude": 11.000000000000004,
-      "Databases": 3.9999999999999996,
-      "Compiler Design": 2.9999999999999996,
-      "Computer Networks": 4.999999999999999
+      "General Aptitude": 11.0,
+      "Databases": 4.0,
+      "Compiler Design": 3.0,
+      "Computer Networks": 5.0
     },
     "validation": {
       "walk_forward": [
@@ -5626,7 +5626,7 @@ const GATE_DATA = {
               "subject": "Programming",
               "predicted": 2.0,
               "actual": 3,
-              "error": 1.0000000000000002
+              "error": 1.0
             },
             {
               "subject": "Data Structures",
@@ -5644,13 +5644,13 @@ const GATE_DATA = {
               "subject": "Theory of Computation",
               "predicted": 5.0,
               "actual": 6,
-              "error": 1.0
+              "error": 1.0000000000000009
             },
             {
               "subject": "Compiler Design",
               "predicted": 3.0,
               "actual": 5,
-              "error": 1.9999999999999996
+              "error": 2.0
             },
             {
               "subject": "Operating Systems",
@@ -5662,7 +5662,7 @@ const GATE_DATA = {
               "subject": "Databases",
               "predicted": 4.0,
               "actual": 5,
-              "error": 1.0000000000000004
+              "error": 1.0
             },
             {
               "subject": "Computer Networks",
@@ -5688,7 +5688,7 @@ const GATE_DATA = {
               "subject": "Engineering Mathematics",
               "predicted": 9.0,
               "actual": 9,
-              "error": 0.0
+              "error": 1.7763568394002505e-15
             },
             {
               "subject": "Digital Logic",
@@ -5718,19 +5718,19 @@ const GATE_DATA = {
               "subject": "Algorithms",
               "predicted": 4.0,
               "actual": 4,
-              "error": 8.881784197001252e-16
+              "error": 0.0
             },
             {
               "subject": "Theory of Computation",
               "predicted": 5.0,
               "actual": 5,
-              "error": 0.0
+              "error": 8.881784197001252e-16
             },
             {
               "subject": "Compiler Design",
               "predicted": 3.0,
               "actual": 3,
-              "error": 4.440892098500626e-16
+              "error": 8.881784197001252e-16
             },
             {
               "subject": "Operating Systems",
@@ -5748,13 +5748,13 @@ const GATE_DATA = {
               "subject": "Computer Networks",
               "predicted": 5.0,
               "actual": 6,
-              "error": 1.0000000000000009
+              "error": 1.0
             },
             {
               "subject": "General Aptitude",
               "predicted": 11.0,
               "actual": 10,
-              "error": 1.0000000000000036
+              "error": 0.9999999999999982
             }
           ]
         },
@@ -5768,13 +5768,13 @@ const GATE_DATA = {
               "subject": "Engineering Mathematics",
               "predicted": 9.0,
               "actual": 10,
-              "error": 0.9999999999999982
+              "error": 1.0
             },
             {
               "subject": "Digital Logic",
               "predicted": 3.0,
               "actual": 5,
-              "error": 2.0000000000000004
+              "error": 2.0
             },
             {
               "subject": "Computer Organization",
@@ -5792,13 +5792,13 @@ const GATE_DATA = {
               "subject": "Data Structures",
               "predicted": 7.0,
               "actual": 7,
-              "error": 8.881784197001252e-16
+              "error": 0.0
             },
             {
               "subject": "Algorithms",
               "predicted": 4.0,
               "actual": 2,
-              "error": 1.9999999999999996
+              "error": 2.0
             },
             {
               "subject": "Theory of Computation",
@@ -5810,13 +5810,13 @@ const GATE_DATA = {
               "subject": "Compiler Design",
               "predicted": 3.0,
               "actual": 4,
-              "error": 1.0
+              "error": 0.9999999999999996
             },
             {
               "subject": "Operating Systems",
               "predicted": 6.0,
               "actual": 6,
-              "error": 0.0
+              "error": 1.7763568394002505e-15
             },
             {
               "subject": "Databases",
@@ -5834,7 +5834,7 @@ const GATE_DATA = {
               "subject": "General Aptitude",
               "predicted": 11.0,
               "actual": 11,
-              "error": 0.0
+              "error": 1.7763568394002505e-15
             }
           ]
         },
@@ -5854,31 +5854,31 @@ const GATE_DATA = {
               "subject": "Digital Logic",
               "predicted": 3.0,
               "actual": 4,
-              "error": 0.9999999999999996
+              "error": 1.0000000000000004
             },
             {
               "subject": "Computer Organization",
               "predicted": 6.0,
               "actual": 6,
-              "error": 8.881784197001252e-16
+              "error": 0.0
             },
             {
               "subject": "Programming",
               "predicted": 2.0,
               "actual": 4,
-              "error": 2.0
+              "error": 1.9999999999999996
             },
             {
               "subject": "Data Structures",
               "predicted": 7.0,
               "actual": 3,
-              "error": 4.0
+              "error": 4.000000000000001
             },
             {
               "subject": "Algorithms",
               "predicted": 4.0,
               "actual": 2,
-              "error": 1.9999999999999987
+              "error": 2.0
             },
             {
               "subject": "Theory of Computation",
@@ -5890,13 +5890,13 @@ const GATE_DATA = {
               "subject": "Compiler Design",
               "predicted": 3.0,
               "actual": 4,
-              "error": 0.9999999999999996
+              "error": 1.0
             },
             {
               "subject": "Operating Systems",
               "predicted": 6.0,
               "actual": 6,
-              "error": 8.881784197001252e-16
+              "error": 0.0
             },
             {
               "subject": "Databases",
@@ -5908,7 +5908,7 @@ const GATE_DATA = {
               "subject": "Computer Networks",
               "predicted": 5.0,
               "actual": 6,
-              "error": 0.9999999999999991
+              "error": 1.0
             },
             {
               "subject": "General Aptitude",
@@ -5928,19 +5928,19 @@ const GATE_DATA = {
               "subject": "Engineering Mathematics",
               "predicted": 9.0,
               "actual": 9,
-              "error": 1.7763568394002505e-15
+              "error": 0.0
             },
             {
               "subject": "Digital Logic",
               "predicted": 3.0,
               "actual": 5,
-              "error": 2.0
+              "error": 1.9999999999999996
             },
             {
               "subject": "Computer Organization",
               "predicted": 6.0,
               "actual": 5,
-              "error": 1.0
+              "error": 0.9999999999999991
             },
             {
               "subject": "Programming",
@@ -5952,13 +5952,13 @@ const GATE_DATA = {
               "subject": "Data Structures",
               "predicted": 7.0,
               "actual": 6,
-              "error": 1.0
+              "error": 0.9999999999999991
             },
             {
               "subject": "Algorithms",
               "predicted": 4.0,
               "actual": 3,
-              "error": 1.0000000000000009
+              "error": 0.9999999999999991
             },
             {
               "subject": "Theory of Computation",
@@ -5976,7 +5976,7 @@ const GATE_DATA = {
               "subject": "Operating Systems",
               "predicted": 6.0,
               "actual": 4,
-              "error": 2.0
+              "error": 1.9999999999999991
             },
             {
               "subject": "Databases",
@@ -5988,7 +5988,7 @@ const GATE_DATA = {
               "subject": "Computer Networks",
               "predicted": 5.0,
               "actual": 5,
-              "error": 0.0
+              "error": 8.881784197001252e-16
             },
             {
               "subject": "General Aptitude",
@@ -6008,7 +6008,7 @@ const GATE_DATA = {
               "subject": "Engineering Mathematics",
               "predicted": 9.0,
               "actual": 9,
-              "error": 1.7763568394002505e-15
+              "error": 0.0
             },
             {
               "subject": "Digital Logic",
@@ -6020,7 +6020,7 @@ const GATE_DATA = {
               "subject": "Computer Organization",
               "predicted": 6.0,
               "actual": 5,
-              "error": 0.9999999999999991
+              "error": 1.0000000000000009
             },
             {
               "subject": "Programming",
@@ -6038,43 +6038,43 @@ const GATE_DATA = {
               "subject": "Algorithms",
               "predicted": 4.0,
               "actual": 5,
-              "error": 1.0
+              "error": 1.0000000000000004
             },
             {
               "subject": "Theory of Computation",
               "predicted": 5.0,
               "actual": 3,
-              "error": 2.0
+              "error": 1.9999999999999991
             },
             {
               "subject": "Compiler Design",
               "predicted": 3.0,
               "actual": 6,
-              "error": 3.0
+              "error": 2.9999999999999996
             },
             {
               "subject": "Operating Systems",
               "predicted": 6.0,
               "actual": 6,
-              "error": 0.0
+              "error": 8.881784197001252e-16
             },
             {
               "subject": "Databases",
               "predicted": 4.0,
               "actual": 4,
-              "error": 4.440892098500626e-16
+              "error": 0.0
             },
             {
               "subject": "Computer Networks",
               "predicted": 5.0,
               "actual": 4,
-              "error": 0.9999999999999991
+              "error": 1.0000000000000009
             },
             {
               "subject": "General Aptitude",
               "predicted": 11.0,
               "actual": 10,
-              "error": 1.0
+              "error": 0.9999999999999964
             }
           ]
         }
@@ -26690,8 +26690,8 @@ const GATE_DATA = {
         "total_questions": 194,
         "num_papers": 3,
         "papers": [
-          "GATE_CS_2014_1",
           "GATE_CS_2014_3",
+          "GATE_CS_2014_1",
           "GATE_CS_2014_2"
         ],
         "subject_distribution": {
@@ -26716,9 +26716,9 @@ const GATE_DATA = {
         "total_questions": 195,
         "num_papers": 3,
         "papers": [
+          "GATE_CS_2015_2",
           "GATE_CS_2015_3",
-          "GATE_CS_2015_1",
-          "GATE_CS_2015_2"
+          "GATE_CS_2015_1"
         ],
         "subject_distribution": {
           "General Aptitude": 31,
@@ -26939,8 +26939,8 @@ const GATE_DATA = {
         "total_questions": 130,
         "num_papers": 2,
         "papers": [
-          "GATE_CS_2024_1",
-          "GATE_CS_2024_2"
+          "GATE_CS_2024_2",
+          "GATE_CS_2024_1"
         ],
         "subject_distribution": {
           "General Aptitude": 20,
@@ -27578,25 +27578,25 @@ const GATE_DATA = {
       "Computer Organization": [
         {
           "topic": "Cache Memory",
-          "weight": 2.333,
+          "weight": 2.285,
           "confidence": 83.4,
           "available_questions": 0
         },
         {
           "topic": "Machine Instructions and Addressing Modes",
-          "weight": 1.172,
+          "weight": 1.198,
           "confidence": 70.9,
           "available_questions": 19
         },
         {
           "topic": "Instruction Pipelining",
-          "weight": 1.101,
+          "weight": 1.119,
           "confidence": 72.6,
           "available_questions": 29
         },
         {
           "topic": "ALU, Data-Path and Control Unit",
-          "weight": 0.739,
+          "weight": 0.742,
           "confidence": 75.7,
           "available_questions": 8
         },
@@ -27610,31 +27610,31 @@ const GATE_DATA = {
       "Algorithms": [
         {
           "topic": "Graphs",
-          "weight": 1.223,
+          "weight": 1.193,
           "confidence": 81.7,
           "available_questions": 0
         },
         {
           "topic": "Searching and Sorting",
-          "weight": 1.105,
+          "weight": 1.12,
           "confidence": 69.9,
           "available_questions": 26
         },
         {
           "topic": "Asymptotic Analysis",
-          "weight": 0.843,
+          "weight": 0.832,
           "confidence": 78.1,
           "available_questions": 30
         },
         {
           "topic": "Algorithm Design: Dynamic Programming",
-          "weight": 0.461,
+          "weight": 0.473,
           "confidence": 66.1,
           "available_questions": 10
         },
         {
           "topic": "Algorithm Design: Greedy",
-          "weight": 0.368,
+          "weight": 0.383,
           "confidence": 62.4,
           "available_questions": 5
         }
@@ -27642,49 +27642,49 @@ const GATE_DATA = {
       "Operating Systems": [
         {
           "topic": "Memory Management",
-          "weight": 1.417,
+          "weight": 1.389,
           "confidence": 79.2,
           "available_questions": 37
         },
         {
           "topic": "Inter-Process Communication and Synchronization",
-          "weight": 0.767,
+          "weight": 0.768,
           "confidence": 72.8,
           "available_questions": 19
         },
         {
           "topic": "CPU Scheduling",
-          "weight": 0.752,
+          "weight": 0.744,
           "confidence": 76.4,
           "available_questions": 21
         },
         {
           "topic": "Virtual Memory",
-          "weight": 0.701,
+          "weight": 0.717,
           "confidence": 66.6,
           "available_questions": 2
         },
         {
           "topic": "Deadlock",
-          "weight": 0.654,
+          "weight": 0.638,
           "confidence": 81.0,
           "available_questions": 0
         },
         {
           "topic": "Process Management",
-          "weight": 0.619,
+          "weight": 0.633,
           "confidence": 66.5,
           "available_questions": 14
         },
         {
           "topic": "I/O and Disk Scheduling",
-          "weight": 0.61,
+          "weight": 0.627,
           "confidence": 65.3,
           "available_questions": 10
         },
         {
           "topic": "File Systems",
-          "weight": 0.48,
+          "weight": 0.485,
           "confidence": 70.1,
           "available_questions": 10
         }
@@ -27692,37 +27692,37 @@ const GATE_DATA = {
       "Digital Logic": [
         {
           "topic": "Number Systems and Computer Arithmetic",
-          "weight": 0.797,
+          "weight": 0.796,
           "confidence": 75.8,
           "available_questions": 27
         },
         {
           "topic": "Boolean Algebra",
-          "weight": 0.648,
+          "weight": 0.643,
           "confidence": 78.8,
           "available_questions": 22
         },
         {
           "topic": "Sequential Circuits",
-          "weight": 0.49,
+          "weight": 0.5,
           "confidence": 67.3,
           "available_questions": 14
         },
         {
           "topic": "Combinational Circuits",
-          "weight": 0.416,
+          "weight": 0.414,
           "confidence": 77.0,
           "available_questions": 14
         },
         {
           "topic": "Minimization",
-          "weight": 0.355,
+          "weight": 0.351,
           "confidence": 80.9,
           "available_questions": 8
         },
         {
           "topic": "Logic Gates",
-          "weight": 0.293,
+          "weight": 0.297,
           "confidence": 69.3,
           "available_questions": 8
         }
@@ -27730,25 +27730,25 @@ const GATE_DATA = {
       "Theory of Computation": [
         {
           "topic": "Regular Languages and Finite Automata",
-          "weight": 1.994,
+          "weight": 2.02,
           "confidence": 69.0,
           "available_questions": 51
         },
         {
           "topic": "Turing Machines and Decidability",
-          "weight": 1.274,
+          "weight": 1.263,
           "confidence": 75.4,
           "available_questions": 29
         },
         {
           "topic": "Context-Free Languages",
-          "weight": 1.251,
+          "weight": 1.219,
           "confidence": 80.7,
           "available_questions": 29
         },
         {
           "topic": "Closure and Decision Properties",
-          "weight": 0.482,
+          "weight": 0.497,
           "confidence": 63.7,
           "available_questions": 6
         }
@@ -27756,49 +27756,49 @@ const GATE_DATA = {
       "Engineering Mathematics": [
         {
           "topic": "Probability",
-          "weight": 1.575,
+          "weight": 1.574,
           "confidence": 74.9,
           "available_questions": 0
         },
         {
           "topic": "Graphs",
-          "weight": 1.487,
+          "weight": 1.469,
           "confidence": 78.7,
           "available_questions": 0
         },
         {
           "topic": "Calculus",
-          "weight": 1.36,
+          "weight": 1.351,
           "confidence": 76.7,
           "available_questions": 40
         },
         {
           "topic": "Linear Algebra",
-          "weight": 1.231,
+          "weight": 1.22,
           "confidence": 77.4,
           "available_questions": 47
         },
         {
           "topic": "Combinatorics",
-          "weight": 1.135,
+          "weight": 1.121,
           "confidence": 78.7,
           "available_questions": 25
         },
         {
           "topic": "Propositional and First-Order Logic",
-          "weight": 1.096,
+          "weight": 1.114,
           "confidence": 69.6,
           "available_questions": 38
         },
         {
           "topic": "Sets, Relations, Functions",
-          "weight": 0.689,
+          "weight": 0.716,
           "confidence": 63.1,
           "available_questions": 25
         },
         {
           "topic": "Algebraic Structures",
-          "weight": 0.427,
+          "weight": 0.434,
           "confidence": 69.2,
           "available_questions": 10
         }
@@ -27806,19 +27806,19 @@ const GATE_DATA = {
       "Programming": [
         {
           "topic": "Programming in C",
-          "weight": 1.366,
+          "weight": 1.355,
           "confidence": 78.6,
           "available_questions": 66
         },
         {
           "topic": "Recursion",
-          "weight": 0.337,
+          "weight": 0.335,
           "confidence": 76.7,
           "available_questions": 15
         },
         {
           "topic": "Graphs (Data Structure Representation)",
-          "weight": 0.298,
+          "weight": 0.31,
           "confidence": 59.4,
           "available_questions": 20
         }
@@ -27826,31 +27826,31 @@ const GATE_DATA = {
       "Data Structures": [
         {
           "topic": "Trees",
-          "weight": 3.137,
+          "weight": 3.095,
           "confidence": 77.6,
           "available_questions": 0
         },
         {
           "topic": "Arrays, Stacks, Queues, Linked Lists",
-          "weight": 1.464,
+          "weight": 1.452,
           "confidence": 76.4,
           "available_questions": 0
         },
         {
           "topic": "Graphs (Data Structure Representation)",
-          "weight": 1.189,
+          "weight": 1.221,
           "confidence": 68.5,
           "available_questions": 0
         },
         {
           "topic": "Programming in C",
-          "weight": 0.649,
+          "weight": 0.661,
           "confidence": 70.5,
           "available_questions": 0
         },
         {
           "topic": "Hashing",
-          "weight": 0.56,
+          "weight": 0.572,
           "confidence": 69.9,
           "available_questions": 0
         }
@@ -27858,25 +27858,25 @@ const GATE_DATA = {
       "General Aptitude": [
         {
           "topic": "Quantitative Aptitude",
-          "weight": 4.543,
+          "weight": 4.584,
           "confidence": 69.0,
           "available_questions": 119
         },
         {
           "topic": "Verbal Ability",
-          "weight": 3.594,
+          "weight": 3.526,
           "confidence": 76.6,
           "available_questions": 91
         },
         {
           "topic": "Logical and Analytical Reasoning",
-          "weight": 1.901,
+          "weight": 1.917,
           "confidence": 69.2,
           "available_questions": 35
         },
         {
           "topic": "Spatial Aptitude",
-          "weight": 0.962,
+          "weight": 0.973,
           "confidence": 68.4,
           "available_questions": 10
         }
@@ -27884,13 +27884,13 @@ const GATE_DATA = {
       "Databases": [
         {
           "topic": "Functional Dependencies and Normalization",
-          "weight": 0.917,
+          "weight": 0.904,
           "confidence": 75.6,
           "available_questions": 24
         },
         {
           "topic": "Transactions and Concurrency Control",
-          "weight": 0.737,
+          "weight": 0.733,
           "confidence": 72.6,
           "available_questions": 25
         },
@@ -27902,19 +27902,19 @@ const GATE_DATA = {
         },
         {
           "topic": "SQL",
-          "weight": 0.637,
+          "weight": 0.631,
           "confidence": 74.0,
           "available_questions": 22
         },
         {
           "topic": "File Organization and Indexing",
-          "weight": 0.626,
+          "weight": 0.627,
           "confidence": 70.6,
           "available_questions": 14
         },
         {
           "topic": "Entity-Relationship Model",
-          "weight": 0.367,
+          "weight": 0.387,
           "confidence": 55.4,
           "available_questions": 5
         }
@@ -27922,31 +27922,31 @@ const GATE_DATA = {
       "Compiler Design": [
         {
           "topic": "Code Optimization",
-          "weight": 1.036,
+          "weight": 1.038,
           "confidence": 71.7,
           "available_questions": 24
         },
         {
           "topic": "Syntax Analysis (Parsing)",
-          "weight": 0.854,
+          "weight": 0.849,
           "confidence": 75.3,
           "available_questions": 37
         },
         {
           "topic": "Semantic Analysis and Intermediate Code",
-          "weight": 0.374,
+          "weight": 0.375,
           "confidence": 71.5,
           "available_questions": 17
         },
         {
           "topic": "Runtime Environments",
-          "weight": 0.371,
+          "weight": 0.374,
           "confidence": 69.5,
           "available_questions": 3
         },
         {
           "topic": "Lexical Analysis",
-          "weight": 0.365,
+          "weight": 0.364,
           "confidence": 73.8,
           "available_questions": 14
         }
@@ -27954,43 +27954,43 @@ const GATE_DATA = {
       "Computer Networks": [
         {
           "topic": "Network Layer and IP Addressing",
-          "weight": 1.483,
+          "weight": 1.477,
           "confidence": 71.9,
           "available_questions": 37
         },
         {
           "topic": "Data Link Layer",
-          "weight": 0.837,
+          "weight": 0.824,
           "confidence": 75.3,
           "available_questions": 30
         },
         {
           "topic": "Transport Layer",
-          "weight": 0.678,
+          "weight": 0.669,
           "confidence": 75.1,
           "available_questions": 22
         },
         {
           "topic": "Application Layer Protocols",
-          "weight": 0.656,
+          "weight": 0.65,
           "confidence": 73.5,
           "available_questions": 17
         },
         {
-          "topic": "Network Architecture and Layering",
-          "weight": 0.457,
-          "confidence": 65.8,
-          "available_questions": 12
-        },
-        {
           "topic": "Network Security",
-          "weight": 0.456,
+          "weight": 0.467,
           "confidence": 63.3,
           "available_questions": 9
         },
         {
+          "topic": "Network Architecture and Layering",
+          "weight": 0.465,
+          "confidence": 65.8,
+          "available_questions": 12
+        },
+        {
           "topic": "Routing Protocols",
-          "weight": 0.434,
+          "weight": 0.449,
           "confidence": 60.7,
           "available_questions": 9
         }
