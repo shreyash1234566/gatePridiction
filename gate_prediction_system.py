@@ -21,7 +21,7 @@ try:
     from sklearn.linear_model import BayesianRidge, Ridge, HuberRegressor
     from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
     from sklearn.preprocessing import RobustScaler, StandardScaler
-    from sklearn.model_selection import TimeSeriesSplit, cross_val_score
+    from sklearn.model_selection import TimeSeriesSplit, cross_val_score, cross_val_predict
     SKLEARN_AVAILABLE = True
 except ImportError:
     SKLEARN_AVAILABLE = False
@@ -1784,14 +1784,17 @@ class EliteGATEPredictor:
             )
             
             weights = np.array([get_era_weight(2015 + i // 15) for i in range(len(X))])
+            
+            # Use cross_val_predict to get out-of-fold metrics and prevent data leakage
+            cv_preds = np.clip(cross_val_predict(self.stacking_model, X, y, cv=5, n_jobs=-1), 0, 25)
+            
             self.stacking_model.fit(X, y, sample_weight=weights)
             
-            preds = np.clip(self.stacking_model.predict(X), 0, 25)
             self.metrics = {
-                "MAE": round(mean_absolute_error(y, preds), 4),
-                "RMSE": round(np.sqrt(mean_squared_error(y, preds)), 4),
-                "R2": round(r2_score(y, preds), 4),
-                "Mean_Prediction": round(np.mean(preds), 4)
+                "MAE": round(mean_absolute_error(y, cv_preds), 4),
+                "RMSE": round(np.sqrt(mean_squared_error(y, cv_preds)), 4),
+                "R2": round(r2_score(y, cv_preds), 4),
+                "Mean_Prediction": round(np.mean(cv_preds), 4)
             }
             
             print(f"\n   🎯 Final Ensemble Metrics:")
@@ -2080,7 +2083,7 @@ class EliteGATEPredictor:
         """
         # Blend factor: 0.4 means 40% raw ML, 60% normalized to quota
         # Increased from 0.25 to allow more ML-driven predictions
-        NORMALIZATION_BLEND = 0.40
+        NORMALIZATION_BLEND = 0.85
         
         target_total = TOTAL_GATE_QUESTIONS * num_papers
         

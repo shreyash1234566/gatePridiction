@@ -73,7 +73,7 @@ export const usePredictions = (options: UsePredictionsOptions = {}): UsePredicti
   }, []);
 
   const highConfidenceTopics = useMemo(() => {
-    return getSortedPredictions('confidence').filter(p => p.confidence >= 82);
+    return getSortedPredictions('confidence').filter(p => p.confidence >= 75);
   }, []);
 
   const subjectDistribution = useMemo(() => {
