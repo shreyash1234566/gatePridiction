@@ -1609,7 +1609,7 @@ class EliteGATEPredictor:
                 min_samples_leaf=5,  # Increased from 2
                 max_features='sqrt',
                 random_state=42,
-                n_jobs=-1
+                n_jobs=2
             )))
             
             models.append(('rf', RandomForestRegressor(
@@ -1619,7 +1619,7 @@ class EliteGATEPredictor:
                 min_samples_leaf=5,  # Increased from 2
                 max_features='sqrt',
                 random_state=42,
-                n_jobs=-1
+                n_jobs=2
             )))
             
             models.append(('histgb', HistGradientBoostingRegressor(
@@ -1780,13 +1780,13 @@ class EliteGATEPredictor:
                     lambda_2=1e-6
                 ),
                 cv=5,
-                n_jobs=-1
+                n_jobs=2
             )
             
             weights = np.array([get_era_weight(2015 + i // 15) for i in range(len(X))])
             
             # Use cross_val_predict to get out-of-fold metrics and prevent data leakage
-            cv_preds = np.clip(cross_val_predict(self.stacking_model, X, y, cv=5, n_jobs=-1), 0, 25)
+            cv_preds = np.clip(cross_val_predict(self.stacking_model, X, y, cv=5, n_jobs=2), 0, 25)
             
             self.stacking_model.fit(X, y, sample_weight=weights)
             
@@ -2221,23 +2221,37 @@ class EliteValidator:
         
         for test_year in sorted(test_years):
             # Count papers and questions per paper for this year
-            paper_questions = defaultdict(lambda: defaultdict(int))
+            paper_subjects = defaultdict(lambda: defaultdict(int))
+            paper_topics = defaultdict(lambda: defaultdict(int))
+            paper_micro_topics = defaultdict(lambda: defaultdict(int))
             for q in self.processed_data:
                 if q['year'] == test_year:
                     paper_id = q.get('paper_id', 'default')
-                    paper_questions[paper_id][q['subject']] += 1
+                    subj = q['subject']
+                    topic = q.get('topic', 'Unknown')
+                    micro = q.get('micro_topic', 'Unknown')
+                    
+                    paper_subjects[paper_id][subj] += 1
+                    paper_topics[paper_id][f"{subj}::{topic}"] += 1
+                    paper_micro_topics[paper_id][f"{subj}::{topic}::{micro}"] += 1
             
-            num_papers = len(paper_questions)
+            num_papers = len(paper_subjects)
             if num_papers == 0:
                 print(f"   ⚠️  Skipping {test_year} (no data)")
                 continue
             
-            # For multi-paper years, average the subject counts per paper
+            # For multi-paper years, average the counts per paper
             # This allows fair comparison with 65-question predictions
             actual_subject = defaultdict(float)
-            for paper_id, subj_counts in paper_questions.items():
-                for subj, count in subj_counts.items():
+            actual_topic = defaultdict(float)
+            actual_micro_topic = defaultdict(float)
+            for paper_id in paper_subjects.keys():
+                for subj, count in paper_subjects[paper_id].items():
                     actual_subject[subj] += count / num_papers
+                for t_key, count in paper_topics[paper_id].items():
+                    actual_topic[t_key] += count / num_papers
+                for m_key, count in paper_micro_topics[paper_id].items():
+                    actual_micro_topic[m_key] += count / num_papers
             
             # Round to nearest integer for display
             actual_subject = {s: round(c) for s, c in actual_subject.items()}
@@ -2256,7 +2270,7 @@ class EliteValidator:
                 print(f"   ⚠️  Skipping {test_year} (insufficient training data)")
                 continue
             
-            topic_data = self._build_topic_data(train_data)
+            topic_data, micro_topic_data = self._build_topic_data(train_data)
             
             predictions = []
             for key, data in topic_data.items():
@@ -2305,17 +2319,108 @@ class EliteValidator:
                             accuracy
                         )
             
-            mae = np.mean([e['error'] for e in errors])
+            topic_errors = []
+            predicted_topic_keys = set()
+            for p in normalized:
+                subj = p['subject']
+                topic = p['topic']
+                topic_key = f"{subj}::{topic}"
+                predicted_topic_keys.add(topic_key)
+                
+                pred = p['predicted_count']
+                actual = actual_topic.get(topic_key, 0.0)
+                error = abs(pred - actual)
+                topic_errors.append({
+                    'subject': subj,
+                    'topic': topic,
+                    'predicted': round(pred, 2),
+                    'actual': round(actual, 2),
+                    'error': error
+                })
+            
+            for topic_key, actual in actual_topic.items():
+                if topic_key not in predicted_topic_keys:
+                    parts = topic_key.split("::")
+                    subj = parts[0]
+                    topic = parts[1] if len(parts) > 1 else 'Unknown'
+                    topic_errors.append({
+                        'subject': subj,
+                        'topic': topic,
+                        'predicted': 0.0,
+                        'actual': round(actual, 2),
+                        'error': actual
+                    })
+            
+            # Predict Micro-Topics
+            original_micro_data = getattr(self.predictor, 'all_micro_topics_data', None)
+            self.predictor.all_micro_topics_data = micro_topic_data
+            
+            import io, sys
+            # Suppress print output from predict_micro_topics during validation loop
+            _stdout = sys.stdout
+            sys.stdout = io.StringIO()
+            try:
+                micro_preds = self.predictor.predict_micro_topics(normalized, test_year)
+            finally:
+                sys.stdout = _stdout
+            
+            if original_micro_data is not None:
+                self.predictor.all_micro_topics_data = original_micro_data
+                
+            micro_errors = []
+            predicted_micro_keys = set()
+            for mp in micro_preds:
+                subj = mp['subject']
+                topic = mp['topic']
+                micro = mp['micro_topic']
+                micro_key = f"{subj}::{topic}::{micro}"
+                predicted_micro_keys.add(micro_key)
+                
+                pred = mp.get('predicted_count', 0.0)
+                actual = actual_micro_topic.get(micro_key, 0.0)
+                error = abs(pred - actual)
+                micro_errors.append({
+                    'subject': subj,
+                    'topic': topic,
+                    'micro_topic': micro,
+                    'predicted': round(pred, 2),
+                    'actual': round(actual, 2),
+                    'error': error
+                })
+                
+            for micro_key, actual in actual_micro_topic.items():
+                if micro_key not in predicted_micro_keys:
+                    parts = micro_key.split("::")
+                    subj = parts[0]
+                    topic = parts[1] if len(parts) > 1 else 'Unknown'
+                    micro = parts[2] if len(parts) > 2 else 'Unknown'
+                    micro_errors.append({
+                        'subject': subj,
+                        'topic': topic,
+                        'micro_topic': micro,
+                        'predicted': 0.0,
+                        'actual': round(actual, 2),
+                        'error': actual
+                    })
+            
+            mae = np.mean([e['error'] for e in errors]) if errors else 0.0
+            topic_mae = np.mean([e['error'] for e in topic_errors]) if topic_errors else 0.0
+            micro_mae = np.mean([e['error'] for e in micro_errors]) if micro_errors else 0.0
             
             results.append({
                 'year': test_year,
                 'mae': round(mae, 3),
+                'topic_mae': round(topic_mae, 3),
+                'micro_topic_mae': round(micro_mae, 3),
                 'total_pred': round(sum(pred_subject.values()), 1),
                 'total_actual': sum(actual_subject.values()),
-                'errors': errors
+                'errors': errors,
+                'topic_errors': topic_errors,
+                'micro_errors': micro_errors
             })
             
-            print(f"   {test_year}: MAE={mae:.3f} | Pred={sum(pred_subject.values()):.0f} vs Actual={sum(actual_subject.values())}")
+            print(f"   {test_year}: Subject MAE={mae:.3f} | Topic MAE={topic_mae:.3f} | Micro MAE={micro_mae:.3f} | Pred={sum(pred_subject.values()):.0f} vs Actual={sum(actual_subject.values())}")
+
         
         # Calibrate after collecting all data
         self.predictor.calibrator.calibrate()
@@ -2327,6 +2432,7 @@ class EliteValidator:
     
     def _build_topic_data(self, questions):
         td = {}
+        md = {}
         
         for q in questions:
             key = f"{q['subject']}::{q['topic']}"
@@ -2342,13 +2448,35 @@ class EliteValidator:
             td[key]['year_counts'][q['year']] = td[key]['year_counts'].get(q['year'], 0) + 1
             td[key]['subject'] = q['subject']
             td[key]['topic'] = q['topic']
+            
+            micro = q.get('micro_topic', q['topic'])
+            m_key = f"{q['subject']}::{q['topic']}::{micro}"
+            if m_key not in md:
+                md[m_key] = {
+                    'years': [],
+                    'counts': [],
+                    'year_counts': {},
+                    'subject': '',
+                    'topic': '',
+                    'micro_topic': ''
+                }
+            md[m_key]['years'].append(q['year'])
+            md[m_key]['year_counts'][q['year']] = md[m_key]['year_counts'].get(q['year'], 0) + 1
+            md[m_key]['subject'] = q['subject']
+            md[m_key]['topic'] = q['topic']
+            md[m_key]['micro_topic'] = micro
         
         for key in td:
             years = sorted(set(td[key]['years']))
             td[key]['years'] = years
             td[key]['counts'] = [td[key]['year_counts'][y] for y in years]
+            
+        for key in md:
+            years = sorted(set(md[key]['years']))
+            md[key]['years'] = years
+            md[key]['counts'] = [md[key]['year_counts'][y] for y in years]
         
-        return td
+        return td, md
     
     def generate_report(self):
         print("\n" + "="*80)
@@ -2359,18 +2487,34 @@ class EliteValidator:
             results = self.validation_results['walk_forward']
             if results:
                 avg_mae = np.mean([r['mae'] for r in results])
+                avg_topic_mae = np.mean([r.get('topic_mae', 0) for r in results])
+                avg_micro_mae = np.mean([r.get('micro_topic_mae', 0) for r in results])
                 
                 print(f"\n🔬 Walk-Forward Validation:")
-                print(f"   Average MAE: {avg_mae:.3f}")
+                print(f"   Average Subject MAE: {avg_mae:.3f}")
+                print(f"   Average Topic MAE:   {avg_topic_mae:.3f}")
+                print(f"   Average Micro MAE:   {avg_micro_mae:.3f}")
                 
                 for r in results:
                     print(f"\n   {r['year']}:")
-                    print(f"      MAE: {r['mae']:.3f}")
+                    print(f"      Subject MAE: {r['mae']:.3f} | Topic MAE: {r.get('topic_mae', 0):.3f} | Micro MAE: {r.get('micro_topic_mae', 0):.3f}")
                     print(f"      Total: Pred={r['total_pred']:.0f}, Actual={r['total_actual']}")
-                    print(f"      Top errors:")
+                    print(f"      Top Subject Errors:")
                     top_errors = sorted(r['errors'], key=lambda x: x['error'], reverse=True)[:3]
                     for e in top_errors:
                         print(f"         {e['subject'][:25]:25s}: pred={e['predicted']:5.1f}, actual={e['actual']:2d}, err={e['error']:.1f}")
+                    
+                    if 'topic_errors' in r:
+                        print(f"      Top Topic Errors:")
+                        top_topic_errors = sorted(r['topic_errors'], key=lambda x: x['error'], reverse=True)[:3]
+                        for e in top_topic_errors:
+                            print(f"         {e['topic'][:25]:25s}: pred={e['predicted']:5.1f}, actual={e['actual']:5.1f}, err={e['error']:.1f}")
+                            
+                    if 'micro_errors' in r:
+                        print(f"      Top Micro-Topic Errors:")
+                        top_micro_errors = sorted(r['micro_errors'], key=lambda x: x['error'], reverse=True)[:3]
+                        for e in top_micro_errors:
+                            print(f"         {e['micro_topic'][:25]:25s}: pred={e['predicted']:5.1f}, actual={e['actual']:5.1f}, err={e['error']:.1f}")
         
         if 'calibration' in self.validation_results:
             cal = self.validation_results['calibration']
