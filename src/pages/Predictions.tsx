@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
@@ -290,9 +290,8 @@ const Predictions = () => {
                   const microPreds = isExpanded ? getMicroTopicPredictions(prediction.subject, prediction.topic) : [];
                   
                   return (
-                    <>
+                    <React.Fragment key={`${prediction.subject}-${prediction.topic}-${index}`}>
                       <TableRow 
-                        key={`${prediction.subject}-${prediction.topic}-${index}`}
                         className="cursor-pointer hover:bg-muted/50"
                         onClick={() => toggleExpand(expandKey)}
                       >

@@ -286,16 +286,3 @@ export const getAllMicroTopicPredictions = (): MicroTopicPrediction[] => {
   return [...(GATE_DATA.predictions_2027.micro_topic_predictions || [])]
     .sort((a, b) => b.confidence - a.confidence);
 };
-
-// Get questions by micro-topic
-export const getQuestionsByMicroTopic = (subject: string, topic: string, microTopic: string): Question[] => {
-  return getAllQuestions().filter(q => 
-    q.subject === subject && q.topic === topic && q.micro_topic === microTopic
-  );
-};
-
-// Get unique micro-topics for a given subject and topic
-export const getMicroTopicsForTopic = (subject: string, topic: string): string[] => {
-  const questions = getQuestionsByTopic(subject, topic);
-  return [...new Set(questions.map(q => q.micro_topic))];
-};
