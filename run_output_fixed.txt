@@ -1,0 +1,191 @@
+﻿================================================================================
+≡ƒÄ»  GATE 2027 FUSION PREDICTION SYSTEM  v9.0
+    Elite stability + Ultimate tau learning + Best micro precision filter
+================================================================================
+≡ƒôà  2026-08-16 12:45:57
+≡ƒôè  65 questions | 12 subjects | 55 features
+≡ƒñû  XGBoost + LightGBM + ExtraTrees + RF + HistGB + CatBoost (optional) ΓåÆ Stacking
+≡ƒö¼  Micro: EMA + perΓÇæsubject ╧ä + precision filter
+================================================================================
+
+≡ƒôé Loading Q.json ΓÇª
+   Γ£ô 1621 questions (0 skipped)
+   Years: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+
+   Subject distribution:
+      Engineering Mathematics                   :  129
+      Computer Networks                         :  136
+      Programming and Data Structures           :  192
+      Databases                                 :  114
+      General Aptitude                          :  255
+      Digital Logic                             :   93
+      Operating Systems                         :  129
+      Theory of Computation                     :  115
+      Discrete Mathematics                      :  136
+      Computer Organization and Architecture    :  114
+      Compiler Design                           :   95
+      Algorithms                                :  113
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 66 topics | 442 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 4.5, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 1.0, 'Databases': 1.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 2.0, 'General Aptitude': 1.0, 'Operating Systems': 1.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 2.0}
+   Γ£ô Learned Dirichlet params: ╬║=0.3, ╬┤=0.6 (canonical recall=99.6%)
+   Γ£ô Training samples: 752 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 0.6446
+      et    : 0.6177
+      rf    : 0.6199
+      hgb   : 0.6821
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 0.6216, 'RMSE': 0.8684, 'R2': 0.3633}
+
+≡ƒôè WalkΓÇæForward Validation (3 levels) ΓÇª
+   2018 (1p)  S_MAE=0.83  T_Hit=90%  T_Cov=94%  C_Hit=93%  C_Cov=95%  M_Hit=67%  M_Cov=68%
+   2019 (1p)  S_MAE=0.50  T_Hit=95%  T_Cov=97%  C_Hit=94%  C_Cov=95%  M_Hit=64%  M_Cov=62%
+   2020 (1p)  S_MAE=0.83  T_Hit=100%  T_Cov=100%  C_Hit=96%  C_Cov=97%  M_Hit=64%  M_Cov=68%
+   2021 (2p)  S_MAE=0.75  T_Hit=94%  T_Cov=96%  C_Hit=85%  C_Cov=90%  M_Hit=54%  M_Cov=59%
+   2022 (1p)  S_MAE=0.67  T_Hit=95%  T_Cov=97%  C_Hit=98%  C_Cov=98%  M_Hit=69%  M_Cov=73%
+   2023 (1p)  S_MAE=0.67  T_Hit=95%  T_Cov=97%  C_Hit=94%  C_Cov=95%  M_Hit=73%  M_Cov=75%
+   2024 (2p)  S_MAE=0.58  T_Hit=100%  T_Cov=100%  C_Hit=92%  C_Cov=96%  M_Hit=63%  M_Cov=66%
+   2025 (2p)  S_MAE=0.58  T_Hit=100%  T_Cov=100%  C_Hit=96%  C_Cov=98%  M_Hit=61%  M_Cov=68%
+   2026 (2p)  S_MAE=1.08  T_Hit=94%  T_Cov=98%  C_Hit=91%  C_Cov=95%  M_Hit=28%  M_Cov=33%
+
+   Calibration ECE: 0.1238
+
+================================================================================
+≡ƒôï VALIDATION REPORT ΓÇö GATE 2027 BEST v8.0
+================================================================================
+
+  9ΓÇæyear walkΓÇæforward (years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026])
+
+  ΓöÇΓöÇ SUBJECT LEVEL ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+     MAE=0.72  MAPE=16.87%  HitRate=100.0%
+
+  ΓöÇΓöÇ TOPIC LEVEL ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+     MAE=0.58  MAPE=40.86%  HitRate=95.98%  Cov=97.59%  P@10=95.56%
+
+  ΓöÇΓöÇ CONCEPT LEVEL (86 syllabus concepts) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+     MAE=0.53  MAPE=46.07%  HitRate=93.17%  Cov=95.64%
+
+  ΓöÇΓöÇ MICROΓÇæTOPIC LEVEL (442 fine-grained labels) ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+     MAE=0.27  MAPE=74.64%  HitRate=60.39%  Cov=63.59%  P@10=71.11%
+
+  ΓöÇΓöÇ PERΓÇæYEAR ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Year   S_MAE   T_Hit   T_Cov   C_Hit   C_Cov   M_Hit   M_Cov
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  2018   0.834   90.0%   93.8%   92.9%   95.4%   66.7%   67.7%
+  2019   0.500   95.2%   96.9%   93.5%   95.4%   63.6%   61.5%
+  2020   0.833  100.0%  100.0%   96.1%   96.9%   64.4%   67.7%
+  2021   0.750   94.4%   96.2%   84.8%   90.0%   53.8%   59.2%
+  2022   0.667   95.1%   96.8%   97.8%   98.4%   69.1%   73.0%
+  2023   0.667   95.2%   96.9%   93.8%   95.4%   73.3%   75.4%
+  2024   0.584  100.0%  100.0%   91.9%   96.2%   62.9%   66.2%
+  2025   0.583  100.0%  100.0%   96.5%   98.5%   61.3%   68.5%
+  2026   1.084   93.9%   97.7%   91.2%   94.6%   28.4%   33.1%
+
+  Calibration ECE: 0.1238
+================================================================================
+
+================================================================================
+≡ƒöä Retraining on full 2011ΓÇæ2026 data for 2027 predictions ΓÇª
+================================================================================
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 66 topics | 442 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 4.5, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 1.0, 'Databases': 1.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 2.0, 'General Aptitude': 1.0, 'Operating Systems': 1.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 2.0}
+   Γ£ô Learned Dirichlet params: ╬║=0.3, ╬┤=0.6 (canonical recall=99.6%)
+   Γ£ô Training samples: 752 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 0.6446
+      et    : 0.6177
+      rf    : 0.6199
+      hgb   : 0.6821
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 0.6216, 'RMSE': 0.8684, 'R2': 0.3633}
+
+≡ƒö« Topic predictions for 2027 ΓÇª
+   Γ£ô 64 raw topic predictions
+   Γ£ô 64 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2027 (Canonical Dirichlet) ΓÇª
+   Γ£ô 87 canonical concept predictions (87 concepts)
+   Γ£ô Tiers: 69 High Priority | 18 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=0.3, ╬┤=0.6
+
+================================================================================
+Γ£à  GATE 2027 PREDICTIONS
+================================================================================
+
+Subject                           Predicted   Target    Diff
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+Γ£à General Aptitude                   10.0       10    +0.0
+Γ£à Programming and Data Structure      8.0        8    -0.0
+Γ£à Engineering Mathematics             5.0        5    +0.0
+Γ£à Operating Systems                   6.0        6    -0.0
+Γ£à Computer Networks                   5.0        5    -0.0
+Γ£à Databases                           5.0        5    -0.0
+Γ£à Discrete Mathematics                5.0        5    +0.0
+Γ£à Computer Organization and Arch      5.0        5    +0.0
+Γ£à Theory of Computation               5.0        5    +0.0
+Γ£à Compiler Design                     4.0        4    +0.0
+Γ£à Digital Logic                       4.0        4    +0.0
+Γ£à Algorithms                          3.0        3    +0.0
+
+   Total: 65.0
+
+≡ƒÅå Top 20 Topic Predictions:
+   1. Compiler Design    | Syntax Analysis (Parsing)    ΓåÆ  1.53q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæ 72%
+   2. Operating Systems  | Memory Management            ΓåÆ  1.92q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 69%
+   3. Computer Networks  | Network Layer and IP Address ΓåÆ  1.70q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 68%
+   4. Computer Organizat | Memory Hierarchy             ΓåÆ  2.04q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 66%
+   5. Compiler Design    | Semantic Analysis and Interm ΓåÆ  0.85q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 66%
+   6. Theory of Computat | Regular Languages and Finite ΓåÆ  2.12q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 65%
+   7. Programming and Da | Trees                        ΓåÆ  2.31q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 65%
+   8. Compiler Design    | Code Optimization            ΓåÆ  0.88q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 65%
+   9. Programming and Da | Programming in C             ΓåÆ  2.66q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 64%
+  10. Digital Logic      | Number Systems and Computer  ΓåÆ  1.16q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 64%
+  11. Engineering Mathem | Linear Algebra               ΓåÆ  1.72q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 64%
+  12. Engineering Mathem | Probability and Statistics   ΓåÆ  1.85q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 63%
+  13. Theory of Computat | Turing Machines and Decidabi ΓåÆ  1.19q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 63%
+  14. Engineering Mathem | Calculus                     ΓåÆ  1.43q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 63%
+  15. Databases          | Functional Dependencies and  ΓåÆ  1.13q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 63%
+  16. Theory of Computat | Context-Free Languages       ΓåÆ  1.27q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 63%
+  17. Discrete Mathemati | Graph Theory                 ΓåÆ  1.30q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 62%
+  18. General Aptitude   | Verbal Ability               ΓåÆ  2.96q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 62%
+  19. Algorithms         | Graph Algorithms             ΓåÆ  0.91q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 62%
+  20. General Aptitude   | Quantitative Aptitude        ΓåÆ  4.12q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 62%
+
+≡ƒö¼ Top 25 MicroΓÇæTopic Predictions:
+   1. Quantitative Aptitud ΓåÆ Numerical Computation          3.876q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæ 85%
+   2. Programming in C     ΓåÆ Programming in C               2.641q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæ 85%
+   3. Logical and Analytic ΓåÆ Reasoning and Logic            1.874q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæ 85%
+   4. Memory Hierarchy     ΓåÆ Memory Hierarchy (Cache, Main  2.028q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæ 82%
+   5. Syntax Analysis (Par ΓåÆ Syntax Analysis (Parsing)      1.516q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæ 78%
+   6. Network Layer and IP ΓåÆ Network Layer (IPv4/IPv6, Rout 1.506q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæ 76%
+   7. Trees                ΓåÆ Trees and Binary Search Trees  1.782q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæ 75%
+   8. Code Optimization    ΓåÆ Local Optimization and Data Fl 0.867q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæ 70%
+   9. Functional Dependenc ΓåÆ Integrity Constraints and Norm 1.115q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 68%
+  10. Graph Theory         ΓåÆ Graphs (Theory): Connectivity, 1.278q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 68%
+  11. Regular Languages an ΓåÆ Deterministic and Nondetermini 1.690q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 67%
+  12. Number Systems and C ΓåÆ Number Representations and Com 1.142q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 67%
+  13. Machine Instructions ΓåÆ Machine Instructions and Addre 0.826q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 66%
+  14. Boolean Algebra      ΓåÆ Boolean Algebra                0.866q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 66%
+  15. Searching and Sortin ΓåÆ Searching and Sorting          0.660q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 66%
+  16. Combinatorics        ΓåÆ Combinatorics: Counting, Recur 0.895q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 66%
+  17. Spatial Aptitude     ΓåÆ Reasoning and Logic            1.016q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 64%
+  18. Transactions and Con ΓåÆ Transactions and Concurrency C 0.950q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 63%
+  19. Verbal Ability       ΓåÆ Reading Comprehension          1.444q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 63%
+  20. Probability and Stat ΓåÆ Conditional Probability and Ba 1.048q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 63%
+  21. Graph Algorithms     ΓåÆ Minimum Spanning Trees         0.762q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 63%
+  22. Context-Free Languag ΓåÆ Context-Free Grammars          1.071q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 62%
+  23. Instruction Pipelini ΓåÆ Instruction Pipelining         1.094q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 62%
+  24. File Organization an ΓåÆ File Organization and Indexing 0.607q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 62%
+  25. Asymptotic Analysis  ΓåÆ Asymptotic Complexity Analysis 0.768q | ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ 61%
+
+≡ƒÆ╛ Saved: gate2027_fusion_v9.json
+   64 topic + 87 microΓÇætopic predictions
+================================================================================

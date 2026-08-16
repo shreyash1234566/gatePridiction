@@ -1,0 +1,398 @@
+﻿================================================================================
+AUDIT 1: QUESTION COUNTS & MARKS INVARIANT (65q / 100 marks)
+================================================================================
+  2011:   65 questions (1p ΓåÆ 65.0/paper)  marks_total=100 (100.0/paper)
+  2012:   64 questions (1p ΓåÆ 64.0/paper)  marks_total=99 (99.0/paper) ΓÜá∩╕Å Q/paper=64.0Γëá65
+  2013:   65 questions (1p ΓåÆ 65.0/paper)  marks_total=100 (100.0/paper)
+  2014:  194 questions (3p ΓåÆ 64.7/paper)  marks_total=299 (99.7/paper)
+  2015:  195 questions (3p ΓåÆ 65.0/paper)  marks_total=300 (100.0/paper)
+  2016:  130 questions (2p ΓåÆ 65.0/paper)  marks_total=200 (100.0/paper)
+  2017:   65 questions (1p ΓåÆ 65.0/paper)  marks_total=100 (100.0/paper)
+  2018:   65 questions (1p ΓåÆ 65.0/paper)  marks_total=100 (100.0/paper)
+  2019:   65 questions (1p ΓåÆ 65.0/paper)  marks_total=100 (100.0/paper)
+  2020:   65 questions (1p ΓåÆ 65.0/paper)  marks_total=100 (100.0/paper)
+  2021:  130 questions (2p ΓåÆ 65.0/paper)  marks_total=200 (100.0/paper)
+  2022:   63 questions (1p ΓåÆ 63.0/paper)  marks_total=96 (96.0/paper) ΓÜá∩╕Å Q/paper=63.0Γëá65 ΓÜá∩╕Å Marks/paper=96.0Γëá100
+  2023:   65 questions (1p ΓåÆ 65.0/paper)  marks_total=110 (110.0/paper) ΓÜá∩╕Å Marks/paper=110.0Γëá100
+  2024:  130 questions (2p ΓåÆ 65.0/paper)  marks_total=200 (100.0/paper)
+  2025:  130 questions (2p ΓåÆ 65.0/paper)  marks_total=200 (100.0/paper)
+  2026:  130 questions (2p ΓåÆ 65.0/paper)  marks_total=200 (100.0/paper)
+
+================================================================================
+AUDIT 2: MICRO-TOPIC VOCABULARY
+================================================================================
+  Total unique micro-topic labels: 449
+
+  Frequency distribution (how many times a label appeared in total):
+      1├ù :  175 labels ( 39.0%) ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+      2├ù :   85 labels ( 18.9%) ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+      3├ù :   46 labels ( 10.2%) ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+      4├ù :   39 labels (  8.7%) ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+      5├ù :   27 labels (  6.0%) ΓûêΓûêΓûêΓûêΓûêΓûê
+      6├ù :   22 labels (  4.9%) ΓûêΓûêΓûêΓûê
+      7├ù :   12 labels (  2.7%) ΓûêΓûê
+      8├ù :    8 labels (  1.8%) Γûê
+      9├ù :    4 labels (  0.9%) 
+     10├ù :    5 labels (  1.1%) Γûê
+     11├ù :    3 labels (  0.7%) 
+     12├ù :    4 labels (  0.9%) 
+     13├ù :    4 labels (  0.9%) 
+     14├ù :    1 labels (  0.2%) 
+     15├ù :    1 labels (  0.2%) 
+     17├ù :    1 labels (  0.2%) 
+     18├ù :    1 labels (  0.2%) 
+     20├ù :    2 labels (  0.4%) 
+     21├ù :    1 labels (  0.2%) 
+     22├ù :    1 labels (  0.2%) 
+     23├ù :    1 labels (  0.2%) 
+     24├ù :    1 labels (  0.2%) 
+     25├ù :    2 labels (  0.4%) 
+     26├ù :    1 labels (  0.2%) 
+     32├ù :    1 labels (  0.2%) 
+     46├ù :    1 labels (  0.2%) 
+
+  Appeared Γëñ1 time: 175 (39.0%)
+  Appeared Γëñ2 times: 260 (57.9%)
+  Appeared Γëñ3 times: 306 (68.2%)
+
+  Year span distribution (in how many distinct years):
+      1 year(s):  196 labels ( 43.7%)
+      2 year(s):   87 labels ( 19.4%)
+      3 year(s):   53 labels ( 11.8%)
+      4 year(s):   37 labels (  8.2%)
+      5 year(s):   22 labels (  4.9%)
+      6 year(s):   17 labels (  3.8%)
+      7 year(s):   11 labels (  2.4%)
+      8 year(s):    7 labels (  1.6%)
+      9 year(s):    3 labels (  0.7%)
+     10 year(s):    5 labels (  1.1%)
+     11 year(s):    3 labels (  0.7%)
+     12 year(s):    4 labels (  0.9%)
+     13 year(s):    2 labels (  0.4%)
+     14 year(s):    1 labels (  0.2%)
+     16 year(s):    1 labels (  0.2%)
+
+================================================================================
+AUDIT 3: EMA ZERO-SKIP BUG
+================================================================================
+  SPORADIC example: Computer Networks::Application Layer Protocols::Email System
+    Years: [2011, 2012, 2019] (span=8 years, gaps)
+    EMA input: [1, 1, 1] ΓåÆ EMA(╬▒=0.7) = 1.0
+  CONSISTENT example: Algorithms::Computational Complexity::NP-Completeness
+    Years: [2012, 2013, 2014] (span=2 years, no gaps)
+    EMA input: [1, 1, 1] ΓåÆ EMA(╬▒=0.7) = 1.0
+  ΓÜá∩╕Å Both get identical EMA=1.0 despite hugely different reliability!
+  The exp(-ys/╧ä) decay partially compensates, but the EMA itself is blind to gaps.
+
+================================================================================
+AUDIT 4: THRESHOLD MISMATCH (0.05 output vs 0.15 evaluation)
+================================================================================
+  MICRO_MIN_PRED = 0.05 (output filter: predictions below this are dropped)
+  MICRO_HIT_TH   = 0.15 (evaluation: only preds ΓëÑ this count as 'hit')
+  DEAD ZONE: predictions in [0.05, 0.15) are output but NEVER counted
+  This means ~25% of output predictions are guaranteed to be ignored in validation
+
+================================================================================
+AUDIT 5: PER-YEAR MATHEMATICAL CEILING ANALYSIS
+================================================================================
+
+  --- 2018 (1p, 65q ΓåÆ 65.0 q-eq, 60 unique micro-labels) ---
+    Brand new (never seen):           13 labels ( 21.7%) |  14.0 q-eq ( 21.5%)
+      Γöö Parent topic known:           13
+      Γöö Parent topic also unknown:     0
+    Appeared <2 times in history:     12 labels ( 20.0%) |  12.0 q-eq ( 18.5%)
+    Last seen before 2016:            13 labels ( 21.7%) |  13.0 q-eq ( 20.0%)
+    VALID (could be predicted):       22 labels ( 36.7%) |  26.0 q-eq ( 40.0%)
+    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+    CEILING (label-recall):   36.7%
+    CEILING (q-coverage):     40.0%
+
+  --- 2019 (1p, 65q ΓåÆ 65.0 q-eq, 55 unique micro-labels) ---
+    Brand new (never seen):           11 labels ( 20.0%) |  11.0 q-eq ( 16.9%)
+      Γöö Parent topic known:           10
+      Γöö Parent topic also unknown:     1
+    Appeared <2 times in history:     12 labels ( 21.8%) |  17.0 q-eq ( 26.2%)
+    Last seen before 2016:             8 labels ( 14.5%) |   8.0 q-eq ( 12.3%)
+    VALID (could be predicted):       24 labels ( 43.6%) |  29.0 q-eq ( 44.6%)
+    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+    CEILING (label-recall):   43.6%
+    CEILING (q-coverage):     44.6%
+
+  --- 2020 (1p, 65q ΓåÆ 65.0 q-eq, 59 unique micro-labels) ---
+    Brand new (never seen):           12 labels ( 20.3%) |  12.0 q-eq ( 18.5%)
+      Γöö Parent topic known:           12
+      Γöö Parent topic also unknown:     0
+    Appeared <2 times in history:     11 labels ( 18.6%) |  11.0 q-eq ( 16.9%)
+    Last seen before 2016:             7 labels ( 11.9%) |   7.0 q-eq ( 10.8%)
+    VALID (could be predicted):       29 labels ( 49.2%) |  35.0 q-eq ( 53.8%)
+    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+    CEILING (label-recall):   49.2%
+    CEILING (q-coverage):     53.8%
+
+  --- 2021 (2p, 130q ΓåÆ 65.0 q-eq, 106 unique micro-labels) ---
+    Brand new (never seen):           33 labels ( 31.1%) |  18.0 q-eq ( 27.7%)
+      Γöö Parent topic known:           31
+      Γöö Parent topic also unknown:     2
+    Appeared <2 times in history:     20 labels ( 18.9%) |  10.0 q-eq ( 15.4%)
+    Last seen before 2016:             5 labels (  4.7%) |   2.5 q-eq (  3.8%)
+    VALID (could be predicted):       48 labels ( 45.3%) |  34.5 q-eq ( 53.1%)
+    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+    CEILING (label-recall):   45.3%
+    CEILING (q-coverage):     53.1%
+
+  --- 2022 (1p, 63q ΓåÆ 63.0 q-eq, 55 unique micro-labels) ---
+    Brand new (never seen):           11 labels ( 20.0%) |  11.0 q-eq ( 17.5%)
+      Γöö Parent topic known:           11
+      Γöö Parent topic also unknown:     0
+    Appeared <2 times in history:      6 labels ( 10.9%) |   6.0 q-eq (  9.5%)
+    Last seen before 2016:             3 labels (  5.5%) |   3.0 q-eq (  4.8%)
+    VALID (could be predicted):       35 labels ( 63.6%) |  43.0 q-eq ( 68.3%)
+    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+    CEILING (label-recall):   63.6%
+    CEILING (q-coverage):     68.3%
+
+  --- 2023 (1p, 65q ΓåÆ 65.0 q-eq, 60 unique micro-labels) ---
+    Brand new (never seen):            4 labels (  6.7%) |   4.0 q-eq (  6.2%)
+      Γöö Parent topic known:            4
+      Γöö Parent topic also unknown:     0
+    Appeared <2 times in history:     12 labels ( 20.0%) |  12.0 q-eq ( 18.5%)
+    Last seen before 2016:             2 labels (  3.3%) |   2.0 q-eq (  3.1%)
+    VALID (could be predicted):       42 labels ( 70.0%) |  47.0 q-eq ( 72.3%)
+    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+    CEILING (label-recall):   70.0%
+    CEILING (q-coverage):     72.3%
+
+  --- 2024 (2p, 130q ΓåÆ 65.0 q-eq, 105 unique micro-labels) ---
+    Brand new (never seen):           21 labels ( 20.0%) |  11.5 q-eq ( 17.7%)
+      Γöö Parent topic known:           21
+      Γöö Parent topic also unknown:     0
+    Appeared <2 times in history:     14 labels ( 13.3%) |   8.5 q-eq ( 13.1%)
+    Last seen before 2016:             4 labels (  3.8%) |   2.0 q-eq (  3.1%)
+    VALID (could be predicted):       66 labels ( 62.9%) |  43.0 q-eq ( 66.2%)
+    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+    CEILING (label-recall):   62.9%
+    CEILING (q-coverage):     66.2%
+
+  --- 2025 (2p, 130q ΓåÆ 65.0 q-eq, 106 unique micro-labels) ---
+    Brand new (never seen):           19 labels ( 17.9%) |   9.5 q-eq ( 14.6%)
+      Γöö Parent topic known:           19
+      Γöö Parent topic also unknown:     0
+    Appeared <2 times in history:     18 labels ( 17.0%) |   9.0 q-eq ( 13.8%)
+    Last seen before 2016:             4 labels (  3.8%) |   2.0 q-eq (  3.1%)
+    VALID (could be predicted):       65 labels ( 61.3%) |  44.5 q-eq ( 68.5%)
+    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+    CEILING (label-recall):   61.3%
+    CEILING (q-coverage):     68.5%
+
+  --- 2026 (2p, 130q ΓåÆ 65.0 q-eq, 95 unique micro-labels) ---
+    Brand new (never seen):           41 labels ( 43.2%) |  26.5 q-eq ( 40.8%)
+      Γöö Parent topic known:           41
+      Γöö Parent topic also unknown:     0
+    Appeared <2 times in history:     17 labels ( 17.9%) |  11.5 q-eq ( 17.7%)
+    Last seen before 2016:             2 labels (  2.1%) |   1.0 q-eq (  1.5%)
+    VALID (could be predicted):       35 labels ( 36.8%) |  26.0 q-eq ( 40.0%)
+    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+    CEILING (label-recall):   36.8%
+    CEILING (q-coverage):     40.0%
+
+================================================================================
+AUDIT 6: SEMANTIC SIBLING ANALYSIS (2026 'brand new' labels)
+================================================================================
+  41 brand-new micro-topic labels in 2026:
+     1. NEW: Synonyms and Antonyms
+        Parent: Verbal Ability
+        Historical siblings: Analogies in English, Articles (a, an, the), Idioms and Phrases, Reading Comprehension, Sentence Completion and Fill in the Blan
+
+     2. NEW: Completion of Figures
+        Parent: Spatial Aptitude
+        Historical siblings: 3D Shapes and Perspectives, Cube and Dice Problems, Paper Folding and Cutting
+
+     3. NEW: Critical Reasoning and Assumptions
+        Parent: Logical and Analytical Reasoning
+        Historical siblings: Blood Relations, Data Sufficiency, Number Series, Statements and Inferences, Syllogisms
+
+     4. NEW: Mirror Images
+        Parent: Spatial Aptitude
+        Historical siblings: 3D Shapes and Perspectives, Cube and Dice Problems, Paper Folding and Cutting
+
+     5. NEW: Church-Turing Thesis
+        Parent: Turing Machines and Decidability
+        Historical siblings: Chomsky Hierarchy: Type 0, 1, 2, 3 Gramm, Decision Problems for CFLs and RLs, Recursive (Decidable) Languages, Recursively Enumerable (RE) Languages, Turing Machine: Definition and Component
+
+     6. NEW: Joint Probability Distributions
+        Parent: Probability and Statistics
+        Historical siblings: Classical Probability, Conditional Probability, Cumulative Distribution Function (CDF), Expected Value (Mean) of a Distribution, Independent Events
+
+     7. NEW: Linked File Allocation
+        Parent: File Systems
+        Historical siblings: Contiguous File Allocation, Directory Structure: Single-Level, Two-L, Disk Buffering and Caching, FAT File System, File System Structure and Layers
+
+     8. NEW: Lock-Based Protocols
+        Parent: Transactions and Concurrency Contro
+        Historical siblings: Atomicity and Durability, Conflict Serializability, Deadlock in DBMS, Log-Based Recovery: Undo and Redo, Serial and Serializable Schedules
+
+     9. NEW: SCAN Disk Scheduling
+        Parent: I/O and Disk Scheduling
+        Historical siblings: Disk Access Time: Seek Time, Rotational , Disk Structure: Tracks, Sectors, Cylinde, SSTF Disk Scheduling
+
+    10. NEW: Graph Representation: Edge List
+        Parent: Graphs (Data Structure Representati
+        Historical siblings: Breadth-First Search (BFS), Depth-First Search (DFS), Graph Representation: Adjacency List
+
+    11. NEW: Ambiguous Context-Free Grammars
+        Parent: Context-Free Languages
+        Historical siblings: Chomsky Normal Form (CNF), Context-Free Grammar (CFG): Definition a, Non-Deterministic PDA (NPDA), Pushdown Automata (PDA): Definition
+
+    12. NEW: Thrashing
+        Parent: Memory Management
+        Historical siblings: Demand Paging, Effective Memory Access Time (Paging wit, Internal Fragmentation, LRU Page Replacement, Memory Allocation Strategies: First Fit,
+
+    13. NEW: IPv6 Addressing and Header
+        Parent: Network Layer and IP Addressing
+        Historical siblings: ARP Protocol, CIDR (Classless Inter-Domain Routing) an, ICMP Protocol and Ping, IP Addressing (IPv4): Classful Addressin, IP Forwarding and Routing Tables
+
+    14. NEW: Dynamic Scoping
+        Parent: Runtime Environments
+        Historical siblings: Activation Records (Stack Frames), Runtime Stack Management
+
+    15. NEW: Linear Bounded Automata (LBA)
+        Parent: Turing Machines and Decidability
+        Historical siblings: Chomsky Hierarchy: Type 0, 1, 2, 3 Gramm, Decision Problems for CFLs and RLs, Recursive (Decidable) Languages, Recursively Enumerable (RE) Languages, Turing Machine: Definition and Component
+
+    16. NEW: Pumping Lemma for Context-Free Languages
+        Parent: Context-Free Languages
+        Historical siblings: Chomsky Normal Form (CNF), Context-Free Grammar (CFG): Definition a, Non-Deterministic PDA (NPDA), Pushdown Automata (PDA): Definition
+
+    17. NEW: Stack and Heap Memory in C
+        Parent: Programming in C
+        Historical siblings: Arrays in C, Bitwise Operations in C, C Input/Output: printf, scanf, Control Structures: if-else, switch in C, Data Types, Variables, and Constants in 
+
+    18. NEW: Process Termination
+        Parent: Process Management
+        Historical siblings: Context Switching, Mode Switch: User Mode to Kernel Mode, Process Creation: fork() System Call, Process State Transitions (New, Ready, R, System Calls Interface
+
+    19. NEW: Cache Coherence
+        Parent: Memory Hierarchy
+        Historical siblings: Cache Block/Line Size, Cache Hit Rate and Miss Rate, Cache Memory: Concept and Locality of Re, Direct Mapped Cache, Fully Associative Cache
+
+    20. NEW: Fixed Partitioning and Variable Partitioning
+        Parent: Memory Management
+        Historical siblings: Demand Paging, Effective Memory Access Time (Paging wit, Internal Fragmentation, LRU Page Replacement, Memory Allocation Strategies: First Fit,
+
+    21. NEW: Pipes and Cisterns
+        Parent: Quantitative Aptitude
+        Historical siblings: Algebra: Linear and Quadratic Equations, Averages, Data Interpretation: Bar Charts, Data Interpretation: Line Graphs, Data Interpretation: Pie Charts
+
+    22. NEW: Combinations and Binomial Theorem
+        Parent: Combinatorics
+        Historical siblings: Counting Principles: Product and Sum Rul, Generating Functions, Permutations, Recurrence Relations
+
+    23. NEW: Tail Recursion
+        Parent: Recursion
+        Historical siblings: Recursion: Base Case and Recursive Case, Recursive Tree and Linked-List Operation
+
+    24. NEW: Limits of Functions
+        Parent: Calculus
+        Historical siblings: Continuity and Discontinuity, Derivatives: Rules and Applications, Differentiability, Integration: Definite and Indefinite Int, L'H├┤pital's Rule
+
+    25. NEW: Logical Puzzles
+        Parent: Logical and Analytical Reasoning
+        Historical siblings: Blood Relations, Data Sufficiency, Number Series, Statements and Inferences, Syllogisms
+
+    26. NEW: Indirect Addressing Mode
+        Parent: Machine Instructions and Addressing
+        Historical siblings: Base-Register Addressing Mode, Immediate Addressing Mode, Instruction Format and Fields, Instruction Types: Data Transfer, Arithm
+
+    27. NEW: DHCP Protocol (Application Layer View)
+        Parent: Application Layer Protocols
+        Historical siblings: DNS Protocol and Name Resolution, Email System Architecture (MUA, MTA, MDA, HTTP Persistent vs Non-Persistent Connec, HTTP Protocol: Request and Response
+
+    28. NEW: Half Subtractor and Full Subtractor
+        Parent: Combinational Circuits
+        Historical siblings: Binary Multiplier, Decoders, Full Adder, Multiplexers (MUX), Priority Encoders
+
+    29. NEW: Priority Queue using Heap
+        Parent: Arrays, Stacks, Queues, Linked List
+        Historical siblings: Array Operations and Complexity, Circular Linked List Operations, Circular Queue, Deque (Double-Ended Queue), Doubly Linked List Operations
+
+    30. NEW: Equivalence of DFA and NFA
+        Parent: Closure and Decision Properties
+        Historical siblings: Closure Properties of Context-Free Langu, Closure Properties of Regular Languages
+
+    31. NEW: Analogies in Reasoning
+        Parent: Logical and Analytical Reasoning
+        Historical siblings: Blood Relations, Data Sufficiency, Number Series, Statements and Inferences, Syllogisms
+
+    32. NEW: Deadlock Detection Algorithm
+        Parent: Deadlocks
+        Historical siblings: Banker's Algorithm, Deadlock Avoidance, Deadlock: Necessary Conditions (Coffman', Resource Allocation Graph (RAG), Safe State and Unsafe State
+
+    33. NEW: Threaded Binary Trees
+        Parent: Trees
+        Historical siblings: AVL Tree Insertion and Deletion, B+ Tree Insertion, B+ Trees: Properties and Operations, BST Insertion and Deletion, BST Search and Height Analysis
+
+    34. NEW: Sequential File Organization
+        Parent: File Organization and Indexing
+        Historical siblings: B+ Tree Indexing, Clustering vs Non-Clustering Index, Hash File Organization, Heap File Organization, Primary Index (Dense and Sparse)
+
+    35. NEW: Merging Linked Lists
+        Parent: Arrays, Stacks, Queues, Linked List
+        Historical siblings: Array Operations and Complexity, Circular Linked List Operations, Circular Queue, Deque (Double-Ended Queue), Doubly Linked List Operations
+
+    36. NEW: Sliding Window Protocol
+        Parent: Data Link Layer
+        Historical siblings: ALOHA Protocol: Pure and Slotted, Error Correction: Hamming Code, Error Detection: CRC (Cyclic Redundancy , Error Detection: Parity Bits, Ethernet (IEEE 802.3): CSMA/CD
+
+    37. NEW: Prim's Algorithm (Minimum Spanning Tree)
+        Parent: Graph Algorithms
+        Historical siblings: Bellman-Ford Algorithm (Negative Weights, Cycle Detection in Directed Graph, Dijkstra's Algorithm (Weighted Graph), Kruskal's Algorithm (Minimum Spanning Tr, Strongly Connected Components (Kosaraju'
+
+    38. NEW: Reaching Definitions Analysis
+        Parent: Code Optimization
+        Historical siblings: Basic Blocks and Flow Graphs, Common Subexpression Elimination (CSE), Constant Folding, Control Flow Graph (CFG), Dead Code Elimination
+
+    39. NEW: Scope and Lifetime of Variables
+        Parent: Programming in C
+        Historical siblings: Arrays in C, Bitwise Operations in C, C Input/Output: printf, scanf, Control Structures: if-else, switch in C, Data Types, Variables, and Constants in 
+
+    40. NEW: Free Space Management: Bitmap and Linked List
+        Parent: File Systems
+        Historical siblings: Contiguous File Allocation, Directory Structure: Single-Level, Two-L, Disk Buffering and Caching, FAT File System, File System Structure and Layers
+
+    41. NEW: Stable Sorting Algorithms
+        Parent: Searching and Sorting
+        Historical siblings: Binary Search, Bubble Sort, Heap Sort, Linear Search, Merge Sort
+
+================================================================================
+AUDIT 7: MICRO TAU LEARNING (HEURISTIC vs ACTUAL)
+================================================================================
+  Current implementation: micro_tau[subj] = min(topic_tau[subj] * 1.3, 5.0)
+  This is NOT learned from micro-topic data ΓÇö it's derived from topic tau.
+  Topic tau IS properly grid-searched on topic-level walk-forward.
+  But micro-topics have different temporal dynamics than topics.
+  A topic like 'Memory Management' appears every year.
+  Its micro-topics ('Paging', 'Segmentation', 'TLB') cycle unpredictably.
+
+================================================================================
+AUDIT 8: TOPIC vs MICRO-TOPIC VOCABULARY RATIO
+================================================================================
+  Unique topics: 66
+  Unique micro-topics: 449
+  Ratio: 6.8 micro-labels per topic (avg)
+  Micro-labels per topic: min=1, median=6, max=20, mean=6.8
+
+  Top 10 topics by micro-label count:
+    Quantitative Aptitude                     : 20 micro-labels
+    Programming in C                          : 16 micro-labels
+    Memory Management                         : 14 micro-labels
+    Trees                                     : 14 micro-labels
+    Probability and Statistics                : 13 micro-labels
+    Syntax Analysis (Parsing)                 : 13 micro-labels
+    Memory Hierarchy                          : 12 micro-labels
+    Arrays, Stacks, Queues, Linked Lists      : 12 micro-labels
+    Data Link Layer                           : 11 micro-labels
+    SQL                                       : 10 micro-labels
+
+================================================================================
+AUDIT COMPLETE
+================================================================================

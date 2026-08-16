@@ -1,0 +1,214 @@
+﻿================================================================================
+SECTION 1: NEW MICRO-TOPIC COUNTS PER YEAR
+================================================================================
+  2011:  51 unique MTs |  51 NEW (100.0%) |   0 OLD (  0.0%)
+  2012:  60 unique MTs |  49 NEW ( 81.7%) |  11 OLD ( 18.3%)
+  2013:  56 unique MTs |  36 NEW ( 64.3%) |  20 OLD ( 35.7%)
+  2014: 125 unique MTs |  71 NEW ( 56.8%) |  54 OLD ( 43.2%)
+  2015: 127 unique MTs |  43 NEW ( 33.9%) |  84 OLD ( 66.1%)
+  2016:  60 unique MTs |  18 NEW ( 30.0%) |  42 OLD ( 70.0%)
+  2017:  56 unique MTs |  13 NEW ( 23.2%) |  43 OLD ( 76.8%)
+  2018:  60 unique MTs |  12 NEW ( 20.0%) |  48 OLD ( 80.0%)
+  2019:  55 unique MTs |  11 NEW ( 20.0%) |  44 OLD ( 80.0%)
+  2020:  59 unique MTs |  12 NEW ( 20.3%) |  47 OLD ( 79.7%)
+  2021: 106 unique MTs |  32 NEW ( 30.2%) |  74 OLD ( 69.8%)
+  2022:  55 unique MTs |  11 NEW ( 20.0%) |  44 OLD ( 80.0%)
+  2023:  60 unique MTs |   4 NEW (  6.7%) |  56 OLD ( 93.3%)
+  2024: 105 unique MTs |  21 NEW ( 20.0%) |  84 OLD ( 80.0%)
+  2025: 106 unique MTs |  18 NEW ( 17.0%) |  88 OLD ( 83.0%)
+  2026:  95 unique MTs |  40 NEW ( 42.1%) |  55 OLD ( 57.9%)
+
+  --- Test Period (2018-2026) ---
+  New MT count: min=4, max=40, mean=17.9, median=12.0
+  New MT %:     min=6.7%, max=42.1%, mean=21.8%, median=20.0%
+
+================================================================================
+SECTION 2: WHICH SUBJECTS PRODUCE NEW MTs?
+================================================================================
+
+  2018 (12 new MTs):
+    Programming and Data Structures    :  3 new MTs
+    Computer Organization and Architect:  2 new MTs
+    Digital Logic                      :  2 new MTs
+    General Aptitude                   :  2 new MTs
+    Databases                          :  1 new MTs
+    Operating Systems                  :  1 new MTs
+    Discrete Mathematics               :  1 new MTs
+
+  2019 (11 new MTs):
+    Algorithms                         :  1 new MTs
+    Discrete Mathematics               :  1 new MTs
+    Computer Networks                  :  1 new MTs
+    Programming and Data Structures    :  1 new MTs
+    Computer Organization and Architect:  1 new MTs
+    Compiler Design                    :  1 new MTs
+    Operating Systems                  :  1 new MTs
+    Databases                          :  1 new MTs
+    Theory of Computation              :  1 new MTs
+    Engineering Mathematics            :  1 new MTs
+    Digital Logic                      :  1 new MTs
+
+  2020 (12 new MTs):
+    Databases                          :  3 new MTs
+    General Aptitude                   :  2 new MTs
+    Discrete Mathematics               :  2 new MTs
+    Programming and Data Structures    :  2 new MTs
+    Compiler Design                    :  1 new MTs
+    Computer Networks                  :  1 new MTs
+    Computer Organization and Architect:  1 new MTs
+
+  2021 (32 new MTs):
+    Computer Networks                  :  5 new MTs
+    Operating Systems                  :  4 new MTs
+    Databases                          :  4 new MTs
+    General Aptitude                   :  4 new MTs
+    Compiler Design                    :  4 new MTs
+    Digital Logic                      :  3 new MTs
+    Programming and Data Structures    :  3 new MTs
+    Theory of Computation              :  2 new MTs
+    Engineering Mathematics            :  2 new MTs
+    Computer Organization and Architect:  1 new MTs
+
+  2022 (11 new MTs):
+    Operating Systems                  :  3 new MTs
+    Compiler Design                    :  2 new MTs
+    Engineering Mathematics            :  1 new MTs
+    Digital Logic                      :  1 new MTs
+    Databases                          :  1 new MTs
+    Theory of Computation              :  1 new MTs
+    Algorithms                         :  1 new MTs
+    Programming and Data Structures    :  1 new MTs
+
+  2023 (4 new MTs):
+    Computer Organization and Architect:  1 new MTs
+    Programming and Data Structures    :  1 new MTs
+    Discrete Mathematics               :  1 new MTs
+    Databases                          :  1 new MTs
+
+  2024 (21 new MTs):
+    Compiler Design                    :  5 new MTs
+    Engineering Mathematics            :  4 new MTs
+    Programming and Data Structures    :  3 new MTs
+    Databases                          :  2 new MTs
+    Operating Systems                  :  2 new MTs
+    Computer Organization and Architect:  2 new MTs
+    Theory of Computation              :  1 new MTs
+    Computer Networks                  :  1 new MTs
+    General Aptitude                   :  1 new MTs
+
+  2025 (18 new MTs):
+    Computer Networks                  :  3 new MTs
+    Discrete Mathematics               :  3 new MTs
+    Compiler Design                    :  3 new MTs
+    Digital Logic                      :  2 new MTs
+    Operating Systems                  :  2 new MTs
+    General Aptitude                   :  2 new MTs
+    Databases                          :  1 new MTs
+    Computer Organization and Architect:  1 new MTs
+    Algorithms                         :  1 new MTs
+
+  2026 (40 new MTs):
+    General Aptitude                   :  7 new MTs
+    Programming and Data Structures    :  7 new MTs
+    Operating Systems                  :  7 new MTs
+    Theory of Computation              :  5 new MTs
+    Computer Networks                  :  2 new MTs
+    Algorithms                         :  2 new MTs
+    Compiler Design                    :  2 new MTs
+    Engineering Mathematics            :  2 new MTs
+    Computer Organization and Architect:  2 new MTs
+    Databases                          :  2 new MTs
+    Digital Logic                      :  1 new MTs
+    Discrete Mathematics               :  1 new MTs
+
+================================================================================
+SECTION 3: WHICH TOPICS PRODUCE NEW MTs?
+================================================================================
+
+  Topics that FREQUENTLY produce new MTs (sorted by new MT count):
+    Programming and Data Structures::Programming in C :  7 new MTs in 9 appearances (78% new-MT rate)
+    Compiler Design::Semantic Analysis and Intermediat:  7 new MTs in 8 appearances (88% new-MT rate)
+    Programming and Data Structures::Arrays, Stacks, Q:  6 new MTs in 8 appearances (75% new-MT rate)
+    General Aptitude::Quantitative Aptitude           :  6 new MTs in 9 appearances (67% new-MT rate)
+    Computer Organization and Architecture::Memory Hie:  5 new MTs in 9 appearances (56% new-MT rate)
+    Operating Systems::File Systems                   :  5 new MTs in 4 appearances (125% new-MT rate)
+    Operating Systems::Memory Management              :  5 new MTs in 9 appearances (56% new-MT rate)
+    Compiler Design::Syntax Analysis (Parsing)        :  5 new MTs in 8 appearances (62% new-MT rate)
+    General Aptitude::Spatial Aptitude                :  5 new MTs in 5 appearances (100% new-MT rate)
+    General Aptitude::Logical and Analytical Reasoning:  5 new MTs in 7 appearances (71% new-MT rate)
+    Operating Systems::Deadlocks                      :  4 new MTs in 7 appearances (57% new-MT rate)
+    Programming and Data Structures::Trees            :  4 new MTs in 9 appearances (44% new-MT rate)
+    Databases::Transactions and Concurrency Control   :  4 new MTs in 7 appearances (57% new-MT rate)
+    Theory of Computation::Context-Free Languages     :  4 new MTs in 9 appearances (44% new-MT rate)
+    Engineering Mathematics::Probability and Statistic:  4 new MTs in 7 appearances (57% new-MT rate)
+    Computer Networks::Network Layer and IP Addressing:  4 new MTs in 8 appearances (50% new-MT rate)
+    Compiler Design::Code Optimization                :  4 new MTs in 4 appearances (100% new-MT rate)
+    Digital Logic::Sequential Circuits                :  3 new MTs in 4 appearances (75% new-MT rate)
+    Databases::Entity-Relationship Model              :  3 new MTs in 3 appearances (100% new-MT rate)
+    Discrete Mathematics::Combinatorics               :  3 new MTs in 8 appearances (38% new-MT rate)
+    Digital Logic::Boolean Algebra                    :  3 new MTs in 7 appearances (43% new-MT rate)
+    Computer Organization and Architecture::I/O Interf:  3 new MTs in 8 appearances (38% new-MT rate)
+    Engineering Mathematics::Calculus                 :  3 new MTs in 9 appearances (33% new-MT rate)
+    Digital Logic::Number Systems and Computer Arithme:  3 new MTs in 9 appearances (33% new-MT rate)
+    Operating Systems::Process Management             :  3 new MTs in 6 appearances (50% new-MT rate)
+
+================================================================================
+SECTION 4: SYLLABUS GAP ANALYSIS (Last-Seen vs New-MT)
+================================================================================
+
+  Total new MTs analyzed: 161
+  From known topics (gap > 0): 158
+  From brand-new topics (never seen): 3
+
+  Gap distribution (years since topic last appeared):
+    Gap= 1 years: 123 new MTs ( 77.8%) ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê
+    Gap= 2 years:  20 new MTs ( 12.7%) ΓûêΓûêΓûêΓûêΓûêΓûê
+    Gap= 3 years:   4 new MTs (  2.5%) Γûê
+    Gap= 4 years:   6 new MTs (  3.8%) Γûê
+    Gap= 5 years:   2 new MTs (  1.3%) 
+    Gap= 6 years:   1 new MTs (  0.6%) 
+    Gap= 7 years:   1 new MTs (  0.6%) 
+    Gap= 9 years:   1 new MTs (  0.6%) 
+
+================================================================================
+SECTION 5: OPTIMAL NUMBER OF NEW MT SLOTS
+================================================================================
+  2018: 12 new MTs -> Gap1:  8 | Gap2-3:  3 | Gap4+:  1 | BrandNew:  0
+  2019: 11 new MTs -> Gap1:  6 | Gap2-3:  3 | Gap4+:  1 | BrandNew:  1
+  2020: 12 new MTs -> Gap1:  9 | Gap2-3:  2 | Gap4+:  1 | BrandNew:  0
+  2021: 32 new MTs -> Gap1: 22 | Gap2-3:  5 | Gap4+:  3 | BrandNew:  2
+  2022: 11 new MTs -> Gap1: 10 | Gap2-3:  0 | Gap4+:  1 | BrandNew:  0
+  2023:  4 new MTs -> Gap1:  4 | Gap2-3:  0 | Gap4+:  0 | BrandNew:  0
+  2024: 21 new MTs -> Gap1: 16 | Gap2-3:  4 | Gap4+:  1 | BrandNew:  0
+  2025: 18 new MTs -> Gap1: 16 | Gap2-3:  2 | Gap4+:  0 | BrandNew:  0
+  2026: 40 new MTs -> Gap1: 32 | Gap2-3:  5 | Gap4+:  3 | BrandNew:  0
+
+  --- AVERAGES (2018-2026) ---
+  Total new MTs:  17.9
+  Gap=1 (recent): 13.7 (76.4%)
+  Gap=2-3:        2.7 (14.9%)
+  Gap=4+:         1.2 (6.8%)
+  Brand new:      0.3 (1.9%)
+
+================================================================================
+SECTION 6: PER-SUBJECT NEW MT PRODUCTION RATE
+================================================================================
+
+  Subject                                   New MTs   Total Qs  New MT Rate
+  ------------------------------------------------------------------------
+  Algorithms                                      5         47       10.6%
+  Compiler Design                                18         56       32.1%
+  Computer Networks                              13         64       20.3%
+  Computer Organization and Architecture         11         66       16.7%
+  Databases                                      16         61       26.2%
+  Digital Logic                                  10         51       19.6%
+  Discrete Mathematics                            9         59       15.3%
+  Engineering Mathematics                        10         66       15.2%
+  General Aptitude                               18        133       13.5%
+  Operating Systems                              20         71       28.2%
+  Programming and Data Structures                21        107       19.6%
+  Theory of Computation                          10         62       16.1%
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================

@@ -385,7 +385,7 @@
     "paper_id": "GATE_CS_2011",
     "subject": "Operating Systems",
     "topic": "Memory Management",
-    "micro_topic": "Page Fault Rate Analysis",
+    "micro_topic": "Page Fault Handling",
     "question_text": "Let the page fault service time be 10 ms in a computer with average memory access time being 20 ns. If one page fault is generated for every 10^6 memory accesses, what is the effective access time for the memory?",
     "question_type": "MCQ",
     "choices": [
@@ -4670,7 +4670,7 @@
     "paper_id": "GATE_CS_2014_3",
     "subject": "Operating Systems",
     "topic": "Memory Management",
-    "micro_topic": "Effective Memory Access Time (Paging with TLB)",
+    "micro_topic": "Translation Lookaside Buffer (TLB)",
     "question_text": "Consider a paging hardware with a TLB. Assume that the entire page table and all the pages are in the physical memory. It takes 10 milliseconds to search the TLB and 80 milliseconds to access the physical memory. If the TLB hit ratio is 0.6, the effective memory access time (in milliseconds) is _________.",
     "question_type": "NAT",
     "choices": [],
@@ -8110,7 +8110,7 @@
     "paper_id": "GATE_CS_2015_3",
     "subject": "Programming and Data Structures",
     "topic": "Programming in C",
-    "micro_topic": "Pointers and Arrays in C",
+    "micro_topic": "Pointers in C",
     "question_text": "Consider the following C program. (Code uses static arrays and double pointers). The output of the program is __________.",
     "question_type": "NAT",
     "choices": [],
@@ -22245,7 +22245,7 @@
     "paper_id": "GATE_CS_2025_1",
     "subject": "Programming and Data Structures",
     "topic": "Trees",
-    "micro_topic": "B+ Tree Insertion",
+    "micro_topic": "B+ Trees: Properties and Operations",
     "question_text": "Consider the following B+ tree with 5 nodes, in which a node can store at most 3 key values. Root: [6 | 12 | 19]. Leaves: [1 4 3], [7 9 10], [13 15 17], [20 21 22]. The value 23 is now inserted in the B+ tree. Which of the following options(s) is/are CORRECT?",
     "question_type": "MSQ",
     "choices": [
@@ -24985,7 +24985,7 @@
     "paper_id": "GATE_CS_2018_3",
     "subject": "Digital Logic",
     "topic": "Number Systems and Computer Arithmetic",
-    "micro_topic": "Binary Number System",
+    "micro_topic": "Number Base Conversion",
     "question_text": "Consider the unsigned 8-bit fixed point binary number representation below,\n\n$b_7 b_6 b_5 b_4 b_3 \\cdot b_2 b_1 b_0$\n\nwhere the position of the binary point is between $b_3$ and $b_2$. Assume $b_7$ is the most significant bit. Some of the decimal numbers listed below cannot be represented exactly in the above representation:\n(i) 31.500 (ii) 0.875 (iii) 12.100 (iv) 3.001\nWhich one of the following statements is true?",
     "question_type": "MCQ",
     "choices": [
@@ -25680,7 +25680,7 @@
     "paper_id": "GATE_CS_2021_1",
     "subject": "Digital Logic",
     "topic": "Number Systems and Computer Arithmetic",
-    "micro_topic": "Hexadecimal Number System",
+    "micro_topic": "Number Base Conversion",
     "question_text": "Let the representation of a number in base 3 be 210. What is the hexadecimal representation of the number?",
     "question_type": "MCQ",
     "choices": [
@@ -29817,7 +29817,7 @@
     "paper_id": "GATE_CS1_2026",
     "subject": "Computer Networks",
     "topic": "Data Link Layer",
-    "micro_topic": "Sliding Window Protocol",
+    "micro_topic": "Sliding Window Protocol Efficiency",
     "question_text": "Consider the implementation of sliding window protocol over a lossless link, with a window size of W frames, where each frame is of size 1000 bits (including header). The bandwidth of the link is 100 kbps (1k = 10^3) and the one-way propagation delay is 100 milliseconds. Assume that processing times at the sender and receiver are zero and the transmission time of acknowledgements is also zero. Which one of the following options gives the minimum size of W (in number of frames) required to achieve 100% link utilization?",
     "question_type": "MCQ",
     "choices": [

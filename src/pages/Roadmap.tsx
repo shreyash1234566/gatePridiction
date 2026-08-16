@@ -11,8 +11,8 @@ import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { useAdaptiveSchedule } from "@/hooks/useAdaptiveSchedule";
 
-// Constants — All data from ML Prediction Model v3.2 Elite (R²=76.67%, 1606 Qs, 55 features, 6 ensemble models)
-// Section 5: Subject-wise Predicted Weightage | Section 6: High-Confidence Topics (>75%) | Section 8: Marks Roadmap
+// Constants — Data-driven roadmap from elite prediction outputs and trend analysis.
+// Focus: subject ROI, high-confidence micro-topics, and 620-safe / 700-push score tracks.
 const subjects = [
   { name: 'General Aptitude', qs: 11, conf: 63.6, tier: 1, color: 'bg-emerald-500', tc: 'text-emerald-500 bg-emerald-500/10 border-emerald-500/20', time: 'Daily 15min + Phase build', topics: 'Verbal Ability (75.5% ↓), Quantitative Aptitude, Logical Reasoning · Target: 13–14/15 marks', phase: 'All phases' },
   { name: 'Engineering Mathematics', qs: 9, conf: 66.7, tier: 1, color: 'bg-emerald-500', tc: 'text-emerald-500 bg-emerald-500/10 border-emerald-500/20', time: 'Phase 1 main focus', topics: 'Linear Algebra ↑(80.3%), Probability ↑(78%), Calculus (76.8%), Graphs (80.4%) · Target: 11–12/~15', phase: 'Mar–May' },
@@ -53,9 +53,9 @@ const monthDetails = [
   'SEP — CO: Pipelining (79.5%), I/O. OS: Memory Mgmt (76.1%): paging, segmentation, TLB. Model predicted OS & CO with ~0 error in 2026. OS+CO mock: target 17+/22.',
   'OCT — ToC: Finite Automata (81.8%), Regular Languages (79.2%) — focus these 2, skip Turing. DB: Normalization (Rising ↑ 81.7%), Concurrency (79.6%), SQL (76.7%), RA (77.1%), Indexing (77.9%).',
   'NOV — CD: Parsing (82.2%), SDT (Rising ↑ 78.1%) — only these 2 topics. DL: Boolean Algebra (Rising ↑ 79.4%), K-maps. CN: TCP/IP, routing selective. NAT-only strategy for CN.',
-  'DEC — Full revision: Tier 1 (Engg Math + DS) → Tier 2 (OS + CO + Algo). 3 mock tests/week × 4 weeks = 12 mocks. Error analysis every mock. Target: 52–56 on full mocks.',
-  'JAN — PYQ blitz by subject (10+ years). Weak topic sprint. GA master: must score 13+/15 consistently. Rising topics polish. Full mocks averaging 58+. NAT strategy locked.',
-  '🎯 FEB EXAM MONTH. NO new topics. Formula sheets only. 1 mock/week max. Sleep 8+ hours. Strategy: GA first (13+/15) → NATs (all, +EV) → 2-mark MCQs (eliminate 2 options) → 1-mark MCQs.',
+  'DEC — Full revision: Tier 1 (Engg Math + DS) → Tier 2 (OS + CO + Algo). 3 mock tests/week × 4 weeks = 12 mocks. Error analysis every mock. Target ladder: 52→56→60 (620-safe entry).',
+  'JAN — PYQ blitz by subject (10+ years). Weak topic sprint. GA master: must score 13+/15 consistently. Rising topics polish. Full mocks averaging 60+ (620-safe) and best mocks 63+ (700-push). NAT strategy locked.',
+  '🎯 FEB EXAM MONTH. NO new topics. Formula sheets only. 1 mock/week max. Sleep 8+ hours. Strategy: GA first (13+/15) → NATs (all, +EV) → 2-mark MCQs (eliminate 2 options) → 1-mark MCQs. Execute 620-safe baseline, push to 700 only on high-confidence questions.',
 ];
 
 const milestonesData = [
@@ -68,8 +68,8 @@ const milestonesData = [
   { id: 'm7', date: 'Sep 1, 2026', title: 'OS + CO Phase Complete', desc: 'OS and CO are the two subjects the model predicted perfectly in 2026. They should be locked in. Target: 17+/22 on OS+CO mock.', items: ['CPU Scheduling mastered','Cache Memory mastered','OS+CO mock: 17+/22'], badge: '✓ SYSTEMS', btc: 'text-amber-500 border-amber-500 bg-amber-500/10' },
   { id: 'm8', date: 'Nov 30, 2026', title: 'Full Syllabus Complete — Phase 4 End', desc: 'All 12 subjects covered. Breadth phase done. Full paper mock target: 48–52 marks. Shift to revision mode now.', items: ['ToC + DBs done','CD + DL done','Full mock: 48–52 marks','GA: 12+/15 in mocks'], badge: '✓ ALL SUBJECTS', btc: 'text-purple-500 border-purple-500 bg-purple-500/10' },
   { id: 'm9', date: 'Dec 31, 2026', title: 'Revision Phase 1 Complete', desc: 'P1 + P2 subjects fully revised. Mock test scores improving. Target: 52–56 marks on full mocks by end of December.', items: ['Engg Math revised','DS + Algo revised','Mock target: 52–56 marks'], badge: '📈 IMPROVING', btc: 'text-rose-500 border-rose-500 bg-rose-500/10' },
-  { id: 'm10', date: 'Jan 31, 2027', title: 'GATE-READY Milestone', desc: '3 full-paper mocks averaging 58+ marks. GA consistently scoring 13+/15. Rising topics fully polished. Exam is 2–4 weeks away.', items: ['Mock avg: 58+ marks','GA: 13+/15 consistent','Rising topics: mastered','NAT strategy: locked'], badge: '🎯 READY', btc: 'text-rose-500 border-rose-500 bg-rose-500/10' },
-  { id: 'm11', date: 'Feb 2027', title: '🏆 GATE CSE 2027 — EXAM DAY', desc: 'GA first → NAT questions → 2-mark MCQs → 1-mark MCQs. Target 60+ raw marks. IIT Mandi CSE here we come.', items: ['GA strategy: 13+/15','NAT: attempt all','2-mark focus: OS, Algo, Math','Target raw: 60–65'], badge: '🎓 EXAM', btc: 'text-amber-400 border-amber-400 bg-amber-400/20' },
+  { id: 'm10', date: 'Jan 31, 2027', title: '620 SAFE LOCKED', desc: '3 full-paper mocks averaging 60+ marks. GA consistently scoring 13+/15. NAT discipline and error log locked for the final phase.', items: ['Mock avg: 60+ marks','GA: 13+/15 consistent','Error rate: falling each week','NAT strategy: locked'], badge: '✅ 620 SAFE', btc: 'text-rose-500 border-rose-500 bg-rose-500/10' },
+  { id: 'm11', date: 'Feb 2027', title: '700 PUSH WINDOW', desc: 'GA first → NAT questions → 2-mark MCQs → 1-mark MCQs. Stretch goal for top attempts: 63–68 raw marks with disciplined risk control.', items: ['GA strategy: 13+/15','NAT: attempt all','2-mark focus: OS, Algo, Math','Target raw: 63–68 (700 push)'], badge: '🎓 EXAM', btc: 'text-amber-400 border-amber-400 bg-amber-400/20' },
 ];
 
 const days = ['MON', 'TUE', 'WED', 'THU', 'FRI'];
@@ -212,7 +212,7 @@ export default function Roadmap() {
           1-Year Study <span className="text-primary">Roadmap</span>
         </h1>
         <p className="text-base md:text-xl text-muted-foreground max-w-3xl">
-          Data-driven preparation plan built on ML model predictions (R² = 76.67%). <br/>
+          Data-driven preparation plan built on ML model predictions (R² = 76.67%) with a dual score path. <br/>
           {totalMins} minutes daily. Every session counts.
         </p>
 
@@ -237,12 +237,12 @@ export default function Roadmap() {
             <span className="text-xs text-muted-foreground uppercase tracking-wider">Phases</span>
           </div>
           <div className="flex flex-col">
-            <span className="text-2xl font-mono font-bold text-primary">60+</span>
-            <span className="text-xs text-muted-foreground uppercase tracking-wider">Target Marks</span>
+            <span className="text-2xl font-mono font-bold text-primary">62-68</span>
+            <span className="text-xs text-muted-foreground uppercase tracking-wider">Target Marks Band</span>
           </div>
           <div className="flex flex-col">
-            <span className="text-2xl font-mono font-bold text-primary">620+</span>
-            <span className="text-xs text-muted-foreground uppercase tracking-wider">GATE Score</span>
+            <span className="text-2xl font-mono font-bold text-primary">620-700</span>
+            <span className="text-xs text-muted-foreground uppercase tracking-wider">Score Path</span>
           </div>
         </div>
       </div>
@@ -309,12 +309,12 @@ export default function Roadmap() {
                 color: 'text-purple-400', bg: 'bg-purple-500/5', border: 'border-purple-500/20'
               },
               { num: '05', name: 'REVISION + MOCKS', period: 'Dec 2026 – Jan 2027', badge: 'CRITICAL', duration: 61, 
-                focus: 'Full syllabus revision using spaced repetition: T1 every 2wk, T2 every 3wk, T3 every 4wk. Mock tests 3×/week — error-log every mock. PYQ blitz by subject (10+ years). Rising topics polish: LA↑, MST↑, Norm↑, Bool↑, Prob↑, SDT↑. GA must score 13+/15 consistently. Mock target: 52→56→58→60+.', 
+                focus: 'Full syllabus revision using spaced repetition: T1 every 2wk, T2 every 3wk, T3 every 4wk. Mock tests 3×/week — error-log every mock. PYQ blitz by subject (10+ years). Rising topics polish: LA↑, MST↑, Norm↑, Bool↑, Prob↑, SDT↑. GA must score 13+/15 consistently. Mock target ladder: 52→56→60 (620-safe) → 63+ (700-push).', 
                 tags: [{t:'3 Mocks/Week', c:'border-blue-500/30 text-sky-400', dot:'bg-sky-400'}, {t:'Rising Topic Polish', c:'border-emerald-500/30 text-emerald-500', dot:'bg-emerald-500'}, {t:'PYQ Blitz 10yr', c:'border-blue-500/30 text-sky-400', dot:'bg-sky-400'}, {t:'GA 13+/15', c:'border-amber-500/20 text-amber-400', dot:'bg-amber-400'}, {t:'NAT Strategy Lock', c:'border-amber-500/20 text-amber-400', dot:'bg-amber-400'}, {t:'Weak Topic Sprint', c:'border-rose-500/20 text-rose-400', dot:'bg-rose-400'}, {t:'Spaced Repetition', c:'border-purple-500/20 text-purple-400', dot:'bg-purple-400'}],
                 color: 'text-rose-500', bg: 'bg-rose-500/5', border: 'border-rose-500/20'
               },
               { num: '06', name: 'FINAL SPRINT', period: 'Feb 2027 · ~3 weeks', badge: 'EXAM', duration: 21, 
-                focus: 'NO new topics. Light revision only. 1 mock/week max. Formula sheets, quick-recall drills. Sleep 8+ hours mandatory. Exam order: GA first (13+/15) → NAT Qs (all, +EV, 0 neg) → 2-mark MCQs (eliminate 2 then pick) → 1-mark MCQs. Target raw: 60–65 marks.', 
+                focus: 'NO new topics. Light revision only. 1 mock/week max. Formula sheets, quick-recall drills. Sleep 8+ hours mandatory. Exam order: GA first (13+/15) → NAT Qs (all, +EV, 0 neg) → 2-mark MCQs (eliminate 2 then pick) → 1-mark MCQs. Target raw bands: 60–63 (620-safe) and 63–68 (700-push).', 
                 tags: [{t:'Formula Sheets Only', c:'border-emerald-500/30 text-emerald-500', dot:'bg-emerald-500'}, {t:'1 Mock Max', c:'border-amber-500/20 text-amber-400', dot:'bg-amber-400'}, {t:'Sleep 8+ Hours', c:'border-blue-500/30 text-sky-400', dot:'bg-sky-400'}, {t:'GA→NAT→2mk→1mk', c:'border-emerald-500/30 text-emerald-500', dot:'bg-emerald-500'}, {t:'Mental + Physical Rest', c:'border-amber-500/20 text-amber-400', dot:'bg-amber-400'}],
                 color: 'text-amber-400', bg: 'bg-amber-400/5', border: 'border-amber-400/20'
               }
@@ -381,7 +381,7 @@ export default function Roadmap() {
           <div className="mb-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div>
               <h2 className="text-xl font-bold flex items-center gap-3 border-l-4 border-primary pl-3">Weekly Timetable</h2>
-              <p className="text-sm text-muted-foreground mt-2">Each day = {totalMins} minutes. Dynamically updates based on Phase.</p>
+              <p className="text-sm text-muted-foreground mt-2">Each day = {totalMins} minutes. Dynamically updates by phase with checkpoints for 620-safe and 700-push attempts.</p>
             </div>
             <Select value={ttPhase} onValueChange={setTtPhase}>
               <SelectTrigger className="w-full md:w-[300px]">
@@ -455,7 +455,7 @@ export default function Roadmap() {
         <TabsContent value="daily" className="space-y-6">
           <div className="mb-4">
             <h2 className="text-xl font-bold flex items-center gap-3 border-l-4 border-primary pl-3">Daily Session Customizer</h2>
-            <p className="text-sm text-muted-foreground mt-2">Adjust your daily study distribution. Total time scales automatically across the roadmap.</p>
+            <p className="text-sm text-muted-foreground mt-2">Adjust your daily study distribution. Total time scales automatically across the roadmap and supports both 620-safe and 700-push tracks.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -616,7 +616,7 @@ export default function Roadmap() {
                   <AlertTriangle className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
                   <div>
                     <div className="text-sm font-bold text-amber-500">Key Rule</div>
-                    <div className="text-xs text-muted-foreground mt-1">Never skip the GA block. Even on hard subject days. GA = guaranteed 13+ marks if practiced daily for a year.</div>
+                    <div className="text-xs text-muted-foreground mt-1">Never skip the GA block. Even on hard subject days. GA is the base lock for both 620-safe and 700-push outcomes.</div>
                   </div>
                 </CardContent>
               </Card>
@@ -627,7 +627,7 @@ export default function Roadmap() {
         <TabsContent value="subjects" className="space-y-6">
           <div className="mb-4">
             <h2 className="text-xl font-bold flex items-center gap-3 border-l-4 border-primary pl-3">Subject Priority Map</h2>
-            <p className="text-sm text-muted-foreground mt-2">Ordered by predicted 2027 weightage × confidence score. Bar = proportion of total paper.</p>
+            <p className="text-sm text-muted-foreground mt-2">Ordered by predicted 2027 weightage × confidence score. Use this map to secure 620-safe first, then push 700 via high-confidence 2-mark topics.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -668,7 +668,7 @@ export default function Roadmap() {
           <div className="mb-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div>
               <h2 className="text-xl font-bold flex items-center gap-3 border-l-4 border-primary pl-3">Milestone Timeline</h2>
-              <p className="text-sm text-muted-foreground mt-2">Check off achievements as you go. Progress is saved locally in your browser.</p>
+              <p className="text-sm text-muted-foreground mt-2">Check off achievements as you go. Progress is saved locally in your browser across both 620-safe and 700-push milestones.</p>
             </div>
             <div className="bg-sidebar px-4 py-2 rounded-lg border border-border flex items-center gap-3">
               <span className="text-sm font-medium text-foreground">Overall Goal</span>
@@ -734,7 +734,7 @@ export default function Roadmap() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { icon: Target, title: 'MARKS ROADMAP — Section 8', text: 'GA: 13–14/15 · Engg Math: 11–12/~15 · OS: 9–10/~12 · CO: 7–8/~12 · DS: 7–8/~14 · Algo: 5–6/~7 · ToC+DB selective: 9–11/~20 · TOTAL TARGET: 60–65 raw marks. Model R²=76.67%.', color: 'text-primary', bg: 'bg-primary/10' },
+              { icon: Target, title: 'DUAL ROADMAP: 620 SAFE / 700 PUSH', text: '620-safe track: 60–63 raw marks with strong GA + NAT discipline. 700-push track: 63–68 raw marks with higher 2-mark conversion in OS/Algo/Math. Treat 60 as floor, 68 as stretch.', color: 'text-primary', bg: 'bg-primary/10' },
               { icon: TrendingUp, title: 'Linear Algebra is Your Secret Weapon', text: 'Recent average jumped 2.88→4.33 Qs (Rising↑ 80.3%). Predicted 1.01 Qs at 80.3% conf. This single topic could swing 6–8 marks. Priority #1 in Phase 1.', color: 'text-emerald-500', bg: 'bg-emerald-500/10' },
               { icon: Target, title: 'NAT-First Exam Strategy', text: 'Exam order: GA first (15 marks locked) → ALL NATs (0 negative marking, pure +EV) → 2-mark MCQs (eliminate 2 options: -2/3 → +2 gamble) → 1-mark MCQs last (-1/3 penalty).', color: 'text-blue-500', bg: 'bg-blue-500/10' },
               { icon: AlertTriangle, title: 'Calibration Inversion Insight', text: 'Section 4: Topics in 65–80% confidence band have HIGHER real accuracy (80–87%) vs 80%+ band. The 30 high-conf topics (>75%) are calibration sweet spot — trust them more than raw %.', color: 'text-amber-500', bg: 'bg-amber-500/10' },
@@ -743,7 +743,7 @@ export default function Roadmap() {
               { icon: CheckCircle2, title: 'GA = 13+/15. Non-Negotiable.', text: 'Model predicted 11 Qs vs 10 actual (Sec 5). 15 mins daily × 339 days = ~85 hours invested. GA = 15 marks at easiest difficulty. Best marks-per-hour in entire paper.', color: 'text-primary', bg: 'bg-primary/10' },
               { icon: BookOpen, title: 'Asymptotic Analysis: 83.8% #1', text: 'HIGHEST confidence topic in entire 1606-question model. Predicted 0.43 Qs (stable). Master Theorem, recurrences, Akra-Bazzi. Section 6 rank #1. Guaranteed marks.', color: 'text-blue-500', bg: 'bg-blue-500/10' },
               { icon: RefreshCw, title: 'Spaced Repetition Schedule', text: 'Tier 1 (Engg Math, DS): every 2 weeks. Tier 2 (OS, CO, Algo): every 3 weeks. Tier 3 (ToC, CN, DBs): every 4 weeks. Tier 4 (DL, CD, Prog): as needed. Blocks forgetting decay.', color: 'text-purple-500', bg: 'bg-purple-500/10' },
-              { icon: Brain, title: 'Phase 5: Where Ranks Are Made', text: 'Dec–Jan: 3 mocks/week × 8 weeks = 24 mocks. Error analysis after EVERY mock. Categorise errors: concept vs calculation vs silly. Target trajectory: 52→56→58→60+ marks.', color: 'text-rose-500', bg: 'bg-rose-500/10' },
+              { icon: Brain, title: 'Phase 5: Where Ranks Are Made', text: 'Dec–Jan: 3 mocks/week × 8 weeks = 24 mocks. Error analysis after EVERY mock. Categorise errors: concept vs calculation vs silly. Target trajectory: 52→56→60→63+ marks.', color: 'text-rose-500', bg: 'bg-rose-500/10' },
               { icon: AlertTriangle, title: 'DS Volatility Warning', text: 'Section 3: DS has highest prediction error (most volatile). 7 predicted Qs at 71.5% avg conf. Don\'t over-rely on count — focus on conceptual mastery. BSTs (79.5%) is anchor topic.', color: 'text-amber-500', bg: 'bg-amber-500/10' },
               { icon: Target, title: 'Negative Marking Rules', text: 'MCQ (1-mark): −1/3 per wrong. MCQ (2-mark): −2/3 per wrong. NAT: 0 penalty ever. Strategy: attempt ALL NATs always. MCQs: only attempt if you can eliminate ≥2 options.', color: 'text-blue-500', bg: 'bg-blue-500/10' },
             ].map((tip, i) => (

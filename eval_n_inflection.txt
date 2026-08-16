@@ -1,0 +1,231 @@
+﻿
+ACTUAL PIPELINE PERFORMANCE - FINDING THE INFLECTION POINT
+---------------------------------------------------------------------------
+N          | M_Hit %         | Marginal Gain   | M_Cov %        
+---------------------------------------------------------------------------
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 64 topics | 281 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 3.0, 'Compiler Design': 3.0, 'Computer Networks': 3.0, 'Computer Organization and Architecture': 3.0, 'Databases': 3.0, 'Digital Logic': 3.0, 'Discrete Mathematics': 3.0, 'Engineering Mathematics': 3.0, 'General Aptitude': 3.0, 'Operating Systems': 3.0, 'Programming and Data Structures': 3.0, 'Theory of Computation': 3.0}
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+   Γ£ô Training samples: 167 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 1.5955
+      et    : 1.7256
+      rf    : 1.7168
+      hgb   : 1.6086
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 1.5604, 'RMSE': 2.2593, 'R2': 0.3004}
+
+≡ƒö« Topic predictions for 2018 ΓÇª
+   Γ£ô 51 raw topic predictions
+   Γ£ô 51 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2018 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 60 High Priority | 14 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 64 topics | 293 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 5.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 5.0, 'Databases': 5.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 3.0, 'Engineering Mathematics': 2.5, 'General Aptitude': 1.0, 'Operating Systems': 5.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 5.0}
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+   Γ£ô Training samples: 224 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 1.3837
+      et    : 1.5140
+      rf    : 1.4884
+      hgb   : 1.5013
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 1.4974, 'RMSE': 2.2074, 'R2': 0.2635}
+
+≡ƒö« Topic predictions for 2019 ΓÇª
+   Γ£ô 56 raw topic predictions
+   Γ£ô 56 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2019 (Canonical Dirichlet) ΓÇª
+   Γ£ô 80 canonical concept predictions (80 concepts)
+   Γ£ô Tiers: 65 High Priority | 15 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 65 topics | 304 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 5.0, 'Computer Organization and Architecture': 1.5, 'Databases': 5.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 2.5, 'General Aptitude': 1.5, 'Operating Systems': 5.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 5.0}
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+   Γ£ô Training samples: 289 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 1.3179
+      et    : 1.3868
+      rf    : 1.3673
+      hgb   : 1.4197
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 1.3225, 'RMSE': 2.0355, 'R2': 0.2875}
+
+≡ƒö« Topic predictions for 2020 ΓÇª
+   Γ£ô 59 raw topic predictions
+   Γ£ô 59 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2020 (Canonical Dirichlet) ΓÇª
+   Γ£ô 82 canonical concept predictions (82 concepts)
+   Γ£ô Tiers: 69 High Priority | 13 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 65 topics | 316 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 3.0, 'Databases': 1.0, 'Digital Logic': 2.5, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 2.5, 'General Aptitude': 1.0, 'Operating Systems': 5.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 1.5}
+   Γ£ô Learned Dirichlet params: ╬║=0.3, ╬┤=0.6 (canonical recall=100.0%)
+   Γ£ô Training samples: 350 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 1.2041
+      et    : 1.2347
+      rf    : 1.2329
+      hgb   : 1.3279
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 1.2298, 'RMSE': 1.9321, 'R2': 0.2795}
+
+≡ƒö« Topic predictions for 2021 ΓÇª
+   Γ£ô 60 raw topic predictions
+   Γ£ô 60 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2021 (Canonical Dirichlet) ΓÇª
+   Γ£ô 80 canonical concept predictions (80 concepts)
+   Γ£ô Tiers: 70 High Priority | 10 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=0.3, ╬┤=0.6
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 66 topics | 348 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 1.0, 'Databases': 1.5, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 2.5, 'General Aptitude': 1.0, 'Operating Systems': 2.5, 'Programming and Data Structures': 1.0, 'Theory of Computation': 1.0}
+   Γ£ô Learned Dirichlet params: ╬║=0.3, ╬┤=0.6 (canonical recall=99.2%)
+   Γ£ô Training samples: 431 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 1.1478
+      et    : 1.1990
+      rf    : 1.1876
+      hgb   : 1.2249
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 1.1791, 'RMSE': 1.8346, 'R2': 0.2928}
+
+≡ƒö« Topic predictions for 2022 ΓÇª
+   Γ£ô 62 raw topic predictions
+   Γ£ô 62 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2022 (Canonical Dirichlet) ΓÇª
+   Γ£ô 82 canonical concept predictions (82 concepts)
+   Γ£ô Tiers: 71 High Priority | 11 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=0.3, ╬┤=0.6
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 66 topics | 359 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 1.0, 'Databases': 5.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.5, 'Engineering Mathematics': 1.0, 'General Aptitude': 1.0, 'Operating Systems': 1.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 2.0}
+   Γ£ô Learned Dirichlet params: ╬║=0.3, ╬┤=0.6 (canonical recall=99.5%)
+   Γ£ô Training samples: 480 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 1.1178
+      et    : 1.1402
+      rf    : 1.1369
+      hgb   : 1.1944
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 1.1317, 'RMSE': 1.7521, 'R2': 0.3041}
+
+≡ƒö« Topic predictions for 2023 ΓÇª
+   Γ£ô 62 raw topic predictions
+   Γ£ô 62 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2023 (Canonical Dirichlet) ΓÇª
+   Γ£ô 80 canonical concept predictions (80 concepts)
+   Γ£ô Tiers: 71 High Priority | 9 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=0.3, ╬┤=0.6
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 66 topics | 363 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 5.0, 'Databases': 5.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 4.0, 'Engineering Mathematics': 1.0, 'General Aptitude': 1.0, 'Operating Systems': 1.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 2.0}
+   Γ£ô Learned Dirichlet params: ╬║=0.3, ╬┤=0.6 (canonical recall=99.6%)
+   Γ£ô Training samples: 532 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 1.0971
+      et    : 1.1052
+      rf    : 1.0917
+      hgb   : 1.1621
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 1.1002, 'RMSE': 1.7134, 'R2': 0.2872}
+
+≡ƒö« Topic predictions for 2024 ΓÇª
+   Γ£ô 63 raw topic predictions
+   Γ£ô 63 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2024 (Canonical Dirichlet) ΓÇª
+   Γ£ô 81 canonical concept predictions (81 concepts)
+   Γ£ô Tiers: 72 High Priority | 9 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=0.3, ╬┤=0.6
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 66 topics | 384 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 5.0, 'Databases': 1.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 1.0, 'General Aptitude': 3.5, 'Operating Systems': 1.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 1.0}
+   Γ£ô Learned Dirichlet params: ╬║=0.3, ╬┤=0.6 (canonical recall=99.7%)
+   Γ£ô Training samples: 605 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 1.1170
+      et    : 1.1269
+      rf    : 1.1302
+      hgb   : 1.1714
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 1.1085, 'RMSE': 1.5982, 'R2': 0.3915}
+
+≡ƒö« Topic predictions for 2025 ΓÇª
+   Γ£ô 63 raw topic predictions
+   Γ£ô 63 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2025 (Canonical Dirichlet) ΓÇª
+   Γ£ô 82 canonical concept predictions (82 concepts)
+   Γ£ô Tiers: 73 High Priority | 9 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=0.3, ╬┤=0.6
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+
+≡ƒöº Training Best v8.0 ensemble ΓÇª
+   Γ£ô 66 topics | 402 micro-topics
+   Γ£ô Learned topic ╧ä per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 3.0, 'Databases': 4.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 1.0, 'General Aptitude': 1.0, 'Operating Systems': 1.0, 'Programming and Data Structures': 4.0, 'Theory of Computation': 1.0}
+   Γ£ô Learned Dirichlet params: ╬║=0.3, ╬┤=0.6 (canonical recall=99.7%)
+   Γ£ô Training samples: 665 | Features: 55
+   Γ£ô Built 4 models: ['xgb', 'et', 'rf', 'hgb']
+   ≡ƒôè CV MAE per model:
+      xgb   : 1.1001
+      et    : 1.1171
+      rf    : 1.1020
+      hgb   : 1.1526
+   ≡ƒº▒ Stacking metaΓÇælearner ΓÇª
+   ≡ƒÄ» Stacker OOF: {'MAE': 1.1226, 'RMSE': 1.589, 'R2': 0.3878}
+
+≡ƒö« Topic predictions for 2026 ΓÇª
+   Γ£ô 63 raw topic predictions
+   Γ£ô 63 topics normalised ΓåÆ 65.0 questions
+
+≡ƒö¼ MicroΓÇætopic predictions for 2026 (Canonical Dirichlet) ΓÇª
+   Γ£ô 82 canonical concept predictions (82 concepts)
+   Γ£ô Tiers: 67 High Priority | 15 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=0.3, ╬┤=0.6
+180        | 52.6            | N/A             | 57.2           
+190        | 55.0            | +2.4%           | 59.4           
+200        | 57.5            | +2.5%           | 61.7           
+210        | 59.3            | +1.8%           | 63.4           
+220        | 61.4            | +2.1%           | 65.3           
+230        | 63.5            | +2.1%           | 67.2           
+240        | 65.2            | +1.7%           | 68.9           
+250        | 67.0            | +1.8%           | 70.4           
+260        | 67.6            | +0.7%           | 71.1           
+270        | 68.5            | +0.9%           | 71.8           

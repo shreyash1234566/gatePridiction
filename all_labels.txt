@@ -1,0 +1,584 @@
+﻿
+=== Algorithms::Algorithm Design: Divide and Conquer ===
+  [  1x] Divide and Conquer Paradigm
+
+=== Algorithms::Algorithm Design: Dynamic Programming ===
+  [  5x] Dynamic Programming: Optimal Substructure
+  [  4x] Floyd-Warshall Algorithm (All-Pairs Shortest Paths)
+  [  1x] Longest Common Subsequence (LCS)
+
+=== Algorithms::Algorithm Design: Greedy ===
+  [  5x] Greedy Algorithm Properties
+
+=== Algorithms::Asymptotic Analysis ===
+  [ 25x] Time Complexity Analysis
+  [  2x] Theta Notation (╬ÿ)
+  [  1x] Best, Worst and Average Case Analysis
+  [  1x] Amortized Analysis: Aggregate Method
+  [  1x] Omega Notation (╬⌐)
+
+=== Algorithms::Computational Complexity ===
+  [  8x] Polynomial Time Algorithms (Class P)
+  [  4x] NP-Completeness
+  [  1x] Cook-Levin Theorem (SAT is NP-Complete)
+
+=== Algorithms::Graph Algorithms ===
+  [ 20x] Kruskal's Algorithm (Minimum Spanning Tree)
+  [  2x] Dijkstra's Algorithm (Weighted Graph)
+  [  2x] Topological Sort
+  [  1x] Bellman-Ford Algorithm (Negative Weights)
+  [  1x] Strongly Connected Components (Kosaraju's Algorithm)
+  [  1x] Cycle Detection in Directed Graph
+  [  1x] Prim's Algorithm (Minimum Spanning Tree)
+
+=== Algorithms::Searching and Sorting ===
+  [  8x] Merge Sort
+  [  5x] Quick Sort: Pivot Selection and Worst Case
+  [  4x] Linear Search
+  [  3x] Binary Search
+  [  2x] Quick Sort
+  [  1x] Selection Sort
+  [  1x] Heap Sort
+  [  1x] Bubble Sort
+  [  1x] Stable Sorting Algorithms
+
+=== Compiler Design::Code Optimization ===
+  [  5x] Control Flow Graph (CFG)
+  [  4x] Local Optimization Techniques
+  [  4x] Live Variable Analysis
+  [  3x] Register Allocation by Graph Coloring
+  [  3x] Basic Blocks and Flow Graphs
+  [  2x] Common Subexpression Elimination (CSE)
+  [  1x] Dead Code Elimination
+  [  1x] Constant Folding
+  [  1x] Reaching Definitions Analysis
+
+=== Compiler Design::Lexical Analysis ===
+  [  5x] Role of Lexical Analyzer
+  [  4x] Keyword and Token Recognition
+  [  3x] Symbol Table: Structure and Operations
+  [  2x] Regular Expressions in Lexical Analysis
+
+=== Compiler Design::Runtime Environments ===
+  [  1x] Activation Records (Stack Frames)
+  [  1x] Runtime Stack Management
+  [  1x] Dynamic Scoping
+
+=== Compiler Design::Semantic Analysis and Intermediate Code ===
+  [  4x] Three-Address Code (TAC)
+  [  3x] Intermediate Code for Expressions
+  [  3x] Syntax Directed Translation (SDT)
+  [  2x] Intermediate Code for Control Flow
+  [  1x] Inherited Attributes
+  [  1x] Synthesized Attributes
+  [  1x] Quadruples and Triples Representation
+  [  1x] S-Attributed Definitions
+  [  1x] Translation Schemes
+
+=== Compiler Design::Syntax Analysis (Parsing) ===
+  [  7x] Bottom-Up Parsing
+  [  4x] Parse Trees and Derivations
+  [  4x] LALR(1) Parsing
+  [  4x] Context-Free Grammar for Programming Languages
+  [  3x] LL(1) Parsing Table Construction
+  [  3x] SLR(1) Parsing
+  [  2x] Shift-Reduce Parsing
+  [  2x] Left Recursion Elimination
+  [  2x] FOLLOW Sets
+  [  2x] Predictive Parsing (LL)
+  [  2x] FIRST and FOLLOW Sets
+  [  1x] Ambiguous Grammar and Parsing
+  [  1x] LR(0) Parsing and Items
+
+=== Computer Networks::Application Layer Protocols ===
+  [  6x] HTTP Protocol: Request and Response
+  [  6x] DNS Protocol and Name Resolution
+  [  3x] Email System Architecture (MUA, MTA, MDA)
+  [  1x] HTTP Persistent vs Non-Persistent Connections
+  [  1x] DHCP Protocol (Application Layer View)
+
+=== Computer Networks::Data Link Layer ===
+  [ 10x] Ethernet (IEEE 802.3): CSMA/CD
+  [  6x] Sliding Window Protocol Efficiency
+  [  3x] Stop-and-Wait Protocol
+  [  2x] IEEE 802.11 Wireless LAN (Wi-Fi)
+  [  2x] Error Detection: CRC (Cyclic Redundancy Check)
+  [  2x] Error Detection: Parity Bits
+  [  1x] Framing: Bit Stuffing and Byte Stuffing
+  [  1x] Token Ring Protocol
+  [  1x] ALOHA Protocol: Pure and Slotted
+  [  1x] Error Correction: Hamming Code
+  [  1x] Sliding Window Protocol
+
+=== Computer Networks::Network Architecture and Layering ===
+  [  7x] OSI Model: Seven Layers and Functions
+  [  3x] Packet, Circuit, and Virtual Circuit Switching
+  [  1x] Network Devices: Hub, Switch, Router, Bridge
+  [  1x] TCP/IP Model: Four Layers and Functions
+
+=== Computer Networks::Network Layer and IP Addressing ===
+  [ 10x] IP Fragmentation and Reassembly
+  [  6x] CIDR (Classless Inter-Domain Routing) and Route Aggregation
+  [  5x] IPv4 Header Fields and Structure
+  [  4x] IP Addressing (IPv4): Classful Addressing
+  [  3x] Subnet Masks and Subnetting
+  [  3x] IPv6 Addressing and Header
+  [  2x] NAT (Network Address Translation)
+  [  2x] IP Forwarding and Routing Tables
+  [  1x] ICMP Protocol and Ping
+  [  1x] ARP Protocol
+
+=== Computer Networks::Network Security ===
+  [  3x] Asymmetric (Public Key) Cryptography (RSA)
+  [  2x] Firewall: Packet Filtering
+  [  2x] Symmetric Key Cryptography (AES, DES)
+  [  2x] RSA Algorithm (Key Generation, Encryption, Decryption)
+
+=== Computer Networks::Routing Protocols ===
+  [  9x] Routing Algorithms: Distance Vector Routing
+
+=== Computer Networks::Transport Layer ===
+  [  7x] TCP Sequence Numbers and Acknowledgments
+  [  5x] TCP Congestion Control: Slow Start
+  [  2x] Socket API and Socket Programming
+  [  2x] TCP Protocol: Connection-Oriented
+  [  2x] TCP Three-Way Handshake
+  [  1x] TCP vs UDP Comparison
+  [  1x] UDP Protocol
+  [  1x] TCP State Machine
+  [  1x] TCP Timer Management and RTT Estimation
+
+=== Computer Organization and Architecture::ALU, Data-Path and Control Unit ===
+  [  2x] Data-Path Architecture
+  [  2x] Instruction Execution Cycle (Fetch, Decode, Execute)
+  [  2x] RISC vs CISC Architecture
+  [  2x] ALU Design and Operations
+
+=== Computer Organization and Architecture::I/O Interface ===
+  [  6x] Direct Memory Access (DMA)
+  [  2x] Interrupt Priority and Handling
+  [  1x] Programmed I/O (Polling)
+  [  1x] Interrupt Service Routine (ISR)
+  [  1x] Interrupt-Driven I/O
+
+=== Computer Organization and Architecture::Instruction Pipelining ===
+  [ 10x] Instruction Pipelining: Concept and Stages
+  [  6x] Data Hazards in Pipelining
+  [  5x] Pipeline Stalls (Bubbles)
+  [  4x] CPI (Cycles Per Instruction) Analysis
+  [  3x] Data Forwarding (Bypassing)
+  [  1x] Pipeline Throughput and Speedup
+
+=== Computer Organization and Architecture::Machine Instructions and Addressing Modes ===
+  [ 11x] Instruction Format and Fields
+  [  4x] Instruction Types: Data Transfer, Arithmetic, Logic, Control
+  [  2x] Indirect Addressing Mode
+  [  1x] Immediate Addressing Mode
+  [  1x] Base-Register Addressing Mode
+
+=== Computer Organization and Architecture::Memory Hierarchy ===
+  [ 13x] Cache Memory: Concept and Locality of Reference
+  [  9x] Set Associative Cache
+  [  6x] Direct Mapped Cache
+  [  5x] Memory Hierarchy: Levels and Trade-offs
+  [  4x] Cache Block/Line Size
+  [  4x] Cache Hit Rate and Miss Rate
+  [  1x] Write-Back Policy
+  [  1x] Fully Associative Cache
+  [  1x] Write-Through Policy
+  [  1x] LRU Cache Replacement
+  [  1x] Secondary Storage: HDD and SSD
+  [  1x] Cache Coherence
+
+=== Databases::Entity-Relationship Model ===
+  [  2x] Entity Types: Strong and Weak Entities
+  [  1x] Attribute Types: Simple, Composite, Multivalued, Derived
+  [  1x] Entity, Attribute, and Relationship
+  [  1x] Cardinality Ratios: One-to-One, One-to-Many, Many-to-Many
+
+=== Databases::File Organization and Indexing ===
+  [  6x] B+ Tree Indexing
+  [  3x] Heap File Organization
+  [  2x] Primary Index (Dense and Sparse)
+  [  1x] Hash File Organization
+  [  1x] Clustering vs Non-Clustering Index
+  [  1x] Sequential File Organization
+
+=== Databases::Functional Dependencies and Normalization ===
+  [ 15x] Boyce-Codd Normal Form (BCNF)
+  [  5x] Functional Dependencies (FD): Definition
+  [  1x] Keys Derived from Functional Dependencies
+  [  1x] First Normal Form (1NF)
+  [  1x] Third Normal Form (3NF)
+  [  1x] Lossless Join Decomposition
+
+=== Databases::Relational Model and Relational Algebra ===
+  [  5x] Selection (╧â) in Relational Algebra
+  [  4x] Projection (╧Ç) in Relational Algebra
+  [  4x] Keys: Super Key, Candidate Key, Primary Key, Foreign Key
+  [  3x] Natural Join in Relational Algebra
+  [  2x] Tuple Relational Calculus
+  [  2x] Relational Schema Design
+  [  1x] Relations, Tuples, and Attributes
+  [  1x] Integrity Constraints: Entity Integrity, Referential Integrity
+  [  1x] Outer Joins: Left, Right, Full
+  [  1x] Rename (╧ü) Operation
+
+=== Databases::SQL ===
+  [  7x] SQL GROUP BY Clause
+  [  3x] SQL IN and NOT IN
+  [  2x] SQL Natural Join
+  [  2x] SQL Joins: INNER, LEFT, RIGHT, FULL OUTER
+  [  2x] SQL Aggregate Functions: COUNT, SUM, AVG, MIN, MAX
+  [  2x] SQL SELECT Queries
+  [  1x] SQL WHERE Clause and Predicates
+  [  1x] SQL HAVING Clause
+  [  1x] SQL DDL: CREATE, ALTER, DROP
+  [  1x] SQL EXISTS and NOT EXISTS
+
+=== Databases::Transactions and Concurrency Control ===
+  [ 11x] Transaction Schedules
+  [  4x] Atomicity and Durability
+  [  2x] Log-Based Recovery: Undo and Redo
+  [  2x] Two-Phase Locking (2PL)
+  [  2x] Serial and Serializable Schedules
+  [  2x] Conflict Serializability
+  [  1x] Deadlock in DBMS
+  [  1x] Lock-Based Protocols
+
+=== Digital Logic::Boolean Algebra ===
+  [ 12x] Boolean Function Representation (SOP, POS)
+  [  5x] Boolean Function Minimization
+  [  2x] Boolean Algebra Axioms and Identities
+  [  2x] Canonical Forms: Minterms and Maxterms
+  [  1x] Complement of Boolean Functions
+
+=== Digital Logic::Combinational Circuits ===
+  [  6x] Multiplexers (MUX)
+  [  4x] Full Adder
+  [  1x] Binary Multiplier
+  [  1x] Priority Encoders
+  [  1x] Decoders
+  [  1x] Half Subtractor and Full Subtractor
+
+=== Digital Logic::Logic Gates ===
+  [  6x] Gate-Level Implementation of Boolean Functions
+  [  2x] Universal Gates: NAND, NOR
+
+=== Digital Logic::Minimization ===
+  [  7x] Karnaugh Map (K-Map) Minimization
+  [  1x] Prime Implicants and Essential Prime Implicants
+
+=== Digital Logic::Number Systems and Computer Arithmetic ===
+  [  8x] Number Base Conversion
+  [  6x] IEEE 754 Floating Point Standard
+  [  4x] Single and Double Precision Representation
+  [  3x] Sign-Magnitude Representation
+  [  2x] Overflow Detection
+  [  1x] 2's Complement Representation
+  [  1x] Floating Point Arithmetic: Addition and Subtraction
+  [  1x] Binary Number System
+  [  1x] Hexadecimal Number System
+
+=== Digital Logic::Sequential Circuits ===
+  [  5x] D Flip-Flop
+  [  2x] JK Flip-Flop
+  [  2x] Synchronous Counters
+  [  1x] Modulo-N Counters
+  [  1x] Ring Counters and Johnson Counters
+  [  1x] Finite State Machine (FSM): Mealy Model
+  [  1x] Asynchronous (Ripple) Counters
+  [  1x] State Table and State Diagram
+
+=== Discrete Mathematics::Algebraic Structures ===
+  [  5x] Subgroups and Lagrange's Theorem
+  [  4x] Groups: Definition, Axioms, Properties
+  [  1x] Abelian Groups
+
+=== Discrete Mathematics::Combinatorics ===
+  [ 12x] Counting Principles: Product and Sum Rules
+  [  8x] Recurrence Relations
+  [  3x] Generating Functions
+  [  1x] Permutations
+  [  1x] Combinations and Binomial Theorem
+
+=== Discrete Mathematics::Graph Theory ===
+  [  9x] Planar Graphs and Euler's Formula
+  [  7x] Graph Definitions: Vertices, Edges, Degree
+  [  5x] Degree Sequences and Handshaking Lemma
+  [  5x] Graph Connectivity: Cut Vertices and Bridges
+  [  4x] Graph Isomorphism
+  [  3x] Spanning Trees and Number of Spanning Trees
+  [  3x] Graph Coloring and Chromatic Number
+  [  1x] Bipartite Graphs
+  [  1x] Hamiltonian Paths and Circuits
+
+=== Discrete Mathematics::Propositional and First-Order Logic ===
+  [ 21x] Propositional Logic: Syntax and Semantics
+  [  6x] First-Order Logic: Predicates and Quantifiers
+  [  5x] Tautologies and Contradictions
+  [  4x] Universal and Existential Quantification
+  [  1x] Logical Connectives and Truth Tables
+  [  1x] Satisfiability and Validity
+
+=== Discrete Mathematics::Sets, Relations, Functions ===
+  [  7x] Types of Relations: Reflexive, Symmetric, Antisymmetric, Transitive
+  [  5x] Functions: Domain, Codomain, Range
+  [  4x] Power Sets and Cardinality
+  [  4x] Set Operations: Union, Intersection, Difference, Complement
+  [  2x] Partial Orders and Posets (HASSE Diagrams)
+  [  1x] Surjective (Onto) Functions
+  [  1x] Equivalence Relations and Equivalence Classes
+  [  1x] Injective (One-to-One) Functions
+
+=== Engineering Mathematics::Calculus ===
+  [ 17x] Derivatives: Rules and Applications
+  [  6x] Integration: Definite and Indefinite Integrals
+  [  6x] Continuity and Discontinuity
+  [  3x] Techniques of Integration
+  [  3x] Differentiability
+  [  2x] Maxima and Minima (Single Variable)
+  [  2x] L'H├┤pital's Rule
+  [  1x] Limits of Functions
+
+=== Engineering Mathematics::Linear Algebra ===
+  [ 18x] Eigenvalues and Eigenvectors
+  [  8x] Matrices: Types and Operations
+  [  7x] Determinants and Their Properties
+  [  7x] System of Linear Equations (Gaussian Elimination)
+  [  2x] LU Decomposition
+  [  2x] Singular and Non-Singular Matrices
+  [  1x] Vector Spaces and Subspaces
+  [  1x] Rank of a Matrix
+  [  1x] Trace of a Matrix
+
+=== Engineering Mathematics::Probability and Statistics ===
+  [ 22x] Classical Probability
+  [  5x] Conditional Probability
+  [  3x] Variance and Standard Deviation
+  [  2x] Expected Value (Mean) of a Distribution
+  [  2x] Independent Events
+  [  1x] Cumulative Distribution Function (CDF)
+  [  1x] Poisson Distribution
+  [  1x] Sample Space and Events
+  [  1x] Probability Mass Function (PMF)
+  [  1x] Normal (Gaussian) Distribution
+  [  1x] Random Variables: Discrete and Continuous
+  [  1x] Probability Density Function (PDF)
+  [  1x] Joint Probability Distributions
+
+=== General Aptitude::Logical and Analytical Reasoning ===
+  [ 26x] Statements and Inferences
+  [  2x] Syllogisms
+  [  2x] Critical Reasoning and Assumptions
+  [  1x] Data Sufficiency
+  [  1x] Number Series
+  [  1x] Blood Relations
+  [  1x] Logical Puzzles
+  [  1x] Analogies in Reasoning
+
+=== General Aptitude::Quantitative Aptitude ===
+  [ 46x] Algebra: Linear and Quadratic Equations
+  [ 11x] Probability in Aptitude
+  [  8x] Geometry: Lines, Angles, Triangles
+  [  7x] Sequences and Series (AP and GP)
+  [  6x] Percentages
+  [  5x] Permutations and Combinations (Aptitude)
+  [  5x] Mensuration: Area and Volume
+  [  4x] Profit and Loss
+  [  4x] Averages
+  [  4x] Number Systems and Divisibility
+  [  3x] Data Interpretation: Tables
+  [  3x] Data Interpretation: Line Graphs
+  [  3x] Set Theory: Venn Diagrams (Aptitude)
+  [  2x] Time, Speed and Distance
+  [  2x] Data Interpretation: Pie Charts
+  [  2x] Geometry: Circles
+  [  1x] Mixtures and Alligation
+  [  1x] Data Interpretation: Bar Charts
+  [  1x] Ratio and Proportion
+  [  1x] Pipes and Cisterns
+
+=== General Aptitude::Spatial Aptitude ===
+  [  4x] Cube and Dice Problems
+  [  3x] Paper Folding and Cutting
+  [  1x] 3D Shapes and Perspectives
+  [  1x] Completion of Figures
+  [  1x] Mirror Images
+
+=== General Aptitude::Verbal Ability ===
+  [ 24x] Sentence Completion and Fill in the Blanks
+  [ 20x] Reading Comprehension
+  [ 14x] Articles (a, an, the)
+  [ 13x] Word Meanings and Vocabulary
+  [ 12x] Sentence Correction and Error Identification
+  [  4x] Idioms and Phrases
+  [  2x] Analogies in English
+  [  2x] Synonyms and Antonyms
+
+=== Operating Systems::CPU Scheduling ===
+  [  7x] Shortest Remaining Time First (SRTF) Scheduling
+  [  4x] Shortest Job First (SJF) Scheduling
+  [  3x] Priority Scheduling (Preemptive and Non-Preemptive)
+  [  2x] FCFS Scheduling (CPU)
+  [  2x] CPU Scheduling: Gantt Chart Analysis
+  [  2x] Preemptive vs Non-Preemptive Scheduling
+  [  1x] Round Robin Scheduling
+
+=== Operating Systems::Deadlocks ===
+  [ 10x] Deadlock: Necessary Conditions (Coffman's Conditions)
+  [  2x] Deadlock Detection Algorithm
+  [  1x] Banker's Algorithm
+  [  1x] Resource Allocation Graph (RAG)
+  [  1x] Deadlock Avoidance
+  [  1x] Safe State and Unsafe State
+
+=== Operating Systems::File Systems ===
+  [  2x] FAT File System
+  [  2x] Disk Buffering and Caching
+  [  1x] File System Structure and Layers
+  [  1x] Inode Structure
+  [  1x] Directory Structure: Single-Level, Two-Level, Tree
+  [  1x] Contiguous File Allocation
+  [  1x] Linked File Allocation
+  [  1x] Free Space Management: Bitmap and Linked List
+
+=== Operating Systems::I/O and Disk Scheduling ===
+  [  4x] Disk Access Time: Seek Time, Rotational Latency, Transfer Time
+  [  4x] SSTF Disk Scheduling
+  [  1x] Disk Structure: Tracks, Sectors, Cylinders
+  [  1x] SCAN Disk Scheduling
+
+=== Operating Systems::Inter-Process Communication and Synchronization ===
+  [  8x] Semaphores: Binary and Counting
+  [  6x] Critical Section Problem
+  [  5x] Semaphore Wait (P) and Signal (V) Operations
+
+=== Operating Systems::Memory Management ===
+  [  6x] Page Table Structure
+  [  5x] Page Fault Handling
+  [  4x] LRU Page Replacement
+  [  4x] Translation Lookaside Buffer (TLB)
+  [  3x] Paging: Concept and Address Translation
+  [  3x] Optimal Page Replacement
+  [  3x] Multi-Level Page Table
+  [  2x] Memory Allocation Strategies: First Fit, Best Fit, Worst Fit
+  [  2x] Thrashing
+  [  1x] Page Fault Rate Analysis
+  [  1x] Effective Memory Access Time (Paging with TLB)
+  [  1x] Demand Paging
+  [  1x] Internal Fragmentation
+  [  1x] Fixed Partitioning and Variable Partitioning
+
+=== Operating Systems::Process Management ===
+  [  4x] Threads: Definition and Types
+  [  3x] Process State Transitions (New, Ready, Running, Blocked, Terminated)
+  [  2x] Process Creation: fork() System Call
+  [  2x] System Calls Interface
+  [  1x] Mode Switch: User Mode to Kernel Mode
+  [  1x] Context Switching
+  [  1x] Process Termination
+
+=== Operating Systems::Virtual Memory ===
+  [  2x] Virtual Memory: Concept and Benefits
+
+=== Programming and Data Structures::Arrays, Stacks, Queues, Linked Lists ===
+  [  5x] Array Operations and Complexity
+  [  3x] Doubly Linked List Operations
+  [  3x] Singly Linked List Operations
+  [  2x] Queue: Enqueue, Dequeue Operations
+  [  2x] Stack: Push, Pop, Peek Operations
+  [  2x] Deque (Double-Ended Queue)
+  [  1x] Circular Queue
+  [  1x] Stack Applications: Expression Evaluation
+  [  1x] Circular Linked List Operations
+  [  1x] Reversing a Linked List
+  [  1x] Priority Queue using Heap
+  [  1x] Merging Linked Lists
+
+=== Programming and Data Structures::Graphs (Data Structure Representation) ===
+  [ 12x] Breadth-First Search (BFS)
+  [  3x] Depth-First Search (DFS)
+  [  3x] Graph Representation: Edge List
+  [  2x] Graph Representation: Adjacency List
+
+=== Programming and Data Structures::Hashing ===
+  [  4x] Hash Functions: Division, Multiplication Methods
+  [  2x] Collision Handling: Separate Chaining
+  [  2x] Collision Handling: Double Hashing
+  [  1x] Load Factor and Rehashing
+
+=== Programming and Data Structures::Programming in C ===
+  [ 32x] C Input/Output: printf, scanf
+  [  8x] Arrays in C
+  [  6x] Data Types, Variables, and Constants in C
+  [  5x] Pointers in C
+  [  3x] Loops in C: for, while, do-while
+  [  2x] Operators and Operator Precedence in C
+  [  1x] Bitwise Operations in C
+  [  1x] Recursion in C
+  [  1x] Pointers and Arrays in C
+  [  1x] Storage Classes: auto, static, extern, register
+  [  1x] Structures with Pointers in C
+  [  1x] Function Pointers in C
+  [  1x] Structures in C
+  [  1x] Control Structures: if-else, switch in C
+  [  1x] Stack and Heap Memory in C
+  [  1x] Scope and Lifetime of Variables
+
+=== Programming and Data Structures::Recursion ===
+  [ 13x] Recursion: Base Case and Recursive Case
+  [  1x] Recursive Tree and Linked-List Operations
+  [  1x] Tail Recursion
+
+=== Programming and Data Structures::Trees ===
+  [ 13x] Heap: Min-Heap and Max-Heap Properties
+  [ 10x] BST Search and Height Analysis
+  [  7x] Binary Tree: Definition and Properties
+  [  6x] BST Insertion and Deletion
+  [  5x] Binary Tree Traversal: Inorder, Preorder, Postorder
+  [  3x] Binary Search Tree (BST): Properties
+  [  3x] Binary Tree Height and Depth
+  [  3x] Threaded Binary Trees
+  [  2x] Heap Insertion (Swim Up)
+  [  2x] B+ Trees: Properties and Operations
+  [  2x] Full Binary Tree and Complete Binary Tree
+  [  1x] AVL Tree Insertion and Deletion
+  [  1x] Huffman Coding Tree
+  [  1x] B+ Tree Insertion
+
+=== Theory of Computation::Closure and Decision Properties ===
+  [  4x] Closure Properties of Regular Languages
+  [  1x] Closure Properties of Context-Free Languages
+  [  1x] Equivalence of DFA and NFA
+
+=== Theory of Computation::Context-Free Languages ===
+  [ 23x] Context-Free Grammar (CFG): Definition and Notation
+  [  2x] Pushdown Automata (PDA): Definition
+  [  1x] Non-Deterministic PDA (NPDA)
+  [  1x] Chomsky Normal Form (CNF)
+  [  1x] Ambiguous Context-Free Grammars
+  [  1x] Pumping Lemma for Context-Free Languages
+
+=== Theory of Computation::Regular Languages and Finite Automata ===
+  [ 25x] Language Accepted by DFA
+  [  9x] Regular Expressions: Syntax and Semantics
+  [  6x] Non-Deterministic Finite Automata (NFA): Definition
+  [  6x] Deterministic Finite Automata (DFA): Definition
+  [  3x] Regular Expression to NFA (Thompson's Construction)
+  [  1x] Pumping Lemma for Regular Languages
+  [  1x] DFA Minimization
+
+=== Theory of Computation::Turing Machines and Decidability ===
+  [  6x] Recursive (Decidable) Languages
+  [  5x] Undecidability: Halting Problem
+  [  4x] Recursively Enumerable (RE) Languages
+  [  3x] Chomsky Hierarchy: Type 0, 1, 2, 3 Grammars
+  [  3x] Undecidability Proofs by Reduction
+  [  3x] Turing Machine: Definition and Components
+  [  2x] Decision Problems for CFLs and RLs
+  [  2x] Linear Bounded Automata (LBA)
+  [  1x] Church-Turing Thesis
+
+
+TOTAL: 449 unique micro-topic labels across 1621 questions

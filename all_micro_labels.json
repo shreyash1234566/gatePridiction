@@ -1,0 +1,847 @@
+{
+  "Algorithms::Algorithm Design: Divide and Conquer": {
+    "subject": "Algorithms",
+    "topic": "Algorithm Design: Divide and Conquer",
+    "micro_labels": {
+      "Divide and Conquer Paradigm": 1
+    }
+  },
+  "Algorithms::Algorithm Design: Dynamic Programming": {
+    "subject": "Algorithms",
+    "topic": "Algorithm Design: Dynamic Programming",
+    "micro_labels": {
+      "Dynamic Programming: Optimal Substructure": 5,
+      "Floyd-Warshall Algorithm (All-Pairs Shortest Paths)": 4,
+      "Longest Common Subsequence (LCS)": 1
+    }
+  },
+  "Algorithms::Algorithm Design: Greedy": {
+    "subject": "Algorithms",
+    "topic": "Algorithm Design: Greedy",
+    "micro_labels": {
+      "Greedy Algorithm Properties": 5
+    }
+  },
+  "Algorithms::Asymptotic Analysis": {
+    "subject": "Algorithms",
+    "topic": "Asymptotic Analysis",
+    "micro_labels": {
+      "Time Complexity Analysis": 25,
+      "Theta Notation (Θ)": 2,
+      "Best, Worst and Average Case Analysis": 1,
+      "Amortized Analysis: Aggregate Method": 1,
+      "Omega Notation (Ω)": 1
+    }
+  },
+  "Algorithms::Computational Complexity": {
+    "subject": "Algorithms",
+    "topic": "Computational Complexity",
+    "micro_labels": {
+      "Polynomial Time Algorithms (Class P)": 8,
+      "NP-Completeness": 4,
+      "Cook-Levin Theorem (SAT is NP-Complete)": 1
+    }
+  },
+  "Algorithms::Graph Algorithms": {
+    "subject": "Algorithms",
+    "topic": "Graph Algorithms",
+    "micro_labels": {
+      "Kruskal's Algorithm (Minimum Spanning Tree)": 20,
+      "Dijkstra's Algorithm (Weighted Graph)": 2,
+      "Topological Sort": 2,
+      "Bellman-Ford Algorithm (Negative Weights)": 1,
+      "Strongly Connected Components (Kosaraju's Algorithm)": 1,
+      "Cycle Detection in Directed Graph": 1,
+      "Prim's Algorithm (Minimum Spanning Tree)": 1
+    }
+  },
+  "Algorithms::Searching and Sorting": {
+    "subject": "Algorithms",
+    "topic": "Searching and Sorting",
+    "micro_labels": {
+      "Merge Sort": 8,
+      "Quick Sort: Pivot Selection and Worst Case": 5,
+      "Linear Search": 4,
+      "Binary Search": 3,
+      "Quick Sort": 2,
+      "Selection Sort": 1,
+      "Heap Sort": 1,
+      "Bubble Sort": 1,
+      "Stable Sorting Algorithms": 1
+    }
+  },
+  "Compiler Design::Code Optimization": {
+    "subject": "Compiler Design",
+    "topic": "Code Optimization",
+    "micro_labels": {
+      "Control Flow Graph (CFG)": 5,
+      "Local Optimization Techniques": 4,
+      "Live Variable Analysis": 4,
+      "Register Allocation by Graph Coloring": 3,
+      "Basic Blocks and Flow Graphs": 3,
+      "Common Subexpression Elimination (CSE)": 2,
+      "Dead Code Elimination": 1,
+      "Constant Folding": 1,
+      "Reaching Definitions Analysis": 1
+    }
+  },
+  "Compiler Design::Lexical Analysis": {
+    "subject": "Compiler Design",
+    "topic": "Lexical Analysis",
+    "micro_labels": {
+      "Role of Lexical Analyzer": 5,
+      "Keyword and Token Recognition": 4,
+      "Symbol Table: Structure and Operations": 3,
+      "Regular Expressions in Lexical Analysis": 2
+    }
+  },
+  "Compiler Design::Runtime Environments": {
+    "subject": "Compiler Design",
+    "topic": "Runtime Environments",
+    "micro_labels": {
+      "Activation Records (Stack Frames)": 1,
+      "Runtime Stack Management": 1,
+      "Dynamic Scoping": 1
+    }
+  },
+  "Compiler Design::Semantic Analysis and Intermediate Code": {
+    "subject": "Compiler Design",
+    "topic": "Semantic Analysis and Intermediate Code",
+    "micro_labels": {
+      "Three-Address Code (TAC)": 4,
+      "Intermediate Code for Expressions": 3,
+      "Syntax Directed Translation (SDT)": 3,
+      "Intermediate Code for Control Flow": 2,
+      "Inherited Attributes": 1,
+      "Synthesized Attributes": 1,
+      "Quadruples and Triples Representation": 1,
+      "S-Attributed Definitions": 1,
+      "Translation Schemes": 1
+    }
+  },
+  "Compiler Design::Syntax Analysis (Parsing)": {
+    "subject": "Compiler Design",
+    "topic": "Syntax Analysis (Parsing)",
+    "micro_labels": {
+      "Bottom-Up Parsing": 7,
+      "Parse Trees and Derivations": 4,
+      "LALR(1) Parsing": 4,
+      "Context-Free Grammar for Programming Languages": 4,
+      "LL(1) Parsing Table Construction": 3,
+      "SLR(1) Parsing": 3,
+      "Shift-Reduce Parsing": 2,
+      "Left Recursion Elimination": 2,
+      "FOLLOW Sets": 2,
+      "Predictive Parsing (LL)": 2,
+      "FIRST and FOLLOW Sets": 2,
+      "Ambiguous Grammar and Parsing": 1,
+      "LR(0) Parsing and Items": 1
+    }
+  },
+  "Computer Networks::Application Layer Protocols": {
+    "subject": "Computer Networks",
+    "topic": "Application Layer Protocols",
+    "micro_labels": {
+      "HTTP Protocol: Request and Response": 6,
+      "DNS Protocol and Name Resolution": 6,
+      "Email System Architecture (MUA, MTA, MDA)": 3,
+      "HTTP Persistent vs Non-Persistent Connections": 1,
+      "DHCP Protocol (Application Layer View)": 1
+    }
+  },
+  "Computer Networks::Data Link Layer": {
+    "subject": "Computer Networks",
+    "topic": "Data Link Layer",
+    "micro_labels": {
+      "Ethernet (IEEE 802.3): CSMA/CD": 10,
+      "Sliding Window Protocol Efficiency": 6,
+      "Stop-and-Wait Protocol": 3,
+      "IEEE 802.11 Wireless LAN (Wi-Fi)": 2,
+      "Error Detection: CRC (Cyclic Redundancy Check)": 2,
+      "Error Detection: Parity Bits": 2,
+      "Framing: Bit Stuffing and Byte Stuffing": 1,
+      "Token Ring Protocol": 1,
+      "ALOHA Protocol: Pure and Slotted": 1,
+      "Error Correction: Hamming Code": 1,
+      "Sliding Window Protocol": 1
+    }
+  },
+  "Computer Networks::Network Architecture and Layering": {
+    "subject": "Computer Networks",
+    "topic": "Network Architecture and Layering",
+    "micro_labels": {
+      "OSI Model: Seven Layers and Functions": 7,
+      "Packet, Circuit, and Virtual Circuit Switching": 3,
+      "Network Devices: Hub, Switch, Router, Bridge": 1,
+      "TCP/IP Model: Four Layers and Functions": 1
+    }
+  },
+  "Computer Networks::Network Layer and IP Addressing": {
+    "subject": "Computer Networks",
+    "topic": "Network Layer and IP Addressing",
+    "micro_labels": {
+      "IP Fragmentation and Reassembly": 10,
+      "CIDR (Classless Inter-Domain Routing) and Route Aggregation": 6,
+      "IPv4 Header Fields and Structure": 5,
+      "IP Addressing (IPv4): Classful Addressing": 4,
+      "Subnet Masks and Subnetting": 3,
+      "IPv6 Addressing and Header": 3,
+      "NAT (Network Address Translation)": 2,
+      "IP Forwarding and Routing Tables": 2,
+      "ICMP Protocol and Ping": 1,
+      "ARP Protocol": 1
+    }
+  },
+  "Computer Networks::Network Security": {
+    "subject": "Computer Networks",
+    "topic": "Network Security",
+    "micro_labels": {
+      "Asymmetric (Public Key) Cryptography (RSA)": 3,
+      "Firewall: Packet Filtering": 2,
+      "Symmetric Key Cryptography (AES, DES)": 2,
+      "RSA Algorithm (Key Generation, Encryption, Decryption)": 2
+    }
+  },
+  "Computer Networks::Routing Protocols": {
+    "subject": "Computer Networks",
+    "topic": "Routing Protocols",
+    "micro_labels": {
+      "Routing Algorithms: Distance Vector Routing": 9
+    }
+  },
+  "Computer Networks::Transport Layer": {
+    "subject": "Computer Networks",
+    "topic": "Transport Layer",
+    "micro_labels": {
+      "TCP Sequence Numbers and Acknowledgments": 7,
+      "TCP Congestion Control: Slow Start": 5,
+      "Socket API and Socket Programming": 2,
+      "TCP Protocol: Connection-Oriented": 2,
+      "TCP Three-Way Handshake": 2,
+      "TCP vs UDP Comparison": 1,
+      "UDP Protocol": 1,
+      "TCP State Machine": 1,
+      "TCP Timer Management and RTT Estimation": 1
+    }
+  },
+  "Computer Organization and Architecture::ALU, Data-Path and Control Unit": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "ALU, Data-Path and Control Unit",
+    "micro_labels": {
+      "Data-Path Architecture": 2,
+      "Instruction Execution Cycle (Fetch, Decode, Execute)": 2,
+      "RISC vs CISC Architecture": 2,
+      "ALU Design and Operations": 2
+    }
+  },
+  "Computer Organization and Architecture::I/O Interface": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "I/O Interface",
+    "micro_labels": {
+      "Direct Memory Access (DMA)": 6,
+      "Interrupt Priority and Handling": 2,
+      "Programmed I/O (Polling)": 1,
+      "Interrupt Service Routine (ISR)": 1,
+      "Interrupt-Driven I/O": 1
+    }
+  },
+  "Computer Organization and Architecture::Instruction Pipelining": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "Instruction Pipelining",
+    "micro_labels": {
+      "Instruction Pipelining: Concept and Stages": 10,
+      "Data Hazards in Pipelining": 6,
+      "Pipeline Stalls (Bubbles)": 5,
+      "CPI (Cycles Per Instruction) Analysis": 4,
+      "Data Forwarding (Bypassing)": 3,
+      "Pipeline Throughput and Speedup": 1
+    }
+  },
+  "Computer Organization and Architecture::Machine Instructions and Addressing Modes": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "Machine Instructions and Addressing Modes",
+    "micro_labels": {
+      "Instruction Format and Fields": 11,
+      "Instruction Types: Data Transfer, Arithmetic, Logic, Control": 4,
+      "Indirect Addressing Mode": 2,
+      "Immediate Addressing Mode": 1,
+      "Base-Register Addressing Mode": 1
+    }
+  },
+  "Computer Organization and Architecture::Memory Hierarchy": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "Memory Hierarchy",
+    "micro_labels": {
+      "Cache Memory: Concept and Locality of Reference": 13,
+      "Set Associative Cache": 9,
+      "Direct Mapped Cache": 6,
+      "Memory Hierarchy: Levels and Trade-offs": 5,
+      "Cache Block/Line Size": 4,
+      "Cache Hit Rate and Miss Rate": 4,
+      "Write-Back Policy": 1,
+      "Fully Associative Cache": 1,
+      "Write-Through Policy": 1,
+      "LRU Cache Replacement": 1,
+      "Secondary Storage: HDD and SSD": 1,
+      "Cache Coherence": 1
+    }
+  },
+  "Databases::Entity-Relationship Model": {
+    "subject": "Databases",
+    "topic": "Entity-Relationship Model",
+    "micro_labels": {
+      "Entity Types: Strong and Weak Entities": 2,
+      "Attribute Types: Simple, Composite, Multivalued, Derived": 1,
+      "Entity, Attribute, and Relationship": 1,
+      "Cardinality Ratios: One-to-One, One-to-Many, Many-to-Many": 1
+    }
+  },
+  "Databases::File Organization and Indexing": {
+    "subject": "Databases",
+    "topic": "File Organization and Indexing",
+    "micro_labels": {
+      "B+ Tree Indexing": 6,
+      "Heap File Organization": 3,
+      "Primary Index (Dense and Sparse)": 2,
+      "Hash File Organization": 1,
+      "Clustering vs Non-Clustering Index": 1,
+      "Sequential File Organization": 1
+    }
+  },
+  "Databases::Functional Dependencies and Normalization": {
+    "subject": "Databases",
+    "topic": "Functional Dependencies and Normalization",
+    "micro_labels": {
+      "Boyce-Codd Normal Form (BCNF)": 15,
+      "Functional Dependencies (FD): Definition": 5,
+      "Keys Derived from Functional Dependencies": 1,
+      "First Normal Form (1NF)": 1,
+      "Third Normal Form (3NF)": 1,
+      "Lossless Join Decomposition": 1
+    }
+  },
+  "Databases::Relational Model and Relational Algebra": {
+    "subject": "Databases",
+    "topic": "Relational Model and Relational Algebra",
+    "micro_labels": {
+      "Selection (σ) in Relational Algebra": 5,
+      "Projection (π) in Relational Algebra": 4,
+      "Keys: Super Key, Candidate Key, Primary Key, Foreign Key": 4,
+      "Natural Join in Relational Algebra": 3,
+      "Tuple Relational Calculus": 2,
+      "Relational Schema Design": 2,
+      "Relations, Tuples, and Attributes": 1,
+      "Integrity Constraints: Entity Integrity, Referential Integrity": 1,
+      "Outer Joins: Left, Right, Full": 1,
+      "Rename (ρ) Operation": 1
+    }
+  },
+  "Databases::SQL": {
+    "subject": "Databases",
+    "topic": "SQL",
+    "micro_labels": {
+      "SQL GROUP BY Clause": 7,
+      "SQL IN and NOT IN": 3,
+      "SQL Natural Join": 2,
+      "SQL Joins: INNER, LEFT, RIGHT, FULL OUTER": 2,
+      "SQL Aggregate Functions: COUNT, SUM, AVG, MIN, MAX": 2,
+      "SQL SELECT Queries": 2,
+      "SQL WHERE Clause and Predicates": 1,
+      "SQL HAVING Clause": 1,
+      "SQL DDL: CREATE, ALTER, DROP": 1,
+      "SQL EXISTS and NOT EXISTS": 1
+    }
+  },
+  "Databases::Transactions and Concurrency Control": {
+    "subject": "Databases",
+    "topic": "Transactions and Concurrency Control",
+    "micro_labels": {
+      "Transaction Schedules": 11,
+      "Atomicity and Durability": 4,
+      "Log-Based Recovery: Undo and Redo": 2,
+      "Two-Phase Locking (2PL)": 2,
+      "Serial and Serializable Schedules": 2,
+      "Conflict Serializability": 2,
+      "Deadlock in DBMS": 1,
+      "Lock-Based Protocols": 1
+    }
+  },
+  "Digital Logic::Boolean Algebra": {
+    "subject": "Digital Logic",
+    "topic": "Boolean Algebra",
+    "micro_labels": {
+      "Boolean Function Representation (SOP, POS)": 12,
+      "Boolean Function Minimization": 5,
+      "Boolean Algebra Axioms and Identities": 2,
+      "Canonical Forms: Minterms and Maxterms": 2,
+      "Complement of Boolean Functions": 1
+    }
+  },
+  "Digital Logic::Combinational Circuits": {
+    "subject": "Digital Logic",
+    "topic": "Combinational Circuits",
+    "micro_labels": {
+      "Multiplexers (MUX)": 6,
+      "Full Adder": 4,
+      "Binary Multiplier": 1,
+      "Priority Encoders": 1,
+      "Decoders": 1,
+      "Half Subtractor and Full Subtractor": 1
+    }
+  },
+  "Digital Logic::Logic Gates": {
+    "subject": "Digital Logic",
+    "topic": "Logic Gates",
+    "micro_labels": {
+      "Gate-Level Implementation of Boolean Functions": 6,
+      "Universal Gates: NAND, NOR": 2
+    }
+  },
+  "Digital Logic::Minimization": {
+    "subject": "Digital Logic",
+    "topic": "Minimization",
+    "micro_labels": {
+      "Karnaugh Map (K-Map) Minimization": 7,
+      "Prime Implicants and Essential Prime Implicants": 1
+    }
+  },
+  "Digital Logic::Number Systems and Computer Arithmetic": {
+    "subject": "Digital Logic",
+    "topic": "Number Systems and Computer Arithmetic",
+    "micro_labels": {
+      "Number Base Conversion": 8,
+      "IEEE 754 Floating Point Standard": 6,
+      "Single and Double Precision Representation": 4,
+      "Sign-Magnitude Representation": 3,
+      "Overflow Detection": 2,
+      "2's Complement Representation": 1,
+      "Floating Point Arithmetic: Addition and Subtraction": 1,
+      "Binary Number System": 1,
+      "Hexadecimal Number System": 1
+    }
+  },
+  "Digital Logic::Sequential Circuits": {
+    "subject": "Digital Logic",
+    "topic": "Sequential Circuits",
+    "micro_labels": {
+      "D Flip-Flop": 5,
+      "JK Flip-Flop": 2,
+      "Synchronous Counters": 2,
+      "Modulo-N Counters": 1,
+      "Ring Counters and Johnson Counters": 1,
+      "Finite State Machine (FSM): Mealy Model": 1,
+      "Asynchronous (Ripple) Counters": 1,
+      "State Table and State Diagram": 1
+    }
+  },
+  "Discrete Mathematics::Algebraic Structures": {
+    "subject": "Discrete Mathematics",
+    "topic": "Algebraic Structures",
+    "micro_labels": {
+      "Subgroups and Lagrange's Theorem": 5,
+      "Groups: Definition, Axioms, Properties": 4,
+      "Abelian Groups": 1
+    }
+  },
+  "Discrete Mathematics::Combinatorics": {
+    "subject": "Discrete Mathematics",
+    "topic": "Combinatorics",
+    "micro_labels": {
+      "Counting Principles: Product and Sum Rules": 12,
+      "Recurrence Relations": 8,
+      "Generating Functions": 3,
+      "Permutations": 1,
+      "Combinations and Binomial Theorem": 1
+    }
+  },
+  "Discrete Mathematics::Graph Theory": {
+    "subject": "Discrete Mathematics",
+    "topic": "Graph Theory",
+    "micro_labels": {
+      "Planar Graphs and Euler's Formula": 9,
+      "Graph Definitions: Vertices, Edges, Degree": 7,
+      "Degree Sequences and Handshaking Lemma": 5,
+      "Graph Connectivity: Cut Vertices and Bridges": 5,
+      "Graph Isomorphism": 4,
+      "Spanning Trees and Number of Spanning Trees": 3,
+      "Graph Coloring and Chromatic Number": 3,
+      "Bipartite Graphs": 1,
+      "Hamiltonian Paths and Circuits": 1
+    }
+  },
+  "Discrete Mathematics::Propositional and First-Order Logic": {
+    "subject": "Discrete Mathematics",
+    "topic": "Propositional and First-Order Logic",
+    "micro_labels": {
+      "Propositional Logic: Syntax and Semantics": 21,
+      "First-Order Logic: Predicates and Quantifiers": 6,
+      "Tautologies and Contradictions": 5,
+      "Universal and Existential Quantification": 4,
+      "Logical Connectives and Truth Tables": 1,
+      "Satisfiability and Validity": 1
+    }
+  },
+  "Discrete Mathematics::Sets, Relations, Functions": {
+    "subject": "Discrete Mathematics",
+    "topic": "Sets, Relations, Functions",
+    "micro_labels": {
+      "Types of Relations: Reflexive, Symmetric, Antisymmetric, Transitive": 7,
+      "Functions: Domain, Codomain, Range": 5,
+      "Power Sets and Cardinality": 4,
+      "Set Operations: Union, Intersection, Difference, Complement": 4,
+      "Partial Orders and Posets (HASSE Diagrams)": 2,
+      "Surjective (Onto) Functions": 1,
+      "Equivalence Relations and Equivalence Classes": 1,
+      "Injective (One-to-One) Functions": 1
+    }
+  },
+  "Engineering Mathematics::Calculus": {
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "micro_labels": {
+      "Derivatives: Rules and Applications": 17,
+      "Integration: Definite and Indefinite Integrals": 6,
+      "Continuity and Discontinuity": 6,
+      "Techniques of Integration": 3,
+      "Differentiability": 3,
+      "Maxima and Minima (Single Variable)": 2,
+      "L'Hôpital's Rule": 2,
+      "Limits of Functions": 1
+    }
+  },
+  "Engineering Mathematics::Linear Algebra": {
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "micro_labels": {
+      "Eigenvalues and Eigenvectors": 18,
+      "Matrices: Types and Operations": 8,
+      "Determinants and Their Properties": 7,
+      "System of Linear Equations (Gaussian Elimination)": 7,
+      "LU Decomposition": 2,
+      "Singular and Non-Singular Matrices": 2,
+      "Vector Spaces and Subspaces": 1,
+      "Rank of a Matrix": 1,
+      "Trace of a Matrix": 1
+    }
+  },
+  "Engineering Mathematics::Probability and Statistics": {
+    "subject": "Engineering Mathematics",
+    "topic": "Probability and Statistics",
+    "micro_labels": {
+      "Classical Probability": 22,
+      "Conditional Probability": 5,
+      "Variance and Standard Deviation": 3,
+      "Expected Value (Mean) of a Distribution": 2,
+      "Independent Events": 2,
+      "Cumulative Distribution Function (CDF)": 1,
+      "Poisson Distribution": 1,
+      "Sample Space and Events": 1,
+      "Probability Mass Function (PMF)": 1,
+      "Normal (Gaussian) Distribution": 1,
+      "Random Variables: Discrete and Continuous": 1,
+      "Probability Density Function (PDF)": 1,
+      "Joint Probability Distributions": 1
+    }
+  },
+  "General Aptitude::Logical and Analytical Reasoning": {
+    "subject": "General Aptitude",
+    "topic": "Logical and Analytical Reasoning",
+    "micro_labels": {
+      "Statements and Inferences": 26,
+      "Syllogisms": 2,
+      "Critical Reasoning and Assumptions": 2,
+      "Data Sufficiency": 1,
+      "Number Series": 1,
+      "Blood Relations": 1,
+      "Logical Puzzles": 1,
+      "Analogies in Reasoning": 1
+    }
+  },
+  "General Aptitude::Quantitative Aptitude": {
+    "subject": "General Aptitude",
+    "topic": "Quantitative Aptitude",
+    "micro_labels": {
+      "Algebra: Linear and Quadratic Equations": 46,
+      "Probability in Aptitude": 11,
+      "Geometry: Lines, Angles, Triangles": 8,
+      "Sequences and Series (AP and GP)": 7,
+      "Percentages": 6,
+      "Permutations and Combinations (Aptitude)": 5,
+      "Mensuration: Area and Volume": 5,
+      "Profit and Loss": 4,
+      "Averages": 4,
+      "Number Systems and Divisibility": 4,
+      "Data Interpretation: Tables": 3,
+      "Data Interpretation: Line Graphs": 3,
+      "Set Theory: Venn Diagrams (Aptitude)": 3,
+      "Time, Speed and Distance": 2,
+      "Data Interpretation: Pie Charts": 2,
+      "Geometry: Circles": 2,
+      "Mixtures and Alligation": 1,
+      "Data Interpretation: Bar Charts": 1,
+      "Ratio and Proportion": 1,
+      "Pipes and Cisterns": 1
+    }
+  },
+  "General Aptitude::Spatial Aptitude": {
+    "subject": "General Aptitude",
+    "topic": "Spatial Aptitude",
+    "micro_labels": {
+      "Cube and Dice Problems": 4,
+      "Paper Folding and Cutting": 3,
+      "3D Shapes and Perspectives": 1,
+      "Completion of Figures": 1,
+      "Mirror Images": 1
+    }
+  },
+  "General Aptitude::Verbal Ability": {
+    "subject": "General Aptitude",
+    "topic": "Verbal Ability",
+    "micro_labels": {
+      "Sentence Completion and Fill in the Blanks": 24,
+      "Reading Comprehension": 20,
+      "Articles (a, an, the)": 14,
+      "Word Meanings and Vocabulary": 13,
+      "Sentence Correction and Error Identification": 12,
+      "Idioms and Phrases": 4,
+      "Analogies in English": 2,
+      "Synonyms and Antonyms": 2
+    }
+  },
+  "Operating Systems::CPU Scheduling": {
+    "subject": "Operating Systems",
+    "topic": "CPU Scheduling",
+    "micro_labels": {
+      "Shortest Remaining Time First (SRTF) Scheduling": 7,
+      "Shortest Job First (SJF) Scheduling": 4,
+      "Priority Scheduling (Preemptive and Non-Preemptive)": 3,
+      "FCFS Scheduling (CPU)": 2,
+      "CPU Scheduling: Gantt Chart Analysis": 2,
+      "Preemptive vs Non-Preemptive Scheduling": 2,
+      "Round Robin Scheduling": 1
+    }
+  },
+  "Operating Systems::Deadlocks": {
+    "subject": "Operating Systems",
+    "topic": "Deadlocks",
+    "micro_labels": {
+      "Deadlock: Necessary Conditions (Coffman's Conditions)": 10,
+      "Deadlock Detection Algorithm": 2,
+      "Banker's Algorithm": 1,
+      "Resource Allocation Graph (RAG)": 1,
+      "Deadlock Avoidance": 1,
+      "Safe State and Unsafe State": 1
+    }
+  },
+  "Operating Systems::File Systems": {
+    "subject": "Operating Systems",
+    "topic": "File Systems",
+    "micro_labels": {
+      "FAT File System": 2,
+      "Disk Buffering and Caching": 2,
+      "File System Structure and Layers": 1,
+      "Inode Structure": 1,
+      "Directory Structure: Single-Level, Two-Level, Tree": 1,
+      "Contiguous File Allocation": 1,
+      "Linked File Allocation": 1,
+      "Free Space Management: Bitmap and Linked List": 1
+    }
+  },
+  "Operating Systems::I/O and Disk Scheduling": {
+    "subject": "Operating Systems",
+    "topic": "I/O and Disk Scheduling",
+    "micro_labels": {
+      "Disk Access Time: Seek Time, Rotational Latency, Transfer Time": 4,
+      "SSTF Disk Scheduling": 4,
+      "Disk Structure: Tracks, Sectors, Cylinders": 1,
+      "SCAN Disk Scheduling": 1
+    }
+  },
+  "Operating Systems::Inter-Process Communication and Synchronization": {
+    "subject": "Operating Systems",
+    "topic": "Inter-Process Communication and Synchronization",
+    "micro_labels": {
+      "Semaphores: Binary and Counting": 8,
+      "Critical Section Problem": 6,
+      "Semaphore Wait (P) and Signal (V) Operations": 5
+    }
+  },
+  "Operating Systems::Memory Management": {
+    "subject": "Operating Systems",
+    "topic": "Memory Management",
+    "micro_labels": {
+      "Page Table Structure": 6,
+      "Page Fault Handling": 5,
+      "LRU Page Replacement": 4,
+      "Translation Lookaside Buffer (TLB)": 4,
+      "Paging: Concept and Address Translation": 3,
+      "Optimal Page Replacement": 3,
+      "Multi-Level Page Table": 3,
+      "Memory Allocation Strategies: First Fit, Best Fit, Worst Fit": 2,
+      "Thrashing": 2,
+      "Page Fault Rate Analysis": 1,
+      "Effective Memory Access Time (Paging with TLB)": 1,
+      "Demand Paging": 1,
+      "Internal Fragmentation": 1,
+      "Fixed Partitioning and Variable Partitioning": 1
+    }
+  },
+  "Operating Systems::Process Management": {
+    "subject": "Operating Systems",
+    "topic": "Process Management",
+    "micro_labels": {
+      "Threads: Definition and Types": 4,
+      "Process State Transitions (New, Ready, Running, Blocked, Terminated)": 3,
+      "Process Creation: fork() System Call": 2,
+      "System Calls Interface": 2,
+      "Mode Switch: User Mode to Kernel Mode": 1,
+      "Context Switching": 1,
+      "Process Termination": 1
+    }
+  },
+  "Operating Systems::Virtual Memory": {
+    "subject": "Operating Systems",
+    "topic": "Virtual Memory",
+    "micro_labels": {
+      "Virtual Memory: Concept and Benefits": 2
+    }
+  },
+  "Programming and Data Structures::Arrays, Stacks, Queues, Linked Lists": {
+    "subject": "Programming and Data Structures",
+    "topic": "Arrays, Stacks, Queues, Linked Lists",
+    "micro_labels": {
+      "Array Operations and Complexity": 5,
+      "Doubly Linked List Operations": 3,
+      "Singly Linked List Operations": 3,
+      "Queue: Enqueue, Dequeue Operations": 2,
+      "Stack: Push, Pop, Peek Operations": 2,
+      "Deque (Double-Ended Queue)": 2,
+      "Circular Queue": 1,
+      "Stack Applications: Expression Evaluation": 1,
+      "Circular Linked List Operations": 1,
+      "Reversing a Linked List": 1,
+      "Priority Queue using Heap": 1,
+      "Merging Linked Lists": 1
+    }
+  },
+  "Programming and Data Structures::Graphs (Data Structure Representation)": {
+    "subject": "Programming and Data Structures",
+    "topic": "Graphs (Data Structure Representation)",
+    "micro_labels": {
+      "Breadth-First Search (BFS)": 12,
+      "Depth-First Search (DFS)": 3,
+      "Graph Representation: Edge List": 3,
+      "Graph Representation: Adjacency List": 2
+    }
+  },
+  "Programming and Data Structures::Hashing": {
+    "subject": "Programming and Data Structures",
+    "topic": "Hashing",
+    "micro_labels": {
+      "Hash Functions: Division, Multiplication Methods": 4,
+      "Collision Handling: Separate Chaining": 2,
+      "Collision Handling: Double Hashing": 2,
+      "Load Factor and Rehashing": 1
+    }
+  },
+  "Programming and Data Structures::Programming in C": {
+    "subject": "Programming and Data Structures",
+    "topic": "Programming in C",
+    "micro_labels": {
+      "C Input/Output: printf, scanf": 32,
+      "Arrays in C": 8,
+      "Data Types, Variables, and Constants in C": 6,
+      "Pointers in C": 5,
+      "Loops in C: for, while, do-while": 3,
+      "Operators and Operator Precedence in C": 2,
+      "Bitwise Operations in C": 1,
+      "Recursion in C": 1,
+      "Pointers and Arrays in C": 1,
+      "Storage Classes: auto, static, extern, register": 1,
+      "Structures with Pointers in C": 1,
+      "Function Pointers in C": 1,
+      "Structures in C": 1,
+      "Control Structures: if-else, switch in C": 1,
+      "Stack and Heap Memory in C": 1,
+      "Scope and Lifetime of Variables": 1
+    }
+  },
+  "Programming and Data Structures::Recursion": {
+    "subject": "Programming and Data Structures",
+    "topic": "Recursion",
+    "micro_labels": {
+      "Recursion: Base Case and Recursive Case": 13,
+      "Recursive Tree and Linked-List Operations": 1,
+      "Tail Recursion": 1
+    }
+  },
+  "Programming and Data Structures::Trees": {
+    "subject": "Programming and Data Structures",
+    "topic": "Trees",
+    "micro_labels": {
+      "Heap: Min-Heap and Max-Heap Properties": 13,
+      "BST Search and Height Analysis": 10,
+      "Binary Tree: Definition and Properties": 7,
+      "BST Insertion and Deletion": 6,
+      "Binary Tree Traversal: Inorder, Preorder, Postorder": 5,
+      "Binary Search Tree (BST): Properties": 3,
+      "Binary Tree Height and Depth": 3,
+      "Threaded Binary Trees": 3,
+      "Heap Insertion (Swim Up)": 2,
+      "B+ Trees: Properties and Operations": 2,
+      "Full Binary Tree and Complete Binary Tree": 2,
+      "AVL Tree Insertion and Deletion": 1,
+      "Huffman Coding Tree": 1,
+      "B+ Tree Insertion": 1
+    }
+  },
+  "Theory of Computation::Closure and Decision Properties": {
+    "subject": "Theory of Computation",
+    "topic": "Closure and Decision Properties",
+    "micro_labels": {
+      "Closure Properties of Regular Languages": 4,
+      "Closure Properties of Context-Free Languages": 1,
+      "Equivalence of DFA and NFA": 1
+    }
+  },
+  "Theory of Computation::Context-Free Languages": {
+    "subject": "Theory of Computation",
+    "topic": "Context-Free Languages",
+    "micro_labels": {
+      "Context-Free Grammar (CFG): Definition and Notation": 23,
+      "Pushdown Automata (PDA): Definition": 2,
+      "Non-Deterministic PDA (NPDA)": 1,
+      "Chomsky Normal Form (CNF)": 1,
+      "Ambiguous Context-Free Grammars": 1,
+      "Pumping Lemma for Context-Free Languages": 1
+    }
+  },
+  "Theory of Computation::Regular Languages and Finite Automata": {
+    "subject": "Theory of Computation",
+    "topic": "Regular Languages and Finite Automata",
+    "micro_labels": {
+      "Language Accepted by DFA": 25,
+      "Regular Expressions: Syntax and Semantics": 9,
+      "Non-Deterministic Finite Automata (NFA): Definition": 6,
+      "Deterministic Finite Automata (DFA): Definition": 6,
+      "Regular Expression to NFA (Thompson's Construction)": 3,
+      "Pumping Lemma for Regular Languages": 1,
+      "DFA Minimization": 1
+    }
+  },
+  "Theory of Computation::Turing Machines and Decidability": {
+    "subject": "Theory of Computation",
+    "topic": "Turing Machines and Decidability",
+    "micro_labels": {
+      "Recursive (Decidable) Languages": 6,
+      "Undecidability: Halting Problem": 5,
+      "Recursively Enumerable (RE) Languages": 4,
+      "Chomsky Hierarchy: Type 0, 1, 2, 3 Grammars": 3,
+      "Undecidability Proofs by Reduction": 3,
+      "Turing Machine: Definition and Components": 3,
+      "Decision Problems for CFLs and RLs": 2,
+      "Linear Bounded Automata (LBA)": 2,
+      "Church-Turing Thesis": 1
+    }
+  }
+}

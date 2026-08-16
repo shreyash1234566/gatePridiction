@@ -1,0 +1,56 @@
+﻿================================================================================
+IIT MADRAS (2011, 2019) vs OTHER INSTITUTES ANALYSIS
+================================================================================
+
+1. NEW MICRO-TOPICS BY SUBJECT (IITM vs Others)
+Algorithms                                    | IITM avg:  1.0 | Other avg:  1.7
+Compiler Design                               | IITM avg:  1.0 | Other avg:  2.4
+Computer Networks                             | IITM avg:  1.0 | Other avg:  2.7
+Computer Organization and Architecture        | IITM avg:  1.0 | Other avg:  1.9
+Databases                                     | IITM avg:  1.0 | Other avg:  2.8
+Digital Logic                                 | IITM avg:  1.0 | Other avg:  1.8
+Discrete Mathematics                          | IITM avg:  1.0 | Other avg:  2.0
+Engineering Mathematics                       | IITM avg:  1.0 | Other avg:  1.7
+General Aptitude                              | IITM avg:  0.0 | Other avg:  2.5
+Operating Systems                             | IITM avg:  1.0 | Other avg:  3.0
+Programming and Data Structures               | IITM avg:  1.0 | Other avg:  3.3
+Theory of Computation                         | IITM avg:  1.0 | Other avg:  1.4
+
+2. OVERALL QUESTION WEIGHTAGE (IITM vs Others)
+Algorithms                                    | IITM wt: 10.8% | Other wt:  6.6% | Diff:   4.1%
+Compiler Design                               | IITM wt:  6.2% | Other wt:  5.8% | Diff:   0.3%
+Computer Networks                             | IITM wt:  6.9% | Other wt:  8.5% | Diff:  -1.6%
+Computer Organization and Architecture        | IITM wt:  6.2% | Other wt:  7.1% | Diff:  -1.0%
+Databases                                     | IITM wt:  6.9% | Other wt:  7.0% | Diff:  -0.1%
+Digital Logic                                 | IITM wt:  7.7% | Other wt:  5.6% | Diff:   2.1%
+Discrete Mathematics                          | IITM wt:  5.4% | Other wt:  8.7% | Diff:  -3.3%
+Engineering Mathematics                       | IITM wt:  8.5% | Other wt:  7.9% | Diff:   0.5%
+General Aptitude                              | IITM wt: 15.4% | Other wt: 15.8% | Diff:  -0.4%
+Operating Systems                             | IITM wt:  8.5% | Other wt:  7.9% | Diff:   0.5%
+Programming and Data Structures               | IITM wt: 10.0% | Other wt: 12.0% | Diff:  -2.0%
+Theory of Computation                         | IITM wt:  7.7% | Other wt:  7.0% | Diff:   0.7%
+
+3. SPECIFIC TOPICS FAVORED BY IIT MADRAS (Top positive diff)
+Algorithms::Asymptotic Analysis                              | IITM bias: +2.2%
+Theory of Computation::Regular Languages and Finite Automata | IITM bias: +1.6%
+Operating Systems::Process Management                        | IITM bias: +1.6%
+Digital Logic::Sequential Circuits                           | IITM bias: +1.6%
+Programming and Data Structures::Programming in C            | IITM bias: +1.4%
+General Aptitude::Verbal Ability                             | IITM bias: +1.4%
+Computer Networks::Application Layer Protocols               | IITM bias: +1.4%
+Engineering Mathematics::Probability and Statistics          | IITM bias: +1.4%
+Digital Logic::Logic Gates                                   | IITM bias: +1.1%
+Computer Networks::Routing Protocols                         | IITM bias: +1.1%
+
+4. 2019 SPECIFIC NEW MTs INTRODUCED BY IIT MADRAS
+ - Computer Organization and Architecture -> Memory Hierarchy -> Fully Associative Cache
+ - Digital Logic -> Boolean Algebra -> Boolean Algebra Axioms and Identities
+ - Databases -> Transactions and Concurrency Control -> Two-Phase Locking (2PL)
+ - Discrete Mathematics -> Graph Theory -> Hamiltonian Paths and Circuits
+ - Engineering Mathematics -> Calculus -> L'H├┤pital's Rule
+ - Theory of Computation -> Regular Languages and Finite Automata -> Pumping Lemma for Regular Languages
+ - Algorithms -> Algorithm Design: Divide and Conquer -> Divide and Conquer Paradigm
+ - Compiler Design -> Semantic Analysis and Intermediate Code -> Inherited Attributes
+ - Operating Systems -> File Systems -> Inode Structure
+ - Programming and Data Structures -> Trees -> Full Binary Tree and Complete Binary Tree
+ - Computer Networks -> Network Architecture and Layering -> Network Devices: Hub, Switch, Router, Bridge
