@@ -1,0 +1,453 @@
+﻿
+ACTUAL MODEL PERFORMANCE AT DIFFERENT N (Averages 2018-2026)
+------------------------------------------------------------
+N          | M_Hit %         | M_Cov %        
+------------------------------------------------------------
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2018 (Canonical Dirichlet) ΓÇª
+   Γ£ô 60 canonical concept predictions (60 concepts)
+   Γ£ô Tiers: 48 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2019 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 49 High Priority | 13 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2020 (Canonical Dirichlet) ΓÇª
+   Γ£ô 64 canonical concept predictions (64 concepts)
+   Γ£ô Tiers: 52 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2021 (Canonical Dirichlet) ΓÇª
+   Γ£ô 81 canonical concept predictions (81 concepts)
+   Γ£ô Tiers: 63 High Priority | 18 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2022 (Canonical Dirichlet) ΓÇª
+   Γ£ô 61 canonical concept predictions (61 concepts)
+   Γ£ô Tiers: 49 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2023 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 50 High Priority | 13 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2024 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2025 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2026 (Canonical Dirichlet) ΓÇª
+   Γ£ô 75 canonical concept predictions (75 concepts)
+   Γ£ô Tiers: 58 High Priority | 16 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+65         | 32.2            | 38.4           
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2018 (Canonical Dirichlet) ΓÇª
+   Γ£ô 60 canonical concept predictions (60 concepts)
+   Γ£ô Tiers: 48 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2019 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 49 High Priority | 13 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2020 (Canonical Dirichlet) ΓÇª
+   Γ£ô 64 canonical concept predictions (64 concepts)
+   Γ£ô Tiers: 52 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2021 (Canonical Dirichlet) ΓÇª
+   Γ£ô 81 canonical concept predictions (81 concepts)
+   Γ£ô Tiers: 63 High Priority | 18 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2022 (Canonical Dirichlet) ΓÇª
+   Γ£ô 61 canonical concept predictions (61 concepts)
+   Γ£ô Tiers: 49 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2023 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 50 High Priority | 13 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2024 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2025 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2026 (Canonical Dirichlet) ΓÇª
+   Γ£ô 75 canonical concept predictions (75 concepts)
+   Γ£ô Tiers: 58 High Priority | 16 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+85         | 39.6            | 45.6           
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2018 (Canonical Dirichlet) ΓÇª
+   Γ£ô 60 canonical concept predictions (60 concepts)
+   Γ£ô Tiers: 48 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2019 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 49 High Priority | 13 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2020 (Canonical Dirichlet) ΓÇª
+   Γ£ô 64 canonical concept predictions (64 concepts)
+   Γ£ô Tiers: 52 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2021 (Canonical Dirichlet) ΓÇª
+   Γ£ô 81 canonical concept predictions (81 concepts)
+   Γ£ô Tiers: 63 High Priority | 18 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2022 (Canonical Dirichlet) ΓÇª
+   Γ£ô 61 canonical concept predictions (61 concepts)
+   Γ£ô Tiers: 49 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2023 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 50 High Priority | 13 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2024 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2025 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2026 (Canonical Dirichlet) ΓÇª
+   Γ£ô 75 canonical concept predictions (75 concepts)
+   Γ£ô Tiers: 58 High Priority | 16 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+100        | 44.4            | 50.3           
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2018 (Canonical Dirichlet) ΓÇª
+   Γ£ô 60 canonical concept predictions (60 concepts)
+   Γ£ô Tiers: 48 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2019 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 49 High Priority | 13 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2020 (Canonical Dirichlet) ΓÇª
+   Γ£ô 64 canonical concept predictions (64 concepts)
+   Γ£ô Tiers: 52 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2021 (Canonical Dirichlet) ΓÇª
+   Γ£ô 81 canonical concept predictions (81 concepts)
+   Γ£ô Tiers: 63 High Priority | 18 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2022 (Canonical Dirichlet) ΓÇª
+   Γ£ô 61 canonical concept predictions (61 concepts)
+   Γ£ô Tiers: 49 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2023 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 50 High Priority | 13 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2024 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2025 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2026 (Canonical Dirichlet) ΓÇª
+   Γ£ô 75 canonical concept predictions (75 concepts)
+   Γ£ô Tiers: 58 High Priority | 16 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+140        | 56.3            | 61.4           
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2018 (Canonical Dirichlet) ΓÇª
+   Γ£ô 60 canonical concept predictions (60 concepts)
+   Γ£ô Tiers: 48 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2019 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 49 High Priority | 13 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2020 (Canonical Dirichlet) ΓÇª
+   Γ£ô 64 canonical concept predictions (64 concepts)
+   Γ£ô Tiers: 52 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2021 (Canonical Dirichlet) ΓÇª
+   Γ£ô 81 canonical concept predictions (81 concepts)
+   Γ£ô Tiers: 63 High Priority | 18 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2022 (Canonical Dirichlet) ΓÇª
+   Γ£ô 61 canonical concept predictions (61 concepts)
+   Γ£ô Tiers: 49 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2023 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 50 High Priority | 13 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2024 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2025 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2026 (Canonical Dirichlet) ΓÇª
+   Γ£ô 75 canonical concept predictions (75 concepts)
+   Γ£ô Tiers: 58 High Priority | 16 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+160        | 62.0            | 66.5           
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2018 (Canonical Dirichlet) ΓÇª
+   Γ£ô 60 canonical concept predictions (60 concepts)
+   Γ£ô Tiers: 48 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2019 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 49 High Priority | 13 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2020 (Canonical Dirichlet) ΓÇª
+   Γ£ô 64 canonical concept predictions (64 concepts)
+   Γ£ô Tiers: 52 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2021 (Canonical Dirichlet) ΓÇª
+   Γ£ô 81 canonical concept predictions (81 concepts)
+   Γ£ô Tiers: 63 High Priority | 18 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2022 (Canonical Dirichlet) ΓÇª
+   Γ£ô 61 canonical concept predictions (61 concepts)
+   Γ£ô Tiers: 49 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2023 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 50 High Priority | 13 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2024 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2025 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2026 (Canonical Dirichlet) ΓÇª
+   Γ£ô 75 canonical concept predictions (75 concepts)
+   Γ£ô Tiers: 58 High Priority | 16 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+180        | 67.1            | 70.9           
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2018 (Canonical Dirichlet) ΓÇª
+   Γ£ô 60 canonical concept predictions (60 concepts)
+   Γ£ô Tiers: 48 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2019 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 49 High Priority | 13 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2020 (Canonical Dirichlet) ΓÇª
+   Γ£ô 64 canonical concept predictions (64 concepts)
+   Γ£ô Tiers: 52 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2021 (Canonical Dirichlet) ΓÇª
+   Γ£ô 81 canonical concept predictions (81 concepts)
+   Γ£ô Tiers: 63 High Priority | 18 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2022 (Canonical Dirichlet) ΓÇª
+   Γ£ô 61 canonical concept predictions (61 concepts)
+   Γ£ô Tiers: 49 High Priority | 12 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2023 (Canonical Dirichlet) ΓÇª
+   Γ£ô 63 canonical concept predictions (63 concepts)
+   Γ£ô Tiers: 50 High Priority | 13 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2024 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2025 (Canonical Dirichlet) ΓÇª
+   Γ£ô 74 canonical concept predictions (74 concepts)
+   Γ£ô Tiers: 57 High Priority | 17 Core Coverage | 0 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+   Γ£ô Loaded canonical taxonomy: 615 labels ΓåÆ 86 concepts
+   Γ£ô Learned Dirichlet params: ╬║=1.0, ╬┤=0.85 (canonical recall=-1.0%)
+
+≡ƒö¼ MicroΓÇætopic predictions for 2026 (Canonical Dirichlet) ΓÇª
+   Γ£ô 75 canonical concept predictions (75 concepts)
+   Γ£ô Tiers: 58 High Priority | 16 Core Coverage | 1 Novelty Protection
+   Γ£ô Dirichlet params: ╬║=1.0, ╬┤=0.85
+322        | 77.8            | 79.9           
