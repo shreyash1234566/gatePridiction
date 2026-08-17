@@ -1,0 +1,988 @@
+{
+    "Algorithms": {
+        "Algorithm Design: Divide and Conquer": {
+            "micro_topics": [
+                "Divide and Conquer Paradigm"
+            ]
+        },
+        "Algorithm Design: Dynamic Programming": {
+            "micro_topics": [
+                "Dynamic Programming: Optimal Substructure",
+                "Floyd-Warshall Algorithm (All-Pairs Shortest Paths)",
+                "Longest Common Subsequence (LCS)"
+            ]
+        },
+        "Algorithm Design: Greedy": {
+            "micro_topics": [
+                "Greedy Algorithm Properties"
+            ]
+        },
+        "Asymptotic Complexity Analysis": {
+            "micro_topics": [
+                "Time Complexity Analysis",
+                "Theta Notation (\u0398)",
+                "Best, Worst and Average Case Analysis",
+                "Amortized Analysis: Aggregate Method",
+                "Omega Notation (\u03a9)",
+                "Polynomial Time Algorithms (Class P)",
+                "NP-Completeness",
+                "Cook-Levin Theorem (SAT is NP-Complete)"
+            ]
+        },
+        "Graph Traversals (BFS, DFS)": {
+            "micro_topics": [
+                "Cycle Detection in Directed Graph",
+                "Topological Sorting",
+                "Strongly Connected Components (Kosaraju's Algorithm)",
+                "Topological Sort"
+            ]
+        },
+        "Minimum Spanning Trees": {
+            "micro_topics": [
+                "Kruskal's Algorithm (Minimum Spanning Tree)",
+                "Prim's Algorithm (Minimum Spanning Tree)"
+            ]
+        },
+        "Shortest Path Algorithms": {
+            "micro_topics": [
+                "Dijkstra's Algorithm (Weighted Graph)",
+                "Bellman-Ford Algorithm (Negative Weights)"
+            ]
+        },
+        "Searching and Sorting": {
+            "micro_topics": [
+                "Merge Sort",
+                "Quick Sort",
+                "Binary Search",
+                "Heap Sort",
+                "Linear Search",
+                "Bubble Sort",
+                "Stable Sorting Algorithms",
+                "Quick Sort: Pivot Selection and Worst Case",
+                "Selection Sort"
+            ]
+        }
+    },
+    "Compiler Design": {
+        "Local Optimization and Data Flow Analysis": {
+            "micro_topics": [
+                "Common Subexpression Elimination (CSE)",
+                "Constant Folding",
+                "Dead Code Elimination",
+                "Control Flow Graph (CFG)",
+                "Basic Blocks and Flow Graphs",
+                "Reaching Definitions Analysis",
+                "Live Variable Analysis",
+                "Loop Optimization",
+                "Local Optimization Techniques",
+                "Register Allocation by Graph Coloring"
+            ]
+        },
+        "Intermediate Code Generation": {
+            "micro_topics": [
+                "Three-Address Code (TAC)",
+                "Abstract Syntax Tree (AST)",
+                "Intermediate Code for Expressions",
+                "Intermediate Code for Control Flow",
+                "Quadruples and Triples Representation"
+            ]
+        },
+        "Lexical Analysis": {
+            "micro_topics": [
+                "Token Types: Keywords, Identifiers, Operators",
+                "Keyword and Token Recognition",
+                "Lexical Analysis: Regular Expressions for Token Specification",
+                "Role of Lexical Analyzer",
+                "Symbol Table: Structure and Operations",
+                "Regular Expressions in Lexical Analysis"
+            ]
+        },
+        "Runtime Environments": {
+            "micro_topics": [
+                "Activation Record (Stack Frame) Structure",
+                "Static and Dynamic Scoping",
+                "Parameter Passing Mechanisms",
+                "Activation Records (Stack Frames)",
+                "Runtime Stack Management",
+                "Dynamic Scoping"
+            ]
+        },
+        "Syntax Analysis (Parsing)": {
+            "micro_topics": [
+                "LR(1) Parsing",
+                "FIRST and FOLLOW Sets",
+                "LL(1) Parsing",
+                "Operator Precedence Parsing",
+                "SLR(1) Parsing",
+                "CLR(1) Parsing",
+                "LALR(1) Parsing",
+                "Handle and Viable Prefix in LR Parsing",
+                "LR(0) Items and Canonical Collection",
+                "Predictive (Top-Down) Parsing",
+                "Parse Trees",
+                "Ambiguous Grammars in Parsing",
+                "Left Recursion Removal",
+                "Bottom-Up Parsing",
+                "Parse Trees and Derivations",
+                "Context-Free Grammar for Programming Languages",
+                "LL(1) Parsing Table Construction",
+                "Shift-Reduce Parsing",
+                "Left Recursion Elimination",
+                "FOLLOW Sets",
+                "Predictive Parsing (LL)",
+                "Ambiguous Grammar and Parsing",
+                "LR(0) Parsing and Items"
+            ]
+        },
+        "Syntax-Directed Translation": {
+            "micro_topics": [
+                "Syntax-Directed Translation Schemes (SDT)",
+                "Synthesized and Inherited Attributes",
+                "S-Attributed and L-Attributed Definitions",
+                "Syntax-Directed Definition (SDD)",
+                "Syntax Directed Translation (SDT)",
+                "Inherited Attributes",
+                "Synthesized Attributes",
+                "S-Attributed Definitions",
+                "Translation Schemes"
+            ]
+        }
+    },
+    "Computer Networks": {
+        "Application Layer (DNS, SMTP, HTTP, FTP)": {
+            "micro_topics": [
+                "DNS Protocol and Name Resolution",
+                "HTTP Protocol: Request and Response",
+                "HTTP Persistent vs Non-Persistent Connections",
+                "Email System Architecture (MUA, MTA, MDA)",
+                "FTP Protocol",
+                "DHCP Protocol (Application Layer View)"
+            ]
+        },
+        "Data Link Layer (Framing, Error/Flow Control, MAC)": {
+            "micro_topics": [
+                "Error Correction: Hamming Code",
+                "Error Detection: CRC (Cyclic Redundancy Check)",
+                "Error Detection: Parity Bits",
+                "ALOHA Protocol: Pure and Slotted",
+                "Framing Techniques: Character Stuffing, Bit Stuffing",
+                "Stop-and-Wait ARQ",
+                "Go-Back-N ARQ",
+                "Selective Repeat ARQ",
+                "Sliding Window Protocol",
+                "Sliding Window Protocol Efficiency",
+                "Stop-and-Wait Protocol",
+                "Framing: Bit Stuffing and Byte Stuffing"
+            ]
+        },
+        "LAN Technologies (Ethernet)": {
+            "micro_topics": [
+                "Ethernet (IEEE 802.3): CSMA/CD",
+                "Token Ring (IEEE 802.5)",
+                "IEEE 802.11 Wireless LAN (Wi-Fi)",
+                "Token Ring Protocol"
+            ]
+        },
+        "Network Layer (IPv4/IPv6, Routing Algorithms)": {
+            "micro_topics": [
+                "IP Fragmentation and Reassembly",
+                "CIDR (Classless Inter-Domain Routing) and Route Aggregation",
+                "IPv4 Header Fields and Structure",
+                "IP Addressing: Classful Addressing",
+                "Subnetting and Subnet Masks",
+                "IPv6 Addressing and Header Format",
+                "Variable Length Subnet Masking (VLSM)",
+                "IP Addressing (IPv4): Classful Addressing",
+                "Subnet Masks and Subnetting",
+                "IPv6 Addressing and Header",
+                "IP Forwarding and Routing Tables",
+                "Routing Algorithms: Distance Vector Routing"
+            ]
+        },
+        "IP Support Protocols (ARP, DHCP, ICMP, NAT)": {
+            "micro_topics": [
+                "NAT (Network Address Translation)",
+                "ICMP Protocol",
+                "ARP Protocol",
+                "ICMP Protocol and Ping"
+            ]
+        },
+        "Network Security (Public Key, Digital Signatures, Firewalls)": {
+            "micro_topics": [
+                "Asymmetric (Public Key) Cryptography (RSA)",
+                "Firewall: Packet Filtering",
+                "Symmetric Key Cryptography (AES, DES)",
+                "Digital Signatures and Certificates",
+                "RSA Algorithm (Key Generation, Encryption, Decryption)"
+            ]
+        },
+        "Transport Layer (TCP, UDP, Sockets, Congestion Control)": {
+            "micro_topics": [
+                "TCP Sequence Numbers and Acknowledgments",
+                "TCP Congestion Control: Slow Start",
+                "Socket API and Socket Programming",
+                "UDP Protocol: Characteristics and Uses",
+                "TCP Retransmission and Timeout",
+                "TCP Connection Establishment: Three-Way Handshake",
+                "TCP Flow Control: Sliding Window",
+                "TCP vs UDP Comparison",
+                "Port Numbers and Multiplexing",
+                "TCP Protocol: Connection-Oriented",
+                "TCP Three-Way Handshake",
+                "UDP Protocol",
+                "TCP State Machine",
+                "TCP Timer Management and RTT Estimation"
+            ]
+        },
+        "OSI/TCP-IP Layering Concepts": {
+            "micro_topics": [
+                "OSI Model: Seven Layers and Functions",
+                "Packet, Circuit, and Virtual Circuit Switching",
+                "Network Devices: Hub, Switch, Router, Bridge",
+                "TCP/IP Model: Four Layers and Functions"
+            ]
+        }
+    },
+    "Computer Organization and Architecture": {
+        "ALU, Data-path and Control Unit": {
+            "micro_topics": [
+                "Data-Path Architecture",
+                "Instruction Execution Cycle (Fetch, Decode, Execute)",
+                "RISC vs CISC Architecture",
+                "Hardwired vs Microprogrammed Control Unit",
+                "ALU Design and Operations"
+            ]
+        },
+        "I/O Interface (Interrupt and DMA)": {
+            "micro_topics": [
+                "Direct Memory Access (DMA)",
+                "Interrupt Priority and Handling",
+                "Programmed I/O (Polling)",
+                "I/O Bus and Peripheral Interface",
+                "Interrupt-Driven I/O",
+                "Interrupt Service Routine (ISR)"
+            ]
+        },
+        "Instruction Pipelining": {
+            "micro_topics": [
+                "Instruction Pipelining: Concept and Stages",
+                "Data Hazards in Pipelining",
+                "Pipeline Stalls (Bubbles)",
+                "Control Hazards and Branch Prediction",
+                "Pipeline Speedup Calculation",
+                "Pipeline Forwarding (Data Bypassing)",
+                "CPI (Cycles Per Instruction) Analysis",
+                "Data Forwarding (Bypassing)",
+                "Pipeline Throughput and Speedup"
+            ]
+        },
+        "Machine Instructions and Addressing Modes": {
+            "micro_topics": [
+                "Instruction Format and Fields",
+                "Instruction Types: Data Transfer, Arithmetic, Logic, Control",
+                "Indirect Addressing Mode",
+                "Immediate Addressing Mode",
+                "Base-Register Addressing Mode"
+            ]
+        },
+        "Memory Hierarchy (Cache, Main Memory, Secondary Storage)": {
+            "micro_topics": [
+                "Cache Memory: Concept and Locality of Reference",
+                "Set Associative Cache",
+                "Direct Mapped Cache",
+                "Fully Associative Cache",
+                "Cache Hit Rate and Miss Rate",
+                "Cache Block/Line Size",
+                "Main Memory Organization",
+                "Cache Write Policies: Write-Through, Write-Back",
+                "Cache Replacement Policies: LRU, FIFO, LFU",
+                "Memory Interleaving",
+                "Virtual Memory: Address Translation",
+                "Cache Coherence",
+                "Memory Hierarchy: Levels and Trade-offs",
+                "Write-Back Policy",
+                "Write-Through Policy",
+                "LRU Cache Replacement",
+                "Secondary Storage: HDD and SSD"
+            ]
+        }
+    },
+    "Databases": {
+        "ER Model": {
+            "micro_topics": [
+                "Entity Types: Strong and Weak Entities",
+                "Attribute Types: Simple, Composite, Multivalued, Derived",
+                "Entity, Attribute, and Relationship",
+                "Cardinality Ratios (1:1, 1:M, M:N)",
+                "Cardinality Ratios: One-to-One, One-to-Many, Many-to-Many"
+            ]
+        },
+        "File Organization and Indexing (B/B+ Trees)": {
+            "micro_topics": [
+                "B+ Tree Indexing",
+                "Heap File Organization",
+                "Primary Index (Dense and Sparse)",
+                "Clustering vs Non-Clustering Index",
+                "Hash File Organization",
+                "Sequential File Organization"
+            ]
+        },
+        "Integrity Constraints and Normalization": {
+            "micro_topics": [
+                "Boyce-Codd Normal Form (BCNF)",
+                "Functional Dependencies (FD): Definition",
+                "Keys Derived from Functional Dependencies",
+                "Canonical Cover of FDs",
+                "Third Normal Form (3NF)",
+                "Lossless Join Decomposition",
+                "First Normal Form (1NF)"
+            ]
+        },
+        "Relational Model and Relational Algebra": {
+            "micro_topics": [
+                "Selection (\u03c3) in Relational Algebra",
+                "Projection (\u03c0) in Relational Algebra",
+                "Keys: Super Key, Candidate Key, Primary Key, Foreign Key",
+                "Natural Join in Relational Algebra",
+                "Division Operation in Relational Algebra",
+                "Set Operations: Union, Intersection, Difference",
+                "Theta Join and Equi-Join",
+                "Functional Dependencies in Relational Model",
+                "Cartesian Product in Relational Algebra",
+                "Relational Schema Design",
+                "Relations, Tuples, and Attributes",
+                "Integrity Constraints: Entity Integrity, Referential Integrity",
+                "Outer Joins: Left, Right, Full",
+                "Rename (\u03c1) Operation"
+            ]
+        },
+        "Tuple Calculus": {
+            "micro_topics": [
+                "Relational Tuple Calculus",
+                "Tuple Relational Calculus"
+            ]
+        },
+        "SQL": {
+            "micro_topics": [
+                "SQL GROUP BY Clause",
+                "SQL IN and NOT IN",
+                "SQL Natural Join",
+                "SQL SELECT and FROM Clauses",
+                "SQL HAVING Clause",
+                "SQL Subqueries (Nested Queries)",
+                "SQL Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)",
+                "SQL Views: Definition and Usage",
+                "SQL INSERT, UPDATE, DELETE Statements",
+                "SQL ORDER BY Clause",
+                "SQL Joins: INNER, LEFT, RIGHT, FULL OUTER",
+                "SQL Aggregate Functions: COUNT, SUM, AVG, MIN, MAX",
+                "SQL SELECT Queries",
+                "SQL WHERE Clause and Predicates",
+                "SQL DDL: CREATE, ALTER, DROP",
+                "SQL EXISTS and NOT EXISTS"
+            ]
+        },
+        "Transactions and Concurrency Control": {
+            "micro_topics": [
+                "Transaction Schedules",
+                "Atomicity and Durability",
+                "Log-Based Recovery: Undo and Redo",
+                "Conflict Serializability",
+                "Two-Phase Locking (2PL) Protocol",
+                "ACID Properties of Transactions",
+                "View Serializability",
+                "Deadlock in Transactions (Wait-for Graph)",
+                "Two-Phase Locking (2PL)",
+                "Serial and Serializable Schedules",
+                "Deadlock in DBMS",
+                "Lock-Based Protocols"
+            ]
+        }
+    },
+    "Digital Logic": {
+        "Boolean Algebra": {
+            "micro_topics": [
+                "Boolean Function Representation (SOP, POS)",
+                "Boolean Function Minimization",
+                "Boolean Algebra Axioms and Identities",
+                "DeMorgan's Theorem",
+                "Canonical Forms: Minterms and Maxterms",
+                "Complement of Boolean Functions",
+                "Gate-Level Implementation of Boolean Functions",
+                "Universal Gates: NAND, NOR"
+            ]
+        },
+        "Combinational Circuits": {
+            "micro_topics": [
+                "Multiplexers (MUX)",
+                "Full Adder",
+                "Binary Multiplier",
+                "Decoders",
+                "Priority Encoders",
+                "Half Subtractor and Full Subtractor"
+            ]
+        },
+        "Minimization": {
+            "micro_topics": [
+                "Karnaugh Map (K-Map) Minimization",
+                "Prime Implicants and Essential Prime Implicants"
+            ]
+        },
+        "Number Representations and Computer Arithmetic": {
+            "micro_topics": [
+                "Number Base Conversion",
+                "IEEE 754 Floating Point Standard",
+                "Single and Double Precision Representation",
+                "2's Complement Representation",
+                "Fixed Point Arithmetic",
+                "1's Complement Representation",
+                "Binary Addition and Subtraction",
+                "Overflow Detection in Arithmetic",
+                "Signed Magnitude Representation",
+                "Sign-Magnitude Representation",
+                "Overflow Detection",
+                "Floating Point Arithmetic: Addition and Subtraction",
+                "Binary Number System",
+                "Hexadecimal Number System"
+            ]
+        },
+        "Sequential Circuits": {
+            "micro_topics": [
+                "D Flip-Flop",
+                "JK Flip-Flop",
+                "Synchronous Counters",
+                "Finite State Machine (FSM) Design",
+                "State Diagram and State Table",
+                "SR Latch",
+                "Asynchronous Counters (Ripple Counters)",
+                "Shift Registers",
+                "State Table and State Diagram",
+                "Modulo-N Counters",
+                "Ring Counters and Johnson Counters",
+                "Finite State Machine (FSM): Mealy Model",
+                "Asynchronous (Ripple) Counters"
+            ]
+        }
+    },
+    "Discrete Mathematics": {
+        "Monoids and Groups": {
+            "micro_topics": [
+                "Subgroups and Lagrange's Theorem",
+                "Groups: Definition, Axioms, Properties, Abelian Groups",
+                "Monoids and Semigroups",
+                "Groups: Definition, Axioms, Properties",
+                "Abelian Groups"
+            ]
+        },
+        "Combinatorics: Counting, Recurrence Relations, Generating Functions": {
+            "micro_topics": [
+                "Counting Principles: Product and Sum Rules",
+                "Recurrence Relations",
+                "Generating Functions",
+                "Permutations",
+                "Combinations and Binomial Theorem"
+            ]
+        },
+        "Graphs (Theory): Connectivity, Matching, Coloring": {
+            "micro_topics": [
+                "Planar Graphs and Euler's Formula",
+                "Graph Definitions: Vertices, Edges, Degree",
+                "Degree Sequences and Handshaking Lemma",
+                "Trees and Spanning Trees",
+                "Eulerian and Hamiltonian Paths/Circuits",
+                "Graph Isomorphism",
+                "Graph Coloring",
+                "Chromatic Number",
+                "Bipartite Graphs and Matchings",
+                "Graph Connectivity: Cut Vertices and Bridges",
+                "Spanning Trees and Number of Spanning Trees",
+                "Graph Coloring and Chromatic Number",
+                "Bipartite Graphs",
+                "Hamiltonian Paths and Circuits"
+            ]
+        },
+        "Propositional and First-Order Logic": {
+            "micro_topics": [
+                "Propositional Logic: Syntax and Semantics",
+                "First-Order Logic: Predicates and Quantifiers",
+                "Tautologies and Contradictions",
+                "Normal Forms: CNF, DNF",
+                "Logical Equivalences and Implications",
+                "Validity and Satisfiability of FOL",
+                "Universal and Existential Quantification",
+                "Logical Connectives and Truth Tables",
+                "Satisfiability and Validity"
+            ]
+        },
+        "Sets, Relations, Functions": {
+            "micro_topics": [
+                "Types of Relations: Reflexive, Symmetric, Antisymmetric, Transitive",
+                "Functions: Domain, Codomain, Range",
+                "Power Sets and Cardinality",
+                "Equivalence Classes and Partitions",
+                "Set Theory Basics",
+                "Set Operations: Union, Intersection, Difference, Complement",
+                "Surjective (Onto) Functions",
+                "Equivalence Relations and Equivalence Classes",
+                "Injective (One-to-One) Functions"
+            ]
+        },
+        "Partial Orders and Lattices": {
+            "micro_topics": [
+                "Partial Orders and Hasse Diagrams",
+                "Lattices: Definition and Properties",
+                "Relations: Equivalence and Partial Order",
+                "Partial Orders and Posets (HASSE Diagrams)"
+            ]
+        }
+    },
+    "Engineering Mathematics": {
+        "Limits, Continuity, Differentiability": {
+            "micro_topics": [
+                "Derivatives: Rules and Applications",
+                "Continuity and Discontinuity",
+                "L'H\u00f4pital's Rule",
+                "Differentiability",
+                "Limits of Functions",
+                "Mean Value Theorem"
+            ]
+        },
+        "Integration": {
+            "micro_topics": [
+                "Integration: Definite and Indefinite Integrals",
+                "Techniques of Integration"
+            ]
+        },
+        "Maxima and Minima": {
+            "micro_topics": [
+                "Maxima and Minima of Functions",
+                "Maxima and Minima (Single Variable)"
+            ]
+        },
+        "Matrices and Determinants": {
+            "micro_topics": [
+                "Matrices: Types and Operations",
+                "Determinants and Their Properties",
+                "Matrix Rank and Row Echelon Form",
+                "Matrix Inverse",
+                "LU Decomposition",
+                "Singular and Non-Singular Matrices",
+                "Rank of a Matrix",
+                "Trace of a Matrix"
+            ]
+        },
+        "Systems of Linear Equations": {
+            "micro_topics": [
+                "System of Linear Equations (Ax=b)",
+                "Vector Spaces and Subspaces",
+                "System of Linear Equations (Gaussian Elimination)"
+            ]
+        },
+        "Eigenvalues and Eigenvectors": {
+            "micro_topics": [
+                "Eigenvalues and Eigenvectors",
+                "Diagonalization of Matrices",
+                "Cayley-Hamilton Theorem"
+            ]
+        },
+        "Random Variables": {
+            "micro_topics": [
+                "Random Variables: Continuous and Discrete",
+                "Expected Value of Random Variable",
+                "Expected Value (Mean) of a Distribution",
+                "Cumulative Distribution Function (CDF)",
+                "Probability Mass Function (PMF)",
+                "Random Variables: Discrete and Continuous",
+                "Probability Density Function (PDF)",
+                "Joint Probability Distributions"
+            ]
+        },
+        "Distributions (Uniform, Normal, Exponential, Poisson, Binomial)": {
+            "micro_topics": [
+                "Normal Distribution",
+                "Bernoulli and Binomial Distribution",
+                "Poisson Distribution",
+                "Uniform Distribution",
+                "Exponential Distribution",
+                "Normal (Gaussian) Distribution"
+            ]
+        },
+        "Conditional Probability and Bayes Theorem": {
+            "micro_topics": [
+                "Classical Probability",
+                "Conditional Probability",
+                "Bayes' Theorem",
+                "Independent and Dependent Events",
+                "Independent Events",
+                "Sample Space and Events"
+            ]
+        },
+        "Mean, Median, Mode, Standard Deviation": {
+            "micro_topics": [
+                "Variance and Standard Deviation",
+                "Mean and Median"
+            ]
+        }
+    },
+    "General Aptitude": {
+        "Reasoning and Logic": {
+            "micro_topics": [
+                "Statements and Inferences",
+                "Syllogisms",
+                "Critical Reasoning and Assumptions",
+                "Blood Relations",
+                "Data Sufficiency",
+                "Number Series",
+                "Logical Puzzles",
+                "Analogies in Reasoning",
+                "Cube and Dice Problems",
+                "Paper Folding and Cutting",
+                "3D Shapes and Perspectives",
+                "Mirror and Water Image",
+                "Pattern Recognition and Completion",
+                "Completion of Figures",
+                "Mirror Images"
+            ]
+        },
+        "Data Interpretation": {
+            "micro_topics": [
+                "Data Interpretation: Bar Charts",
+                "Data Interpretation: Line Graphs",
+                "Data Interpretation: Pie Charts",
+                "Data Interpretation: Tables"
+            ]
+        },
+        "Numerical Computation": {
+            "micro_topics": [
+                "Algebra: Linear and Quadratic Equations",
+                "Probability in Aptitude",
+                "Geometry: Lines, Angles, Triangles",
+                "Ratio and Proportion",
+                "Speed, Distance, and Time",
+                "Percentages and Profit/Loss",
+                "Work and Time Problems",
+                "Averages",
+                "Logarithms",
+                "Permutations and Combinations in Aptitude",
+                "Simple and Compound Interest",
+                "Number Properties (Divisibility, Remainders)",
+                "Sequences and Series (AP, GP, HP)",
+                "Set Theory in Aptitude (Venn Diagrams)",
+                "Mixtures and Alligations",
+                "Pipes and Cisterns",
+                "Sequences and Series (AP and GP)",
+                "Percentages",
+                "Permutations and Combinations (Aptitude)",
+                "Mensuration: Area and Volume",
+                "Profit and Loss",
+                "Number Systems and Divisibility",
+                "Set Theory: Venn Diagrams (Aptitude)",
+                "Time, Speed and Distance",
+                "Geometry: Circles",
+                "Mixtures and Alligation"
+            ]
+        },
+        "Grammar and Vocabulary": {
+            "micro_topics": [
+                "Articles (a, an, the)",
+                "Subject-Verb Agreement",
+                "Sentence Rearrangement",
+                "Synonyms and Antonyms",
+                "Prepositions",
+                "Word Meanings and Vocabulary",
+                "Sentence Correction and Error Identification",
+                "Idioms and Phrases",
+                "Analogies in English"
+            ]
+        },
+        "Reading Comprehension": {
+            "micro_topics": [
+                "Reading Comprehension",
+                "Paragraph Coherence"
+            ]
+        },
+        "Sentence Completion": {
+            "micro_topics": [
+                "Sentence Completion and Fill in the Blanks"
+            ]
+        }
+    },
+    "Operating Systems": {
+        "CPU Scheduling": {
+            "micro_topics": [
+                "Shortest Remaining Time First (SRTF) Scheduling",
+                "Shortest Job First (SJF) Scheduling",
+                "Priority Scheduling (Preemptive and Non-Preemptive)",
+                "Round Robin (RR) Scheduling",
+                "Turnaround Time and Waiting Time Calculation",
+                "First Come First Served (FCFS) Scheduling",
+                "Multi-Level Queue Scheduling",
+                "FCFS Scheduling (CPU)",
+                "CPU Scheduling: Gantt Chart Analysis",
+                "Preemptive vs Non-Preemptive Scheduling",
+                "Round Robin Scheduling"
+            ]
+        },
+        "Deadlocks": {
+            "micro_topics": [
+                "Deadlock: Necessary Conditions (Coffman's Conditions)",
+                "Deadlock Detection Algorithm",
+                "Banker's Algorithm",
+                "Deadlock Avoidance",
+                "Resource Allocation Graph (RAG)",
+                "Safe State and Unsafe State"
+            ]
+        },
+        "File Systems": {
+            "micro_topics": [
+                "FAT File System",
+                "Disk Buffering and Caching",
+                "File System Structure and Layers",
+                "Contiguous File Allocation",
+                "Directory Structure: Single-Level, Two-Level, Tree",
+                "Linked File Allocation",
+                "Indexed File Allocation",
+                "Free Space Management: Bitmap and Linked List",
+                "Inode Structure",
+                "Disk Access Time: Seek Time, Rotational Latency, Transfer Time",
+                "SSTF Disk Scheduling",
+                "Disk Structure: Tracks, Sectors, Cylinders",
+                "SCAN Disk Scheduling Algorithm",
+                "SCAN Disk Scheduling"
+            ]
+        },
+        "Concurrency and Synchronization": {
+            "micro_topics": [
+                "Semaphores: Binary and Counting",
+                "Critical Section Problem",
+                "Semaphore Wait (P) and Signal (V) Operations"
+            ]
+        },
+        "Memory Management (Paging, Segmentation)": {
+            "micro_topics": [
+                "Page Table Structure",
+                "Paging and Page Tables",
+                "Effective Memory Access Time (Paging with TLB)",
+                "Segmentation: Concept and Segment Table",
+                "Internal Fragmentation",
+                "Memory Allocation Strategies: First Fit, Best Fit, Worst Fit",
+                "Translation Lookaside Buffer (TLB)",
+                "External Fragmentation",
+                "Fixed Partitioning and Variable Partitioning",
+                "Paging: Concept and Address Translation",
+                "Multi-Level Page Table"
+            ]
+        },
+        "Virtual Memory": {
+            "micro_topics": [
+                "Page Fault Handling",
+                "LRU Page Replacement",
+                "Demand Paging",
+                "Optimal Page Replacement",
+                "FIFO Page Replacement",
+                "Thrashing",
+                "Page Fault Rate Analysis",
+                "Virtual Memory: Concept and Benefits",
+                "Virtual Memory: Page Replacement (FIFO)"
+            ]
+        },
+        "Processes and Threads": {
+            "micro_topics": [
+                "Threads: Definition and Types",
+                "Process State Transitions (New, Ready, Running, Blocked, Terminated)",
+                "Context Switching",
+                "Process Termination"
+            ]
+        },
+        "System Calls": {
+            "micro_topics": [
+                "Process Creation: fork() System Call",
+                "Mode Switch: User Mode to Kernel Mode",
+                "System Calls Interface"
+            ]
+        }
+    },
+    "Programming and Data Structures": {
+        "Arrays": {
+            "micro_topics": [
+                "Array Operations and Complexity"
+            ]
+        },
+        "Stacks and Queues": {
+            "micro_topics": [
+                "Stack Operations: Push, Pop, Peek",
+                "Circular Queue",
+                "Deque (Double-Ended Queue)",
+                "Queue Operations and Complexity",
+                "Postfix Expression Evaluation using Stack",
+                "Priority Queue using Heap",
+                "Infix to Postfix Conversion",
+                "Queue: Enqueue, Dequeue Operations",
+                "Stack: Push, Pop, Peek Operations",
+                "Stack Applications: Expression Evaluation"
+            ]
+        },
+        "Linked Lists": {
+            "micro_topics": [
+                "Doubly Linked List Operations",
+                "Singly Linked List Operations",
+                "Circular Linked List Operations",
+                "Merging Linked Lists",
+                "Reversing a Linked List"
+            ]
+        },
+        "Graphs (Data Structures)": {
+            "micro_topics": [
+                "Graph Representation: Edge List",
+                "Adjacency List Representation",
+                "Graph Representation: Adjacency List"
+            ]
+        },
+        "Graph Traversals (BFS, DFS)": {
+            "micro_topics": [
+                "Breadth-First Search (BFS)",
+                "Depth-First Search (DFS)"
+            ]
+        },
+        "Hashing": {
+            "micro_topics": [
+                "Hash Functions: Division, Multiplication Methods",
+                "Collision Handling: Separate Chaining",
+                "Collision Handling: Double Hashing",
+                "Collision Handling: Open Addressing (Linear Probing)",
+                "Load Factor and Rehashing"
+            ]
+        },
+        "Programming in C": {
+            "micro_topics": [
+                "C Input/Output: printf, scanf",
+                "Arrays in C",
+                "Data Types, Variables, and Constants in C",
+                "Pointers in C",
+                "Structures and Unions in C",
+                "Functions in C: Call by Value, Call by Reference",
+                "Control Structures: if-else, switch in C",
+                "Dynamic Memory Allocation: malloc, calloc, free",
+                "C Strings and String Functions",
+                "Bitwise Operations in C",
+                "Loops: for, while, do-while in C",
+                "Preprocessor Directives",
+                "File Handling in C",
+                "Stack and Heap Memory in C",
+                "Scope and Lifetime of Variables",
+                "Type Casting and Type Conversion",
+                "Loops in C: for, while, do-while",
+                "Operators and Operator Precedence in C",
+                "Recursion in C",
+                "Pointers and Arrays in C",
+                "Storage Classes: auto, static, extern, register",
+                "Structures with Pointers in C",
+                "Function Pointers in C",
+                "Structures in C"
+            ]
+        },
+        "Recursion": {
+            "micro_topics": [
+                "Recursion: Base Case and Recursive Case",
+                "Recursive Tree and Linked-List Operations",
+                "Tail Recursion"
+            ]
+        },
+        "Trees and Binary Search Trees": {
+            "micro_topics": [
+                "BST Search and Height Analysis",
+                "Binary Tree: Definition and Properties",
+                "AVL Tree Insertion and Deletion",
+                "BST Insertion and Deletion",
+                "Inorder, Preorder, Postorder Traversals",
+                "B+ Tree Insertion",
+                "B+ Trees: Properties and Operations",
+                "Complete Binary Tree",
+                "Pre-order and Post-order Traversal",
+                "Red-Black Trees: Properties",
+                "Threaded Binary Trees",
+                "Expression Trees",
+                "Binary Tree Traversal: Inorder, Preorder, Postorder",
+                "Binary Search Tree (BST): Properties",
+                "Binary Tree Height and Depth",
+                "Full Binary Tree and Complete Binary Tree",
+                "Huffman Coding Tree"
+            ]
+        },
+        "Binary Heaps": {
+            "micro_topics": [
+                "Heap: Min-Heap and Max-Heap Properties",
+                "Heap Operations: Insert, Delete, Heapify",
+                "Heap Insertion (Swim Up)"
+            ]
+        }
+    },
+    "Theory of Computation": {
+        "Regular and Context-Free Language Properties": {
+            "micro_topics": [
+                "Closure Properties of Regular Languages",
+                "Closure Properties of Context-Free Languages"
+            ]
+        },
+        "Deterministic and Nondeterministic Finite Automata": {
+            "micro_topics": [
+                "Equivalence of DFA and NFA",
+                "Language Accepted by DFA",
+                "Non-Deterministic Finite Automata (NFA): Definition",
+                "DFA Minimization",
+                "NFA to DFA Conversion (Subset Construction)",
+                "Deterministic Finite Automata (DFA): Definition",
+                "Regular Expression to NFA (Thompson's Construction)"
+            ]
+        },
+        "Context-Free Grammars": {
+            "micro_topics": [
+                "Context-Free Grammar (CFG): Definition and Notation",
+                "Chomsky Normal Form (CNF)",
+                "Inherent Ambiguity in CFL",
+                "CFL Pumping Lemma",
+                "Ambiguous Context-Free Grammars",
+                "Pumping Lemma for Context-Free Languages"
+            ]
+        },
+        "Pushdown Automata": {
+            "micro_topics": [
+                "Pushdown Automata (PDA): Definition",
+                "Non-Deterministic PDA (NPDA)"
+            ]
+        },
+        "Regular Expressions and Regular Languages": {
+            "micro_topics": [
+                "Regular Expressions: Syntax and Semantics",
+                "Myhill-Nerode Theorem and Equivalence Classes"
+            ]
+        },
+        "Pumping Lemma": {
+            "micro_topics": [
+                "Pumping Lemma for Regular Languages"
+            ]
+        },
+        "Turing Machines": {
+            "micro_topics": [
+                "Recursive (Decidable) Languages",
+                "Recursively Enumerable (RE) Languages",
+                "Turing Machine: Definition and Computation",
+                "Universal Turing Machine",
+                "Multi-Tape and Non-Deterministic Turing Machines",
+                "Church-Turing Thesis",
+                "Chomsky Hierarchy: Type 0, 1, 2, 3 Grammars",
+                "Turing Machine: Definition and Components",
+                "Decision Problems for CFLs and RLs",
+                "Linear Bounded Automata (LBA)"
+            ]
+        },
+        "Undecidability": {
+            "micro_topics": [
+                "Undecidability: Halting Problem",
+                "Rice's Theorem",
+                "Reductions Between Problems",
+                "Undecidability Proofs by Reduction"
+            ]
+        }
+    }
+}

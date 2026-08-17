@@ -1,0 +1,682 @@
+[
+    {
+        "year": 2011,
+        "subject": "Theory of Computation",
+        "question": "which of the following pairs have different expressive power     a  deterministic finite automata  d...",
+        "old_concept": "Deterministic and Nondeterministic Finite Automata",
+        "old_micro": "Non-Deterministic Finite Automata (NFA): Definition",
+        "predicted_concept": "Turing Machines",
+        "orig_sim": 0.1900988288766218,
+        "new_sim": 0.42250532142870845
+    },
+    {
+        "year": 2012,
+        "subject": "Databases",
+        "question": "given the basic er and relational models  which of the following is incorrect    an attribute of an ...",
+        "old_concept": "Relational Model and Relational Algebra",
+        "old_micro": "Relations, Tuples, and Attributes",
+        "predicted_concept": "ER Model",
+        "orig_sim": 0.24253570369423832,
+        "new_sim": 0.428618330225762
+    },
+    {
+        "year": 2012,
+        "subject": "Computer Networks",
+        "question": "which of the following transport layer protocols is used to support electronic mail    smtp    ip   ...",
+        "old_concept": "Application Layer (DNS, SMTP, HTTP, FTP)",
+        "old_micro": "Email System Architecture (MUA, MTA, MDA)",
+        "predicted_concept": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+        "orig_sim": 0.14360636194180534,
+        "new_sim": 0.39286632160028195
+    },
+    {
+        "year": 2012,
+        "subject": "Discrete Mathematics",
+        "question": "let g be a complete undirected graph on 6 vertices  if vertices of g are labeled  then the number of...",
+        "old_concept": "Combinatorics: Counting, Recurrence Relations, Generating Functions",
+        "old_micro": "Counting Principles: Product and Sum Rules",
+        "predicted_concept": "Graphs (Theory): Connectivity, Matching, Coloring",
+        "orig_sim": 0.22476879639767505,
+        "new_sim": 0.47642614642259695
+    },
+    {
+        "year": 2013,
+        "subject": "Theory of Computation",
+        "question": "consider the languages l1     and l2    a   which one of the following represents l1 l2    l1       ...",
+        "old_concept": "Deterministic and Nondeterministic Finite Automata",
+        "old_micro": "Language Accepted by DFA",
+        "predicted_concept": "Context-Free Grammars",
+        "orig_sim": 0.22078918859766974,
+        "new_sim": 0.44441397663061705
+    },
+    {
+        "year": 2014,
+        "subject": "General Aptitude",
+        "question": "the table below has question wise data on the performance of students in an examination  the marks f...",
+        "old_concept": "Numerical Computation",
+        "old_micro": "Averages",
+        "predicted_concept": "Data Interpretation",
+        "orig_sim": 0.17552708266644343,
+        "new_sim": 0.32713022454981405
+    },
+    {
+        "year": 2014,
+        "subject": "Theory of Computation",
+        "question": "which one of the following problems is undecidable     a  deciding if a given context free grammar i...",
+        "old_concept": "Undecidability",
+        "old_micro": "Undecidability: Halting Problem",
+        "predicted_concept": "Context-Free Grammars",
+        "orig_sim": 0.2233256611667974,
+        "new_sim": 0.5852487329037951
+    },
+    {
+        "year": 2014,
+        "subject": "Computer Networks",
+        "question": "a graphical html browser accesses a static html webpage with exactly one embedded image from server ...",
+        "old_concept": "Application Layer (DNS, SMTP, HTTP, FTP)",
+        "old_micro": "HTTP Protocol: Request and Response",
+        "predicted_concept": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+        "orig_sim": 0.3189155542158797,
+        "new_sim": 0.4994467274295193
+    },
+    {
+        "year": 2014,
+        "subject": "Theory of Computation",
+        "question": "which one of the following is true    the language l    a b    n   0  is regular     the language l ...",
+        "old_concept": "Deterministic and Nondeterministic Finite Automata",
+        "old_micro": "Language Accepted by DFA",
+        "predicted_concept": "Regular Expressions and Regular Languages",
+        "orig_sim": 0.4241096807109081,
+        "new_sim": 0.6269058960159214
+    },
+    {
+        "year": 2014,
+        "subject": "Engineering Mathematics",
+        "question": "a function f x  is continuous in the interval  0 2   it is known that f 0    f 2     1 and f 1    1 ...",
+        "old_concept": "Limits, Continuity, Differentiability",
+        "old_micro": "Continuity and Discontinuity",
+        "predicted_concept": "Maxima and Minima",
+        "orig_sim": 0.29596465861054605,
+        "new_sim": 0.4522884223104996
+    },
+    {
+        "year": 2015,
+        "subject": "Engineering Mathematics",
+        "question": "if for non zero x  af x    bf 1 x    1 x   25 where a    b then integral 1 to 2  f x dx is    a   1 ...",
+        "old_concept": "Limits, Continuity, Differentiability",
+        "old_micro": "Derivatives: Rules and Applications",
+        "predicted_concept": "Integration",
+        "orig_sim": 0.1155626569366764,
+        "new_sim": 0.2656245786399783
+    },
+    {
+        "year": 2015,
+        "subject": "General Aptitude",
+        "question": "choose the statement where underlined word is used correctly     a  the industrialist had a personne...",
+        "old_concept": "Sentence Completion",
+        "old_micro": "Sentence Completion and Fill in the Blanks",
+        "predicted_concept": "Grammar and Vocabulary",
+        "orig_sim": 0.21290309161195606,
+        "new_sim": 0.36459908784561673
+    },
+    {
+        "year": 2015,
+        "subject": "Discrete Mathematics",
+        "question": "the number of onto functions  surjective functions  from set x  1  2  3  4  to set y  a  b  c  is   ...",
+        "old_concept": "Combinatorics: Counting, Recurrence Relations, Generating Functions",
+        "old_micro": "Counting Principles: Product and Sum Rules",
+        "predicted_concept": "Sets, Relations, Functions",
+        "orig_sim": 0.24782507458897624,
+        "new_sim": 0.5035706385500185
+    },
+    {
+        "year": 2015,
+        "subject": "Compiler Design",
+        "question": "which one of the following assertions concerning code inspection and code walkthrough is true     a ...",
+        "old_concept": "Local Optimization and Data Flow Analysis",
+        "old_micro": "Control Flow Graph (CFG)",
+        "predicted_concept": "Intermediate Code Generation",
+        "orig_sim": 0.26107920546059993,
+        "new_sim": 0.48106607298972537
+    },
+    {
+        "year": 2015,
+        "subject": "Theory of Computation",
+        "question": "which of the following languages is are regular \nl1   wxw r   w  x  in  a  b   and  w    x    0   w ...",
+        "old_concept": "Deterministic and Nondeterministic Finite Automata",
+        "old_micro": "Language Accepted by DFA",
+        "predicted_concept": "Regular and Context-Free Language Properties",
+        "orig_sim": 0.20453566337584989,
+        "new_sim": 0.404176098679957
+    },
+    {
+        "year": 2015,
+        "subject": "Computer Networks",
+        "question": "host a sends a udp datagram containing 8880 bytes of user data to host b over an ethernet lan  ether...",
+        "old_concept": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+        "old_micro": "UDP Protocol",
+        "predicted_concept": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+        "orig_sim": 0.23041689937370546,
+        "new_sim": 0.4699629077477087
+    },
+    {
+        "year": 2015,
+        "subject": "Theory of Computation",
+        "question": "for any two languages l  and l  such that l  is context free and l  is recursively enumerable but no...",
+        "old_concept": "Turing Machines",
+        "old_micro": "Turing Machine: Definition and Components",
+        "predicted_concept": "Regular and Context-Free Language Properties",
+        "orig_sim": 0.3660578872703941,
+        "new_sim": 0.6198955806167252
+    },
+    {
+        "year": 2015,
+        "subject": "Databases",
+        "question": "select operation in sql is equivalent to   the selection operation in relational algebra    the sele...",
+        "old_concept": "SQL",
+        "old_micro": "SQL IN and NOT IN",
+        "predicted_concept": "Relational Model and Relational Algebra",
+        "orig_sim": 0.2085198951801293,
+        "new_sim": 0.3843145938126578
+    },
+    {
+        "year": 2016,
+        "subject": "Algorithms",
+        "question": "the floyd warshall algorithm for all pair shortest paths computation is based on    a  greedy paradi...",
+        "old_concept": "Algorithm Design: Dynamic Programming",
+        "old_micro": "Floyd-Warshall Algorithm (All-Pairs Shortest Paths)",
+        "predicted_concept": "Algorithm Design: Divide and Conquer",
+        "orig_sim": 0.2136626929792574,
+        "new_sim": 0.5380690850111347
+    },
+    {
+        "year": 2019,
+        "subject": "General Aptitude",
+        "question": "in a college  there are three student clubs  sixty students are only in the drama club  80 students ...",
+        "old_concept": "Numerical Computation",
+        "old_micro": "Algebra: Linear and Quadratic Equations",
+        "predicted_concept": "Data Interpretation",
+        "orig_sim": 0.28607250422867075,
+        "new_sim": 0.4999963059498251
+    },
+    {
+        "year": 2020,
+        "subject": "Theory of Computation",
+        "question": "consider the following languages \nl1    wxyx   w x y in  0 1    \nl2    xy   x y in  a b     x   y   ...",
+        "old_concept": "Turing Machines",
+        "old_micro": "Chomsky Hierarchy: Type 0, 1, 2, 3 Grammars",
+        "predicted_concept": "Regular and Context-Free Language Properties",
+        "orig_sim": 0.29497816153807443,
+        "new_sim": 0.7146569573287271
+    },
+    {
+        "year": 2021,
+        "subject": "General Aptitude",
+        "question": "listening to music during exercise improves exercise performance and reduces discomfort  scientists ...",
+        "old_concept": "Reading Comprehension",
+        "old_micro": "Reading Comprehension",
+        "predicted_concept": "Data Interpretation",
+        "orig_sim": 0.09016059245327035,
+        "new_sim": 0.2932376664416087
+    },
+    {
+        "year": 2021,
+        "subject": "General Aptitude",
+        "question": "the number of students in three classes is in the ratio 3 13 6  if 18 students are added to each cla...",
+        "old_concept": "Numerical Computation",
+        "old_micro": "Algebra: Linear and Quadratic Equations",
+        "predicted_concept": "Data Interpretation",
+        "orig_sim": 0.19298530366178898,
+        "new_sim": 0.365217657462941
+    },
+    {
+        "year": 2021,
+        "subject": "General Aptitude",
+        "question": "six students p  q  r  s  t and u  with distinct heights  compare their heights and make the followin...",
+        "old_concept": "Reasoning and Logic",
+        "old_micro": "Statements and Inferences",
+        "predicted_concept": "Data Interpretation",
+        "orig_sim": 0.056394277734155895,
+        "new_sim": 0.38372073314192323
+    },
+    {
+        "year": 2021,
+        "subject": "Programming and Data Structures",
+        "question": "consider the following ansi c program \n include  stdio h \nint main   \n  int arr 4  5  \n  int i  j \n ...",
+        "old_concept": "Arrays",
+        "old_micro": "Array Operations and Complexity",
+        "predicted_concept": "Programming in C",
+        "orig_sim": 0.17100427553427516,
+        "new_sim": 0.6037471044083131
+    },
+    {
+        "year": 2021,
+        "subject": "Programming and Data Structures",
+        "question": "consider a complete binary tree with 7 nodes  let a denote the set of first 3 elements obtained by p...",
+        "old_concept": "Trees and Binary Search Trees",
+        "old_micro": "Full Binary Tree and Complete Binary Tree",
+        "predicted_concept": "Graph Traversals (BFS, DFS)",
+        "orig_sim": 0.304088328205151,
+        "new_sim": 0.45917211027441585
+    },
+    {
+        "year": 2021,
+        "subject": "Engineering Mathematics",
+        "question": "suppose that f   r   r is a continuous function on the interval   3  3  and a differentiable functio...",
+        "old_concept": "Limits, Continuity, Differentiability",
+        "old_micro": "Continuity and Discontinuity",
+        "predicted_concept": "Maxima and Minima",
+        "orig_sim": 0.2812570789774973,
+        "new_sim": 0.5030973437479288
+    },
+    {
+        "year": 2021,
+        "subject": "Theory of Computation",
+        "question": "consider the following two statements about regular languages \ns1  every infinite regular language c...",
+        "old_concept": "Turing Machines",
+        "old_micro": "Recursive (Decidable) Languages",
+        "predicted_concept": "Regular Expressions and Regular Languages",
+        "orig_sim": 0.22408757642218746,
+        "new_sim": 0.3858228532262361
+    },
+    {
+        "year": 2021,
+        "subject": "Algorithms",
+        "question": "in a directed acyclic graph with a source vertex s  the quality score of a directed path is defined ...",
+        "old_concept": "Algorithm Design: Dynamic Programming",
+        "old_micro": "Dynamic Programming: Optimal Substructure",
+        "predicted_concept": "Graph Traversals (BFS, DFS)",
+        "orig_sim": 0.02851044404515503,
+        "new_sim": 0.5496402305397379
+    },
+    {
+        "year": 2023,
+        "subject": "General Aptitude",
+        "question": "we reached the station late  and         missed the train    near    nearly    utterly    mostly  ...",
+        "old_concept": "Grammar and Vocabulary",
+        "old_micro": "Sentence Correction and Error Identification",
+        "predicted_concept": "Reasoning and Logic",
+        "orig_sim": 0.0,
+        "new_sim": 0.17631383375047585
+    },
+    {
+        "year": 2023,
+        "subject": "Digital Logic",
+        "question": "the output of a 2 input multiplexer is connected back to one of its inputs as shown in the figure  i...",
+        "old_concept": "Combinational Circuits",
+        "old_micro": "Multiplexers (MUX)",
+        "predicted_concept": "Sequential Circuits",
+        "orig_sim": 0.23881849767992783,
+        "new_sim": 0.40700574232601805
+    },
+    {
+        "year": 2023,
+        "subject": "Digital Logic",
+        "question": "which one of the following set of values of  x0  x1  x2  x3  x4  x5  x6  x7  will realise the boolea...",
+        "old_concept": "Combinational Circuits",
+        "old_micro": "Multiplexers (MUX)",
+        "predicted_concept": "Boolean Algebra",
+        "orig_sim": 0.1134648474928026,
+        "new_sim": 0.4510142525213393
+    },
+    {
+        "year": 2023,
+        "subject": "Computer Networks",
+        "question": "suppose you are asked to design a new reliable transport protocol mytcp  rate 100 mbps  rtt 150 ms  ...",
+        "old_concept": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+        "old_micro": "TCP Sequence Numbers and Acknowledgments",
+        "predicted_concept": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+        "orig_sim": 0.08925220621637846,
+        "new_sim": 0.299810733385762
+    },
+    {
+        "year": 2024,
+        "subject": "Digital Logic",
+        "question": "consider the circuit shown below where the gates may have propagation delays  assume that all signal...",
+        "old_concept": "Boolean Algebra",
+        "old_micro": "Gate-Level Implementation of Boolean Functions",
+        "predicted_concept": "Sequential Circuits",
+        "orig_sim": 0.06966049042255465,
+        "new_sim": 0.24275892078740338
+    },
+    {
+        "year": 2024,
+        "subject": "Discrete Mathematics",
+        "question": "let a and b be non empty finite sets such that there exist one to one and onto functions  i  from a ...",
+        "old_concept": "Propositional and First-Order Logic",
+        "old_micro": "First-Order Logic: Predicates and Quantifiers",
+        "predicted_concept": "Sets, Relations, Functions",
+        "orig_sim": 0.07150548985517233,
+        "new_sim": 0.3234097020901905
+    },
+    {
+        "year": 2024,
+        "subject": "Compiler Design",
+        "question": "consider the following pseudo code  15 lines of ir code involving variables t1 through t8 and contro...",
+        "old_concept": "Intermediate Code Generation",
+        "old_micro": "Intermediate Code for Control Flow",
+        "predicted_concept": "Local Optimization and Data Flow Analysis",
+        "orig_sim": 0.2732058760451835,
+        "new_sim": 0.4902688330893305
+    },
+    {
+        "year": 2024,
+        "subject": "Digital Logic",
+        "question": "consider a boolean expression given by f x  y  z    sum 3  5  6  7   which of the following statemen...",
+        "old_concept": "Minimization",
+        "old_micro": "Karnaugh Map (K-Map) Minimization",
+        "predicted_concept": "Boolean Algebra",
+        "orig_sim": 0.0925921051769118,
+        "new_sim": 0.29061378650999936
+    },
+    {
+        "year": 2024,
+        "subject": "Computer Organization and Architecture",
+        "question": "a given program has 25  load store instructions  suppose the ideal cpi without any memory stalls is ...",
+        "old_concept": "Instruction Pipelining",
+        "old_micro": "CPI (Cycles Per Instruction) Analysis",
+        "predicted_concept": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+        "orig_sim": 0.21277058543163438,
+        "new_sim": 0.5294965448281201
+    },
+    {
+        "year": 2025,
+        "subject": "Engineering Mathematics",
+        "question": "the value of x such that x   1 satisfying the equation integral from 1 to x of  t ln t  dt   1 4  e ...",
+        "old_concept": "Limits, Continuity, Differentiability",
+        "old_micro": "Derivatives: Rules and Applications",
+        "predicted_concept": "Integration",
+        "orig_sim": 0.1729568646704986,
+        "new_sim": 0.32340255589487193
+    },
+    {
+        "year": 2025,
+        "subject": "Computer Organization and Architecture",
+        "question": "which of the following is are part of an instruction set architecture of a processor     a  the size...",
+        "old_concept": "Machine Instructions and Addressing Modes",
+        "old_micro": "Instruction Types: Data Transfer, Arithmetic, Logic, Control",
+        "predicted_concept": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+        "orig_sim": 0.3105242635650765,
+        "new_sim": 0.5714498223234272
+    },
+    {
+        "year": 2025,
+        "subject": "Digital Logic",
+        "question": "given the following karnaugh map for a boolean function f w x y z     which one or more of the follo...",
+        "old_concept": "Minimization",
+        "old_micro": "Karnaugh Map (K-Map) Minimization",
+        "predicted_concept": "Boolean Algebra",
+        "orig_sim": 0.21757664457541653,
+        "new_sim": 0.6231205950334924
+    },
+    {
+        "year": 2025,
+        "subject": "Engineering Mathematics",
+        "question": "consider a system of linear equations px q    p lu    which of the following statement s  is are tru...",
+        "old_concept": "Matrices and Determinants",
+        "old_micro": "Singular and Non-Singular Matrices",
+        "predicted_concept": "Systems of Linear Equations",
+        "orig_sim": 0.10046380464135714,
+        "new_sim": 0.3046641181979182
+    },
+    {
+        "year": 2025,
+        "subject": "Programming and Data Structures",
+        "question": "consider the following algorithm somealgo    the output of somealgo t  for the tree shown in the giv...",
+        "old_concept": "Graph Traversals (BFS, DFS)",
+        "old_micro": "Breadth-First Search (BFS)",
+        "predicted_concept": "Trees and Binary Search Trees",
+        "orig_sim": 0.11883169827403856,
+        "new_sim": 0.32358767233046476
+    },
+    {
+        "year": 2025,
+        "subject": "Operating Systems",
+        "question": "suppose in a multiprogramming environment  the following c program segment is executed  a process go...",
+        "old_concept": "CPU Scheduling",
+        "old_micro": "CPU Scheduling: Gantt Chart Analysis",
+        "predicted_concept": "Processes and Threads",
+        "orig_sim": 0.15015627929561648,
+        "new_sim": 0.37315170373617024
+    },
+    {
+        "year": 2025,
+        "subject": "Operating Systems",
+        "question": "a disk of size 512m bytes is divided into blocks of 64k bytes  a file is stored in the disk using li...",
+        "old_concept": "Memory Management (Paging, Segmentation)",
+        "old_micro": "Internal Fragmentation",
+        "predicted_concept": "File Systems",
+        "orig_sim": 0.10233357621907947,
+        "new_sim": 0.5178376906971989
+    },
+    {
+        "year": 2016,
+        "subject": "Algorithms",
+        "question": "the floyd warshall algorithm for all pair shortest paths computation is based on    a  greedy paradi...",
+        "old_concept": "Algorithm Design: Dynamic Programming",
+        "old_micro": "Floyd-Warshall Algorithm (All-Pairs Shortest Paths)",
+        "predicted_concept": "Algorithm Design: Divide and Conquer",
+        "orig_sim": 0.2136626929792574,
+        "new_sim": 0.5380690850111347
+    },
+    {
+        "year": 2021,
+        "subject": "Algorithms",
+        "question": "let p be an array containing n integers  let t be the lowest upper bound on the number of comparison...",
+        "old_concept": "Asymptotic Complexity Analysis",
+        "old_micro": "Time Complexity Analysis",
+        "predicted_concept": "Searching and Sorting",
+        "orig_sim": 0.08209631668503364,
+        "new_sim": 0.25732481941787
+    },
+    {
+        "year": 2021,
+        "subject": "Theory of Computation",
+        "question": "let  m  denote an encoding of an automaton m  suppose that      0  1   which of the following langua...",
+        "old_concept": "Turing Machines",
+        "old_micro": "Recursive (Decidable) Languages",
+        "predicted_concept": "Deterministic and Nondeterministic Finite Automata",
+        "orig_sim": 0.1406322865198065,
+        "new_sim": 0.33437774545012633
+    },
+    {
+        "year": 2021,
+        "subject": "Theory of Computation",
+        "question": "for a turing machine m   m  denotes an encoding of m  consider the following two languages \nl1     m...",
+        "old_concept": "Undecidability",
+        "old_micro": "Undecidability Proofs by Reduction",
+        "predicted_concept": "Turing Machines",
+        "orig_sim": 0.29461879451156076,
+        "new_sim": 0.45297830959011637
+    },
+    {
+        "year": 2022,
+        "subject": "Compiler Design",
+        "question": "which one of the following statements is true    the lalr 1  parser for a grammar g cannot have redu...",
+        "old_concept": "Syntax Analysis (Parsing)",
+        "old_micro": "LALR(1) Parsing",
+        "predicted_concept": "Lexical Analysis",
+        "orig_sim": 0.2868504890155243,
+        "new_sim": 0.4466132400841288
+    },
+    {
+        "year": 2022,
+        "subject": "Theory of Computation",
+        "question": "which of the following statements is are true    every subset of a recursively enumerable language i...",
+        "old_concept": "Turing Machines",
+        "old_micro": "Recursively Enumerable (RE) Languages",
+        "predicted_concept": "Regular and Context-Free Language Properties",
+        "orig_sim": 0.5012040103239217,
+        "new_sim": 0.7037667353042911
+    },
+    {
+        "year": 2022,
+        "subject": "Discrete Mathematics",
+        "question": "which one of the following is the closed form for the generating function of the sequence  a n  defi...",
+        "old_concept": "Propositional and First-Order Logic",
+        "old_micro": "Propositional Logic: Syntax and Semantics",
+        "predicted_concept": "Combinatorics: Counting, Recurrence Relations, Generating Functions",
+        "orig_sim": 0.060036812439985654,
+        "new_sim": 0.2277225188300996
+    },
+    {
+        "year": 2022,
+        "subject": "Discrete Mathematics",
+        "question": "the following simple undirected graph is referred to as the peterson graph  which of the following s...",
+        "old_concept": "Propositional and First-Order Logic",
+        "old_micro": "Propositional Logic: Syntax and Semantics",
+        "predicted_concept": "Graphs (Theory): Connectivity, Matching, Coloring",
+        "orig_sim": 0.08520837875335566,
+        "new_sim": 0.5631111618128937
+    },
+    {
+        "year": 2022,
+        "subject": "Algorithms",
+        "question": "let g v  e  be a directed graph  where v    1  2  3  4  5  is the set of vertices and e is the set o...",
+        "old_concept": "Minimum Spanning Trees",
+        "old_micro": "Kruskal's Algorithm (Minimum Spanning Tree)",
+        "predicted_concept": "Graph Traversals (BFS, DFS)",
+        "orig_sim": 0.32234931000527134,
+        "new_sim": 0.5059724805750266
+    },
+    {
+        "year": 2026,
+        "subject": "General Aptitude",
+        "question": " when it is raining  peacocks dance   based only on this sentence  which one of the following option...",
+        "old_concept": "Reasoning and Logic",
+        "old_micro": "Critical Reasoning and Assumptions",
+        "predicted_concept": "Grammar and Vocabulary",
+        "orig_sim": 0.06648037478055598,
+        "new_sim": 0.4527382753828703
+    },
+    {
+        "year": 2026,
+        "subject": "General Aptitude",
+        "question": "water   p    food   q  choose the p and q combination from the options below to form a meaningful an...",
+        "old_concept": "Reading Comprehension",
+        "old_micro": "Reading Comprehension",
+        "predicted_concept": "Grammar and Vocabulary",
+        "orig_sim": 0.03363620384581027,
+        "new_sim": 0.310747037989692
+    },
+    {
+        "year": 2026,
+        "subject": "Operating Systems",
+        "question": "which one of the following cpu scheduling algorithms cannot be preemptive     a  shortest remaining ...",
+        "old_concept": "File Systems",
+        "old_micro": "SCAN Disk Scheduling",
+        "predicted_concept": "CPU Scheduling",
+        "orig_sim": 0.09992111239214857,
+        "new_sim": 0.6155139397664348
+    },
+    {
+        "year": 2026,
+        "subject": "Discrete Mathematics",
+        "question": "let r be a binary relation on the set  1  2     10   where  x  y    r if the product of x and y is s...",
+        "old_concept": "Combinatorics: Counting, Recurrence Relations, Generating Functions",
+        "old_micro": "Generating Functions",
+        "predicted_concept": "Sets, Relations, Functions",
+        "orig_sim": 0.09131061459622597,
+        "new_sim": 0.295568542907725
+    },
+    {
+        "year": 2026,
+        "subject": "Compiler Design",
+        "question": "a lexical analyzer uses the following token definitions  letter    a za z   digit    0 9   id   lett...",
+        "old_concept": "Local Optimization and Data Flow Analysis",
+        "old_micro": "Live Variable Analysis",
+        "predicted_concept": "Lexical Analysis",
+        "orig_sim": 0.048845354783396105,
+        "new_sim": 0.32862714489244543
+    },
+    {
+        "year": 2026,
+        "subject": "Algorithms",
+        "question": "let g be a weighted directed acyclic graph with m edges and n vertices  given g and a source vertex ...",
+        "old_concept": "Algorithm Design: Dynamic Programming",
+        "old_micro": "Floyd-Warshall Algorithm (All-Pairs Shortest Paths)",
+        "predicted_concept": "Shortest Path Algorithms",
+        "orig_sim": 0.09948743148570478,
+        "new_sim": 0.5310810253316959
+    },
+    {
+        "year": 2026,
+        "subject": "Programming and Data Structures",
+        "question": "consider a stack s and a queue q  both initially empty  capacity of ten  elements 1  2  3  4  5 arri...",
+        "old_concept": "Programming in C",
+        "old_micro": "Stack and Heap Memory in C",
+        "predicted_concept": "Stacks and Queues",
+        "orig_sim": 0.047587205987305536,
+        "new_sim": 0.4077537686846025
+    },
+    {
+        "year": 2026,
+        "subject": "Operating Systems",
+        "question": "consider three processes p1  p2  p3 running identical code with binary semaphores a 1 and b 0  and s...",
+        "old_concept": "Processes and Threads",
+        "old_micro": "Process Termination",
+        "predicted_concept": "Concurrency and Synchronization",
+        "orig_sim": 0.07079951250640162,
+        "new_sim": 0.43337588254227943
+    },
+    {
+        "year": 2026,
+        "subject": "Operating Systems",
+        "question": "a system has a tlb with a reach of 1 mb  page size   4 kb  virtual address space   64 gb  physical a...",
+        "old_concept": "Virtual Memory",
+        "old_micro": "Virtual Memory: Concept and Benefits",
+        "predicted_concept": "Memory Management (Paging, Segmentation)",
+        "orig_sim": 0.3317191081394132,
+        "new_sim": 0.4866107597050332
+    },
+    {
+        "year": 2026,
+        "subject": "Computer Networks",
+        "question": "it is necessary to design a link layer protocol between two hosts directly connected over a lossless...",
+        "old_concept": "Application Layer (DNS, SMTP, HTTP, FTP)",
+        "old_micro": "DNS Protocol and Name Resolution",
+        "predicted_concept": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+        "orig_sim": 0.072791231789356,
+        "new_sim": 0.4392190779525915
+    },
+    {
+        "year": 2026,
+        "subject": "Algorithms",
+        "question": "let g v e  be an undirected  edge weighted graph with integer weights  the weight of a path is the s...",
+        "old_concept": "Algorithm Design: Dynamic Programming",
+        "old_micro": "Floyd-Warshall Algorithm (All-Pairs Shortest Paths)",
+        "predicted_concept": "Shortest Path Algorithms",
+        "orig_sim": 0.05877747375291534,
+        "new_sim": 0.46910671169225016
+    },
+    {
+        "year": 2026,
+        "subject": "Algorithms",
+        "question": "consider the following pseudocode for dfs algorithm on a directed graph g v e   where d v  and f v  ...",
+        "old_concept": "Minimum Spanning Trees",
+        "old_micro": "Kruskal's Algorithm (Minimum Spanning Tree)",
+        "predicted_concept": "Graph Traversals (BFS, DFS)",
+        "orig_sim": 0.21785188784542647,
+        "new_sim": 0.6036362320395161
+    },
+    {
+        "year": 2026,
+        "subject": "Theory of Computation",
+        "question": "let l1 and l2 be two languages over a finite alphabet  such that l1   l2 and l2 are regular language...",
+        "old_concept": "Turing Machines",
+        "old_micro": "Linear Bounded Automata (LBA)",
+        "predicted_concept": "Context-Free Grammars",
+        "orig_sim": 0.3551255887483729,
+        "new_sim": 0.627366170275514
+    },
+    {
+        "year": 2026,
+        "subject": "Compiler Design",
+        "question": "consider the following two syntax directed definitions sdd1 and sdd2 for type declarations  sdd1 gra...",
+        "old_concept": "Local Optimization and Data Flow Analysis",
+        "old_micro": "Reaching Definitions Analysis",
+        "predicted_concept": "Syntax-Directed Translation",
+        "orig_sim": 0.06631442710851108,
+        "new_sim": 0.35903076621653246
+    }
+]

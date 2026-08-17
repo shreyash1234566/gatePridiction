@@ -1,0 +1,259 @@
+   ✓ Loaded canonical taxonomy: 615 labels → 86 concepts
+
+🔧 Training Best v8.0 ensemble …
+   ✓ 64 topics | 281 micro-topics
+   ✓ Learned topic τ per subject: {'Algorithms': 3.0, 'Compiler Design': 3.0, 'Computer Networks': 3.0, 'Computer Organization and Architecture': 3.0, 'Databases': 3.0, 'Digital Logic': 3.0, 'Discrete Mathematics': 3.0, 'Engineering Mathematics': 3.0, 'General Aptitude': 3.0, 'Operating Systems': 3.0, 'Programming and Data Structures': 3.0, 'Theory of Computation': 3.0}
+   ✓ Learned Dirichlet params: κ=1.0, δ=0.85 (canonical recall=-1.0%)
+   ✓ Training samples: 167 | Features: 55
+   ✓ Built 5 models: ['xgb', 'lgb', 'et', 'rf', 'hgb']
+   📊 CV MAE per model:
+      xgb   : 1.5918
+      lgb   : 1.6801
+      et    : 1.7256
+      rf    : 1.7168
+      hgb   : 1.6086
+   🧱 Stacking meta‑learner …
+   🎯 Stacker OOF: {'MAE': 1.5114, 'RMSE': 2.2172, 'R2': 0.3262}
+
+🔮 Topic predictions for 2018 …
+   ✓ 51 raw topic predictions
+   ✓ 51 topics normalised → 65.0 questions
+
+🔬 Micro‑topic predictions for 2018 (Canonical Dirichlet) …
+   ✓ 75 canonical concept predictions (75 concepts)
+   ✓ Tiers: 60 High Priority | 15 Core Coverage | 0 Novelty Protection
+   ✓ Dirichlet params: κ=1.0, δ=0.85
+
+✨ Predicting New MT candidates for 2018 …
+   ✓ Generated candidates, selected Top 20 New MTs (Decay applied)
+   ✓ Loaded canonical taxonomy: 615 labels → 86 concepts
+
+🔧 Training Best v8.0 ensemble …
+   ✓ 64 topics | 293 micro-topics
+   ✓ Learned topic τ per subject: {'Algorithms': 1.0, 'Compiler Design': 5.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 5.0, 'Databases': 5.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 3.0, 'Engineering Mathematics': 2.5, 'General Aptitude': 1.0, 'Operating Systems': 5.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 5.0}
+   ✓ Learned Dirichlet params: κ=1.0, δ=0.85 (canonical recall=-1.0%)
+   ✓ Training samples: 224 | Features: 55
+   ✓ Built 5 models: ['xgb', 'lgb', 'et', 'rf', 'hgb']
+   📊 CV MAE per model:
+      xgb   : 1.3902
+      lgb   : 1.4539
+      et    : 1.5140
+      rf    : 1.4884
+      hgb   : 1.5013
+   🧱 Stacking meta‑learner …
+   🎯 Stacker OOF: {'MAE': 1.5106, 'RMSE': 2.2437, 'R2': 0.2391}
+
+🔮 Topic predictions for 2019 …
+   ✓ 56 raw topic predictions
+   ✓ 56 topics normalised → 65.0 questions
+
+🔬 Micro‑topic predictions for 2019 (Canonical Dirichlet) …
+   ✓ 80 canonical concept predictions (80 concepts)
+   ✓ Tiers: 65 High Priority | 15 Core Coverage | 0 Novelty Protection
+   ✓ Dirichlet params: κ=1.0, δ=0.85
+
+✨ Predicting New MT candidates for 2019 …
+   ✓ Generated candidates, selected Top 20 New MTs (Decay applied)
+   ✓ Loaded canonical taxonomy: 615 labels → 86 concepts
+
+🔧 Training Best v8.0 ensemble …
+   ✓ 65 topics | 304 micro-topics
+   ✓ Learned topic τ per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 5.0, 'Computer Organization and Architecture': 1.5, 'Databases': 5.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 2.5, 'General Aptitude': 1.5, 'Operating Systems': 5.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 5.0}
+   ✓ Learned Dirichlet params: κ=1.0, δ=0.85 (canonical recall=-1.0%)
+   ✓ Training samples: 289 | Features: 55
+   ✓ Built 5 models: ['xgb', 'lgb', 'et', 'rf', 'hgb']
+   📊 CV MAE per model:
+      xgb   : 1.3287
+      lgb   : 1.3190
+      et    : 1.3868
+      rf    : 1.3673
+      hgb   : 1.4197
+   🧱 Stacking meta‑learner …
+   🎯 Stacker OOF: {'MAE': 1.328, 'RMSE': 2.0324, 'R2': 0.2897}
+
+🔮 Topic predictions for 2020 …
+   ✓ 59 raw topic predictions
+   ✓ 59 topics normalised → 65.0 questions
+
+🔬 Micro‑topic predictions for 2020 (Canonical Dirichlet) …
+   ✓ 82 canonical concept predictions (82 concepts)
+   ✓ Tiers: 69 High Priority | 13 Core Coverage | 0 Novelty Protection
+   ✓ Dirichlet params: κ=1.0, δ=0.85
+
+✨ Predicting New MT candidates for 2020 …
+   ✓ Generated candidates, selected Top 20 New MTs (Decay applied)
+   ✓ Loaded canonical taxonomy: 615 labels → 86 concepts
+
+🔧 Training Best v8.0 ensemble …
+   ✓ 65 topics | 316 micro-topics
+   ✓ Learned topic τ per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 3.0, 'Databases': 1.0, 'Digital Logic': 2.5, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 2.5, 'General Aptitude': 1.0, 'Operating Systems': 5.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 1.5}
+   ✓ Learned Dirichlet params: κ=0.3, δ=0.6 (canonical recall=100.0%)
+   ✓ Training samples: 350 | Features: 55
+   ✓ Built 5 models: ['xgb', 'lgb', 'et', 'rf', 'hgb']
+   📊 CV MAE per model:
+      xgb   : 1.2104
+      lgb   : 1.1911
+      et    : 1.2347
+      rf    : 1.2329
+      hgb   : 1.3297
+   🧱 Stacking meta‑learner …
+   🎯 Stacker OOF: {'MAE': 1.2121, 'RMSE': 1.9006, 'R2': 0.3028}
+
+🔮 Topic predictions for 2021 …
+   ✓ 60 raw topic predictions
+   ✓ 60 topics normalised → 65.0 questions
+
+🔬 Micro‑topic predictions for 2021 (Canonical Dirichlet) …
+   ✓ 80 canonical concept predictions (80 concepts)
+   ✓ Tiers: 70 High Priority | 10 Core Coverage | 0 Novelty Protection
+   ✓ Dirichlet params: κ=0.3, δ=0.6
+
+✨ Predicting New MT candidates for 2021 …
+   ✓ Generated candidates, selected Top 20 New MTs (Decay applied)
+   ✓ Loaded canonical taxonomy: 615 labels → 86 concepts
+
+🔧 Training Best v8.0 ensemble …
+   ✓ 66 topics | 348 micro-topics
+   ✓ Learned topic τ per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 1.0, 'Databases': 1.5, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 2.5, 'General Aptitude': 1.0, 'Operating Systems': 2.5, 'Programming and Data Structures': 1.0, 'Theory of Computation': 1.0}
+   ✓ Learned Dirichlet params: κ=0.3, δ=0.6 (canonical recall=99.2%)
+   ✓ Training samples: 431 | Features: 55
+   ✓ Built 5 models: ['xgb', 'lgb', 'et', 'rf', 'hgb']
+   📊 CV MAE per model:
+      xgb   : 1.1523
+      lgb   : 1.1260
+      et    : 1.1990
+      rf    : 1.1876
+      hgb   : 1.2264
+   🧱 Stacking meta‑learner …
+   🎯 Stacker OOF: {'MAE': 1.1911, 'RMSE': 1.8303, 'R2': 0.2962}
+
+🔮 Topic predictions for 2022 …
+   ✓ 62 raw topic predictions
+   ✓ 62 topics normalised → 65.0 questions
+
+🔬 Micro‑topic predictions for 2022 (Canonical Dirichlet) …
+   ✓ 82 canonical concept predictions (82 concepts)
+   ✓ Tiers: 71 High Priority | 11 Core Coverage | 0 Novelty Protection
+   ✓ Dirichlet params: κ=0.3, δ=0.6
+
+✨ Predicting New MT candidates for 2022 …
+   ✓ Generated candidates, selected Top 20 New MTs (Decay applied)
+   ✓ Loaded canonical taxonomy: 615 labels → 86 concepts
+
+🔧 Training Best v8.0 ensemble …
+   ✓ 66 topics | 359 micro-topics
+   ✓ Learned topic τ per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 1.0, 'Databases': 5.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.5, 'Engineering Mathematics': 1.0, 'General Aptitude': 1.0, 'Operating Systems': 1.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 2.0}
+   ✓ Learned Dirichlet params: κ=0.3, δ=0.6 (canonical recall=99.5%)
+   ✓ Training samples: 480 | Features: 55
+   ✓ Built 5 models: ['xgb', 'lgb', 'et', 'rf', 'hgb']
+   📊 CV MAE per model:
+      xgb   : 1.1202
+      lgb   : 1.1310
+      et    : 1.1402
+      rf    : 1.1369
+      hgb   : 1.1946
+   🧱 Stacking meta‑learner …
+   🎯 Stacker OOF: {'MAE': 1.1472, 'RMSE': 1.7862, 'R2': 0.2767}
+
+🔮 Topic predictions for 2023 …
+   ✓ 62 raw topic predictions
+   ✓ 62 topics normalised → 65.0 questions
+
+🔬 Micro‑topic predictions for 2023 (Canonical Dirichlet) …
+   ✓ 80 canonical concept predictions (80 concepts)
+   ✓ Tiers: 71 High Priority | 9 Core Coverage | 0 Novelty Protection
+   ✓ Dirichlet params: κ=0.3, δ=0.6
+
+✨ Predicting New MT candidates for 2023 …
+   ✓ Generated candidates, selected Top 20 New MTs (Decay applied)
+   ✓ Loaded canonical taxonomy: 615 labels → 86 concepts
+
+🔧 Training Best v8.0 ensemble …
+   ✓ 66 topics | 363 micro-topics
+   ✓ Learned topic τ per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 5.0, 'Databases': 5.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 4.0, 'Engineering Mathematics': 1.0, 'General Aptitude': 1.0, 'Operating Systems': 1.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 2.0}
+   ✓ Learned Dirichlet params: κ=0.3, δ=0.6 (canonical recall=99.6%)
+   ✓ Training samples: 532 | Features: 55
+   ✓ Built 5 models: ['xgb', 'lgb', 'et', 'rf', 'hgb']
+   📊 CV MAE per model:
+      xgb   : 1.1025
+      lgb   : 1.1057
+      et    : 1.1052
+      rf    : 1.0917
+      hgb   : 1.1695
+   🧱 Stacking meta‑learner …
+   🎯 Stacker OOF: {'MAE': 1.1048, 'RMSE': 1.7315, 'R2': 0.2721}
+
+🔮 Topic predictions for 2024 …
+   ✓ 63 raw topic predictions
+   ✓ 63 topics normalised → 65.0 questions
+
+🔬 Micro‑topic predictions for 2024 (Canonical Dirichlet) …
+   ✓ 82 canonical concept predictions (82 concepts)
+   ✓ Tiers: 72 High Priority | 10 Core Coverage | 0 Novelty Protection
+   ✓ Dirichlet params: κ=0.3, δ=0.6
+
+✨ Predicting New MT candidates for 2024 …
+   ✓ Generated candidates, selected Top 20 New MTs (Decay applied)
+   ✓ Loaded canonical taxonomy: 615 labels → 86 concepts
+
+🔧 Training Best v8.0 ensemble …
+   ✓ 66 topics | 384 micro-topics
+   ✓ Learned topic τ per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 5.0, 'Databases': 1.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 1.0, 'General Aptitude': 3.5, 'Operating Systems': 1.0, 'Programming and Data Structures': 1.0, 'Theory of Computation': 1.0}
+   ✓ Learned Dirichlet params: κ=0.3, δ=0.6 (canonical recall=99.7%)
+   ✓ Training samples: 605 | Features: 55
+   ✓ Built 5 models: ['xgb', 'lgb', 'et', 'rf', 'hgb']
+   📊 CV MAE per model:
+      xgb   : 1.1178
+      lgb   : 1.1212
+      et    : 1.1269
+      rf    : 1.1302
+      hgb   : 1.1780
+   🧱 Stacking meta‑learner …
+   🎯 Stacker OOF: {'MAE': 1.1119, 'RMSE': 1.5935, 'R2': 0.3951}
+
+🔮 Topic predictions for 2025 …
+   ✓ 63 raw topic predictions
+   ✓ 63 topics normalised → 65.0 questions
+
+🔬 Micro‑topic predictions for 2025 (Canonical Dirichlet) …
+   ✓ 82 canonical concept predictions (82 concepts)
+   ✓ Tiers: 73 High Priority | 9 Core Coverage | 0 Novelty Protection
+   ✓ Dirichlet params: κ=0.3, δ=0.6
+
+✨ Predicting New MT candidates for 2025 …
+   ✓ Generated candidates, selected Top 20 New MTs (Decay applied)
+   ✓ Loaded canonical taxonomy: 615 labels → 86 concepts
+
+🔧 Training Best v8.0 ensemble …
+   ✓ 66 topics | 402 micro-topics
+   ✓ Learned topic τ per subject: {'Algorithms': 1.0, 'Compiler Design': 1.0, 'Computer Networks': 1.0, 'Computer Organization and Architecture': 3.0, 'Databases': 4.0, 'Digital Logic': 1.0, 'Discrete Mathematics': 1.0, 'Engineering Mathematics': 1.0, 'General Aptitude': 1.0, 'Operating Systems': 1.0, 'Programming and Data Structures': 4.0, 'Theory of Computation': 1.0}
+   ✓ Learned Dirichlet params: κ=0.3, δ=0.6 (canonical recall=99.7%)
+   ✓ Training samples: 665 | Features: 55
+   ✓ Built 5 models: ['xgb', 'lgb', 'et', 'rf', 'hgb']
+   📊 CV MAE per model:
+      xgb   : 1.0987
+      lgb   : 1.0676
+      et    : 1.1171
+      rf    : 1.1020
+      hgb   : 1.1558
+   🧱 Stacking meta‑learner …
+   🎯 Stacker OOF: {'MAE': 1.1061, 'RMSE': 1.5713, 'R2': 0.4014}
+
+🔮 Topic predictions for 2026 …
+   ✓ 63 raw topic predictions
+   ✓ 63 topics normalised → 65.0 questions
+
+🔬 Micro‑topic predictions for 2026 (Canonical Dirichlet) …
+   ✓ 82 canonical concept predictions (82 concepts)
+   ✓ Tiers: 67 High Priority | 15 Core Coverage | 0 Novelty Protection
+   ✓ Dirichlet params: κ=0.3, δ=0.6
+
+✨ Predicting New MT candidates for 2026 …
+   ✓ Generated candidates, selected Top 20 New MTs (Decay applied)
+
+RESULTS FOR ML-Ranked Old=250 + Filtered/Decayed New MTs:
+N_new =  0 (Avg Act: 0.0): M_Hit = 68.2% | M_Cov = 71.5%
+N_new =  5 (Avg Act: 5.0): M_Hit = 68.7% | M_Cov = 71.9%
+N_new = 10 (Avg Act: 10.0): M_Hit = 68.9% | M_Cov = 72.1%
+N_new = 15 (Avg Act: 15.0): M_Hit = 69.8% | M_Cov = 72.8%
+N_new = 20 (Avg Act: 20.0): M_Hit = 70.9% | M_Cov = 73.9%

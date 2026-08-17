@@ -1,0 +1,1266 @@
+{
+  "Algorithms::Algorithm Design: Divide and Conquer": {
+    "subject": "Algorithms",
+    "topic": "Algorithm Design: Divide and Conquer",
+    "canonical_concepts": [
+      "Algorithm Design: Divide and Conquer"
+    ],
+    "label_to_concept": {
+      "Divide and Conquer Paradigm": "Algorithm Design: Divide and Conquer"
+    }
+  },
+  "Algorithms::Algorithm Design: Dynamic Programming": {
+    "subject": "Algorithms",
+    "topic": "Algorithm Design: Dynamic Programming",
+    "canonical_concepts": [
+      "Algorithm Design: Dynamic Programming"
+    ],
+    "label_to_concept": {
+      "Dynamic Programming: Optimal Substructure": "Algorithm Design: Dynamic Programming",
+      "Floyd-Warshall Algorithm (All-Pairs Shortest Paths)": "Algorithm Design: Dynamic Programming",
+      "Longest Common Subsequence (LCS)": "Algorithm Design: Dynamic Programming"
+    }
+  },
+  "Algorithms::Algorithm Design: Greedy": {
+    "subject": "Algorithms",
+    "topic": "Algorithm Design: Greedy",
+    "canonical_concepts": [
+      "Algorithm Design: Greedy"
+    ],
+    "label_to_concept": {
+      "Greedy Algorithm Properties": "Algorithm Design: Greedy"
+    }
+  },
+  "Algorithms::Asymptotic Analysis": {
+    "subject": "Algorithms",
+    "topic": "Asymptotic Analysis",
+    "canonical_concepts": [
+      "Asymptotic Complexity Analysis"
+    ],
+    "label_to_concept": {
+      "Time Complexity Analysis": "Asymptotic Complexity Analysis",
+      "Theta Notation (Θ)": "Asymptotic Complexity Analysis",
+      "Best, Worst and Average Case Analysis": "Asymptotic Complexity Analysis",
+      "Amortized Analysis: Aggregate Method": "Asymptotic Complexity Analysis",
+      "Omega Notation (Ω)": "Asymptotic Complexity Analysis"
+    }
+  },
+  "Algorithms::Computational Complexity": {
+    "subject": "Algorithms",
+    "topic": "Computational Complexity",
+    "canonical_concepts": [
+      "Asymptotic Complexity Analysis"
+    ],
+    "label_to_concept": {
+      "Polynomial Time Algorithms (Class P)": "Asymptotic Complexity Analysis",
+      "NP-Completeness": "Asymptotic Complexity Analysis",
+      "Cook-Levin Theorem (SAT is NP-Complete)": "Asymptotic Complexity Analysis"
+    }
+  },
+  "Algorithms::Graph Algorithms": {
+    "subject": "Algorithms",
+    "topic": "Graph Algorithms",
+    "canonical_concepts": [
+      "Graph Traversals (BFS, DFS)",
+      "Minimum Spanning Trees",
+      "Shortest Path Algorithms"
+    ],
+    "label_to_concept": {
+      "Kruskal's Algorithm (Minimum Spanning Tree)": "Minimum Spanning Trees",
+      "Dijkstra's Algorithm (Weighted Graph)": "Shortest Path Algorithms",
+      "Bellman-Ford Algorithm (Negative Weights)": "Shortest Path Algorithms",
+      "Cycle Detection in Directed Graph": "Graph Traversals (BFS, DFS)",
+      "Topological Sorting": "Graph Traversals (BFS, DFS)",
+      "Strongly Connected Components (Kosaraju's Algorithm)": "Graph Traversals (BFS, DFS)",
+      "Prim's Algorithm (Minimum Spanning Tree)": "Minimum Spanning Trees",
+      "Topological Sort": "Graph Traversals (BFS, DFS)"
+    }
+  },
+  "Algorithms::Searching and Sorting": {
+    "subject": "Algorithms",
+    "topic": "Searching and Sorting",
+    "canonical_concepts": [
+      "Searching and Sorting"
+    ],
+    "label_to_concept": {
+      "Merge Sort": "Searching and Sorting",
+      "Quick Sort": "Searching and Sorting",
+      "Binary Search": "Searching and Sorting",
+      "Heap Sort": "Searching and Sorting",
+      "Linear Search": "Searching and Sorting",
+      "Bubble Sort": "Searching and Sorting",
+      "Stable Sorting Algorithms": "Searching and Sorting",
+      "Quick Sort: Pivot Selection and Worst Case": "Searching and Sorting",
+      "Selection Sort": "Searching and Sorting"
+    }
+  },
+  "Compiler Design::Code Optimization": {
+    "subject": "Compiler Design",
+    "topic": "Code Optimization",
+    "canonical_concepts": [
+      "Local Optimization and Data Flow Analysis"
+    ],
+    "label_to_concept": {
+      "Common Subexpression Elimination (CSE)": "Local Optimization and Data Flow Analysis",
+      "Constant Folding": "Local Optimization and Data Flow Analysis",
+      "Dead Code Elimination": "Local Optimization and Data Flow Analysis",
+      "Control Flow Graph (CFG)": "Local Optimization and Data Flow Analysis",
+      "Basic Blocks and Flow Graphs": "Local Optimization and Data Flow Analysis",
+      "Reaching Definitions Analysis": "Local Optimization and Data Flow Analysis",
+      "Live Variable Analysis": "Local Optimization and Data Flow Analysis",
+      "Loop Optimization": "Local Optimization and Data Flow Analysis",
+      "Local Optimization Techniques": "Local Optimization and Data Flow Analysis",
+      "Register Allocation by Graph Coloring": "Local Optimization and Data Flow Analysis"
+    }
+  },
+  "Compiler Design::Intermediate Code Generation": {
+    "subject": "Compiler Design",
+    "topic": "Intermediate Code Generation",
+    "canonical_concepts": [
+      "Intermediate Code Generation"
+    ],
+    "label_to_concept": {
+      "Three-Address Code (TAC)": "Intermediate Code Generation",
+      "Abstract Syntax Tree (AST)": "Intermediate Code Generation"
+    }
+  },
+  "Compiler Design::Lexical Analysis": {
+    "subject": "Compiler Design",
+    "topic": "Lexical Analysis",
+    "canonical_concepts": [
+      "Lexical Analysis"
+    ],
+    "label_to_concept": {
+      "Token Types: Keywords, Identifiers, Operators": "Lexical Analysis",
+      "Keyword and Token Recognition": "Lexical Analysis",
+      "Lexical Analysis: Regular Expressions for Token Specification": "Lexical Analysis",
+      "Role of Lexical Analyzer": "Lexical Analysis",
+      "Symbol Table: Structure and Operations": "Lexical Analysis",
+      "Regular Expressions in Lexical Analysis": "Lexical Analysis"
+    }
+  },
+  "Compiler Design::Runtime Environment": {
+    "subject": "Compiler Design",
+    "topic": "Runtime Environment",
+    "canonical_concepts": [
+      "Runtime Environments"
+    ],
+    "label_to_concept": {
+      "Activation Record (Stack Frame) Structure": "Runtime Environments",
+      "Static and Dynamic Scoping": "Runtime Environments",
+      "Parameter Passing Mechanisms": "Runtime Environments"
+    }
+  },
+  "Compiler Design::Syntax Analysis (Parsing)": {
+    "subject": "Compiler Design",
+    "topic": "Syntax Analysis (Parsing)",
+    "canonical_concepts": [
+      "Syntax Analysis (Parsing)"
+    ],
+    "label_to_concept": {
+      "LR(1) Parsing": "Syntax Analysis (Parsing)",
+      "FIRST and FOLLOW Sets": "Syntax Analysis (Parsing)",
+      "LL(1) Parsing": "Syntax Analysis (Parsing)",
+      "Operator Precedence Parsing": "Syntax Analysis (Parsing)",
+      "SLR(1) Parsing": "Syntax Analysis (Parsing)",
+      "CLR(1) Parsing": "Syntax Analysis (Parsing)",
+      "LALR(1) Parsing": "Syntax Analysis (Parsing)",
+      "Handle and Viable Prefix in LR Parsing": "Syntax Analysis (Parsing)",
+      "LR(0) Items and Canonical Collection": "Syntax Analysis (Parsing)",
+      "Predictive (Top-Down) Parsing": "Syntax Analysis (Parsing)",
+      "Parse Trees": "Syntax Analysis (Parsing)",
+      "Ambiguous Grammars in Parsing": "Syntax Analysis (Parsing)",
+      "Left Recursion Removal": "Syntax Analysis (Parsing)",
+      "Bottom-Up Parsing": "Syntax Analysis (Parsing)",
+      "Parse Trees and Derivations": "Syntax Analysis (Parsing)",
+      "Context-Free Grammar for Programming Languages": "Syntax Analysis (Parsing)",
+      "LL(1) Parsing Table Construction": "Syntax Analysis (Parsing)",
+      "Shift-Reduce Parsing": "Syntax Analysis (Parsing)",
+      "Left Recursion Elimination": "Syntax Analysis (Parsing)",
+      "FOLLOW Sets": "Syntax Analysis (Parsing)",
+      "Predictive Parsing (LL)": "Syntax Analysis (Parsing)",
+      "Ambiguous Grammar and Parsing": "Syntax Analysis (Parsing)",
+      "LR(0) Parsing and Items": "Syntax Analysis (Parsing)"
+    }
+  },
+  "Compiler Design::Syntax-Directed Translation": {
+    "subject": "Compiler Design",
+    "topic": "Syntax-Directed Translation",
+    "canonical_concepts": [
+      "Syntax-Directed Translation"
+    ],
+    "label_to_concept": {
+      "Syntax-Directed Translation Schemes (SDT)": "Syntax-Directed Translation",
+      "Synthesized and Inherited Attributes": "Syntax-Directed Translation",
+      "S-Attributed and L-Attributed Definitions": "Syntax-Directed Translation",
+      "Syntax-Directed Definition (SDD)": "Syntax-Directed Translation"
+    }
+  },
+  "Computer Networks::Application Layer Protocols": {
+    "subject": "Computer Networks",
+    "topic": "Application Layer Protocols",
+    "canonical_concepts": [
+      "Application Layer (DNS, SMTP, HTTP, FTP)"
+    ],
+    "label_to_concept": {
+      "DNS Protocol and Name Resolution": "Application Layer (DNS, SMTP, HTTP, FTP)",
+      "HTTP Protocol: Request and Response": "Application Layer (DNS, SMTP, HTTP, FTP)",
+      "HTTP Persistent vs Non-Persistent Connections": "Application Layer (DNS, SMTP, HTTP, FTP)",
+      "Email System Architecture (MUA, MTA, MDA)": "Application Layer (DNS, SMTP, HTTP, FTP)",
+      "FTP Protocol": "Application Layer (DNS, SMTP, HTTP, FTP)",
+      "DHCP Protocol (Application Layer View)": "Application Layer (DNS, SMTP, HTTP, FTP)"
+    }
+  },
+  "Computer Networks::Data Link Layer": {
+    "subject": "Computer Networks",
+    "topic": "Data Link Layer",
+    "canonical_concepts": [
+      "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "LAN Technologies (Ethernet)"
+    ],
+    "label_to_concept": {
+      "Error Correction: Hamming Code": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Error Detection: CRC (Cyclic Redundancy Check)": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Error Detection: Parity Bits": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Ethernet (IEEE 802.3): CSMA/CD": "LAN Technologies (Ethernet)",
+      "ALOHA Protocol: Pure and Slotted": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Framing Techniques: Character Stuffing, Bit Stuffing": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Stop-and-Wait ARQ": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Go-Back-N ARQ": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Token Ring (IEEE 802.5)": "LAN Technologies (Ethernet)",
+      "Selective Repeat ARQ": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Sliding Window Protocol": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Sliding Window Protocol Efficiency": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Stop-and-Wait Protocol": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "IEEE 802.11 Wireless LAN (Wi-Fi)": "LAN Technologies (Ethernet)",
+      "Framing: Bit Stuffing and Byte Stuffing": "Data Link Layer (Framing, Error/Flow Control, MAC)",
+      "Token Ring Protocol": "LAN Technologies (Ethernet)"
+    }
+  },
+  "Computer Networks::Network Layer and IP Addressing": {
+    "subject": "Computer Networks",
+    "topic": "Network Layer and IP Addressing",
+    "canonical_concepts": [
+      "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "IP Support Protocols (ARP, DHCP, ICMP, NAT)"
+    ],
+    "label_to_concept": {
+      "IP Fragmentation and Reassembly": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "CIDR (Classless Inter-Domain Routing) and Route Aggregation": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "IPv4 Header Fields and Structure": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "IP Addressing: Classful Addressing": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "Subnetting and Subnet Masks": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "NAT (Network Address Translation)": "IP Support Protocols (ARP, DHCP, ICMP, NAT)",
+      "ICMP Protocol": "IP Support Protocols (ARP, DHCP, ICMP, NAT)",
+      "ARP Protocol": "IP Support Protocols (ARP, DHCP, ICMP, NAT)",
+      "IPv6 Addressing and Header Format": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "Variable Length Subnet Masking (VLSM)": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "IP Addressing (IPv4): Classful Addressing": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "Subnet Masks and Subnetting": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "IPv6 Addressing and Header": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "IP Forwarding and Routing Tables": "Network Layer (IPv4/IPv6, Routing Algorithms)",
+      "ICMP Protocol and Ping": "IP Support Protocols (ARP, DHCP, ICMP, NAT)"
+    }
+  },
+  "Computer Networks::Network Security": {
+    "subject": "Computer Networks",
+    "topic": "Network Security",
+    "canonical_concepts": [
+      "Network Security (Public Key, Digital Signatures, Firewalls)"
+    ],
+    "label_to_concept": {
+      "Asymmetric (Public Key) Cryptography (RSA)": "Network Security (Public Key, Digital Signatures, Firewalls)",
+      "Firewall: Packet Filtering": "Network Security (Public Key, Digital Signatures, Firewalls)",
+      "Symmetric Key Cryptography (AES, DES)": "Network Security (Public Key, Digital Signatures, Firewalls)",
+      "Digital Signatures and Certificates": "Network Security (Public Key, Digital Signatures, Firewalls)",
+      "RSA Algorithm (Key Generation, Encryption, Decryption)": "Network Security (Public Key, Digital Signatures, Firewalls)"
+    }
+  },
+  "Computer Networks::Routing Protocols": {
+    "subject": "Computer Networks",
+    "topic": "Routing Protocols",
+    "canonical_concepts": [
+      "Network Layer (IPv4/IPv6, Routing Algorithms)"
+    ],
+    "label_to_concept": {
+      "Routing Algorithms: Distance Vector Routing": "Network Layer (IPv4/IPv6, Routing Algorithms)"
+    }
+  },
+  "Computer Networks::Transport Layer": {
+    "subject": "Computer Networks",
+    "topic": "Transport Layer",
+    "canonical_concepts": [
+      "Transport Layer (TCP, UDP, Sockets, Congestion Control)"
+    ],
+    "label_to_concept": {
+      "TCP Sequence Numbers and Acknowledgments": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "TCP Congestion Control: Slow Start": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "Socket API and Socket Programming": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "UDP Protocol: Characteristics and Uses": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "TCP Retransmission and Timeout": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "TCP Connection Establishment: Three-Way Handshake": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "TCP Flow Control: Sliding Window": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "TCP vs UDP Comparison": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "Port Numbers and Multiplexing": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "TCP Protocol: Connection-Oriented": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "TCP Three-Way Handshake": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "UDP Protocol": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "TCP State Machine": "Transport Layer (TCP, UDP, Sockets, Congestion Control)",
+      "TCP Timer Management and RTT Estimation": "Transport Layer (TCP, UDP, Sockets, Congestion Control)"
+    }
+  },
+  "Computer Organization and Architecture::ALU, Data-Path and Control Unit": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "ALU, Data-Path and Control Unit",
+    "canonical_concepts": [
+      "ALU, Data-path and Control Unit"
+    ],
+    "label_to_concept": {
+      "Data-Path Architecture": "ALU, Data-path and Control Unit",
+      "Instruction Execution Cycle (Fetch, Decode, Execute)": "ALU, Data-path and Control Unit",
+      "RISC vs CISC Architecture": "ALU, Data-path and Control Unit",
+      "Hardwired vs Microprogrammed Control Unit": "ALU, Data-path and Control Unit",
+      "ALU Design and Operations": "ALU, Data-path and Control Unit"
+    }
+  },
+  "Computer Organization and Architecture::I/O Interface": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "I/O Interface",
+    "canonical_concepts": [
+      "I/O Interface (Interrupt and DMA)"
+    ],
+    "label_to_concept": {
+      "Direct Memory Access (DMA)": "I/O Interface (Interrupt and DMA)",
+      "Interrupt Priority and Handling": "I/O Interface (Interrupt and DMA)",
+      "Programmed I/O (Polling)": "I/O Interface (Interrupt and DMA)",
+      "I/O Bus and Peripheral Interface": "I/O Interface (Interrupt and DMA)",
+      "Interrupt-Driven I/O": "I/O Interface (Interrupt and DMA)",
+      "Interrupt Service Routine (ISR)": "I/O Interface (Interrupt and DMA)"
+    }
+  },
+  "Computer Organization and Architecture::Instruction Pipelining": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "Instruction Pipelining",
+    "canonical_concepts": [
+      "Instruction Pipelining"
+    ],
+    "label_to_concept": {
+      "Instruction Pipelining: Concept and Stages": "Instruction Pipelining",
+      "Data Hazards in Pipelining": "Instruction Pipelining",
+      "Pipeline Stalls (Bubbles)": "Instruction Pipelining",
+      "Control Hazards and Branch Prediction": "Instruction Pipelining",
+      "Pipeline Speedup Calculation": "Instruction Pipelining",
+      "Pipeline Forwarding (Data Bypassing)": "Instruction Pipelining",
+      "CPI (Cycles Per Instruction) Analysis": "Instruction Pipelining",
+      "Data Forwarding (Bypassing)": "Instruction Pipelining",
+      "Pipeline Throughput and Speedup": "Instruction Pipelining"
+    }
+  },
+  "Computer Organization and Architecture::Machine Instructions and Addressing Modes": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "Machine Instructions and Addressing Modes",
+    "canonical_concepts": [
+      "Machine Instructions and Addressing Modes"
+    ],
+    "label_to_concept": {
+      "Instruction Format and Fields": "Machine Instructions and Addressing Modes",
+      "Instruction Types: Data Transfer, Arithmetic, Logic, Control": "Machine Instructions and Addressing Modes",
+      "Indirect Addressing Mode": "Machine Instructions and Addressing Modes",
+      "Immediate Addressing Mode": "Machine Instructions and Addressing Modes",
+      "Base-Register Addressing Mode": "Machine Instructions and Addressing Modes"
+    }
+  },
+  "Computer Organization and Architecture::Memory Hierarchy": {
+    "subject": "Computer Organization and Architecture",
+    "topic": "Memory Hierarchy",
+    "canonical_concepts": [
+      "Memory Hierarchy (Cache, Main Memory, Secondary Storage)"
+    ],
+    "label_to_concept": {
+      "Cache Memory: Concept and Locality of Reference": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Set Associative Cache": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Direct Mapped Cache": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Fully Associative Cache": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Cache Hit Rate and Miss Rate": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Cache Block/Line Size": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Main Memory Organization": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Cache Write Policies: Write-Through, Write-Back": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Cache Replacement Policies: LRU, FIFO, LFU": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Memory Interleaving": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Virtual Memory: Address Translation": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Cache Coherence": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Memory Hierarchy: Levels and Trade-offs": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Write-Back Policy": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Write-Through Policy": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "LRU Cache Replacement": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)",
+      "Secondary Storage: HDD and SSD": "Memory Hierarchy (Cache, Main Memory, Secondary Storage)"
+    }
+  },
+  "Databases::Entity-Relationship Model": {
+    "subject": "Databases",
+    "topic": "Entity-Relationship Model",
+    "canonical_concepts": [
+      "ER Model"
+    ],
+    "label_to_concept": {
+      "Entity Types: Strong and Weak Entities": "ER Model",
+      "Attribute Types: Simple, Composite, Multivalued, Derived": "ER Model",
+      "Entity, Attribute, and Relationship": "ER Model",
+      "Cardinality Ratios (1:1, 1:M, M:N)": "ER Model",
+      "Cardinality Ratios: One-to-One, One-to-Many, Many-to-Many": "ER Model"
+    }
+  },
+  "Databases::File Organization and Indexing": {
+    "subject": "Databases",
+    "topic": "File Organization and Indexing",
+    "canonical_concepts": [
+      "File Organization and Indexing (B/B+ Trees)"
+    ],
+    "label_to_concept": {
+      "B+ Tree Indexing": "File Organization and Indexing (B/B+ Trees)",
+      "Heap File Organization": "File Organization and Indexing (B/B+ Trees)",
+      "Primary Index (Dense and Sparse)": "File Organization and Indexing (B/B+ Trees)",
+      "Clustering vs Non-Clustering Index": "File Organization and Indexing (B/B+ Trees)",
+      "Hash File Organization": "File Organization and Indexing (B/B+ Trees)",
+      "Sequential File Organization": "File Organization and Indexing (B/B+ Trees)"
+    }
+  },
+  "Databases::Functional Dependencies and Normalization": {
+    "subject": "Databases",
+    "topic": "Functional Dependencies and Normalization",
+    "canonical_concepts": [
+      "Integrity Constraints and Normalization"
+    ],
+    "label_to_concept": {
+      "Boyce-Codd Normal Form (BCNF)": "Integrity Constraints and Normalization",
+      "Functional Dependencies (FD): Definition": "Integrity Constraints and Normalization",
+      "Keys Derived from Functional Dependencies": "Integrity Constraints and Normalization",
+      "Canonical Cover of FDs": "Integrity Constraints and Normalization",
+      "Third Normal Form (3NF)": "Integrity Constraints and Normalization",
+      "Lossless Join Decomposition": "Integrity Constraints and Normalization",
+      "First Normal Form (1NF)": "Integrity Constraints and Normalization"
+    }
+  },
+  "Databases::Relational Model and Relational Algebra": {
+    "subject": "Databases",
+    "topic": "Relational Model and Relational Algebra",
+    "canonical_concepts": [
+      "Relational Model and Relational Algebra",
+      "Tuple Calculus"
+    ],
+    "label_to_concept": {
+      "Selection (σ) in Relational Algebra": "Relational Model and Relational Algebra",
+      "Projection (π) in Relational Algebra": "Relational Model and Relational Algebra",
+      "Keys: Super Key, Candidate Key, Primary Key, Foreign Key": "Relational Model and Relational Algebra",
+      "Natural Join in Relational Algebra": "Relational Model and Relational Algebra",
+      "Division Operation in Relational Algebra": "Relational Model and Relational Algebra",
+      "Relational Tuple Calculus": "Tuple Calculus",
+      "Set Operations: Union, Intersection, Difference": "Relational Model and Relational Algebra",
+      "Theta Join and Equi-Join": "Relational Model and Relational Algebra",
+      "Functional Dependencies in Relational Model": "Relational Model and Relational Algebra",
+      "Cartesian Product in Relational Algebra": "Relational Model and Relational Algebra",
+      "Tuple Relational Calculus": "Tuple Calculus",
+      "Relational Schema Design": "Relational Model and Relational Algebra",
+      "Relations, Tuples, and Attributes": "Relational Model and Relational Algebra",
+      "Integrity Constraints: Entity Integrity, Referential Integrity": "Relational Model and Relational Algebra",
+      "Outer Joins: Left, Right, Full": "Relational Model and Relational Algebra",
+      "Rename (ρ) Operation": "Relational Model and Relational Algebra"
+    }
+  },
+  "Databases::SQL": {
+    "subject": "Databases",
+    "topic": "SQL",
+    "canonical_concepts": [
+      "SQL"
+    ],
+    "label_to_concept": {
+      "SQL GROUP BY Clause": "SQL",
+      "SQL IN and NOT IN": "SQL",
+      "SQL Natural Join": "SQL",
+      "SQL SELECT and FROM Clauses": "SQL",
+      "SQL HAVING Clause": "SQL",
+      "SQL Subqueries (Nested Queries)": "SQL",
+      "SQL Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)": "SQL",
+      "SQL Views: Definition and Usage": "SQL",
+      "SQL INSERT, UPDATE, DELETE Statements": "SQL",
+      "SQL ORDER BY Clause": "SQL",
+      "SQL Joins: INNER, LEFT, RIGHT, FULL OUTER": "SQL",
+      "SQL Aggregate Functions: COUNT, SUM, AVG, MIN, MAX": "SQL",
+      "SQL SELECT Queries": "SQL",
+      "SQL WHERE Clause and Predicates": "SQL",
+      "SQL DDL: CREATE, ALTER, DROP": "SQL",
+      "SQL EXISTS and NOT EXISTS": "SQL"
+    }
+  },
+  "Databases::Transactions and Concurrency Control": {
+    "subject": "Databases",
+    "topic": "Transactions and Concurrency Control",
+    "canonical_concepts": [
+      "Transactions and Concurrency Control"
+    ],
+    "label_to_concept": {
+      "Transaction Schedules": "Transactions and Concurrency Control",
+      "Atomicity and Durability": "Transactions and Concurrency Control",
+      "Log-Based Recovery: Undo and Redo": "Transactions and Concurrency Control",
+      "Conflict Serializability": "Transactions and Concurrency Control",
+      "Two-Phase Locking (2PL) Protocol": "Transactions and Concurrency Control",
+      "ACID Properties of Transactions": "Transactions and Concurrency Control",
+      "View Serializability": "Transactions and Concurrency Control",
+      "Deadlock in Transactions (Wait-for Graph)": "Transactions and Concurrency Control",
+      "Two-Phase Locking (2PL)": "Transactions and Concurrency Control",
+      "Serial and Serializable Schedules": "Transactions and Concurrency Control",
+      "Deadlock in DBMS": "Transactions and Concurrency Control",
+      "Lock-Based Protocols": "Transactions and Concurrency Control"
+    }
+  },
+  "Digital Logic::Boolean Algebra": {
+    "subject": "Digital Logic",
+    "topic": "Boolean Algebra",
+    "canonical_concepts": [
+      "Boolean Algebra"
+    ],
+    "label_to_concept": {
+      "Boolean Function Representation (SOP, POS)": "Boolean Algebra",
+      "Boolean Function Minimization": "Boolean Algebra",
+      "Boolean Algebra Axioms and Identities": "Boolean Algebra",
+      "DeMorgan's Theorem": "Boolean Algebra",
+      "Canonical Forms: Minterms and Maxterms": "Boolean Algebra",
+      "Complement of Boolean Functions": "Boolean Algebra"
+    }
+  },
+  "Digital Logic::Combinational Circuits": {
+    "subject": "Digital Logic",
+    "topic": "Combinational Circuits",
+    "canonical_concepts": [
+      "Combinational Circuits"
+    ],
+    "label_to_concept": {
+      "Multiplexers (MUX)": "Combinational Circuits",
+      "Full Adder": "Combinational Circuits",
+      "Binary Multiplier": "Combinational Circuits",
+      "Decoders": "Combinational Circuits",
+      "Priority Encoders": "Combinational Circuits",
+      "Half Subtractor and Full Subtractor": "Combinational Circuits"
+    }
+  },
+  "Digital Logic::Logic Gates": {
+    "subject": "Digital Logic",
+    "topic": "Logic Gates",
+    "canonical_concepts": [
+      "Boolean Algebra"
+    ],
+    "label_to_concept": {
+      "Gate-Level Implementation of Boolean Functions": "Boolean Algebra",
+      "Universal Gates: NAND, NOR": "Boolean Algebra"
+    }
+  },
+  "Digital Logic::Minimization": {
+    "subject": "Digital Logic",
+    "topic": "Minimization",
+    "canonical_concepts": [
+      "Minimization"
+    ],
+    "label_to_concept": {
+      "Karnaugh Map (K-Map) Minimization": "Minimization",
+      "Prime Implicants and Essential Prime Implicants": "Minimization"
+    }
+  },
+  "Digital Logic::Number Systems and Computer Arithmetic": {
+    "subject": "Digital Logic",
+    "topic": "Number Systems and Computer Arithmetic",
+    "canonical_concepts": [
+      "Number Representations and Computer Arithmetic"
+    ],
+    "label_to_concept": {
+      "Number Base Conversion": "Number Representations and Computer Arithmetic",
+      "IEEE 754 Floating Point Standard": "Number Representations and Computer Arithmetic",
+      "Single and Double Precision Representation": "Number Representations and Computer Arithmetic",
+      "2's Complement Representation": "Number Representations and Computer Arithmetic",
+      "Fixed Point Arithmetic": "Number Representations and Computer Arithmetic",
+      "1's Complement Representation": "Number Representations and Computer Arithmetic",
+      "Binary Addition and Subtraction": "Number Representations and Computer Arithmetic",
+      "Overflow Detection in Arithmetic": "Number Representations and Computer Arithmetic",
+      "Signed Magnitude Representation": "Number Representations and Computer Arithmetic",
+      "Sign-Magnitude Representation": "Number Representations and Computer Arithmetic",
+      "Overflow Detection": "Number Representations and Computer Arithmetic",
+      "Floating Point Arithmetic: Addition and Subtraction": "Number Representations and Computer Arithmetic",
+      "Binary Number System": "Number Representations and Computer Arithmetic",
+      "Hexadecimal Number System": "Number Representations and Computer Arithmetic"
+    }
+  },
+  "Digital Logic::Sequential Circuits": {
+    "subject": "Digital Logic",
+    "topic": "Sequential Circuits",
+    "canonical_concepts": [
+      "Sequential Circuits"
+    ],
+    "label_to_concept": {
+      "D Flip-Flop": "Sequential Circuits",
+      "JK Flip-Flop": "Sequential Circuits",
+      "Synchronous Counters": "Sequential Circuits",
+      "Finite State Machine (FSM) Design": "Sequential Circuits",
+      "State Diagram and State Table": "Sequential Circuits",
+      "SR Latch": "Sequential Circuits",
+      "Asynchronous Counters (Ripple Counters)": "Sequential Circuits",
+      "Shift Registers": "Sequential Circuits",
+      "State Table and State Diagram": "Sequential Circuits",
+      "Modulo-N Counters": "Sequential Circuits",
+      "Ring Counters and Johnson Counters": "Sequential Circuits",
+      "Finite State Machine (FSM): Mealy Model": "Sequential Circuits",
+      "Asynchronous (Ripple) Counters": "Sequential Circuits"
+    }
+  },
+  "Discrete Mathematics::Algebraic Structures": {
+    "subject": "Discrete Mathematics",
+    "topic": "Algebraic Structures",
+    "canonical_concepts": [
+      "Monoids and Groups"
+    ],
+    "label_to_concept": {
+      "Subgroups and Lagrange's Theorem": "Monoids and Groups",
+      "Groups: Definition, Axioms, Properties, Abelian Groups": "Monoids and Groups",
+      "Monoids and Semigroups": "Monoids and Groups",
+      "Groups: Definition, Axioms, Properties": "Monoids and Groups",
+      "Abelian Groups": "Monoids and Groups"
+    }
+  },
+  "Discrete Mathematics::Combinatorics": {
+    "subject": "Discrete Mathematics",
+    "topic": "Combinatorics",
+    "canonical_concepts": [
+      "Combinatorics: Counting, Recurrence Relations, Generating Functions"
+    ],
+    "label_to_concept": {
+      "Counting Principles: Product and Sum Rules": "Combinatorics: Counting, Recurrence Relations, Generating Functions",
+      "Recurrence Relations": "Combinatorics: Counting, Recurrence Relations, Generating Functions",
+      "Generating Functions": "Combinatorics: Counting, Recurrence Relations, Generating Functions",
+      "Permutations": "Combinatorics: Counting, Recurrence Relations, Generating Functions",
+      "Combinations and Binomial Theorem": "Combinatorics: Counting, Recurrence Relations, Generating Functions"
+    }
+  },
+  "Discrete Mathematics::Graph Theory": {
+    "subject": "Discrete Mathematics",
+    "topic": "Graph Theory",
+    "canonical_concepts": [
+      "Graphs (Theory): Connectivity, Matching, Coloring"
+    ],
+    "label_to_concept": {
+      "Planar Graphs and Euler's Formula": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Graph Definitions: Vertices, Edges, Degree": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Degree Sequences and Handshaking Lemma": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Trees and Spanning Trees": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Eulerian and Hamiltonian Paths/Circuits": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Graph Isomorphism": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Graph Coloring": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Chromatic Number": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Bipartite Graphs and Matchings": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Graph Connectivity: Cut Vertices and Bridges": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Spanning Trees and Number of Spanning Trees": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Graph Coloring and Chromatic Number": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Bipartite Graphs": "Graphs (Theory): Connectivity, Matching, Coloring",
+      "Hamiltonian Paths and Circuits": "Graphs (Theory): Connectivity, Matching, Coloring"
+    }
+  },
+  "Discrete Mathematics::Propositional and First-Order Logic": {
+    "subject": "Discrete Mathematics",
+    "topic": "Propositional and First-Order Logic",
+    "canonical_concepts": [
+      "Propositional and First-Order Logic"
+    ],
+    "label_to_concept": {
+      "Propositional Logic: Syntax and Semantics": "Propositional and First-Order Logic",
+      "First-Order Logic: Predicates and Quantifiers": "Propositional and First-Order Logic",
+      "Tautologies and Contradictions": "Propositional and First-Order Logic",
+      "Normal Forms: CNF, DNF": "Propositional and First-Order Logic",
+      "Logical Equivalences and Implications": "Propositional and First-Order Logic",
+      "Validity and Satisfiability of FOL": "Propositional and First-Order Logic",
+      "Universal and Existential Quantification": "Propositional and First-Order Logic",
+      "Logical Connectives and Truth Tables": "Propositional and First-Order Logic",
+      "Satisfiability and Validity": "Propositional and First-Order Logic"
+    }
+  },
+  "Discrete Mathematics::Sets, Relations, Functions": {
+    "subject": "Discrete Mathematics",
+    "topic": "Sets, Relations, Functions",
+    "canonical_concepts": [
+      "Sets, Relations, Functions",
+      "Partial Orders and Lattices"
+    ],
+    "label_to_concept": {
+      "Types of Relations: Reflexive, Symmetric, Antisymmetric, Transitive": "Sets, Relations, Functions",
+      "Functions: Domain, Codomain, Range": "Sets, Relations, Functions",
+      "Power Sets and Cardinality": "Sets, Relations, Functions",
+      "Partial Orders and Hasse Diagrams": "Partial Orders and Lattices",
+      "Lattices: Definition and Properties": "Partial Orders and Lattices",
+      "Equivalence Classes and Partitions": "Sets, Relations, Functions",
+      "Set Theory Basics": "Sets, Relations, Functions",
+      "Relations: Equivalence and Partial Order": "Partial Orders and Lattices",
+      "Set Operations: Union, Intersection, Difference, Complement": "Sets, Relations, Functions",
+      "Partial Orders and Posets (HASSE Diagrams)": "Partial Orders and Lattices",
+      "Surjective (Onto) Functions": "Sets, Relations, Functions",
+      "Equivalence Relations and Equivalence Classes": "Sets, Relations, Functions",
+      "Injective (One-to-One) Functions": "Sets, Relations, Functions"
+    }
+  },
+  "Engineering Mathematics::Calculus": {
+    "subject": "Engineering Mathematics",
+    "topic": "Calculus",
+    "canonical_concepts": [
+      "Limits, Continuity, Differentiability",
+      "Integration",
+      "Maxima and Minima"
+    ],
+    "label_to_concept": {
+      "Derivatives: Rules and Applications": "Limits, Continuity, Differentiability",
+      "Integration: Definite and Indefinite Integrals": "Integration",
+      "Continuity and Discontinuity": "Limits, Continuity, Differentiability",
+      "L'Hôpital's Rule": "Limits, Continuity, Differentiability",
+      "Differentiability": "Limits, Continuity, Differentiability",
+      "Limits of Functions": "Limits, Continuity, Differentiability",
+      "Maxima and Minima of Functions": "Maxima and Minima",
+      "Mean Value Theorem": "Limits, Continuity, Differentiability",
+      "Techniques of Integration": "Integration",
+      "Maxima and Minima (Single Variable)": "Maxima and Minima"
+    }
+  },
+  "Engineering Mathematics::Linear Algebra": {
+    "subject": "Engineering Mathematics",
+    "topic": "Linear Algebra",
+    "canonical_concepts": [
+      "Matrices and Determinants",
+      "Systems of Linear Equations",
+      "Eigenvalues and Eigenvectors"
+    ],
+    "label_to_concept": {
+      "Eigenvalues and Eigenvectors": "Eigenvalues and Eigenvectors",
+      "Matrices: Types and Operations": "Matrices and Determinants",
+      "Determinants and Their Properties": "Matrices and Determinants",
+      "System of Linear Equations (Ax=b)": "Systems of Linear Equations",
+      "Matrix Rank and Row Echelon Form": "Matrices and Determinants",
+      "Diagonalization of Matrices": "Eigenvalues and Eigenvectors",
+      "Matrix Inverse": "Matrices and Determinants",
+      "Vector Spaces and Subspaces": "Systems of Linear Equations",
+      "Cayley-Hamilton Theorem": "Eigenvalues and Eigenvectors",
+      "System of Linear Equations (Gaussian Elimination)": "Systems of Linear Equations",
+      "LU Decomposition": "Matrices and Determinants",
+      "Singular and Non-Singular Matrices": "Matrices and Determinants",
+      "Rank of a Matrix": "Matrices and Determinants",
+      "Trace of a Matrix": "Matrices and Determinants"
+    }
+  },
+  "Engineering Mathematics::Probability and Statistics": {
+    "subject": "Engineering Mathematics",
+    "topic": "Probability and Statistics",
+    "canonical_concepts": [
+      "Random Variables",
+      "Distributions (Uniform, Normal, Exponential, Poisson, Binomial)",
+      "Conditional Probability and Bayes Theorem",
+      "Mean, Median, Mode, Standard Deviation"
+    ],
+    "label_to_concept": {
+      "Classical Probability": "Conditional Probability and Bayes Theorem",
+      "Conditional Probability": "Conditional Probability and Bayes Theorem",
+      "Variance and Standard Deviation": "Mean, Median, Mode, Standard Deviation",
+      "Bayes' Theorem": "Conditional Probability and Bayes Theorem",
+      "Random Variables: Continuous and Discrete": "Random Variables",
+      "Normal Distribution": "Distributions (Uniform, Normal, Exponential, Poisson, Binomial)",
+      "Bernoulli and Binomial Distribution": "Distributions (Uniform, Normal, Exponential, Poisson, Binomial)",
+      "Poisson Distribution": "Distributions (Uniform, Normal, Exponential, Poisson, Binomial)",
+      "Uniform Distribution": "Distributions (Uniform, Normal, Exponential, Poisson, Binomial)",
+      "Exponential Distribution": "Distributions (Uniform, Normal, Exponential, Poisson, Binomial)",
+      "Mean and Median": "Mean, Median, Mode, Standard Deviation",
+      "Independent and Dependent Events": "Conditional Probability and Bayes Theorem",
+      "Expected Value of Random Variable": "Random Variables",
+      "Expected Value (Mean) of a Distribution": "Random Variables",
+      "Independent Events": "Conditional Probability and Bayes Theorem",
+      "Cumulative Distribution Function (CDF)": "Random Variables",
+      "Sample Space and Events": "Conditional Probability and Bayes Theorem",
+      "Probability Mass Function (PMF)": "Random Variables",
+      "Normal (Gaussian) Distribution": "Distributions (Uniform, Normal, Exponential, Poisson, Binomial)",
+      "Random Variables: Discrete and Continuous": "Random Variables",
+      "Probability Density Function (PDF)": "Random Variables",
+      "Joint Probability Distributions": "Random Variables"
+    }
+  },
+  "General Aptitude::Logical and Analytical Reasoning": {
+    "subject": "General Aptitude",
+    "topic": "Logical and Analytical Reasoning",
+    "canonical_concepts": [
+      "Reasoning and Logic"
+    ],
+    "label_to_concept": {
+      "Statements and Inferences": "Reasoning and Logic",
+      "Syllogisms": "Reasoning and Logic",
+      "Critical Reasoning and Assumptions": "Reasoning and Logic",
+      "Blood Relations": "Reasoning and Logic",
+      "Data Sufficiency": "Reasoning and Logic",
+      "Number Series": "Reasoning and Logic",
+      "Logical Puzzles": "Reasoning and Logic",
+      "Analogies in Reasoning": "Reasoning and Logic"
+    }
+  },
+  "General Aptitude::Quantitative Aptitude": {
+    "subject": "General Aptitude",
+    "topic": "Quantitative Aptitude",
+    "canonical_concepts": [
+      "Data Interpretation",
+      "Numerical Computation"
+    ],
+    "label_to_concept": {
+      "Algebra: Linear and Quadratic Equations": "Numerical Computation",
+      "Probability in Aptitude": "Numerical Computation",
+      "Geometry: Lines, Angles, Triangles": "Numerical Computation",
+      "Data Interpretation: Bar Charts": "Data Interpretation",
+      "Data Interpretation: Line Graphs": "Data Interpretation",
+      "Data Interpretation: Pie Charts": "Data Interpretation",
+      "Data Interpretation: Tables": "Data Interpretation",
+      "Ratio and Proportion": "Numerical Computation",
+      "Speed, Distance, and Time": "Numerical Computation",
+      "Percentages and Profit/Loss": "Numerical Computation",
+      "Work and Time Problems": "Numerical Computation",
+      "Averages": "Numerical Computation",
+      "Logarithms": "Numerical Computation",
+      "Permutations and Combinations in Aptitude": "Numerical Computation",
+      "Simple and Compound Interest": "Numerical Computation",
+      "Number Properties (Divisibility, Remainders)": "Numerical Computation",
+      "Sequences and Series (AP, GP, HP)": "Numerical Computation",
+      "Set Theory in Aptitude (Venn Diagrams)": "Numerical Computation",
+      "Mixtures and Alligations": "Numerical Computation",
+      "Pipes and Cisterns": "Numerical Computation",
+      "Sequences and Series (AP and GP)": "Numerical Computation",
+      "Percentages": "Numerical Computation",
+      "Permutations and Combinations (Aptitude)": "Numerical Computation",
+      "Mensuration: Area and Volume": "Numerical Computation",
+      "Profit and Loss": "Numerical Computation",
+      "Number Systems and Divisibility": "Numerical Computation",
+      "Set Theory: Venn Diagrams (Aptitude)": "Numerical Computation",
+      "Time, Speed and Distance": "Numerical Computation",
+      "Geometry: Circles": "Numerical Computation",
+      "Mixtures and Alligation": "Numerical Computation"
+    }
+  },
+  "General Aptitude::Spatial Aptitude": {
+    "subject": "General Aptitude",
+    "topic": "Spatial Aptitude",
+    "canonical_concepts": [
+      "Reasoning and Logic"
+    ],
+    "label_to_concept": {
+      "Cube and Dice Problems": "Reasoning and Logic",
+      "Paper Folding and Cutting": "Reasoning and Logic",
+      "3D Shapes and Perspectives": "Reasoning and Logic",
+      "Mirror and Water Image": "Reasoning and Logic",
+      "Pattern Recognition and Completion": "Reasoning and Logic",
+      "Completion of Figures": "Reasoning and Logic",
+      "Mirror Images": "Reasoning and Logic"
+    }
+  },
+  "General Aptitude::Verbal Ability": {
+    "subject": "General Aptitude",
+    "topic": "Verbal Ability",
+    "canonical_concepts": [
+      "Grammar and Vocabulary",
+      "Reading Comprehension",
+      "Sentence Completion"
+    ],
+    "label_to_concept": {
+      "Sentence Completion and Fill in the Blanks": "Sentence Completion",
+      "Reading Comprehension": "Reading Comprehension",
+      "Articles (a, an, the)": "Grammar and Vocabulary",
+      "Subject-Verb Agreement": "Grammar and Vocabulary",
+      "Sentence Rearrangement": "Grammar and Vocabulary",
+      "Synonyms and Antonyms": "Grammar and Vocabulary",
+      "Paragraph Coherence": "Reading Comprehension",
+      "Prepositions": "Grammar and Vocabulary",
+      "Word Meanings and Vocabulary": "Grammar and Vocabulary",
+      "Sentence Correction and Error Identification": "Grammar and Vocabulary",
+      "Idioms and Phrases": "Grammar and Vocabulary",
+      "Analogies in English": "Grammar and Vocabulary"
+    }
+  },
+  "Operating Systems::CPU Scheduling": {
+    "subject": "Operating Systems",
+    "topic": "CPU Scheduling",
+    "canonical_concepts": [
+      "CPU Scheduling"
+    ],
+    "label_to_concept": {
+      "Shortest Remaining Time First (SRTF) Scheduling": "CPU Scheduling",
+      "Shortest Job First (SJF) Scheduling": "CPU Scheduling",
+      "Priority Scheduling (Preemptive and Non-Preemptive)": "CPU Scheduling",
+      "Round Robin (RR) Scheduling": "CPU Scheduling",
+      "Turnaround Time and Waiting Time Calculation": "CPU Scheduling",
+      "First Come First Served (FCFS) Scheduling": "CPU Scheduling",
+      "Multi-Level Queue Scheduling": "CPU Scheduling",
+      "FCFS Scheduling (CPU)": "CPU Scheduling",
+      "CPU Scheduling: Gantt Chart Analysis": "CPU Scheduling",
+      "Preemptive vs Non-Preemptive Scheduling": "CPU Scheduling",
+      "Round Robin Scheduling": "CPU Scheduling"
+    }
+  },
+  "Operating Systems::Deadlocks": {
+    "subject": "Operating Systems",
+    "topic": "Deadlocks",
+    "canonical_concepts": [
+      "Deadlocks"
+    ],
+    "label_to_concept": {
+      "Deadlock: Necessary Conditions (Coffman's Conditions)": "Deadlocks",
+      "Deadlock Detection Algorithm": "Deadlocks",
+      "Banker's Algorithm": "Deadlocks",
+      "Deadlock Avoidance": "Deadlocks",
+      "Resource Allocation Graph (RAG)": "Deadlocks",
+      "Safe State and Unsafe State": "Deadlocks"
+    }
+  },
+  "Operating Systems::File Systems": {
+    "subject": "Operating Systems",
+    "topic": "File Systems",
+    "canonical_concepts": [
+      "File Systems"
+    ],
+    "label_to_concept": {
+      "FAT File System": "File Systems",
+      "Disk Buffering and Caching": "File Systems",
+      "File System Structure and Layers": "File Systems",
+      "Contiguous File Allocation": "File Systems",
+      "Directory Structure: Single-Level, Two-Level, Tree": "File Systems",
+      "Linked File Allocation": "File Systems",
+      "Indexed File Allocation": "File Systems",
+      "Free Space Management: Bitmap and Linked List": "File Systems",
+      "Inode Structure": "File Systems"
+    }
+  },
+  "Operating Systems::I/O and Disk Scheduling": {
+    "subject": "Operating Systems",
+    "topic": "I/O and Disk Scheduling",
+    "canonical_concepts": [
+      "File Systems"
+    ],
+    "label_to_concept": {
+      "Disk Access Time: Seek Time, Rotational Latency, Transfer Time": "File Systems",
+      "SSTF Disk Scheduling": "File Systems",
+      "Disk Structure: Tracks, Sectors, Cylinders": "File Systems",
+      "SCAN Disk Scheduling Algorithm": "File Systems",
+      "SCAN Disk Scheduling": "File Systems"
+    }
+  },
+  "Operating Systems::Inter-Process Communication and Synchronization": {
+    "subject": "Operating Systems",
+    "topic": "Inter-Process Communication and Synchronization",
+    "canonical_concepts": [
+      "Concurrency and Synchronization"
+    ],
+    "label_to_concept": {
+      "Semaphores: Binary and Counting": "Concurrency and Synchronization",
+      "Critical Section Problem": "Concurrency and Synchronization",
+      "Semaphore Wait (P) and Signal (V) Operations": "Concurrency and Synchronization"
+    }
+  },
+  "Operating Systems::Memory Management": {
+    "subject": "Operating Systems",
+    "topic": "Memory Management",
+    "canonical_concepts": [
+      "Memory Management (Paging, Segmentation)",
+      "Virtual Memory"
+    ],
+    "label_to_concept": {
+      "Page Table Structure": "Memory Management (Paging, Segmentation)",
+      "Page Fault Handling": "Virtual Memory",
+      "LRU Page Replacement": "Virtual Memory",
+      "Paging and Page Tables": "Memory Management (Paging, Segmentation)",
+      "Demand Paging": "Virtual Memory",
+      "Effective Memory Access Time (Paging with TLB)": "Memory Management (Paging, Segmentation)",
+      "Segmentation: Concept and Segment Table": "Memory Management (Paging, Segmentation)",
+      "Optimal Page Replacement": "Virtual Memory",
+      "Internal Fragmentation": "Memory Management (Paging, Segmentation)",
+      "Memory Allocation Strategies: First Fit, Best Fit, Worst Fit": "Memory Management (Paging, Segmentation)",
+      "Translation Lookaside Buffer (TLB)": "Memory Management (Paging, Segmentation)",
+      "External Fragmentation": "Memory Management (Paging, Segmentation)",
+      "FIFO Page Replacement": "Virtual Memory",
+      "Fixed Partitioning and Variable Partitioning": "Memory Management (Paging, Segmentation)",
+      "Paging: Concept and Address Translation": "Memory Management (Paging, Segmentation)",
+      "Multi-Level Page Table": "Memory Management (Paging, Segmentation)",
+      "Thrashing": "Virtual Memory",
+      "Page Fault Rate Analysis": "Virtual Memory"
+    }
+  },
+  "Operating Systems::Process Management": {
+    "subject": "Operating Systems",
+    "topic": "Process Management",
+    "canonical_concepts": [
+      "Processes and Threads",
+      "System Calls"
+    ],
+    "label_to_concept": {
+      "Threads: Definition and Types": "Processes and Threads",
+      "Process State Transitions (New, Ready, Running, Blocked, Terminated)": "Processes and Threads",
+      "Process Creation: fork() System Call": "System Calls",
+      "Context Switching": "Processes and Threads",
+      "Mode Switch: User Mode to Kernel Mode": "System Calls",
+      "System Calls Interface": "System Calls",
+      "Process Termination": "Processes and Threads"
+    }
+  },
+  "Operating Systems::Virtual Memory": {
+    "subject": "Operating Systems",
+    "topic": "Virtual Memory",
+    "canonical_concepts": [
+      "Virtual Memory"
+    ],
+    "label_to_concept": {
+      "Virtual Memory: Concept and Benefits": "Virtual Memory",
+      "Virtual Memory: Page Replacement (FIFO)": "Virtual Memory"
+    }
+  },
+  "Programming and Data Structures::Arrays, Stacks, Queues, Linked Lists": {
+    "subject": "Programming and Data Structures",
+    "topic": "Arrays, Stacks, Queues, Linked Lists",
+    "canonical_concepts": [
+      "Arrays",
+      "Stacks and Queues",
+      "Linked Lists"
+    ],
+    "label_to_concept": {
+      "Array Operations and Complexity": "Arrays",
+      "Doubly Linked List Operations": "Linked Lists",
+      "Singly Linked List Operations": "Linked Lists",
+      "Stack Operations: Push, Pop, Peek": "Stacks and Queues",
+      "Circular Linked List Operations": "Linked Lists",
+      "Circular Queue": "Stacks and Queues",
+      "Deque (Double-Ended Queue)": "Stacks and Queues",
+      "Queue Operations and Complexity": "Stacks and Queues",
+      "Postfix Expression Evaluation using Stack": "Stacks and Queues",
+      "Merging Linked Lists": "Linked Lists",
+      "Priority Queue using Heap": "Stacks and Queues",
+      "Infix to Postfix Conversion": "Stacks and Queues",
+      "Queue: Enqueue, Dequeue Operations": "Stacks and Queues",
+      "Stack: Push, Pop, Peek Operations": "Stacks and Queues",
+      "Stack Applications: Expression Evaluation": "Stacks and Queues",
+      "Reversing a Linked List": "Linked Lists"
+    }
+  },
+  "Programming and Data Structures::Graphs (Data Structure Representation)": {
+    "subject": "Programming and Data Structures",
+    "topic": "Graphs (Data Structure Representation)",
+    "canonical_concepts": [
+      "Graphs (Data Structures)",
+      "Graph Traversals (BFS, DFS)"
+    ],
+    "label_to_concept": {
+      "Breadth-First Search (BFS)": "Graph Traversals (BFS, DFS)",
+      "Depth-First Search (DFS)": "Graph Traversals (BFS, DFS)",
+      "Graph Representation: Edge List": "Graphs (Data Structures)",
+      "Adjacency List Representation": "Graphs (Data Structures)",
+      "Graph Representation: Adjacency List": "Graphs (Data Structures)"
+    }
+  },
+  "Programming and Data Structures::Hashing": {
+    "subject": "Programming and Data Structures",
+    "topic": "Hashing",
+    "canonical_concepts": [
+      "Hashing"
+    ],
+    "label_to_concept": {
+      "Hash Functions: Division, Multiplication Methods": "Hashing",
+      "Collision Handling: Separate Chaining": "Hashing",
+      "Collision Handling: Double Hashing": "Hashing",
+      "Collision Handling: Open Addressing (Linear Probing)": "Hashing",
+      "Load Factor and Rehashing": "Hashing"
+    }
+  },
+  "Programming and Data Structures::Programming in C": {
+    "subject": "Programming and Data Structures",
+    "topic": "Programming in C",
+    "canonical_concepts": [
+      "Programming in C"
+    ],
+    "label_to_concept": {
+      "C Input/Output: printf, scanf": "Programming in C",
+      "Arrays in C": "Programming in C",
+      "Data Types, Variables, and Constants in C": "Programming in C",
+      "Pointers in C": "Programming in C",
+      "Structures and Unions in C": "Programming in C",
+      "Functions in C: Call by Value, Call by Reference": "Programming in C",
+      "Control Structures: if-else, switch in C": "Programming in C",
+      "Dynamic Memory Allocation: malloc, calloc, free": "Programming in C",
+      "C Strings and String Functions": "Programming in C",
+      "Bitwise Operations in C": "Programming in C",
+      "Loops: for, while, do-while in C": "Programming in C",
+      "Preprocessor Directives": "Programming in C",
+      "File Handling in C": "Programming in C",
+      "Stack and Heap Memory in C": "Programming in C",
+      "Scope and Lifetime of Variables": "Programming in C",
+      "Type Casting and Type Conversion": "Programming in C",
+      "Loops in C: for, while, do-while": "Programming in C",
+      "Operators and Operator Precedence in C": "Programming in C",
+      "Recursion in C": "Programming in C",
+      "Pointers and Arrays in C": "Programming in C",
+      "Storage Classes: auto, static, extern, register": "Programming in C",
+      "Structures with Pointers in C": "Programming in C",
+      "Function Pointers in C": "Programming in C",
+      "Structures in C": "Programming in C"
+    }
+  },
+  "Programming and Data Structures::Recursion": {
+    "subject": "Programming and Data Structures",
+    "topic": "Recursion",
+    "canonical_concepts": [
+      "Recursion"
+    ],
+    "label_to_concept": {
+      "Recursion: Base Case and Recursive Case": "Recursion",
+      "Recursive Tree and Linked-List Operations": "Recursion",
+      "Tail Recursion": "Recursion"
+    }
+  },
+  "Programming and Data Structures::Trees": {
+    "subject": "Programming and Data Structures",
+    "topic": "Trees",
+    "canonical_concepts": [
+      "Trees and Binary Search Trees",
+      "Binary Heaps"
+    ],
+    "label_to_concept": {
+      "Heap: Min-Heap and Max-Heap Properties": "Binary Heaps",
+      "BST Search and Height Analysis": "Trees and Binary Search Trees",
+      "Binary Tree: Definition and Properties": "Trees and Binary Search Trees",
+      "AVL Tree Insertion and Deletion": "Trees and Binary Search Trees",
+      "BST Insertion and Deletion": "Trees and Binary Search Trees",
+      "Inorder, Preorder, Postorder Traversals": "Trees and Binary Search Trees",
+      "Heap Operations: Insert, Delete, Heapify": "Binary Heaps",
+      "B+ Tree Insertion": "Trees and Binary Search Trees",
+      "B+ Trees: Properties and Operations": "Trees and Binary Search Trees",
+      "Complete Binary Tree": "Trees and Binary Search Trees",
+      "Pre-order and Post-order Traversal": "Trees and Binary Search Trees",
+      "Red-Black Trees: Properties": "Trees and Binary Search Trees",
+      "Threaded Binary Trees": "Trees and Binary Search Trees",
+      "Expression Trees": "Trees and Binary Search Trees",
+      "Binary Tree Traversal: Inorder, Preorder, Postorder": "Trees and Binary Search Trees",
+      "Binary Search Tree (BST): Properties": "Trees and Binary Search Trees",
+      "Binary Tree Height and Depth": "Trees and Binary Search Trees",
+      "Heap Insertion (Swim Up)": "Binary Heaps",
+      "Full Binary Tree and Complete Binary Tree": "Trees and Binary Search Trees",
+      "Huffman Coding Tree": "Trees and Binary Search Trees"
+    }
+  },
+  "Theory of Computation::Closure and Decision Properties": {
+    "subject": "Theory of Computation",
+    "topic": "Closure and Decision Properties",
+    "canonical_concepts": [
+      "Regular and Context-Free Language Properties",
+      "Deterministic and Nondeterministic Finite Automata"
+    ],
+    "label_to_concept": {
+      "Closure Properties of Regular Languages": "Regular and Context-Free Language Properties",
+      "Closure Properties of Context-Free Languages": "Regular and Context-Free Language Properties",
+      "Equivalence of DFA and NFA": "Deterministic and Nondeterministic Finite Automata"
+    }
+  },
+  "Theory of Computation::Context-Free Languages": {
+    "subject": "Theory of Computation",
+    "topic": "Context-Free Languages",
+    "canonical_concepts": [
+      "Context-Free Grammars",
+      "Pushdown Automata"
+    ],
+    "label_to_concept": {
+      "Context-Free Grammar (CFG): Definition and Notation": "Context-Free Grammars",
+      "Pushdown Automata (PDA): Definition": "Pushdown Automata",
+      "Non-Deterministic PDA (NPDA)": "Pushdown Automata",
+      "Chomsky Normal Form (CNF)": "Context-Free Grammars",
+      "Inherent Ambiguity in CFL": "Context-Free Grammars",
+      "CFL Pumping Lemma": "Context-Free Grammars",
+      "Ambiguous Context-Free Grammars": "Context-Free Grammars",
+      "Pumping Lemma for Context-Free Languages": "Context-Free Grammars"
+    }
+  },
+  "Theory of Computation::Regular Languages and Finite Automata": {
+    "subject": "Theory of Computation",
+    "topic": "Regular Languages and Finite Automata",
+    "canonical_concepts": [
+      "Regular Expressions and Regular Languages",
+      "Deterministic and Nondeterministic Finite Automata",
+      "Pumping Lemma"
+    ],
+    "label_to_concept": {
+      "Language Accepted by DFA": "Deterministic and Nondeterministic Finite Automata",
+      "Regular Expressions: Syntax and Semantics": "Regular Expressions and Regular Languages",
+      "Non-Deterministic Finite Automata (NFA): Definition": "Deterministic and Nondeterministic Finite Automata",
+      "DFA Minimization": "Deterministic and Nondeterministic Finite Automata",
+      "NFA to DFA Conversion (Subset Construction)": "Deterministic and Nondeterministic Finite Automata",
+      "Pumping Lemma for Regular Languages": "Pumping Lemma",
+      "Myhill-Nerode Theorem and Equivalence Classes": "Regular Expressions and Regular Languages",
+      "Deterministic Finite Automata (DFA): Definition": "Deterministic and Nondeterministic Finite Automata",
+      "Regular Expression to NFA (Thompson's Construction)": "Deterministic and Nondeterministic Finite Automata"
+    }
+  },
+  "Theory of Computation::Turing Machines and Decidability": {
+    "subject": "Theory of Computation",
+    "topic": "Turing Machines and Decidability",
+    "canonical_concepts": [
+      "Turing Machines",
+      "Undecidability"
+    ],
+    "label_to_concept": {
+      "Recursive (Decidable) Languages": "Turing Machines",
+      "Undecidability: Halting Problem": "Undecidability",
+      "Recursively Enumerable (RE) Languages": "Turing Machines",
+      "Turing Machine: Definition and Computation": "Turing Machines",
+      "Universal Turing Machine": "Turing Machines",
+      "Rice's Theorem": "Undecidability",
+      "Reductions Between Problems": "Undecidability",
+      "Multi-Tape and Non-Deterministic Turing Machines": "Turing Machines",
+      "Church-Turing Thesis": "Turing Machines",
+      "Chomsky Hierarchy: Type 0, 1, 2, 3 Grammars": "Turing Machines",
+      "Undecidability Proofs by Reduction": "Undecidability",
+      "Turing Machine: Definition and Components": "Turing Machines",
+      "Decision Problems for CFLs and RLs": "Turing Machines",
+      "Linear Bounded Automata (LBA)": "Turing Machines"
+    }
+  },
+  "Compiler Design::Runtime Environments": {
+    "subject": "Compiler Design",
+    "topic": "Runtime Environments",
+    "canonical_concepts": [
+      "Runtime Environments"
+    ],
+    "label_to_concept": {
+      "Activation Records (Stack Frames)": "Runtime Environments",
+      "Runtime Stack Management": "Runtime Environments",
+      "Dynamic Scoping": "Runtime Environments"
+    }
+  },
+  "Compiler Design::Semantic Analysis and Intermediate Code": {
+    "subject": "Compiler Design",
+    "topic": "Semantic Analysis and Intermediate Code",
+    "canonical_concepts": [
+      "Intermediate Code Generation",
+      "Syntax-Directed Translation"
+    ],
+    "label_to_concept": {
+      "Three-Address Code (TAC)": "Intermediate Code Generation",
+      "Intermediate Code for Expressions": "Intermediate Code Generation",
+      "Syntax Directed Translation (SDT)": "Syntax-Directed Translation",
+      "Intermediate Code for Control Flow": "Intermediate Code Generation",
+      "Inherited Attributes": "Syntax-Directed Translation",
+      "Synthesized Attributes": "Syntax-Directed Translation",
+      "Quadruples and Triples Representation": "Intermediate Code Generation",
+      "S-Attributed Definitions": "Syntax-Directed Translation",
+      "Translation Schemes": "Syntax-Directed Translation"
+    }
+  },
+  "Computer Networks::Network Architecture and Layering": {
+    "subject": "Computer Networks",
+    "topic": "Network Architecture and Layering",
+    "canonical_concepts": [
+      "OSI/TCP-IP Layering Concepts"
+    ],
+    "label_to_concept": {
+      "OSI Model: Seven Layers and Functions": "OSI/TCP-IP Layering Concepts",
+      "Packet, Circuit, and Virtual Circuit Switching": "OSI/TCP-IP Layering Concepts",
+      "Network Devices: Hub, Switch, Router, Bridge": "OSI/TCP-IP Layering Concepts",
+      "TCP/IP Model: Four Layers and Functions": "OSI/TCP-IP Layering Concepts"
+    }
+  }
+}
