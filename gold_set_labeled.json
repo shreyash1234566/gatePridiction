@@ -149,9 +149,9 @@
       "paper_id": "GATE_CS_2015_1",
       "tested_concept": "Calculating matrix elements given the eigenvalues, utilizing properties like Trace (sum of eigenvalues) and Determinant (product of eigenvalues).",
       "gold_subject": "Engineering Mathematics",
-      "gold_topic": "Matrices and Determinants",
+      "gold_topic": "Eigenvalues and Eigenvectors",
       "gold_micro_topic": "Eigenvalues and Eigenvectors",
-      "reasoning": "Finding 'a' and 'b' relies on Tr(A) = -1+7 and Det(A) = -1 * 7."
+      "reasoning": "Finding 'a' and 'b' relies on Tr(A) = -1+7 and Det(A) = -1 * 7. [CORRECTED: Uses exact taxonomy topic 'Eigenvalues and Eigenvectors']"
     }
   },
   {
@@ -181,8 +181,8 @@
       "tested_concept": "The interpolation formula for the Secant Method.",
       "gold_subject": "Engineering Mathematics",
       "gold_topic": "Maxima and Minima",
-      "gold_micro_topic": "Secant Method",
-      "reasoning": "It asks to complete the pseudocode equation for iterative linear interpolation secant tracking."
+      "gold_micro_topic": "Maxima and Minima of Functions",
+      "reasoning": "It asks to complete the pseudocode equation for iterative linear interpolation secant tracking. [CORRECTED: 'Secant Method' not in taxonomy; mapped to closest 'Maxima and Minima of Functions']"
     }
   },
   {
@@ -274,8 +274,8 @@
       "tested_concept": "Hardware interrupt handling speed and Daisy Chain polling.",
       "gold_subject": "Computer Organization and Architecture",
       "gold_topic": "I/O Interface (Interrupt and DMA)",
-      "gold_micro_topic": "I/O Interrupts",
-      "reasoning": "Evaluates the architectural speed difference between vectored (fast, immediate address lookup) and non-vectored (hardware polling/slower) interrupts."
+      "gold_micro_topic": "Interrupt Priority and Handling",
+      "reasoning": "Evaluates the architectural speed difference between vectored (fast, immediate address lookup) and non-vectored (hardware polling/slower) interrupts. [CORRECTED: 'I/O Interrupts' not in taxonomy; mapped to exact 'Interrupt Priority and Handling']"
     }
   },
   {
@@ -300,8 +300,8 @@
       "tested_concept": "Definite integration over absolute values |x sin x|.",
       "gold_subject": "Engineering Mathematics",
       "gold_topic": "Integration",
-      "gold_micro_topic": "Definite Integrals",
-      "reasoning": "Requires splitting the integral bounds [0, π] and [π, 2π] to resolve the absolute value."
+      "gold_micro_topic": "Integration: Definite and Indefinite Integrals",
+      "reasoning": "Requires splitting the integral bounds [0, π] and [π, 2π] to resolve the absolute value. [CORRECTED: Exact taxonomy string is 'Integration: Definite and Indefinite Integrals']"
     }
   },
   {
@@ -2240,8 +2240,8 @@
       "tested_concept": "Feedback multiplexer as a storage element",
       "gold_subject": "Digital Logic",
       "gold_topic": "Sequential Circuits",
-      "gold_micro_topic": "D Latch",
-      "reasoning": "Feedback through one MUX input makes the output hold or load the external input."
+      "gold_micro_topic": "SR Latch",
+      "reasoning": "Feedback through one MUX input makes the output hold or load the external input. [CORRECTED: 'D Latch' not in taxonomy; mapped to fundamental latch primitive 'SR Latch']"
     }
   },
   {
